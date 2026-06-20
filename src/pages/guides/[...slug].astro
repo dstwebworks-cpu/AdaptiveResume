@@ -1,0 +1,81 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', (g) => !g.data.draft);
+  return guides.map((g) => ({ params: { slug: g.id }, props: { guide: g } }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+const segLabel = guide.data.segment === 'organizations' ? 'For organizations' : 'For job seekers';
+---
+<Base title={`${guide.data.title} — ResumeValue`} description={guide.data.description}>
+  <article class="section">
+    <div class="container narrow">
+      <p class="eyebrow"><a href="/guides">Guides</a> · {segLabel}</p>
+      <h1>{guide.data.title}</h1>
+      <p class="lede">{guide.data.description}</p>
+
+      <div class="prose">
+        <Content />
+      </div>
+
+      <!-- email-gated giveaway -->
+      <div class="card giveaway" id="giveaway">
+        <span class="tag-premium">Free template</span>
+        <h3>{guide.data.giveaway.name}</h3>
+        <p class="muted">Enter your email and we'll unlock the download and send occasional resume tips. No spam — unsubscribe anytime.</p>
+        <form class="gate" novalidate>
+          <input type="email" required placeholder="you@email.com" aria-label="Email address" />
+          <button class="btn btn-primary" type="submit">Unlock the template</button>
+        </form>
+        <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>⬇ Download: {guide.data.giveaway.name}</a>
+        <p class="gate-note muted" hidden>Thanks — your download is ready below. (We'll also email it.)</p>
+      </div>
+
+      <!-- conversion CTA -->
+      <div class="card cta-card">
+        <h3>Ready to do this on your own resume?</h3>
+        <p>We'll surface what you've left off and you verify every line — nothing invented.</p>
+        <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label}</a>
+      </div>
+    </div>
+  </article>
+
+  <script>
+    // Prototype gate: reveal the download on email submit. Backend (list + SPF/DKIM
+    // + consent capture) is wired at build time — see TODO launch-readiness gaps.
+    document.querySelectorAll('.giveaway').forEach((box) => {
+      const form = box.querySelector('.gate');
+      const dl = box.querySelector('.dl');
+      const note = box.querySelector('.gate-note');
+      form?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = form.querySelector('input');
+        if (!email || !email.value || !email.value.includes('@')) { email?.focus(); return; }
+        form.setAttribute('hidden', '');
+        dl?.removeAttribute('hidden');
+        note?.removeAttribute('hidden');
+      });
+    });
+  </script>
+
+  <style>
+    .container.narrow { max-width: 760px; }
+    .prose { font-size: 1.06rem; color: var(--ink-soft); }
+    .prose :global(h2) { margin-top: 1.7em; color: var(--ink); }
+    .prose :global(h3) { margin-top: 1.3em; color: var(--ink); }
+    .prose :global(ul), .prose :global(ol) { padding-left: 1.2em; }
+    .prose :global(li) { margin-bottom: .45em; }
+    .prose :global(strong) { color: var(--ink); }
+    .prose :global(blockquote) { border-left: 3px solid var(--primary); margin: 1.2em 0; padding: .4em 0 .4em 16px; color: var(--ink); background: var(--primary-bg); border-radius: 0 8px 8px 0; }
+    .giveaway { margin-top: 38px; border-color: #ddccf6; background: var(--premium-bg); }
+    .giveaway h3 { margin: 8px 0 6px; }
+    .gate { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+    .gate input { flex: 1 1 220px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .cta-card { margin-top: 22px; text-align: center; }
+    .cta-card .btn { margin-top: 6px; }
+  </style>
+</Base>

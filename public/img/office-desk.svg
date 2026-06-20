@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Two people talking across an office desk">
+  <rect width="480" height="320" rx="16" fill="#eef2f7"/>
+  <!-- wall / window hint -->
+  <rect x="40" y="34" width="180" height="96" rx="8" fill="#e2e8f0"/>
+  <line x1="130" y1="34" x2="130" y2="130" stroke="#cdd6e2" stroke-width="3"/>
+  <line x1="40" y1="82" x2="220" y2="82" stroke="#cdd6e2" stroke-width="3"/>
+  <!-- plant -->
+  <rect x="408" y="150" width="26" height="40" rx="4" fill="#c2cedd"/>
+  <path d="M421 150 q-20 -34 6 -52 q14 26 -6 52 z" fill="#9fb3a6"/>
+  <path d="M421 150 q22 -30 -4 -50 q-12 24 4 50 z" fill="#b3c4ad"/>
+  <!-- person left (interviewer) -->
+  <circle cx="150" cy="176" r="22" fill="#94a3b8"/>
+  <path d="M112 250 q0 -42 38 -42 q38 0 38 42 z" fill="#2456c7"/>
+  <!-- person right (candidate) -->
+  <circle cx="330" cy="176" r="22" fill="#8b97a6"/>
+  <path d="M292 250 q0 -42 38 -42 q38 0 38 42 z" fill="#3f4c5a"/>
+  <!-- desk -->
+  <rect x="60" y="244" width="360" height="20" rx="6" fill="#cbd5e1"/>
+  <rect x="60" y="262" width="360" height="30" rx="6" fill="#b6c2d2"/>
+  <!-- laptop + paper on desk -->
+  <rect x="196" y="228" width="46" height="16" rx="2" fill="#16202b"/>
+  <rect x="190" y="244" width="58" height="5" rx="2" fill="#16202b"/>
+  <rect x="262" y="226" width="34" height="18" rx="2" fill="#ffffff" stroke="#cbd5e1"/>
+  <line x1="268" y1="232" x2="290" y2="232" stroke="#2456c7" stroke-width="2"/>
+  <line x1="268" y1="238" x2="285" y2="238" stroke="#cbd5e1" stroke-width="2"/>
+</svg>
