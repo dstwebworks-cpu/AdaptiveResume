@@ -1,0 +1,306 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="ResumeValue — surface the skills you already earned"
+  description="Upload your resume and we surface the standards, tools, and credentials your work involved that you left off — then ask you to confirm each one. No fabrication. No guaranteed outcomes. $49 base · $149 career-transition."
+>
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Guided resume building</p>
+        <h1>Surface the skills you already earned.</h1>
+        <p class="tagline">Guided resume building — without invented facts or fluff. You verify everything we find.</p>
+        <p class="lede">
+          Upload your resume and we find the standards, tools, and credentials your work involved
+          but you left off — then ask you to confirm each one. Nothing invented. Built to read cleanly
+          for the screening bots <em>and</em> the humans.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+          <a class="btn btn-ghost btn-lg" href="#demo">▶ Watch how it works (90s)</a>
+        </div>
+        <ul class="pills">
+          <li class="pill">✓ No fabrication</li>
+          <li class="pill">✓ ATS-readable</li>
+          <li class="pill">✓ You verify everything</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-label="Example of skills surfaced from a resume">
+        <div class="demo-card">
+          <div class="demo-head"><span class="dot"></span> Skills we surfaced — you verify each</div>
+          <ul>
+            <li><span class="add">+ SPC (statistical process control)</span> <span class="conf">verify</span></li>
+            <li><span class="add">+ Gauge R&amp;R / measurement-systems analysis</span> <span class="conf">verify</span></li>
+            <li><span class="add">+ Root-cause corrective action (CAPA)</span> <span class="conf">verify</span></li>
+            <li class="ask"><span>Worked in a certified plant?</span> <span class="conf">we ask — you verify</span></li>
+          </ul>
+          <div class="cov2">
+            <div class="track">
+              <div class="seg base" style="width:42%"></div>
+              <div class="seg gain" style="left:42%;width:44%"></div>
+            </div>
+            <div class="ticks">
+              <span class="tick" style="left:42%"><b>42%</b>before</span>
+              <span class="tick" style="left:86%"><b>86%</b>after</span>
+            </div>
+          </div>
+          <p class="covcap">Role-relevant coverage — from your real experience only</p>
+        </div>
+        <p class="cap">Sample data — generic profile, no real employer shown.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section id="how-it-works" class="section alt">
+    <div class="container">
+      <p class="eyebrow">How it works</p>
+      <h2>Three steps. You stay the author the whole way.</h2>
+      <div class="grid cols-3 steps">
+        <div class="card">
+          <span class="step-n">1</span>
+          <h3>Upload</h3>
+          <p>Add up to three resumes (and, if you like, your own LinkedIn export). Your data is a file you provide — we only ever use what you upload.</p>
+        </div>
+        <div class="card">
+          <span class="step-n">2</span>
+          <h3>Verify</h3>
+          <p>We propose skills and credentials common to roles like yours and ask which are true for you. We never add a thing you don't confirm.</p>
+        </div>
+        <div class="card">
+          <span class="step-n">3</span>
+          <h3>Download</h3>
+          <p>Get a clean, <a href="/guides/what-is-an-ats">ATS</a>-readable resume built only from what you verified — and see exactly what a screening parser extracts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEMO / VIDEO ===== -->
+  <section id="demo" class="section">
+    <div class="container demo-grid">
+      <div>
+        <p class="eyebrow">See it work first</p>
+        <h2>Watch a real run before you spend a dime.</h2>
+        <p class="lede">A 90-second walkthrough on a sample profile — how we surface what someone left off, ask before we claim anything, and prove the result reads cleanly.</p>
+        <a class="btn btn-primary" href="#get-started">Try it on your own resume →</a>
+      </div>
+      <div class="video-ph" role="img" aria-label="Product walkthrough video placeholder">
+        <button class="play" aria-label="Play the 90-second walkthrough">▶</button>
+        <span>[ 90-second walkthrough video — placeholder ]</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOR JOB SEEKERS ===== -->
+  <section id="job-seekers" class="section alt">
+    <div class="container jobs-grid">
+      <div>
+        <p class="eyebrow">For job seekers</p>
+        <h2>The resume that finally reflects the work you did.</h2>
+        <p class="lede">For career changers, military and government-to-private transitions, the trades, and specialists who do far more than their resume shows.</p>
+        <ul class="ticks">
+          <li>Surfaces skills &amp; credentials you left off — you verify each one</li>
+          <li>Translates your experience toward a target role (career-transition tier)</li>
+          <li>Turns government, military, and trade terms into language the hiring side recognizes</li>
+          <li>Shows you exactly what the screening bots extract</li>
+        </ul>
+        <a class="btn btn-primary" href="#pricing">See pricing &amp; get started →</a>
+      </div>
+      <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with surfaced skills highlighted and a verification check" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- ===== HOW WE DIFFER (comparison) ===== -->
+  <section id="compare" class="section alt">
+    <div class="container">
+      <p class="eyebrow">How we differ</p>
+      <h2>How ResumeValue compares to other resume tools.</h2>
+      <p class="lede" style="max-width:62ch">Most tools either make you do all the thinking, or do too much of it — and invent things along the way. Here's the honest difference, by category.</p>
+      <div class="table-wrap">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th>What matters</th>
+              <th>Template builders</th>
+              <th>AI generators</th>
+              <th>Human writers</th>
+              <th class="us">ResumeValue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th>Works backwards from your real experience</th><td class="x">✗</td><td class="p">~</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>Surfaces skills you left off</th><td class="x">✗</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>Won't invent or fabricate content</th><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>You verify every line</th><td class="c">✓</td><td class="x">✗</td><td class="p">~</td><td class="us c">✓</td></tr>
+            <tr><th>Shows what the ATS actually extracts</th><td class="x">✗</td><td class="p">~</td><td class="x">✗</td><td class="us c">✓</td></tr>
+            <tr><th>Translates across fields (military / gov / industry)</th><td class="x">✗</td><td class="p">~</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>Typical cost</th><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td><td class="us">$49–$149<br /><span class="sub">one-time</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted small" style="margin-top:12px">Cost ranges are typical figures for each category, for comparison — not quotes from specific companies. "~" means it depends on the tool. We never promise an outcome.</p>
+    </div>
+  </section>
+
+  <!-- ===== PRICING (consumer only) ===== -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <p class="eyebrow">Pricing</p>
+      <h2>One payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2 pricing">
+        <div class="card price">
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">One resume, done.</p>
+          <ul class="ticks">
+            <li>Surface &amp; verify skills you left off</li>
+            <li>Clean, ATS-readable output</li>
+            <li>"What the bots see" parser check</li>
+          </ul>
+          <a class="btn btn-primary" href="#get-started">Get started</a>
+        </div>
+
+        <div class="card price featured">
+          <span class="tag-premium">Career-Transition</span>
+          <h3>Targeting build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">Everything in base, plus FROM → TO translation toward a target role.</p>
+          <ul class="ticks">
+            <li>Translate your experience to a new field's language</li>
+            <li>Government / military / trade → private-sector terms</li>
+            <li>Targeting analysis + interview-prep Q&amp;A</li>
+          </ul>
+          <a class="btn btn-premium" href="#get-started">Get started</a>
+        </div>
+      </div>
+      <p class="muted finep">A resume completeness tool — not a job-placement service. We don't guarantee jobs, interviews, or salaries.</p>
+    </div>
+  </section>
+
+  <!-- ===== COMMERCIAL BANNER (links to dedicated page) ===== -->
+  <section class="section tint">
+    <div class="container banner">
+      <img src="/img/office-desk.svg" width="480" height="320" alt="Two people talking across an office desk" loading="lazy" />
+      <div>
+        <p class="eyebrow">For organizations</p>
+        <h2>Hiring, staffing, or placing people?</h2>
+        <p class="lede">ResumeValue enriches every candidate's resume in bulk — for staffing agencies, outplacement firms, workforce boards, and veteran/reentry nonprofits — with the same no-fabrication standard.</p>
+        <a class="btn btn-primary btn-lg" href="/business">Interested in commercial offerings for your organization? →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GET STARTED ===== -->
+  <section id="get-started" class="section alt">
+    <div class="container start">
+      <p class="eyebrow">Get started</p>
+      <h2>Load your resume and see what you've been leaving off.</h2>
+      <p class="lede">We'll surface a couple of findings on your own resume first. Continue when you're ready — your full build runs after checkout.</p>
+
+      <label class="dropzone">
+        <input type="file" accept=".pdf,.doc,.docx,.txt" />
+        <span class="dz-ico" aria-hidden="true">⬆</span>
+        <span class="dz-main">Choose your resume file</span>
+        <span class="dz-sub muted">PDF, DOC, DOCX · or drag it here</span>
+      </label>
+
+      <p class="reoffer muted">
+        Not ready to continue at checkout? <a href="#demo">Watch the 90-second walkthrough again</a> — no upload needed.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== LEGAL NOTE ===== -->
+  <section id="legal" class="section">
+    <div class="container legalnote">
+      <p class="muted">
+        <b>How we work:</b> no fabrication · ATS-readable · real value added · honored edits.
+        Full <a href="#legal">Terms of Service</a>, <a href="#legal">Privacy Policy</a>, and
+        <a href="#legal">Disclaimer</a> coming as the site is built out. ResumeValue is a resume
+        completeness tool, not a job-placement service.
+      </p>
+    </div>
+  </section>
+
+  <style>
+    /* hero */
+    .hero { padding: 58px 0 40px; background: radial-gradient(1100px 460px at 72% -12%, #dfe9fa, var(--bg)); }
+    .hero-grid { display: grid; gap: 36px; align-items: center; }
+    @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; padding-top: 18px; } }
+    .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+
+    .demo-card { background: #0f1830; color: #e6ecfb; border-radius: var(--radius); padding: 18px 18px 14px; box-shadow: var(--shadow-lg); }
+    .demo-head { font-size: .82rem; letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
+    .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
+    .demo-card li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
+    .demo-card .add { color: #c9f7d8; }
+    .demo-card .conf { color: #9fb3e0; font-size: .8rem; white-space: nowrap; }
+    .demo-card li.ask span:first-child { color: #ffe1a8; }
+    .covcap { font-size: .8rem; color: #9fb3e0; margin: 4px 0 0; }
+    .cap { font-size: .78rem; color: var(--muted); margin-top: 10px; text-align: center; }
+
+    /* steps */
+    .steps .card { position: relative; padding-top: 30px; }
+    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--ink); color: #fff; font-weight: 800; }
+
+    /* demo + jobs split */
+    .demo-grid, .jobs-grid { display: grid; gap: 30px; align-items: center; }
+    @media (min-width: 880px) { .demo-grid, .jobs-grid { grid-template-columns: 1fr 1fr; } }
+    .jobs-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
+    .video-ph { position: relative; aspect-ratio: 16/9; border-radius: var(--radius); background: linear-gradient(135deg,#1b2740,#0f1830); color: #cdd7ef; display: grid; place-items: center; text-align: center; padding: 16px; box-shadow: var(--shadow-lg); }
+    .video-ph span { font-size: .85rem; opacity: .8; position: absolute; bottom: 14px; }
+    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: #fff; color: var(--ink); font-size: 1.3rem; cursor: pointer; box-shadow: var(--shadow); }
+
+    .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
+    .ticks li { padding-left: 26px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }
+    .ticks li::before { content: "✓"; position: absolute; left: 0; color: var(--true); font-weight: 800; }
+
+    /* pricing */
+    .pricing .price { display: flex; flex-direction: column; }
+    .price.featured { border-color: #ddccf6; box-shadow: 0 0 0 2px #ece2fb, var(--shadow); }
+    .amount { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em; margin: 6px 0 4px; }
+    .amount span { font-size: .9rem; font-weight: 600; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
+    .price .btn { margin-top: auto; align-self: flex-start; }
+    .finep { text-align: center; margin-top: 24px; font-size: .9rem; }
+
+    /* comparison table (scrolls horizontally on small screens) */
+    .table-wrap { overflow-x: auto; margin-top: 18px; -webkit-overflow-scrolling: touch; border-radius: var(--radius); }
+    .compare { width: 100%; min-width: 720px; border-collapse: collapse; background: var(--card); }
+    .compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: .95rem; vertical-align: middle; }
+    .compare thead th { background: var(--surface); font-weight: 700; color: var(--ink); }
+    .compare tbody th { text-align: left; font-weight: 600; color: var(--ink-soft); }
+    .compare .us { background: var(--primary-bg); }
+    .compare thead th.us { color: var(--primary); }
+    .compare .c { color: var(--true); font-weight: 800; font-size: 1.05rem; }
+    .compare .x { color: #b42318; font-weight: 800; font-size: 1.05rem; }
+    .compare .p { color: var(--muted); font-weight: 800; }
+    .compare .sub { font-size: .76rem; color: var(--muted); font-weight: 400; }
+    .small { font-size: .85rem; }
+
+    /* commercial banner */
+    .banner { display: grid; gap: 28px; align-items: center; }
+    @media (min-width: 880px) { .banner { grid-template-columns: 0.9fr 1.1fr; } }
+    .banner img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
+
+    /* get started */
+    .start { max-width: 720px; text-align: center; }
+    .start .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
+    .dropzone { display: block; cursor: pointer; border: 2px dashed #b6c2d2; border-radius: var(--radius); background: var(--surface); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s; }
+    .dropzone:hover { border-color: var(--primary); background: #eef4ff; }
+    .dropzone input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .dz-ico { display: block; font-size: 1.8rem; color: var(--primary); }
+    .dz-main { display: block; font-weight: 700; font-size: 1.1rem; margin: 6px 0 2px; }
+    .dz-sub { display: block; font-size: .9rem; }
+    .reoffer { font-size: .95rem; }
+
+    .legalnote { text-align: center; }
+    .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
+  </style>
+</Base>

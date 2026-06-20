@@ -1,0 +1,61 @@
+---
+// Milestone 1: legal + secondary links point to on-page anchors / placeholders.
+// Legal links become real HTML pages (/legal/terms, /legal/privacy, /legal/disclaimer)
+// rendered from 01-legal-entity/policies/* in a later milestone.
+const year = 2026;
+---
+<footer class="site-footer">
+  <div class="container cols">
+    <div class="brandcol">
+      <div class="brand"><span class="mark" aria-hidden="true">RV</span><span>Resume<span style="color:var(--accent)">Value</span></span></div>
+      <p class="muted">Surface the skills you already earned — and prove they read cleanly. We never add anything you didn't confirm.</p>
+    </div>
+
+    <nav aria-label="Product">
+      <h4>Product</h4>
+      <a href="/#job-seekers">For job seekers</a>
+      <a href="/business">For organizations</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/guides">Guides &amp; templates</a>
+      <a href="/#how-it-works">How it works</a>
+    </nav>
+
+    <nav aria-label="Legal">
+      <h4>Legal</h4>
+      <a href="/#legal">Terms of Service</a>
+      <a href="/#legal">Privacy Policy</a>
+      <a href="/#legal">Disclaimer</a>
+    </nav>
+
+    <div>
+      <h4>How we work</h4>
+      <ul class="how">
+        <li>No fabrication</li>
+        <li><a href="/guides/what-is-an-ats">ATS</a>-readable</li>
+        <li>Real value added</li>
+        <li>Honored edits</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container legal">
+    <p class="muted">© {year} [LEGAL ENTITY NAME], LLC · A resume completeness tool — not a job-placement service. We don't guarantee jobs, interviews, or salaries.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer { background: var(--surface); border-top: 1px solid var(--line); padding: 54px 0 28px; margin-top: 20px; }
+  .cols { display: grid; gap: 28px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .cols { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
+  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--ink); color: #fff; font-size: .74rem; font-weight: 800; }
+  .brandcol p { max-width: 34ch; font-size: .95rem; }
+  .site-footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
+  .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-bottom: 9px; }
+  .site-footer nav a:hover { color: var(--ink); }
+  .how { list-style: none; padding: 0; margin: 0; }
+  .how li { color: var(--ink-soft); font-size: .95rem; margin-bottom: 9px; padding-left: 20px; position: relative; }
+  .how li::before { content: "✓"; position: absolute; left: 0; color: var(--true); font-weight: 800; }
+  .legal { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .legal p { font-size: .85rem; margin: 0; }
+</style>

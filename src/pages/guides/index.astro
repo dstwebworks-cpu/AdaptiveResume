@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const guides = (await getCollection('guides', (g) => !g.data.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+const jobSeeker = guides.filter((g) => g.data.segment === 'job-seekers');
+const orgs = guides.filter((g) => g.data.segment === 'organizations');
+---
+<Base
+  title="Guides & free resume templates — ResumeValue"
+  description="Practical guides on translating military, government, and cross-industry experience into a resume that reads cleanly — each with a free downloadable template. No fabrication, ever."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Guides &amp; free templates</p>
+      <h1>Get the credit you've earned — honestly.</h1>
+      <p class="lede" style="max-width:60ch">Practical, no-fluff guides for translating real experience into a resume that reads cleanly — each with a free template you can use today.</p>
+
+      <h2 style="margin-top:40px">For job seekers</h2>
+      <div class="grid cols-3 glist">
+        {jobSeeker.map((g) => (
+          <a class="card gcard" href={`/guides/${g.id}`}>
+            <span class="tag-premium" style="background:#e7eefb;color:var(--primary);border-color:#cfe0fb">Guide</span>
+            <h3>{g.data.title}</h3>
+            <p class="muted">{g.data.description}</p>
+            <span class="give">★ Free template: {g.data.giveaway.name}</span>
+          </a>
+        ))}
+      </div>
+
+      <h2 style="margin-top:46px">For organizations</h2>
+      <div class="grid cols-3 glist">
+        {orgs.map((g) => (
+          <a class="card gcard" href={`/guides/${g.id}`}>
+            <span class="tag-premium">Guide</span>
+            <h3>{g.data.title}</h3>
+            <p class="muted">{g.data.description}</p>
+            <span class="give">★ Free template: {g.data.giveaway.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .glist { margin-top: 16px; }
+    .gcard { display: flex; flex-direction: column; color: var(--ink); transition: transform .1s, box-shadow .15s; }
+    .gcard:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+    .gcard h3 { margin: 10px 0 6px; }
+    .gcard .give { margin-top: auto; padding-top: 12px; color: var(--premium); font-weight: 700; font-size: .85rem; }
+  </style>
+</Base>

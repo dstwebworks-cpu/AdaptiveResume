@@ -1,0 +1,80 @@
+---
+// Nav links resolve to real pages / on-page anchors (M1).
+const links = [
+  { href: '/#job-seekers', label: 'For job seekers' },
+  { href: '/business', label: 'For organizations' },
+  { href: '/#pricing', label: 'Pricing' },
+  { href: '/guides', label: 'Guides' },
+  { href: '/#how-it-works', label: 'How it works' },
+];
+---
+<header class="site-header" id="site-header">
+  <div class="container bar">
+    <a class="brand" href="/" aria-label="ResumeValue home">
+      <span class="mark" aria-hidden="true">RV</span>
+      <span>Resume<span style="color:var(--accent)">Value</span></span>
+    </a>
+
+    <nav class="nav desktop" aria-label="Primary">
+      {links.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+
+    <a class="btn btn-primary cta-desktop" href="/#get-started">Get started</a>
+
+    <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    {links.map((l) => <a href={l.href}>{l.label}</a>)}
+    <a class="btn btn-primary" href="/#get-started">Get started</a>
+  </nav>
+</header>
+
+<script>
+  const header = document.getElementById('site-header');
+  if (header) {
+    const btn = header.querySelector('.hamburger');
+    const close = () => { header.classList.remove('menu-open'); btn?.setAttribute('aria-expanded', 'false'); btn?.setAttribute('aria-label', 'Open menu'); };
+    btn?.addEventListener('click', () => {
+      const open = header.classList.toggle('menu-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    header.querySelectorAll('.mobile-menu a').forEach((a) => a.addEventListener('click', close));
+  }
+</script>
+
+<style>
+  .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; gap: 14px; min-height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
+  .brand:hover { text-decoration: none; }
+  .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: var(--ink); color: #fff; font-size: .78rem; font-weight: 800; }
+
+  .nav.desktop { display: none; gap: 22px; margin-left: auto; }
+  .nav.desktop a { color: var(--ink-soft); font-weight: 600; font-size: .96rem; }
+  .nav.desktop a:hover { color: var(--ink); text-decoration: none; }
+  .cta-desktop { display: none; padding: 9px 16px; }
+
+  /* hamburger (mobile) */
+  .hamburger { margin-left: auto; display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 10px; background: none; border: 1px solid var(--line); border-radius: 9px; cursor: pointer; }
+  .hamburger span { display: block; height: 2px; width: 100%; background: var(--ink); border-radius: 2px; transition: transform .2s, opacity .2s; }
+  .menu-open .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .menu-open .hamburger span:nth-child(2) { opacity: 0; }
+  .menu-open .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  .mobile-menu { display: none; flex-direction: column; gap: 4px; padding: 10px 22px 18px; border-top: 1px solid var(--line); background: #fff; }
+  .menu-open .mobile-menu { display: flex; }
+  .mobile-menu a:not(.btn) { padding: 13px 8px; color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--surface); }
+  .mobile-menu a:not(.btn):hover { text-decoration: none; }
+  .mobile-menu .btn { margin-top: 10px; }
+
+  @media (min-width: 900px) {
+    .nav.desktop { display: flex; }
+    .cta-desktop { display: inline-flex; }
+    .hamburger { display: none; }
+    .mobile-menu { display: none !important; }
+  }
+</style>

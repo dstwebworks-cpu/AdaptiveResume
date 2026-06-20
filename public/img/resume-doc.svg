@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="A resume with skills surfaced and verified">
+  <rect width="480" height="320" rx="16" fill="#eef2f7"/>
+  <!-- document -->
+  <rect x="120" y="40" width="200" height="248" rx="10" fill="#ffffff" stroke="#dde4ec"/>
+  <!-- header -->
+  <rect x="142" y="64" width="92" height="14" rx="4" fill="#16202b"/>
+  <rect x="142" y="84" width="60" height="8" rx="4" fill="#94a3b8"/>
+  <!-- normal lines -->
+  <rect x="142" y="112" width="156" height="7" rx="3.5" fill="#cdd6e2"/>
+  <rect x="142" y="126" width="140" height="7" rx="3.5" fill="#cdd6e2"/>
+  <!-- surfaced (highlighted green) lines -->
+  <rect x="136" y="150" width="170" height="20" rx="5" fill="#e8f5ec"/>
+  <rect x="142" y="156" width="120" height="8" rx="4" fill="#1c7a43"/>
+  <rect x="136" y="176" width="170" height="20" rx="5" fill="#e8f5ec"/>
+  <rect x="142" y="182" width="138" height="8" rx="4" fill="#1c7a43"/>
+  <!-- more normal lines -->
+  <rect x="142" y="210" width="150" height="7" rx="3.5" fill="#cdd6e2"/>
+  <rect x="142" y="224" width="120" height="7" rx="3.5" fill="#cdd6e2"/>
+  <rect x="142" y="238" width="148" height="7" rx="3.5" fill="#cdd6e2"/>
+  <!-- verify check badge -->
+  <circle cx="316" cy="92" r="26" fill="#1c7a43"/>
+  <path d="M304 92 l8 9 l16 -19" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- magnifier -->
+  <circle cx="330" cy="232" r="22" fill="none" stroke="#2456c7" stroke-width="6"/>
+  <line x1="346" y1="248" x2="362" y2="264" stroke="#2456c7" stroke-width="7" stroke-linecap="round"/>
+</svg>
