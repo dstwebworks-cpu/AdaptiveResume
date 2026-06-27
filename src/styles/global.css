@@ -54,6 +54,9 @@ p { margin: 0 0 1rem; }
 .eyebrow { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 .6rem; }
 .muted { color: var(--muted); }
 
+/* amber keyline under section titles — adds rhythm + brand warmth (pop) */
+.section > .container > h2::after { content: ""; display: block; width: 46px; height: 4px; border-radius: 2px; background: var(--accent-strong); margin-top: 14px; }
+
 /* layout — sections alternate soft ↔ white card-surface for depth */
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
 .section { padding: 74px 0; }
@@ -71,8 +74,8 @@ p { margin: 0 0 1rem; }
 }
 .btn:hover { text-decoration: none; }
 .btn:active { transform: translateY(1px); }
-.btn-primary { background: var(--primary); color: #fff; }
-.btn-primary:hover { background: var(--primary-dark); color: #fff; }
+.btn-primary { background: var(--primary); color: #fff; box-shadow: 0 8px 20px rgba(29,58,102,.22); }
+.btn-primary:hover { background: var(--primary-dark); color: #fff; transform: translateY(-1px); }
 .btn-premium { background: var(--premium); color: #fff; }
 .btn-premium:hover { background: #5a2eb5; color: #fff; }
 .btn-ghost { background: #fff; color: var(--ink); border-color: var(--line); }
@@ -93,9 +96,9 @@ p { margin: 0 0 1rem; }
 .cov2 .seg.base { left: 0; background: #93a4bc; border-radius: 999px 0 0 999px; }
 .cov2 .seg.gain { background: linear-gradient(90deg,#d97706,#f59e0b); border-radius: 0 999px 999px 0; }
 .cov2 .ticks { position: relative; height: 34px; margin-top: 10px; }
-.cov2 .tick { position: absolute; transform: translateX(-50%); text-align: center; font-size: .72rem; white-space: nowrap; color: #cbd5e1; }
+.cov2 .tick { position: absolute; transform: translateX(-50%); text-align: center; font-size: .78rem; white-space: nowrap; color: #cbd5e1; }
 .cov2 .tick::before { content: ""; position: absolute; top: -12px; left: 50%; width: 2px; height: 8px; background: rgba(203,213,225,.7); transform: translateX(-50%); }
-.cov2 .tick b { display: block; font-size: .95rem; color: #f1f5f9; font-weight: 800; }
+.cov2 .tick b { display: block; font-size: 1.05rem; color: #f1f5f9; font-weight: 800; }
 
 /* image placeholder fallback (now mostly replaced by real SVG art) */
 .imgph { display: flex; align-items: center; justify-content: center; text-align: center;
