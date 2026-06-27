@@ -8,7 +8,7 @@ giveaway:
   name: "Keyword-Match Worksheet"
   file: "/templates/keyword-match-worksheet.md"
 cta:
-  label: "Start your career-transition build — $149"
+  label: "Start your targeted build — $149"
   href: "/#pricing"
 order: 7
 draft: false
@@ -42,4 +42,4 @@ You don't need a new resume per application — adjust the summary and a few bul
 
 If matching a keyword would require claiming experience you don't have, that's a gap to address (learn it, or target a closer role), not a word to paste in. Your resume should read the same in an interview as it does on the page.
 
-The **Keyword-Match Worksheet** below helps you pull a posting's terms and sort them into exact / translate / gap. Our career-transition build does this with you — mapping your verified experience to a target role's language, honestly, and never adding a keyword you can't stand behind.
+The **Keyword-Match Worksheet** below helps you pull a posting's terms and sort them into exact / translate / gap. Our targeted build does this with you — mapping your confirmed experience to a target role's language, honestly, and never adding a keyword you can't stand behind.

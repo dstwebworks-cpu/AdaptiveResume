@@ -8,7 +8,7 @@ giveaway:
   name: "Military-to-Civilian Skills Translator"
   file: "/templates/military-to-civilian-skills-translator.md"
 cta:
-  label: "Start your career-transition build — $149"
+  label: "Start your targeted build — $149"
   href: "/#pricing"
 order: 1
 draft: false
@@ -67,4 +67,4 @@ The opposite mistake is inflation — turning "squad leader" into "senior operat
 
 The free **Military-to-Civilian Skills Translator** below walks you through this for your own MOS and duties, line by line — so you end up with civilian wording that's accurate, not inflated.
 
-When you're ready, our career-transition build does this with you: it surfaces the standards and skills your roles involved, **asks you to verify each one**, and translates them toward your target civilian role — without inventing anything.
+When you're ready, our targeted build does this with you: it finds the standards and skills your roles involved, **asks you to confirm each one**, and translates them toward the civilian role you want — without making anything up.

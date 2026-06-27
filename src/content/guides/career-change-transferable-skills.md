@@ -1,6 +1,6 @@
 ---
 title: "Career Change Resume: How to Show Transferable Skills When Switching Industries"
-description: "Switching industries doesn't mean starting over. Here's how to surface and frame the transferable skills you already have — truthfully — so a new field takes you seriously."
+description: "Switching industries doesn't mean starting over. Here's how to find and frame the transferable skills you already have — truthfully — so a new field takes you seriously."
 segment: "job-seekers"
 audience: "Career changers moving between industries"
 keyword: "career change resume transferable skills"
@@ -8,7 +8,7 @@ giveaway:
   name: "Transferable-Skills Inventory"
   file: "/templates/transferable-skills-inventory.md"
 cta:
-  label: "Start your career-transition build — $149"
+  label: "Start your targeted build — $149"
   href: "/#pricing"
 order: 3
 draft: false
@@ -44,4 +44,4 @@ A one-line note ("transitioning into [field] after [N] years building [transfera
 
 Transferable doesn't mean identical. If the new role needs a skill you don't have, name it as a growth area or get the credential — don't paper over it. That honesty is exactly what survives a reference check.
 
-The **Transferable-Skills Inventory** below helps you pull your real skills out of your old context and map them to the new one. Our career-transition build then does this with you — surfacing transferable skills you may have undersold, asking you to verify each, and framing them toward your target role.
+The **Transferable-Skills Inventory** below helps you pull your real skills out of your old context and map them to the new one. Our targeted build then does this with you — finding transferable skills you may have undersold, asking you to confirm each, and framing them toward the role you want.
