@@ -36,4 +36,4 @@ Report coverage lift (confirmed skills before vs. after) and completion across t
 
 Enrichment handles the repetitive surfacing; your coaches spend their limited time where it matters — targeting, interview prep, and the human support a displaced worker actually needs.
 
-The **Outplacement Resume QA Checklist** below standardizes quality across a cohort. ResumeValue for organizations enriches resumes per participant, in bulk, with low-confidence items flagged for review and the same no-fabrication standard throughout.
+The **Outplacement Resume QA Checklist** below standardizes quality across a cohort. ResumeValue for organizations enriches resumes per participant, in bulk, with low-confidence items flagged for review and the same standard throughout — nothing made up.

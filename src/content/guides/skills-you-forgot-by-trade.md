@@ -42,4 +42,4 @@ Equipment, machines, control systems, and the software you touch (even the borin
 
 The line you never cross: listing something you don't actually do. Every item you add should be something you could demonstrate on day one. If you're unsure whether a credential counts, describe the experience instead of claiming the credential.
 
-The **Role-by-Role Skills Checklist** below prompts you through common skills by job type so you can check off what's genuinely true for you. Our base build does this with you — proposing skills common to your role and asking you to verify each one, so nothing lands on the page that you didn't earn.
+The **Role-by-Role Skills Checklist** below prompts you through common skills by job type so you can check off what's genuinely true for you. Our base build does this with you — proposing skills common to your role and asking you to confirm each one, so nothing lands on the page that you didn't earn.

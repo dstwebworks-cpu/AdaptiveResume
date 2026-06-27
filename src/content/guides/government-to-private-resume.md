@@ -8,7 +8,7 @@ giveaway:
   name: "GS-to-Private Translation Checklist"
   file: "/templates/gs-to-private-translation-checklist.md"
 cta:
-  label: "Start your career-transition build — $149"
+  label: "Start your targeted build — $149"
   href: "/#pricing"
 order: 2
 draft: false
@@ -49,4 +49,4 @@ Government experience carries genuine strengths private employers value: regulat
 
 The temptation when crossing over is to inflate scope to "compete." Don't. Translate to the nearest true equivalent and let the real work stand. The **GS-to-Private Translation Checklist** below walks your resume through this conversion, line by line.
 
-When you're ready, our career-transition build does this with you — surfacing what your roles involved, asking you to verify each item, and translating it toward your target private-sector role, with nothing invented.
+When you're ready, our targeted build does this with you — finding what your roles involved, asking you to confirm each item, and translating it toward the private-sector role you want, with nothing made up.
