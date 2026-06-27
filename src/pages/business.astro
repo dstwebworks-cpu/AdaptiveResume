@@ -11,14 +11,14 @@ const buyers = [
 ];
 const steps = [
   { n: '1', h: 'Upload a roster', p: 'A CSV of candidates, or a batch of resume files — 10 or 10,000, the same pipeline. What comes back depends on what you send (see below). No per-seat setup fee.' },
-  { n: '2', h: 'We enrich each', p: 'Working backwards from experience, we surface the skills, standards, and training each role involves — across a wide range of occupations.' },
-  { n: '3', h: 'Your team reviews', p: 'Per-candidate results; low-confidence items and anything credential-like are flagged for your review, never auto-claimed. You sign off on what goes out under your name.' },
+  { n: '2', h: 'We fill in the gaps', p: 'Working backwards from each person\'s experience, we find the skills, standards, and training their role really involved — across a wide range of occupations.' },
+  { n: '3', h: 'Your team reviews', p: 'Per-candidate results; low-confidence items and anything credential-like are held for your review, never claimed on their own. You sign off on what goes out under your name.' },
   { n: '4', h: 'Export', p: 'Per-candidate and org-level reports, plus ATS-clean resumes where you supplied the file — export as PDF, DOCX, or CSV/JSON for your ATS.' },
 ];
 ---
 <Base
   title="ResumeValue for organizations — bulk candidate resume enrichment"
-  description="Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry programs. Bulk processing, monthly volume tiers, and a no-fabrication standard. Request a quote."
+  description="Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry programs. Bulk processing, monthly volume tiers, and a simple promise — nothing made up. Request a quote."
 >
   <!-- HERO -->
   <section class="hero">
@@ -26,7 +26,7 @@ const steps = [
       <div>
         <p class="eyebrow">For organizations</p>
         <h1>Enrich every candidate's qualifications — at scale.</h1>
-        <p class="lede">Your people earned qualifications they never put on paper. Upload a roster; we surface the standards, certs, tools, and training each role involves — and ask before we claim, so nothing is fabricated. You pay per enriched candidate, processed in bulk.</p>
+        <p class="lede">Your people earned qualifications they never put on paper. Upload a roster; we find the standards, certs, tools, and training each role really involved — and flag anything credential-like for sign-off, so nothing is made up. You pay per enriched candidate, processed in bulk.</p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#quote">Request a quote</a>
           <a class="btn btn-ghost btn-lg" href="#quote">Book a demo</a>
@@ -62,7 +62,7 @@ const steps = [
       <p class="eyebrow" style="margin-top:36px">What you get depends on what you send</p>
       <div class="grid cols-2">
         <div class="card"><h3>Send a CSV</h3><p class="muted">Name, role, and employer per candidate. You get a per-candidate <b>qualification report</b> — the skills, standards, and training that role involves, in claimable language, plus a draft skills block. It is not a finished resume — a CSV has no work history, dates, or accomplishments to build one from.</p></div>
-        <div class="card"><h3>Send resume files</h3><p class="muted">Each candidate's existing resume. We build a <b>full ATS-clean resume</b> from their real history, enriched with the qualifications they left off. Anything credential-like is flagged for confirmation — never invented.</p></div>
+        <div class="card"><h3>Send resume files</h3><p class="muted">Each candidate's existing resume. We build a <b>full ATS-clean resume</b> from their real history, filled out with the qualifications they left off. Anything credential-like is flagged for sign-off — never made up.</p></div>
       </div>
     </div>
   </section>
@@ -73,8 +73,8 @@ const steps = [
       <p class="eyebrow">Why it beats the manual way</p>
       <h2>Consistent, fatigue-free, and honest at scale.</h2>
       <div class="grid cols-3">
-        <div class="card"><h3>Integrity at scale</h3><p>We never claim a credential. Anything that looks like a formal certification is routed to your reviewer's queue to confirm — never auto-claimed.</p></div>
-        <div class="card"><h3>Surfaces the implied</h3><p>The standards and training a role involves (IATF, OSHA/LOTO, CLIA, NEC, MOS→civilian translation) that generic resume tools never name.</p></div>
+        <div class="card"><h3>Integrity at scale</h3><p>We never put a credential on a resume on our own. Anything that looks like a formal certification goes to your reviewer's queue to confirm first — nothing made up.</p></div>
+        <div class="card"><h3>Finds what's implied</h3><p>The standards and training a role really involves (IATF, OSHA/LOTO, CLIA, NEC, MOS→civilian translation) that generic resume tools never name.</p></div>
         <div class="card"><h3>Bulk now, API planned</h3><p>Hand-upload a roster today. An API to POST a batch and get enriched, integrity-checked results back by webhook — straight into your own ATS — is on the roadmap.</p></div>
       </div>
     </div>
@@ -102,7 +102,7 @@ const steps = [
             <tr><th>Consistent quality across staff &amp; candidates</th><td class="x">✗</td><td class="p">~</td><td class="p">~</td><td class="us c">✓</td></tr>
             <tr><th>Won't fabricate credentials</th><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
             <tr><th>Low-confidence flagged for YOUR reviewer</th><td class="p">~</td><td class="x">✗</td><td class="p">~</td><td class="us c">✓</td></tr>
-            <tr><th>Surfaces skills candidates left off</th><td class="p">~</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>Finds skills candidates left off</th><td class="p">~</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
             <tr><th>Bulk processing + structured export</th><td class="x">✗</td><td class="p">~</td><td class="x">✗</td><td class="us c">✓</td></tr>
             <tr><th>Typical cost</th><td>staff hours<br /><span class="sub">doesn't scale</span></td><td>low / per seat<br /><span class="sub">accuracy risk</span></td><td>$275–$10k+<br /><span class="sub">per employee</span></td><td class="us">per enriched candidate<br /><span class="sub">volume tiers · by quote</span></td></tr>
           </tbody>
@@ -112,7 +112,7 @@ const steps = [
 
       <div class="grid cols-2" style="margin-top:34px">
         <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unverified under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
-        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With ResumeValue</h3><p>Upload a roster → consistent enrichment surfaces real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + reports. Minutes per candidate, not coach-hours — and nothing fabricated.</p></div>
+        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With ResumeValue</h3><p>Upload a roster → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + reports. Minutes per candidate, not coach-hours — and nothing made up.</p></div>
       </div>
     </div>
   </section>
@@ -128,7 +128,7 @@ const steps = [
           <li>Volume-based monthly tiers</li>
           <li>No per-seat setup fee</li>
           <li>Bulk upload and API options</li>
-          <li>The same no-fabrication standard as our consumer product</li>
+          <li>The same promise as our consumer product — nothing made up</li>
         </ul>
         <a class="btn btn-primary btn-lg" href="mailto:dammule@gmail.com?subject=Resume%20Builder%20—%20commercial%20enquiry">Request a quote →</a>
         <p class="muted small">Interim contact while we finalize the entity: dammule@gmail.com</p>
