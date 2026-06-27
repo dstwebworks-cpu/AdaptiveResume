@@ -6,7 +6,7 @@
   /* neutral palette */
   --ink: #16202b;          /* primary text — ~13:1 on white */
   --ink-soft: #3f4c5a;     /* secondary text — ~8:1 on white */
-  --muted: #5c6b7a;        /* tertiary — ~5.2:1 (AA) */
+  --muted: #4d5b6b;        /* tertiary — 6.2:1 on page bg, 6.9:1 on white (AA); darkened for more contrast */
   --bg: #eef2f7;           /* soft page background */
   --bg-2: #e7edf4;         /* slightly deeper soft band */
   --card: #ffffff;
@@ -17,7 +17,7 @@
   --primary: #1d3a66;
   --primary-dark: #152c4e;
   --primary-bg: #e9eef6;
-  --accent: #b45309;        /* amber-700 — AA text accent on white */
+  --accent: #a8480a;        /* amber-700 — 5.8:1 on white, ~5.2:1 on page bg (AA incl. small eyebrows; old #b45309 was 4.47 on bg = just-failing) */
   --accent-strong: #f59e0b; /* amber-500 — fills/highlights (not small text) */
   --accent-bg: #fdf3e3;     /* warm tint */
   --premium: #6d3bd1;
