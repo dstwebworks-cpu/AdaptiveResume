@@ -1,25 +1,25 @@
-# Resume Builder
+# ResumeValue
 
-> A guided resume tool that surfaces the skills, standards, and credentials you genuinely have but left off your resume — then asks you to verify each one. We never add anything you didn't confirm.
+> A guided resume tool that finds the skills, standards, and credentials you genuinely have but left off your resume — then asks you to confirm each one. We never add anything you didn't confirm.
 
-Resume Builder works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to verify what's true. The finished resume is built only from what you confirmed. We also show you what an applicant-tracking system (ATS) extracts from your resume, so you can see it reads cleanly.
+ResumeValue works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also show you what an applicant-tracking system (ATS) extracts from your resume, so you can see it reads cleanly.
 
 ## What we do
-- **Surface, then ask:** we propose skills/standards/credentials common to your field and ask you to verify them — we do not claim credentials for you.
-- **Translate across fields (Career-Transition):** restate your verified experience in a target field's language, including government, military, and trade terminology into private-sector terms.
+- **We propose, you confirm:** we propose skills/standards/credentials common to your field and ask you to confirm them — we do not claim credentials for you.
+- **Translate across fields (Targeted build):** restate your confirmed experience in a target field's language, including government, military, and trade terminology into private-sector terms.
 - **Show ATS-readability:** we run the finished resume back through a parser and show you what machines extract.
 
 ## What we do NOT do
-- We do not fabricate skills, credentials, or experience.
+- We never make up skills, credentials, or experience.
 - We do not guarantee jobs, interviews, or salaries — we are a resume completeness tool, not a job-placement service.
-- We only use the files you upload; your data is something you provide.
+- We only use the files you upload — we don't pull your data from anywhere else.
 
 ## For job seekers (consumer)
 - Base build — $49 one-time.
-- Career-Transition / targeting build — $149 one-time (FROM → TO translation toward a target role; ideal for career changers and military/government-to-private transitions).
+- Targeted build — $149 one-time (FROM → TO translation toward a target role; ideal for career changers and military/government-to-private transitions).
 
 ## For organizations (commercial)
-- Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry nonprofits, with monthly volume tiers and the same no-fabrication standard. Pricing by quote.
+- Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry nonprofits, with monthly volume tiers and the same promise — nothing made up. Pricing by quote.
 
 ## Key pages
 - Home: /

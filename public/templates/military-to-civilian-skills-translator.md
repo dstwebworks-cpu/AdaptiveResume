@@ -1,8 +1,8 @@
 # Military-to-Civilian Skills Translator
-### A free worksheet from Resume Builder
+### A free worksheet from ResumeValue
 
 > The goal is to TRANSLATE your real experience into civilian language — never to inflate it.
-> Only write down what is genuinely true. You verify every line.
+> Only write down what is genuinely true. You confirm every line.
 
 ---
 
@@ -50,5 +50,5 @@
 
 ---
 
-Want this done with you, toward a specific civilian role? Resume Builder surfaces what your roles involved, asks you to verify each item, and translates it honestly — no invented facts.
-→ Career-transition build, $149 one-time · resume-builder.example
+Want this done with you, toward a specific civilian role? ResumeValue finds what your roles involved, asks you to confirm each item, and translates it honestly — nothing made up.
+→ Targeted build, $149 one-time · resumevalue.example

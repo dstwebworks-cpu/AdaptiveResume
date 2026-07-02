@@ -1,5 +1,5 @@
 # ATS Plain-English Cheat-Sheet
-### A free one-pager from Resume Builder
+### A free one-pager from ResumeValue
 
 ## What an ATS is
 Software companies use to **parse, store, search, and track** job applications. Your resume usually goes here first — not straight to a person.
@@ -30,4 +30,4 @@ Software companies use to **parse, store, search, and track** job applications. 
 No tool can promise you'll "pass" a specific employer's ATS. You CAN make your resume read cleanly and tell the truth well — that's the whole game.
 
 ---
-Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · resume-builder.example
+Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · resumevalue.example

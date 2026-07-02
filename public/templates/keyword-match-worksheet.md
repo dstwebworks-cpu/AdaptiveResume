@@ -1,5 +1,5 @@
 # Keyword-Match Worksheet
-### A free worksheet from Resume Builder
+### A free worksheet from ResumeValue
 
 > Mirror a job description's language — only for skills that are genuinely true of you.
 
@@ -30,4 +30,4 @@ List the recurring tools, skills, certs, methods, and title language:
 - [ ] The resume reads the same in an interview as on the page
 
 ---
-Want this done with you, toward a target role? Career-transition build, $149 one-time · resume-builder.example
+Want this done with you, toward a target role? Targeted build, $149 one-time · resumevalue.example

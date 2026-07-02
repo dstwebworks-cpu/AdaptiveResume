@@ -10,7 +10,7 @@ import Base from '../layouts/Base.astro';
     <div class="container hero-grid">
       <div class="hero-copy">
         <p class="eyebrow">You're not in this alone</p>
-        <h1>You've earned more than your resume shows.</h1>
+        <h1>You've earned <span class="hl">more</span> than your resume shows.</h1>
         <p class="tagline">You did the work. Now let's get it on paper — together. You approve every line, and we don't make anything up.</p>
         <p class="lede">
           Upload your resume and we'll dig in with you — finding the standards, tools, and training
@@ -228,15 +228,18 @@ import Base from '../layouts/Base.astro';
   </section>
 
   <style>
-    /* hero */
-    .hero { padding: 58px 0 40px; background: radial-gradient(1100px 460px at 72% -12%, #dfe9fa, var(--bg)); }
+    /* hero — cool glow top-right, warm glow bottom-left for depth */
+    .hero { padding: 58px 0 40px; background:
+      radial-gradient(1100px 460px at 72% -12%, #d8e5fa, transparent 70%),
+      radial-gradient(760px 380px at 4% 112%, #fdf0dc, transparent 62%),
+      var(--bg); }
     .hero-grid { display: grid; gap: 36px; align-items: center; }
     @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; padding-top: 18px; } }
     .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
     .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
 
-    .demo-card { background: #0f1830; color: #e6ecfb; border-radius: var(--radius); padding: 18px 18px 14px; box-shadow: var(--shadow-lg); }
+    .demo-card { background: linear-gradient(160deg, #16244a, #0b1226); color: #e6ecfb; border: 1px solid #2a3a6b; border-radius: var(--radius); padding: 18px 18px 14px; box-shadow: 0 18px 52px rgba(16,32,64,.28); }
     .demo-head { font-size: .82rem; letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
     .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
@@ -249,7 +252,8 @@ import Base from '../layouts/Base.astro';
 
     /* steps */
     .steps .card { position: relative; padding-top: 30px; }
-    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--ink); color: #fff; font-weight: 800; }
+    .steps .card:hover { box-shadow: var(--shadow-lg); }
+    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg, var(--accent-strong), #d97706); color: #16202b; font-weight: 800; box-shadow: 0 4px 12px rgba(217,119,6,.3); }
 
     /* demo + jobs split */
     .demo-grid, .jobs-grid { display: grid; gap: 30px; align-items: center; }
@@ -257,7 +261,8 @@ import Base from '../layouts/Base.astro';
     .jobs-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
     .video-ph { position: relative; aspect-ratio: 16/9; border-radius: var(--radius); background: linear-gradient(135deg,#1b2740,#0f1830); color: #cdd7ef; display: grid; place-items: center; text-align: center; padding: 16px; box-shadow: var(--shadow-lg); }
     .video-ph span { font-size: .85rem; opacity: .8; position: absolute; bottom: 14px; }
-    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: #fff; color: var(--ink); font-size: 1.3rem; cursor: pointer; box-shadow: var(--shadow); }
+    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: linear-gradient(180deg, #fbb043, var(--accent-strong)); color: #16202b; font-size: 1.3rem; cursor: pointer; box-shadow: 0 8px 24px rgba(217,119,6,.4); transition: transform .1s; }
+    .video-ph .play:hover { transform: scale(1.06); }
 
     .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
     .ticks li { padding-left: 26px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }
@@ -265,7 +270,7 @@ import Base from '../layouts/Base.astro';
 
     /* pricing */
     .pricing .price { display: flex; flex-direction: column; }
-    .price.featured { border-color: #ddccf6; box-shadow: 0 0 0 2px #ece2fb, var(--shadow); }
+    .price.featured { border-color: #cbb4f0; box-shadow: 0 0 0 3px #ece2fb, var(--shadow-lg); position: relative; }
     .amount { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em; margin: 6px 0 4px; }
     .amount span { font-size: .9rem; font-weight: 600; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
     .price .btn { margin-top: auto; align-self: flex-start; }
@@ -293,10 +298,10 @@ import Base from '../layouts/Base.astro';
     /* get started */
     .start { max-width: 720px; text-align: center; }
     .start .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
-    .dropzone { display: block; cursor: pointer; border: 2px dashed #b6c2d2; border-radius: var(--radius); background: var(--surface); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s; }
-    .dropzone:hover { border-color: var(--primary); background: #eef4ff; }
+    .dropzone { display: block; cursor: pointer; border: 2px dashed #9fb0c4; border-radius: var(--radius); background: var(--card); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s, box-shadow .15s; }
+    .dropzone:hover { border-color: var(--accent-strong); background: #fffdf8; box-shadow: 0 0 0 4px var(--accent-bg); }
     .dropzone input { position: absolute; width: 1px; height: 1px; opacity: 0; }
-    .dz-ico { display: block; font-size: 1.8rem; color: var(--primary); }
+    .dz-ico { display: block; font-size: 1.8rem; color: var(--accent); }
     .dz-main { display: block; font-weight: 700; font-size: 1.1rem; margin: 6px 0 2px; }
     .dz-sub { display: block; font-size: .9rem; }
     .reoffer { font-size: .95rem; }

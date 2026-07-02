@@ -25,7 +25,7 @@ const orgs = guides.filter((g) => g.data.segment === 'organizations');
             <span class="tag-premium" style="background:#e7eefb;color:var(--primary);border-color:#cfe0fb">Guide</span>
             <h3>{g.data.title}</h3>
             <p class="muted">{g.data.description}</p>
-            <span class="give">★ Free template: {g.data.giveaway.name}</span>
+            <span class="give">Free template: {g.data.giveaway.name}</span>
           </a>
         ))}
       </div>
@@ -37,9 +37,17 @@ const orgs = guides.filter((g) => g.data.segment === 'organizations');
             <span class="tag-premium">Guide</span>
             <h3>{g.data.title}</h3>
             <p class="muted">{g.data.description}</p>
-            <span class="give">★ Free template: {g.data.giveaway.name}</span>
+            <span class="give">Free template: {g.data.giveaway.name}</span>
           </a>
         ))}
+      </div>
+
+      <div class="card readyband">
+        <div>
+          <h2 style="margin:0 0 6px">Ready to put this to work on your own resume?</h2>
+          <p class="muted" style="margin:0">One payment — $49 base, $149 targeted. You approve every line, and we don't make anything up.</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="/#pricing">See pricing &amp; get started</a>
       </div>
     </div>
   </section>
@@ -50,5 +58,6 @@ const orgs = guides.filter((g) => g.data.segment === 'organizations');
     .gcard:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow-lg); }
     .gcard h3 { margin: 10px 0 6px; }
     .gcard .give { margin-top: auto; padding-top: 12px; color: var(--premium); font-weight: 700; font-size: .85rem; }
+    .readyband { margin-top: 46px; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between; background: var(--primary-bg); border-color: #cfe0fb; }
   </style>
 </Base>

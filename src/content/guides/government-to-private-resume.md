@@ -14,11 +14,11 @@ order: 2
 draft: false
 ---
 
-Government employees are often underpaid relative to the private market — and when they try to cross over, a federal-style resume works against them. Federal resumes are long, written to grade and series, and packed with agency language. Private recruiters skim for impact in six seconds. The fix isn't to dumb yours down; it's to **translate** it.
+A federal-style resume can work against you in a private-sector search. Federal resumes are long, written to grade and series, and packed with agency language. Private recruiters skim fast. The fix isn't to dumb yours down; it's to **translate** it.
 
 ## Cut the federal format, keep the substance
 
-A USAJOBS-style resume runs 3–5+ pages with hours-per-week, supervisor names, and series codes. The private version is **one to two pages**, impact-first. Keep the accomplishments; drop the federal scaffolding (GS grade, series number, hours, "salary," supervisor contact).
+Federal resumes ran 3–5+ pages for years (USAJOBS now caps them at two, under a 2025 OPM rule) — and either way they're written for federal HR panels, not private recruiters. The private version is **one to two pages**, impact-first. Keep the accomplishments; drop the federal scaffolding (GS grade, series number, hours, "salary," supervisor contact).
 
 ## Translate grade and series into scope
 
@@ -43,7 +43,7 @@ Federal resumes describe responsibilities exhaustively. Private resumes reward r
 
 ## Don't lose your real advantages
 
-Government experience carries genuine strengths private employers value: regulatory fluency, stakeholder management, audit-grade documentation, security clearance (if active). Name these plainly — they're often the reason you'll get the interview.
+Government experience carries genuine strengths private employers value: regulatory fluency, stakeholder management, audit-grade documentation, security clearance (if active). Name these plainly — they're often what makes a hiring manager stop and read.
 
 ## Keep it honest
 

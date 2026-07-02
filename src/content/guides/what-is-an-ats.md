@@ -31,7 +31,7 @@ That's it. At its heart, an ATS is a filing-and-search system for resumes.
 
 ## What an ATS does to *your* resume
 
-The part that matters to you is the **parse**. The software reads your file and tries to drop your information into the right fields. If your resume is laid out cleanly, it parses cleanly — your titles, dates, and skills land where they should, and you show up correctly when a recruiter searches. If it's laid out in a way the parser can't follow (tables, text boxes, graphics, contact info in the header), pieces can get garbled or dropped — and you may not surface in searches you'd actually match.
+The part that matters to you is the **parse**. The software reads your file and tries to drop your information into the right fields. If your resume is laid out cleanly, it parses cleanly — your titles, dates, and skills land where they should, and you show up correctly when a recruiter searches. If it's laid out in a way the parser can't follow (tables, text boxes, graphics, contact info in the header), pieces can get garbled or dropped — and you may not come up in searches you'd actually match.
 
 ## The myth worth clearing up
 

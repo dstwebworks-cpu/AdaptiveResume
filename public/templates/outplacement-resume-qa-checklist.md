@@ -1,17 +1,17 @@
 # Outplacement Resume QA Checklist
-### A free checklist from Resume Builder (for outplacement & transition teams)
+### A free checklist from ResumeValue (for outplacement & transition teams)
 
 > Consistent, honest quality across a whole cohort — at layoff scale.
 
 ## Per participant
-- [ ] Role-relevant skills surfaced and confirmed BY the participant
+- [ ] Role-relevant skills found and confirmed BY the participant
 - [ ] Standards / tools / training named (worked-under vs certified marked)
 - [ ] Formal credentials routed to a reviewer — none auto-claimed
 - [ ] Achievements quantified with real numbers only
 - [ ] Target role identified; experience translated honestly toward it
 
 ## Integrity guardrails
-- [ ] Nothing on the resume the participant didn't verify
+- [ ] Nothing on the resume the participant didn't confirm
 - [ ] No outcome/job promise made to the participant
 - [ ] No title inflation under pressure to "make them look good"
 
@@ -22,4 +22,4 @@
 
 ---
 Enrich a whole cohort honestly, without hand-building every resume.
-See Resume Builder for organizations · /business
+See ResumeValue for organizations · /business

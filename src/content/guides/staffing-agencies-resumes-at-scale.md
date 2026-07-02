@@ -1,6 +1,6 @@
 ---
 title: "How Staffing Agencies Can Strengthen Candidate Resumes at Scale"
-description: "Stronger candidate resumes mean faster placements and higher fill rates — but quality can't come at the cost of accuracy. Here's how to enrich resumes in bulk, honestly."
+description: "Stronger candidate resumes strengthen every submission — without quality coming at the cost of accuracy. Here's how to enrich resumes in bulk, honestly."
 segment: "organizations"
 audience: "Staffing & recruiting agencies"
 keyword: "staffing agency candidate resume"
@@ -14,18 +14,18 @@ order: 8
 draft: false
 ---
 
-A stronger candidate resume submits better, interviews better, and places faster. But for a staffing agency, resume quality runs straight into a wall: you can't spend an hour per candidate, and you can't put your name behind claims you didn't verify. The answer is enrichment that's both **fast** and **honest**.
+A stronger candidate resume reads stronger at every stage of the process. But for a staffing agency, resume quality runs straight into a wall: you can't spend an hour per candidate, and you can't put your name behind claims no one confirmed. The answer is enrichment that's both **fast** and **honest**.
 
 ## The two failure modes
 
 Most attempts to improve candidate resumes fail one of two ways:
 
 - **Too slow:** a recruiter hand-edits each resume — quality, but it doesn't scale past a handful.
-- **Too loose:** a generic AI tool pads resumes with plausible-sounding skills — scale, but now you're submitting claims no one verified, and one bad submission burns a client relationship.
+- **Too loose:** a generic AI tool pads resumes with plausible-sounding skills — scale, but now you're submitting claims no one confirmed, and one bad submission burns a client relationship.
 
-You need the middle: consistent enrichment that surfaces real, role-relevant skills and routes anything uncertain to a human.
+You need the middle: consistent enrichment that finds real, role-relevant skills and routes anything uncertain to a human.
 
-## Surface what candidates leave off
+## Find what candidates leave off
 
 Candidates routinely omit the standards, tools, and training their roles involved — not to deceive, just because it became routine. A consistent process that proposes role-relevant skills (and asks the candidate or recruiter to confirm) recovers genuine qualifications without inventing any.
 
