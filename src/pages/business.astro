@@ -10,7 +10,7 @@ const buyers = [
   'Government workforce programs',
 ];
 const steps = [
-  { n: '1', h: 'Upload a roster', p: 'A CSV of candidates, or a batch of resume files — 10 or 10,000, the same pipeline. What comes back depends on what you send (see below). No per-seat setup fee.' },
+  { n: '1', h: 'Upload a roster', p: 'A CSV of candidates, or a batch of resume files — a batch of ten or a full roster, same pipeline. What comes back depends on what you send (see below). No per-seat setup fee.' },
   { n: '2', h: 'We fill in the gaps', p: 'Working backwards from each person\'s experience, we find the skills, standards, and training their role really involved — across a wide range of occupations.' },
   { n: '3', h: 'Your team reviews', p: 'Per-candidate results; low-confidence items and anything credential-like are held for your review, never claimed on their own. You sign off on what goes out under your name.' },
   { n: '4', h: 'Export', p: 'Per-candidate and org-level reports, plus ATS-clean resumes where you supplied the file — export as PDF, DOCX, or CSV/JSON for your ATS.' },
@@ -29,7 +29,7 @@ const steps = [
         <p class="lede">Your people earned qualifications they never put on paper. Upload a roster; we find the standards, certs, tools, and training each role really involved — and flag anything credential-like for sign-off, so nothing is made up. You pay per enriched candidate, processed in bulk.</p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#quote">Request a quote</a>
-          <a class="btn btn-ghost btn-lg" href="#quote">Book a demo</a>
+          <a class="btn btn-ghost btn-lg" href="#how-bulk">See how it works</a>
         </div>
         <p class="muted small">The same tool that powers our consumer product, configured for organizations.</p>
       </div>
@@ -49,7 +49,7 @@ const steps = [
   </section>
 
   <!-- HOW IT WORKS -->
-  <section class="section">
+  <section class="section" id="how-bulk">
     <div class="container">
       <p class="eyebrow">How it works (bulk)</p>
       <h2>From roster to enriched candidates in four steps.</h2>
@@ -100,7 +100,7 @@ const steps = [
           <tbody>
             <tr><th>Scales to hundreds or thousands, fast</th><td class="x">✗</td><td class="c">✓</td><td class="p">~</td><td class="us c">✓</td></tr>
             <tr><th>Consistent quality across staff &amp; candidates</th><td class="x">✗</td><td class="p">~</td><td class="p">~</td><td class="us c">✓</td></tr>
-            <tr><th>Won't fabricate credentials</th><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
+            <tr><th>Never makes a credential up</th><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
             <tr><th>Low-confidence flagged for YOUR reviewer</th><td class="p">~</td><td class="x">✗</td><td class="p">~</td><td class="us c">✓</td></tr>
             <tr><th>Finds skills candidates left off</th><td class="p">~</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
             <tr><th>Bulk processing + structured export</th><td class="x">✗</td><td class="p">~</td><td class="x">✗</td><td class="us c">✓</td></tr>
@@ -111,8 +111,8 @@ const steps = [
       <p class="muted small" style="margin-top:12px">Cost figures are typical category ranges for comparison, not quotes from specific providers. "~" means it depends on the provider/process.</p>
 
       <div class="grid cols-2" style="margin-top:34px">
-        <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unverified under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
-        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With ResumeValue</h3><p>Upload a roster → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + reports. Minutes per candidate, not coach-hours — and nothing made up.</p></div>
+        <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unchecked under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
+        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With ResumeValue</h3><p>Upload a roster → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + reports. Your team spends its time reviewing, not retyping — and nothing is made up.</p></div>
       </div>
     </div>
   </section>
@@ -127,10 +127,11 @@ const steps = [
         <ul class="ticks">
           <li>Volume-based monthly tiers</li>
           <li>No per-seat setup fee</li>
-          <li>Bulk upload and API options</li>
+          <li>Bulk upload today — API on the roadmap</li>
+          <li>Paid pilots, fully credited against your first contract</li>
           <li>The same promise as our consumer product — nothing made up</li>
         </ul>
-        <a class="btn btn-primary btn-lg" href="mailto:dammule@gmail.com?subject=Resume%20Builder%20—%20commercial%20enquiry">Request a quote →</a>
+        <a class="btn btn-primary btn-lg" href="mailto:dammule@gmail.com?subject=ResumeValue%20—%20commercial%20inquiry">Request a quote →</a>
         <p class="muted small">Interim contact while we finalize the entity: dammule@gmail.com</p>
       </div>
       <div class="card tiers">
@@ -150,14 +151,17 @@ const steps = [
   <!-- CTA -->
   <section class="section">
     <div class="container cta-band">
-      <h2>See it on a sample of your own candidates.</h2>
-      <p class="lede">Bring a small batch; we'll show you the enrichment and the integrity flags before you commit to anything.</p>
-      <a class="btn btn-primary btn-lg" href="#quote">Book a demo</a>
+      <h2>Start with a paid pilot on your own candidates.</h2>
+      <p class="lede">Bring a real batch. Pilots run at standard rates and are fully credited against your first contract — so you see the enrichment and the integrity flags on your own people, and the pilot money is never spent twice.</p>
+      <a class="btn btn-primary btn-lg" href="#quote">Request a pilot quote</a>
     </div>
   </section>
 
   <style>
-    .hero { padding: 58px 0 40px; background: radial-gradient(1100px 460px at 72% -12%, #dfe9fa, var(--bg)); }
+    .hero { padding: 58px 0 40px; background:
+      radial-gradient(1100px 460px at 72% -12%, #d8e5fa, transparent 70%),
+      radial-gradient(760px 380px at 4% 112%, #fdf0dc, transparent 62%),
+      var(--bg); }
     .hero-grid { display: grid; gap: 34px; align-items: center; }
     @media (min-width: 920px) { .hero-grid { grid-template-columns: 1.1fr 0.9fr; } }
     .hero-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
@@ -168,7 +172,8 @@ const steps = [
     .chip { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 9px 16px; font-weight: 600; color: var(--ink-soft); box-shadow: var(--shadow); }
 
     .steps .card { position: relative; padding-top: 30px; }
-    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--ink); color: #fff; font-weight: 800; }
+    .steps .card:hover { box-shadow: var(--shadow-lg); }
+    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg, var(--accent-strong), #d97706); color: #16202b; font-weight: 800; box-shadow: 0 4px 12px rgba(217,119,6,.3); }
 
     .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
     .ticks li { padding-left: 26px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }

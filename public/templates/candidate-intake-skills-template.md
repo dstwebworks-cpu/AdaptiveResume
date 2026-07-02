@@ -1,5 +1,5 @@
 # Candidate-Intake Skills Template
-### A free template from Resume Builder (for staffing & recruiting teams)
+### A free template from ResumeValue (for staffing & recruiting teams)
 
 > Capture honest inputs at intake so resume enrichment has something real to work with.
 
@@ -9,21 +9,21 @@
 - Employer & industry: ____________________
 - Target role(s): ____________________
 
-## Role context (drives skill surfacing)
+## Role context (drives skill discovery)
 - Standards/environment the role ran under: ____________________
 - Tools / equipment / systems used: ____________________
 - Team size / scope / volume: ____________________
 
-## Credentials (verify before submitting)
+## Credentials (confirm before submitting)
 | Credential claimed | Held or worked-under? | Reviewer confirmed? (Y/N) |
 |--------------------|-----------------------|---------------------------|
 |                    |                       |                           |
 
 ## Recruiter sign-off
 - [ ] Low-confidence credentials flagged for review
-- [ ] Nothing submitted under our name that wasn't verified
+- [ ] Nothing submitted under our name that wasn't confirmed
 - [ ] Coverage lift (before → after) noted: ______ → ______
 
 ---
 Enrich candidate resumes in bulk — honestly, with a human on every credential.
-See Resume Builder for organizations · /business
+See ResumeValue for organizations · /business

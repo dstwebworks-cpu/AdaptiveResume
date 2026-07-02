@@ -2,7 +2,7 @@
 // Milestone 1: legal + secondary links point to on-page anchors / placeholders.
 // Legal links become real HTML pages (/legal/terms, /legal/privacy, /legal/disclaimer)
 // rendered from 01-legal-entity/policies/* in a later milestone.
-const year = 2026;
+const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
   <div class="container cols">
@@ -39,7 +39,8 @@ const year = 2026;
   </div>
 
   <div class="container legal">
-    <p class="muted">© {year} [LEGAL ENTITY NAME], LLC · A resume completeness tool — not a job-placement service. We don't guarantee jobs, interviews, or salaries.</p>
+    {/* Swap "ResumeValue" for the formed legal entity name once the LLC-vs-DBA decision lands (see 00-overview TODO, Stage 1). */}
+    <p class="muted">© {year} ResumeValue · A resume completeness tool — not a job-placement service. We don't guarantee jobs, interviews, or salaries.</p>
   </div>
 </footer>
 

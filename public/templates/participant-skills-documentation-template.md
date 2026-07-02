@@ -1,5 +1,5 @@
 # Participant Skills-Documentation Template
-### A free template from Resume Builder (for workforce boards & job centers)
+### A free template from ResumeValue (for workforce boards & job centers)
 
 > Help participants document skills they already have — accurately, with the participant as the author.
 
@@ -9,7 +9,7 @@
 - Industry / setting: ____________________
 - Goal role or field: ____________________
 
-## Surface existing skills (ask — don't assume)
+## Find existing skills (ask — don't assume)
 Prompt by role; record only what the participant confirms:
 - Tasks performed regularly: ____________________
 - Tools / equipment / systems: ____________________
@@ -17,7 +17,7 @@ Prompt by role; record only what the participant confirms:
 - People led / coordinated / trained: ____________________
 
 ## Credentials
-| Credential | Held or worked-under? | Verified? (Y/N) |
+| Credential | Held or worked-under? | Confirmed? (Y/N) |
 |------------|-----------------------|-----------------|
 |            |                       |                 |
 
@@ -29,4 +29,4 @@ Prompt by role; record only what the participant confirms:
 
 ---
 Document existing skills at program scale, honestly.
-See Resume Builder for organizations · /business
+See ResumeValue for organizations · /business

@@ -22,7 +22,7 @@ When something becomes automatic, you stop listing it. But the reader doesn't kn
 
 ## Walk through a normal shift
 
-Go hour by hour through a typical day and write down every distinct thing you handle: tools, software, standards, safety procedures, inspections, paperwork, the people you coordinate with. Most people surface 5–15 skills they'd never have listed from memory.
+Go hour by hour through a typical day and write down every distinct thing you handle: tools, software, standards, safety procedures, inspections, paperwork, the people you coordinate with. Most people find skills they'd never have listed from memory.
 
 ## Name the standards, not just the tasks
 
@@ -38,7 +38,7 @@ Only list a standard you genuinely worked under — and distinguish "worked to t
 
 Equipment, machines, control systems, and the software you touch (even the boring ERP or scheduling system) are all legitimate, searchable skills.
 
-## Don't pad — verify
+## Don't pad — confirm
 
 The line you never cross: listing something you don't actually do. Every item you add should be something you could demonstrate on day one. If you're unsure whether a credential counts, describe the experience instead of claiming the credential.
 

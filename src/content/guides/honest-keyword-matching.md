@@ -14,11 +14,11 @@ order: 7
 draft: false
 ---
 
-Recruiters and screening software both search for the words in the job description. Mirror those words where they're genuinely true of you and you get found and shortlisted. Stuff in terms you can't defend and you get screened out by the human a few minutes later. The skill is matching **honestly**.
+Recruiters and screening software both search for the words in the job description. Mirror those words where they're genuinely true of you and you give yourself a real shot at being found. Stuff in terms you can't defend and you get screened out by the human a few minutes later. The skill is matching **honestly**.
 
 ## Why keywords matter
 
-A resume that says "client relations" won't surface when the recruiter searches "account management," even if it's the same work. Using the role's own vocabulary — for things you actually did — is how you get into the shortlist at all.
+A resume that says "client relations" won't come up when the recruiter searches "account management," even if it's the same work. Using the role's own vocabulary — for things you actually did — is how recruiters find you at all.
 
 ## Pull the real keywords from the posting
 

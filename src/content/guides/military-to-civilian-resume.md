@@ -33,7 +33,7 @@ Map your role to the closest **civilian function**, without claiming a job you d
 
 - *Platoon Sergeant* → "Operations / team lead, 30–40 personnel"
 - *Logistics NCO (92A)* → "Supply &amp; inventory management"
-- *Combat Medic (68W)* → "Emergency medical technician / patient care (verify civilian licensure separately)"
+- *Combat Medic (68W)* → "Emergency medical technician / patient care (confirm civilian licensure separately)"
 
 > The honest rule: describe the **scope and responsibility** in civilian terms. Don't claim a civilian certification or license you haven't actually earned — that's the one line you never cross.
 

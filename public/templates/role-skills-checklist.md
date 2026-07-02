@@ -1,5 +1,5 @@
 # Role-by-Role Skills Checklist
-### A free worksheet from Resume Builder
+### A free worksheet from ResumeValue
 
 > Check off only what's genuinely true for you. The goal is to FIND skills you forgot — never to pad.
 
@@ -29,10 +29,10 @@ List every distinct thing you handle in a typical day:
 - Who you work across: ____________________
 - Paperwork / inspections / reporting you own: ____________________
 
-## Verify check
+## Confirmation check
 - [ ] Every item is something I could demonstrate on day one
 - [ ] "Worked to" vs "certified in" is marked correctly
 - [ ] Nothing here is padding
 
 ---
-Want this done with you? Our base build proposes role-relevant skills and asks you to verify each one. $49 one-time · resume-builder.example
+Want this done with you? Our base build proposes role-relevant skills and asks you to confirm each one. $49 one-time · resumevalue.example
