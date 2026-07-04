@@ -8,7 +8,7 @@ giveaway:
   name: "Participant Skills-Documentation Template"
   file: "/templates/participant-skills-documentation-template.md"
 cta:
-  label: "See ResumeValue for organizations"
+  label: "See AdaptiveResume for organizations"
   href: "/business"
 order: 10
 draft: false
@@ -36,4 +36,4 @@ Consistent skills documentation supports the measurement WIOA programs already d
 
 A standard process lets caseworkers serve more participants at the same quality, spending their time on coaching and connections rather than formatting documents from scratch.
 
-The **Participant Skills-Documentation Template** below gives caseworkers a consistent intake to capture existing skills honestly. ResumeValue for organizations does this at program scale — finding role-relevant skills, asking each participant to confirm, and flagging anything uncertain for review.
+The **Participant Skills-Documentation Template** below gives caseworkers a consistent intake to capture existing skills honestly. AdaptiveResume for organizations does this at program scale — finding role-relevant skills, asking each participant to confirm, and flagging anything uncertain for review.
