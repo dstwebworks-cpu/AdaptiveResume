@@ -1,8 +1,8 @@
-# ResumeValue
+# AdaptiveResume
 
 > A guided resume tool that finds the skills, standards, and credentials you genuinely have but left off your resume — then asks you to confirm each one. We never add anything you didn't confirm.
 
-ResumeValue works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also show you what an applicant-tracking system (ATS) extracts from your resume, so you can see it reads cleanly.
+AdaptiveResume works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also show you what an applicant-tracking system (ATS) extracts from your resume, so you can see it reads cleanly.
 
 ## What we do
 - **We propose, you confirm:** we propose skills/standards/credentials common to your field and ask you to confirm them — we do not claim credentials for you.

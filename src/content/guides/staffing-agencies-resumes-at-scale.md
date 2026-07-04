@@ -8,7 +8,7 @@ giveaway:
   name: "Candidate-Intake Skills Template"
   file: "/templates/candidate-intake-skills-template.md"
 cta:
-  label: "See ResumeValue for organizations"
+  label: "See AdaptiveResume for organizations"
   href: "/business"
 order: 8
 draft: false
@@ -41,4 +41,4 @@ Done by hand, resume quality swings with whoever touched it. A standard enrichme
 
 Track coverage lift (role-relevant skills before vs. after, confirmed only) and flagged-for-review counts. These give you a quality signal and a defensible audit trail — without ever promising a placement outcome.
 
-The **Candidate-Intake Skills Template** below standardizes what you capture at intake so enrichment has honest inputs. ResumeValue for organizations does this in bulk — per enriched candidate, with low-confidence items routed to your reviewer and the same standard as our consumer product: nothing made up.
+The **Candidate-Intake Skills Template** below standardizes what you capture at intake so enrichment has honest inputs. AdaptiveResume for organizations does this in bulk — per enriched candidate, with low-confidence items routed to your reviewer and the same standard as our consumer product: nothing made up.

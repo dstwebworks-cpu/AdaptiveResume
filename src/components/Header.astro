@@ -1,5 +1,8 @@
 ---
 // Nav links resolve to real pages / on-page anchors (M1).
+// appUrl = the product app (separate deploy). Set PUBLIC_APP_URL at build time in
+// production (e.g. https://app.adaptiveresume.com); localhost default for dev.
+const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
 const links = [
   { href: '/#job-seekers', label: 'For job seekers' },
   { href: '/business', label: 'For organizations' },
@@ -10,15 +13,16 @@ const links = [
 ---
 <header class="site-header" id="site-header">
   <div class="container bar">
-    <a class="brand" href="/" aria-label="ResumeValue home">
-      <span class="mark" aria-hidden="true">RV</span>
-      <span>Resume<span style="color:var(--accent)">Value</span></span>
+    <a class="brand" href="/" aria-label="AdaptiveResume home">
+      <span class="mark" aria-hidden="true">AR</span>
+      <span>Adaptive<span style="color:var(--accent)">Resume</span></span>
     </a>
 
     <nav class="nav desktop" aria-label="Primary">
       {links.map((l) => <a href={l.href}>{l.label}</a>)}
     </nav>
 
+    <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>
     <a class="btn btn-primary cta-desktop" href="/#get-started">Get started</a>
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -28,6 +32,7 @@ const links = [
 
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
     {links.map((l) => <a href={l.href}>{l.label}</a>)}
+    <a href={appUrl + '/login'}>Sign in</a>
     <a class="btn btn-primary" href="/#get-started">Get started</a>
   </nav>
 </header>
@@ -57,6 +62,8 @@ const links = [
   .nav.desktop a { color: var(--ink-soft); font-weight: 600; font-size: .96rem; }
   .nav.desktop a:hover { color: var(--ink); text-decoration: none; }
   .cta-desktop { display: none; padding: 9px 16px; }
+  a.signin { font-weight: 700; color: var(--ink); font-size: .96rem; padding: 9px 6px; }
+  a.signin:hover { color: var(--accent); text-decoration: none; }
 
   /* hamburger (mobile) */
   .hamburger { margin-left: auto; display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 10px; background: none; border: 1px solid var(--line); border-radius: 9px; cursor: pointer; }
