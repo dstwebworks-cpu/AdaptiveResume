@@ -21,7 +21,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         </p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-          <a class="btn btn-ghost btn-lg" href="#demo">▶ Watch how it works (90s)</a>
+          <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
         </div>
         <ul class="pills">
           <li class="pill">✓ Nothing made up</li>
@@ -39,17 +39,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
             <li><span class="add">+ Standard operating procedures (SOPs) — wrote &amp; followed</span> <span class="conf">yours?</span></li>
             <li class="ask"><span>CPR / First Aid / AED — currently certified?</span> <span class="conf">we ask, you decide</span></li>
           </ul>
-          <div class="cov2">
-            <div class="track">
-              <div class="seg base" style="width:42%"></div>
-              <div class="seg gain" style="left:42%;width:44%"></div>
-            </div>
-            <div class="ticks">
-              <span class="tick" style="left:42%"><b>42%</b>before</span>
-              <span class="tick" style="left:86%"><b>86%</b>after</span>
-            </div>
-          </div>
-          <p class="covcap">Role-relevant coverage — from your real experience only</p>
+          <p class="covcap">A full review walks you through everything it finds — you confirm each line, in your own words.</p>
         </div>
         <p class="cap">Sample data — generic profile, no real employer shown.</p>
       </div>
@@ -69,7 +59,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
       </div>
 
       <p class="reoffer muted">
-        Want to see it first? <a href="#demo">Watch the 90-second walkthrough</a> — no upload needed.
+        Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> or <a href="#demo">watch the 90-second walkthrough</a> — no upload, no account.
       </p>
     </div>
   </section>
@@ -198,6 +188,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
           <a class="btn btn-premium" href="#get-started">Get started</a>
         </div>
       </div>
+      <p class="muted finep"><b>Keep-nothing guarantee:</b> finish your review and keep nothing? Full refund. See the <a href="/terms">Terms</a> for the plain-language details.</p>
     </div>
   </section>
 
@@ -219,8 +210,8 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     <div class="container legalnote">
       <p class="muted">
         <b>How we work:</b> nothing made up · ATS-readable · real value added · your edits honored.
-        Full <a href="#legal">Terms of Service</a>, <a href="#legal">Privacy Policy</a>, and
-        <a href="#legal">Disclaimer</a> coming as the site is built out.
+        Read the full <a href="/terms">Terms of Service</a>, <a href="/privacy">Privacy Policy</a>, and
+        <a href="/disclaimer">Disclaimer</a>.
       </p>
     </div>
   </section>

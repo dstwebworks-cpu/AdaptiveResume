@@ -1,0 +1,110 @@
+---
+// Disclaimer — attorney-review draft (source: 01-legal-entity/policies/disclaimer.md,
+// updated 07/05/2026 to current product facts and entity).
+import Base from '../layouts/Base.astro';
+---
+<!-- DRAFT pending attorney review — engaged pre-launch per TODO Phase 1 -->
+<Base
+  title="Disclaimer — AdaptiveResume"
+  description="What AdaptiveResume does and doesn't promise: an honest, complete resume built from what you confirm — and no guarantees of jobs, interviews, or salaries, because no one can honestly make those."
+>
+  <article class="section">
+    <div class="container narrow">
+      <p class="eyebrow">Legal</p>
+      <h1>Disclaimer</h1>
+      <p class="lede">
+        We believe an accurate, complete resume makes you a stronger candidate. What we will never
+        do is promise you an outcome — because no honest service can.
+      </p>
+      <p class="effective">Effective date: 07/05/2026</p>
+
+      <div class="prose">
+        <!-- ATTORNEY: entity name amendment is currently filing with the Georgia Secretary of State.
+             Confirm the final registered entity string ("AdaptiveResume LLC") before publication. -->
+        <p>
+          Operated by <strong>AdaptiveResume LLC</strong>, a Georgia single-member limited
+          liability company based in Marietta, Georgia ("AdaptiveResume," "we," "us"). This
+          Disclaimer is part of, and incorporated into, our <a href="/terms">Terms of Service</a>.
+        </p>
+
+        <h2>No guaranteed outcomes</h2>
+        <p>
+          AdaptiveResume is a resume <strong>completeness</strong> tool. It is <strong>not</strong>
+          a job-placement, recruiting, staffing, or career-counseling service. We do not promise,
+          and cannot promise, that using the Service will result in a job, an interview, a
+          callback, a salary, or any other employment outcome. Hiring decisions are made by
+          employers based on many factors outside anyone's control. What we offer is a resume that
+          fully and honestly reflects what you've actually done — the rest of the process belongs
+          to you and the employer.
+        </p>
+
+        <h2>You are the author</h2>
+        <p>
+          The Service works by finding skills, standards, and credentials your experience suggests
+          you may have left off — and asking <strong>you</strong> to confirm, edit, or skip every
+          one. Nothing appears on your resume without your confirmation.
+          <strong>You are solely responsible for the accuracy and truthfulness of everything you
+          confirm</strong> and of the final resume you submit to employers. We do not check your
+          statements with employers, schools, or credentialing bodies.
+        </p>
+
+        <h2>An AI-assisted service</h2>
+        <p>
+          The Service uses AI-assisted processing to prepare the suggestions you review. Those
+          suggestions can be incomplete or imperfect — they are proposals for you to accept, edit,
+          or reject, never facts we've established. Always review your final document before
+          submitting it anywhere. On the targeted build, the job-posting match read and
+          interview-prep questions are grounded only in the content you confirmed; treat them as
+          preparation material, not predictions.
+        </p>
+
+        <h2>Not professional advice</h2>
+        <p>
+          Nothing in the Service is legal, financial, immigration, or professional career advice.
+          For federal, military-transition, security-clearance, licensing, or other high-stakes
+          applications, confirm formatting and content requirements with the relevant authority
+          before you submit.
+        </p>
+
+        <h2>Reference data and third parties</h2>
+        <p>
+          Role and occupation information may draw on third-party and public sources (for example,
+          O*NET). We do not control and are not responsible for the accuracy of third-party data,
+          or for the policies of the third-party services referenced in our
+          <a href="/privacy">Privacy Policy</a>.
+        </p>
+
+        <h2>"As is"</h2>
+        <p>
+          The Service and all content are provided <strong>"as is" and "as available," without
+          warranties of any kind</strong>, to the fullest extent permitted by law. See the
+          <a href="/terms">Terms of Service</a> for the full warranty disclaimer and limitation of
+          liability.
+        </p>
+
+        <h2>Questions</h2>
+        <p>
+          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a>
+        </p>
+      </div>
+
+      <nav class="legal-links" aria-label="Other legal pages">
+        <span class="muted">Related:</span>
+        <a href="/terms">Terms of Service</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
+    </div>
+  </article>
+
+  <style>
+    .container.narrow { max-width: 70ch; }
+    .effective { font-size: .9rem; font-weight: 600; color: var(--muted); margin: 0 0 28px; }
+    .prose { font-size: 1.02rem; color: var(--ink-soft); }
+    .prose h2 { margin-top: 1.8em; font-size: 1.35rem; color: var(--ink); }
+    .prose ul { padding-left: 1.2em; }
+    .prose li { margin-bottom: .5em; }
+    .prose strong { color: var(--ink); }
+    .legal-links { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
+      display: flex; flex-wrap: wrap; gap: 16px; font-weight: 600; }
+  </style>
+</Base>
