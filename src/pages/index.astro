@@ -171,6 +171,57 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         <li><b>You stay the author.</b> One finding at a time, your original words quoted back, edit or skip anything — so the resume you send is one you can defend in the interview.</li>
       </ul>
       <p><a href={appUrl + '/?demo'}>Watch the verification work on a sample review →</a></p>
+
+      <!-- ===== THE TIME MATH (toggle: vs writer / vs DIY chat) ===== -->
+      <div class="timemath">
+        <h3>The time math</h3>
+        <p class="muted">It feels like working with someone — because you are. One finding at a time, together, with no appointment to book. Compare your path:</p>
+        <div class="tm-tabs">
+          <button class="tm-tab active" data-tm="writer">vs. a resume writer</button>
+          <button class="tm-tab" data-tm="diy">vs. DIY with a chatbot</button>
+        </div>
+        <div class="tm-panel" data-tm="writer">
+          <div class="tm-col">
+            <h4>A professional writing service</h4>
+            <ul>
+              <li>Book, pay, fill out their questionnaire — day one</li>
+              <li>First draft arrives in 3–7 <em>business days</em> (typical advertised turnarounds, 2026)</li>
+              <li>Revision rounds: roughly another week — if they honor them</li>
+              <li><b>Calendar time: one to two weeks of waiting</b></li>
+            </ul>
+          </div>
+          <div class="tm-col us">
+            <h4>Here</h4>
+            <ul>
+              <li>Upload — your free scan appears in seconds</li>
+              <li>Findings start streaming moments after your review begins</li>
+              <li>You review one finding at a time, at your pace — most people finish in one sitting, and everything saves if life interrupts</li>
+              <li><b>Calendar time: today</b> — the longest you wait on us is measured in seconds, and there's a live clock on screen whenever we're working</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tm-panel hide" data-tm="diy">
+          <div class="tm-col">
+            <h4>DIY with a chatbot</h4>
+            <ul>
+              <li>Rounds of prompting and re-prompting to get something usable</li>
+              <li>Then the step almost nobody does: auditing every line yourself, because nothing else checks it</li>
+              <li>Then wrestling the text into a clean, screening-software-safe file</li>
+              <li><b>Your active work: an evening or more — with the verification burden entirely on you</b></li>
+            </ul>
+          </div>
+          <div class="tm-col us">
+            <h4>Here</h4>
+            <ul>
+              <li>The digging, the checking, and the formatting are the product — verification is enforced by the system, not left to your discipline</li>
+              <li>You spend your time on the one thing only you can do: confirming what's true</li>
+              <li>Finished, checked, formatted files — Word and PDF — at the end of the same sitting</li>
+              <li><b>Your active work: one focused session, guided the whole way</b></li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted small">Turnaround comparisons reflect typical advertised timelines of major resume-writing services (2026). We never promise a fixed duration — you'll always see a live clock while we work.</p>
+      </div>
     </div>
   </section>
 
@@ -336,6 +387,21 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .dz-sub { display: block; font-size: .9rem; }
     .reoffer { font-size: .95rem; }
 
+    /* time math */
+    .timemath { margin-top: 34px; }
+    .timemath h3 { font-size: 1.3rem; margin: 0 0 6px; }
+    .tm-tabs { display: flex; gap: 8px; margin: 14px 0; }
+    .tm-tab { font: inherit; font-size: .9rem; font-weight: 700; padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+    .tm-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .tm-panel { display: grid; gap: 14px; }
+    @media (min-width: 760px) { .tm-panel { grid-template-columns: 1fr 1fr; } }
+    .tm-panel.hide { display: none; }
+    .tm-col { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+    .tm-col.us { border-color: #7fb08a; background: #f3faf4; }
+    .tm-col h4 { margin: 0 0 8px; font-size: 1rem; }
+    .tm-col ul { margin: 0; padding-left: 18px; }
+    .tm-col li { margin-bottom: 8px; color: var(--ink-soft); font-size: .95rem; }
+
     /* military before/after */
     .beforeafter { display: grid; gap: 12px; margin: 18px 0 10px; }
     .ba-row { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
@@ -347,4 +413,14 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .legalnote { text-align: center; }
     .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
   </style>
+  <script>
+    // Time-math toggle (vs writer / vs DIY chat)
+    document.querySelectorAll('.tm-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const key = tab.getAttribute('data-tm');
+        document.querySelectorAll('.tm-tab').forEach((t) => t.classList.toggle('active', t === tab));
+        document.querySelectorAll('.tm-panel').forEach((p) => p.classList.toggle('hide', p.getAttribute('data-tm') !== key));
+      });
+    });
+  </script>
 </Base>
