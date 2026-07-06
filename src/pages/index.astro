@@ -115,7 +115,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         <ul class="ticks">
           <li>We'll find the skills and credentials you left off — you confirm each one, in your words</li>
           <li>Aiming at a specific role? We'll point your experience toward it (targeted build)</li>
-          <li>Turns government, military, and trade terms into language the hiring side recognizes</li>
+          <li>Turns government, military, and trade terms into language the hiring side recognizes — <a href="#military">see a real translation</a></li>
           <li>See for yourself how the screening software reads your resume</li>
         </ul>
         <a class="btn btn-primary" href="#pricing">See pricing &amp; get started →</a>
@@ -153,6 +153,44 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         </table>
       </div>
       <p class="muted small" style="margin-top:12px">Cost ranges are typical figures for each category, for comparison — not quotes from specific companies. "~" means it depends on the tool. We never promise an outcome.</p>
+    </div>
+  </section>
+
+  <!-- ===== THE HONEST CHATBOT QUESTION ===== -->
+  <section id="vs-chat" class="section">
+    <div class="container" style="max-width:820px">
+      <p class="eyebrow">The honest question</p>
+      <h2>"Can't I just ask a chatbot to do this?"</h2>
+      <p class="lede">
+        You can ask — and you'll get something plausible-looking back. The difference isn't the asking.
+        It's the <b>verification</b>.
+      </p>
+      <ul class="ticks">
+        <li><b>Chat output is unverified.</b> It reads well, but nothing checks it — you'd have to audit every line yourself, and honestly, nobody does that in a chat window.</li>
+        <li><b>Here, every line is enforced.</b> Our system traces each line back to something you confirmed, asks before it ever lists a credential, and flags anything it can't source — before you ever see the resume.</li>
+        <li><b>You stay the author.</b> One finding at a time, your original words quoted back, edit or skip anything — so the resume you send is one you can defend in the interview.</li>
+      </ul>
+      <p><a href={appUrl + '/?demo'}>Watch the verification work on a sample review →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== MILITARY / GOVERNMENT TRANSLATION PROOF ===== -->
+  <section id="military" class="section alt">
+    <div class="container" style="max-width:820px">
+      <p class="eyebrow">Military &amp; government transitions</p>
+      <h2>Your record is strong. Its language is the problem.</h2>
+      <p class="lede">
+        Civilian screening software has never heard of an AMAL block, an NCOER, or a property book.
+        We translate what you actually did into the words the hiring side searches for — and you approve every line.
+      </p>
+      <div class="beforeafter">
+        <div class="ba-row"><span class="ba-tag">Your resume says</span>
+          <p>"Maintained AMAL blocks and surgical instrument sets"</p></div>
+        <div class="ba-row after"><span class="ba-tag">Translated — same truth, their words</span>
+          <p>"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — to hospital SPD standards."</p></div>
+      </div>
+      <p class="muted small">Sample translation — generic profile, no real service member shown.</p>
+      <p><a href={appUrl + '/?demo=military'}>See the full military sample review — no sign-up →</a></p>
     </div>
   </section>
 
@@ -297,6 +335,14 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .dz-main { display: block; font-weight: 700; font-size: 1.1rem; margin: 6px 0 2px; }
     .dz-sub { display: block; font-size: .9rem; }
     .reoffer { font-size: .95rem; }
+
+    /* military before/after */
+    .beforeafter { display: grid; gap: 12px; margin: 18px 0 10px; }
+    .ba-row { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
+    .ba-row.after { border-color: #7fb08a; background: #f3faf4; }
+    .ba-tag { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .ba-row.after .ba-tag { color: #2f7a45; }
+    .ba-row p { margin: 0; font-size: 1rem; }
 
     .legalnote { text-align: center; }
     .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
