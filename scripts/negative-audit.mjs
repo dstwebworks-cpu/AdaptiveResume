@@ -27,24 +27,48 @@ const APP_EXPECTED_DENIALS = (path, status) =>
 const EXPECTED_404_HOSTS = ["www.adaptiveresume.com", "adaptiveresume.com"];
 
 // ---- patterns that should never (ERROR) or probably shouldn't (WARN) appear in a rendered page ----
+// Expanded 07/09 from FTC-enforcement research (Career Step $43.5M 2025: inflated
+// placement/partnership claims targeting servicemembers — our military segment's
+// exact risk surface) + AI-slop vocabulary lists. Add new rules here; both CI halves
+// and the pre-deploy run pick them up automatically.
 const TEXT_RULES = [
+  // -- stale build artifacts --
   { sev: "ERROR", name: "retired brand", re: /resume\s?value/i },
   { sev: "ERROR", name: "placeholder domain", re: /resumevalue\.example|example\.com\/(?!$)/i },
   { sev: "ERROR", name: "unfilled placeholder bracket", re: /\[(LEGAL ENTITY|TBD|TODO|placeholder|your (name|domain))/i },
   { sev: "ERROR", name: "lorem ipsum", re: /lorem ipsum/i },
   { sev: "ERROR", name: "template leak", re: /\{\{[^}]{1,60}\}\}|\$\{[a-zA-Z_][^}]{0,40}\}/ },
   { sev: "ERROR", name: "accented resume (banned spelling)", re: /r[eé]sum[eé]s?/, only: (t) => /résumé|resumé|résume/i.test(t) },
+  { sev: "WARN", name: "old price point", re: /\$(39|99)(?![\d.])/ },
+
+  // -- FTC-tier claims (career services are an ACTIVE 2025 enforcement target) --
+  { sev: "ERROR", name: "FTC: placement/hiring claim", re: /(?<!not a )(?<!not a )\bjob[- ]placement\b|\bplacement (rate|guarantee)|\bwe(’|'| wi)ll (get|find) you (a job|hired)\b/i },
+  { sev: "ERROR", name: "FTC: employer-partnership claim", re: /\b(employer|hiring) partner(s|ships?)\b/i },
+  { sev: "ERROR", name: "FTC: earnings claim", re: /\b(earn (up to|\$)|salary (boost|increase|bump) of|double your (salary|income)|\$\d+[kK]? (more|raise))\b/i },
+  { sev: "ERROR", name: "FTC: implied endorsement", re: /\b(VA|DoD|DOD|government|military|SHRM|OPM)[- ](approved|endorsed|certified|official)\b/i },
+  { sev: "ERROR", name: "FTC: unsubstantiated stat", re: /\b\d+%\s*(success|placement|hire|interview)|\b\d+x (more|the) interviews?\b|\bdouble your interviews\b/i },
+  { sev: "ERROR", name: "FTC: absolute promise", re: /\b(100% (guaranteed?|success|satisfaction)|risk[- ]free|never fails?|always works)\b/i },
+  { sev: "ERROR", name: "superlative rank claim", re: /\b(#1|number one|best resume (tool|service|builder|site)|award[- ]winning|world[- ]class|industry[- ]leading)\b/i },
+  { sev: "ERROR", name: "ATS-gaming claim (contradicts honesty positioning)", re: /\b(beat|trick|game|fool|bypass|cheat|outsmart)(ing)? the (ats|system|screening|filters?|algorithm)|ats[- ]proof\b/i },
+
+  // -- venture voice rules (locked founder decisions) --
   { sev: "WARN", name: "banned jargon: the engine", re: /\bthe engine\b/i },
   { sev: "WARN", name: "banned jargon: reverse-inference", re: /reverse[- ]inference/i },
   { sev: "WARN", name: "banned jargon: scrape", re: /\bscrap(e|ing|ed)\b/i },
   { sev: "WARN", name: "banned tone: last resort", re: /\blast resort\b/i },
   { sev: "WARN", name: "outcome promise", re: /\b(get (you )?hired|land (the|your|a) (job|interview|offer)|guaranteed? (a )?(job|interview|offer)|dream job)\b/i },
   { sev: "WARN", name: "guarantee wording (review context)", re: /\bguarantee[ds]?\b/i },
+  { sev: "WARN", name: "fixed-duration promise (no-false-timelines rule)", re: /\b(in (just )?\d+ ?(minutes?|seconds?|hours?)\b|within \d+ ?(minutes?|hours?)\b|same[- ]day (resume|delivery))/i },
+  { sev: "WARN", name: "nothing-free posture", re: /\b(free trial|try (it )?free|freemium)\b/i },
   { sev: "WARN", name: "coming soon", re: /\bcoming soon\b/i },
   { sev: "WARN", name: "tool-speak: fabricat*", re: /fabricat(e|ion|ed)/i },
   // true emoji/clipart only — typographic marks (checks/stars/arrows) are design elements
   { sev: "WARN", name: "emoji in copy", re: /[\u{1F300}-\u{1FAFF}]/u },
-  { sev: "WARN", name: "old price point", re: /\$(39|99)(?![\d.])/ },
+
+  // -- AI-slop vocabulary (statistical machine-tells; founder voice is the brand) --
+  { sev: "WARN", name: "AI-slop verb", re: /\b(delve|unleash|supercharge|turbocharge|revolutioni[sz]e|empower(ing)?|elevate your|unlock your (potential|career)|harness the)\b/i },
+  { sev: "WARN", name: "AI-slop adjective", re: /\b(seamless(ly)?|cutting[- ]edge|state[- ]of[- ]the[- ]art|best[- ]in[- ]class|unparalleled|transformative|game[- ]chang(er|ing)|holistic|robust|paradigm|multifaceted|tapestry)\b/i },
+  { sev: "WARN", name: "AI-slop opener/cliché", re: /\b(in today('|’)s (fast[- ]paced|digital|competitive|ever[- ]changing)|look no further|it('|’)s worth noting|navigating the .{0,20}landscape|stand out from the crowd|take your career to the next level|journey to success)\b/i },
 ];
 // comments that leak internal/legal chatter into page source
 const COMMENT_RE = /<!--([\s\S]*?)-->/g;
@@ -101,8 +125,9 @@ async function auditSurface(name, base, seeds, crawl) {
     if (!ct.includes("html")) { pages.set(clean, { html: body, ids: new Set() }); continue; }
     pages.set(clean, { html: body, ids: idsIn(body) });
 
-    // text rules on visible text; brand/domain rules also on raw (meta/href)
-    const visible = stripTags(body);
+    // text rules on visible text (whitespace collapsed so source line-wraps can't
+    // split a phrase past a rule's context guard); brand/domain rules also on raw
+    const visible = stripTags(body).replace(/\s+/g, " ");
     for (const rule of TEXT_RULES) {
       const hay = ["retired brand", "placeholder domain", "old price point"].includes(rule.name) ? body : visible;
       if (rule.only && !rule.only(hay)) continue;
