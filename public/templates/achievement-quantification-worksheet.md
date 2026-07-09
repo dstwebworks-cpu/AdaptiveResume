@@ -1,5 +1,5 @@
 # Achievement-Quantification Worksheet
-### A free worksheet from ResumeValue
+### A free worksheet from AdaptiveResume
 
 > Find REAL numbers for your work. Honest estimates ("~", "about") are fine. Invented exact figures are not.
 
@@ -26,4 +26,4 @@ Keep it qualitative but specific — what you did and why it mattered:
 - [ ] No false precision, no invented metrics
 
 ---
-Want this done with you? Our build flags where a real number would help and asks you to supply it. $49 one-time · resumevalue.example
+Want this done with you? Our build flags where a real number would help and asks you to supply it. $49 one-time · AdaptiveResume.example

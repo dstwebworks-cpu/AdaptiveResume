@@ -1,5 +1,5 @@
 # ATS-Readability Checklist
-### A free pre-flight from ResumeValue
+### A free pre-flight from AdaptiveResume
 
 > Goal: make sure software reads your resume CLEANLY. (No tool can promise you'll "pass" a specific employer — that's keywords + their settings.)
 
@@ -26,4 +26,4 @@
 - [ ] I could paste this resume into plain text and it still makes sense in order
 
 ---
-Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · resumevalue.example
+Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · AdaptiveResume.example

@@ -1,5 +1,5 @@
 # Role-by-Role Skills Checklist
-### A free worksheet from ResumeValue
+### A free worksheet from AdaptiveResume
 
 > Check off only what's genuinely true for you. The goal is to FIND skills you forgot — never to pad.
 
@@ -35,4 +35,4 @@ List every distinct thing you handle in a typical day:
 - [ ] Nothing here is padding
 
 ---
-Want this done with you? Our base build proposes role-relevant skills and asks you to confirm each one. $49 one-time · resumevalue.example
+Want this done with you? Our base build proposes role-relevant skills and asks you to confirm each one. $49 one-time · AdaptiveResume.example
