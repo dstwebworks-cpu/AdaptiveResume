@@ -1,5 +1,5 @@
 # GS-to-Private Translation Checklist
-### A free worksheet from ResumeValue
+### A free worksheet from AdaptiveResume
 
 > Translate your federal experience for private-sector hiring. Keep every fact true.
 
@@ -40,4 +40,4 @@
 - [ ] Translated to the nearest true equivalent — no inflation
 
 ---
-Want this done with you, toward a specific private role? Targeted build, $149 one-time · resumevalue.example
+Want this done with you, toward a specific private role? Targeted build, $149 one-time · AdaptiveResume.example

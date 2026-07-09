@@ -1,5 +1,5 @@
 # Outplacement Resume QA Checklist
-### A free checklist from ResumeValue (for outplacement & transition teams)
+### A free checklist from AdaptiveResume (for outplacement & transition teams)
 
 > Consistent, honest quality across a whole cohort — at layoff scale.
 
@@ -22,4 +22,4 @@
 
 ---
 Enrich a whole cohort honestly, without hand-building every resume.
-See ResumeValue for organizations · /business
+See AdaptiveResume for organizations · /business

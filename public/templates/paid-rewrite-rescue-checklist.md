@@ -26,4 +26,4 @@ Count your KEEP lines against your FIX + MISSING lines.
 - Mostly MISSING: the service reformatted instead of rewriting. Stop chasing; rebuild from your real experience.
 
 ## 5. If you rebuild with us
-Upload the paid draft as your starting point at resumevalue.example. We find what it left out, you confirm every item before it appears, and any line you don't like gets redone from your note. Nothing made up. Targeted build, $149 one-time.
+Upload the paid draft as your starting point at AdaptiveResume.example. We find what it left out, you confirm every item before it appears, and any line you don't like gets redone from your note. Nothing made up. Targeted build, $149 one-time.

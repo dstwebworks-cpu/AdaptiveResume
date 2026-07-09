@@ -1,5 +1,5 @@
 # Transferable-Skills Inventory
-### A free worksheet from ResumeValue
+### A free worksheet from AdaptiveResume
 
 > Pull your real skills out of your old job and map them to the new one. Keep it honest.
 
@@ -36,4 +36,4 @@ Skills the role needs that you don't have yet (name them — growth area or go e
 - [ ] Gaps named, not hidden
 
 ---
-Want this done with you, toward a specific new field? Targeted build, $149 one-time · resumevalue.example
+Want this done with you, toward a specific new field? Targeted build, $149 one-time · AdaptiveResume.example

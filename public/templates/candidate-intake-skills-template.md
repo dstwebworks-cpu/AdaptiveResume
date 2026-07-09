@@ -1,5 +1,5 @@
 # Candidate-Intake Skills Template
-### A free template from ResumeValue (for staffing & recruiting teams)
+### A free template from AdaptiveResume (for staffing & recruiting teams)
 
 > Capture honest inputs at intake so resume enrichment has something real to work with.
 
@@ -26,4 +26,4 @@
 
 ---
 Enrich candidate resumes in bulk — honestly, with a human on every credential.
-See ResumeValue for organizations · /business
+See AdaptiveResume for organizations · /business

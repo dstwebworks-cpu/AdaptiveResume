@@ -1,5 +1,5 @@
 # Participant Skills-Documentation Template
-### A free template from ResumeValue (for workforce boards & job centers)
+### A free template from AdaptiveResume (for workforce boards & job centers)
 
 > Help participants document skills they already have — accurately, with the participant as the author.
 
@@ -29,4 +29,4 @@ Prompt by role; record only what the participant confirms:
 
 ---
 Document existing skills at program scale, honestly.
-See ResumeValue for organizations · /business
+See AdaptiveResume for organizations · /business
