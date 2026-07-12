@@ -10,7 +10,7 @@ const buyers = [
   'Government workforce programs',
 ];
 const steps = [
-  { n: '1', h: 'Upload a roster', p: 'A CSV of candidates, or a batch of resume files — a batch of ten or a full roster, same pipeline. What comes back depends on what you send (see below). No per-seat setup fee.' },
+  { n: '1', h: 'Send us your batch', p: 'A batch of resume files or a CSV of candidates — ten or a full roster. During your pilot we handle intake for you under a signed data-processing agreement, over a secure channel; self-serve bulk upload is in active build. No per-seat setup fee.' },
   { n: '2', h: 'We fill in the gaps', p: 'Working backwards from each person\'s experience, we find the skills, standards, and training their role really involved — across a wide range of occupations.' },
   { n: '3', h: 'Your team reviews', p: 'Per-candidate results; low-confidence items and anything credential-like are held for your review, never claimed on their own. You sign off on what goes out under your name.' },
   { n: '4', h: 'Export', p: 'Per-candidate and org-level reports, plus ATS-clean resumes where you supplied the file — export as PDF, DOCX, or CSV/JSON for your ATS.' },
@@ -26,7 +26,7 @@ const steps = [
       <div>
         <p class="eyebrow">For organizations</p>
         <h1>Enrich every candidate's qualifications — at scale.</h1>
-        <p class="lede">Your people earned qualifications they never put on paper. Upload a roster; we find the standards, certs, tools, and training each role really involved — and flag anything credential-like for sign-off, so nothing is made up. You pay per enriched candidate, processed in bulk.</p>
+        <p class="lede">Your people earned qualifications they never put on paper. Send us your candidates; we find the standards, certs, tools, and training each role really involved — and flag anything credential-like for <b>your reviewer's</b> sign-off, so nothing is made up. You pay per enriched candidate.</p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#quote">Request a quote</a>
           <a class="btn btn-ghost btn-lg" href="#how-bulk">See how it works</a>
@@ -75,7 +75,7 @@ const steps = [
       <div class="grid cols-3">
         <div class="card"><h3>Integrity at scale</h3><p>We never put a credential on a resume on our own. Anything that looks like a formal certification goes to your reviewer's queue to confirm first — nothing made up.</p></div>
         <div class="card"><h3>Finds what's implied</h3><p>The standards and training a role really involves (IATF, OSHA/LOTO, CLIA, NEC, MOS→civilian translation) that generic resume tools never name.</p></div>
-        <div class="card"><h3>Bulk now, API planned</h3><p>Hand-upload a roster today. An API to POST a batch and get enriched, integrity-checked results back by webhook — straight into your own ATS — is on the roadmap.</p></div>
+        <div class="card"><h3>Honest build status</h3><p>Today: your reviewers work every candidate in our review queue, and we handle batch intake for you under a data-processing agreement. In active build: self-serve bulk upload with an itemized intake manifest. On the roadmap: API/webhook delivery into your own ATS. We will always tell you which is which.</p></div>
       </div>
     </div>
   </section>
@@ -112,7 +112,7 @@ const steps = [
 
       <div class="grid cols-2" style="margin-top:34px">
         <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unchecked under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
-        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With AdaptiveResume</h3><p>Upload a roster → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + reports. Your team spends its time reviewing, not retyping — and nothing is made up.</p></div>
+        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With AdaptiveResume</h3><p>Send your batch → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + a per-candidate review audit report. Your team spends its time reviewing, not retyping — and nothing is made up.</p></div>
       </div>
     </div>
   </section>
@@ -131,8 +131,7 @@ const steps = [
           <li>Paid pilots, fully credited against your first contract</li>
           <li>The same promise as our consumer product — nothing made up</li>
         </ul>
-        <a class="btn btn-primary btn-lg" href="mailto:dammule@gmail.com?subject=AdaptiveResume%20—%20commercial%20inquiry">Request a quote →</a>
-        <p class="muted small">Interim contact while we finalize the entity: dammule@gmail.com</p>
+        <a class="btn btn-primary btn-lg" href="mailto:support@adaptiveresume.com?subject=AdaptiveResume%20—%20commercial%20inquiry">Request a quote →</a>
       </div>
       <div class="card tiers">
         <h3>Volume tiers</h3>
