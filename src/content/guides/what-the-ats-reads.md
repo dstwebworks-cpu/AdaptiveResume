@@ -44,6 +44,6 @@ Parsers and recruiters search for the words in the job description. Use the real
 
 ## See what the bots see
 
-The most reassuring step is to check the parse yourself. That's exactly what our build does at the end — we run your finished resume back through a parser and show you what a machine extracts, so you can confirm it reads cleanly before you ever apply.
+The most reassuring step is to see it for yourself. That's how our build ends — we run the checks screening software cares about on your finished resume and show you each one, so you know it reads cleanly before you ever apply.
 
-The **ATS-Readability Checklist** below is a quick pre-flight for your current resume. When you want it handled for you — clean output plus the parser check — our base build does it in minutes.
+The **ATS-Readability Checklist** below is a quick pre-flight for your current resume. When you want it handled for you — a clean resume, checked against what screening software looks for — our base build does it in minutes.

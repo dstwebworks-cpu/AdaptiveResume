@@ -52,4 +52,4 @@ Two practical things:
 
 For the step-by-step on formatting and keywords, read **[Will Your Resume Pass the ATS? What Screening Software Actually Reads](/guides/what-the-ats-reads)**. And grab the cheat-sheet below for a one-page summary you can keep next to you while you apply.
 
-When you want it handled for you, our build produces a clean, ATS-readable resume and then **shows you exactly what an ATS extracts** from it — so you can see it reads correctly before you ever apply.
+When you want it handled for you, our build creates a clean resume that screening software reads without stumbling — and **shows you the checks it passed**, so you're not left guessing before you apply.
