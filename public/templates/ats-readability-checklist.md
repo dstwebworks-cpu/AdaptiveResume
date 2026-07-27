@@ -26,4 +26,4 @@
 - [ ] I could paste this resume into plain text and it still makes sense in order
 
 ---
-Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · AdaptiveResume.example
+Want this checked for you? Our build runs the checks screening software cares about on your finished resume and shows you each one. $49 one-time · adaptiveresume.com

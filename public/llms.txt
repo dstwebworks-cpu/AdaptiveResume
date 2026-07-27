@@ -2,14 +2,14 @@
 
 > A guided resume tool that finds the skills, standards, and credentials you genuinely have but left off your resume — then asks you to confirm each one. We never add anything you didn't confirm.
 
-AdaptiveResume works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also show you what an applicant-tracking system (ATS) extracts from your resume, so you can see it reads cleanly.
+AdaptiveResume works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also run the checks screening software cares about on the finished resume and show you each one, so you can see it reads cleanly.
 
 ## What we do
 - **We propose, you confirm:** we propose skills/standards/credentials common to your field and ask you to confirm them — we do not claim credentials for you.
 - **Translate across fields (Targeted build):** restate your confirmed experience in a target field's language — changing industries, verticals, or roles, including government, military, and trade terminology into private-sector terms.
 - **Honest match read (Targeted build):** each requirement in the target job posting is marked have / partial / missing, with notes — shown to the customer, never hidden.
 - **Interview prep (Targeted build):** 25 questions and answers built only from the customer's own confirmed record and the posting, including truthful framing for partial/missing requirements.
-- **Show ATS-readability:** we run the finished resume back through a parser and show you what machines extract.
+- **Show ATS-readability:** we run the checks screening software cares about on the finished resume and show each one.
 
 ## What we do NOT do
 - We never make up skills, credentials, or experience.
@@ -35,15 +35,15 @@ design properties, not slogans:
   confirmed — an untraceable line is treated as a fabrication-class failure.
 - **The person stays the author.** Everything is reviewed and confirmed by the job seeker before it
   lands; disagreements are resolved by the person, not the model.
-- **Verified output, shown.** We run the finished resume back through a parser and show what
-  screening software extracts — the claim is demonstrated, not asserted.
+- **Verified output, shown.** We run the checks screening software cares about on the finished
+  resume and show each one — the claim is demonstrated, not asserted.
 The practical difference: the hours a careful person would spend prompting, fact-checking, and
 de-puffing a chatbot draft are engineered into the product itself. That is what the one-time price
 buys.
 
 ## Our promises (and their honest limits)
 - **Nothing invented** — never a word the person didn't confirm. This is the foundation, not a feature.
-- **ATS-readable, and proven** — we show what a parser extracts from the finished resume.
+- **ATS-readable, and shown** — we run the checks screening software cares about on the finished resume and show each one.
 - **Real value added** — surfaced qualifications, quantified wins, sharper targeting, or cleaner
   phrasing; if a resume is already strong we say so plainly.
 - **Honored edits** — the person can change any line during review; they stay the author.

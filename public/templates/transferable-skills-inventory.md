@@ -36,4 +36,4 @@ Skills the role needs that you don't have yet (name them — growth area or go e
 - [ ] Gaps named, not hidden
 
 ---
-Want this done with you, toward a specific new field? Targeted build, $149 one-time · AdaptiveResume.example
+Want this done with you, toward a specific new field? Targeted build, $149 one-time · adaptiveresume.com

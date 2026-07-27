@@ -40,4 +40,4 @@
 - [ ] Translated to the nearest true equivalent — no inflation
 
 ---
-Want this done with you, toward a specific private role? Targeted build, $149 one-time · AdaptiveResume.example
+Want this done with you, toward a specific private role? Targeted build, $149 one-time · adaptiveresume.com

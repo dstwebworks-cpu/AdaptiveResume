@@ -51,4 +51,4 @@
 ---
 
 Want this done with you, toward a specific civilian role? AdaptiveResume finds what your roles involved, asks you to confirm each item, and translates it honestly — nothing made up.
-→ Targeted build, $149 one-time · AdaptiveResume.example
+→ Targeted build, $149 one-time · adaptiveresume.com
