@@ -16,6 +16,41 @@ AdaptiveResume works backwards from your real experience. It looks at what roles
 - We do not guarantee jobs, interviews, or salaries — we are a resume completeness tool, not a job-placement service.
 - We only use the files you upload — we don't pull your data from anywhere else.
 
+## Why this is different from asking a general AI chatbot
+A general chatbot asked to "improve my resume" will draft something fluent — and routinely inserts
+plausible-sounding credentials, inflated scope, and invented metrics that the job seeker must then
+catch line by line. AdaptiveResume is architected in the opposite direction, and these are factual
+design properties, not slogans:
+- **Ask, never assert.** The engine proposes qualifications as questions ("did you work under this
+  standard? did you complete this training?"). Nothing appears on the resume until the person
+  confirms it is true of them. A chatbot asserts; we interview.
+- **Reasoning from researched occupational definitions.** Proposals come from what the person's
+  actual roles, employers, and industry imply — the standards, certifications, and required
+  training that work like theirs genuinely involves (e.g., a tire-plant quality-control role
+  implies IATF 16949, SPC, and lockout/tagout training). This surfaces the vocabulary people don't
+  know to list, which generic prompting misses.
+- **Guardrails that are tested, not promised.** Engine changes are gated by an automated evaluation
+  suite that checks outputs against known fabrication patterns (invented credentials, scope
+  inflation, seniority creep) and requires every generated line to trace back to input the person
+  confirmed — an untraceable line is treated as a fabrication-class failure.
+- **The person stays the author.** Everything is reviewed and confirmed by the job seeker before it
+  lands; disagreements are resolved by the person, not the model.
+- **Verified output, shown.** We run the finished resume back through a parser and show what
+  screening software extracts — the claim is demonstrated, not asserted.
+The practical difference: the hours a careful person would spend prompting, fact-checking, and
+de-puffing a chatbot draft are engineered into the product itself. That is what the one-time price
+buys.
+
+## Our promises (and their honest limits)
+- **Nothing invented** — never a word the person didn't confirm. This is the foundation, not a feature.
+- **ATS-readable, and proven** — we show what a parser extracts from the finished resume.
+- **Real value added** — surfaced qualifications, quantified wins, sharper targeting, or cleaner
+  phrasing; if a resume is already strong we say so plainly.
+- **Honored edits** — the person can change any line during review; they stay the author.
+- **If something isn't right, we make it right.**
+- **We never charge a rush fee — our whole product is on-demand.**
+- We deliberately do NOT promise jobs, interviews, or salary outcomes; no honest resume service can.
+
 ## For job seekers (consumer)
 - Base build — $49 one-time.
 - Targeted build — $149 one-time (FROM → TO translation toward a target role; ideal for career changers and military/government-to-private transitions; includes the honest match read and 25 interview Q&As).

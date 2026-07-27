@@ -59,7 +59,7 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
       </div>
 
       <p class="reoffer muted">
-        Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> or <a href="#demo">watch the 90-second walkthrough</a> — no upload, no account.
+        Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> — no upload, no account.
       </p>
     </div>
   </section>
@@ -89,21 +89,11 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     </div>
   </section>
 
-  <!-- ===== DEMO / VIDEO ===== -->
-  <section id="demo" class="section">
-    <div class="container demo-grid">
-      <div>
-        <p class="eyebrow">See it work first</p>
-        <h2>Watch a real run before you spend a dime.</h2>
-        <p class="lede">A 90-second walkthrough on a sample profile — how we dig in together to find what someone left off, ask before anything goes on the page, and check it reads cleanly for the bots <em>and</em> the humans.</p>
-        <a class="btn btn-primary" href="#get-started">Try it on your own resume →</a>
-      </div>
-      <div class="video-ph" role="img" aria-label="Product walkthrough video placeholder">
-        <button class="play" aria-label="Play the 90-second walkthrough">▶</button>
-        <span>[ 90-second walkthrough video — placeholder ]</span>
-      </div>
-    </div>
-  </section>
+  <!-- VIDEO SECTION REMOVED 07/25/2026 (TODO A3: no placeholder until the real cut exists — a
+       promise broken on-page converts worse than absence). When the founder video ships, restore a
+       "See it work first" section here (id="demo", click-to-play per the LOCKED 06/17 decision —
+       never autoplay, never background). The .video-ph / .play styles are retained in the <style>
+       block below for that return. Also re-add the "watch the walkthrough" link in .reoffer above. -->
 
   <!-- ===== FOR JOB SEEKERS ===== -->
   <section id="job-seekers" class="section alt">
@@ -135,23 +125,24 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
           <thead>
             <tr>
               <th>What matters</th>
+              <th class="us">AdaptiveResume</th>
               <th>Template builders</th>
               <th>AI generators</th>
               <th>Human writers</th>
-              <th class="us">AdaptiveResume</th>
             </tr>
           </thead>
           <tbody>
-            <tr><th>Works backwards from your real experience</th><td class="x">✗</td><td class="p">~</td><td class="c">✓</td><td class="us c">✓</td></tr>
-            <tr><th>Finds what you left off — and makes you confirm each item</th><td class="x">✗</td><td class="p">~</td><td class="c">✓</td><td class="us c">✓</td></tr>
-            <tr><th>Won't make anything up</th><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="us c">✓</td></tr>
-            <tr><th>You approve every line</th><td class="c">✓</td><td class="x">✗</td><td class="p">~</td><td class="us c">✓</td></tr>
-            <tr><th>Shows what the ATS actually extracts</th><td class="x">✗</td><td class="p">~</td><td class="x">✗</td><td class="us c">✓</td></tr>
-            <tr><th>Translates across fields (military / gov / industry)</th><td class="x">✗</td><td class="p">~</td><td class="c">✓</td><td class="us c">✓</td></tr>
-            <tr><th>Typical cost</th><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td><td class="us">$49–$149<br /><span class="sub">one-time</span></td></tr>
+            <tr><th>Works backwards from your real experience</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>
+            <tr><th>Finds what you left off — and makes you confirm each item</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>
+            <tr><th>Won't make anything up</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td></tr>
+            <tr><th>You approve every line</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">~</td></tr>
+            <tr><th>Shows what the ATS actually extracts</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="x">✗</td></tr>
+            <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>
+            <tr><th>Typical cost</th><td class="us">$49–$149<br /><span class="sub">one-time</span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
           </tbody>
         </table>
       </div>
+      <p class="scroll-hint" aria-hidden="true">Slide the table to see the other tools →</p>
       <p class="muted small" style="margin-top:12px">Cost ranges are typical figures for each category, for comparison — not quotes from specific companies. "~" means it depends on the tool. We never promise an outcome.</p>
     </div>
   </section>
@@ -367,6 +358,11 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .compare .x { color: #b42318; font-weight: 800; font-size: 1.05rem; }
     .compare .p { color: var(--muted); font-weight: 800; }
     .compare .sub { font-size: .76rem; color: var(--muted); font-weight: 400; }
+    @media (max-width: 719px) {
+      .compare { min-width: 560px; }
+      .compare th, .compare td { padding: 10px 10px; font-size: .88rem; }
+      .compare thead th { font-size: .84rem; }
+    }
     .small { font-size: .85rem; }
 
     /* commercial banner */
