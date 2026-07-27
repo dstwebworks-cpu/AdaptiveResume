@@ -13,7 +13,7 @@ Software companies use to **parse, store, search, and track** job applications. 
 | Myth | Fact |
 |------|------|
 | "Robots auto-reject 75% of resumes" | Unsubstantiated. Most ATS store & sort; humans still review. |
-| "You have to trick the ATS" | No — you just need it to READ your resume cleanly and find real keywords. |
+| "There are secret ATS hacks" | No — you just need it to READ your resume cleanly and find real keywords. |
 | "One resume works everywhere" | Lightly tailor keywords per posting — honestly. |
 
 ## Do
