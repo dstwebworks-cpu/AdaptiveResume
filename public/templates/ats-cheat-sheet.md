@@ -30,4 +30,4 @@ Software companies use to **parse, store, search, and track** job applications. 
 No tool can promise you'll "pass" a specific employer's ATS. You CAN make your resume read cleanly and tell the truth well — that's the whole game.
 
 ---
-Want the parser check done for you? Our build shows you exactly what an ATS extracts from your finished resume. $49 one-time · AdaptiveResume.example
+Want this checked for you? Our build runs the checks screening software cares about on your finished resume and shows you each one. $49 one-time · adaptiveresume.com

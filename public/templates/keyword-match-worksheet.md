@@ -30,4 +30,4 @@ List the recurring tools, skills, certs, methods, and title language:
 - [ ] The resume reads the same in an interview as on the page
 
 ---
-Want this done with you, toward a target role? Targeted build, $149 one-time · AdaptiveResume.example
+Want this done with you, toward a target role? Targeted build, $149 one-time · adaptiveresume.com
