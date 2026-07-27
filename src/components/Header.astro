@@ -27,7 +27,7 @@ const links = [
     </nav>
 
     {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary cta-desktop" href="/#get-started">{LAUNCHED ? 'Get started' : 'Get early access'}</a>
+    <a class="btn btn-primary cta-desktop" href="/#get-started">{LAUNCHED ? 'Get started' : 'Join the list'}</a>
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -37,7 +37,7 @@ const links = [
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
     {links.map((l) => <a href={l.href}>{l.label}</a>)}
     {LAUNCHED && <a href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary" href="/#get-started">{LAUNCHED ? 'Get started' : 'Get early access'}</a>
+    <a class="btn btn-primary" href="/#get-started">{LAUNCHED ? 'Get started' : 'Join the list'}</a>
   </nav>
 </header>
 
