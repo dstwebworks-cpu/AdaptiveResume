@@ -1,7 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
-// The product app (separate deploy) — set PUBLIC_APP_URL at build in production.
-const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
+// Pre-launch (default): app CTAs become email capture — set PUBLIC_LAUNCHED=1 at
+// build to flip the site live. Prod builds default to the real app origin so a
+// forgotten env var can never ship localhost links again (07/27 audit finding).
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s back here
 ---
 <Base
   title="AdaptiveResume — you've earned more than your resume shows"
@@ -21,7 +26,9 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         </p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-          <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
+          {LAUNCHED
+            ? <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
+            : <a class="btn btn-ghost btn-lg" href="#get-started">Opening this fall — be first in line</a>}
         </div>
         <ul class="pills">
           <li class="pill">✓ Nothing made up</li>
@@ -53,14 +60,29 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
       <h2>Let's see what you've been leaving off.</h2>
       <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
 
-      <div class="start-cta">
-        <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
-        <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
-      </div>
-
-      <p class="reoffer muted">
-        Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> — no upload, no account.
-      </p>
+      {LAUNCHED ? (
+        <>
+          <div class="start-cta">
+            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+            <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
+          </div>
+          <p class="reoffer muted">
+            Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> — no upload, no account.
+          </p>
+        </>
+      ) : (
+        <div class="start-cta" id="capture">
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="site-hero" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+          </form>
+          <p class="start-alt muted">We open this fall. One email when the doors open — you'll be first in line. That's the whole list.</p>
+          <p class="capture-done hide" id="captureDone">You're on the list. One email when we open — that's it.</p>
+          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+        </div>
+      )}
     </div>
   </section>
 
@@ -161,7 +183,9 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
         <li><b>Here, every line is enforced.</b> Our system traces each line back to something you confirmed, asks before it ever lists a credential, and flags anything it can't source — before you ever see the resume.</li>
         <li><b>You stay the author.</b> One finding at a time, your original words quoted back, edit or skip anything — so the resume you send is one you can defend in the interview.</li>
       </ul>
-      <p><a href={appUrl + '/?demo'}>Watch the verification work on a sample review →</a></p>
+      <p>{LAUNCHED
+        ? <a href={appUrl + '/?demo'}>Watch the verification work on a sample review →</a>
+        : <a href="#get-started">See it when we open — join the list →</a>}</p>
 
       <!-- ===== THE TIME MATH (toggle: vs writer / vs DIY chat) ===== -->
       <div class="timemath">
@@ -232,7 +256,9 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
           <p>"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — to hospital SPD standards."</p></div>
       </div>
       <p class="muted small">Sample translation — generic profile, no real service member shown.</p>
-      <p><a href={appUrl + '/?demo=military'}>See the full military sample review — no sign-up →</a></p>
+      <p>{LAUNCHED
+        ? <a href={appUrl + '/?demo=military'}>See the full military sample review — no sign-up →</a>
+        : <a href="#get-started">The full military sample opens with the doors — join the list →</a>}</p>
     </div>
   </section>
 
@@ -374,6 +400,12 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .start-cta { margin: 20px 0 6px; }
     .start-alt { margin-top: 12px; font-size: .95rem; }
     .start-alt a { font-weight: 700; }
+    /* Pre-launch capture: one row on desktop, stacks on mobile (mobile-first rule). */
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: 1rem;
+      border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
+    .capture-done, .capture-err { margin-top: 12px; font-weight: 700; }
+    .capture-done.hide, .capture-err.hide { display: none; }
     .start { max-width: 720px; text-align: center; }
     .start .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
     .dropzone { display: block; cursor: pointer; border: 2px dashed #9fb0c4; border-radius: var(--radius); background: var(--card); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s, box-shadow .15s; }
@@ -411,6 +443,18 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
     .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
   </style>
   <script>
+    // Pre-launch capture: returning from POST /waitlist with ?joined=1|err — show
+    // the outcome in place of / under the form. No-JS visitors still landed on
+    // #get-started via the 303, so nothing depends on this running.
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) {
+      const done = document.getElementById('captureDone');
+      const err = document.getElementById('captureErr');
+      const form = document.querySelector('.capture-form');
+      if (joined === '1' && done) { done.classList.remove('hide'); if (form instanceof HTMLElement) form.style.display = 'none'; }
+      else if (err) { err.classList.remove('hide'); }
+    }
+
     // Time-math toggle (vs writer / vs DIY chat)
     document.querySelectorAll('.tm-tab').forEach((tab) => {
       tab.addEventListener('click', () => {

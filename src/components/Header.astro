@@ -1,8 +1,12 @@
 ---
 // Nav links resolve to real pages / on-page anchors (M1).
-// appUrl = the product app (separate deploy). Set PUBLIC_APP_URL at build time in
-// production (e.g. https://app.adaptiveresume.com); localhost default for dev.
-const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'http://localhost:5173';
+// Pre-launch (default): app CTAs become email capture — set PUBLIC_LAUNCHED=1 at
+// build to flip the site live. appUrl = the product app (separate deploy); prod
+// builds default to the real app origin so a forgotten env var can never ship
+// localhost links again (the 07/27 audit finding).
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
 const links = [
   { href: '/#job-seekers', label: 'For job seekers' },
   { href: '/business', label: 'For organizations' },
@@ -22,8 +26,8 @@ const links = [
       {links.map((l) => <a href={l.href}>{l.label}</a>)}
     </nav>
 
-    <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>
-    <a class="btn btn-primary cta-desktop" href="/#get-started">Get started</a>
+    {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
+    <a class="btn btn-primary cta-desktop" href="/#get-started">{LAUNCHED ? 'Get started' : 'Get early access'}</a>
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -32,8 +36,8 @@ const links = [
 
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
     {links.map((l) => <a href={l.href}>{l.label}</a>)}
-    <a href={appUrl + '/login'}>Sign in</a>
-    <a class="btn btn-primary" href="/#get-started">Get started</a>
+    {LAUNCHED && <a href={appUrl + '/login'}>Sign in</a>}
+    <a class="btn btn-primary" href="/#get-started">{LAUNCHED ? 'Get started' : 'Get early access'}</a>
   </nav>
 </header>
 
