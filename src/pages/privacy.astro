@@ -130,23 +130,26 @@ import Base from '../layouts/Base.astro';
         </p>
 
         <h2>How long we keep things</h2>
-        {/* ATTORNEY: all four retention windows below are PROPOSED, not yet operating history.
-             Please confirm each is appropriate before publication. */}
+        {/* Founder rulings 07/27/2026 (claims-audit row 13): (1) approved as written — shipped
+             behavior is stricter (original files are never stored; working text lives at most
+             7 days inside the draft, within the stated 30-day ceiling); (2) approved + now
+             ENFORCED in code (periodic sweep, rb-app drafts.ts purgeStaleDrafts, not just
+             delete-on-read); (3) 12-month auto-deletion REJECTED as not making sense — resumes
+             stay on the profile, deletable on demand (rb-app deleteDeliverables, owner-scoped);
+             (4) approved. */}
         <ul>
           <li>
-            <strong>Uploaded source files</strong> (your original resumes and LinkedIn PDF) are
+            <strong>Uploaded source files</strong> (your original resumes and LinkedIn export) are
             deleted after your build completes — 30 days at the most.
-            {/* ATTORNEY: confirm the 30-day maximum for source uploads. */}
           </li>
           <li>
             <strong>In-progress review drafts</strong> auto-delete after 7 days if a build isn't
             completed.
-            {/* ATTORNEY: confirm the 7-day auto-delete for abandoned drafts. */}
           </li>
           <li>
-            <strong>Finished resumes</strong> are stored for 12 months so you can re-download them,
-            then deleted with notice to you.
-            {/* ATTORNEY: confirm the 12-month window and the notice-before-deletion mechanism. */}
+            <strong>Finished resumes</strong> stay in your account so they're there when you need
+            them — delete any of them on demand from your files, or delete your account and
+            they're removed with it.
           </li>
           <li>
             <strong>Purchase and build records</strong> are kept for 7 years for tax and accounting
