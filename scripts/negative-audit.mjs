@@ -34,7 +34,9 @@ const EXPECTED_404_HOSTS = ["www.adaptiveresume.com", "adaptiveresume.com"];
 const TEXT_RULES = [
   // -- stale build artifacts --
   { sev: "ERROR", name: "retired brand", re: /resume\s?value/i },
-  { sev: "ERROR", name: "placeholder domain", re: /resumevalue\.example|example\.com\/(?!$)/i },
+  // ANY .example host — resume-builder.example shipped in robots.txt through the old
+  // brand-specific pattern (07/27, audit row 19).
+  { sev: "ERROR", name: "placeholder domain", re: /[a-z0-9-]+\.example\b|example\.com\/(?!$)/i },
   { sev: "ERROR", name: "unfilled placeholder bracket", re: /\[(LEGAL ENTITY|TBD|TODO|placeholder|your (name|domain))/i },
   { sev: "ERROR", name: "lorem ipsum", re: /lorem ipsum/i },
   { sev: "ERROR", name: "template leak", re: /\{\{[^}]{1,60}\}\}|\$\{[a-zA-Z_][^}]{0,40}\}/ },
@@ -122,7 +124,17 @@ async function auditSurface(name, base, seeds, crawl) {
     }
     const ct = r.headers.get("content-type") ?? "";
     const body = await r.text();
-    if (!ct.includes("html")) { pages.set(clean, { html: body, ids: new Set() }); continue; }
+    if (!ct.includes("html")) {
+      // Non-HTML surfaces (robots.txt, llms.txt, downloadable .md templates) carry
+      // brand/domain promises too — .example in robots.txt shipped through this gap
+      // (07/27). Raw-body scan, same rules.
+      for (const rule of TEXT_RULES) {
+        if (rule.only && !rule.only(body)) continue;
+        const m = body.match(rule.re);
+        if (m) add(rule.sev, name, clean, rule.name, `"...${body.slice(Math.max(0, m.index - 40), m.index + 60).replace(/\s+/g, " ").trim()}..."`);
+      }
+      pages.set(clean, { html: body, ids: new Set() }); continue;
+    }
     pages.set(clean, { html: body, ids: idsIn(body) });
 
     // text rules on visible text (whitespace collapsed so source line-wraps can't
@@ -153,7 +165,7 @@ async function auditSurface(name, base, seeds, crawl) {
       }
       if (/^https?:\/\//i.test(link)) {
         if (link.startsWith(base)) { const p = link.slice(base.length) || "/"; if (crawl && !seen.has(p.split("#")[0])) queue.push(p); }
-        else if (link.startsWith("http://localhost")) add("WARN", name, clean, "cross-localhost link", `${link} (verify env swap at deploy)`);
+        else if (link.startsWith("http://localhost")) add("ERROR", name, clean, "cross-localhost link", `${link} — localhost must never ship (07/27: every live CTA pointed here; WARN did not stop it)`);
         else external.add(link);
         continue;
       }
@@ -178,7 +190,7 @@ async function auditSurface(name, base, seeds, crawl) {
   return { external, pageCount: pages.size };
 }
 
-const site = RUN_SITE ? await auditSurface("site", SITE, ["/"], true) : { external: new Set(), pageCount: 0 };
+const site = RUN_SITE ? await auditSurface("site", SITE, ["/", "/robots.txt", "/llms.txt"], true) : { external: new Set(), pageCount: 0 };
 const app = RUN_APP ? await auditSurface("app", APP, APP_ROUTES, false) : { external: new Set(), pageCount: 0 };
 
 // external links: existence check, gentle (GET, timeout, each once). Bare origins

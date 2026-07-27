@@ -9,6 +9,11 @@ export async function getStaticPaths() {
 
 const { guide, all } = Astro.props;
 const { Content } = await render(guide);
+// Template gate posts to the app's waitlist (plain form POST, 303s back here with
+// ?joined=1 and the download unlocked). Prod default = real app origin (07/27 rule).
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
 const segLabel = guide.data.segment === 'organizations' ? 'For organizations' : 'For job seekers';
 // same-segment guides first, then the rest — so no guide is a dead end
 const related = all
@@ -34,13 +39,17 @@ const related = all
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free template</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Tell us where to reach you and the download unlocks right here.</p>
-        <form class="gate" novalidate>
-          <input type="email" required placeholder="you@email.com" aria-label="Email address" />
+        <p class="muted">Pop your email in and the download unlocks right here. You'll also get one email when AdaptiveResume goes live — that's the whole list.</p>
+        <form class="gate" method="post" action={waitlistAction}>
+          <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+          <input type="hidden" name="source" value={'guide-' + guide.id} />
+          <input type="hidden" name="redirect" value={'/guides/' + guide.id + '/'} />
+          <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" />
           <button class="btn btn-primary" type="submit">Unlock the template</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download: {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>Thanks — your download is ready below.</p>
+        <p class="gate-note muted" hidden>Thanks — you're on the launch list, and your download is ready below.</p>
+        <p class="gate-err muted" hidden>That email didn't look right — mind trying it again?</p>
       </div>
 
       <!-- conversion CTA -->
@@ -66,22 +75,20 @@ const related = all
   </article>
 
   <script>
-    // Prototype gate: reveal the download on email submit. NOT WIRED: no list, no consent
-    // capture, no email is actually stored or sent — the copy above deliberately promises
-    // nothing beyond the unlock. Wire the backend (list + consent + SPF/DKIM) BEFORE deploy;
-    // see TODO launch-readiness gaps.
-    document.querySelectorAll('.giveaway').forEach((box) => {
+    // WIRED 07/27 (audit row 20): the form POSTs to the app's /waitlist (stored with
+    // source=guide-<slug>) and 303s back here with ?joined=1#giveaway — this script
+    // just reveals the outcome. The old prototype validated locally and discarded
+    // the email; that class of fake capture is over.
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) document.querySelectorAll('.giveaway').forEach((box) => {
       const form = box.querySelector('.gate');
-      const dl = box.querySelector('.dl');
-      const note = box.querySelector('.gate-note');
-      form?.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const email = form.querySelector('input');
-        if (!email || !email.value || !email.value.includes('@')) { email?.focus(); return; }
-        form.setAttribute('hidden', '');
-        dl?.removeAttribute('hidden');
-        note?.removeAttribute('hidden');
-      });
+      if (joined === '1') {
+        form?.setAttribute('hidden', '');
+        box.querySelector('.dl')?.removeAttribute('hidden');
+        box.querySelector('.gate-note')?.removeAttribute('hidden');
+      } else {
+        box.querySelector('.gate-err')?.removeAttribute('hidden');
+      }
     });
   </script>
 
