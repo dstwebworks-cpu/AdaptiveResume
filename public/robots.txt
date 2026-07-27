@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.resume-builder.example/sitemap-index.xml
+Sitemap: https://adaptiveresume.com/sitemap-index.xml
