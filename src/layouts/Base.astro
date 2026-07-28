@@ -38,6 +38,11 @@ const ogImage = Astro.site ? new URL('/img/social-card-1200x628.png', Astro.site
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <script is:inline>
+      // Returning from a form POST (?joined= / ?quoted=): jump straight to the
+      // confirmation instead of smooth-animating the whole page down to it.
+      if (/[?&](joined|quoted)=/.test(location.search)) document.documentElement.style.scrollBehavior = 'auto';
+    </script>
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="628" />
@@ -51,5 +56,16 @@ const ogImage = Astro.site ? new URL('/img/social-card-1200x628.png', Astro.site
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Instant feedback on any capture form: the POST->303 round trip takes a
+      // moment, and a silent button reads as broken.
+      addEventListener('submit', (e) => {
+        const f = e.target;
+        if (f instanceof HTMLFormElement && f.method.toLowerCase() === 'post') {
+          const b = f.querySelector('button[type="submit"]');
+          if (b) { b.disabled = true; b.textContent = 'One moment…'; }
+        }
+      });
+    </script>
   </body>
 </html>
