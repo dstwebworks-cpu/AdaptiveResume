@@ -1,6 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 
+// Quote requests post to the app like the consumer waitlist does (07/28) —
+// structured capture instead of a mailto that fails on webmail-only machines.
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const quoteAction = appUrl + '/quote';
+
 const buyers = [
   'Staffing & recruiting agencies',
   'Outplacement firms',
@@ -132,7 +138,47 @@ const steps = [
           <li>Paid pilots, fully credited against your first contract</li>
           <li>The same promise as our consumer product — nothing made up</li>
         </ul>
-        <a class="btn btn-primary btn-lg" href="mailto:support@adaptiveresume.com?subject=AdaptiveResume%20—%20commercial%20inquiry">Request a quote →</a>
+        <form class="quote-form" method="post" action={quoteAction} id="quoteForm">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+          <input type="hidden" name="source" value="business-quote" />
+          <div class="quote-fields">
+            <label>
+              <span>Your organization</span>
+              <select name="org_type" required>
+                <option value="" disabled selected>Choose one</option>
+                <option>Staffing or recruiting agency</option>
+                <option>Outplacement or career-transition firm</option>
+                <option>Workforce board or government program</option>
+                <option>Veteran or reentry program</option>
+                <option>Community college or career center</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <span>Candidates per month, roughly</span>
+              <select name="monthly_volume" required>
+                <option value="" disabled selected>Choose one</option>
+                <option>Under 25</option>
+                <option>25–100</option>
+                <option>100–500</option>
+                <option>500+</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span>Work email</span>
+            <input type="email" name="email" required placeholder="you@yourorganization.com" />
+          </label>
+          <label>
+            <span>Anything we should know? <em class="muted">(optional)</em></span>
+            <textarea name="note" rows="3" maxlength="2000" placeholder="Timeline, batch size, what you'd want a pilot to prove — whatever helps us size it right."></textarea>
+          </label>
+          <button class="btn btn-primary btn-lg" type="submit">Request a quote →</button>
+        </form>
+        <p class="quote-done hide" id="quoteDone">Got it — your request is in. We'll follow up by email to size your quote.</p>
+        <p class="quote-err hide" id="quoteErr">That email didn't look right — mind trying it again?</p>
+        <p class="muted small" style="margin-top:10px">Prefer plain email? <a href="mailto:support@adaptiveresume.com?subject=AdaptiveResume%20—%20commercial%20inquiry">support@adaptiveresume.com</a> works too.</p>
       </div>
       <div class="card tiers">
         <h3>Volume tiers</h3>
@@ -187,5 +233,33 @@ const steps = [
 
     .cta-band { text-align: center; max-width: 720px; }
     .cta-band .lede { margin: 0 auto 18px; max-width: 54ch; }
+
+    .quote-form { display: grid; gap: 14px; margin-top: 18px; max-width: 560px; }
+    .quote-fields { display: grid; gap: 14px; }
+    @media (min-width: 640px) { .quote-fields { grid-template-columns: 1fr 1fr; } }
+    .quote-form label { display: grid; gap: 6px; font-weight: 600; color: var(--ink-soft); }
+    .quote-form label span { font-size: .9rem; }
+    .quote-form select, .quote-form input[type="email"], .quote-form textarea {
+      font: inherit; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px;
+      background: var(--card); color: var(--ink); width: 100%;
+    }
+    .quote-form textarea { resize: vertical; }
+    .quote-form button { justify-self: start; }
+    .quote-done { font-weight: 700; color: var(--true); margin-top: 16px; }
+    .quote-err { font-weight: 600; color: #b4232c; margin-top: 16px; }
+    .hide { display: none; }
   </style>
+
+  <script>
+    // Returning from POST /quote with ?quoted=1|err — show the outcome in place
+    // (same pattern as the homepage waitlist capture).
+    const quoted = new URLSearchParams(location.search).get('quoted');
+    if (quoted) {
+      const form = document.getElementById('quoteForm');
+      const done = document.getElementById('quoteDone');
+      const err = document.getElementById('quoteErr');
+      if (quoted === '1' && done) { done.classList.remove('hide'); if (form instanceof HTMLElement) form.style.display = 'none'; }
+      if (quoted === 'err' && err) err.classList.remove('hide');
+    }
+  </script>
 </Base>
