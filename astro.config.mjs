@@ -10,7 +10,9 @@ import sitemap from '@astrojs/sitemap';
 const onWindows = process.platform === 'win32';
 
 export default defineConfig({
-  site: 'https://www.adaptiveresume.com',
+  // Non-www is the canonical host: the live site (Render + Cloudflare) serves
+  // adaptiveresume.com and 301s www -> non-www; robots.txt already points here.
+  site: 'https://adaptiveresume.com',
   integrations: [sitemap()],
   ...(onWindows ? {
     outDir: 'C:/Users/dammu/AppData/Local/Temp/rb-dist',
