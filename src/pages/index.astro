@@ -322,10 +322,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
   </section>
 
   <!-- ===== LEGAL NOTE ===== -->
-  <section id="legal" class="section">
+  <section id="legal" class="section legal-strip">
     <div class="container legalnote">
       <p class="muted">
-        <b>How we work:</b> nothing made up · ATS-readable · real value added · your edits honored.
+        <b>How we work:</b> no hallucinations · ATS-readable · real value added · your edits honored.
         Read the full <a href="/terms">Terms of Service</a>, <a href="/privacy">Privacy Policy</a>, and
         <a href="/disclaimer">Disclaimer</a>.
       </p>
@@ -451,6 +451,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .ba-row.after .ba-tag { color: #2f7a45; }
     .ba-row p { margin: 0; font-size: 1rem; }
 
+    /* founder 07/28: dead air around the strip — 50px less above, 30px less below (was 74/74) */
+    .legal-strip { padding: 24px 0 44px; }
     .legalnote { text-align: center; }
     .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
   </style>
