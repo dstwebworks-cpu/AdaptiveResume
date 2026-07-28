@@ -42,16 +42,16 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <div class="demo-head"><span class="dot"></span> Here's what we'd find — you tell us what's yours</div>
           <ul>
             <li>
-              <span class="from">Your resume says: "Showed 12 new people how we do things"</span>
-              <span class="add">+ Trained 12 new hires on standard work procedures <span class="conf">you confirm</span></span>
+              <span class="from"><b class="lbl">Your resume says:</b> "Showed 12 new people how we do things"</span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">you confirm</span></span>
             </li>
             <li>
-              <span class="from">Your resume says: "Locked out machines before repairs"</span>
-              <span class="add">+ OSHA lockout/tagout (LOTO) safety compliance <span class="conf">you confirm</span></span>
+              <span class="from"><b class="lbl">Your resume says:</b> "Locked out machines before repairs"</span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">you confirm</span></span>
             </li>
             <li>
-              <span class="from">Your resume says: "Counted the warehouse every month"</span>
-              <span class="add">+ Monthly inventory control and cycle counts <span class="conf">you confirm</span></span>
+              <span class="from"><b class="lbl">Your resume says:</b> "Counted the warehouse every month"</span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">you confirm</span></span>
             </li>
             <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">we ask, you decide</span></li>
           </ul>
@@ -350,9 +350,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
     .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
     .demo-card li.ask { display: flex; justify-content: space-between; gap: 12px; }
-    /* one text size in-card (locked rule) — hierarchy by color only */
+    /* one text size in-card (locked rule) — hierarchy by color/weight only */
     .demo-card .from { display: block; color: #8fa3cf; }
     .demo-card .add { display: block; color: #c9f7d8; }
+    .demo-card .lbl { font-weight: 700; }
     .demo-card .conf { color: #9fb3e0; font-size: .8rem; white-space: nowrap; }
     .demo-card li.ask span:first-child { color: #ffe1a8; }
     .covcap { font-size: .8rem; color: #9fb3e0; margin: 4px 0 0; }
