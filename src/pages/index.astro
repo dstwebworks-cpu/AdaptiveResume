@@ -41,12 +41,21 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="demo-card">
           <div class="demo-head"><span class="dot"></span> Here's what we'd find — you tell us what's yours</div>
           <ul>
-            <li><span class="add">+ Trained and onboarded new hires</span> <span class="conf">you confirm</span></li>
-            <li><span class="add">+ Required safety &amp; compliance training (OSHA, HIPAA…)</span> <span class="conf">you confirm</span></li>
-            <li><span class="add">+ Standard operating procedures (SOPs) — wrote &amp; followed</span> <span class="conf">you confirm</span></li>
-            <li class="ask"><span>CPR / First Aid / AED — currently certified?</span> <span class="conf">we ask, you decide</span></li>
+            <li>
+              <span class="from">Your resume says: "Trained new people"</span>
+              <span class="add">+ Trained 12 new hires — safety basics, sign-offs, and checklists <span class="conf">you confirm</span></span>
+            </li>
+            <li>
+              <span class="from">Your resume says: "Followed safety rules"</span>
+              <span class="add">+ OSHA safety training — lockout/tagout, protective equipment <span class="conf">you confirm</span></span>
+            </li>
+            <li>
+              <span class="from">Your resume says: "Counted inventory"</span>
+              <span class="add">+ Inventory control — counts, records, and audits <span class="conf">you confirm</span></span>
+            </li>
+            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">we ask, you decide</span></li>
           </ul>
-          <p class="covcap">A full review walks you through everything it finds — you confirm each line, in your own words.</p>
+          <p class="covcap">Same work — in the words employers search for. You confirm every line before it goes on.</p>
         </div>
         <p class="cap">Sample data — generic profile, no real employer shown.</p>
       </div>
@@ -339,8 +348,11 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .demo-head { font-size: .82rem; letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
     .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
-    .demo-card li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
-    .demo-card .add { color: #c9f7d8; }
+    .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
+    .demo-card li.ask { display: flex; justify-content: space-between; gap: 12px; }
+    /* one text size in-card (locked rule) — hierarchy by color only */
+    .demo-card .from { display: block; color: #8fa3cf; }
+    .demo-card .add { display: block; color: #c9f7d8; }
     .demo-card .conf { color: #9fb3e0; font-size: .8rem; white-space: nowrap; }
     .demo-card li.ask span:first-child { color: #ffe1a8; }
     .covcap { font-size: .8rem; color: #9fb3e0; margin: 4px 0 0; }
