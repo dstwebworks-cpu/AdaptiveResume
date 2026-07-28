@@ -57,10 +57,10 @@ p { margin: 0 0 1rem; }
 .muted { color: var(--muted); }
 
 /* amber keyline under section titles — adds rhythm + brand warmth (pop) */
-.section > .container > h2::after { content: ""; display: block; width: 56px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, #d97706, var(--accent-strong)); margin-top: 14px; }
+/* decorative h2 underline bar REMOVED 07/28 (founder QA screenshots): left-anchored bar floated as a stray dash under centered headings and crowded the step badges. */
 
 /* inline highlighter for one key word in a heading — warm, hand-marked feel */
-.hl { background: linear-gradient(180deg, transparent 58%, rgba(245,158,11,.38) 58%); border-radius: 3px; padding: 0 2px; }
+.hl { color: var(--accent-strong); } /* was a background highlight blob — founder QA 07/28: read as a misplaced smear behind the word */
 
 /* layout — sections alternate soft ↔ white card-surface for depth */
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
