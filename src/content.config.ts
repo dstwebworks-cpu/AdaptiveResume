@@ -13,6 +13,10 @@ const guides = defineCollection({
     keyword: z.string(),
     giveaway: z.object({ name: z.string(), file: z.string() }),
     cta: z.object({ label: z.string(), href: z.string() }),
+    // Dates are honest: pubDate = first day this guide was publicly served (site went
+    // live 07/26/2026); updatedDate only when content changed after that (git history).
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
     order: z.number().default(0),
     draft: z.boolean().default(false),
   }),

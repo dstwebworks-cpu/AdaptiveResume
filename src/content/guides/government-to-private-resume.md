@@ -10,6 +10,7 @@ giveaway:
 cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
+pubDate: 2026-07-26
 order: 2
 draft: false
 ---
