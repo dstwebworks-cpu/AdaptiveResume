@@ -26,3 +26,6 @@ jobs:
           npx astro preview --port 4321 &
           for i in $(seq 1 30); do curl -sf http://localhost:4321/ >/dev/null && break; sleep 1; done
           node scripts/negative-audit.mjs --site-only --skip-external
+      - name: IndexNow ping (main pushes only — tell Bing/Yandex/etc. what changed)
+        if: github.event_name == 'push'
+        run: node scripts/indexnow-ping.mjs

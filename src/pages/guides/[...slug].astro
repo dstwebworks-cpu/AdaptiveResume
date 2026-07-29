@@ -15,6 +15,24 @@ const appUrl = import.meta.env.PUBLIC_APP_URL
   ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
 const waitlistAction = appUrl + '/waitlist';
 const segLabel = guide.data.segment === 'organizations' ? 'For organizations' : 'For job seekers';
+// Article structured data (SEO audit chunk, 07/29). UTC getters — coerced dates are
+// UTC midnight and local getters would shift the shown day in US timezones.
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const fmtDate = (d: Date) => `${String(d.getUTCMonth() + 1).padStart(2, '0')}/${String(d.getUTCDate()).padStart(2, '0')}/${d.getUTCFullYear()}`;
+const pub = guide.data.pubDate;
+const upd = guide.data.updatedDate;
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: guide.data.title,
+  description: guide.data.description,
+  datePublished: pub.toISOString().slice(0, 10),
+  dateModified: (upd ?? pub).toISOString().slice(0, 10),
+  image: new URL('/img/social-card-1200x628.png', site).href,
+  author: { '@type': 'Organization', name: 'AdaptiveResume' },
+  publisher: { '@type': 'Organization', name: 'AdaptiveResume' },
+  mainEntityOfPage: new URL(`/guides/${guide.id}/`, site).href,
+};
 // same-segment guides first, then the rest — so no guide is a dead end
 const related = all
   .filter((g) => g.id !== guide.id)
@@ -30,6 +48,8 @@ const related = all
       <p class="eyebrow"><a href="/guides">Guides</a> · {segLabel}</p>
       <h1>{guide.data.title}</h1>
       <p class="lede">{guide.data.description}</p>
+      <p class="muted dateline">Published {fmtDate(pub)}{upd && ` · Updated ${fmtDate(upd)}`}</p>
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
 
       <div class="prose">
         <Content />
@@ -94,6 +114,7 @@ const related = all
 
   <style>
     .container.narrow { max-width: 760px; }
+    .dateline { font-size: .85rem; margin-top: -8px; }
     .prose { font-size: 1.06rem; color: var(--ink-soft); }
     .prose :global(h2) { margin-top: 1.7em; color: var(--ink); }
     .prose :global(h3) { margin-top: 1.3em; color: var(--ink); }

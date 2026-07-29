@@ -10,6 +10,7 @@ giveaway:
 cta:
   label: "Fix it with a targeted build — $149"
   href: "/fix"
+pubDate: 2026-07-26
 order: 7.5
 draft: false
 ---

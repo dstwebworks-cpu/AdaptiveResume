@@ -10,6 +10,7 @@ giveaway:
 cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"
+pubDate: 2026-07-26
 order: 8
 draft: false
 ---
