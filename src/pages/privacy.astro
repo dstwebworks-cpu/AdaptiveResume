@@ -175,19 +175,86 @@ import Base from '../layouts/Base.astro';
           respond within the time the law requires.
         </p>
 
-        <h2>No ads, no tracking, no sale</h2>
+        <h2>Analytics, ads, and selling data</h2>
         <p>
-          We do not sell personal information. We do not use third-party advertising or third-party
-          tracking. We do not use your data for cross-context behavioral advertising.
+          We do not sell personal information, and we do not use your data for cross-context
+          behavioral advertising.
         </p>
-        {/* ATTORNEY: first-party conversion analytics is planned (no third-party trackers).
-             Please advise whether a cookie/consent banner is required for that configuration
-             given the U.S.-focused audience. */}
+        <p>
+          We use Google Analytics on our public marketing pages — the pages anyone can browse
+          before signing in — to understand how people find us, which guides actually help, and
+          whether the ads we run are worth what we pay for them. It's set up for measurement
+          only: ad-personalization signals are turned off, and we don't build advertising
+          profiles of you.
+        </p>
+        <p>
+          <strong>Analytics stops at sign-in.</strong> There is no analytics tracking inside the
+          product. Your resume work happens in private — we don't watch, measure, or profile it.
+        </p>
+
+        <h2 id="your-privacy-choices">Your privacy choices</h2>
+        <p>
+          You can turn analytics off for this browser any time — no account needed, no questions
+          asked:
+        </p>
+        <p>
+          <button type="button" id="analytics-optout" class="optout-btn">Turn analytics off in this browser</button>
+          <span id="analytics-optout-status" class="optout-status" role="status"></span>
+        </p>
+        <p>
+          We also honor the <a href="https://globalprivacycontrol.org/" rel="noopener">Global
+          Privacy Control</a> signal automatically: if your browser sends it, analytics never
+          loads at all.
+        </p>
+        {/* ATTORNEY: GA4 added 07/30/2026 on marketing pages only (none inside the signed-in
+             app), measurement-only configuration (Google Signals / ads personalization OFF;
+             conversion measurement linked to Google Ads). Voluntary opt-out toggle + GPC signal
+             honored above. Please advise: (1) whether a cookie/consent banner is required for
+             this configuration given the U.S.-focused audience; (2) whether this section plus
+             the footer "Your Privacy Choices" link satisfies notice-at-collection placement. */}
+        <script is:inline>
+          (function () {
+            var KEY = 'ar-analytics-optout';
+            var btn = document.getElementById('analytics-optout');
+            var status = document.getElementById('analytics-optout-status');
+            function render() {
+              var off = localStorage.getItem(KEY) === '1';
+              btn.textContent = off ? 'Turn analytics back on' : 'Turn analytics off in this browser';
+              status.textContent = off
+                ? 'Done — analytics is off in this browser.'
+                : (navigator.globalPrivacyControl
+                    ? 'Your browser sends Global Privacy Control, so analytics is already off.'
+                    : '');
+            }
+            btn.addEventListener('click', function () {
+              var off = localStorage.getItem(KEY) === '1';
+              if (off) {
+                localStorage.removeItem(KEY);
+                if (window.__arGaDisableKey) window[window.__arGaDisableKey] = false;
+              } else {
+                localStorage.setItem(KEY, '1');
+                if (window.__arGaDisableKey) window[window.__arGaDisableKey] = true;
+              }
+              render();
+            });
+            render();
+          })();
+        </script>
+        <style>
+          .optout-btn {
+            font: inherit; font-weight: 600; color: var(--ink);
+            background: var(--surface); border: 1px solid var(--line);
+            border-radius: 8px; padding: 10px 16px; cursor: pointer;
+          }
+          .optout-btn:hover { border-color: var(--ink-soft); }
+          .optout-status { margin-left: 10px; color: var(--muted); font-size: .95rem; }
+        </style>
 
         <h2>Cookies</h2>
         <p>
-          We use essential cookies for sign-in and security. That's it today. If that changes,
-          this policy will be updated first.
+          We use essential cookies for sign-in and security, and Google Analytics cookies to
+          measure site usage (described above). That's it today. If that changes, this policy
+          will be updated first.
         </p>
 
         <h2>Children</h2>
