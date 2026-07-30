@@ -12,6 +12,11 @@ const {
   description = 'A guided resume tool that finds the skills, standards, and credentials you genuinely have but left off — and asks you to confirm each one. Nothing made up. No guaranteed outcomes.',
 } = Astro.props;
 
+// GA4 measurement ID — empty string disables the tag entirely (nothing renders).
+// Measurement-only per privacy policy: allow_google_signals stays false; do not
+// enable ads personalization without updating /privacy first.
+const GA_ID = 'G-H7K2RZW0N7';
+
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
 const ogImage = Astro.site ? new URL('/img/social-card-1200x628.png', Astro.site).href : '/img/social-card-1200x628.png';
 // Site-wide structured data (SEO audit chunk, 07/29). Claims kept minimal and true —
@@ -58,6 +63,30 @@ const siteLd = [
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={ogImage} />
     <script type="application/ld+json" is:inline set:html={JSON.stringify(siteLd)} />
+    {GA_ID && import.meta.env.PROD && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+        <script is:inline define:vars={{ GA_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          // Opt-out before anything loads: the privacy-page toggle (localStorage)
+          // or the browser's Global Privacy Control signal — either keeps GA off.
+          window.__arGaDisableKey = 'ga-disable-' + GA_ID;
+          if (localStorage.getItem('ar-analytics-optout') === '1' || navigator.globalPrivacyControl) {
+            window[window.__arGaDisableKey] = true;
+          }
+          gtag('js', new Date());
+          gtag('config', GA_ID, { allow_google_signals: false });
+          // The capture forms 303 back with ?joined= / ?quoted= — that's the
+          // conversion moment. sessionStorage keeps a refresh from double-counting.
+          var m = location.search.match(/[?&](joined|quoted)=/);
+          if (m && !sessionStorage.getItem('ga-conv-' + m[1])) {
+            sessionStorage.setItem('ga-conv-' + m[1], '1');
+            gtag('event', m[1] === 'joined' ? 'sign_up' : 'generate_lead');
+          }
+        </script>
+      </>
+    )}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
