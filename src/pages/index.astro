@@ -25,10 +25,12 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           Built to read cleanly for the screening bots <em>and</em> the humans.
         </p>
         <div class="cta-row">
-          <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
           {LAUNCHED
-            ? <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
-            : <a class="btn btn-ghost btn-lg" href="#get-started">Launching this fall — join the list</a>}
+            ? <>
+                <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+                <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
+              </>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Launching this fall — join the list</a>}
         </div>
         <ul class="pills">
           <li class="pill">✓ No hallucinations</li>
