@@ -87,3 +87,5 @@ You are welcome here — this site and our app are built to be read, parsed, and
 
 ## Contact
 support: support@adaptiveresume.com
+
+- official LinkedIn: https://www.linkedin.com/company/adaptiveresume

@@ -6,6 +6,10 @@ const year = new Date().getFullYear();
     <div class="brandcol">
       <div class="brand"><span class="mark" aria-hidden="true">AR</span><span>Adaptive<span style="color:var(--accent)">Resume</span></span></div>
       <p class="muted">The skills you already earned, finally on the page — and a clear look at how they read. We never add anything you don't confirm.</p>
+      <a class="social" href="https://www.linkedin.com/company/adaptiveresume" rel="me noopener" target="_blank" aria-label="AdaptiveResume on LinkedIn">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        LinkedIn
+      </a>
     </div>
 
     <nav aria-label="Product">
@@ -52,6 +56,8 @@ const year = new Date().getFullYear();
   .site-footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
   .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-bottom: 9px; }
   .site-footer nav a:hover { color: var(--ink); }
+  .social { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-top: 4px; }
+  .social:hover { color: var(--ink); }
   .how { list-style: none; padding: 0; margin: 0; }
   .how li { color: var(--ink-soft); font-size: .95rem; margin-bottom: 9px; padding-left: 20px; position: relative; }
   .how li::before { content: "✓"; position: absolute; left: 0; color: var(--true); font-weight: 800; }

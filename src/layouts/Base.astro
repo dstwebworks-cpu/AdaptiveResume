@@ -20,12 +20,14 @@ const GA_ID = 'G-H7K2RZW0N7';
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
 const ogImage = Astro.site ? new URL('/img/social-card-1200x628.png', Astro.site).href : '/img/social-card-1200x628.png';
 // Site-wide structured data (SEO audit chunk, 07/29). Claims kept minimal and true —
-// no aggregate ratings, no fabricated sameAs profiles (add social URLs when handles exist).
+// no aggregate ratings; sameAs lists only profiles that actually exist (LinkedIn added
+// 08/06; X/YouTube join when those handles are claimed).
 const siteUrl = Astro.site?.href ?? 'https://adaptiveresume.com/';
 const siteLd = [
   { '@context': 'https://schema.org', '@type': 'Organization', name: 'AdaptiveResume', url: siteUrl,
     logo: new URL('/img/social-card-1200x1200.png', siteUrl).href,
-    email: 'support@adaptiveresume.com' },
+    email: 'support@adaptiveresume.com',
+    sameAs: ['https://www.linkedin.com/company/adaptiveresume'] },
   { '@context': 'https://schema.org', '@type': 'WebSite', name: 'AdaptiveResume', url: siteUrl },
 ];
 ---
