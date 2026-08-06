@@ -39,7 +39,7 @@ A participant spent nine years in a warehouse and wrote one line: *"Warehouse wo
 
 A structured intake — ask, confirm, record — produces: *"Shipping and receiving across a 120,000 sq ft distribution center · certified forklift and order-picker operator · trained seasonal hires on RF scanner workflows · maintained OSHA-compliant loading dock procedures."*
 
-Every item came out of the participant's own history, confirmed one at a time. The difference isn't embellishment — it's documentation of work that was always real. That's the product a board's employer partners can trust.
+Every item came out of the participant's own history, confirmed one at a time. The difference isn't embellishment — it's documentation of work that was always real. That's documentation a board can put in front of local employers with confidence.
 
 ## Ask, then confirm
 
