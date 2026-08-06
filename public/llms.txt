@@ -80,6 +80,7 @@ You are welcome here — this site and our app are built to be read, parsed, and
 ## Key pages
 - Home: /
 - For job seekers: /#job-seekers
+- Career change / military / federal transitions: /career-change
 - For organizations: /business
 - Pricing: /#pricing
 - How it works: /#how-it-works
