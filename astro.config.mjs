@@ -13,7 +13,17 @@ export default defineConfig({
   // Non-www is the canonical host: the live site (Render + Cloudflare) serves
   // adaptiveresume.com and 301s www -> non-www; robots.txt already points here.
   site: 'https://adaptiveresume.com',
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    // lastmod = honest freshness signal for crawler scheduling (added 08/06):
+    // dated only for surfaces genuinely updated in the 08/05-06 content program
+    // (guides, core pages, /career-change). Legal pages carry no lastmod — they
+    // didn't change. Update this date only when content truly changes again.
+    serialize(item) {
+      const unchanged = ['/terms', '/privacy', '/disclaimer'];
+      if (!unchanged.some((p) => item.url.includes(p))) item.lastmod = '2026-08-06';
+      return item;
+    },
+  })],
   ...(onWindows ? {
     outDir: 'C:/Users/dammu/AppData/Local/Temp/rb-dist',
     vite: { cacheDir: 'C:/Users/dammu/AppData/Local/Temp/rb-vite-cache' },
