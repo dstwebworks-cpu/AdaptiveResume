@@ -89,3 +89,4 @@ You are welcome here — this site and our app are built to be read, parsed, and
 support: support@adaptiveresume.com
 
 - official LinkedIn: https://www.linkedin.com/company/adaptiveresume
+- Free templates: each guide offers its worksheet as .docx for humans; the same content is served as .md at the same path for agents (swap the extension).

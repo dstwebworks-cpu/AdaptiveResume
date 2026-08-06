@@ -6,7 +6,7 @@ audience: "Data analysts, reporting analysts, and career-changers moving into an
 keyword: "data analyst resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

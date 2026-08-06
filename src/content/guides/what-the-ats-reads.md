@@ -1,12 +1,14 @@
 ---
 title: "Will Your Resume Pass the ATS? What Screening Software Actually Reads"
 description: "Most resumes are read by software before a human sees them. Here's what an applicant-tracking system extracts, why good resumes get garbled, and how to make yours read cleanly."
+seoTitle: "ATS Resume Checks: What Screening Software Reads"
+seoDescription: "What ATS software extracts from your resume, why good resumes get garbled, and how to make yours read cleanly before a human ever sees it."
 segment: "job-seekers"
 audience: "Anyone applying online through company career portals"
 keyword: "ats resume"
 giveaway:
   name: "ATS-Readability Checklist"
-  file: "/templates/ats-readability-checklist.md"
+  file: "/templates/ats-readability-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

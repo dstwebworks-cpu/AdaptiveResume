@@ -1,12 +1,13 @@
 ---
 title: "How to Translate Military Experience (MOS) into a Civilian Resume"
 description: "A step-by-step way to turn your MOS, rank, and duties into civilian language a recruiter and an ATS actually understand — without inflating anything."
+seoTitle: "Military to Civilian Resume: MOS Translation Guide"
 segment: "job-seekers"
 audience: "Veterans and transitioning service members"
 keyword: "military to civilian resume"
 giveaway:
   name: "Military-to-Civilian Skills Translator"
-  file: "/templates/military-to-civilian-skills-translator.md"
+  file: "/templates/military-to-civilian-skills-translator.docx"
 cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"

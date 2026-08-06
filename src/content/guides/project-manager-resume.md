@@ -6,7 +6,7 @@ audience: "Project managers, coordinators, and accidental PMs who ran projects w
 keyword: "project manager resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

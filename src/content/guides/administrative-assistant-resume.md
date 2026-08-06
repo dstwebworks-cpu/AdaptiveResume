@@ -6,7 +6,7 @@ audience: "Administrative assistants, office managers, and executive assistants"
 keyword: "administrative assistant resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

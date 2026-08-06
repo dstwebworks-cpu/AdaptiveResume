@@ -1,12 +1,14 @@
 ---
 title: "Outplacement That Lands: A Resume Enrichment Checklist for Displaced Workers"
 description: "Displaced workers often undersell years of real experience. Here's how outplacement teams can enrich resumes consistently and honestly — at the scale a layoff demands."
+seoTitle: "Outplacement Resume Services: A Checklist That Lands"
+seoDescription: "How outplacement teams can enrich displaced workers' resumes consistently and honestly — at the scale a layoff demands."
 segment: "organizations"
 audience: "Outplacement & career-transition firms"
 keyword: "outplacement resume services"
 giveaway:
   name: "Outplacement Resume QA Checklist"
-  file: "/templates/outplacement-resume-qa-checklist.md"
+  file: "/templates/outplacement-resume-qa-checklist.docx"
 cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"

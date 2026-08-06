@@ -6,7 +6,7 @@ audience: "Anyone who moved up at a company and isn't sure how to show it"
 keyword: "how to list promotions on resume"
 giveaway:
   name: "Promotion-History Worksheet"
-  file: "/templates/promotion-history-worksheet.md"
+  file: "/templates/promotion-history-worksheet.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

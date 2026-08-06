@@ -6,7 +6,7 @@ audience: "Teachers, substitutes, and paraprofessionals — staying in education
 keyword: "teacher resume skills"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

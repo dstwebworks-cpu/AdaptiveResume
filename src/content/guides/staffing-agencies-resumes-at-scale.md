@@ -1,12 +1,13 @@
 ---
 title: "How Staffing Agencies Can Strengthen Candidate Resumes at Scale"
 description: "Stronger candidate resumes strengthen every submission — without quality coming at the cost of accuracy. Here's how to enrich resumes in bulk, honestly."
+seoTitle: "Staffing Agency Candidate Resumes, Done at Scale"
 segment: "organizations"
 audience: "Staffing & recruiting agencies"
 keyword: "staffing agency candidate resume"
 giveaway:
   name: "Candidate-Intake Skills Template"
-  file: "/templates/candidate-intake-skills-template.md"
+  file: "/templates/candidate-intake-skills-template.docx"
 cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"

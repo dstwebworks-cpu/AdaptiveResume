@@ -1,12 +1,14 @@
 ---
 title: "What Is an ATS (Applicant Tracking System)? A Plain-English Guide"
 description: "An applicant tracking system (ATS) is the software that reads, stores, and sorts resumes before a recruiter does. Here's what it actually does — and what it doesn't."
+seoTitle: "What Is an ATS? A Plain-English Guide"
+seoDescription: "An applicant tracking system (ATS) reads, stores, and sorts resumes before a recruiter does. What it actually does — and what it doesn't."
 segment: "job-seekers"
 audience: "Anyone applying to jobs online"
 keyword: "what is an ats"
 giveaway:
   name: "ATS Plain-English Cheat-Sheet"
-  file: "/templates/ats-cheat-sheet.md"
+  file: "/templates/ats-cheat-sheet.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

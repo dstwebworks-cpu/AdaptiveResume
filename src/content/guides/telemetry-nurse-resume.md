@@ -6,7 +6,7 @@ audience: "Telemetry and step-down RNs — staying, floating, traveling, or movi
 keyword: "telemetry nurse resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"
