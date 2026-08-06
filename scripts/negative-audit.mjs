@@ -123,6 +123,12 @@ async function auditSurface(name, base, seeds, crawl) {
       continue;
     }
     const ct = r.headers.get("content-type") ?? "";
+    if (/^(image|font|video|audio)\//.test(ct) || ct.includes("octet-stream")) {
+      // Binary assets: the status checks above prove the link resolves — that's the
+      // whole audit. Scanning compressed bytes as prose produced phantom findings
+      // (a guide card PNG's bytes matched the "#1" superlative rule, CI failure 08/06).
+      continue;
+    }
     const body = await r.text();
     if (!ct.includes("html")) {
       // Non-HTML surfaces (robots.txt, llms.txt, downloadable .md templates) carry
