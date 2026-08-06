@@ -13,6 +13,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 9
 draft: false
 ---
@@ -22,6 +23,26 @@ When a layoff sends dozens or hundreds of people to the market at once, outplace
 ## The displaced-worker problem
 
 People who've been in a role for years stop noticing what they know. After a layoff — often a stressful, confidence-shaking moment — they undersell themselves further. The resume that results reads thinner than the career behind it. The job isn't to embellish; it's to **recover** the real qualifications they've gone blind to.
+
+## What outplacement resume services should actually include
+
+If you're evaluating outplacement resume services — buying them, or building the capability in-house — hold whatever you're looking at to five requirements:
+
+1. **Real digging, not reformatting.** A displaced worker's old resume restyled in a new font is not enrichment. The service has to work backwards from what the person actually did — the equipment, the standards, the training, the people they taught — and put words to it.
+2. **A confirm step the participant controls.** Every recovered item goes in front of the person as a question, and nothing lands on the page until they say it's true. This is what makes the resume theirs — and what keeps your program honest at volume.
+3. **Care with credentials.** Licenses and certifications are the highest-risk lines on any resume. They should never be assumed from job history; they get asked about, and anything uncertain goes to a human reviewer.
+4. **The same floor for every participant.** The 40th resume in a cohort deserves the process the 1st one got. If quality depends on which coach a person drew, the program has a fairness problem your client will eventually notice.
+5. **Reporting you can stand behind.** Coverage lift and completion rates — never placement promises.
+
+## What recovery looks like
+
+A machine operator with 12 years at the plant writes one line about it: *"Ran production line, maintained equipment."*
+
+Twenty minutes of honest digging — asked, confirmed, in her words — turns it into: *"Operated and set up three CNC production lines · trained six new operators on lockout/tagout procedures · forklift certified · maintained daily production logs against ISO quality checks."*
+
+Nothing in the second version was invented. Every item was already hers; it was just invisible to her because the work had become routine. That's the whole product of good enrichment: the difference between what people did and what they remember to say.
+
+A shared vocabulary helps here — [O*NET's occupation profiles](https://www.onetonline.org/) name the tasks, tools, and skills employers already use for each role, which gives coaches a common reference for what to ask about instead of each one improvising.
 
 ## Consistency is the quality lever
 

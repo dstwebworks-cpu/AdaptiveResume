@@ -13,6 +13,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 10
 draft: false
 ---
@@ -22,6 +23,23 @@ Workforce programs serve people who've done real, valuable work but were never t
 ## The documentation gap
 
 A participant may have run equipment, led a crew, or held a role for years and still have no resume that shows it. Caseworkers know this, but capturing it consistently across a high caseload is hard. The need is a repeatable way to **draw out** existing skills and get them on paper accurately.
+
+## What a workforce development resume process needs
+
+Whether your board builds this in-house or brings in help, a workforce development resume process that holds up across a caseload needs four things:
+
+1. **A repeatable intake** — the same questions for every participant, so the 50th person served gets the same quality as the 1st. Ad-hoc interviews produce ad-hoc resumes.
+2. **Occupation-anchored prompts** — asking "did you operate a forklift?" beats "tell me about your skills." [O*NET's occupation profiles](https://www.onetonline.org/) give caseworkers a free, standard vocabulary of tasks and tools per role, so prompting doesn't depend on each caseworker's industry knowledge.
+3. **The participant as final author** — every recorded item confirmed by the person, in their words. This isn't just ethics; it's what makes the resume survivable in an interview.
+4. **An auditable trail** — what was asked, what was confirmed, what was flagged for review. Programs answer to funders; the documentation should answer with them.
+
+## What it looks like in practice
+
+A participant spent nine years in a warehouse and wrote one line: *"Warehouse worker, shipping and receiving."*
+
+A structured intake — ask, confirm, record — produces: *"Shipping and receiving across a 120,000 sq ft distribution center · certified forklift and order-picker operator · trained seasonal hires on RF scanner workflows · maintained OSHA-compliant loading dock procedures."*
+
+Every item came out of the participant's own history, confirmed one at a time. The difference isn't embellishment — it's documentation of work that was always real. That's the product a board's employer partners can trust.
 
 ## Ask, then confirm
 
