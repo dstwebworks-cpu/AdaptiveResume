@@ -151,9 +151,11 @@ const related = ring.length <= 3 ? ring
     .giveaway { margin-top: 38px; border-color: #ddccf6; background: var(--premium-bg); }
     .giveaway h3 { margin: 8px 0 6px; }
     .gate { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
-    /* display:flex silently BEAT the hidden attribute after unlock, so the form and the
-       download button rendered together (founder-hit 08/06). [hidden] must always win. */
-    .gate[hidden] { display: none; }
+    /* CSS display rules (.btn's inline-flex, .gate's flex) silently BEAT the hidden
+       attribute — the Download button showed WITHOUT an email since the gate shipped,
+       and after unlock the form stayed visible next to it (founder-hit 08/06, twice).
+       Inside this card, [hidden] always wins. !important is load-bearing here. */
+    .giveaway [hidden] { display: none !important; }
     .gate input { flex: 1 1 220px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
     .cta-card { margin-top: 22px; text-align: center; }
     .cta-card .btn { margin-top: 6px; }
