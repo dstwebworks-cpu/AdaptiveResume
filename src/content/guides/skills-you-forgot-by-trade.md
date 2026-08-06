@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 4
 draft: false
 ---
@@ -40,6 +41,27 @@ Only list a standard you genuinely worked under — and distinguish "worked to t
 ## Capture the tools and software
 
 Equipment, machines, control systems, and the software you touch (even the boring ERP or scheduling system) are all legitimate, searchable skills.
+
+## The best skills to put on a resume, by trade
+
+The skills to put on a resume are the ones you can demonstrate on day one — here's where they hide, role by role:
+
+- **Machinists / CNC:** setup vs. operate (say which), the controls you run (Fanuc, Haas, Mazak), print reading, GD&T, in-process inspection, the measuring tools you use daily (micrometers, calipers, CMM).
+- **Electricians / maintenance:** the systems you troubleshoot (PLC brands count), preventive-maintenance scheduling, conduit bending, panel work, the voltage classes you're comfortable in.
+- **Warehouse / logistics:** the equipment you're certified on (forklift, order picker, reach truck), RF scanners, WMS software by name, cycle counting, loading-dock safety.
+- **Drivers / operators:** endorsements and card types by name, ELD systems, pre-trip inspection routines, load securement, hazmat awareness.
+- **Healthcare support:** the charting system by name (Epic, Cerner), the units you've floated to, patient ratios you've handled, equipment you're checked off on.
+- **Office / admin:** the systems that run the place — payroll software, scheduling tools, the reports you build monthly, the vendors you manage, onboarding you've handled.
+
+If you can find yourself on [O*NET's occupation profiles](https://www.onetonline.org/), read the tasks and tools listed for your role — it's a free memory-jogger built from real workplace data, and most people recognize half a dozen things they do but never wrote down.
+
+## An example of the difference
+
+Before: *"Maintenance technician, kept machines running."*
+
+After a walk through one real shift: *"Preventive and breakdown maintenance across 14 production machines · troubleshot Allen-Bradley PLC faults · lockout/tagout authorized · maintained spare-parts inventory and vendor relationships · trained 2 junior techs."*
+
+Same person, same job, nothing invented — the second one just says what the first one assumed everyone knew.
 
 ## Don't pad — confirm
 

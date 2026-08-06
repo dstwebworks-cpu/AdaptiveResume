@@ -12,6 +12,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 8
 draft: false
 ---
@@ -38,6 +39,23 @@ The non-negotiable: a formal certification should never be auto-claimed. Anythin
 ## Make it consistent across roles and recruiters
 
 Done by hand, resume quality swings with whoever touched it. A standard enrichment process gives every candidate the same floor — useful when you're submitting across many roles and offices.
+
+## What staffing agency candidate resume enrichment looks like
+
+A staffing agency candidate resume that goes out under your brand carries your credibility with it. The middle path — fast AND honest — has a concrete shape:
+
+1. **Intake captures the raw truth** — roles, equipment, standards, training, in the candidate's own words. Garbage in stays garbage; the template below standardizes this step.
+2. **Enrichment proposes, never asserts** — role-relevant skills the candidate likely has get raised as questions, anchored to a standard vocabulary like [O*NET's occupation profiles](https://www.onetonline.org/) rather than a model's imagination.
+3. **Confirmation makes it submittable** — the candidate (or your recruiter, from the intake record) confirms each item. What's confirmed goes on the page; what isn't, doesn't.
+4. **Credentials take the slow lane** — every license or certification routes to your reviewer, every time, no exceptions at any volume.
+
+## The before-and-after your clients notice
+
+Before: *"Forklift driver, 5 years, warehouse duties."*
+
+After intake + confirmed enrichment: *"Certified forklift and reach-truck operator · 5 years in high-volume distribution (3rd shift lead for 2) · RF scanning, cycle counts, and OSHA dock procedures · zero recordable incidents."*
+
+Same candidate. Every line confirmed. The second version wins the submission — and survives the client interview, which is the part that protects your fee.
 
 ## Measure it
 
