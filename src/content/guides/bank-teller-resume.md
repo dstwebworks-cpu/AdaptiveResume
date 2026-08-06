@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 21
 draft: false
+faq:
+  - q: "Do bank teller resumes need a college degree?"
+    a: "No — tellers are hired on accuracy, cash handling, and trust signals. A clean drawer record and referral numbers do more than coursework; list any finance-adjacent certificate exactly as held."
+  - q: "What matters more: transaction speed or accuracy?"
+    a: "Accuracy, always — a fast teller with drawer discrepancies is a liability. Lead with balancing record and error-free streaks stated honestly, then volume."
+  - q: "How do I show sales results without overclaiming?"
+    a: "Banks track referrals precisely, so estimate conservatively and mark it: '~15 platform referrals/month' reads honest. Never inflate a number your old branch manager could contradict in a reference call."
 ---
 
 Teller work generates its own evidence every single day: a drawer that balances, a transaction count, referral numbers your branch tracked on a whiteboard. Most teller resumes leave all of it off and write "processed customer transactions" instead. The numbers were the job — put them on the page.
@@ -46,5 +53,29 @@ Cash handling, shrink accountability, POS reconciliation, and high-volume custom
 ## Format notes
 
 One page. Single column, clean dates on every role — banking hiring is stability-sensitive and gap-sensitive, so handle any gap with a plain, honest line rather than a stretch. A short skills block (systems used, languages spoken — bilingual tellers should say so prominently) and then bullets carrying the numbers.
+
+
+## A bullet bank you can adapt - keep only what's true
+
+Patterns with placeholders - your real numbers go in, and anything not genuinely yours stays out.
+
+- "Processed [~N] transactions/day across [drawer/vault/ATM] with [zero / N] discrepancies over [period]"
+- "Balanced a [$N] drawer daily; [N] months without a variance"
+- "Referred [~N] customers/month to platform services (loans, cards, accounts); [N] closed"
+- "Trained [N] new tellers on cash handling, hold policies, and fraud flags"
+- "Caught [counterfeit / altered / structuring] activity and escalated per BSA procedure"
+- "Handled vault duties: ordered, shipped, and reconciled branch cash to [$N] limits"
+
+## What screening software looks for on a bank teller resume
+
+The filter terms worth stating wherever true: cash handling, drawer balancing, transaction processing, referrals, cross-selling, BSA/AML awareness, fraud detection, regulation familiarity (Reg CC holds), vault operations, plus the core systems by name (the teller platform, Fiserv/FIS/Jack Henry if you know which). [O*NET's teller profile](https://www.onetonline.org/link/summary/43-3071.00) has the standard task vocabulary - scan it for true lines you never wrote down.
+
+Use exact terms only for real experience: a planted compliance keyword fails the first scenario question in the interview.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/bank-teller-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Role Skills Checklist** below helps you pull the measurable facts out of branch work. Our build does it with you — reads your history, proposes what it implies, and asks you to confirm every number before it appears. In a job built on balancing to the penny, your resume should hold to the same standard.

@@ -15,6 +15,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 1
 draft: false
+faq:
+  - q: "Should I include my rank on a civilian resume?"
+    a: "Translate it rather than lead with it: 'E-7 / Sergeant First Class' means little outside; 'led a 40-person platoon' is the same fact in civilian scope. Rank can appear once, in context, translated."
+  - q: "How do I handle a security clearance?"
+    a: "If it's active and relevant to the roles you want, list level and status exactly ('Secret clearance, active') - nothing more. Never state a lapsed clearance as current; it's checkable."
+  - q: "Do military awards belong on the resume?"
+    a: "The ones that translate to scope or performance, translated: a meritorious service medal becomes the achievement it recognized. Ribbons-as-a-list means nothing to a civilian reader; the accomplishment behind one might."
 ---
 
 You did the work. The problem is that a civilian recruiter — and the screening software in front of them — doesn't speak in MOS codes, rank, or unit acronyms. The job of a transition resume isn't to *inflate* what you did. It's to **translate** it into words the hiring side recognizes. Here's how to do that honestly.
@@ -71,3 +78,9 @@ The opposite mistake is inflation — turning "squad leader" into "senior operat
 The free **Military-to-Civilian Skills Translator** below walks you through this for your own MOS and duties, line by line — so you end up with civilian wording that's accurate, not inflated.
 
 When you're ready, our targeted build does this with you: it finds the standards and skills your roles involved, **asks you to confirm each one**, and translates them toward the civilian role you want — without making anything up.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/military-to-civilian-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*

@@ -78,4 +78,11 @@ The honesty rule cuts both ways: use the exact terms for things you truly do —
 
 One page for most admin careers, clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guidance](/guides/career-change-transferable-skills) applies here too).
 
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/administrative-assistant-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+
 The **Role Skills Checklist** below walks through the inventory the job title hides. Our build does it with you — reads your history, proposes what it implies (the systems, the money, the trust), and asks you to confirm every line before it appears. The skills were always yours; they were just never on the page.

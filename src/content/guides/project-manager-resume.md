@@ -81,4 +81,11 @@ Same rule as everywhere on your resume: exact terms for true things is translati
 
 One page if under ~10 years, two if more. A compact skills block near the top (tools: Jira, MS Project, Smartsheet; methods; certifications) for the keyword scan — then bullets that prove each item in the block. Everything in the block must reappear in a project; a skills list with no evidence attached is where PM resumes lose trust.
 
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/project-manager-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+
 The **Role Skills Checklist** below helps you inventory the scope you've actually run. Our build does this with you — it reads your history, proposes the project-scale facts and credentials it implies, and asks you to confirm each one. If you can't defend it, it doesn't go on the page.

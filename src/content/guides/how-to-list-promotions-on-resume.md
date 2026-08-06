@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 11
 draft: false
+faq:
+  - q: "Do lateral moves count as promotions?"
+    a: "They're growth, not promotions - and worth showing when scope grew. 'Moved to the higher-volume store to stabilize a struggling team' tells a story; calling it a promotion when title and pay didn't move doesn't survive a reference check."
+  - q: "What if my title never changed but my duties grew?"
+    a: "State the scope change with its date, honestly: 'absorbed scheduling and ordering after the assistant manager role went unfilled (2023)'. Growth without the title is still evidence - and common."
+  - q: "How do promotions work across different companies?"
+    a: "Company-to-company advancement shows as increasing scope across entries - each new role's first bullet states what got bigger (team, budget, territory). The ladder reads through the numbers."
 ---
 
 A promotion is the best evidence a resume can carry: another employer already bet on you and won. But most resumes bury it — two titles mashed into one entry, or split into what looks like two separate jobs. Either way, the reader misses the story. Here's how to make the climb impossible to miss.
@@ -72,5 +79,12 @@ For what these systems actually do with your resume, see [what the ATS reads](/g
 
 - **Splitting one company into two entries.** It reads as two short stints — job-hopping — instead of one climb. Worst possible trade.
 - **Only listing the final title.** Clean, but it deletes the single strongest fact: they promoted you. Show the rung you started on.
+
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-list-promotions-on-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Promotion-History Worksheet** below walks you through it title by title: dates, what grew, and the honest number behind each step. Our build does the same thing with you — it spots multiple titles at one employer in your history and formats the climb so no reader can miss it, using only what you confirm is true.
