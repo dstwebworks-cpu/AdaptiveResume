@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 12
 draft: false
+faq:
+  - q: "Should teacher resumes be one page or two?"
+    a: "Two pages is normal and accepted for teachers with 5+ years - districts read for completeness (certifications, endorsements, grade bands). Leaving the classroom for a corporate role? Compress to one strong page in that industry's language."
+  - q: "How do I show results without publishing student data?"
+    a: "Use honest aggregates that are yours to share: growth trends, cohort sizes, program adoption. 'Reading growth outpaced the building average two years running' says it without a protected number. Never invent a statistic to fill the gap."
+  - q: "What if my certificate lapsed while I was out of the classroom?"
+    a: "List it as it stands: 'GA teaching certificate (lapsed [year]; renewal in progress)' if that's true. A lapsed credential stated honestly reads far better than one discovered in a background check."
 ---
 
 Teaching compresses a dozen professional skills into one job title — and then the resume says "taught 3rd grade." Principals know what that sentence hides. Districts' ATS filters and corporate recruiters don't. Whether you're moving schools or leaving the classroom, the fix is the same: name what the work actually was.
@@ -36,6 +43,33 @@ Every one of these is a real, nameable skill that classroom work builds:
 **After:** "Taught a 3rd-grade class of ~28, including 6 students on IEP/504 plans; regrouped instruction from quarterly benchmark data; led 40+ parent conferences a year."
 
 Same job. The second version survives both the ATS and the skim.
+
+## A bullet bank you can adapt - keep only what's true
+
+Patterns with placeholders - your real numbers and programs go in, anything not genuinely yours stays out.
+
+**Instruction**
+- "Taught [grade/subject] to classes of [~N], including [N] students with IEP/504 accommodations"
+- "Regrouped instruction from [benchmark system] data [N]x/year; documented growth against building goals"
+- "Designed and taught a [unit/course] adopted by [N] other teachers in the building"
+
+**Leadership without the title**
+- "Mentored [N] student teachers / new hires through their first year"
+- "Led the [grade-level/department] team ([N] teachers) - planning, pacing, and assessment alignment"
+- "Wrote the [program] grant ([]) and ran the program for [N] students"
+
+**Family and community**
+- "Led [N]+ parent conferences a year, including difficult-news and disagreement conversations"
+- "Communicated weekly with [N] families; maintained translation support for [N] home languages"
+
+**For classroom-to-corporate moves**
+- "Built instructional sequences from standards" becomes "instructional design"; "benchmark regrouping" becomes "data-driven program adjustment"; "IEP compliance" becomes "regulated documentation with legal deadlines." Same true work, the receiving industry's words - our [career-change guide](/guides/career-change-transferable-skills) walks the full method.
+
+## What screening software looks for on a teacher resume
+
+District ATS filters and corporate screens read for: classroom management, differentiated instruction, IEP/504 compliance, data-driven instruction, curriculum development, formative and summative assessment, parent communication, ESOL/ELL support, PBIS or MTSS, plus systems by name (PowerSchool, Infinite Campus, Canvas, Google Classroom). [O*NET's elementary teacher profile](https://www.onetonline.org/link/summary/25-2021.00) holds the standard task vocabulary - scan your grade band's profile for true lines you never thought to write.
+
+Use the exact term wherever it's true of you; never plant one that isn't. The screen you'd win with a false keyword sets up the interview you'd lose.
 
 ## Substitute and paraprofessional resumes
 
