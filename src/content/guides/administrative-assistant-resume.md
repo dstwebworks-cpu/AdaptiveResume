@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 15
 draft: false
+faq:
+  - q: "Do I need a degree to get hired as an administrative assistant?"
+    a: "Usually no — most admin roles hire on demonstrated skills and steadiness, not credentials. If you have relevant coursework or certificates (Microsoft, bookkeeping, notary), list them exactly; if not, let the systems you run and the scope you handled carry the resume."
+  - q: "Should I use the title my company gave me or the one that matches the job I want?"
+    a: "The title your employer gave you, always — titles are verifiable. If your real scope outgrew the title, keep the honest title and let the bullets state the scope: 'absorbed office-manager responsibilities' says it truthfully."
+  - q: "How far back should an administrative assistant resume go?"
+    a: "Ten to fifteen years of relevant detail is plenty; older roles can compress to a single line. Admin hiring reads for current systems and steadiness — a 1998 filing job doesn't help, but an unexplained gap hurts, so account for your timeline honestly."
 ---
 
 Administrative work has a resume problem that isn't the worker's fault: the job title undersells the job. "Answered phones, scheduled meetings, ordered supplies" is what the day looks like from outside. From inside, it's vendor management, calendar triage across competing executives, expense reconciliation, and being the person who knows where everything is when the auditor calls. The resume should describe the inside.
@@ -36,6 +43,36 @@ Every admin resume says Microsoft Office. Fewer say what the ATS and the reader 
 ## Executive assistant and office manager: the seniority line
 
 EA and office-manager resumes fail when they read identically to entry-level admin ones. The difference is autonomy — what you decided without sign-off. Board-meeting logistics owned end-to-end, an office move you ran, onboarding you built, the budget line you controlled. If you had it, claim it with its size; if a title change never came with the added scope, claim the scope honestly ("absorbed office-manager responsibilities after the role went unfilled") — the same principle as our [promotions guide](/guides/how-to-list-promotions-on-resume).
+
+## A bullet bank you can adapt — keep only what's true
+
+Use these as patterns, not copy-paste: swap in your real numbers, systems, and scope, and drop any line that isn't genuinely yours. A borrowed bullet you can't back up in an interview is worse than a plain one.
+
+**Executive support**
+- "Managed calendars for [N] executives across [N] time zones; resolved daily scheduling conflicts and protected meeting-free work blocks"
+- "Booked and managed [N] trips/year including international itineraries and expense reconciliation"
+- "Prepared board-meeting materials quarterly — agendas, decks, minutes, and follow-up tracking"
+
+**Office operations**
+- "Managed [N] office vendors (cleaning, supplies, IT support) against contract terms; re-bid [service] and reduced cost by [honest figure]"
+- "Ran the office move for [N] people — planning, vendor coordination, zero days of downtime"
+- "Maintained an office budget of $[N]/year; coded and reconciled invoices in [system]"
+
+**People-adjacent work**
+- "Onboarded [N] new hires/year — equipment, access, first-week scheduling, documentation"
+- "First point of contact for a [N]-person office; triaged calls, visitors, and requests to the right owner"
+
+**Records and compliance**
+- "Maintained personnel and contract files to retention policy; prepared records for [N] audits"
+- "Handled confidential materials — compensation, legal, medical — under strict access rules"
+
+Every one of these is a real pattern from real admin work, which is exactly why each needs your real numbers behind it.
+
+## What screening software looks for on an administrative assistant resume
+
+The searchable terms recruiters and their software filter admin resumes on — worth stating plainly wherever they're true of you: calendar management, travel coordination, expense reporting, vendor management, office management, records management, meeting coordination, event planning, onboarding support, front-desk/gatekeeping — plus every system by name (Outlook, Excel, Concur, QuickBooks, SharePoint, Teams, any HRIS or CRM). [O*NET's profile for administrative assistants](https://www.onetonline.org/link/summary/43-6014.00) lists the full task-and-technology vocabulary employers draw from; ten minutes there usually finds half a dozen things you do but never wrote down.
+
+The honesty rule cuts both ways: use the exact terms for things you truly do — that's translation, not gaming — and never plant a term for a skill you don't have. A keyword that wins the screen and fails the interview costs you more than the screen it won.
 
 ## Format notes
 
