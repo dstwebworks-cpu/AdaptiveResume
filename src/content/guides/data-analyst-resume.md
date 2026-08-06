@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 16
 draft: false
+faq:
+  - q: "Do I need SQL on a data analyst resume?"
+    a: "Almost always yes for screening - and only at the level you truly work at. 'Wrote joins and window functions daily' is checkable in a technical interview; 'SQL' padded onto a resume that can't back it costs you the offer."
+  - q: "Portfolio or resume - which matters more?"
+    a: "The resume gets you the interview; the portfolio survives it. Link one if you have one, but the bullets still need the data-to-decision shape on their own."
+  - q: "How do I quantify analyst work that never shipped a dollar figure?"
+    a: "Count what's honestly countable: dashboards built, users served, hours automated away, reporting cycles shortened. If a business result followed your analysis, say what the DECISION was - the analyst's product is the decision, not the chart."
 ---
 
 Data analyst resumes cluster into two failure modes: the tool list with no evidence ("SQL, Python, Tableau, Power BI, R, Excel...") and the duty list with no outcome ("created weekly reports for management"). Both miss what the reader is hunting for — proof that your analysis changed a decision. Analysis nobody acted on is the job's overhead; analysis that moved something is the job.
@@ -46,5 +53,24 @@ Spell out both the tools and the methods in real words: "SQL," "data cleaning," 
 ## Format notes
 
 One page until the work genuinely overflows it. Skills block near the top with the honest stack, then experience bullets that show each tool attached to a decision. Numbers marked as estimates where they are estimates — an analyst resume with un-defendable numbers is a walking contradiction.
+
+
+## A bullet bank you can adapt - keep only what's true
+
+- "Built [N] recurring dashboards in [Power BI/Tableau/Looker] serving [~N] users across [teams]"
+- "Automated [report/process] with [SQL/Python]; saved [~N] hours/week of manual work"
+- "Cleaned and joined [N] sources into a reporting model the [team] still runs"
+- "Analysis of [area] led to [the decision that followed - stated plainly, not inflated]"
+- "Partnered with [role] to define metrics; killed [N] vanity metrics nobody acted on"
+
+## What screening software looks for on a data analyst resume
+
+Filters read for: SQL, Python or R, Excel (state your true level), Power BI, Tableau, dashboards, data visualization, ETL, data cleaning, statistical analysis, A/B testing, stakeholder reporting. [O*NET's business intelligence analyst profile](https://www.onetonline.org/link/summary/15-2051.01) carries the fuller vocabulary. Every tool listed is an interview topic - list the ones you can be questioned on, at the depth you'd survive.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/data-analyst-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Role Skills Checklist** below helps you inventory the analysis work your history already contains. Our build does the same thing with you — it reads what you did, proposes what it implies, and asks you to confirm every claim. For an analyst, that's not just ethics — it's the job skill on display.

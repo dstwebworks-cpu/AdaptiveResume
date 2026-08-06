@@ -83,4 +83,11 @@ Career-change teacher resumes fail when they lead with what's being left. Lead w
 
 Spell out what districts search for: the license by its real name, endorsement names in full ("ESOL endorsement," not just "ESOL"), grade bands as words and numbers. Single column, no tables, no icons — the district's parser is older than the corporate ones.
 
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/teacher-resume-skills-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+
 The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills and credentials that history implies, and asks you to confirm every one before it goes on the page. Nothing invented, including the things you forgot.

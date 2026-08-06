@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 14
 draft: false
+faq:
+  - q: "What goes first on a pilot resume - hours or certificates?"
+    a: "The block recruiters check in five seconds: total time, PIC, multi, and instrument hours, plus certificates and ratings exactly as held. Everything else follows."
+  - q: "How precise do flight hours need to be?"
+    a: "Logbook-precise at the moment of writing, then rounded honestly ('2,850 TT'). Numbers get verified against your logbook and records - a resume that overstates hours ends careers."
+  - q: "Do I list a checkride failure?"
+    a: "Not on the resume - but never hide it in interviews or applications that ask directly; airlines see the FAA record. The resume states what you hold; the application answers what it asks. Both must be true."
 ---
 
 A pilot resume is the most structured document in hiring: every reader — airline recruiter, charter chief pilot, insurance underwriter — scans for the same four things in the same order. Certificates. Ratings. Hours. Currency. A beautiful resume that buries those is worse than a plain one that leads with them.
@@ -51,5 +58,24 @@ Airframe & Powerplant certificate up top, IA if held, then aircraft types and in
 ## Format notes
 
 One page is the strong convention for pilot resumes short of a long corporate career. Single column, no graphics — several operators run resumes through parsing software before a human sees them, and the hours table should be a simple table or aligned text, nothing decorative.
+
+
+## A bullet bank you can adapt - keep only what's true
+
+- "[N] TT / [N] PIC / [N] multi / [N] instrument - as of [month year], logbook-verified"
+- "Certificates and ratings exactly as held: [Commercial ASEL/AMEL, Instrument, CFI/CFII/MEI, ATP]"
+- "[Part 91/135/121] operations: [cargo/charter/instruction], including [night/mountain/international] routes"
+- "Instructed [N] students; [N] passed checkrides on first attempt"
+- "Clean record: no accidents, incidents, violations, or enforcement actions [if true - say nothing otherwise]"
+
+## What screening software looks for on a pilot resume
+
+Filters read for: total time, PIC, multi-engine, instrument, type ratings by name, ATP/CTP, Part 121/135/91, CFI/CFII/MEI, turbine time, crew resource management. [O*NET's airline pilot profile](https://www.onetonline.org/link/summary/53-2011.00) has the task vocabulary; your hours block does the screening work. Every number must match your logbook - this is the one industry where they check.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/pilot-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Role Skills Checklist** below helps you inventory what your flying history proves beyond the numbers. Our build works the same way — it reads your history, proposes what it implies, and asks you to confirm every line. In a field where claims get audited, nothing goes on the page you can't back with a logbook.

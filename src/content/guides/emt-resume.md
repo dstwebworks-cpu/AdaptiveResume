@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 19
 draft: false
+faq:
+  - q: "How do I list EMT certifications that expire?"
+    a: "With their status, exactly: 'EMT-B (NREMT, current through [date])'. An expired cert stated as expired is a renewal task; one listed as current is a background-check failure."
+  - q: "Does volunteer EMS count as real experience?"
+    a: "Completely - calls are calls. State the service, the call volume, and your role exactly as they were; paid vs volunteer matters less than what you ran and documented."
+  - q: "What if my call volume was low?"
+    a: "Say what's true and let the setting explain it: a rural service with long transports builds different strengths (extended patient contact, autonomous decisions) than an urban high-volume system. Name the strength your setting actually built."
 ---
 
 EMS hiring starts with one fact: your certification level. Everything else on an EMT resume supports it. Put the level where it can't be missed, describe the service honestly — 911, interfacility, event standby — and let the call work show your judgment. Agencies verify everything, so precision beats polish on every line.
@@ -47,5 +54,24 @@ Lead with the certification block, then ride-alongs and clinical hours from your
 ## Format notes
 
 One page for most EMS careers. Single column, certification block clearly labeled at top, service type named for every employer. Skip the lights-and-sirens graphics — the parser can't read them and the chief has seen them a thousand times.
+
+
+## A bullet bank you can adapt - keep only what's true
+
+- "911 EMT-B with [service]: [~N] calls over [period] across [911/IFT/event] operations"
+- "BLS, CPR/AED, [NIMS/ICS-100] certified - listed exactly as held, with dates"
+- "Documented every run to [county/state] protocol in [ePCR system]; [N] chart audits passed"
+- "Precepted [N] new EMTs through field training"
+- "Maintained rig readiness: daily checks, narcotics counts witnessed, restock to par"
+
+## What screening software looks for on an EMT resume
+
+Filters read for: NREMT, BLS, CPR/AED, patient assessment, patient transport, ePCR documentation, HIPAA, NIMS/ICS, extrication assist, IFT, 911 response. [O*NET's EMT profile](https://www.onetonline.org/link/summary/29-2042.00) lists the full task set. Certifications are the highest-risk lines on any EMS resume - exact names, exact status, nothing assumed.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/emt-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Role Skills Checklist** below helps you inventory what your time on a truck proves. Our build does it with you — proposes what your history implies, asks you to confirm each item, and never lists a certification you didn't tell us you hold. In EMS, that's just how the job works.

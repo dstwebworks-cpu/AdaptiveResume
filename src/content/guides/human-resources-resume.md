@@ -14,6 +14,13 @@ pubDate: 2026-07-30
 updatedDate: 2026-08-06
 order: 20
 draft: false
+faq:
+  - q: "Do HR certifications (PHR/SHRM-CP) matter on the resume?"
+    a: "They pass screens at larger employers and never hurt - listed exactly as held. Without one, scope carries you: headcount supported, hires per year, systems run, audits survived."
+  - q: "How do I show HR results without breaching confidentiality?"
+    a: "Aggregates and process outcomes are yours to share: time-to-fill trends, retention movement, clean audits, programs shipped. Individual cases never appear - which interviewers read as its own competence signal."
+  - q: "Generalist or specialist resume - which way should I frame?"
+    a: "Frame what you actually did most: a generalist who ran full-cycle recruiting plus benefits plus ER states all three with volumes; forcing a specialist frame you can't back narrows you into interviews you'll struggle in."
 ---
 
 An HR resume faces the toughest reader in hiring: another HR professional, who knows exactly what the job involves and exactly which phrases are filler. "Supported the full employee lifecycle" doesn't survive that reader. Credentials, systems, and caseload numbers do.
@@ -47,5 +54,25 @@ Each HR level is a scope claim: coordinators own processes, generalists own clie
 ## Format notes
 
 One to two pages by depth of career. Single column for the very ATS your reader administers. Certifications in a labeled block; systems in a short skills section, each one backed by a bullet somewhere in the history.
+
+
+## A bullet bank you can adapt - keep only what's true
+
+- "HR generalist for a [N]-employee [site/org]: recruiting, benefits, ER, compliance"
+- "Full-cycle recruiting: [~N] hires/year at [days] average time-to-fill"
+- "Administered benefits open enrollment for [N] employees across [N] plans"
+- "[ADP/Paylocity/Workday] administration - onboarding, changes, reporting"
+- "[N] clean I-9 / DOL / workers-comp audits; maintained files to retention policy"
+- "Handled [N] employee-relations cases/year with documented, consistent process"
+
+## What screening software looks for on a human resources resume
+
+Filters read for: full-cycle recruiting, onboarding, benefits administration, employee relations, HRIS (name yours), FMLA/ADA/FLSA familiarity, I-9 compliance, performance management, open enrollment, offboarding. [O*NET's HR specialist profile](https://www.onetonline.org/link/summary/13-1071.00) lists the standard set. Compliance terms only where you truly worked them - each is an interview scenario waiting.
+
+## The before-and-after, at a glance
+
+![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/human-resources-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
 
 The **Role Skills Checklist** below helps you inventory the compliance areas, systems, and caseloads your history proves. Our build does it with you — proposes what your work implies, asks you to confirm every line, and keeps the resume at the standard your own profession screens against.
