@@ -1,12 +1,14 @@
 ---
 title: "The Skills You Forgot to Put on Your Resume (and How to Find Them)"
 description: "Most people leave real, valuable skills off their resume simply because the work became routine. Here's how to find what you've stopped noticing — without padding."
+seoTitle: "Skills to Put on a Resume — The Ones You Forgot"
+seoDescription: "The skills to put on your resume are often the ones routine made invisible. How to find what you've stopped noticing — without padding."
 segment: "job-seekers"
 audience: "Skilled trades, technical, and hands-on workers"
 keyword: "skills to put on resume"
 giveaway:
   name: "Role-by-Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

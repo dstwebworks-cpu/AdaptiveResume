@@ -6,7 +6,7 @@ audience: "Applicants tailoring a resume to a specific role"
 keyword: "resume keywords job description"
 giveaway:
   name: "Keyword-Match Worksheet"
-  file: "/templates/keyword-match-worksheet.md"
+  file: "/templates/keyword-match-worksheet.docx"
 cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"

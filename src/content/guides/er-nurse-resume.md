@@ -6,7 +6,7 @@ audience: "Emergency department RNs — staff, charge, travel, and new-to-specia
 keyword: "er nurse resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

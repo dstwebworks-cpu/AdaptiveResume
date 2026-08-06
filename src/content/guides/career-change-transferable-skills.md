@@ -1,12 +1,14 @@
 ---
 title: "Career Change Resume: How to Show Transferable Skills When Switching Industries"
 description: "Switching industries doesn't mean starting over. Here's how to find and frame the transferable skills you already have — truthfully — so a new field takes you seriously."
+seoTitle: "Career Change Resume: Showing Transferable Skills"
+seoDescription: "How to find and frame the transferable skills you already have — truthfully — so a new industry takes your career change seriously."
 segment: "job-seekers"
 audience: "Career changers moving between industries"
 keyword: "career change resume transferable skills"
 giveaway:
   name: "Transferable-Skills Inventory"
-  file: "/templates/transferable-skills-inventory.md"
+  file: "/templates/transferable-skills-inventory.docx"
 cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"

@@ -1,12 +1,14 @@
 ---
 title: "Paid a Resume Writer and Still Stuck? How to Rescue a Rewrite That Didn't Deliver"
 description: "You paid for a professional rewrite, asked for changes, and got a shrug. Here's how to salvage what's good, ask for fixes that actually land — and rebuild honestly if they won't."
+seoTitle: "Resume Writer Won't Make Changes? Rescue Your Rewrite"
+seoDescription: "Your resume writer won't make changes? How to salvage what's good, push for fixes that land — and rebuild honestly if they won't."
 segment: "job-seekers"
 audience: "Anyone who paid for a professional resume and didn't get what they paid for"
 keyword: "resume writer won't make changes"
 giveaway:
   name: "Paid-Rewrite Rescue Checklist"
-  file: "/templates/paid-rewrite-rescue-checklist.md"
+  file: "/templates/paid-rewrite-rescue-checklist.docx"
 cta:
   label: "Fix it with a targeted build — $149"
   href: "/fix"
@@ -66,3 +68,5 @@ At that point, more emails cost you weeks you could spend applying.
 This situation is why we built the process the way we did. Upload the draft you paid for — it's a starting point, not a loss. We work backwards from your real experience to find what the rewrite left out: the tools, standards, and training your work involved that never made it onto the page. You confirm each one before it appears. Every line is editable in your words, and if a line isn't right, you add a note and we redo it — you never have to argue with us or wait on a reply. Nothing gets made up, and you see for yourself what the screening software reads at the end.
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
+
+If you'd rather not fight this battle alone, our [resume rewrite service](/fix) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every line before it lands.

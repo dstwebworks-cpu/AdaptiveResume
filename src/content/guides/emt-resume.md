@@ -6,7 +6,7 @@ audience: "EMTs and paramedics — 911, interfacility, event medicine, and new c
 keyword: "emt resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

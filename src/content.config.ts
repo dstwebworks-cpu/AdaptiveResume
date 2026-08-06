@@ -8,6 +8,11 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    // SERP-facing overrides (08/06 audit): used for <title> / meta description ONLY.
+    // The H1, visible lede, and generated hero card keep the full title/description.
+    // Rules: seoTitle <=60 chars keyword-front-loaded; seoDescription <=160 chars.
+    seoTitle: z.string().max(60).optional(),
+    seoDescription: z.string().max(160).optional(),
     segment: z.enum(['job-seekers', 'organizations']),
     audience: z.string(),
     keyword: z.string(),

@@ -6,7 +6,7 @@ audience: "HR coordinators, generalists, recruiters, and managers"
 keyword: "human resources resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

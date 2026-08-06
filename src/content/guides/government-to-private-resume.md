@@ -1,12 +1,14 @@
 ---
 title: "Government to Private Sector: Rewriting Your Federal Resume for Corporate Roles"
 description: "Federal and GS resumes are long, dense, and written for a different audience. Here's how to translate yours for private-sector hiring — without losing what makes you strong."
+seoTitle: "Federal Resume to Private Sector: A Conversion Guide"
+seoDescription: "How to translate a federal resume for private-sector hiring — shorter, sharper, and without losing what makes you strong."
 segment: "job-seekers"
 audience: "Federal, state, and local government employees moving to the private sector"
 keyword: "federal resume to private sector"
 giveaway:
   name: "GS-to-Private Translation Checklist"
-  file: "/templates/gs-to-private-translation-checklist.md"
+  file: "/templates/gs-to-private-translation-checklist.docx"
 cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"

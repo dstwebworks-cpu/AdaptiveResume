@@ -6,7 +6,7 @@ audience: "Pilots at every stage — CFI to regional to corporate — plus A&P m
 keyword: "pilot resume"
 giveaway:
   name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.md"
+  file: "/templates/role-skills-checklist.docx"
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"

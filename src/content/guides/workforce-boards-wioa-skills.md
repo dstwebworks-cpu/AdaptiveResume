@@ -1,12 +1,14 @@
 ---
 title: "Workforce Boards & WIOA: Helping Participants Document Skills They Already Have"
 description: "Workforce programs serve people who've done real work but can't document it. Here's how to draw out and record participants' existing skills consistently — and honestly."
+seoTitle: "Workforce Development Resumes: A WIOA Skills Guide"
+seoDescription: "How workforce development teams can draw out and document participants' real, existing skills — consistently and honestly."
 segment: "organizations"
 audience: "Workforce boards, American Job Centers, and WIOA-funded programs"
 keyword: "workforce development resume"
 giveaway:
   name: "Participant Skills-Documentation Template"
-  file: "/templates/participant-skills-documentation-template.md"
+  file: "/templates/participant-skills-documentation-template.docx"
 cta:
   label: "See AdaptiveResume for organizations"
   href: "/business"
