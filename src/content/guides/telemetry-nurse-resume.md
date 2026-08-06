@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 17
 draft: false
 ---
 
 Telemetry units run on credentials and scope — continuous cardiac monitoring, drips that need titration judgment, patients one deterioration away from the ICU. A tele resume that just says "provided patient care on a telemetry unit" throws that away. Nurse recruiters and unit managers scan for specifics: which certs, what ratio, what acuity, which rhythms you're trusted with.
 
-## The credentials block
+## The telemetry nurse resume credentials block
 
 License first — RN, state (or compact), unencumbered — then the certifications tele work implies, by their exact names: BLS, ACLS, and your dysrhythmia/telemetry course if you completed one. PCCN if you hold it, prominently — it's the specialty's dedicated credential and a genuine differentiator. NIH Stroke Scale certification belongs here too if your unit runs stroke patients. Every one of these is checkable, so exact names and current status only — an expired ACLS listed as current is the kind of claim that ends a hospital application.
 

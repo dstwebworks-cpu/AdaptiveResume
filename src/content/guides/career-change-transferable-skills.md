@@ -13,8 +13,16 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 3
 draft: false
+faq:
+  - q: "Will employers take my career change seriously without industry experience?"
+    a: "Serious readers hire for demonstrated skills plus evidence you understand their world. A resume that maps your real, transferable skills to their vocabulary — honestly — gets you the conversation; pretending industry experience you don't have loses it."
+  - q: "Should I use a functional resume format to hide my old titles?"
+    a: "No — recruiters distrust formats that hide the work history. Keep the chronology visible; do the reframing inside the summary and bullets, where you can show the transferable skills in their real context."
+  - q: "How do I explain the change in the resume itself?"
+    a: "One honest line in the summary stating the direction ('moving 8 years of shift leadership into operations coordination') beats making the reader guess. Address it, then let the mapped skills do the arguing."
 ---
 
 The hardest part of a career change isn't the new field — it's getting a resume past someone who only sees your old one. The instinct is to hide where you came from. The better move is to **translate** what you already did into what the new role needs.
@@ -23,13 +31,21 @@ The hardest part of a career change isn't the new field — it's getting a resum
 
 Most of what you do is more portable than your job title suggests. A restaurant shift lead runs scheduling, inventory, training, and conflict resolution under pressure — that's operations management, just in an apron. Start by listing what you *did*, stripped of the industry it happened in.
 
-## Map your skills to the target role
+## Map transferable skills to the career change resume you're writing
 
 Pull the job description for the role you want. For each requirement, ask: "where have I genuinely done this, even if it was called something else?" Match honestly — if you've done a near-version, describe the near-version; don't claim the exact one.
 
 - Customer escalations → stakeholder management
 - Closing the till / reconciling drawers → financial accuracy and reporting
 - Training new hires → onboarding and enablement
+
+## One example of the separation
+
+A restaurant shift manager moving toward operations coordination writes: *"Managed restaurant shifts."*
+
+Separated from its setting, the same experience reads: *"Scheduled and led teams of 12-15 across peak periods · managed vendor deliveries and inventory against a weekly budget · handled escalations and kept service running through equipment failures and no-shows."*
+
+Nothing about restaurants disappeared — but every line now names a skill the target role uses daily. That's the whole move: same true experience, framed by the skill instead of the setting.
 
 ## Lead with a skills-based summary
 

@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 21
 draft: false
 ---
 
 Teller work generates its own evidence every single day: a drawer that balances, a transaction count, referral numbers your branch tracked on a whiteboard. Most teller resumes leave all of it off and write "processed customer transactions" instead. The numbers were the job — put them on the page.
 
-## The three numbers branch managers scan for
+## The three numbers on a bank teller resume branch managers scan for
 
 - **Accuracy** — drawer balancing is the trust metric. If your drawer balanced consistently, say it plainly: "balanced a $10-15k drawer daily with no unresolved discrepancies." Use your true figures; banks can and do check references on exactly this.
 - **Volume** — transactions per day, customers served, peak-window load. "~150 transactions/day at the branch's busiest window" is workload proof.

@@ -11,8 +11,16 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 7
 draft: false
+faq:
+  - q: "How many keywords from the job description should my resume match?"
+    a: "There's no magic count. Match every term that's genuinely true of your experience, in real sentences — and none that aren't. A resume that honestly mirrors half the posting beats one that dishonestly mirrors all of it and dies in the interview."
+  - q: "Do I need a separate resume for every application?"
+    a: "Usually no. Keep one strong resume and lightly tailor the summary and a few bullets to each posting's vocabulary, using only what's true of you."
+  - q: "Will keyword stuffing get past the software?"
+    a: "Sometimes past the software — never past the human who reads it minutes later. Hidden text and keyword soup read as dishonest and get resumes discarded."
 ---
 
 Recruiters and screening software both search for the words in the job description. Mirror those words where they're genuinely true of you and you give yourself a real shot at being found. Stuff in terms you can't defend and you get screened out by the human a few minutes later. The skill is matching **honestly**.
@@ -21,7 +29,7 @@ Recruiters and screening software both search for the words in the job descripti
 
 A resume that says "client relations" won't come up when the recruiter searches "account management," even if it's the same work. Using the role's own vocabulary — for things you actually did — is how recruiters find you at all.
 
-## Pull the real keywords from the posting
+## Pull resume keywords from the job description itself
 
 Read the job description and mark the recurring nouns: tools, skills, certifications, methods, and the exact job-title language. Those repeated terms are what the role is screened on.
 
@@ -30,6 +38,14 @@ Read the job description and mark the recurring nouns: tools, skills, certificat
 - **Exact match:** you do this and the posting's word is the word you'd use. Use it as-is.
 - **Translate:** you do this but call it something else (your "drawer reconciliation" = their "cash handling"). Adopt their term — same real skill.
 - **Gap:** the posting wants something you haven't done. Leave it off. Don't add a keyword for a skill you don't have — it's the fastest way to fail the interview or a reference check.
+
+## What honest matching looks like
+
+A posting asks for "inventory management, cycle counting, and ERP experience." Your resume says "kept track of stock and used the computer system."
+
+Same work, translated to the role's vocabulary: *"Inventory management for ~4,000 SKUs · weekly cycle counts with variance reporting · daily transactions in NetSuite (ERP)."*
+
+Every term is true — the translation just uses the words the recruiter searches. The only keyword left OFF is one the person hadn't done (forecasting) — that's a gap, not a word to paste in.
 
 ## Put keywords where they'll be read
 

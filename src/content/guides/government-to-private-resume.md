@@ -13,15 +13,31 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 2
 draft: false
+faq:
+  - q: "How long should a private-sector resume be after converting from federal?"
+    a: "Two pages for most careers (one if you're early). The five-page federal format exists for federal HR rules — private-sector readers skim, so density beats completeness."
+  - q: "Should I list my GS grade on a private-sector resume?"
+    a: "Not by itself — it means nothing outside government. Translate what the grade carried: budget, team size, scope of authority, who you briefed. Say the scope, not the series."
+  - q: "Do federal awards and clearances belong on it?"
+    a: "An active clearance: yes, if it's relevant to the roles you're targeting — say only its level and status, exactly. Awards: keep the ones that show scope or results, translated into plain language."
 ---
 
 A federal-style resume can work against you in a private-sector search. Federal resumes are long, written to grade and series, and packed with agency language. Private recruiters skim fast. The fix isn't to dumb yours down; it's to **translate** it.
 
-## Cut the federal format, keep the substance
+## Converting a federal resume to a private sector one: cut the format, keep the substance
 
 Federal resumes ran 3–5+ pages for years (USAJOBS now caps them at two, under a 2025 OPM rule) — and either way they're written for federal HR panels, not private recruiters. The private version is **one to two pages**, impact-first. Keep the accomplishments; drop the federal scaffolding (GS grade, series number, hours, "salary," supervisor contact).
+
+## The conversion in one example
+
+Federal: *"GS-0343-12, Management and Program Analyst, performed analyses and advisory services in support of agency programs per OPM classification standards; KSAs include..."* — plus four more paragraphs.
+
+Private-sector: *"Program analyst managing performance reporting for a $30M portfolio · briefed leadership monthly · led a 4-agency data-sharing effort that cut reporting lag from 45 to 10 days."*
+
+Same person, same work. The grade number meant scope — so the conversion SAYS the scope. Nothing was inflated; the jargon was translated into what it actually meant.
 
 ## Translate grade and series into scope
 

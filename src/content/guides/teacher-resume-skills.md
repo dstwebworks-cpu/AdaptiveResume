@@ -11,6 +11,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 12
 draft: false
 ---
@@ -21,7 +22,7 @@ Teaching compresses a dozen professional skills into one job title — and then 
 
 Your state teaching certificate is a screening item — make it findable in two seconds, with the state, the certification area, and grade band. Then the endorsements you may not think to list: ESOL, reading, gifted, special education, subject-area add-ons. Endorsements are exactly the kind of thing your work history implies but your resume forgets — if you taught sheltered ELL classes, there's likely paperwork behind it that belongs on the page.
 
-## The skills hiding inside "classroom teacher"
+## Teacher resume skills hiding inside "classroom teacher"
 
 Every one of these is a real, nameable skill that classroom work builds:
 

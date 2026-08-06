@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 15
 draft: false
 ---
 
 Administrative work has a resume problem that isn't the worker's fault: the job title undersells the job. "Answered phones, scheduled meetings, ordered supplies" is what the day looks like from outside. From inside, it's vendor management, calendar triage across competing executives, expense reconciliation, and being the person who knows where everything is when the auditor calls. The resume should describe the inside.
 
-## The skills hiding inside "general office duties"
+## The skills an administrative assistant resume buries under "general office duties"
 
 - **Scheduling as logistics** — you don't "manage calendars," you resolve conflicts across people who all outrank you, in multiple time zones, with travel attached. Say whose calendars and how many.
 - **Money touched** — expense reports processed, invoices coded, purchasing done, budgets tracked. Any honest dollar figure or monthly volume turns an admin bullet into evidence.
