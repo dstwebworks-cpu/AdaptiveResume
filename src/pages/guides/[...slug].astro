@@ -21,6 +21,9 @@ const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const fmtDate = (d: Date) => `${String(d.getUTCMonth() + 1).padStart(2, '0')}/${String(d.getUTCDate()).padStart(2, '0')}/${d.getUTCFullYear()}`;
 const pub = guide.data.pubDate;
 const upd = guide.data.updatedDate;
+// Per-guide branded card (scripts/generate-guide-cards.mjs) — the on-page hero, the
+// og/social preview, AND the Article schema image, from one generated PNG per slug.
+const cardPath = `/img/guides/${guide.id}.png`;
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -28,7 +31,7 @@ const articleLd = {
   description: guide.data.description,
   datePublished: pub.toISOString().slice(0, 10),
   dateModified: (upd ?? pub).toISOString().slice(0, 10),
-  image: new URL('/img/social-card-1200x628.png', site).href,
+  image: new URL(cardPath, site).href,
   author: { '@type': 'Organization', name: 'AdaptiveResume' },
   publisher: { '@type': 'Organization', name: 'AdaptiveResume' },
   mainEntityOfPage: new URL(`/guides/${guide.id}/`, site).href,
@@ -42,13 +45,14 @@ const related = all
   )
   .slice(0, 3);
 ---
-<Base title={`${guide.data.title} — AdaptiveResume`} description={guide.data.description}>
+<Base title={`${guide.data.title} — AdaptiveResume`} description={guide.data.description} ogImage={cardPath}>
   <article class="section">
     <div class="container narrow">
       <p class="eyebrow"><a href="/guides">Guides</a> · {segLabel}</p>
       <h1>{guide.data.title}</h1>
       <p class="lede">{guide.data.description}</p>
       <p class="muted dateline">Published {fmtDate(pub)}{upd && ` · Updated ${fmtDate(upd)}`}</p>
+      <img class="guide-hero" src={cardPath} alt={guide.data.title} width="1200" height="628" loading="eager" fetchpriority="high" />
       <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
 
       <div class="prose">
@@ -115,6 +119,7 @@ const related = all
   <style>
     .container.narrow { max-width: 760px; }
     .dateline { font-size: .85rem; margin-top: -8px; }
+    .guide-hero { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); margin: 16px 0 6px; display: block; }
     .prose { font-size: 1.06rem; color: var(--ink-soft); }
     .prose :global(h2) { margin-top: 1.7em; color: var(--ink); }
     .prose :global(h3) { margin-top: 1.3em; color: var(--ink); }
