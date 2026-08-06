@@ -15,6 +15,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 8
 draft: false
+faq:
+  - q: "Is it legitimate for an agency to improve candidate resumes at all?"
+    a: "Yes — when every added item is true and confirmed. Recovering skills a candidate forgot to list is service; adding skills nobody confirmed is misrepresentation with your agency's name on it."
+  - q: "What's the risk of AI-written candidate resumes?"
+    a: "Unreviewed generation produces plausible-sounding claims no one verified. One bad submission that collapses in a client interview costs more than the time enrichment saves — which is why credentials and low-confidence items need a human reviewer."
+  - q: "What should we measure to know it's working?"
+    a: "Coverage lift on confirmed items, flagged-for-review counts, and downstream signals you already track (submission-to-interview rates). Never promise placements from a resume process."
 ---
 
 A stronger candidate resume reads stronger at every stage of the process. But for a staffing agency, resume quality runs straight into a wall: you can't spend an hour per candidate, and you can't put your name behind claims no one confirmed. The answer is enrichment that's both **fast** and **honest**.

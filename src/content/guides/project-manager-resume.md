@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 13
 draft: false
 ---
 
 Project management resumes have a specific disease: they're written in the language of project management instead of the language of projects. "Drove cross-functional stakeholder alignment across the delivery lifecycle" says nothing a reader can weigh. What gets a PM resume through the pile is scope — the size of what you ran and what happened because you ran it.
 
-## The four numbers every PM bullet wants
+## The four numbers every project manager resume bullet wants
 
 For each project or role, try to answer honestly:
 

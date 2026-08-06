@@ -12,8 +12,16 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 6
 draft: false
+faq:
+  - q: "What if I never saw reports or dashboards in my job?"
+    a: "Estimate honestly from what you do know: shifts per week times units per shift, team sizes, budgets you touched. Mark approximations clearly (about, roughly, ~). An honest estimate reads fine; a false-precise number you can't defend does not."
+  - q: "Does every bullet need a number?"
+    a: "No. A specific qualitative bullet beats an invented figure every time. Quantify where a real number exists; keep the rest concrete about what you did and why it mattered."
+  - q: "What counts as a defensible number in an interview?"
+    a: "One you can explain the origin of in a sentence: how you counted, over what period, and what part was yours. If that explanation would make you stumble, don't put the number on the page."
 ---
 
 "Responsible for inventory." "Handled customer issues." Duty-list bullets tell a reader what your job *was*, not what you were *good at*. Numbers fix that — they turn a duty into a result. The catch: the number has to be real. Here's how to find honest metrics, even if no one ever handed you a report.
@@ -22,7 +30,7 @@ draft: false
 
 A figure gives the reader something concrete to judge and remember. "Reduced scrap" is a claim; "reduced scrap 18% over two quarters" is evidence. Recruiters skim for exactly these signals.
 
-## Four kinds of honest numbers
+## Four ways to quantify resume achievements honestly
 
 You almost always have access to one of these, even without formal reporting:
 
@@ -34,6 +42,14 @@ You almost always have access to one of these, even without formal reporting:
 ## How to find the number when you don't "have" it
 
 You know more than you think. Estimate honestly from what you do know: shifts per week × units per shift, or "about a quarter of the team," or "roughly halved." Use a clear approximation ("~", "about") rather than a false-precise figure. An honest estimate is fine; a fabricated exact number is not.
+
+## A real before-and-after
+
+Before: *"Responsible for shipping department."*
+
+After an honest walk through what the job actually involved: *"Ran daily shipping for ~200 orders/day across 3 carriers · cut mislabel rework roughly in half by adding a second-check step · trained 4 seasonal hires."*
+
+Every number came from the person's own knowledge of their shifts — order counts they see daily, a fix they made, people they trained. Nothing pulled from a report that doesn't exist; nothing invented.
 
 ## When you genuinely can't quantify
 

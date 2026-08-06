@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 20
 draft: false
 ---
 
 An HR resume faces the toughest reader in hiring: another HR professional, who knows exactly what the job involves and exactly which phrases are filler. "Supported the full employee lifecycle" doesn't survive that reader. Credentials, systems, and caseload numbers do.
 
-## The credential ladder, stated exactly
+## The human resources resume credential ladder, stated exactly
 
 HR has two certifying bodies and a real hierarchy — list what you hold by its precise name: aPHR, PHR, or SPHR from HRCI; SHRM-CP or SHRM-SCP from SHRM. Holding one is a screening advantage at nearly every level; holding none is survivable if the experience carries — but never blur "SHRM member" into looking like a certification, and list an exam date honestly if one is scheduled. The reader knows the difference on sight.
 

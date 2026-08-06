@@ -16,6 +16,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 10
 draft: false
+faq:
+  - q: "Does skills documentation count toward WIOA performance reporting?"
+    a: "It supports the measurement programs already do — progress, credential attainment, employment outcomes — by giving caseworkers an auditable record of what was captured and confirmed. Document the skills; never promise the outcome."
+  - q: "How do caseworkers know what skills to ask about?"
+    a: "Anchor prompts to a standard occupation vocabulary like O*NET's profiles, so asking doesn't depend on each caseworker's industry background. Specific beats general: 'did you operate a forklift?' outperforms 'tell me about your skills.'"
+  - q: "What about participants with justice involvement or long gaps?"
+    a: "The process is the same: document real work honestly — including informal, volunteer, and facility work — and never pad. An honest record the participant can defend in an interview serves them better than an inflated one that collapses there."
 ---
 
 Workforce programs serve people who've done real, valuable work but were never taught to document it — dislocated workers, justice-involved individuals, veterans, long-term unemployed, and career changers. The barrier often isn't a lack of skills; it's a lack of a record. Helping participants draw out and document what they already have is some of the highest-leverage work a board can do.

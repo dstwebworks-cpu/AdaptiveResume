@@ -13,6 +13,10 @@ const guides = defineCollection({
     // Rules: seoTitle <=60 chars keyword-front-loaded; seoDescription <=160 chars.
     seoTitle: z.string().max(60).optional(),
     seoDescription: z.string().max(160).optional(),
+    // FAQ (08/06 benchmark: FAQPage schema is table stakes — Jobscan runs it near-
+    // everywhere). Rendered as a VISIBLE section AND FAQPage JSON-LD; Google requires
+    // the schema to match on-page content, so these must be real, honest Q&As.
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
     segment: z.enum(['job-seekers', 'organizations']),
     audience: z.string(),
     keyword: z.string(),

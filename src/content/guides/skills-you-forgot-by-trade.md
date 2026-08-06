@@ -16,6 +16,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 4
 draft: false
+faq:
+  - q: "How many skills should I put on a resume?"
+    a: "Every skill you can demonstrate on day one — usually more than you think, and no more than that. A focused list of true, specific skills beats a long generic one."
+  - q: "Should I list soft skills like teamwork and communication?"
+    a: "Show them instead of naming them: 'trained 6 new operators' proves communication better than the word does. Save the skills list for concrete, searchable things — equipment, software, standards, certifications."
+  - q: "What if I'm not sure a certification still counts?"
+    a: "If it's expired or you can't verify it, describe the experience instead of claiming the credential: 'operated forklifts daily for 5 years' is true regardless of card status. Never list a credential you can't back up."
 ---
 
 The biggest gap on most resumes isn't a missing job — it's the everyday skills you stopped noticing because they became second nature. A machinist who reads GD&T, runs SPC checks, and holds tolerances all day often writes "operated machines." That undersells years of real capability. Here's how to find what you left off — honestly.

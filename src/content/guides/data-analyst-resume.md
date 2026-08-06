@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 16
 draft: false
 ---
 
 Data analyst resumes cluster into two failure modes: the tool list with no evidence ("SQL, Python, Tableau, Power BI, R, Excel...") and the duty list with no outcome ("created weekly reports for management"). Both miss what the reader is hunting for — proof that your analysis changed a decision. Analysis nobody acted on is the job's overhead; analysis that moved something is the job.
 
-## The bullet formula: data → decision → result
+## The data analyst resume bullet formula: data → decision → result
 
 Every strong analyst bullet has three parts: what you analyzed, what decision it informed, and what happened.
 

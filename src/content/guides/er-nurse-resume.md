@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 18
 draft: false
 ---
 
 Emergency nursing hires on a specific question: can this nurse handle what comes through the door tonight? Your resume answers it with three kinds of evidence — the certification block, the department line, and bullets that show judgment at speed. Generic care language ("provided emergency nursing care to diverse patients") answers nothing.
 
-## The ER credential alphabet, exactly as held
+## The ER nurse resume credential alphabet, exactly as held
 
 After the license line: BLS and ACLS are assumed but still listed; PALS and ENPC if you take pediatric patients; TNCC if you take trauma; NIH Stroke Scale for stroke-receiving departments. CEN is the specialty's board certification — if you hold it, it leads the block; if you're sitting for it, "CEN — exam scheduled [month/year]" is honest and worth a line. Exact names, current status, nothing padded: every item here gets verified during credentialing, so the resume that rounds up gets found out at the worst moment.
 

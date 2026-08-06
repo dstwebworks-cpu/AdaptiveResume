@@ -12,13 +12,14 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
+updatedDate: 2026-08-06
 order: 1
 draft: false
 ---
 
 You did the work. The problem is that a civilian recruiter — and the screening software in front of them — doesn't speak in MOS codes, rank, or unit acronyms. The job of a transition resume isn't to *inflate* what you did. It's to **translate** it into words the hiring side recognizes. Here's how to do that honestly.
 
-## Start with what you actually did, not your title
+## Start a military to civilian resume with what you did, not your title
 
 "Platoon Sergeant, 11B" tells a civilian almost nothing. Before you touch wording, list the real, concrete things you were responsible for:
 

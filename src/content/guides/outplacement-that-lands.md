@@ -16,6 +16,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 9
 draft: false
+faq:
+  - q: "What should outplacement resume services cost per person?"
+    a: "Published per-employee outplacement packages run from several hundred dollars to several thousand depending on tier and coaching depth. Whatever the price, ask what the resume component actually includes — reformatting is not enrichment, and a confirm step is what makes output defensible."
+  - q: "Can resume enrichment really run at layoff scale without inventing things?"
+    a: "Yes — if the process proposes items as questions and records only what each participant confirms. What can't scale honestly is unreviewed generation: tools that write plausible resumes nobody verified."
+  - q: "How do we report program quality to the client?"
+    a: "Coverage lift (confirmed, role-relevant items before vs. after) and completion rates across the cohort. Never placement promises — no provider controls hiring outcomes."
 ---
 
 When a layoff sends dozens or hundreds of people to the market at once, outplacement teams face a hard tradeoff: every displaced worker deserves a resume that reflects their real value, but no team can hand-craft them all on the timeline a workforce reduction demands. Consistent, honest enrichment closes that gap.

@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 14
 draft: false
 ---
 
 A pilot resume is the most structured document in hiring: every reader — airline recruiter, charter chief pilot, insurance underwriter — scans for the same four things in the same order. Certificates. Ratings. Hours. Currency. A beautiful resume that buries those is worse than a plain one that leads with them.
 
-## The block that goes at the top
+## The block that goes at the top of a pilot resume
 
 Right under your name and contact line, before any work history:
 

@@ -16,6 +16,13 @@ pubDate: 2026-07-26
 updatedDate: 2026-07-27
 order: 5
 draft: false
+faq:
+  - q: "Do ATS systems really reject resumes automatically?"
+    a: "Mostly no — the common failure is quieter. A garbled parse means the recruiter's search doesn't find you, or your dates and titles display scrambled. You're rarely rejected by a robot; you're just never seen."
+  - q: "Are PDFs safe to submit?"
+    a: "A text-based PDF (typed, exported from a word processor) parses fine in modern systems. A scanned or photographed PDF is an image — there's no text to read — and decorative fonts or text boxes can still garble extraction."
+  - q: "Do keywords in white text or tiny fonts work?"
+    a: "The software may ingest them, and the human who opens your resume minutes later sees the trick. It reads as dishonest and gets resumes discarded — never do it."
 ---
 
 Before a person reads your resume, software usually does. An [applicant-tracking system (ATS)](/guides/what-is-an-ats) parses your file into fields — name, titles, dates, skills — so a recruiter can search and sort. When the parse goes wrong, a strong resume can quietly drop out. The good news: making yours read cleanly is mostly mechanical.
@@ -34,7 +41,7 @@ The usual culprits are formatting, not content:
 - **Unusual section headings** — "Where I've Made an Impact" may not register as "Experience."
 - **PDF saved as an image** — nothing to read at all.
 
-## Build for a clean parse
+## Build an ATS resume that parses cleanly
 
 - Single column, standard fonts, real text (not an image).
 - Conventional headings: Summary, Experience, Skills, Education.
@@ -45,6 +52,12 @@ The usual culprits are formatting, not content:
 ## Match keywords — honestly
 
 Parsers and recruiters search for the words in the job description. Use the real terms for skills you actually have. The honest rule: mirror the job's language only where it's genuinely true of you — never paste in keywords for skills you don't possess.
+
+## What a parse failure actually looks like
+
+A two-column resume puts the job titles in the left column and the dates in the right. The parser reads straight down: first every title, then every date — and now your employment history says you held six jobs with no dates, followed by six dates with no jobs.
+
+The same content in a single column parses perfectly. Nothing about your experience changed; the container did. That's most of what "ATS-friendly" means.
 
 ## See what the bots see
 

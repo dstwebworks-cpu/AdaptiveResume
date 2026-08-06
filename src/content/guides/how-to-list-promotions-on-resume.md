@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 11
 draft: false
 ---
 
 A promotion is the best evidence a resume can carry: another employer already bet on you and won. But most resumes bury it — two titles mashed into one entry, or split into what looks like two separate jobs. Either way, the reader misses the story. Here's how to make the climb impossible to miss.
 
-## The one rule: the reader should see the climb in two seconds
+## How to list promotions on a resume: the two-second rule
 
 Whoever reads your resume is skimming. If your promotion takes detective work to spot, it doesn't exist. Every format below serves that one goal: company once, titles stacked newest-first, dates on each title.
 

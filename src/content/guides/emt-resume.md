@@ -11,13 +11,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
+updatedDate: 2026-08-06
 order: 19
 draft: false
 ---
 
 EMS hiring starts with one fact: your certification level. Everything else on an EMT resume supports it. Put the level where it can't be missed, describe the service honestly — 911, interfacility, event standby — and let the call work show your judgment. Agencies verify everything, so precision beats polish on every line.
 
-## The certification block, exactly
+## The EMT resume certification block, exactly
 
 Top of the resume, before work history: your NREMT certification at its true level — EMT, AEMT, or Paramedic — plus your state license (state and expiration), CPR/BLS, and level-appropriate additions (ACLS and PALS for medics; PHTLS/ITLS if held; EVOC/CEVO driving certification if your service required it). Exact names and current dates only. If your NREMT lapsed and your state license is active — or the reverse — say what's true; agencies see that pattern all the time and respect the accurate version.
 
