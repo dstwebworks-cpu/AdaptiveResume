@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+// Transition landing page (08/06 research: GO-WITH-CHANGES — dedicated message-matched
+// page is the highest-evidence conversion lever; $149 presented FIRST on transition
+// intent, $49 visible below, both honest). Pre-launch CTA = waitlist capture only.
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const faq = [
+  { q: 'How is a career change resume different from a regular one?',
+    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. The targeted build maps what you've actually done to the words the new role uses, and you confirm every line." },
+  { q: "What if I'm coming from the military or a federal job?",
+    a: "That's the same translation problem at maximum strength — MOS codes, grade levels, and agency language mean nothing outside. We work backwards from what the role actually involved and put it in terms the civilian or private-sector reader recognizes. Nothing gets inflated on the way." },
+  { q: 'Why $149 instead of the $49 build?',
+    a: 'The $49 build makes your one resume complete. The $149 targeted build aims it at the specific role you want next: translated language, an honest read on where you match that role and where you don\'t, and 25 interview questions for it. For a transition, the translation is the product.' },
+];
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.href },
+    { '@type': 'ListItem', position: 2, name: 'Career change' },
+  ],
+};
+---
+<Base
+  title="Career Change Resume Service, Built From Real Experience"
+  description="Changing careers, leaving the military, or going federal-to-private? We translate what you've really done into the new field's language — you confirm every line. $149, one-time."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Career change · Military transition · Federal to private</p>
+      <h1>Your experience is real. It's just written in the wrong <span class="hl">language</span>.</h1>
+      <p class="lede">
+        Changing fields is hard enough without your resume working against you. We dig into what your
+        work actually involved, translate it into the words the new field uses, and ask you to confirm
+        every line — so the resume that crosses over is complete, honest, and recognizably you.
+      </p>
+      <ul class="pills">
+        <li class="pill">Nothing made up — ever</li>
+        <li class="pill">You approve every line</li>
+        <li class="pill">One-time payment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Who this is for</p>
+      <h2>Three versions of the same problem</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>Career changers</h3>
+          <p>You've led teams, run budgets, fixed hard problems — but your resume says it in your old
+          industry's words. The skills transfer; the vocabulary doesn't. We translate it, honestly.</p>
+        </div>
+        <div class="card">
+          <h3>Military to civilian</h3>
+          <p>Your MOS, rank, and evaluations mean everything inside — and nothing to a civilian reader.
+          We turn what the role actually involved into language employers and their software recognize.</p>
+        </div>
+        <div class="card">
+          <h3>Federal to private</h3>
+          <p>Five pages of grade levels and agency language become a resume a corporate reader can
+          act on — the scope stated plainly, nothing lost, nothing inflated.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">What the translation looks like</p>
+      <h2>Same true experience — a reader who finally gets it</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Before</h3>
+          <p class="muted">"92Y Unit Supply Specialist, maintained CSDP compliance, managed SSA transactions."</p>
+        </div>
+        <div class="card">
+          <h3>After — every line confirmed by the person</h3>
+          <p>"Inventory control for a 200-person organization: cycle counts, audits, and accountability
+          for $4.2M in equipment · supervised and trained a supply team of 4 · zero losses across 3 inspections."</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true — the work
+      was always this valuable. It just wasn't in words the next employer could hear. That's what the
+      targeted build does, line by line, with your say-so on each one.</p>
+    </div>
+  </section>
+
+  <section class="section alt" id="pricing">
+    <div class="container">
+      <p class="eyebrow">Pricing</p>
+      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2">
+        <div class="card price featured">
+          <span class="tag-premium">Built for transitions</span>
+          <h3>Targeted build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">The transition product: your resume aimed at the role you're going to, in
+          language that side recognizes.</p>
+          <ul class="ticks">
+            <li>Your experience translated into the new field's language — government, military, and trade terms included</li>
+            <li>An honest read on where you match the role, and where you don't</li>
+            <li>25 interview questions for that exact role, answered from your real experience</li>
+          </ul>
+        </div>
+        <div class="card price">
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">Staying in your field? The base build makes your one resume complete —
+          everything you've earned, finally on paper. You can start here and target later.</p>
+          <ul class="ticks">
+            <li>Up to three old resumes plus your LinkedIn export, dug through together</li>
+            <li>You confirm what's yours — nothing lands without your say-so</li>
+            <li>Reads cleanly for screening software, and for people</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      <h2>We launch this fall — be first in line</h2>
+      <p class="lede">Join the list and we'll tell you the moment it's live, plus the occasional
+      genuinely useful note on making a transition resume work. No spam.</p>
+      <form class="capture-form" method="post" action={waitlistAction}>
+        <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+        <input type="hidden" name="source" value="career-change-page" />
+        <input type="hidden" name="redirect" value="/career-change/" />
+        <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+        <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+      </form>
+      <p class="capture-done hide" id="captureDone">You're on the list. We'll send the occasional useful note and tell you the moment we're live.</p>
+      <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Free reading while you decide</h2>
+      <div class="grid cols-3">
+        <a class="card rcard" href="/guides/career-change-transferable-skills"><b>Career Change Resume: How to Show Transferable Skills</b></a>
+        <a class="card rcard" href="/guides/military-to-civilian-resume"><b>How to Translate Military Experience (MOS) into a Civilian Resume</b></a>
+        <a class="card rcard" href="/guides/government-to-private-resume"><b>Government to Private Sector: Rewriting Your Federal Resume</b></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <h2>Common questions</h2>
+      {faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <script>
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) {
+      const done = document.getElementById('captureDone');
+      const err = document.getElementById('captureErr');
+      const form = document.querySelector('.capture-form');
+      if (joined === '1' && done) { done.classList.remove('hide'); if (form instanceof HTMLElement) form.style.display = 'none'; }
+      else if (err) { err.classList.remove('hide'); }
+    }
+  </script>
+
+  <style>
+    .container.narrow { max-width: 760px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .hide { display: none; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; background: var(--card); }
+    .faq-item summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+    .faq-item p { margin: 10px 0 2px; color: var(--ink-soft); }
+  </style>
+</Base>
