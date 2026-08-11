@@ -71,7 +71,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Let's see what you've been leaving off.</h2>
       {LAUNCHED
         ? <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
-        : <p class="lede">We launch this fall. Join the list before launch day — that's all it takes. <b>25% off your first build is locked in.</b> We'll tell you the moment it's live.</p>}
+        : <p class="lede">We launch this fall. Join the list before launch day — that's all it takes. <b>25% off your first build is locked in</b>, and our ATS-Safe Resume Skeleton (a ready-to-use Word template) is yours the moment you join.</p>}
 
       {LAUNCHED ? (
         <>
@@ -93,6 +93,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           </form>
           <p class="start-alt muted">Just your email — no account, no card. The occasional useful note while we build, and your discount arrives with the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You&#39;re on the list, and your 25% is locked in. We&#39;ll send the occasional useful note and tell you the moment we&#39;re live.</p>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/resume-format-for-ats-template.docx" download>Download your ATS-Safe Resume Skeleton</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
         </div>
       )}
@@ -427,6 +428,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
     .capture-done, .capture-err { margin-top: 12px; font-weight: 700; }
     .capture-done.hide, .capture-err.hide { display: none; }
+    /* the gift button is a .btn (inline-flex) — the id rule outranks it, so .hide
+       actually hides (the guide-gate lesson: display rules silently beat weaker hides) */
+    #captureGift.hide { display: none !important; }
+    #captureGift { margin-top: 10px; }
     .start { max-width: 720px; text-align: center; }
     .start .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
     .dropzone { display: block; cursor: pointer; border: 2px dashed #9fb0c4; border-radius: var(--radius); background: var(--card); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s, box-shadow .15s; }
@@ -474,7 +479,11 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       const done = document.getElementById('captureDone');
       const err = document.getElementById('captureErr');
       const form = document.querySelector('.capture-form');
-      if (joined === '1' && done) { done.classList.remove('hide'); if (form instanceof HTMLElement) form.style.display = 'none'; }
+      if (joined === '1' && done) {
+        done.classList.remove('hide');
+        document.getElementById('captureGift')?.classList.remove('hide');
+        if (form instanceof HTMLElement) form.style.display = 'none';
+      }
       else if (err) { err.classList.remove('hide'); }
     }
 

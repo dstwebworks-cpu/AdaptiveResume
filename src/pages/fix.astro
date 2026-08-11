@@ -61,8 +61,9 @@ const storyAction = appUrl + '/waitlist/story';
     <div class="container narrow" style="text-align:center">
       <h2>We launch this fall — don't pay full price twice</h2>
       <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-      build is locked in.</b> When we're live, you bring the resume you paid for and we finish what
-      it started.</p>
+      build is locked in</b>, and our Paid-Rewrite Rescue Checklist (a ready-to-use Word worksheet)
+      is yours the moment you join. When we're live, you bring the resume you paid for and we
+      finish what it started.</p>
       <form class="capture-form" method="post" action={waitlistAction}>
         <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
         <input type="hidden" name="source" value="fix-page" />
@@ -72,6 +73,7 @@ const storyAction = appUrl + '/waitlist/story';
       </form>
       <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
       <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
+      <a class="btn btn-premium hide" id="captureGift" href="/templates/paid-rewrite-rescue-checklist.docx" download>Download your Paid-Rewrite Rescue Checklist</a>
       <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
 
       <!-- Revealed only after a successful signup (?joined=1). Optional by design:
@@ -162,12 +164,12 @@ const storyAction = appUrl + '/waitlist/story';
       if (form instanceof HTMLElement) form.style.display = 'none';
       document.querySelector('.capture-note')?.classList.add('hide');
     };
-    if (q.get('story') === '1') {          // story submitted -> thanks
-      show('storyDone'); hideCapture();
+    if (q.get('story') === '1') {          // story submitted -> thanks (gift stays reachable)
+      show('storyDone'); show('captureGift'); hideCapture();
     } else if (q.get('story') === '0') {   // story skipped -> joined confirmation, no re-ask
-      show('captureDone'); hideCapture();
-    } else if (q.get('joined') === '1') {  // just joined -> confirmation + optional story
-      show('captureDone'); show('story'); hideCapture();
+      show('captureDone'); show('captureGift'); hideCapture();
+    } else if (q.get('joined') === '1') {  // just joined -> confirmation + gift + optional story
+      show('captureDone'); show('captureGift'); show('story'); hideCapture();
     } else if (q.get('joined')) {
       show('captureErr');
     }

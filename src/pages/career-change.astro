@@ -139,8 +139,9 @@ const breadcrumbLd = {
     <div class="container narrow" style="text-align:center">
       <h2>We launch this fall — be first in line</h2>
       <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-      build is locked in.</b> We'll tell you the moment it's live, plus the occasional genuinely
-      useful note on making a transition resume work. No spam.</p>
+      build is locked in</b>, and our Transferable Skills Inventory (a ready-to-use Word worksheet)
+      is yours the moment you join. We'll tell you the moment it's live, plus the occasional
+      genuinely useful note on making a transition resume work. No spam.</p>
       <form class="capture-form" method="post" action={waitlistAction}>
         <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
         <input type="hidden" name="source" value="career-change-page" />
@@ -149,6 +150,7 @@ const breadcrumbLd = {
         <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
       </form>
       <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
+      <a class="btn btn-premium hide" id="captureGift" href="/templates/transferable-skills-inventory.docx" download>Download your Transferable Skills Inventory</a>
       <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
     </div>
   </section>
@@ -182,7 +184,11 @@ const breadcrumbLd = {
       const done = document.getElementById('captureDone');
       const err = document.getElementById('captureErr');
       const form = document.querySelector('.capture-form');
-      if (joined === '1' && done) { done.classList.remove('hide'); if (form instanceof HTMLElement) form.style.display = 'none'; }
+      if (joined === '1' && done) {
+        done.classList.remove('hide');
+        document.getElementById('captureGift')?.classList.remove('hide');
+        if (form instanceof HTMLElement) form.style.display = 'none';
+      }
       else if (err) { err.classList.remove('hide'); }
     }
   </script>
