@@ -71,7 +71,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Let's see what you've been leaving off.</h2>
       {LAUNCHED
         ? <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
-        : <p class="lede">We launch this fall. Join the list now and <b>25% off your first build is locked in</b> — on the list before launch day is all it takes. We'll tell you the moment it's live.</p>}
+        : <p class="lede">We launch this fall. Join the list before launch day — that's all it takes. <b>25% off your first build is locked in.</b> We'll tell you the moment it's live.</p>}
 
       {LAUNCHED ? (
         <>
@@ -86,7 +86,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       ) : (
         <div class="start-cta" id="capture">
           <form class="capture-form" method="post" action={waitlistAction}>
-            <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="site-hero" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
             <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
@@ -311,6 +311,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <a class="btn btn-premium" href="#get-started">Get started</a>
         </div>
       </div>
+      {!LAUNCHED && <p class="muted finep">On the launch list? Your <b>first</b> build is 25% off too — the discounts above start from your second.</p>}
       <p class="muted finep">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms">Terms</a> for the plain-language details.</p>
     </div>
   </section>
@@ -332,7 +333,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
   <section id="legal" class="section legal-strip">
     <div class="container legalnote">
       <p class="muted">
-        <b>How AdaptiveResume Works:</b> no hallucinations · ATS-readable · real value added · your edits honored.
+        <b>How AdaptiveResume Works:</b> nothing made up · ATS-readable · real value added · your edits honored.
         Read the full <a href="/terms">Terms of Service</a>, <a href="/privacy">Privacy Policy</a>, and
         <a href="/disclaimer">Disclaimer</a>.
       </p>
