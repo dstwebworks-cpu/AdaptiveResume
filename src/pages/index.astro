@@ -30,10 +30,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
                 <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
                 <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
               </>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Launching this fall — join the list</a>}
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
         </div>
         <ul class="pills">
-          <li class="pill">✓ No hallucinations</li>
+          <li class="pill">✓ Nothing made up</li>
           <li class="pill">✓ ATS-readable</li>
           <li class="pill">✓ You approve every line</li>
         </ul>
@@ -69,7 +69,9 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     <div class="container start">
       <p class="eyebrow">Get started</p>
       <h2>Let's see what you've been leaving off.</h2>
-      <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
+      {LAUNCHED
+        ? <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
+        : <p class="lede">We launch this fall. Join the list now and <b>25% off your first build is locked in</b> — on the list before launch day is all it takes. We'll tell you the moment it's live.</p>}
 
       {LAUNCHED ? (
         <>
@@ -89,8 +91,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
             <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
           </form>
-          <p class="start-alt muted">We launch this fall. We&#39;ll send the occasional useful note and tell you the moment it&#39;s live — no spam.</p>
-          <p class="capture-done hide" id="captureDone">You&#39;re on the list. We&#39;ll send the occasional useful note and tell you the moment we&#39;re live.</p>
+          <p class="start-alt muted">Just your email — no account, no card. The occasional useful note while we build, and your discount arrives with the launch email. No spam.</p>
+          <p class="capture-done hide" id="captureDone">You&#39;re on the list, and your 25% is locked in. We&#39;ll send the occasional useful note and tell you the moment we&#39;re live.</p>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
         </div>
       )}
@@ -167,7 +169,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <tbody>
             <tr><th>Works from your uploaded resumes or an export from your LinkedIn profile</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>
             <tr><th>Finds what you left off</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>
-            <tr><th>No hallucinations</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td></tr>
+            <tr><th>Nothing made up</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td></tr>
             <tr><th>Asks you before anything lands in your final resume</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">~</td></tr>
             <tr><th>Shows you how screening software reads your resume</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="x">✗</td></tr>
             <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="c">✓</td></tr>

@@ -107,7 +107,7 @@ const related = ring.length <= 3 ? ring
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free template</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Pop your email in and the download unlocks right here. We'll also send the occasional useful note and tell you the moment AdaptiveResume goes live — no spam.</p>
+        <p class="muted">Pop your email in and the download unlocks right here — and being on the list before launch day locks in <b>25% off your first build</b>. We'll also send the occasional useful note and tell you the moment AdaptiveResume goes live. No spam.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
@@ -116,7 +116,7 @@ const related = ring.length <= 3 ? ring
           <button class="btn btn-primary" type="submit">Unlock the template</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download: {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>Thanks — you're on the launch list, and your download is ready below.</p>
+        <p class="gate-note muted" hidden>Thanks — you're on the launch list, your 25% is locked in, and your download is ready below.</p>
         <p class="gate-err muted" hidden>That email didn't look right — mind trying it again?</p>
       </div>
 

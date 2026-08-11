@@ -43,6 +43,10 @@ const breadcrumbLd = {
         work actually involved, translate it into the words the new field uses, and ask you to confirm
         every line — so the resume that crosses over is complete, honest, and recognizably you.
       </p>
+      <div class="cta-row">
+        <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
+        <a class="btn btn-ghost btn-lg" href="#pricing">See pricing first</a>
+      </div>
       <ul class="pills">
         <li class="pill">Nothing made up — ever</li>
         <li class="pill">You approve every line</li>
@@ -93,6 +97,9 @@ const breadcrumbLd = {
       <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true — the work
       was always this valuable. It just wasn't in words the next employer could hear. That's what the
       targeted build does, line by line, with your say-so on each one.</p>
+      <img class="example-card" src="/img/guides/examples/military-to-civilian-resume-example.png"
+        alt="Before and after example: a military supply specialist's resume line translated into civilian language"
+        loading="lazy" width="1200" height="630" />
     </div>
   </section>
 
@@ -131,7 +138,8 @@ const breadcrumbLd = {
   <section class="section" id="get-started">
     <div class="container narrow" style="text-align:center">
       <h2>We launch this fall — be first in line</h2>
-      <p class="lede">Join the list and we'll tell you the moment it's live, plus the occasional
+      <p class="lede">Join the list now and <b>25% off your first build is locked in</b> — on the
+      list before launch day is all it takes. We'll tell you the moment it's live, plus the occasional
       genuinely useful note on making a transition resume work. No spam.</p>
       <form class="capture-form" method="post" action={waitlistAction}>
         <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
@@ -140,7 +148,7 @@ const breadcrumbLd = {
         <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
         <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
       </form>
-      <p class="capture-done hide" id="captureDone">You're on the list. We'll send the occasional useful note and tell you the moment we're live.</p>
+      <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
       <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
     </div>
   </section>
@@ -181,6 +189,9 @@ const breadcrumbLd = {
 
   <style>
     .container.narrow { max-width: 760px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .example-card { display: block; width: 100%; max-width: 860px; height: auto; margin: 18px auto 0;
+      border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
     .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
     .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
     .hide { display: none; }

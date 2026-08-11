@@ -1,5 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
+// Rebound door (rebuilt 08/10, founder GO): own capture form (source=fix-page) so
+// this page finally measures itself — the old build handed clicks to /#get-started
+// and blurred attribution. Post-signup, an OPTIONAL "what happened?" story form
+// (provider / what went wrong / what would have made it right) posts to the app.
+// It never gates the signup or the 25% launch discount.
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+const storyAction = appUrl + '/waitlist/story';
 ---
 <Base
   title="Resume Rewrite Service — Fix What the Last One Wouldn't"
@@ -15,10 +24,11 @@ import Base from '../layouts/Base.astro';
         <p class="lede">
           Bring us the draft you paid for. It's a starting point, not a loss — we'll dig back into your
           real experience, find what the rewrite left out, and you approve every line before it lands
-          on the page. And we won't ask who the last service was. It doesn't matter.
+          on the page. You never have to tell us who the last service was — though if you want to,
+          we'll listen.
         </p>
         <div class="cta-row">
-          <a class="btn btn-amber btn-lg" href="/#get-started">Upload the resume you paid for</a>
+          <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
           <a class="btn btn-ghost btn-lg" href="/guides/resume-writer-wont-revise">Not sure yet? Read the rescue guide</a>
         </div>
         <ul class="pills">
@@ -45,8 +55,57 @@ import Base from '../layouts/Base.astro';
     </div>
   </section>
 
+  <!-- ===== GET STARTED (capture + the optional story) ===== -->
+  <section class="section alt" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      <h2>We launch this fall — don't pay full price twice</h2>
+      <p class="lede">Join the list now and <b>25% off your first build is locked in</b> — on the list
+      before launch day is all it takes. When we're live, you bring the resume you paid for and we
+      finish what it started.</p>
+      <form class="capture-form" method="post" action={waitlistAction}>
+        <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+        <input type="hidden" name="source" value="fix-page" />
+        <input type="hidden" name="redirect" value="/fix/" />
+        <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+        <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+      </form>
+      <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+      <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
+      <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+
+      <!-- Revealed only after a successful signup (?joined=1). Optional by design:
+           answering never gates the discount, and every field can stay empty. -->
+      <div class="story card hide" id="story">
+        <h3>Want to tell us what happened?</h3>
+        <p class="muted" style="margin:4px 0 14px">It takes a minute, every question is optional, and
+        it genuinely shapes how we build the fix. Being heard is the least you're owed.</p>
+        <form class="story-form" method="post" action={storyAction}>
+          <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+          <label>Who did you use?
+            <input type="text" name="provider" maxlength="120" placeholder='The service or writer — or "rather not say"' />
+          </label>
+          <label>What went wrong?
+            <textarea name="complaint" maxlength="2000" rows="3" placeholder="In your own words — short is fine."></textarea>
+          </label>
+          <label>What would have made it right?
+            <textarea name="wanted" maxlength="2000" rows="3" placeholder="What you actually wanted out of it."></textarea>
+          </label>
+          <label>Email <span class="muted">(optional — only if you're OK with us following up)</span>
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <div class="story-actions">
+            <button class="btn btn-primary" type="submit">Send it</button>
+            <a class="btn btn-ghost" href="/fix/">Skip — my 25% is locked either way</a>
+          </div>
+        </form>
+      </div>
+      <p class="story-done hide" id="storyDone"><b>Thank you — we read every one of these.</b> Your 25%
+      was already locked the moment you joined. We'll tell you the moment we're live.</p>
+    </div>
+  </section>
+
   <!-- ===== HOW IT GOES DIFFERENTLY ===== -->
-  <section class="section alt">
+  <section class="section">
     <div class="container">
       <p class="eyebrow">How this goes differently here</p>
       <h2>You never have to argue with us.</h2>
@@ -77,18 +136,40 @@ import Base from '../layouts/Base.astro';
   </section>
 
   <!-- ===== PRICING ANCHOR ===== -->
-  <section class="section">
+  <section class="section alt">
     <div class="container priceband">
       <p class="eyebrow">One-time payment. No subscription.</p>
       <h2>Finish this for a fraction of what the last round cost.</h2>
       <p class="lede">$49 for a complete, honest, machine-readable rebuild — or $149 to aim it at one
-      specific role, in that field's language. You stay the author the whole way.</p>
+      specific role, in that field's language. Join the list before launch day and your first build
+      is 25% off. You stay the author the whole way.</p>
       <div class="cta-row" style="justify-content:center">
-        <a class="btn btn-primary btn-lg" href="/#pricing">See pricing &amp; get started</a>
+        <a class="btn btn-primary btn-lg" href="#get-started">Lock in 25% off</a>
       </div>
       <p class="muted small">We don't name or review specific companies; if a service treated you well, wonderful — this page is for when one didn't.</p>
     </div>
   </section>
+
+  <script>
+    // Returning from POST /waitlist (?joined=1|err) or /waitlist/story (?story=1).
+    // No-JS visitors still landed on #get-started via the 303; the story form is a
+    // progressive bonus, never the path.
+    const q = new URLSearchParams(location.search);
+    const show = (id: string) => document.getElementById(id)?.classList.remove('hide');
+    if (q.get('story') === '1') {
+      show('storyDone');
+      const form = document.querySelector('.capture-form');
+      if (form instanceof HTMLElement) form.style.display = 'none';
+      document.querySelector('.capture-note')?.classList.add('hide');
+    } else if (q.get('joined') === '1') {
+      show('captureDone'); show('story');
+      const form = document.querySelector('.capture-form');
+      if (form instanceof HTMLElement) form.style.display = 'none';
+      document.querySelector('.capture-note')?.classList.add('hide');
+    } else if (q.get('joined')) {
+      show('captureErr');
+    }
+  </script>
 
   <style>
     .hero { padding: 58px 0 48px; background:
@@ -106,6 +187,23 @@ import Base from '../layouts/Base.astro';
       border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
     .fcard b { display: block; margin-bottom: 4px; }
     .fcard p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+    .container.narrow { max-width: 760px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .hide { display: none; }
+
+    .story { margin-top: 26px; text-align: left; padding: 22px 24px; }
+    .story h3 { margin: 0 0 2px; }
+    .story-form { display: grid; gap: 14px; margin-top: 4px; }
+    .story-form label { display: grid; gap: 6px; font-weight: 700; color: var(--ink); }
+    .story-form label .muted { font-weight: 400; }
+    .story-form input, .story-form textarea { font-family: inherit; font-size: 1rem; padding: 11px 13px;
+      border: 1px solid var(--line); border-radius: var(--radius-sm); font-weight: 400; }
+    .story-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .story-done { color: var(--true); margin-top: 20px; }
 
     .priceband { text-align: center; max-width: 760px; }
     .priceband .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
