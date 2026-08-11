@@ -15,12 +15,13 @@ export default defineConfig({
   site: 'https://adaptiveresume.com',
   integrations: [sitemap({
     // lastmod = honest freshness signal for crawler scheduling (added 08/06):
-    // dated only for surfaces genuinely updated in the 08/05-06 content program
-    // (guides, core pages, /career-change). Legal pages carry no lastmod — they
-    // didn't change. Update this date only when content truly changes again.
+    // dated only for surfaces genuinely updated. 08/11: batch-one guides (10 new),
+    // discount copy on every capture door, and privacy (new collection bullet) —
+    // so privacy now carries lastmod too; terms/disclaimer still untouched.
+    // Update this date only when content truly changes again.
     serialize(item) {
-      const unchanged = ['/terms', '/privacy', '/disclaimer'];
-      if (!unchanged.some((p) => item.url.includes(p))) item.lastmod = '2026-08-06';
+      const unchanged = ['/terms', '/disclaimer'];
+      if (!unchanged.some((p) => item.url.includes(p))) item.lastmod = '2026-08-11';
       return item;
     },
   })],

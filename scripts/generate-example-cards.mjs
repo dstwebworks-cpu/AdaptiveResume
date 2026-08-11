@@ -58,6 +58,47 @@ export const PAIRS = {
     before: "Crew Member (2021-22). Shift Lead (2022-24). Assistant Manager (2024-). Three separate entries, story invisible.",
     after: "One employer, one entry: Crew Member -> Shift Lead (2022) -> Assistant Manager (2024) - promoted twice in three years, now running 12-person shifts.",
   },
+  // Batch one, 08/11 (pairs match each guide body verbatim - see the guides)
+  "icu-nurse-resume": {
+    before: "Registered nurse responsible for the care of critical patients in the intensive care unit.",
+    after: "ICU RN, [MICU/SICU/CVICU], typically 1:2 assignments: ventilated patients, titratable drips, CRRT when assigned; [Epic] charting.",
+  },
+  "operating-room-nurse-resume": {
+    before: "Assisted surgeons during a wide variety of surgical procedures.",
+    after: "Circulating RN across [general/ortho/neuro] services; scrub [share] of cases; owned counts, specimen handling, and time-out documentation in [Epic].",
+  },
+  "charge-nurse-resume": {
+    before: "Served as charge nurse and handled various leadership duties on the unit.",
+    after: "Charge nurse, [N]-bed [unit], [nights]: acuity-based assignments for [N] RNs and [N] techs; bed flow with the house supervisor; first escalation point for the shift.",
+  },
+  "police-officer-resume": {
+    before: "Responded to calls, wrote reports, and appeared in court as needed.",
+    after: "Patrol officer, [agency]: answered calls for service across [beat/shift]; wrote incident and arrest reports relied on in charging decisions; testified in court on my own cases.",
+  },
+  "firefighter-resume": {
+    before: "Firefighter responsible for responding to emergencies and maintaining equipment.",
+    after: "Firefighter/EMT, [department]: fire and medical response on [shift] rotation; qualified on [engine] including pump operations; owned daily rig and SCBA checks.",
+  },
+  "how-to-list-certifications-on-resume": {
+    before: "Certified in project management and additional IT certifications.",
+    after: "Project Management Professional (PMP) - Project Management Institute, current through 09/2027 · CompTIA A+ - CompTIA, earned 2024.",
+  },
+  "resume-format-for-ats": {
+    before: "A two-column layout with work history down the left, skills graphics on the right, and name and phone in the page header.",
+    after: "The same content, one column: contact info in the body, standard headings, month-and-year dates, skills as plain text - nothing reworded, every field parsed cleanly.",
+  },
+  "tailor-resume-to-job-description": {
+    before: "Managed client accounts and helped new customers get set up in our CRM.",
+    after: "Led customer implementations for ~30 new accounts/year in Salesforce; carried renewal responsibility for the book afterward.",
+  },
+  "how-to-explain-employment-gap-on-resume": {
+    before: "2021 - 2024: Various family responsibilities and independent projects.",
+    after: "Full-time caregiver for a parent, 06/2021 - 08/2024 - managed care schedule, household finances, and insurance coordination; returned to full availability.",
+  },
+  "help-desk-resume": {
+    before: "Provided technical support for company employees and resolved computer issues.",
+    after: "Tier 1/2 support for ~800 users across 3 sites; ~35 tickets/day in ServiceNow; escalation line to infrastructure for server and network faults.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
