@@ -13,8 +13,16 @@ cta:
   label: "Fix it with a targeted build — $149"
   href: "/fix"
 pubDate: 2026-07-26
+updatedDate: 2026-08-12
 order: 7.5
 draft: false
+faq:
+  - q: "How many revision rounds is it normal for a resume service to include?"
+    a: "Most paid services cap included revisions — often one or two rounds inside a set window. Check the terms you bought under before assuming you're owed more. Inside that window, precise line-level notes are how you make the rounds count."
+  - q: "Can I get my money back from a resume writer who won't revise?"
+    a: "It depends entirely on the service's own refund and revision terms — read what you agreed to. Keep your request notes in writing either way; a clear record of specific, ignored asks is your best footing in any refund conversation."
+  - q: "Is the draft I paid for wasted if I rebuild?"
+    a: "No. Even a disappointing rewrite usually contains salvage — a cleaner structure, a few well-phrased lines, a tidy education block. Strip those into a keep list before you start over; you paid for them."
 ---
 
 You did the responsible thing. You paid a professional — maybe a few hundred dollars — to make your resume land. The first draft came back looking suspiciously like your old resume with new fonts. You sent notes. One revision arrived, sort of addressing them. You sent more notes. Then the replies slowed down, or stopped, or you got told that's the final draft.
@@ -51,6 +59,12 @@ If you want one more attempt from the writer, make the request impossible to hal
 - **Name the target.** "This reads like a warehouse resume. I'm applying to dispatch roles — the language needs to point there."
 
 Precise notes are fair to the writer and give you a clean record of what you asked for. If precise notes still come back ignored, you have your answer.
+
+## What a fair revision process looks like
+
+So you can calibrate whether you're being unreasonable (you're probably not): a fair paid rewrite states its revision terms up front — how many rounds, inside what window — and inside those rounds, specific notes get specific fixes. "Bullet 3 is factually wrong" gets bullet 3 corrected, not the whole document shuffled. If your notes are precise and the revisions keep coming back general, the process isn't working; that's a signal about the service, not about your standards.
+
+It's also the standard to hold *any* service to — including ours. Every line on a resume you paid for should be one you can question, correct, or strike, and the answer should never be a shrug.
 
 ## Step 3 — Know when to stop chasing
 

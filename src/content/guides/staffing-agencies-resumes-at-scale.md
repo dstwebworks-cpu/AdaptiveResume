@@ -2,6 +2,7 @@
 title: "How Staffing Agencies Can Strengthen Candidate Resumes at Scale"
 description: "Stronger candidate resumes strengthen every submission — without quality coming at the cost of accuracy. Here's how to enrich resumes in bulk, honestly."
 seoTitle: "Staffing Agency Candidate Resumes, Done at Scale"
+seoDescription: "How staffing agencies can strengthen candidate resumes at scale — enriching submissions in bulk without quality costing accuracy."
 segment: "organizations"
 audience: "Staffing & recruiting agencies"
 keyword: "staffing agency candidate resume"

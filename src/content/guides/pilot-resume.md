@@ -1,6 +1,8 @@
 ---
 title: "Pilot Resume: Certificates, Ratings, and Hours First"
 description: "Aviation resumes are read in a fixed order: certificates, ratings, hours, currency. Put them where the reader looks first — and log them exactly."
+seoTitle: "Pilot Resume: Certificates, Ratings, Hours First"
+seoDescription: "Pilot resume guide: certificates, ratings, hours, and currency in the order aviation readers expect — logged exactly, never rounded up."
 segment: "job-seekers"
 audience: "Pilots at every stage — CFI to regional to corporate — plus A&P mechanics"
 keyword: "pilot resume"

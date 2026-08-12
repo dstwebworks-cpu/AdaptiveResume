@@ -1,6 +1,8 @@
 ---
 title: "Data Analyst Resume: Show Decisions, Not Dashboards"
 description: "Tool lists don't get analyst interviews — decisions do. How to show SQL, Excel, and BI work as outcomes, and why padding your stack backfires."
+seoTitle: "Data Analyst Resume: Decisions, Not Dashboards"
+seoDescription: "Data analyst resume guide: show SQL, Excel, and BI work as decisions and outcomes — and why padding your tool stack backfires."
 segment: "job-seekers"
 audience: "Data analysts, reporting analysts, and career-changers moving into analytics"
 keyword: "data analyst resume"

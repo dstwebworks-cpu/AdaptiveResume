@@ -1,6 +1,8 @@
 ---
 title: "Project Manager Resume: Scope Beats Buzzwords"
 description: "PM resumes drown in 'cross-functional stakeholder alignment.' What hiring managers scan for is scope: budget, team size, timeline, outcome. Here's the fix."
+seoTitle: "Project Manager Resume: Scope Beats Buzzwords"
+seoDescription: "Project manager resume guide: lead with budget, team size, timeline, and outcome — the scope hiring managers scan for — not buzzwords."
 segment: "job-seekers"
 audience: "Project managers, coordinators, and accidental PMs who ran projects without the title"
 keyword: "project manager resume"

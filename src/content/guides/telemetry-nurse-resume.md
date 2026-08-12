@@ -1,6 +1,8 @@
 ---
 title: "Telemetry Nurse Resume: Certs, Ratios, and Rhythms"
 description: "Tele nursing is certification-dense and your resume should show it — ACLS, monitoring scope, ratios, and the honest way to write the step up to ICU."
+seoTitle: "Telemetry Nurse Resume: Certs, Ratios, Rhythms"
+seoDescription: "Telemetry nurse resume guide: ACLS and monitoring scope, honest ratios, and how to write the step up to ICU without inflating anything."
 segment: "job-seekers"
 audience: "Telemetry and step-down RNs — staying, floating, traveling, or moving to ICU"
 keyword: "telemetry nurse resume"

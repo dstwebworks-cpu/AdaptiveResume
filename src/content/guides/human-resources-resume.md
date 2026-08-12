@@ -1,6 +1,8 @@
 ---
 title: "Human Resources Resume: Certs, Systems, and Caseload"
 description: "HR resumes get screened by HR — the hardest audience there is. Lead with the credential ladder, name your HRIS, and put honest numbers on the caseload."
+seoTitle: "Human Resources Resume: Certs, Systems, Caseload"
+seoDescription: "Human resources resume guide: lead with the credential ladder, name your HRIS, and put honest numbers on your caseload — for the hardest audience."
 segment: "job-seekers"
 audience: "HR coordinators, generalists, recruiters, and managers"
 keyword: "human resources resume"

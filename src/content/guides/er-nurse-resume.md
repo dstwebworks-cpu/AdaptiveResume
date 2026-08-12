@@ -1,6 +1,8 @@
 ---
 title: "ER Nurse Resume: Triage, Trauma, and the Cert Block"
 description: "Emergency nursing has its own credential alphabet — TNCC, CEN, ENPC — and its own proof points: acuity, throughput, and judgment under load. Write them in."
+seoTitle: "ER Nurse Resume: Triage, Trauma, and Certs"
+seoDescription: "ER nurse resume guide: TNCC, CEN, ENPC and the proof points that matter — acuity, throughput, and judgment under load — written honestly."
 segment: "job-seekers"
 audience: "Emergency department RNs — staff, charge, travel, and new-to-specialty"
 keyword: "er nurse resume"

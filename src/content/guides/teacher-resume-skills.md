@@ -1,6 +1,8 @@
 ---
 title: "Teacher Resume Skills: What to List (What You Forgot)"
 description: "Teachers run rooms, data, and compliance every day — then write resumes that say 'taught 3rd grade.' Here are the skills you've earned and how to name them."
+seoTitle: "Teacher Resume Skills: What to List (Examples)"
+seoDescription: "Teacher resume skills worth listing: classroom data, compliance, IEPs, family communication — the skills you've earned and how to name them."
 segment: "job-seekers"
 audience: "Teachers, substitutes, and paraprofessionals — staying in education or leaving it"
 keyword: "teacher resume skills"

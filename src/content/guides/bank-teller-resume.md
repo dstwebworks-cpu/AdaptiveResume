@@ -1,6 +1,8 @@
 ---
 title: "Bank Teller Resume: Accuracy, Volume, and Referrals"
 description: "Teller work is measured daily — drawer accuracy, transaction volume, referrals. Put those numbers on the page and the resume does the arguing for you."
+seoTitle: "Bank Teller Resume: Accuracy, Volume, Referrals"
+seoDescription: "Bank teller resume guide: put drawer accuracy, transaction volume, and referral numbers on the page — honestly — and let them argue for you."
 segment: "job-seekers"
 audience: "Bank tellers and head tellers — plus cashiers and retail workers moving into banking"
 keyword: "bank teller resume"

@@ -1,6 +1,8 @@
 ---
 title: "Administrative Assistant Resume: Name the Real Skills"
 description: "Admin work is the most undersold job in hiring — 'answered phones and scheduled meetings' hides systems, judgment, and money. Here's how to name it honestly."
+seoTitle: "Administrative Assistant Resume: The Real Skills"
+seoDescription: "Administrative assistant resume guide: name the systems, judgment, and money your admin work really involves — honestly, with examples."
 segment: "job-seekers"
 audience: "Administrative assistants, office managers, and executive assistants"
 keyword: "administrative assistant resume"

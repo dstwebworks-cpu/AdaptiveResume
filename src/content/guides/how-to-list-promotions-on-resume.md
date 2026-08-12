@@ -1,6 +1,8 @@
 ---
 title: "How to List Promotions on a Resume (With Examples)"
 description: "Promotions are the strongest proof on your resume — if the reader can see them. Here's how to show one job, two titles, without confusing anyone."
+seoTitle: "How to List Promotions on a Resume (Examples)"
+seoDescription: "How to list promotions on a resume: stacked vs separate entries, one job with two titles, and examples that make the climb visible."
 segment: "job-seekers"
 audience: "Anyone who moved up at a company and isn't sure how to show it"
 keyword: "how to list promotions on resume"

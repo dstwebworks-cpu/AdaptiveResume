@@ -1,6 +1,8 @@
 ---
 title: "EMT Resume: Certification Level, Calls, and Protocols"
 description: "EMT resumes are read certification-first — NREMT level, state license, then the calls. How to show 911 vs IFT honestly and write the step toward medic or fire."
+seoTitle: "EMT Resume: Certification Level, Calls, Protocols"
+seoDescription: "EMT resume guide: NREMT level and state license first, honest 911 vs IFT call history, and how to write the step toward medic or fire."
 segment: "job-seekers"
 audience: "EMTs and paramedics — 911, interfacility, event medicine, and new certificate holders"
 keyword: "emt resume"

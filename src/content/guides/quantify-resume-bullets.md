@@ -2,6 +2,7 @@
 title: "How to Quantify Your Resume Bullets (Without Making Things Up)"
 description: "Numbers make a resume land — but only real ones. Here's how to find honest metrics for your work, even when no one handed you a dashboard."
 seoTitle: "Quantify Resume Achievements Without Making Things Up"
+seoDescription: "Four honest ways to quantify resume achievements — volume, money, time, quality — and how to find real numbers when nobody handed you a report."
 segment: "job-seekers"
 audience: "Anyone whose resume reads as a list of duties"
 keyword: "quantify resume achievements"
