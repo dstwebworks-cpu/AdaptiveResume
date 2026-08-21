@@ -29,7 +29,7 @@ Recruiters and screening software both search for the words in the job descripti
 
 ## Why keywords matter
 
-A resume that says "client relations" won't come up when the recruiter searches "account management," even if it's the same work. Using the role's own vocabulary — for things you actually did — is how recruiters find you at all. That's not a quirk: inside an [applicant tracking system](/guides/what-is-an-ats), the recruiter's search runs on the literal words [extracted from your resume](/guides/what-the-ats-reads). If the word isn't on your page, you don't exist to that search.
+A resume that says "client relations" won't come up when the recruiter searches "account management," even if it's the same work. Using the role's own vocabulary — for things you actually did — is how recruiters find you at all. That's not a quirk: inside an [applicant tracking system](/guides/what-is-an-ats/), the recruiter's search runs on the literal words [extracted from your resume](/guides/what-the-ats-reads/). If the word isn't on your page, you don't exist to that search.
 
 ## Pull resume keywords from the job description itself
 
@@ -67,7 +67,7 @@ A compact core-skills section near the top is fair game — it's a legitimate, r
 
 ## Tailor per role, lightly
 
-You don't need a new resume per application — adjust the summary and a few bullets to mirror each posting's priorities, using only what's genuinely true. A little honest tailoring beats one generic resume. When a posting matters enough to go deeper, the full method is in our [tailoring guide](/guides/tailor-resume-to-job-description).
+You don't need a new resume per application — adjust the summary and a few bullets to mirror each posting's priorities, using only what's genuinely true. A little honest tailoring beats one generic resume. When a posting matters enough to go deeper, the full method is in our [tailoring guide](/guides/tailor-resume-to-job-description/).
 
 ## The line you don't cross
 

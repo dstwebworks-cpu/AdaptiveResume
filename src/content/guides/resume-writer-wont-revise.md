@@ -11,7 +11,7 @@ giveaway:
   file: "/templates/paid-rewrite-rescue-checklist.docx"
 cta:
   label: "Fix it with a targeted build — $149"
-  href: "/fix"
+  href: "/fix/"
 pubDate: 2026-07-26
 updatedDate: 2026-08-12
 order: 7.5
@@ -83,4 +83,4 @@ This situation is why we built the process the way we did. Upload the draft you 
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
 
-If you'd rather not fight this battle alone, our [resume rewrite service](/fix) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every line before it lands.
+If you'd rather not fight this battle alone, our [resume rewrite service](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every line before it lands.

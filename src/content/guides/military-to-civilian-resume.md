@@ -80,7 +80,7 @@ Military training is a real asset — but only claim what genuinely transfers:
 
 ## Quantify — truthfully
 
-Numbers make a resume land, but only real ones. If you genuinely know the figure, use it ("supervised 12 vehicles," "trained 50+ soldiers"). If you don't, leave it qualitative rather than guessing. A true, un-quantified line beats an impressive, invented one. Our [quantifying guide](/guides/quantify-resume-bullets) shows how to find honest numbers when nobody handed you a report — and military roles are usually rich in them: personnel counts, equipment values, readiness rates you actually knew.
+Numbers make a resume land, but only real ones. If you genuinely know the figure, use it ("supervised 12 vehicles," "trained 50+ soldiers"). If you don't, leave it qualitative rather than guessing. A true, un-quantified line beats an impressive, invented one. Our [quantifying guide](/guides/quantify-resume-bullets/) shows how to find honest numbers when nobody handed you a report — and military roles are usually rich in them: personnel counts, equipment values, readiness rates you actually knew.
 
 ## Don't over-translate
 
@@ -92,7 +92,7 @@ If you went through the Transition Assistance Program, you already have a resume
 
 ## If you're also applying federal
 
-Many transitioning service members run a two-track search: private-sector and federal. Know that they want **different documents** — the private resume is the short, impact-first translation this guide builds; a federal (USAJOBS) resume follows its own conventions and, under the OPM rule effective late 2025, is capped at two pages. Don't send either one to the other audience. If the federal-to-private direction is your move, that [conversion guide is here](/guides/government-to-private-resume).
+Many transitioning service members run a two-track search: private-sector and federal. Know that they want **different documents** — the private resume is the short, impact-first translation this guide builds; a federal (USAJOBS) resume follows its own conventions and, under the OPM rule effective late 2025, is capped at two pages. Don't send either one to the other audience. If the federal-to-private direction is your move, that [conversion guide is here](/guides/government-to-private-resume/).
 
 ## Use the worksheet
 

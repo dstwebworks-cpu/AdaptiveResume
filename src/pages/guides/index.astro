@@ -21,7 +21,7 @@ const orgs = guides.filter((g) => g.data.segment === 'organizations');
       <h2 style="margin-top:40px">For job seekers</h2>
       <div class="grid cols-3 glist">
         {jobSeeker.map((g) => (
-          <a class="card gcard" href={`/guides/${g.id}`}>
+          <a class="card gcard" href={`/guides/${g.id}/`}>
             <span class="tag-premium" style="background:#e7eefb;color:var(--primary);border-color:#cfe0fb">Guide</span>
             <h3>{g.data.title}</h3>
             <p class="muted">{g.data.description}</p>
@@ -33,7 +33,7 @@ const orgs = guides.filter((g) => g.data.segment === 'organizations');
       <h2 style="margin-top:46px">For organizations</h2>
       <div class="grid cols-3 glist">
         {orgs.map((g) => (
-          <a class="card gcard" href={`/guides/${g.id}`}>
+          <a class="card gcard" href={`/guides/${g.id}/`}>
             <span class="tag-premium">Guide</span>
             <h3>{g.data.title}</h3>
             <p class="muted">{g.data.description}</p>

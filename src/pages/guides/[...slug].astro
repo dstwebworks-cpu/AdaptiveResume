@@ -78,7 +78,7 @@ const related = ring.length <= 3 ? ring
 <Base title={pageTitle} description={metaDescription} ogImage={cardPath}>
   <article class="section">
     <div class="container narrow">
-      <p class="eyebrow"><a href="/guides">Guides</a> · {segLabel}</p>
+      <p class="eyebrow"><a href="/guides/">Guides</a> · {segLabel}</p>
       <h1>{guide.data.title}</h1>
       <p class="lede">{guide.data.description}</p>
       <p class="muted dateline">Published {fmtDate(pub)}{upd && ` · Updated ${fmtDate(upd)}`}</p>
@@ -132,7 +132,7 @@ const related = ring.length <= 3 ? ring
         <h3>Keep reading</h3>
         <div class="grid cols-3">
           {related.map((g) => (
-            <a class="card rcard" href={`/guides/${g.id}`}>
+            <a class="card rcard" href={`/guides/${g.id}/`}>
               <span class="rseg">{g.data.segment === 'organizations' ? 'For organizations' : 'For job seekers'}</span>
               <b>{g.data.title}</b>
             </a>

@@ -11,7 +11,7 @@ giveaway:
   file: "/templates/outplacement-resume-qa-checklist.docx"
 cta:
   label: "See AdaptiveResume for organizations"
-  href: "/business"
+  href: "/business/"
 pubDate: 2026-07-26
 updatedDate: 2026-08-06
 order: 9

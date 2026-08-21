@@ -13,6 +13,16 @@ export default defineConfig({
   // Non-www is the canonical host: the live site (Render + Cloudflare) serves
   // adaptiveresume.com and 301s www -> non-www; robots.txt already points here.
   site: 'https://adaptiveresume.com',
+
+  // Trailing slash is the canonical form, and it is now enforced rather than assumed.
+  // GSC reported 14 URLs as "Alternate page with proper canonical tag" on 08/2026: the
+  // canonicals and the sitemap were correct (slash form), but 33 of OUR OWN internal
+  // links pointed at the slash-less variant, which also returns 200. Every one of those
+  // links advertised a duplicate URL to Google, which then filed the crawl under the
+  // canonical instead of indexing it. Links fixed 08/21; this setting stops the drift
+  // coming back, and makes dev behave like production.
+  trailingSlash: 'always',
+  build: { format: 'directory' },
   integrations: [sitemap({
     // lastmod = honest freshness signal for crawler scheduling (added 08/06):
     // dated only for surfaces genuinely updated. 08/11: batch-one guides (10 new),

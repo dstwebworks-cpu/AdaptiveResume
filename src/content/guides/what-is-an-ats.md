@@ -55,7 +55,7 @@ Notice what's missing from that sequence: no step where software grades your res
 
 The part that matters to you is the **parse**. The software reads your file and tries to drop your information into the right fields. If your resume is laid out cleanly, it parses cleanly — your titles, dates, and skills land where they should, and you show up correctly when a recruiter searches. If it's laid out in a way the parser can't follow (tables, text boxes, graphics, contact info in the header), pieces can get garbled or dropped — and you may not come up in searches you'd actually match.
 
-The step-by-step of what survives a parse and what doesn't is in our companion guide, [what screening software actually reads](/guides/what-the-ats-reads).
+The step-by-step of what survives a parse and what doesn't is in our companion guide, [what screening software actually reads](/guides/what-the-ats-reads/).
 
 ## What recruiters do inside the ATS
 
@@ -65,7 +65,7 @@ Understanding the reader helps you write for them. A recruiter with two hundred 
 - **Filter** — by location, most recent title, or the knockout answers.
 - **Skim the parsed profile first** — titles and dates in a uniform layout — and open your actual resume file when something matches.
 
-That's why the words on your page matter more than the design: the search happens on the extracted text. It's also why [matching the job description's real vocabulary — honestly](/guides/honest-keyword-matching) — is the highest-value tailoring you can do.
+That's why the words on your page matter more than the design: the search happens on the extracted text. It's also why [matching the job description's real vocabulary — honestly](/guides/honest-keyword-matching/) — is the highest-value tailoring you can do.
 
 ## The myth worth clearing up
 
@@ -92,13 +92,13 @@ Worth stating plainly, because the fear-marketing version of the ATS sells a lot
 
 Two practical things:
 
-1. **Format for a clean parse** — single column, standard headings, real text (not an image), contact info in the body. The [formatting guide](/guides/resume-format-for-ats) covers every decision.
+1. **Format for a clean parse** — single column, standard headings, real text (not an image), contact info in the body. The [formatting guide](/guides/resume-format-for-ats/) covers every decision.
 2. **Use the real words** — mirror the job description's terminology *only* where it's genuinely true of you. Never paste in keywords for skills you don't have; that gets caught by the human a few minutes later.
 
 > No honest tool can promise you'll "pass" a specific company's ATS — that depends on their settings and keywords, which you can't see. What you *can* control is whether your resume reads cleanly and tells the truth well.
 
 ## Go deeper
 
-For the step-by-step on formatting and keywords, read **[Will Your Resume Pass the ATS? What Screening Software Actually Reads](/guides/what-the-ats-reads)**. And grab the cheat-sheet below for a one-page summary you can keep next to you while you apply.
+For the step-by-step on formatting and keywords, read **[Will Your Resume Pass the ATS? What Screening Software Actually Reads](/guides/what-the-ats-reads/)**. And grab the cheat-sheet below for a one-page summary you can keep next to you while you apply.
 
 When you want it handled for you, our build creates a clean resume that screening software reads without stumbling — and **shows you every check it ran** — passes and heads-ups alike — so you're not left guessing before you apply.

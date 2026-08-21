@@ -44,7 +44,7 @@ Every admin resume says Microsoft Office. Fewer say what the ATS and the reader 
 
 ## Executive assistant and office manager: the seniority line
 
-EA and office-manager resumes fail when they read identically to entry-level admin ones. The difference is autonomy — what you decided without sign-off. Board-meeting logistics owned end-to-end, an office move you ran, onboarding you built, the budget line you controlled. If you had it, claim it with its size; if a title change never came with the added scope, claim the scope honestly ("absorbed office-manager responsibilities after the role went unfilled") — the same principle as our [promotions guide](/guides/how-to-list-promotions-on-resume).
+EA and office-manager resumes fail when they read identically to entry-level admin ones. The difference is autonomy — what you decided without sign-off. Board-meeting logistics owned end-to-end, an office move you ran, onboarding you built, the budget line you controlled. If you had it, claim it with its size; if a title change never came with the added scope, claim the scope honestly ("absorbed office-manager responsibilities after the role went unfilled") — the same principle as our [promotions guide](/guides/how-to-list-promotions-on-resume/).
 
 ## A bullet bank you can adapt — keep only what's true
 
@@ -78,7 +78,7 @@ The honesty rule cuts both ways: use the exact terms for things you truly do —
 
 ## Format notes
 
-One page for most admin careers, clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guidance](/guides/career-change-transferable-skills) applies here too).
+One page for most admin careers, clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guidance](/guides/career-change-transferable-skills/) applies here too).
 
 
 ## The before-and-after, at a glance

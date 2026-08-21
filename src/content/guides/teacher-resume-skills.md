@@ -65,7 +65,7 @@ Patterns with placeholders - your real numbers and programs go in, anything not 
 - "Communicated weekly with [N] families; maintained translation support for [N] home languages"
 
 **For classroom-to-corporate moves**
-- "Built instructional sequences from standards" becomes "instructional design"; "benchmark regrouping" becomes "data-driven program adjustment"; "IEP compliance" becomes "regulated documentation with legal deadlines." Same true work, the receiving industry's words - our [career-change guide](/guides/career-change-transferable-skills) walks the full method.
+- "Built instructional sequences from standards" becomes "instructional design"; "benchmark regrouping" becomes "data-driven program adjustment"; "IEP compliance" becomes "regulated documentation with legal deadlines." Same true work, the receiving industry's words - our [career-change guide](/guides/career-change-transferable-skills/) walks the full method.
 
 ## What screening software looks for on a teacher resume
 
@@ -79,7 +79,7 @@ The trap is listing the staffing arrangement instead of the work. "Substitute te
 
 ## Leaving the classroom: translate, don't apologize
 
-Career-change teacher resumes fail when they lead with what's being left. Lead with the transferable skill the new field buys: training and development, project coordination, data analysis, client communication. Your evidence is classroom evidence — that's fine; the naming is what changes. (Our [career-change guide](/guides/career-change-transferable-skills) covers the full translation approach.)
+Career-change teacher resumes fail when they lead with what's being left. Lead with the transferable skill the new field buys: training and development, project coordination, data analysis, client communication. Your evidence is classroom evidence — that's fine; the naming is what changes. (Our [career-change guide](/guides/career-change-transferable-skills/) covers the full translation approach.)
 
 ## What an ATS needs from a teacher resume
 

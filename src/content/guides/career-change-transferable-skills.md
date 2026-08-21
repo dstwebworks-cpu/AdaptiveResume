@@ -49,7 +49,7 @@ Pull the job description for the role you want. For each requirement, ask: "wher
 - Closing the till / reconciling drawers → financial accuracy and reporting
 - Training new hires → onboarding and enablement
 
-This is the same honest keyword discipline that [gets a resume found in screening software](/guides/honest-keyword-matching) — the new field's vocabulary, applied only where it's true of you.
+This is the same honest keyword discipline that [gets a resume found in screening software](/guides/honest-keyword-matching/) — the new field's vocabulary, applied only where it's true of you.
 
 ## One example of the separation
 
@@ -73,7 +73,7 @@ The mistake career changers make isn't lacking these — it's leaving them burie
 
 ## Chronological, functional, or hybrid — settled honestly
 
-Career-change advice often pushes the "functional" format: skills up top, work history reduced to a bare list. Skip it. Recruiters have seen that format used to bury things for decades, and it reads as concealment even when nothing's hidden — some screening software also parses it badly, [scrambling your history in the database](/guides/what-the-ats-reads).
+Career-change advice often pushes the "functional" format: skills up top, work history reduced to a bare list. Skip it. Recruiters have seen that format used to bury things for decades, and it reads as concealment even when nothing's hidden — some screening software also parses it badly, [scrambling your history in the database](/guides/what-the-ats-reads/).
 
 What works is a **chronological resume with a skills-forward opening**: a summary that frames the through-line, a compact core-skills block carrying your transferable vocabulary, then your real work history — reframed bullet by bullet, dates intact, nothing hidden. You get the reframing benefit of a functional resume with none of its credibility cost.
 
@@ -83,7 +83,7 @@ Career changers benefit from a short summary up top that frames the through-line
 
 ## Use accomplishments, not titles, to carry the weight
 
-Your old titles may mean nothing in the new field; your results travel. [Quantify truthfully](/guides/quantify-resume-bullets) — what you improved, ran, or saved — so the reader judges capability, not pedigree.
+Your old titles may mean nothing in the new field; your results travel. [Quantify truthfully](/guides/quantify-resume-bullets/) — what you improved, ran, or saved — so the reader judges capability, not pedigree.
 
 ## Address the change, don't hide it
 
@@ -93,4 +93,4 @@ A one-line note ("transitioning into [field] after [N] years building [transfera
 
 Transferable doesn't mean identical. If the new role needs a skill you don't have, name it as a growth area or get the credential — don't paper over it. That honesty is exactly what survives a reference check.
 
-The **Transferable-Skills Inventory** below helps you pull your real skills out of your old context and map them to the new one. Our targeted build then does this with you — finding transferable skills you may have undersold, asking you to confirm each, and framing them toward the role you want. If a career change is exactly where you are, [that's the build we designed for it](/career-change).
+The **Transferable-Skills Inventory** below helps you pull your real skills out of your old context and map them to the new one. Our targeted build then does this with you — finding transferable skills you may have undersold, asking you to confirm each, and framing them toward the role you want. If a career change is exactly where you are, [that's the build we designed for it](/career-change/).

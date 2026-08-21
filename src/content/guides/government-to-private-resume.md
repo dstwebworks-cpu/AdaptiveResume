@@ -67,14 +67,14 @@ Translate to the nearest honest private equivalent — never claim a title or au
 - "Drafted decision memos for SES leadership" → "Produced executive briefings that drove [decision/outcome]"
 - "COR duties" → "Vendor and contract-performance management"
 
-Same facts, language the private side recognizes. Run the same acronym test a [transitioning service member does](/guides/military-to-civilian-resume): if a reader who never worked in government wouldn't know the term, translate it or cut it.
+Same facts, language the private side recognizes. Run the same acronym test a [transitioning service member does](/guides/military-to-civilian-resume/): if a reader who never worked in government wouldn't know the term, translate it or cut it.
 
 ## A two-page structure that works
 
 Once the cutting and translating are done, reassemble in the order private recruiters expect:
 
 1. **Summary** — two or three lines: what you do, at what scope, and where you're aiming. This is where "20 years in federal program management" becomes an asset with a direction.
-2. **Core skills** — a compact keyword block of your real, searchable competencies (procurement, compliance, stakeholder management, the systems you know). This is what [screening software extracts and recruiters search](/guides/what-the-ats-reads).
+2. **Core skills** — a compact keyword block of your real, searchable competencies (procurement, compliance, stakeholder management, the systems you know). This is what [screening software extracts and recruiters search](/guides/what-the-ats-reads/).
 3. **Experience** — reverse-chronological, three to six outcome bullets per recent role, older roles compressed.
 4. **Education and certifications** — degrees, PMP-style credentials, and an active clearance line if relevant.
 
@@ -82,13 +82,13 @@ Plain, single-column formatting — the federal habit of dense completeness is t
 
 ## Lead with outcomes, not duties
 
-Federal resumes describe responsibilities exhaustively. Private resumes reward results. For each major role, ask: what changed because I was there? Money saved, time cut, risk reduced, throughput raised. Use real figures only — if you don't have the number, keep the line qualitative rather than inventing one. (Government work is often *easier* to quantify than people expect — budgets, contract values, and headcounts were in your world all along; the [quantifying guide](/guides/quantify-resume-bullets) helps you pull them out honestly.)
+Federal resumes describe responsibilities exhaustively. Private resumes reward results. For each major role, ask: what changed because I was there? Money saved, time cut, risk reduced, throughput raised. Use real figures only — if you don't have the number, keep the line qualitative rather than inventing one. (Government work is often *easier* to quantify than people expect — budgets, contract values, and headcounts were in your world all along; the [quantifying guide](/guides/quantify-resume-bullets/) helps you pull them out honestly.)
 
 ## Don't lose your real advantages
 
 Government experience carries genuine strengths private employers value: regulatory fluency, stakeholder management, audit-grade documentation, security clearance (if active). Name these plainly — they're often what makes a hiring manager stop and read.
 
-And if a posting sits in a regulated industry — defense contracting, healthcare, finance, energy — your government background isn't something to soften; it's the qualification. Aim the summary accordingly, and [tailor the resume to that posting's language](/guides/tailor-resume-to-job-description) where it's true of you.
+And if a posting sits in a regulated industry — defense contracting, healthcare, finance, energy — your government background isn't something to soften; it's the qualification. Aim the summary accordingly, and [tailor the resume to that posting's language](/guides/tailor-resume-to-job-description/) where it's true of you.
 
 ## Keep it honest
 

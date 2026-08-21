@@ -51,7 +51,7 @@ ATS filters do look for Agile, Scrum, Kanban, waterfall — but a bare keyword l
 
 ## No PM title yet? Claim the scope, not the rank
 
-Many of the strongest PM candidates were never called PM — coordinators, leads, office managers, sergeants who ran the moving parts of something real. Don't invent a title you didn't hold. Claim the project itself: what you were given, what you coordinated, what got delivered. "Coordinated the warehouse relocation — 3 vendors, 6-week window, zero missed ship days" is project management evidence under any title. (Same principle as our [promotions guide](/guides/how-to-list-promotions-on-resume): scope is the honest claim; titles are just labels.)
+Many of the strongest PM candidates were never called PM — coordinators, leads, office managers, sergeants who ran the moving parts of something real. Don't invent a title you didn't hold. Claim the project itself: what you were given, what you coordinated, what got delivered. "Coordinated the warehouse relocation — 3 vendors, 6-week window, zero missed ship days" is project management evidence under any title. (Same principle as our [promotions guide](/guides/how-to-list-promotions-on-resume/): scope is the honest claim; titles are just labels.)
 
 ## A bullet bank you can adapt - keep only what's true
 

@@ -75,7 +75,7 @@ Mostly yes — if you keep the ladder machine-simple:
 - **When the application form asks you to enter jobs one at a time, give each title its own entry there.** The form is its own parser; your document's clever formatting doesn't carry into it. Two titles = two entries in the form, even though your resume document stays stacked.
 - **If a posting runs through an older system and you're nervous,** the safe fallback is repeating the company name above each title. It costs a little elegance and never costs parsing.
 
-For what these systems actually do with your resume, see [what the ATS reads](/guides/what-the-ats-reads).
+For what these systems actually do with your resume, see [what the ATS reads](/guides/what-the-ats-reads/).
 
 ## The two mistakes that erase promotions
 

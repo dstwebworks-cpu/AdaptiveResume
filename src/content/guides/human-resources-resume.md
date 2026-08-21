@@ -51,7 +51,7 @@ FMLA and leave administration, ADA accommodations, I-9/E-Verify, OSHA recordkeep
 
 ## Coordinator to generalist to manager: show the scope shift
 
-Each HR level is a scope claim: coordinators own processes, generalists own client groups, managers own outcomes and other people. Write each past role at its true altitude, and if you absorbed generalist work in a coordinator seat — most common step in the field — claim the work explicitly ("carried generalist duties for two client groups after a team departure") rather than inflating the title. The reader has seen both versions and trusts only one. (Our [promotions guide](/guides/how-to-list-promotions-on-resume) covers the stacked-title format for the moves that did come with new titles.)
+Each HR level is a scope claim: coordinators own processes, generalists own client groups, managers own outcomes and other people. Write each past role at its true altitude, and if you absorbed generalist work in a coordinator seat — most common step in the field — claim the work explicitly ("carried generalist duties for two client groups after a team departure") rather than inflating the title. The reader has seen both versions and trusts only one. (Our [promotions guide](/guides/how-to-list-promotions-on-resume/) covers the stacked-title format for the moves that did come with new titles.)
 
 ## Format notes
 
