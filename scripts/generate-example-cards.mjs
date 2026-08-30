@@ -99,6 +99,47 @@ export const PAIRS = {
     before: "Provided technical support for company employees and resolved computer issues.",
     after: "Tier 1/2 support for ~800 users across 3 sites; ~35 tickets/day in ServiceNow; escalation line to infrastructure for server and network faults.",
   },
+  // 08/30 wave (10 occupation guides)
+  "paramedic-resume": {
+    before: "Certified paramedic with ACLS and PALS. Experienced in advanced life support and patient care.",
+    after: "Licensed Paramedic, [State] (Lic. #[number], current through [date]); NRP (National Registry, current through [date]). ACLS, PALS, PHTLS (current through [dates]); NIMS ICS-100/200/700/800.",
+  },
+  "respiratory-therapist-resume": {
+    before: "Provided respiratory therapy and breathing treatments to patients as ordered.",
+    after: "RRT in a 24-bed medical/surgical ICU; managed [N] ventilated adults per shift, ran weaning protocols, drew and interpreted ABGs, and covered rapid responses and codes as the respiratory member.",
+  },
+  "office-manager-resume": {
+    before: "Responsible for daily office operations, administrative support, and vendor relationships.",
+    after: "Sole office manager for a ~45-person professional services firm across two sites; owned ~$400K annual facilities and supply budget, managed 20+ vendor contracts, and supervised 3 administrative staff.",
+  },
+  "sales-manager-resume": {
+    before: "Led a high-performing sales team and consistently exceeded revenue targets.",
+    after: "Managed 7 quota-carrying AEs (SaaS, mid-market); team quota $6.4M, attainment 112% FY24 and 104% FY23; ramped 3 new hires to full productivity in ~4 months.",
+  },
+  "medical-technologist-resume": {
+    before: "Performed laboratory testing and reported results accurately.",
+    after: "Generalist bench, 400-bed hospital lab, night shift; chemistry, hematology, coag, urinalysis, and blood bank; ~250 specimens/shift on Roche cobas and Sysmex XN, all documented in Sunquest LIS.",
+  },
+  "nicu-nurse-resume": {
+    before: "Registered nurse providing care to premature and critically ill newborns in the neonatal intensive care unit.",
+    after: "NICU RN, Level III, [40]-bed unit; ventilated and CPAP neonates, umbilical arterial and venous lines, gavage feeds, developmental and family-centered care; [Epic] charting.",
+  },
+  "machinist-resume": {
+    before: "Operated CNC machines to produce parts according to blueprints.",
+    after: "3- and 4-axis CNC mills, Haas and Mazak controls; held ±0.0005\" on production aerospace parts in 6061 aluminum and 17-4 stainless; ran setup and first article, verified with micrometers, calipers, and CMM.",
+  },
+  "hotel-manager-resume": {
+    before: "Responsible for daily operations, staff supervision, and guest satisfaction at a busy hotel.",
+    after: "General Manager, 140-room select-service Hilton-flag property; owned front office, housekeeping, and breakfast F&B, ~$7M annual revenue P&L; grew RevPAR [12%] and held occupancy at [78%] while lifting the brand guest-satisfaction score to the top [quartile] of the region.",
+  },
+  "aircraft-mechanic-resume": {
+    before: "Experienced aircraft mechanic responsible for maintenance, repairs, and inspections on various aircraft.",
+    after: "A&P certificated (Airframe & Powerplant, 14 CFR Part 65); IA held. Part 145 repair station line and heavy maintenance on [Boeing 737NG] and [CRJ700]; performed and signed return-to-service entries, AD compliance research, and [C-check] tasks.",
+  },
+  "welder-resume": {
+    before: "Experienced welder responsible for welding and fabrication on various projects.",
+    after: "Structural steel fabrication; SMAW and FCAW, plate and structural shapes, carbon steel 1/8\" to 1\"; qualified 3G and 4G; read shop drawings and weld symbols daily.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
