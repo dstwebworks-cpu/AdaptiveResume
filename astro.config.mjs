@@ -30,8 +30,11 @@ export default defineConfig({
     // so privacy now carries lastmod too; terms/disclaimer still untouched.
     // Update this date only when content truly changes again.
     serialize(item) {
-      const unchanged = ['/terms', '/disclaimer'];
-      if (!unchanged.some((p) => item.url.includes(p))) item.lastmod = '2026-08-11';
+      // The four legal pages publish the attorney-final text on 09/01/2026 — that is
+      // their real freshness date, so they must not inherit the 08/11 batch date.
+      const legal = ['/terms', '/privacy', '/disclaimer', '/acceptable-use'];
+      if (legal.some((p) => item.url.includes(p))) { item.lastmod = '2026-09-01'; return item; }
+      item.lastmod = '2026-08-11';
       return item;
     },
   })],

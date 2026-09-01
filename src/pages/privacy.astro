@@ -1,300 +1,286 @@
----
-// Privacy Policy — attorney-review draft (source: 01-legal-entity/policies/privacy-policy.md,
-// updated 07/05/2026 to current product facts: identifier separation, subprocessors, retention,
-// self-serve deletion, de-identified learning).
+﻿---
+// Privacy Policy â€” attorney-final text (source: 01-legal-entity/drafts-for-attorney/
+// Final-Docs-8-26-2026/_txt/"5 - Privacy Policy - Final.md", 08/26/2026).
 import Base from '../layouts/Base.astro';
 ---
-{/* DRAFT pending attorney review — engaged pre-launch per TODO Phase 1 */}
 <Base
-  title="Privacy Policy — AdaptiveResume"
-  description="What AdaptiveResume collects, how your resume is protected, why the AI never sees your name, how long we keep things, and how to delete everything in one action."
+  title="Privacy Policy â€” AdaptiveResume"
+  description="What AdaptiveResume collects and why, how your career documents are protected, how identifiers are separated before AI analysis, how long we keep things, and how to delete your data."
 >
   <article class="section">
     <div class="container narrow">
       <p class="eyebrow">Legal</p>
       <h1>Privacy Policy</h1>
       <p class="lede">
-        Your resume is some of the most personal data there is — your whole working life on a page.
-        Here's exactly what we collect, what we do with it, who touches it, how long we keep it,
-        and how to delete it.
+        Your resume is some of the most personal data there is â€” your whole working life on a page.
+        This policy explains what we collect, why we collect it, how long we keep it, and what you
+        can do about it.
       </p>
-      <p class="effective">Effective date: 07/05/2026</p>
 
       <div class="prose">
-        {/* ATTORNEY: entity name amendment is currently filing with the Georgia Secretary of State.
-             Confirm the final registered entity string ("AdaptiveResume LLC") before publication. */}
+        <h2>1. Who we are</h2>
         <p>
-          <strong>AdaptiveResume LLC</strong>, a Georgia single-member limited liability company
-          based in Marietta, Georgia ("AdaptiveResume," "we," "us"), operates the AdaptiveResume
-          website and service (the "Service"). This policy is part of our
-          <a href="/terms/">Terms of Service</a>.
+          AdaptiveResume LLC is a Georgia limited liability company. You can reach us at
+          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> or by mail at
+          AdaptiveResume LLC, 8735 Dunwoody Place, Suite N, Atlanta, Georgia 30350. This policy
+          explains what we collect, why we collect it, how long we keep it, and what you can do about
+          it. It applies to adaptiveresume.com and app.adaptiveresume.com.
         </p>
 
-        <h2>What we collect</h2>
+        <h2>2. What we collect</h2>
         <ul>
-          <li><strong>Account information:</strong> your email address and sign-in data.</li>
+          <li><strong>Account data:</strong> email address, hashed password (or auth provider ID), purchase history.</li>
           <li>
-            <strong>Content you upload:</strong> up to three resumes and, optionally, a PDF of your
-            own LinkedIn profile. These naturally contain your name, contact details, work history,
-            employers, education, and credentials.
+            <strong>Career documents you provide:</strong> up to three resumes and, optionally, your
+            LinkedIn resume export. These are sensitive by nature â€” they describe your work history
+            and can incidentally reveal more (see Â§9). <strong>Please do not include information
+            about your health, a disability, a medical condition, or a diagnosis in the files you
+            upload. We do not need it, we do not ask for it, and we do not analyze it.</strong>
           </li>
           <li>
-            <strong>Your confirmations:</strong> your answers during the guided review — which
-            proposed skills and credentials you confirmed, edited, or skipped.
+            <strong>Content you create in the Service:</strong> confirmations, edits, skips, notes,
+            your finished resume.
           </li>
           <li>
-            <strong>Payment information:</strong> handled by <strong>Stripe</strong>. We receive
-            confirmation of payment and limited billing metadata; <strong>we never receive or store
-            your card number.</strong>
+            <strong>Payment data:</strong> processed by Stripe; we never receive or store your card
+            number. We receive transaction status and last-4/brand for receipts.
           </li>
           <li>
-            <strong>Usage data:</strong> basic technical information (device, browser, pages used)
-            needed to operate and improve the Service.
+            <strong>Technical data: our application uses your IP address only as an in-memory key for
+            rate-limiting and abuse prevention; we do not store it in our database, and it is
+            discarded whenever the service restarts or is redeployed. We do not store your IP address
+            ourselves, though our infrastructure providers may log it briefly at the platform level
+            for security and operations, such as hosting and authentication logs, and Google receives
+            it transiently for coarse geolocation as part of analytics. Our application code never
+            reads or stores your browser type or user agent. On our marketing pages, Google Analytics
+            and Google Ads conversion measurement separately collect your browser type, operating
+            system, device category, and the date and time of your visit; we use these tools for
+            analytics and conversion measurement, with Google Signals disabled, an opt-out toggle,
+            and Global Privacy Control honored before any tag loads, but we do not use them for
+            advertising personalization or cross-site tracking.</strong>
           </li>
           <li>
-            <strong>Launch list and feedback:</strong> your email address if you join the pre-launch
-            list, and anything you choose to tell us about a past resume-service experience (every
-            question is optional, including your email). Feedback stays internal; if we ever share
-            what we learn, it's in aggregate — never with names, yours or theirs.
-          </li>
-        </ul>
-        <p>
-          We never scrape LinkedIn or any other platform. Profile data enters the Service only as a
-          file you export and upload yourself.
-        </p>
-
-        <h2>The AI never sees your name</h2>
-        <p>
-          Before any of your resume content is sent to an AI model, we separate your personal
-          identifiers — name, email, phone number, and links — from the resume text. The AI works
-          on the de-identified text only, and your identifiers are re-attached only when your final
-          document is assembled. <strong>The AI model never receives your name or contact
-          details.</strong>
-        </p>
-
-        <h2>How we use your information</h2>
-        <ul>
-          <li>To provide the Service: build, review, and deliver your resume and, on the targeted build, your job-posting match read and interview-prep materials.</li>
-          <li>To process payment, provide support, and send service-related messages.</li>
-          <li>To keep the Service secure, prevent fraud and abuse, and comply with law.</li>
-          <li>To improve the Service through the de-identified learning described below.</li>
-        </ul>
-
-        <h2>Who processes your data for us</h2>
-        <p>
-          We share the minimum necessary data with a short list of providers that process it on our
-          behalf under contract:
-        </p>
-        <ul>
-          <li>
-            <strong>Anthropic (AI model API):</strong> processes de-identified resume text to
-            produce the suggestions you review. API inputs and outputs are not used to train
-            Anthropic's models, and retention is transient.
+            <strong>Free scan:</strong> runs without an account; scan files are processed in memory
+            and not stored or logged.
           </li>
           <li>
-            <strong>Supabase (database and authentication hosting, United States):</strong> stores
-            your account and content.
-          </li>
-          <li><strong>Stripe (payments):</strong> handles all card processing.</li>
-          <li>
-            <strong>Google (optional sign-in only):</strong> used only if you choose to sign in
-            with Google.
-          </li>
-        </ul>
-        <p>
-          These providers may use your data only to provide their service to us. Beyond them, we
-          share information only if required by law, to protect our rights or users, or in
-          connection with a business transfer — and always subject to this policy.
-          <strong>We do not sell your personal information, and we never share it with
-          employers.</strong>
-        </p>
-
-        <h2>How we learn without keeping "you"</h2>
-        <p>
-          To get better at finding what people in your line of work tend to leave off, we keep
-          <strong>de-identified observations</strong>: confirmed skill and terminology patterns
-          together with the employer name, role title, and work location they came from —
-          <strong>never your name or contact details.</strong> These observations are retained
-          indefinitely, because they are what makes the Service smarter for the next person in a
-          role like yours. They describe roles and workplaces, not people; they cannot be traced
-          back to you and are not removed when you delete your account.
-        </p>
-        {/* ATTORNEY: the 06/19/2026 internal draft offered an opt-out from learning contributions;
-             the current product retains de-identified observations without an opt-out. Please
-             confirm this posture is defensible under CCPA/CPRA (de-identified-data standard,
-             Cal. Civ. Code 1798.140(m)) and whether an opt-out or additional disclosure is needed. */}
-
-        <h2>How we protect it</h2>
-        <ul>
-          <li>Resume content is stored encrypted at rest (AES-256-GCM).</li>
-          <li>Sessions are encrypted.</li>
-          <li>Multi-factor authentication is available to every account.</li>
-        </ul>
-        <p>
-          No method of transmission or storage is perfectly secure, but we treat your resume with
-          the care we'd want for our own.
-        </p>
-
-        <h2>How long we keep things</h2>
-        {/* Founder rulings 07/27/2026 (claims-audit row 13): (1) approved as written — shipped
-             behavior is stricter (original files are never stored; working text lives at most
-             7 days inside the draft, within the stated 30-day ceiling); (2) approved + now
-             ENFORCED in code (periodic sweep, rb-app drafts.ts purgeStaleDrafts, not just
-             delete-on-read); (3) 12-month auto-deletion REJECTED as not making sense — resumes
-             stay on the profile, deletable on demand (rb-app deleteDeliverables, owner-scoped);
-             (4) approved. */}
-        <ul>
-          <li>
-            <strong>Uploaded source files</strong> (your original resumes and LinkedIn export) are
-            deleted after your build completes — 30 days at the most.
-          </li>
-          <li>
-            <strong>In-progress review drafts</strong> auto-delete after 7 days if a build isn't
-            completed.
-          </li>
-          <li>
-            <strong>Finished resumes</strong> stay in your account so they're there when you need
-            them — delete any of them on demand from your files, or delete your account and
-            they're removed with it.
-          </li>
-          <li>
-            <strong>Purchase and build records</strong> are kept for 7 years for tax and accounting
-            purposes.
-            {/* ATTORNEY: confirm the 7-year financial-records window with the CPA as well. */}
+            <strong>Launch list and feedback: your email address if you join the pre-launch list, and
+            anything you choose to tell us about a past resume-service experience. Every question is
+            optional, including your email address. Feedback stays internal; if we ever share what we
+            learn, it is in aggregate, never with names, yours or anyone else's. If you ask us to
+            delete your data, that request covers your launch-list entry and any feedback you
+            submitted that carries your email address.</strong>
           </li>
         </ul>
 
-        <h2>Deleting your data</h2>
+        <h2>3. How we use it</h2>
         <p>
-          You can delete your account yourself, any time, with a single "delete my account" action
-          — it removes all of your personal data in one step. Two exceptions:
+          To provide the Service you asked for (extract, redact, analyze, propose, assemble, deliver);
+          to process payments; to send transactional email (confirmations, receipts, security
+          notices); to protect the Service (rate-limiting, abuse prevention); to meet legal
+          obligations. We do not sell your personal information, and we do not share it for
+          cross-context behavioral advertising.
         </p>
+
+        <h2>4. AI processing and PII minimization</h2>
+        <p>
+          AI-assisted analysis is performed on redacted text. Your name and contact details are
+          separated out before any content is sent to our AI provider, and they are re-attached only
+          at final assembly on our own systems. Our AI provider is Anthropic, which processes the
+          content as a service provider under its commercial API terms. Under those terms, Anthropic
+          does not train its models on the inputs or outputs of our API use. Limited exceptions apply
+          under Anthropic's own terms, including content that its automated systems flag for safety or
+          policy review, which it may retain and review. We do not use consumer AI accounts to process
+          your content.
+        </p>
+
+        <h2>5. De-identified learning</h2>
+        <p>
+          The Service records aggregate, occupation-level observations, for example which skills a
+          given occupation commonly involves. These observations describe occupations, not people.
+          They contain no names, contact details, or other identifiers, and they cannot reasonably be
+          used to infer anything about you or to be linked back to you.
+        </p>
+        <p>
+          We take reasonable technical and organizational measures to keep this information in that
+          form, including removing identifiers before an observation is recorded and storing the
+          observations separately from account data. We publicly commit to maintain and use this
+          information only in de-identified form and never to attempt to re-identify it, except to the
+          limited extent needed to test whether our own de-identification process is working. We
+          contractually require anyone who receives this information to do the same. We keep these
+          observations indefinitely, because they describe occupations rather than individuals.
+        </p>
+
+        <h2>6. Subprocessors</h2>
+        <table class="subprocessors">
+          <thead>
+            <tr>
+              <th>Vendor</th>
+              <th>Purpose</th>
+              <th>Region</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Stripe</td>
+              <td>Payments</td>
+              <td>US</td>
+            </tr>
+            <tr>
+              <td>Supabase</td>
+              <td>Database, authentication, storage</td>
+              <td>United States (Ohio)</td>
+            </tr>
+            <tr>
+              <td>Anthropic</td>
+              <td>AI-assisted analysis (redacted content only)</td>
+              <td>US</td>
+            </tr>
+            <tr>
+              <td>Render</td>
+              <td>Application and site hosting</td>
+              <td>United States (Virginia)</td>
+            </tr>
+            <tr>
+              <td>Brevo</td>
+              <td>Transactional email</td>
+              <td>European Union</td>
+            </tr>
+            <tr>
+              <td>ImprovMX</td>
+              <td>Inbound email forwarding for support@</td>
+              <td>United States (mail servers located in France)</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          We will update this table before adding a subprocessor that handles personal data. We do not
+          sell your personal information to any of them, and each is engaged to process personal
+          information only for the purposes described in this policy. Support email sent to
+          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> is routed through
+          ImprovMX, our inbound mail-forwarding vendor. ImprovMX stores each message until it is
+          successfully forwarded to us, after which the message is deleted; if delivery fails, the
+          message may be held for up to seven days, and delivery metadata such as the subject line,
+          sender, and recipient is retained for up to seven days, though message bodies are not logged
+          beyond the forwarding process. Because Brevo's servers are located in the European Union and
+          ImprovMX's mail servers are located in France, sending information to those vendors involves
+          an international transfer of personal information. Our agreement with Brevo already
+          incorporates the Standard Contractual Clauses. We are working to put equivalent contractual
+          protections in place with ImprovMX.
+        </p>
+
+        <h2>7. Retention</h2>
+        <p>
+          In-progress review drafts are deleted automatically after seven days of inactivity, enforced
+          by a scheduled sweep.
+        </p>
+        <p>
+          The files you upload are not stored. They are processed and discarded, and the working text
+          extracted from them lives inside your draft and is deleted with the draft, at most seven
+          days after your last activity.
+        </p>
+        <p>
+          Files submitted through the free scan are processed in memory and are never stored.
+        </p>
+        <p>
+          Finished resumes in My Files are kept until you delete them. You can delete any individual
+          file at any time, and deleting your account removes all of them. Deleting your account does
+          not delete your account and purchase records, which we retain separately as described below.
+        </p>
+        <p>
+          Account and purchase records are kept for at least seven years to meet tax and accounting
+          obligations.
+        </p>
+        <p>
+          Our transactional email log â€” the recipient address, subject line, delivery status, and
+          timestamp, never the message body â€” is kept until you ask us to delete it or you
+          unsubscribe.
+        </p>
+        <p>
+          Your launch-list entry and any feedback you submit, described in Section 2, are kept until
+          you ask us to delete them or you unsubscribe.
+        </p>
+        <p>
+          Aggregate occupation-level observations, described in Section 5, are kept indefinitely.
+        </p>
+
+        <h2>8. Security</h2>
+        <p>
+          We protect your information with encryption in transit and at rest. Drafts and stored
+          deliverables are additionally sealed with application-layer AES-256-GCM encryption.
+          Confirmation tokens are hashed and expire after 14 days. Access to systems is granted on a
+          least-privilege basis. No method of storage or transmission is perfect. If a breach affects
+          your personal information, we will notify you without undue delay and as required by
+          applicable law.
+        </p>
+
+        <h2>9. Sensitive inferences in career documents</h2>
+        <p>
+          Resumes can incidentally reveal things such as union membership, citizenship or immigration
+          status, military or veteran status, religious affiliation, or a disability accommodation. We
+          do not seek out that information, we do not ask for it, and we do not analyze it or use it to
+          infer anything about you. The Service proposes work-relevant skills and credentials for you
+          to confirm, and nothing more. Where information of this kind appears in a file you provide,
+          we collect and process it only to produce the document you asked for, never for the purpose
+          of inferring characteristics about you, and we protect it the same way we protect the rest
+          of your information.
+        </p>
+        <p>
+          We ask again that you not include health, medical, or disability information in the files
+          you upload. If you already have, email
+          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a>; because we do
+          not keep a separate copy of the file you uploaded, as described in Section 7, we will delete
+          the draft or finished resume that contains it rather than a separately stored file.
+        </p>
+
+        <h2>10. Your rights</h2>
         <ul>
-          <li>financial records held by Stripe (which we're required to retain), and</li>
-          <li>the de-identified observations described above, which contain nothing that identifies you.</li>
+          <li>
+            <strong>Everyone:</strong> access, correct, download, or delete your data by emailing
+            <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> or using
+            in-account tools; delete your account at any time.
+          </li>
+          <li>
+            <strong>California: where the California Consumer Privacy Act applies to us, California
+            residents have the rights to know, delete, correct, and receive a portable copy of their
+            personal information, and the right not to be treated differently for exercising them. We
+            do not sell personal information and we do not share it for cross-context behavioral
+            advertising, so no opt-out link is required. Any sensitive information that reaches us
+            does so incidentally and is not used to infer characteristics about you, so no separate
+            right-to-limit link is required. We honor authorized-agent requests with verification. As
+            a practical matter we extend these rights to everyone who asks, wherever they live.</strong>
+          </li>
+          <li>
+            <strong>Outside the United States: the Service is offered from and directed to the United
+            States, and we do not target it to residents of the European Union or the United Kingdom.
+            If that changes, we will update this policy before it does.</strong>
+          </li>
+          <li>
+            We respond to verified requests within 45 days, and we will tell you if we need more time.
+          </li>
         </ul>
+
+        <h2>11. Children</h2>
         <p>
-          <strong>We honor CCPA rights for everyone, regardless of what state you live in:</strong>
-          the right to know what we hold about you, to correct it, to delete it, to get a portable
-          copy, and to never be discriminated against for exercising those rights. Email
-          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> and we'll
-          respond within the time the law requires.
+          The Service is not directed to anyone under 18, we do not knowingly collect personal
+          information from anyone under 18, and our <a href="/terms/">Terms of Service</a> require
+          account holders to be at least 18. If we learn that we have collected information from
+          someone under 18, we will delete it.
         </p>
 
-        <h2>Analytics, ads, and selling data</h2>
+        <h2>12. Changes</h2>
         <p>
-          We do not sell personal information, and we do not use your data for cross-context
-          behavioral advertising.
-        </p>
-        <p>
-          We use Google Analytics on our public marketing pages — the pages anyone can browse
-          before signing in — to understand how people find us, which guides actually help, and
-          whether the ads we run are worth what we pay for them. It's set up for measurement
-          only: ad-personalization signals are turned off, and we don't build advertising
-          profiles of you.
-        </p>
-        <p>
-          <strong>Analytics stops at sign-in.</strong> There is no analytics tracking inside the
-          product. Your resume work happens in private — we don't watch, measure, or profile it.
+          Prospective updates with a new "Last updated" date; material changes announced to account
+          holders by email at least 14 days ahead.
         </p>
 
-        <h2 id="your-privacy-choices">Your privacy choices</h2>
-        <p>
-          You can turn analytics off for this browser any time — no account needed, no questions
-          asked:
-        </p>
-        <p>
-          <button type="button" id="analytics-optout" class="optout-btn">Turn analytics off in this browser</button>
-          <span id="analytics-optout-status" class="optout-status" role="status"></span>
-        </p>
-        <p>
-          We also honor the <a href="https://globalprivacycontrol.org/" rel="noopener">Global
-          Privacy Control</a> signal automatically: if your browser sends it, analytics never
-          loads at all.
-        </p>
-        {/* ATTORNEY: GA4 added 07/30/2026 on marketing pages only (none inside the signed-in
-             app), measurement-only configuration (Google Signals / ads personalization OFF;
-             conversion measurement linked to Google Ads). Voluntary opt-out toggle + GPC signal
-             honored above. Please advise: (1) whether a cookie/consent banner is required for
-             this configuration given the U.S.-focused audience; (2) whether this section plus
-             the footer "Your Privacy Choices" link satisfies notice-at-collection placement. */}
-        <script is:inline>
-          (function () {
-            var KEY = 'ar-analytics-optout';
-            var btn = document.getElementById('analytics-optout');
-            var status = document.getElementById('analytics-optout-status');
-            function render() {
-              var off = localStorage.getItem(KEY) === '1';
-              btn.textContent = off ? 'Turn analytics back on' : 'Turn analytics off in this browser';
-              status.textContent = off
-                ? 'Done — analytics is off in this browser.'
-                : (navigator.globalPrivacyControl
-                    ? 'Your browser sends Global Privacy Control, so analytics is already off.'
-                    : '');
-            }
-            btn.addEventListener('click', function () {
-              var off = localStorage.getItem(KEY) === '1';
-              if (off) {
-                localStorage.removeItem(KEY);
-                if (window.__arGaDisableKey) window[window.__arGaDisableKey] = false;
-              } else {
-                localStorage.setItem(KEY, '1');
-                if (window.__arGaDisableKey) window[window.__arGaDisableKey] = true;
-              }
-              render();
-            });
-            render();
-          })();
-        </script>
-        <style>
-          .optout-btn {
-            font: inherit; font-weight: 600; color: var(--ink);
-            background: var(--surface); border: 1px solid var(--line);
-            border-radius: 8px; padding: 10px 16px; cursor: pointer;
-          }
-          .optout-btn:hover { border-color: var(--ink-soft); }
-          .optout-status { margin-left: 10px; color: var(--muted); font-size: .95rem; }
-        </style>
-
-        <h2>Cookies</h2>
-        <p>
-          We use essential cookies for sign-in and security, and Google Analytics cookies to
-          measure site usage (described above). That's it today. If that changes, this policy
-          will be updated first.
-        </p>
-
-        <h2>Children</h2>
-        <p>
-          The Service is for adults 18 and over. We do not knowingly collect data from minors. If
-          you believe a minor has used the Service, contact us and we will delete the data.
-        </p>
-
-        <h2>Where your data lives</h2>
-        {/* ATTORNEY: EU/UK users are not currently targeted; no GDPR transfer mechanism is in
-             place. Confirm whether the consent-to-U.S.-processing statement below is sufficient,
-             or whether access from the EU/UK should be addressed differently. */}
-        <p>
-          We operate in the United States and process data here. If you access the Service from
-          outside the U.S., you consent to processing in the U.S.
-        </p>
-
-        <h2>Changes</h2>
-        <p>
-          We may update this policy prospectively, posting a new effective date and, for material
-          changes, giving you notice. Continued use after changes means you accept the updated
-          policy.
-        </p>
-
-        <h2>Contact</h2>
-        <p>
-          AdaptiveResume LLC · Marietta, Georgia<br />
-          <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a>
-        </p>
+        <p class="effective">Last updated: 09/01/2026</p>
       </div>
 
       <nav class="legal-links" aria-label="Other legal pages">
         <span class="muted">Related:</span>
         <a href="/terms/">Terms of Service</a>
+        <a href="/acceptable-use/">Acceptable Use Policy</a>
         <a href="/disclaimer/">Disclaimer</a>
       </nav>
     </div>
@@ -308,6 +294,10 @@ import Base from '../layouts/Base.astro';
     .prose ul { padding-left: 1.2em; }
     .prose li { margin-bottom: .5em; }
     .prose strong { color: var(--ink); }
+    .subprocessors { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: .95rem; }
+    .subprocessors th, .subprocessors td { text-align: left; vertical-align: top;
+      padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    .subprocessors th { color: var(--ink); font-weight: 700; }
     .legal-links { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
       display: flex; flex-wrap: wrap; gap: 16px; font-weight: 600; }
   </style>
