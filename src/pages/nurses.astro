@@ -1,0 +1,311 @@
+---
+import Base from '../layouts/Base.astro';
+// Nurse landing page (09/02 wave). Message-matched to the two highest-bid commercial
+// terms in the dataset — "nursing resume writing service" (500/mo, $7.23) and
+// "resume builder for nurses" (500/mo, $11.18) — and the live "Nurse Resumes" ad group,
+// which had no dedicated page. Pre-launch CTA = waitlist capture; PUBLIC_LAUNCHED=1
+// flips the CTAs to the app exactly as index.astro does.
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const faq = [
+  { q: 'Is this a nursing resume writing service or a resume builder for nurses?',
+    a: "Both, honestly. We do the digging a writer would do — working backwards through your units, ratios, charting systems, and certifications to find what you left off — and you do the confirming a builder asks of you. Every line is shown to you first. Nothing goes on the page you didn't confirm, and nothing is made up." },
+  { q: "I'm moving to a new unit — say, telemetry into the ICU. How do you handle the gap?",
+    a: "By stating it plainly. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we label what you're moving toward as what it is: a critical care residency you're seeking, a course you're completing. Stepdown experience dressed up as ICU experience is something we won't write." },
+  { q: 'I travel. How should contracts show up?',
+    a: "Each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status if you hold one under the Nurse Licensure Compact. We ask about each contract; you confirm the details." },
+  { q: 'Why $149 instead of the $49 build?',
+    a: "The $49 build makes your one nursing resume complete and honest. The $149 targeted build aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. The full breakdown is on the pricing page. If you have a specific unit posting open in another tab, that's the one." },
+];
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.href },
+    { '@type': 'ListItem', position: 2, name: 'Nurses' },
+  ],
+};
+const guides = [
+  { href: '/guides/icu-nurse-resume/', unit: 'ICU', title: 'Drips, vents, and proof you hold the line' },
+  { href: '/guides/er-nurse-resume/', unit: 'ER', title: 'Triage, trauma, and the cert block' },
+  { href: '/guides/telemetry-nurse-resume/', unit: 'Telemetry', title: 'Certs, ratios, and rhythms' },
+  { href: '/guides/operating-room-nurse-resume/', unit: 'Operating room', title: 'Circulating, scrubbing, and counts' },
+  { href: '/guides/nicu-nurse-resume/', unit: 'NICU', title: 'Acuity level, certs, and line skills' },
+  { href: '/guides/charge-nurse-resume/', unit: 'Charge', title: 'Staffing, bed flow, and the shift you run' },
+  { href: '/guides/how-to-list-certifications-on-resume/', unit: 'Every unit', title: 'How to list certifications without overstating one' },
+];
+---
+<Base
+  title="Nursing Resume Writing Service — Built From Real Units"
+  description="A nursing resume writing service built for what nurse recruiters look for: license, certs, unit, ratios. You confirm every line; nothing made up. From $49."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">A resume builder for nurses — RN and LPN/LVN · ICU, ER, med-surg, tele, OR, NICU, L&amp;D, charge, travel</p>
+      <h1>The nursing resume writing service that puts your <span class="hl">real units</span> on the page.</h1>
+      <p class="lede">
+        Your resume says "provided patient care." Your work was a [N]-bed unit, 1:4 assignments, drips
+        you titrated, nurses you precepted, shifts you ran as charge. We work backwards through your
+        real units together, show you what you left off, and you confirm every line — so the finished
+        resume is complete, honest, and reads cleanly to the software that screens it.
+      </p>
+      <div class="cta-row">
+        {LAUNCHED
+          ? <>
+              <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first</a>
+            </>
+          : <>
+              <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first — free, no sign-up</a>
+            </>}
+      </div>
+      <ul class="pills">
+        <li class="pill">Nothing made up — ever</li>
+        <li class="pill">You approve every line</li>
+        <li class="pill">One-time payment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Who this is for</p>
+      <h2>Four moves, one problem: the resume undersells the unit</h2>
+      <div class="grid cols-4">
+        <div class="card">
+          <h3>Moving to a new unit</h3>
+          <p>Tele to ICU, med-surg to ER, floor to OR. The overlap is real — drips, codes, rhythms —
+          but your resume never named it. We put the true overlap on the page and label the gap
+          honestly, so a manager can see exactly what you bring.</p>
+        </div>
+        <div class="card">
+          <h3>New hospital or health system</h3>
+          <p>Same unit, new employer. Their recruiter and their screening software are reading for
+          your license status, your cert block, your ratios, and which charting system you know. We
+          make sure every one of those is on the page, exactly as you hold it.</p>
+        </div>
+        <div class="card">
+          <h3>Into charge or leadership</h3>
+          <p>You've made the assignments, absorbed the call-offs, kept beds moving. It was "just part of
+          the job," so it never made the page. We size that scope at its true weight — beds, staff,
+          shift — and you confirm each line.</p>
+        </div>
+        <div class="card">
+          <h3>Travel contracts</h3>
+          <p>Six contracts in three years is a strength when each one is stated cleanly: facility, unit
+          type, ratio, float status, charting system. We lay them out contract by contract, with your
+          multistate license status where it belongs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">What nurse recruiters actually screen for</p>
+      <h2>The words hospital screening software looks for — and a nurse manager reads for a minute later</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>License and compact status</h3>
+          <p>RN or LPN/LVN, the state, and whether it's a multistate license under the Nurse Licensure
+          Compact. If you hold it, it goes on the license line. If you don't, we never add it.</p>
+        </div>
+        <div class="card">
+          <h3>Life-support and course cards</h3>
+          <p>BLS, ACLS, and PALS from the American Heart Association. NRP from the American Academy of
+          Pediatrics. TNCC from the Emergency Nurses Association. Listed exactly as held, with the
+          current-through date, because credentialing will check every one.</p>
+        </div>
+        <div class="card">
+          <h3>Specialty board certifications</h3>
+          <p>CCRN and PCCN (AACN Certification Corporation), CEN (Board of Certification for Emergency
+          Nursing), CMSRN (Medical-Surgical Nursing Certification Board), RNC-NIC and RNC-OB (National
+          Certification Corporation), CNOR (Competency &amp; Credentialing Institute). If you're sitting
+          for one soon, it's labeled that way — never as held.</p>
+        </div>
+        <div class="card">
+          <h3>Unit, bed count, and ratios</h3>
+          <p>"ICU" says less than "[N]-bed CVICU, typical 1:2 assignments." Unit type, bed count, and
+          your usual ratio is the one line another nurse reads and instantly understands.</p>
+        </div>
+        <div class="card">
+          <h3>Charting systems</h3>
+          <p>Epic or Oracle Health (the system most nurses still call Cerner), by name. Hospitals
+          often screen for the one they run, and a match can save orientation time.</p>
+        </div>
+        <div class="card">
+          <h3>Precepting and charge</h3>
+          <p>How many nurses you precepted. How often you took charge, and what you ran when you did.
+          These are the lines managers look for, and the ones most nurses leave off.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">What the rebuild looks like</p>
+      <h2>Same true shifts — a resume that finally says what they were</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Before</h3>
+          <p class="muted">"Registered Nurse. Provided patient care on a busy medical unit. Helped train new staff and worked as charge when needed."</p>
+        </div>
+        <div class="card">
+          <h3>After — every line confirmed by the nurse</h3>
+          <p>"RN, [N]-bed telemetry unit, typical 1:4 assignments: continuous cardiac monitoring, titratable
+          drips per protocol; [Epic] charting · Precepted [N] new-graduate nurses through unit orientation ·
+          Relief charge [N] shifts/month: acuity-based assignments for [N] RNs and [N] techs · BLS and ACLS
+          (American Heart Association), current through [month/year]."</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The bed count,
+      the ratio, the precepting, the charge shifts, the cert dates — the nurse had all of it. It just
+      wasn't written down at its real size. We propose each line as a question; the brackets get filled
+      with your real numbers, or the line doesn't go in.</p>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="container">
+      <p class="eyebrow">Pricing</p>
+      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2">
+        <div class="card price">
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">Most nurses start here: your one resume made complete and honest — license,
+          cert block, unit lines, precepting and charge — everything you've earned, finally on paper.</p>
+          <ul class="ticks">
+            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>You confirm what's yours — nothing lands without your say-so</li>
+            <li>Reads cleanly for hospital screening software, and for the manager after it</li>
+          </ul>
+        </div>
+        <div class="card price featured">
+          <span class="tag-premium">For a specific unit posting</span>
+          <h3>Targeted build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">Have the posting open in another tab? This aims your resume at that one
+          job.</p>
+          <ul class="ticks">
+            <li>Your experience translated into the language that posting uses</li>
+            <li>25 interview questions for that role</li>
+            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. One-time payment, no revision haggling. Paid a resume service already and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
+      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Guides by unit</p>
+      <h2>Free reading while you decide</h2>
+      <ul class="guide-list">
+        {guides.map((g) => (
+          <li><a href={g.href}><b>{g.unit}</b><span>{g.title}</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      {LAUNCHED ? (
+        <>
+          <h2>Let's see what your units have been leaving off</h2>
+          <p class="lede">Create your account, upload your resume, and we'll dig in together — unit by
+          unit, cert by cert. You approve every line before anything lands.</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+          </div>
+          <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
+        </>
+      ) : (
+        <>
+          <h2>We launch this fall — be first in line</h2>
+          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
+          build is locked in</b>, and our ICU Nurse Resume Skeleton (a ready-to-use Word template with
+          the license and cert block already laid out) is yours the moment you join. We'll tell you the
+          moment it's live, plus the occasional genuinely useful note on nursing resumes. No spam.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="nurses-page" />
+            <input type="hidden" name="redirect" value="/nurses/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+          </form>
+          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/icu-nurse-resume-template.docx" download>Download your ICU Nurse Resume Skeleton</a>
+          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+        </>
+      )}
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container narrow">
+      <h2>Common questions</h2>
+      {faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <script>
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) {
+      const done = document.getElementById('captureDone');
+      const err = document.getElementById('captureErr');
+      const form = document.querySelector('.capture-form');
+      if (joined === '1' && done) {
+        done.classList.remove('hide');
+        document.getElementById('captureGift')?.classList.remove('hide');
+        document.querySelector('.capture-note')?.classList.add('hide');
+        if (form instanceof HTMLElement) form.style.display = 'none';
+      }
+      else if (err) { err.classList.remove('hide'); }
+    }
+  </script>
+
+  <style>
+    .container.narrow { max-width: 760px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .grid.cols-4 { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1080px) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
+    .guide-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    @media (min-width: 720px) { .guide-list { grid-template-columns: repeat(2, 1fr); } }
+    .guide-list a { display: flex; gap: 12px; align-items: baseline; padding: 12px 16px; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; }
+    .guide-list a:hover { border-color: var(--accent-strong); }
+    .guide-list b { flex: 0 0 9.5em; }
+    .guide-list span { color: var(--ink-soft); }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .hide { display: none; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .small { font-size: .9rem; }
+    .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; background: var(--card); }
+    .faq-item summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+    .faq-item p { margin: 10px 0 2px; color: var(--ink-soft); }
+  </style>
+</Base>

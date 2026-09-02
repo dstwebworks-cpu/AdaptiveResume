@@ -125,6 +125,15 @@ const related = ring.length <= 3 ? ring
         <h3>Ready to do this on your own resume?</h3>
         <p>We'll find what you've left off and you approve every line — nothing made up.</p>
         <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label.replace(/ — /g, ' — ')}</a>
+        <!-- 09/02 funnel pass (founder: "give valuable usable information but keep funneling
+             leads into our machine") — three doors from every guide: the build, the demo, and
+             the burned-customer page. Nurse guides route to /nurses/, all others to the service
+             page that matches the head ad term. -->
+        <p class="cta-links muted">
+          <a href="/demo/">Try the demo first</a> — a sample review, no sign-up ·
+          <a href={guide.id.includes('nurse') ? '/nurses/' : '/resume-writing-service/'}>See how the service works</a>
+        </p>
+        <p class="cta-links muted">Paid a resume service and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
       </div>
 
       <!-- keep reading -->
@@ -187,6 +196,8 @@ const related = ring.length <= 3 ? ring
     .gate input { flex: 1 1 220px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
     .cta-card { margin-top: 22px; text-align: center; }
     .cta-card .btn { margin-top: 6px; }
+    .cta-card .cta-links { margin: 12px 0 0; font-size: .95rem; }
+    .cta-card .cta-links a { text-decoration: underline; }
     .related { margin-top: 34px; }
     .related h3 { margin-bottom: 12px; }
     .rcard { display: flex; flex-direction: column; gap: 6px; color: var(--ink); padding: 18px; transition: transform .1s, box-shadow .15s; }

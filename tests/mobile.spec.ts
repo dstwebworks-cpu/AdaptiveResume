@@ -27,6 +27,13 @@ const PAGES = [
   { path: "/business/", label: "business" },
   { path: "/guides/", label: "guides index" },
   { path: "/guides/emt-resume/", label: "guide (emt)" },
+  // Wave 4 (09/02): five service landing pages + one of the five new guides.
+  { path: "/resume-writing-service/", label: "resume-writing-service" },
+  { path: "/rewrite-my-resume/", label: "rewrite-my-resume" },
+  { path: "/update-my-resume/", label: "update-my-resume" },
+  { path: "/resume-makeover/", label: "resume-makeover" },
+  { path: "/nurses/", label: "nurses" },
+  { path: "/guides/warehouse-supervisor-resume/", label: "guide (warehouse-supervisor)" },
   { path: "/terms/", label: "terms" },
   { path: "/privacy/", label: "privacy" },
   { path: "/disclaimer/", label: "disclaimer" },
@@ -38,6 +45,11 @@ const CAPTURE_PAGES = [
   { path: "/", label: "home hero" },
   { path: "/fix/", label: "fix" },
   { path: "/career-change/", label: "career-change" },
+  { path: "/resume-writing-service/", label: "resume-writing-service" },
+  { path: "/rewrite-my-resume/", label: "rewrite-my-resume" },
+  { path: "/update-my-resume/", label: "update-my-resume" },
+  { path: "/resume-makeover/", label: "resume-makeover" },
+  { path: "/nurses/", label: "nurses" },
 ] as const;
 
 function trapPageErrors(page: Page, errors: string[]) {

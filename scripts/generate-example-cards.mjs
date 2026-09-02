@@ -140,6 +140,27 @@ export const PAIRS = {
     before: "Experienced welder responsible for welding and fabrication on various projects.",
     after: "Structural steel fabrication; SMAW and FCAW, plate and structural shapes, carbon steel 1/8\" to 1\"; qualified 3G and 4G; read shop drawings and weld symbols daily.",
   },
+  // Wave 4, 09/02 (pairs match each guide body verbatim)
+  "warehouse-supervisor-resume": {
+    before: "Supervised warehouse staff and made sure orders shipped on time.",
+    after: "Second-shift outbound supervisor for a [N]-person pick/pack crew; ~[N] orders/day at [N]% order accuracy and [N]% on-time-in-full; inventory accuracy held at [N]% through daily cycle counts in [SAP EWM / Manhattan].",
+  },
+  "maintenance-supervisor-resume": {
+    before: "Supervised maintenance technicians and ensured equipment was running.",
+    after: "Led [N] technicians across [N] shifts in a [food-processing plant / hospital / distribution center]; PM completion held at [N]% in [Maximo / Fiix / UpKeep]; unplanned downtime on [line / system] cut [N]% over [period].",
+  },
+  "underwriter-resume": {
+    before: "Reviewed and approved loan applications in accordance with company and investor guidelines.",
+    after: "Conventional and FHA underwriter; [N] files per month with signing authority to [$X]; DU and LPA findings reviewed on every file; [N]% of suspended files cleared to approval within [N] business days.",
+  },
+  "manufacturing-resume": {
+    before: "Operated machinery on a production line and met daily quotas.",
+    after: "Line operator, injection molding, [N] presses on rotating shifts; ran [N] units/shift against a [N]-unit standard, held scrap under [N]%, and cut changeovers from [N] to [N] minutes on a 5S/SMED project; lockout/tagout trained, forklift trained and evaluated under 29 CFR 1910.178.",
+  },
+  "paraprofessional-resume": {
+    before: "Assisted the special education teacher with daily classroom activities and student needs.",
+    after: "One-to-one aide for a [grade]-grade student in an inclusion setting; ran the behavior intervention plan, collected daily data on [N] IEP goals, and supported [reading/math] instruction in small groups of [N].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);

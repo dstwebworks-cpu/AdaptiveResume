@@ -1,0 +1,280 @@
+---
+import Base from '../layouts/Base.astro';
+// "Resume update service" landing page (drafted 09/02/2026). Message-matched door for
+// the live "resume update service" ad group (highest exact-match CTR, previously landed
+// on the homepage) plus the natural phrasings "update my resume" / "update resume".
+// Own capture form (source=update-page) so the page measures itself. Pre-launch CTA =
+// email list; set PUBLIC_LAUNCHED=1 at build to flip the CTAs to the app, as index.astro does.
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s back here
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const faq = [
+  { q: 'Is a resume update the same as starting over?',
+    a: "No. Your resume already holds the older jobs, and those are usually fine. An update is about the years since you last touched it: the promotion, the new systems, the certifications, the bigger scope. We work backwards through your roles, newest first, show you each thing we find, and you confirm or skip it." },
+  { q: "It's been years and I honestly don't remember everything I did. Does that matter?",
+    a: "That's the normal case, and it's why we don't hand you a blank box. We show you specific things work like yours usually involves, one at a time: a tool, a standard, a credential, a responsibility. You'll recognize the ones that are really yours when you see them. Anything you don't recognize, you skip, and it never touches the page." },
+  { q: 'How long does an update take?',
+    a: "Most of the time is you reading findings and confirming lines, and you can do that in one sitting. There's no writer to wait on and no revision rounds to schedule. If a line comes out wrong, you edit it or leave a note and we redo that line from your note, right then." },
+  { q: 'Why $49 instead of $149?',
+    a: 'The $49 build brings your one resume fully up to date: everything the last few years added, confirmed by you, in a file that reads cleanly to screening software. The $149 targeted build aims that same resume at one specific posting: your confirmed experience translated into that posting\'s language, plus 25 interview questions for that role. The full breakdown is on the pricing page. If a posting just appeared and you want to aim at it, that\'s the $149. If you just need to be current, $49.' },
+];
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.href },
+    { '@type': 'ListItem', position: 2, name: 'Update my resume' },
+  ],
+};
+---
+<Base
+  title="Resume Update Service — Find What the Last Few Years Added"
+  description="A resume update service for a resume that's years behind: we find the promotions, systems and certifications you never wrote down. You confirm every line. $49."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">A resume update service for people whose resume is years behind</p>
+        <h1>Update my resume: a <span class="hl">resume update service</span> that finds what the last few years added.</h1>
+        <p class="tagline">A posting just appeared. Or a rumor started. And your resume still ends where your old job did.</p>
+        <p class="lede">
+          An update isn't a fresh start. It's finding everything the last few years added that you never
+          wrote down: the promotion that changed your scope, the systems you learned on the job, the
+          certifications you renewed, the numbers you now own. We work backwards through your recent
+          roles, show you each one, and you confirm every line. Nothing made up.
+        </p>
+        <div class="cta-row">
+          {LAUNCHED
+            ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">Not sure yet? Walk a sample review</a>
+        </div>
+        <ul class="pills">
+          <li class="pill">Nothing made up</li>
+          <li class="pill">You approve every line</li>
+          <li class="pill">One-time payment — no subscription</li>
+        </ul>
+      </div>
+
+      <div class="familiar" aria-label="What an update usually finds">
+        <p class="familiar-label">What we usually find in a resume that's been sitting a few years:</p>
+        <div class="fcard">
+          <b>The title is wrong.</b>
+          <p>You were promoted since. The resume still shows the job you had when you last opened the file.</p>
+        </div>
+        <div class="fcard">
+          <b>The tools are missing.</b>
+          <p>Your company rolled out new software, new equipment, new procedures. You learned all of it. None of it is listed.</p>
+        </div>
+        <div class="fcard">
+          <b>The scope is smaller than the truth.</b>
+          <p>You run more people, more money, or more sites than you did. The old line still reads like the old job.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT AN UPDATE USUALLY MISSES ===== -->
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">What an update usually misses</p>
+      <h2>Four things that happened to you that your resume doesn't know about.</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>The promotion that changed your scope</h3>
+          <p>A new title is the easy part. The hard part is showing that the job got bigger: more people,
+          more budget, more decisions that stop with you. We ask what changed when you moved up, and you
+          tell us in plain words. If you want the format rules first, our guide on
+          <a href="/guides/how-to-list-promotions-on-resume/">how to list promotions on a resume</a> is free.</p>
+        </div>
+        <div class="card">
+          <h3>Systems you learned on the job</h3>
+          <p>The software your company switched to. The scheduling, ticketing, inventory, or records system
+          you use every day now. Employers often search for these by name, and they're rarely on a resume
+          that's been sitting a few years. We show you the ones work like yours usually involves; you confirm the ones that are really yours.</p>
+        </div>
+        <div class="card">
+          <h3>Certifications you renewed or added</h3>
+          <p>The card you renewed last year. The course your employer sent you to. The license you picked up
+          for the new role. Each one is a line employers can check, so each one earns a spot, with the
+          right name and the right date. Our guide on
+          <a href="/guides/how-to-list-certifications-on-resume/">how to list certifications on a resume</a> covers the format.</p>
+        </div>
+        <div class="card">
+          <h3>Numbers you now own</h3>
+          <p>How many people, how many sites, how much budget, how many orders a day. You know these
+          numbers because you live them. We ask for them; we never guess them. A number lands on the page
+          only when it came from you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEFORE / AFTER ===== -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">What an update looks like</p>
+      <h2>Same job. Same person. Four years later, finally on paper.</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Before — the resume as it's been sitting</h3>
+          <p class="muted">"Maintenance Technician, [Company], [year]–present. Repair equipment and perform preventive maintenance."</p>
+        </div>
+        <div class="card">
+          <h3>After — every line confirmed by the person</h3>
+          <p>"Maintenance Supervisor, [Company], promoted [year]; Maintenance Technician, [year]–[year].
+          Lead a crew of [N] technicians across [N] shifts and own the preventive maintenance schedule for
+          [N] machines. Moved work orders from paper to [CMMS system]; [N]% of preventive maintenance
+          completed on time last year. OSHA 30-Hour General Industry card, renewed [year]; [forklift] certified."</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:12px">Every bracket is a fact only you can fill in, and we ask you
+      for it instead of inventing it. Nothing in the After was added that wasn't already true. The promotion,
+      the system, the crew, the card: all of it happened. It just never got written down. That's what an update
+      does, line by line, with your say-so on each one.</p>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section alt" id="pricing">
+    <div class="container">
+      <p class="eyebrow">Pricing</p>
+      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2">
+        <div class="card price featured">
+          <span class="tag-premium">Most updates</span>
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">Your one resume brought fully up to date: everything the last few years added,
+          confirmed by you, in a file that reads cleanly to the software that screens it.</p>
+          <ul class="ticks">
+            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>Promotions, systems, certifications, and scope shown to you one at a time; you confirm what's yours</li>
+            <li>You see what hiring software actually extracts from the finished file</li>
+          </ul>
+        </div>
+        <div class="card price">
+          <h3>Targeted build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">A posting just appeared and you want to aim at it. Everything in the base build,
+          aimed at one specific role.</p>
+          <ul class="ticks">
+            <li>Your resume translated into the language that posting uses</li>
+            <li>25 interview questions for that role</li>
+            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted small" style="text-align:center">Join the list before launch day and your first build is 25% off.
+      If a line is wrong, you edit it or leave a note and we redo it from your note. One-time payment, no revision haggling.
+      Paid someone to update it and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
+      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>Common questions</h2>
+      {faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- ===== GET STARTED (capture) ===== -->
+  <section class="section alt" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      {LAUNCHED ? (
+        <>
+          <h2>Let's find what the last few years added.</h2>
+          <p class="lede">Create your account, upload the resume you have, and we'll work backwards through
+          your roles together, newest first. You approve every line before anything lands.</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
+          </div>
+          <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
+        </>
+      ) : (
+        <>
+          <h2>We launch this fall — be current before you need to be</h2>
+          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
+          build is locked in</b>, and our Promotion History Worksheet (a ready-to-use Word worksheet for
+          writing down what changed each time you moved up) is yours the moment you join. When we're live,
+          you bring the resume you have and we find the rest together.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="update-page" />
+            <input type="hidden" name="redirect" value="/update-my-resume/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+          </form>
+          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+          <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/promotion-history-worksheet.docx" download>Download your Promotion History Worksheet</a>
+          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+        </>
+      )}
+    </div>
+  </section>
+
+  <script>
+    // Returning from POST /waitlist (?joined=1|err). No-JS visitors still landed on
+    // #get-started via the 303; this only swaps the form for the confirmation + gift.
+    const q = new URLSearchParams(location.search);
+    const show = (id: string) => document.getElementById(id)?.classList.remove('hide');
+    const hideCapture = () => {
+      const form = document.querySelector('.capture-form');
+      if (form instanceof HTMLElement) form.style.display = 'none';
+      document.querySelector('.capture-note')?.classList.add('hide');
+    };
+    if (q.get('joined') === '1') {
+      show('captureDone'); show('captureGift'); hideCapture();
+    } else if (q.get('joined')) {
+      show('captureErr');
+    }
+  </script>
+
+  <style>
+    .hero { padding: 58px 0 48px; background:
+      radial-gradient(1100px 460px at 72% -12%, #d8e5fa, transparent 70%),
+      radial-gradient(760px 380px at 4% 112%, #fdf0dc, transparent 62%),
+      var(--bg); }
+    .hero-grid { display: grid; gap: 36px; align-items: center; }
+    @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; } }
+    .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+
+    .familiar { display: grid; gap: 14px; }
+    .familiar-label { margin: 0 0 -2px; font-weight: 700; color: var(--muted); font-size: .95rem; }
+    .fcard { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent-strong);
+      border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+    .fcard b { display: block; margin-bottom: 4px; }
+    .fcard p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+    .container.narrow { max-width: 760px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .hide { display: none; }
+
+    .small { font-size: .85rem; margin-top: 18px; }
+    .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; background: var(--card); }
+    .faq-item summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+    .faq-item p { margin: 10px 0 2px; color: var(--ink-soft); }
+  </style>
+</Base>

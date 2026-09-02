@@ -1,0 +1,312 @@
+---
+import Base from '../layouts/Base.astro';
+// "resume writing service" landing page (09/02 wave). Keyword Planner 07/30: ~50k/mo,
+// Low competition; our best ad group (11.6% CTR) was landing on the homepage, whose
+// headline never says these words. This page says them in the H1 and measures itself
+// with its own capture source (source=writing-service-page). Pre-launch CTA = list only;
+// the LAUNCHED switch mirrors src/pages/index.astro.
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s back here
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const faq = [
+  { q: 'Who actually writes my resume?',
+    a: "You do — with us. We work backwards from what your work actually involved and show you, one finding at a time, the tools, standards, credentials and scope you left off. You confirm, edit, or skip each one. Nothing goes on the page you didn't confirm, so the finished resume is yours to stand behind in any interview." },
+  { q: 'What does "nothing made up" mean in practice?',
+    a: "We never put a credential, title, number, or employer on your resume that you didn't confirm. If we think your work involved something, we ask you first. If you say no, it never appears. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
+  { q: 'Is this a subscription? What about revisions?',
+    a: "No subscription, nothing to cancel. $49 or $149, one-time. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. One-time payment, no revision haggling." },
+  { q: 'What is the difference between the $49 build and the $149 build?',
+    a: 'The $49 build is the complete, honest, machine-readable rebuild of your one resume. The $149 targeted build aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role. The full breakdown is on the pricing page.' },
+];
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.href },
+    { '@type': 'ListItem', position: 2, name: 'Resume writing service' },
+  ],
+};
+---
+<Base
+  title="Resume Writing Service — You Stay the Author, From $49"
+  description="A resume writing service where you stay the author: we find what you left off, you confirm every line, nothing made up. $49 one-time, no subscription."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">A resume writing service that works with you, not around you</p>
+        <h1>A <span class="hl">resume writing service</span> where you stay the author.</h1>
+        <p class="tagline">We find what your work involved that you left off. You confirm every line. Nothing made up.</p>
+        <p class="lede">
+          Upload the resume you have. We work backwards from what your jobs actually involved — the
+          tools, standards, credentials and scope that never made it onto the page — and show you each
+          one. You confirm what's really yours, in your words. What comes out is a stronger, truer resume
+          that reads cleanly to the software that screens it and to the people who read it after.
+        </p>
+        <div class="cta-row">
+          {LAUNCHED
+            ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">Not sure yet? Try the demo first</a>
+        </div>
+        <ul class="pills">
+          <li class="pill">Nothing made up</li>
+          <li class="pill">You approve every line</li>
+          <li class="pill">One-time payment — no subscription</li>
+        </ul>
+      </div>
+
+      <div class="familiar" aria-label="Why people come here for a resume writing service">
+        <p class="familiar-label">Two kinds of people land on this page:</p>
+        <div class="fcard">
+          <b>"I already paid a big-name service. I got my old resume in a new font."</b>
+          <p>Nothing new was found. Nothing was added. The revision round went quiet. Bring that draft —
+          it's a starting point, not a loss, and we'll finish what it started.</p>
+        </div>
+        <div class="fcard">
+          <b>"I'm comparing services before I spend anything."</b>
+          <p>Good. Below are the four questions we'd ask any resume writing service — and our honest
+          answers to each. Try the free demo before you decide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT GOES HERE ===== -->
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">How it goes here</p>
+      <h2>Four things you can count on.</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>1. We find what you left off</h3>
+          <p>Upload your resume (and your LinkedIn export if you have one). We work backwards from what
+          each job actually involved and show you the tools, standards, credentials and scope that aren't
+          on the page yet — one finding at a time, in plain words.</p>
+        </div>
+        <div class="card">
+          <h3>2. You confirm, edit, or skip each one</h3>
+          <p>Every finding is a question to you, not a decision made for you. Confirm what's really yours.
+          Edit the wording. Skip anything that isn't true. Nothing lands on the page without your say-so.</p>
+        </div>
+        <div class="card">
+          <h3>3. Any line you don't like, we redo from your note</h3>
+          <p>Don't like a line? Edit it directly, or leave a note — "I led this, I didn't assist" — and we
+          redo that line from your note. No waiting on replies. No revision-round negotiations.</p>
+        </div>
+        <div class="card">
+          <h3>4. You see what the screening software reads</h3>
+          <p>Before you're done, you see what hiring software actually extracts from your finished file. So
+          it isn't just better to your eye — it reads cleanly to the systems that screen it first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEFORE -> AFTER ===== -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">What the difference looks like</p>
+      <h2>Same true work — finally on the page.</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Before</h3>
+          <p class="muted">"Responsible for daily operations and helping the team with whatever came up. Trained new staff."</p>
+        </div>
+        <div class="card">
+          <h3>After — every line confirmed by the person</h3>
+          <p>"Ran daily operations for a [N]-person team: scheduling, [system] records, and supplier orders ·
+          trained [N] new hires on [system] and the department's safety procedures · handled [N] customer
+          accounts with no missed deadlines in [N] months."</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The [N]s are
+      your numbers — we ask, you answer, and we never fill one in for you. The [system] is whatever you
+      actually used. That's the whole service, line by line, with your say-so on each one.</p>
+    </div>
+  </section>
+
+  <!-- ===== READ BEFORE YOU BUY ANYWHERE ===== -->
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Read before you buy anywhere</p>
+      <h2>Four questions to ask any resume writing service.</h2>
+      <p class="lede" style="max-width:62ch">Ask these before you pay anyone — including us. If a service
+      can't answer plainly, that's your answer.</p>
+      <div class="grid cols-2">
+        <div class="card qcard">
+          <h3>Who writes it?</h3>
+          <p>A person you talk to? A pool you never meet? A template with your name dropped in?</p>
+          <p class="ours"><b>Here:</b> you do, with us. We find, you confirm. Your words stay your words.</p>
+        </div>
+        <div class="card qcard">
+          <h3>Do I approve each line before it's final?</h3>
+          <p>Or do you get a finished draft and a limited window to argue about it?</p>
+          <p class="ours"><b>Here:</b> yes, every line. Nothing goes on the page you didn't confirm.</p>
+        </div>
+        <div class="card qcard">
+          <h3>Is it a subscription?</h3>
+          <p>Some prices are monthly and keep going after you've downloaded the file. Check before you enter a card.</p>
+          <p class="ours"><b>Here:</b> no. $49 or $149, one-time. Nothing to cancel.</p>
+        </div>
+        <div class="card qcard">
+          <h3>Can I see what the screening software reads?</h3>
+          <p>A resume that looks good to you can still come out scrambled to the software that reads it first.</p>
+          <p class="ours"><b>Here:</b> yes. You see what hiring software actually extracts from your finished file before you're done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <p class="eyebrow">What you get</p>
+      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2">
+        <div class="card price">
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">The complete, honest, machine-readable rebuild of your one resume — everything
+          you've earned, finally on paper.</p>
+          <ul class="ticks">
+            <li>Your resume and LinkedIn resume export (the PDF with your work history) dug through together for what you left off</li>
+            <li>You confirm, edit, or skip every finding — nothing made up</li>
+            <li>Edit any line, or leave a note and we redo it from your note</li>
+            <li>You see what screening software reads from the finished file</li>
+          </ul>
+        </div>
+        <div class="card price featured">
+          <span class="tag-premium">Aimed at one posting</span>
+          <h3>Targeted build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">Everything in the base build, aimed at one specific job posting you bring us.</p>
+          <ul class="ticks">
+            <li>Your experience translated into that field's language</li>
+            <li>25 interview questions for that role</li>
+            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted small" style="text-align:center">Join the list before launch and your first build is 25% off. You stay the author the whole way.</p>
+    </div>
+  </section>
+
+  <!-- ===== GET STARTED (capture) ===== -->
+  <section class="section alt" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      {LAUNCHED
+        ? <h2>Let's see what you've been leaving off.</h2>
+        : <h2>We launch this fall — don't pay full price</h2>}
+      {LAUNCHED
+        ? <p class="lede">Create your account, upload your resume, and we'll dig in together. You approve every line before anything lands.</p>
+        : <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
+          build is locked in</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) is yours
+          the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
+      {LAUNCHED ? (
+        <div class="cta-row" style="justify-content:center">
+          <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+          <a class="btn btn-ghost btn-lg" href="/demo/">Try the demo first</a>
+        </div>
+      ) : (
+        <>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="writing-service-page" />
+            <input type="hidden" name="redirect" value="/resume-writing-service/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+          </form>
+          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+          <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/role-skills-checklist.docx" download>Download your Role Skills Checklist</a>
+          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+          <p class="muted small"><a href="/demo/">Not sure yet? Try the demo first</a> — a sample review, no sign-up.</p>
+        </>
+      )}
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>Common questions</h2>
+      {faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+      <p class="muted small">We don't name or review specific companies. If a service treated you well, wonderful — this page is for anyone who wants to stay the author of their own resume. If one didn't, <a href="/fix/">start at Fix my resume</a>.</p>
+      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+    </div>
+  </section>
+
+  <script>
+    // Returning from POST /waitlist (?joined=1|err). No-JS visitors still landed on
+    // #get-started via the 303; this only swaps the form for the confirmation + gift.
+    const q = new URLSearchParams(location.search);
+    const show = (id: string) => document.getElementById(id)?.classList.remove('hide');
+    const hideCapture = () => {
+      const form = document.querySelector('.capture-form');
+      if (form instanceof HTMLElement) form.style.display = 'none';
+      document.querySelector('.capture-note')?.classList.add('hide');
+    };
+    if (q.get('joined') === '1') {         // just joined -> confirmation + gift
+      show('captureDone'); show('captureGift'); hideCapture();
+    } else if (q.get('joined')) {
+      show('captureErr');
+    }
+  </script>
+
+  <style>
+    .hero { padding: 58px 0 48px; background:
+      radial-gradient(1100px 460px at 72% -12%, #d8e5fa, transparent 70%),
+      radial-gradient(760px 380px at 4% 112%, #fdf0dc, transparent 62%),
+      var(--bg); }
+    .hero-grid { display: grid; gap: 36px; align-items: center; }
+    @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; } }
+    .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+
+    .familiar { display: grid; gap: 14px; }
+    .familiar-label { margin: 0 0 -2px; font-weight: 700; color: var(--muted); font-size: .95rem; }
+    .fcard { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent-strong);
+      border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+    .fcard b { display: block; margin-bottom: 4px; }
+    .fcard p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+    .qcard p { margin: 0 0 8px; color: var(--muted); }
+    .qcard .ours { margin: 0; color: var(--ink); }
+
+    .price { display: flex; flex-direction: column; }
+    .price.featured { border-color: #cbb4f0; box-shadow: 0 0 0 3px #ece2fb, var(--shadow-lg); position: relative; }
+    .amount { font-size: 2.2rem; font-weight: 800; color: var(--ink); margin: 4px 0 6px; }
+    .amount span { font-size: .95rem; font-weight: 600; color: var(--muted); margin-left: 8px; }
+    .ticks { list-style: none; padding: 0; margin: 14px 0 6px; }
+    .ticks li { padding-left: 18px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }
+    .ticks li::before { content: ""; position: absolute; left: 0; top: .55em; width: 7px; height: 7px; border-radius: 50%; background: var(--true); }
+
+    .container.narrow { max-width: 760px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .hide { display: none; }
+    .small { font-size: .85rem; margin-top: 18px; }
+
+    .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; background: var(--card); }
+    .faq-item summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+    .faq-item p { margin: 10px 0 2px; color: var(--ink-soft); }
+  </style>
+</Base>
