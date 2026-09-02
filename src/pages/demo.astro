@@ -1,0 +1,240 @@
+---
+// Standalone client-side demo (founder GO 09/01/2026). Reuses the REAL sample-profile
+// findings from the app's demo mode (app.html DEMOS/DEMO_ROLES), rebuilt self-contained
+// so it lives on the MARKETING origin (adaptiveresume.com/demo) and never touches the
+// app origin — the demo makes zero server/model calls (all sample data). Publicly
+// linkable in ads + the hero; email capture happens AFTER the person sees value.
+import Base from '../layouts/Base.astro';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+---
+<Base
+  title="See it work — a live sample review | AdaptiveResume"
+  description="Walk a real sample resume review, no sign-up. Pick a profile, see the skills and credentials we'd surface, approve each line, and watch the sample resume build — all from your browser."
+>
+  <section class="section">
+    <div class="container narrow">
+      <p class="eyebrow">Try it — no sign-up, nothing saved</p>
+      <h1>See exactly how it works.</h1>
+      <p class="lede">
+        Pick a sample worker below. We'll show you what their resume <em>says</em> — and the real
+        skills and credentials that work involved but they never wrote down. You approve each line
+        (nothing is added unless you do), then watch the sample resume build. It all runs right here
+        in your browser on fictional data.
+      </p>
+
+      <div class="demobar" id="demoBar" role="group" aria-label="Choose a sample profile"></div>
+
+      <!-- STEP: review findings -->
+      <div id="review" class="hide">
+        <div class="occ" id="occ"></div>
+        <div id="findings"></div>
+        <div class="nav">
+          <button class="btn btn-amber btn-lg" id="buildBtn" type="button">Build the sample resume →</button>
+          <span class="muted count" id="count"></span>
+        </div>
+      </div>
+
+      <!-- STEP: sample build -->
+      <div id="built" class="hide">
+        <h2 id="builtHead">Your sample resume</h2>
+        <p class="muted" id="builtSub"></p>
+        <div class="resume" id="resume"></div>
+        <p class="ok" id="builtNote"></p>
+
+        <div class="cta-card">
+          <p class="lead">This is what you'd walk away with — from your <b>own</b> resume.</p>
+          <p>Same way, every time: we work backwards from the job you want, you approve every line, and
+          nothing goes in that isn't yours. Get on the list before launch and your <b>25% off</b> is
+          locked in, plus our ATS-Safe Resume Skeleton (a ready-to-use Word template) the moment you join.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="demo-page" />
+            <input type="hidden" name="redirect" value="/demo" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Lock in 25% off + get the template</button>
+          </form>
+          <p class="start-alt muted">Just your email — no account, no card. No spam.</p>
+          <button class="btn btn-ghost" id="restartBtn" type="button">Try another profile</button>
+        </div>
+      </div>
+
+      <p class="cap">Every profile here is fictional sample data — no real person or employer. The demo never contacts our server.</p>
+    </div>
+  </section>
+
+  <script is:inline set:html={`
+  // ---- REAL sample data, lifted verbatim from the app's demo mode (all fictional) ----
+  const PROFILES = {
+    paralegal:{label:"Paralegal",occ:"You're a litigation paralegal with 2+ years supporting attorneys in civil and personal-injury litigation in Atlanta, GA — discovery, drafting, client liaison, service of process, and trial support.",findings:[
+      {orig:"Electronic Filing",term:"State e-filing systems (PeachCourt / Odyssey eFileGA / PACER)",add:"Filed pleadings and motions electronically through Georgia state e-filing portals (PeachCourt/Odyssey eFileGA) and federal PACER/CM-ECF, ensuring compliance with court formatting and deadline rules.",why:"Your resume lists 'Electronic Filing' generically; Atlanta litigation paralegals file through named court systems that ATS and hiring managers search for.",ask:null},
+      {orig:"",term:"Paralegal certification (e.g., NALA CP)",add:"",why:"Many litigation paralegals carry a CP credential. We never list one unless you confirm you hold it.",ask:"Do you hold a paralegal certification such as the NALA CP?"},
+      {orig:"handling discovery, document drafting, client liaison",term:"Discovery and document production",add:"Managed discovery end to end: collected, reviewed, Bates-stamped, and produced thousands of documents under attorney supervision while tracking privilege and responsiveness.",why:"Your resume says 'discovery' — naming the concrete steps and scale reads far stronger to a hiring manager.",ask:null}
+    ],role:{title:"Litigation Paralegal",employer:"Civil-litigation firm, Atlanta, GA (sample)",dates:"2024-2026",summary:"Litigation paralegal supporting civil and personal-injury matters — discovery, drafting, filings, client liaison, and trial support.",base:["Drafted pleadings, correspondence, and discovery responses for attorney review","Maintained case calendars, deadlines, and client communication"]}},
+    military:{label:"Military → civilian",occ:"You're a Navy Hospital Corpsman (HM2) with 8 years across clinical care, surgical services, sterile processing, medical logistics, and instruction — transitioning to civilian surgical services.",findings:[
+      {orig:"Maintained AMAL blocks and surgical instrument sets",term:"Sterile processing — in the words civilian hospitals use (SPD)",add:"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — maintaining readiness across 12 supply blocks to hospital SPD standards.",why:"'AMAL blocks' is a military term civilian screening software has never heard of. The work itself is exactly what hospitals call Sterile Processing (SPD). Same truth, their words.",ask:null},
+      {orig:"",term:"CRCST / CBSPD certification (sterile processing)",add:"",why:"Corpsmen often qualify for the civilian credential through military hours. We ask — we never assume a certification onto your resume.",ask:"Do you hold a CRCST or CBSPD certification — or are you eligible through your Navy hours?"},
+      {orig:"TCCC instructor for battalion personnel",term:"Instructor experience — civilian clinical-educator language",add:"Designated instructor for Tactical Combat Casualty Care: trained and evaluated 60+ personnel in emergency clinical response, with curriculum delivery, skills sign-off, and training records (civilian equivalent: clinical preceptor/educator).",why:"'TCCC instructor' reads as alphabet soup to civilian HR — instructor duty is a strong hiring signal when phrased as clinical education.",ask:null}
+    ],role:{title:"Hospital Corpsman (HM2)",employer:"United States Navy",dates:"2018-2026",summary:"Navy Hospital Corpsman with 8 years across clinical care, surgical services, sterile processing, medical logistics, and instruction — transitioning to civilian surgical services.",base:["Provided direct patient care in clinic and field settings","Managed medical supply readiness and logistics"]}},
+    hvac:{label:"HVAC / Trades",occ:"You're an HVAC service technician with 9 years in residential and light-commercial work — diagnostics, repair, preventive maintenance, and customer-facing service.",findings:[
+      {orig:"EPA certified",term:"EPA 608 Universal — named exactly, the way filters search it",add:"EPA Section 608 Universal certified — refrigerant handling, recovery, and leak diagnosis across residential and light-commercial systems.",why:"Screening filters search for the exact token '608 Universal'. Naming it costs nothing and gets you through the filter.",ask:null},
+      {orig:"",term:"NATE certification / manufacturer training",add:"",why:"Many senior techs carry NATE or factory training and never list it. We ask — never assume.",ask:"Do you hold NATE certification, or manufacturer training (Trane, Carrier, Daikin…)?"},
+      {orig:"maintenance contracts",term:"Preventive-maintenance program work, spelled out",add:"Ran seasonal preventive-maintenance routes across ~200 residential and light-commercial contract accounts — coil service, combustion analysis, charge verification, and service documentation.",why:"'Maintenance contracts' hides the real skill set. Naming the tasks tells a service manager exactly what you can run on day one.",ask:null}
+    ],role:{title:"HVAC Service Technician",employer:"Residential & light-commercial service company (sample)",dates:"2017-2026",summary:"HVAC service technician with 9 years of diagnostics, repair, and preventive maintenance across residential and light-commercial accounts.",base:["Diagnosed and repaired heating and cooling systems on service calls","Handled customer-facing service, estimates, and follow-up"]}},
+    gap:{label:"Returning after a gap",occ:"You're a registered nurse with 7 years of med-surg and telemetry experience, returning to clinical work after a four-year family-caregiving period (2022-2026). This shows how we handle a gap honestly.",findings:[
+      {orig:"Staff nurse, med-surg/telemetry",term:"Your clinical record — the part a gap doesn't erase",add:"Staff RN on a 32-bed med-surg/telemetry unit: primary care for 5-6 patient assignments, telemetry monitoring, medication administration, charge-nurse coverage, and preceptor duty for new graduates.",why:"Your resume compresses seven years into one line. The unit size, patient loads, and preceptor duty are the substance hiring teams look for — none of it expired while you were away.",ask:null},
+      {orig:"",term:"RN license status — listed as it really is",add:"",why:"Returning nurses often assume a lapsed license disqualifies them. It doesn't — but license status is a fact, not a guess. We ask, then write what's true.",ask:"Is your RN license active right now — or lapsed and in renewal?"},
+      {orig:"2022-2026 — left work to care for a parent",term:"The gap itself — one honest, dated line",add:"2022-2026 — Full-time family caregiver (parent): managed medications, coordinated specialist care, and handled all daily clinical needs.",why:"Screening teams flag unexplained gaps, not explained ones. One plain dated line answers the question before it's asked — without inflating it.",ask:null}
+    ],role:{title:"Staff Nurse (RN) — Med-Surg/Telemetry",employer:"Regional hospital (sample)",dates:"2015-2022",summary:"Registered nurse with 7 years of med-surg and telemetry experience, returning to clinical practice after a 2022-2026 family-caregiving period.",base:["Administered medications and monitored telemetry for assigned patients","Documented care and coordinated with physicians and case management"]}},
+    army:{label:"Army → warehouse/logistics",occ:"You're an Army Unit Supply Specialist (92Y) with 6 years managing property, inventories, and supply operations for a 140-person company — heading into civilian warehouse, logistics, and crew-lead roles.",findings:[
+      {orig:"Conducted CSDP and property-book inventories",term:"Inventory control & cycle counting — the civilian words for CSDP",add:"Ran inventory control for $4.2M in equipment and supplies — monthly cycle counts, 100% accountability inventories, discrepancy research, and audit-ready records.",why:"Civilian screening software has never met the Command Supply Discipline Program. The same work is called inventory control and cycle counting — warehouse operations hire for it by name.",ask:null},
+      {orig:"",term:"Forklift certification — OSHA card vs military hours",add:"",why:"Military equipment hours are real experience and we say so. The civilian certification card is a separate held credential — we ask, we never assume it on.",ask:"Do you hold a current civilian forklift operator card — or military hours only?"},
+      {orig:"Supply sergeant for company of 140 personnel",term:"Supply sergeant duty — crew-lead language",add:"Led a 4-person supply team — daily task assignment, training, and quality checks — supporting a 140-person organization's receiving, storage, and issue operations.",why:"'Supply sergeant' means nothing to a civilian shift manager — leading a small team that keeps 140 people supplied is exactly what crew-lead postings ask for.",ask:null}
+    ],role:{title:"Unit Supply Specialist (92Y)",employer:"United States Army",dates:"2020-2026",summary:"Army Unit Supply Specialist (92Y) with 6 years of property accountability, inventories, and supply operations for a 140-person company — headed for warehouse, logistics, and crew-lead roles.",base:["Processed daily receiving, storage, and issue transactions","Maintained hand receipts and audit-ready supply records"]}},
+    it:{label:"Helpdesk → sysadmin",occ:"You're a tier-2 IT helpdesk technician with 4 years in a 400-seat environment — tickets, user accounts, imaging, patching — working toward a systems administrator role.",findings:[
+      {orig:"Managed user accounts and password resets",term:"Active Directory administration — the way sysadmin filters search it",add:"Administered Active Directory user lifecycle — provisioning, deprovisioning, group policy membership, and access reviews — across a 400-seat environment.",why:"'Managed user accounts' IS Active Directory administration — the exact phrase sysadmin screening filters look for. Your work, their words.",ask:null},
+      {orig:"",term:"CompTIA A+ / Network+ certifications",add:"",why:"Common at your level and heavily filtered on — but certifications are held credentials, so we ask instead of assuming.",ask:"Do you hold current CompTIA A+ or Network+ (or an Azure/Microsoft cert)?"},
+      {orig:"Handled support tickets",term:"SLA performance, quantified",add:"Resolved 30+ tickets daily against a 4-hour response SLA, maintaining a 95%+ first-contact resolution rate.",why:"'Handled tickets' hides the numbers that prove reliability. If your queue tracked SLAs, naming them turns routine work into evidence.",ask:null}
+    ],role:{title:"IT Support Technician, Tier 2",employer:"Corporate IT department, 400-seat environment (sample)",dates:"2022-2026",summary:"Tier-2 helpdesk technician in a 400-seat environment — tickets, accounts, imaging, and patching — building toward systems administration.",base:["Imaged and deployed workstations; kept patch compliance current","Set up hardware and accounts for onboarding and offboarding"]}}
+  };
+
+  const $ = (id) => document.getElementById(id);
+  let KEY = null, STATE = null, DECIDED = [];
+
+  // Build the profile picker
+  const bar = $("demoBar");
+  Object.keys(PROFILES).forEach((k) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = PROFILES[k].label; b.setAttribute("data-k", k);
+    b.addEventListener("click", () => pick(k));
+    bar.appendChild(b);
+  });
+
+  function pick(k) {
+    KEY = k; STATE = PROFILES[k]; DECIDED = STATE.findings.map(() => null);
+    document.querySelectorAll("#demoBar button").forEach((b) => b.classList.toggle("active", b.getAttribute("data-k") === k));
+    $("occ").textContent = STATE.occ;
+    renderFindings();
+    $("built").classList.add("hide");
+    $("review").classList.remove("hide");
+    $("review").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function renderFindings() {
+    const wrap = $("findings"); wrap.innerHTML = "";
+    STATE.findings.forEach((f, i) => {
+      const card = document.createElement("div"); card.className = "finding";
+      const isCred = !!f.ask;
+      let html = "";
+      if (f.orig) html += '<p class="says"><span class="lbl">Your resume says:</span> "' + esc(f.orig) + '"</p>';
+      if (isCred) {
+        html += '<p class="adds"><span class="lbl">We\\'d ask:</span> ' + esc(f.ask) + '</p>';
+      } else {
+        html += '<p class="adds"><span class="lbl">We\\'d suggest adding:</span> "' + esc(f.add) + '"</p>';
+      }
+      html += '<p class="why">' + esc(f.why) + '</p>';
+      html += '<div class="choices">' +
+        '<button type="button" class="pick-add" data-i="' + i + '">' + (isCred ? "Yes, I hold this" : "Add this") + '</button>' +
+        '<button type="button" class="pick-skip" data-i="' + i + '">Skip</button></div>';
+      card.innerHTML = html;
+      wrap.appendChild(card);
+    });
+    wrap.querySelectorAll(".pick-add").forEach((b) => b.addEventListener("click", (e) => decide(+e.target.getAttribute("data-i"), "add", e)));
+    wrap.querySelectorAll(".pick-skip").forEach((b) => b.addEventListener("click", (e) => decide(+e.target.getAttribute("data-i"), "skip", e)));
+    updateCount();
+  }
+
+  function decide(i, val, e) {
+    DECIDED[i] = val;
+    const card = e.target.closest(".finding");
+    card.classList.toggle("added", val === "add");
+    card.classList.toggle("skipped", val === "skip");
+    card.querySelector(".pick-add").classList.toggle("on", val === "add");
+    card.querySelector(".pick-skip").classList.toggle("on", val === "skip");
+    updateCount();
+  }
+
+  function updateCount() {
+    const added = DECIDED.filter((d) => d === "add").length;
+    const done = DECIDED.filter((d) => d !== null).length;
+    $("count").textContent = done < STATE.findings.length
+      ? (STATE.findings.length - done) + " left — or build with what you've picked"
+      : added + " kept, " + (STATE.findings.length - added) + " skipped";
+  }
+
+  $("buildBtn").addEventListener("click", build);
+  $("restartBtn").addEventListener("click", () => { $("built").classList.add("hide"); window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  function build() {
+    const r = STATE.role;
+    const kept = [], certs = [];
+    STATE.findings.forEach((f, i) => {
+      if (DECIDED[i] === "add") { (f.ask ? certs : kept).push(f.ask ? f.term.replace(/ —.*$/, "") : f.add); }
+      else if (!f.ask && f.orig) { kept.push(f.orig); }
+    });
+    r.base.forEach((b) => { if (kept.indexOf(b) < 0) kept.push(b); });
+
+    let html = '<div class="rhead"><div class="rtitle">' + esc(r.title) + '</div>' +
+      '<div class="rmeta">' + esc(r.employer) + (r.dates ? ' · ' + esc(r.dates) : '') + '</div></div>' +
+      '<p class="rsum">' + esc(r.summary) + '</p>' +
+      '<h3>Experience</h3><ul>' + kept.map((l) => '<li' + (isKept(l) ? ' class="new"' : '') + '>' + esc(l) + '</li>').join("") + '</ul>';
+    if (certs.length) html += '<h3>Certifications</h3><ul>' + certs.map((c) => '<li class="new">' + esc(c) + '</li>').join("") + '</ul>';
+    $("resume").innerHTML = html;
+
+    function isKept(line) { return STATE.findings.some((f, i) => DECIDED[i] === "add" && !f.ask && f.add === line); }
+
+    const added = DECIDED.filter((d) => d === "add").length;
+    $("builtSub").textContent = "Fictional sample profile — built only from the lines you approved just now.";
+    $("builtNote").innerHTML = "The lines in <b>green</b> are the findings you kept, woven in. Anything you skipped stayed out. Nothing made up — that's the product.";
+    $("built").classList.remove("hide");
+    $("built").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+  // If arriving with ?p=military etc., preselect; else default to the first profile.
+  const pre = new URLSearchParams(location.search).get("p");
+  pick(pre && PROFILES[pre] ? pre : "paralegal");
+  `}></script>
+
+  <style>
+    .container.narrow { max-width: 70ch; }
+    .demobar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 26px; }
+    .demobar button { font: inherit; font-size: .92rem; font-weight: 600; padding: 8px 14px; border-radius: 999px;
+      border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+    .demobar button:hover { border-color: var(--navy, #1d3a66); }
+    .demobar button.active { background: var(--navy, #1d3a66); border-color: var(--navy, #1d3a66); color: #fff; }
+    .occ { font-size: 1.05rem; font-weight: 600; color: var(--ink); background: var(--card); border: 1px solid var(--line);
+      border-left: 4px solid var(--accent, #d97706); border-radius: 10px; padding: 14px 16px; margin: 0 0 20px; }
+    .finding { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 14px; background: var(--card); transition: border-color .12s; }
+    .finding.added { border-color: #7fb08a; background: #f3faf4; }
+    .finding.skipped { opacity: .55; }
+    .finding .says { color: var(--muted); margin: 0 0 6px; }
+    .finding .adds { color: var(--ink); margin: 0 0 6px; }
+    .finding .lbl { font-weight: 700; }
+    .finding .why { font-size: .9rem; color: var(--muted); margin: 6px 0 12px; }
+    .choices { display: flex; gap: 10px; }
+    .choices button { font: inherit; font-weight: 700; font-size: .92rem; padding: 8px 16px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--line); background: #fff; color: var(--ink); }
+    .choices .pick-add.on { background: #1c7a43; border-color: #1c7a43; color: #fff; }
+    .choices .pick-skip.on { background: var(--muted); border-color: var(--muted); color: #fff; }
+    .nav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+    .count { font-size: .9rem; }
+    .resume { border: 1px solid var(--line); border-radius: 12px; padding: 22px 24px; background: #fff; margin: 12px 0 18px; }
+    .resume .rtitle { font-size: 1.2rem; font-weight: 800; color: var(--ink); }
+    .resume .rmeta { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+    .resume .rsum { color: var(--ink-soft, #3f4a59); margin: 0 0 14px; }
+    .resume h3 { font-size: 1rem; color: var(--navy, #1d3a66); margin: 16px 0 6px; }
+    .resume ul { margin: 0; padding-left: 1.1em; }
+    .resume li { margin-bottom: .4em; }
+    .resume li.new { color: #1c7a43; font-weight: 600; }
+    .ok { color: #1c7a43; font-weight: 600; }
+    .cta-card { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; background: var(--card); margin-top: 18px; }
+    .cta-card .lead { font-weight: 700; font-size: 1.1rem; color: var(--ink); margin: 0 0 8px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 8px; }
+    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: 1rem; border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
+    .start-alt { font-size: .9rem; margin: 0 0 12px; }
+    .cap { font-size: .82rem; color: var(--muted); margin-top: 26px; }
+    .hide { display: none; }
+  </style>
+</Base>
