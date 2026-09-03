@@ -23,7 +23,7 @@ faq:
   - q: "How do I show critical care experience if I've mostly floated?"
     a: "Describe the units you've actually staffed and what you did there. Floating across the ICU, ED, and med-surg floors is a genuine strength — it shows range — so name the units, the acuity, and the modalities you ran in each. 'Floated ICU, ED, and step-down; managed ventilated and BiPAP patients across all three' says far more than 'provided respiratory care in various settings.'"
   - q: "Does my state license go on the resume, and what do I call it?"
-    a: "Yes — list your state respiratory care license with the state and its real status. Most states license respiratory therapists, and many use the title Respiratory Care Practitioner (RCP). Use the exact title your state issues, include the state, and note the expiration if the posting asks. An active, unencumbered license in the state you're applying to is the first thing many employers check."
+    a: "Yes — list your state respiratory care license with the state and its real status. Nearly every state licenses respiratory therapists, and many use the title Respiratory Care Practitioner (RCP). Use the exact title your state issues, include the state, and note the expiration if the posting asks. An active, unencumbered license in the state you're applying to is the first thing many employers check."
 ---
 
 Respiratory therapist hiring is read in a specific order, and the order rarely changes: credential first, then setting and acuity, then the modalities you actually run. A therapist who lives on ventilated ICU patients and one who spends the day on floor treatments and PFTs are doing different jobs, and a resume that reads as generically "respiratory" competes badly against both. The single most useful thing you can do is make your **NBRC credential and your unit** unmissable in the first few lines.
@@ -48,15 +48,15 @@ Your credential from the National Board for Respiratory Care is the first filter
 
 The **CRT (Certified Respiratory Therapist)** and the **RRT (Registered Respiratory Therapist)** are the two core NBRC credentials. Many higher-acuity roles require the RRT; list the one you actually hold. If you're a graduate testing toward the RRT, write it as *RRT-eligible* with your test timeline rather than claiming the credential early.
 
-Specialty credentials are separate NBRC exams beyond the RRT, and holding one is a genuine distinction: the **ACCS (Adult Critical Care Specialist)** and the **NPS (Neonatal/Pediatric Specialist)**. If you work PFTs or sleep, the CPFT/RPFT and SDS exist too — name only what you've earned.
+Specialty credentials are separate NBRC exams beyond the RRT, and holding one is a genuine distinction: the **ACCS (Adult Critical Care Specialist)** and the **NPS (Neonatal/Pediatric Specialist)**. If you work PFTs or sleep, the CPFT/RPFT (pulmonary function technologist) and SDS (sleep disorders specialty) credentials exist too — name only what you've earned.
 
-Then your **state license**. Most states license respiratory therapists, and many issue the title **RCP (Respiratory Care Practitioner)**. Use your state's exact title, name the state, and keep the status current.
+Then your **state license**. Nearly every state licenses respiratory therapists, and many issue the title **RCP (Respiratory Care Practitioner)**. Use your state's exact title, name the state, and keep the status current.
 
 Life-support cards belong here as well: **ACLS**, **PALS**, and **NRP** (the Neonatal Resuscitation Program) — list the ones you hold, with current dates, because code and delivery-room coverage often depend on them.
 
 ## The parts of the job that carry the most weight
 
-**Ventilator management** is the center of most acute-care respiratory resumes. Write the scope: invasive and non-invasive, the modes you run, initiation and titration, and daily assessment. If you weaned patients, say so — weaning protocols and spontaneous breathing trials are exactly the judgment employers are reading for.
+**Ventilator management** is the center of an acute-care respiratory resume. Write the scope: invasive and non-invasive, the modes you run, initiation and titration, and daily assessment. If you weaned patients, say so — weaning protocols and spontaneous breathing trials are exactly the judgment employers are reading for.
 
 **Airway and non-invasive support** deserve their own lines: **BiPAP and CPAP** setup and titration, high-flow nasal cannula, intubation assist, and airway management. In the ED and on rapid responses, this is often most of the job.
 
@@ -107,4 +107,4 @@ Filters commonly read for: respiratory therapist, RRT, CRT, RCP, mechanical vent
 
 The highest-risk lines are the ones that overstate scope — a credential you're testing toward but haven't earned, ICU acuity you covered as a float but didn't own, or a specialty exam you haven't sat. Clinical employers verify credentials directly with the NBRC and your state board, so anything you claim there has to be exactly true.
 
-The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which for most therapists is considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, credentials, and the modalities you run, propose the standards and equipment that work like yours normally involves, and ask you to confirm every line before it appears. We never add a credential, a unit, or a certification you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, credentials, and the modalities you run, propose the standards and equipment that work like yours normally involves, and ask you to confirm every line before it appears. We never add a credential, a unit, or a certification you didn't tell us about.

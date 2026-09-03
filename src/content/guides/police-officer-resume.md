@@ -23,7 +23,7 @@ faq:
     a: "Describe the work, not the case: types of calls, your role, the outcome category (report, arrest, referral). Never include names, case numbers, or details that aren't public. A resume is a public document; write it like one."
 ---
 
-Police hiring is a paperwork profession's paperwork test. Whether you're going lateral to another agency, putting in for a specialty unit, or stepping toward a civilian career, the person screening your resume is asking the same things a background investigator asks: is this specific, is it verifiable, and does it hold up? Vague duty statements ("performed law enforcement duties as assigned") fail all three. Here's how to write the version that passes.
+Police hiring is a paperwork profession's paperwork test. Whether you're going lateral to another agency, putting in for a specialty unit, or stepping toward a civilian career, the person screening your resume is asking the same things a background investigator asks: is this specific, is it verifiable, and does it hold up? Vague duty statements ("performed law enforcement duties as assigned") fail all three. Here's how to write the version that holds up.
 
 ## What hiring managers and screening software look for on a police officer resume
 
@@ -33,13 +33,13 @@ The vocabulary that matters, stated as what the job typically involves — and o
 - **Academy and field training:** academy completion (name and year) and your FTO phase, plus any instructor or FTO role you later held.
 - **Report writing:** the skill agencies quietly weight heaviest. Reports feed charging decisions and court; if yours held up, your resume should say what kinds you wrote and who relied on them.
 - **The work itself:** calls for service, traffic enforcement and collision investigation, arrests and case preparation, court testimony, evidence handling and chain of custody, community policing and problem-solving assignments.
-- **Training that screeners search for:** de-escalation and crisis intervention (CIT), current firearms qualification, first aid/CPR, plus systems like CAD and RMS by name.
+- **Training that screeners search for:** de-escalation and crisis intervention (CIT), current firearms qualification, first aid/CPR, plus systems like CAD (computer-aided dispatch) and RMS (records management) by name.
 
 [O*NET's Police and Sheriff's Patrol Officers profile (33-3051.00)](https://www.onetonline.org/link/summary/33-3051.00) carries the occupation's base vocabulary; your agency specifics and assignments carry everything beyond it.
 
 ## Radio codes, jargon, and the plain-language rule
 
-Here's the honesty habit that doubles as a screening advantage: write your resume the way you'd write a report for someone outside your agency. Radio codes differ between departments, and screening software doesn't parse them at all. A civilian HR screener — or an ATS keyword search — sees "10-codes and signal calls" and matches nothing.
+Here's the honesty habit that doubles as a screening advantage: write your resume the way you'd write a report for someone outside your agency. Radio codes differ between departments, and screening software doesn't parse them at all. A civilian HR screener — or an applicant tracking system (ATS) keyword search — sees "10-codes and signal calls" and matches nothing.
 
 **Before:** "Responded to calls, wrote reports, and appeared in court as needed."
 **After:** "Patrol officer, [agency]: answered calls for service across [beat/shift]; wrote incident and arrest reports relied on in charging decisions; testified in court on my own cases."
@@ -63,7 +63,7 @@ Fill brackets with your real agency and assignments. Anything you list can come 
 
 ## How long should a police officer resume be, and what goes first?
 
-One page for under roughly ten years of service, two for a longer career or supervisory record. Order: certification and training block near the top (POST status first), then experience with agency, assignment, and dates, then education. If you're moving toward a civilian role, the same page works with the emphasis shifted: lead with report writing, de-escalation, public contact, and testimony — the transferable core — and keep the plain-language rule absolute, because now none of your readers speak agency.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe — a longer career, a supervisory record, or specialty assignments. Federal law-enforcement applications through USAJOBS cap at two pages as of the September 2025 OPM change. Order: certification and training block near the top (POST status first), then experience with agency, assignment, and dates, then education. If you're moving toward a civilian role, the same page works with the emphasis shifted: lead with report writing, de-escalation, public contact, and testimony — the transferable core — and keep the plain-language rule absolute, because now none of your readers speak agency.
 
 ## Specialty assignments and collateral duties
 

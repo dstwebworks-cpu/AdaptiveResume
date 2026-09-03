@@ -31,9 +31,9 @@ Help desk hiring answers a practical question: if we put this person on the queu
 Recruiters and screening software search for the working language of the job. Where these are true of you, they belong on the page in exactly these words:
 
 - **Ticketing systems** — ServiceNow, Zendesk, Jira Service Management, Freshservice: name the one you actually worked in, not the category.
-- **Queue metrics** — ticket volume, SLA compliance, first-call resolution: the numbers your team lived by.
+- **Queue metrics** — ticket volume, SLA (service-level agreement) compliance, first-call resolution: the numbers your team lived by.
 - **Tier scope** — tier 1, 2, or 3, and where your escalation line sat.
-- **The daily stack** — Active Directory (password resets, account lockouts, group membership), Microsoft 365 administration, VPN and remote support tools, MDM enrollment, device imaging and deployment.
+- **The daily stack** — Active Directory (password resets, account lockouts, group membership), Microsoft 365 administration, VPN and remote support tools, MDM (mobile device management) enrollment, device imaging and deployment.
 
 The keyword only earns its place if you can take an interview question on it. This is translation of real experience into searchable terms — never decoration.
 
@@ -91,7 +91,7 @@ Job titles for this work vary a lot — help desk analyst, desktop support techn
 
 ## Format notes
 
-One page for under ~8 years of experience. Single column, standard headings, certifications in their own block, scope line atop each role. No skill-rating bars — "Active Directory" as selectable text is searchable; a four-star graphic is invisible to parsing software.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal IT jobs through USAJOBS cap at two pages as of the September 2025 OPM change). Single column, standard headings, certifications in their own block, scope line atop each role. No skill-rating bars — "Active Directory" as selectable text is searchable; a four-star graphic is invisible to parsing software.
 
 ## How we build a help desk resume with you
 

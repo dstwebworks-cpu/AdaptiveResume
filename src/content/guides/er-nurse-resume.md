@@ -42,10 +42,10 @@ Trauma level, bed count or daily volume, and whether you triage — that's the a
 
 ## Bullets that show emergency judgment
 
-- **Triage** — running ESI triage is a trust position; say how often and at what volume.
+- **Triage** — running ESI (Emergency Severity Index) triage is a trust position; say how often and at what volume.
 - **Response roles** — code team, trauma bay assignments, first-round stroke/STEMI workflows. Name the role you actually played ("primary nurse for trauma activations on nights").
 - **Throughput** — ERs live on flow; work like "held 6-patient assignments during boarding surges" is honest evidence of load tolerance.
-- **Charge, precepting, SANE** — leadership and specialty add-ons each get their own line; SANE certification especially is rare and searchable.
+- **Charge, precepting, SANE** — leadership and specialty add-ons each get their own line; SANE (Sexual Assault Nurse Examiner) certification especially is rare and searchable.
 
 ## New to the ER, or ER-adjacent
 
@@ -57,7 +57,7 @@ Contract-by-contract listing: facility, trauma level, weeks, EMR. The travel-spe
 
 ## Format notes
 
-Two pages for experienced RNs, one for new grads. Certifications in their own labeled block — hospital ATS parsing keys on it — and the department line atop each role. Single column, no graphics.
+Two pages for experienced RNs, one for new grads (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Certifications in their own labeled block — hospital screening software (the ATS) keys on it — and the department line atop each role. Single column, no graphics.
 
 
 ## A bullet bank you can adapt - keep only what's true

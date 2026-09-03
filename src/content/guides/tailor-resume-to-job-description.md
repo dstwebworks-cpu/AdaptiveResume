@@ -17,7 +17,7 @@ order: 29
 draft: false
 faq:
   - q: "Do I really need a different resume for every job?"
-    a: "Not a rewrite — an adjustment. The facts stay the same; what changes is which of them lead, and whether your wording matches the vocabulary this employer searches for. Fifteen focused minutes per posting covers it for most applications."
+    a: "Not a rewrite — an adjustment. The facts stay the same; what changes is which of them lead, and whether your wording matches the vocabulary this employer searches for. A short, focused pass per posting covers it for many applications."
   - q: "Is it okay to copy keywords straight from the job description?"
     a: "Yes — when the keyword names something you've genuinely done, use the JD's exact wording for it. What's not okay is pasting in terms for skills you don't have. The keyword gets you found; the human reading next checks whether it's true."
   - q: "What if I'm missing one of the must-have requirements?"
@@ -28,12 +28,12 @@ You found a posting that genuinely fits, and now you're staring at your resume k
 
 ## Read the job description like a grader
 
-Before touching your resume, sort the JD into two piles:
+Before touching your resume, sort the JD (job description) into two piles:
 
 - **Must-haves** — the requirements the employer will actually screen on. They hide in plain sight: anything repeated more than once, anything in the first three bullets, anything with a number attached ("3+ years"), any named credential, license, or system, and everything under "Requirements" rather than "Nice to have."
 - **Nice-to-haves** — everything else: the wish-list items, the "familiarity with" lines, the culture adjectives.
 
-Most postings have three to six real must-haves. Write them down as a literal list — that list is your grading rubric, because it's the employer's.
+Many postings have three to six real must-haves. Write them down as a literal list — that list is your grading rubric, because it's the employer's.
 
 ## Mirror the JD's vocabulary — where it's true
 
@@ -71,8 +71,8 @@ Tailoring rearranges and renames what's true. It cannot manufacture a match that
 - **Vocabulary mirroring has a floor.** If you have to squint to call what you did by their term, don't. "I configured user accounts" is not "systems administration."
 - **Don't tailor your titles.** Your job title is a checkable fact — reference calls and background checks compare it. If your real title undersold the work, keep the title and let the bullets carry the truth.
 
-If honest tailoring can't produce a decent match against the must-have list, that's information too: your fifteen minutes are better spent on the next posting.
+If honest tailoring can't produce a decent match against the must-have list, that's information too: your time is better spent on the next posting.
 
 ## How we tailor a resume to a job description with you
 
-This is exactly what our targeted build does. You give us the posting; we work backwards from what your work actually involved, line up your real history against the JD's must-haves, and propose the vocabulary and reordering — as questions, not edits. "You wrote 'set up new customers' — was that what this posting calls implementation?" If yes, it goes in using their words. If no, it doesn't, and the gap stays honest. Nothing lands on the page without your say-so, so every line survives the interview it earns. The **JD-to-Resume Tailoring Worksheet** below walks the same passes on paper.
+This is exactly what our targeted build does. You give us the posting; we work backwards from what your work actually involved, line up your real history against the JD's must-haves, and propose the vocabulary and reordering — as questions, not edits. "You wrote 'set up new customers' — was that what this posting calls implementation?" If yes, it goes in using their words. If no, it doesn't, and the gap stays honest. Nothing lands on the page without your say-so, so every line survives an interview. The **JD-to-Resume Tailoring Worksheet** below walks the same passes on paper.

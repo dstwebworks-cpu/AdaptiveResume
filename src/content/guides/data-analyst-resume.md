@@ -1,6 +1,6 @@
 ---
 title: "Data Analyst Resume: Show Decisions, Not Dashboards"
-description: "Tool lists don't get analyst interviews — decisions do. How to show SQL, Excel, and BI work as outcomes, and why padding your stack backfires."
+description: "Tool lists don't make an analyst's case — decisions do. How to show SQL, Excel, and BI work as outcomes, and why padding your stack backfires."
 seoTitle: "Data Analyst Resume: Decisions, Not Dashboards"
 seoDescription: "Data analyst resume guide: show SQL, Excel, and BI work as decisions and outcomes — and why padding your tool stack backfires."
 segment: "job-seekers"
@@ -18,9 +18,9 @@ order: 16
 draft: false
 faq:
   - q: "Do I need SQL on a data analyst resume?"
-    a: "Almost always yes for screening - and only at the level you truly work at. 'Wrote joins and window functions daily' is checkable in a technical interview; 'SQL' padded onto a resume that can't back it costs you the offer."
+    a: "Almost always yes for screening - and only at the level you truly work at. 'Wrote joins and window functions daily' is checkable in a technical interview; 'SQL' padded onto a resume that can't back it falls apart in the interview."
   - q: "Portfolio or resume - which matters more?"
-    a: "The resume gets you the interview; the portfolio survives it. Link one if you have one, but the bullets still need the data-to-decision shape on their own."
+    a: "The resume makes the case for the interview; the portfolio has to survive it. Link one if you have one, but the bullets still need the data-to-decision shape on their own."
   - q: "How do I quantify analyst work that never shipped a dollar figure?"
     a: "Count what's honestly countable: dashboards built, users served, hours automated away, reporting cycles shortened. If a business result followed your analysis, say what the DECISION was - the analyst's product is the decision, not the chart."
 ---
@@ -38,7 +38,7 @@ The second version proves the thing tool lists can't: someone acted on your work
 
 ## The tool stack: only what you can be interviewed on
 
-The strong move is a short stack listed at your true level: "SQL (daily — joins, CTEs, window functions), Excel (pivot tables, Power Query), Tableau (dashboards in production use)." The weak move is naming every tool you've ever opened — analytics interviews probe the stack directly, and one stumble on a tool you padded discredits the ones you actually know. A shorter honest stack outperforms a longer inflated one everywhere it matters: past the ATS (your real tools are the keywords), through the screen, and in the room.
+The strong move is a short stack listed at your true level: "SQL (daily — joins, CTEs, window functions), Excel (pivot tables, Power Query), Tableau (dashboards in production use)." The weak move is naming every tool you've ever opened — analytics interviews probe the stack directly, and one stumble on a tool you padded discredits the ones you actually know. A shorter honest stack outperforms a longer inflated one everywhere it matters: past the applicant tracking system (ATS — the screening software; your real tools are the keywords), through the screen, and in the room.
 
 ## Certificates and coursework: real, in their place
 
@@ -54,7 +54,7 @@ Spell out both the tools and the methods in real words: "SQL," "data cleaning," 
 
 ## Format notes
 
-One page until the work genuinely overflows it. Skills block near the top with the honest stack, then experience bullets that show each tool attached to a decision. Numbers marked as estimates where they are estimates — an analyst resume with un-defendable numbers is a walking contradiction.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal applications through USAJOBS cap at two pages as of the September 2025 OPM change). Skills block near the top with the honest stack, then experience bullets that show each tool attached to a decision. Numbers marked as estimates where they are estimates — an analyst resume with un-defendable numbers is a walking contradiction.
 
 
 ## A bullet bank you can adapt - keep only what's true

@@ -17,7 +17,7 @@ order: 41
 draft: false
 faq:
   - q: "Do I need NIMS certification to get a machinist job?"
-    a: "No. Most shops hire on demonstrated skill, not paper — a good part off your machine says more than a card. That said, NIMS (National Institute for Metalworking Skills) credentials are recognized and worth listing if you hold them, because a screener can match them to a posting instantly. List exactly the NIMS credentials you've earned and skip the ones you haven't; a hiring shop will test you on the floor either way."
+    a: "No. Many shops hire on demonstrated skill, not paper — a good part off your machine says more than a card. That said, NIMS (National Institute for Metalworking Skills) credentials are recognized and worth listing if you hold them, because a screener can match them to a posting instantly. List exactly the NIMS credentials you've earned and skip the ones you haven't; a hiring shop will test you on the floor either way."
   - q: "Should I say I run CNC if I mostly load parts and hit cycle start?"
     a: "Describe the real work. There's a large, honest difference between operating a machine someone else set up and doing the setup yourself — offsets, tool table, work holding, first article. Both are real jobs. Say which one you did. Claiming setup you didn't do falls apart in the first hour of a working interview, and shops know it."
   - q: "How do I show tolerances without a part in front of me?"
@@ -26,7 +26,7 @@ faq:
     a: "Lead with what the shop you're applying to runs, but never bury the other. Manual skill on a Bridgeport or an engine lathe still matters for one-offs, rework, and fixturing, and it signals you understand what the CNC is actually doing. If you have both, that's a strength — put CNC controls up top and keep a real manual line below it."
 ---
 
-Machining is one of the trades where the resume routinely undersells the person. A skilled machinist knows in their hands what tolerance they can hold and which controls they can walk up to cold — but that knowledge often never makes it onto paper, because on the floor nobody asks you to spell out GD&T or list the finishes you can hit. The resume is the one place it has to be written down, and a vague one costs you interviews against people who are, honestly, less capable.
+Machining is one of the trades where the resume routinely undersells the person. A skilled machinist knows in their hands what tolerance they can hold and which controls they can walk up to cold — but that knowledge often never makes it onto paper, because on the floor nobody asks you to spell out GD&T or list the finishes you can hit. The resume is the one place it has to be written down, and a vague one loses ground to people who are, honestly, less capable.
 
 The single most useful thing you can do is put **real numbers and real names** on the work: the tolerances you hold, the controls you run, the materials you cut, and whether you set up or operate. Those four things are what a shop is trying to read, and a resume that says "operated CNC machines to produce parts" tells them none of it.
 
@@ -62,7 +62,7 @@ Shops filter hard on the specific control and software, because it maps straight
 
 ## Prints, GD&T, and metrology
 
-This is the block that separates a machinist from a button-pusher on paper, and it's the part most people leave off.
+This is the block that separates a machinist from a button-pusher on paper, and it's the part many people leave off.
 
 **Blueprint reading** is table stakes but still worth a line — orthographic views, sections, and revision control. **GD&T** (geometric dimensioning and tolerancing, per **ASME Y14.5**) is worth naming directly if you read and hold it: position, flatness, perpendicularity, profile, datums. A shop that runs tight prints reads "GD&T per ASME Y14.5" as shorthand for competence.
 
@@ -72,11 +72,11 @@ This is the block that separates a machinist from a button-pusher on paper, and 
 
 List any **NIMS** (National Institute for Metalworking Skills) credentials you actually hold, by their real name — Milling, Turning, CNC, Measurement/Materials/Safety, and so on. NIMS is recognized industry-wide, and a screener can match it to a posting instantly. If you don't hold NIMS, don't invent it; your parts are the credential.
 
-Name the **materials** you've cut, because they carry real information: aluminum grades (6061, 7075), stainless (303, 304, 17-4), tool steels, titanium, Inconel, brass, and plastics all machine differently, and a shop reads the list as your range. Add finishes if you hold them — surface finish callouts, Ra values you can hit. Include any safety or forklift certs plainly.
+Name the **materials** you've cut, because they carry real information: aluminum grades (6061, 7075), stainless (303, 304, 17-4), tool steels, titanium, Inconel, brass, and plastics all machine differently, and a shop reads the list as your range. Add finishes if you hold them — surface finish callouts, Ra values you can hit. Include safety training plainly — forklift operator training and evaluation (under OSHA's 29 CFR 1910.178; there is no national forklift license), lockout/tagout, and the like.
 
 ## Format notes
 
-**Length follows your history.** Trades resumes are usually one page, and for most machinists one strong page is the right call — but the reason is that a machinist's history is often one long run or a few shops, not that detail should be cut. Keep the skill detail: tolerances, controls, materials, and inspection are exactly what earns you the interview, so they stay even when the page is tight. Cut the generic duty lines everyone shares ("followed safety procedures," "worked in a team environment") before you cut a real tolerance.
+**Length follows your history.** Trades resumes are often one page, and if you've held one substantive role, one strong page is the right call — but the reason is that a machinist's history is often one long run or a few shops, not that detail should be cut. Keep the skill detail: tolerances, controls, materials, and inspection are exactly what earns you the interview, so they stay even when the page is tight. Cut the generic duty lines everyone shares ("followed safety procedures," "worked in a team environment") before you cut a real tolerance.
 
 If you've run many shops, held a lead or setup role, or crossed from manual into CNC and programming, **two pages is fine once you have more than one substantial role to describe.** A tight two pages beats a padded one. One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change — that's a hard requirement, not a style preference.
 
@@ -91,7 +91,7 @@ Otherwise: reverse chronological, single column, a clearly labeled machines-and-
 - "Edited G-code and offsets at the control to correct for tool wear and hold size over a run"
 - "Performed first-article inspection and buy-off on [part/run]; completed FAI reports"
 - "Machined [aluminum/stainless/titanium/Inconel] to [finish/Ra]; [N]-part production runs"
-- "Held NIMS [Milling/Turning/CNC] credential; [forklift/safety] certified"
+- "Held NIMS [Milling/Turning/CNC] credential; forklift-trained and evaluated under 29 CFR 1910.178; [lockout/tagout] trained"
 
 ## What screening software looks for on a machinist resume
 
@@ -99,4 +99,4 @@ Filters commonly read for: CNC, manual machining, mill, lathe, 3-axis, 4-axis, 5
 
 The highest-risk lines are the ones that overstate scope — setup you didn't do, a tolerance you didn't hold, or a control you've only watched someone run. Machinists interview by making parts, so overstatement gets found in the first hour. Accurate detail is both safer and stronger.
 
-The **Role Skills Checklist** below helps you inventory what your bench work actually proves, which for most machinists is far more than the resume currently says. Our build does it with you: we work backwards from the machines you ran, the tolerances you held, and the parts you made, propose the controls, standards, and inspection language work like yours normally involves, and ask you to confirm every line before it appears. We never add a control, a credential, or a tolerance you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your bench work actually proves, which is often far more than the resume currently says. Our build does it with you: we work backwards from the machines you ran, the tolerances you held, and the parts you made, propose the controls, standards, and inspection language work like yours normally involves, and ask you to confirm every line before it appears. We never add a control, a credential, or a tolerance you didn't tell us about.

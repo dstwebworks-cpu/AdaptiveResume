@@ -48,7 +48,7 @@ The second version is scannable in five seconds and answers what the first versi
 
 **Team size and structure** tell a reader the scope you can handle. Say how many reps you managed and what kind — account executives, SDRs (sales development reps), inside sales, field, or a mix. Managing eight inside-sales reps and managing three enterprise field AEs are different jobs; name which one you did.
 
-**Ramp time** is a genuine differentiator and most resumes leave it off. How fast did your new hires reach full productivity? A manager who ramps reps in four months instead of nine is worth real money, and that is exactly the kind of operational result hiring leaders look for.
+**Ramp time** is a genuine differentiator and many resumes leave it off. How fast did your new hires reach full productivity? A manager who ramps reps in four months instead of nine is worth real money, and that is exactly the kind of operational result hiring leaders look for.
 
 **Pipeline and forecast accuracy** separate a manager from a cheerleader. Pipeline coverage ratio, forecast accuracy against actuals, and how you ran the forecast cadence are all legitimate lines. Forecast accuracy is the responsibility senior leaders most fear getting wrong, so demonstrated reliability there is genuinely valuable.
 
@@ -56,7 +56,7 @@ The second version is scannable in five seconds and answers what the first versi
 
 ## Coming up from IC: AE, SDR, and inside sales
 
-Most sales managers were closers first, and the transition from individual contributor to manager is a real turning point a resume has to handle carefully.
+Many sales managers were closers first, and the transition from individual contributor to manager is a real turning point a resume has to handle carefully.
 
 If you are still making the jump, lead with the IC results that earned you the shot — attainment, President's Club, ranking, average deal size, new-logo count — and then show the management-adjacent work you already owned: mentoring new hires, running the SDR-to-AE handoff, owning a slice of the forecast, or covering for your manager. That reads as ready. Claiming a "manager" title you did not hold does not; it is the kind of thing a reference check exposes in one call.
 
@@ -66,7 +66,7 @@ If you already made the jump, keep the strongest IC line or two for credibility,
 
 ## CRM and tools, named honestly
 
-Name the CRM you actually ran the team in — **Salesforce** or **HubSpot** most often — and say whether you used it, built reporting in it, or administered it, because those are three different skill levels. Then list the tools you used enough to be productive in on day one: outreach and cadence tools (Outreach, Salesloft), conversation intelligence (Gong, Chorus), forecasting or revenue platforms (Clari), and sales enablement. Skip the logo wall. A padded tool list reads as noise; the CRM you genuinely operated in reads as how fast you will be useful.
+Name the CRM you actually ran the team in — commonly **Salesforce** or **HubSpot** — and say whether you used it, built reporting in it, or administered it, because those are three different skill levels. Then list the tools you used enough to be productive in on day one: outreach and cadence tools (Outreach, Salesloft), conversation intelligence (Gong, Chorus), forecasting or revenue platforms (Clari), and sales enablement. Skip the logo wall. A padded tool list reads as noise; the CRM you genuinely operated in reads as how fast you will be useful.
 
 ## Format notes
 
@@ -95,4 +95,4 @@ Filters commonly read for: quota attainment, revenue growth, sales quota, pipeli
 
 The highest-risk lines are the ones that overstate scope — a team you did not manage, a quota you did not carry, or an attainment number the base doesn't support. Sales leaders check, and attainment is one of the few resume claims a reference call confirms almost every time.
 
-The **Role Skills Checklist** below helps you inventory what your track record actually proves, which for most sales managers is more than the resume currently says. Our build does it with you: we work backwards from your real quotas, teams, and systems, propose the metrics and tools that a role like yours normally involves, and ask you to confirm every line before it appears. We never add a number, a team, or a quota you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your track record actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real quotas, teams, and systems, propose the metrics and tools that a role like yours normally involves, and ask you to confirm every line before it appears. We never add a number, a team, or a quota you didn't tell us about.

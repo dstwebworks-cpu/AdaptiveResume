@@ -1,6 +1,6 @@
 ---
 title: "Administrative Assistant Resume: Name the Real Skills"
-description: "Admin work is the most undersold job in hiring — 'answered phones and scheduled meetings' hides systems, judgment, and money. Here's how to name it honestly."
+description: "Admin work is one of the most undersold jobs in hiring — 'answered phones and scheduled meetings' hides systems, judgment, and money. Here's how to name it honestly."
 seoTitle: "Administrative Assistant Resume: The Real Skills"
 seoDescription: "Administrative assistant resume guide: name the systems, judgment, and money your admin work really involves — honestly, with examples."
 segment: "job-seekers"
@@ -18,7 +18,7 @@ order: 15
 draft: false
 faq:
   - q: "Do I need a degree to get hired as an administrative assistant?"
-    a: "Usually no — most admin roles hire on demonstrated skills and steadiness, not credentials. If you have relevant coursework or certificates (Microsoft, bookkeeping, notary), list them exactly; if not, let the systems you run and the scope you handled carry the resume."
+    a: "Usually no — many admin roles hire on demonstrated skills and steadiness, not credentials. If you have relevant coursework or certificates (Microsoft, bookkeeping, notary), list them exactly; if not, let the systems you run and the scope you handled carry the resume."
   - q: "Should I use the title my company gave me or the one that matches the job I want?"
     a: "The title your employer gave you, always — titles are verifiable. If your real scope outgrew the title, keep the honest title and let the bullets state the scope: 'absorbed office-manager responsibilities' says it truthfully."
   - q: "How far back should an administrative assistant resume go?"
@@ -40,7 +40,7 @@ Administrative work has a resume problem that isn't the worker's fault: the job 
 
 ## Software: specific beats long
 
-Every admin resume says Microsoft Office. Fewer say what the ATS and the reader actually filter for: Excel at the level you truly use (pivot tables? VLOOKUP? just formatting? — say the true level), Outlook calendar delegation, QuickBooks, Concur or an expense system by name, SharePoint or Teams administration, any HRIS or CRM you touched regularly. List what you used for real work; a tool you opened twice doesn't belong — it sets up interview questions you can't answer.
+Every admin resume says Microsoft Office. Fewer say what the applicant tracking system (ATS — the screening software) and the reader actually filter for: Excel at the level you truly use (pivot tables? VLOOKUP? just formatting? — say the true level), Outlook calendar delegation, QuickBooks, Concur or an expense system by name, SharePoint or Teams administration, any HRIS or CRM you touched regularly. List what you used for real work; a tool you opened twice doesn't belong — it sets up interview questions you can't answer.
 
 ## Executive assistant and office manager: the seniority line
 
@@ -57,7 +57,7 @@ Use these as patterns, not copy-paste: swap in your real numbers, systems, and s
 
 **Office operations**
 - "Managed [N] office vendors (cleaning, supplies, IT support) against contract terms; re-bid [service] and reduced cost by [honest figure]"
-- "Ran the office move for [N] people — planning, vendor coordination, zero days of downtime"
+- "Ran the office move for [N] people — planning, vendor coordination, [zero] days of downtime"
 - "Maintained an office budget of $[N]/year; coded and reconciled invoices in [system]"
 
 **People-adjacent work**
@@ -78,7 +78,7 @@ The honesty rule cuts both ways: use the exact terms for things you truly do —
 
 ## Format notes
 
-One page for most admin careers, clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guidance](/guides/career-change-transferable-skills/) applies here too).
+One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal applications through USAJOBS cap at two pages as of the September 2025 OPM change). Clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guide](/guides/how-to-explain-employment-gap-on-resume/) applies here too).
 
 
 ## The before-and-after, at a glance

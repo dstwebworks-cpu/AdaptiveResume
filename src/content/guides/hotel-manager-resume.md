@@ -44,17 +44,17 @@ The second version is scannable in a few seconds and answers what the first leav
 
 ## The metrics that carry the most weight
 
-**ADR, RevPAR, and occupancy** are the revenue vocabulary of the job, and a hotel-management resume that avoids them reads as junior. ADR is average daily rate — the average room revenue per paid room. RevPAR is revenue per available room, which folds occupancy and rate into one number and is the figure most owners watch. Occupancy is the percentage of available rooms sold. Show the direction you moved them and over what period. If you don't have exact figures, use honest ranges and say so.
+**ADR, RevPAR, and occupancy** are the revenue vocabulary of the job, and a hotel-management resume that avoids them reads as junior. ADR is average daily rate — the average room revenue per paid room. RevPAR is revenue per available room, which folds occupancy and rate into one number and is a figure owners watch closely. Occupancy is the percentage of available rooms sold. Show the direction you moved them and over what period. If you don't have exact figures, use honest ranges and say so.
 
 **P&L ownership** is the line that separates a general manager from a department head. Say what you actually owned: full-property P&L, or a specific budget — rooms, F&B, labor. Name the annual revenue scope in a range you can defend, and if you managed to a flow-through or GOP (gross operating profit) target, that's worth a line.
 
-**Guest satisfaction** is measured differently by every brand, so name the measure you actually worked to — a brand guest-satisfaction index (often abbreviated GSS), a specific review score, or a ranking within your brand or region. Show whether you held or improved it. This is the metric owners and franchisors care about most after revenue, because it drives repeat business and brand compliance.
+**Guest satisfaction** is measured differently by every brand, so name the measure you actually worked to — a brand guest-satisfaction index (often abbreviated GSS), a specific review score, or a ranking within your brand or region. Show whether you held or improved it. This is a metric owners and franchisors care about deeply, because it drives repeat business and brand compliance.
 
-**Labor cost and scheduling** are where most of a property's controllable expense lives. If you held labor to a target percentage of revenue, managed to productivity standards, or cut overtime while protecting service, those are concrete lines. Naming the scheduling or labor-management system you used helps.
+**Labor cost and scheduling** are where much of a property's controllable expense lives. If you held labor to a target percentage of revenue, managed to productivity standards, or cut overtime while protecting service, those are concrete lines. Naming the scheduling or labor-management system you used helps.
 
 ## Systems, brand standards, and flag compliance
 
-**Property management systems** are a hard filter. Name the PMS you've run — Oracle Opera or OPERA Cloud is the most common at flagged and full-service properties; there are others depending on the brand and property size. If you've run a brand's central reservation and revenue tools, or a revenue-management system, name those too, because larger operators screen for them directly.
+**Property management systems** are a hard filter. Name the PMS you've run — Oracle Opera or OPERA Cloud is widely used at flagged and full-service properties; there are others depending on the brand and property size. If you've run a brand's central reservation and revenue tools, or a revenue-management system, name those too, because larger operators screen for them directly.
 
 **Brand standards and flag compliance** are a real part of the job at any franchised or managed property. If you ran a Marriott, Hilton, or IHG flag, you worked to that brand's operating standards and were measured by brand quality audits and inspections. Say which brand and, honestly, how your property performed against its standards — passing a brand quality assurance audit is a legitimate, checkable accomplishment. Do not claim a certification the property held as if it were your personal credential; describe the work you did to earn or maintain it.
 
@@ -62,7 +62,7 @@ The second version is scannable in a few seconds and answers what the first leav
 
 **Front office** is the guest-facing revenue and service engine — reservations, check-in/out, rate management at the desk, and the first line of guest recovery. Name the volume and the systems.
 
-**Housekeeping** is the largest labor line in most rooms-focused hotels and the biggest driver of cleanliness scores. Room-attendant productivity standards, inventory, and inspection pass rates are all concrete.
+**Housekeeping** is typically the largest labor line in a rooms-focused hotel and the biggest driver of cleanliness scores. Room-attendant productivity standards, inventory, and inspection pass rates are all concrete.
 
 **Food and beverage** ranges from a limited breakfast bar to full restaurants, banquets, and catering. If you oversaw a real F&B operation — or worked alongside a restaurant general manager or an executive chef running full-service outlets and banquets — say so, and name the revenue and cover volume. F&B scope is one of the clearest signals of how full-service your experience really is.
 
@@ -95,4 +95,4 @@ Filters commonly read for: hotel operations, general manager, property managemen
 
 The highest-risk lines are the ones that overstate scope — a room count or revenue figure larger than you actually ran, a brand certification the property held claimed as your own, or a metric you can't defend when an interviewer asks how you got it. Hospitality is a small industry and references get checked informally as often as formally.
 
-The **Role Skills Checklist** below helps you inventory what your properties actually prove, which for most managers is considerably more than the resume currently says. Our build does it with you: we work backwards from your real properties, brands, and numbers, propose the metrics and systems that work like yours normally involve, and ask you to confirm every line before it appears. We never add a brand, a system, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your properties actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real properties, brands, and numbers, propose the metrics and systems that work like yours normally involve, and ask you to confirm every line before it appears. We never add a brand, a system, or a number you didn't tell us about.

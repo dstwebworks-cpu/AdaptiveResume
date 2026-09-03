@@ -18,9 +18,9 @@ order: 3
 draft: false
 faq:
   - q: "Will employers take my career change seriously without industry experience?"
-    a: "Serious readers hire for demonstrated skills plus evidence you understand their world. A resume that maps your real, transferable skills to their vocabulary — honestly — gets you the conversation; pretending industry experience you don't have loses it."
+    a: "Serious readers hire for demonstrated skills plus evidence you understand their world. A resume that maps your real, transferable skills to their vocabulary — honestly — makes a far stronger case; pretending industry experience you don't have undermines it."
   - q: "Should I use a functional resume format to hide my old titles?"
-    a: "No — recruiters distrust formats that hide the work history. Keep the chronology visible; do the reframing inside the summary and bullets, where you can show the transferable skills in their real context."
+    a: "No — many recruiters distrust formats that hide the work history. Keep the chronology visible; do the reframing inside the summary and bullets, where you can show the transferable skills in their real context."
   - q: "How do I explain the change in the resume itself?"
     a: "One honest line in the summary stating the direction ('moving 8 years of shift leadership into operations coordination') beats making the reader guess. Address it, then let the mapped skills do the arguing."
 ---

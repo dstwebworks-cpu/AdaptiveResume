@@ -17,7 +17,7 @@ order: 43
 draft: false
 faq:
   - q: "Do I need my A&P to put 'aircraft mechanic' on a resume?"
-    a: "You can describe the maintenance work you've actually done regardless of what you hold — plenty of people work as apprentices, helpers, or under supervision before certification, and the military produces highly skilled mechanics who haven't yet converted to civilian certificates. What you cannot do is claim the FAA Airframe & Powerplant certificate if you don't hold it. State your real status: A&P held, one rating held, in progress at an AMTS, or eligible by experience. Employers verify certificates, so accuracy here is not optional."
+    a: "You can describe the maintenance work you've actually done regardless of what you hold — plenty of people work as apprentices, helpers, or under supervision before certification, and the military produces highly skilled mechanics who haven't yet converted to civilian certificates. What you cannot do is claim the FAA Airframe & Powerplant certificate if you don't hold it. State your real status: A&P held, one rating held, in progress at an FAA-approved maintenance school (an AMTS), or eligible by experience. Employers verify certificates, so accuracy here is not optional."
   - q: "What's the difference between an A&P and an avionics technician?"
     a: "An A&P (Airframe & Powerplant) mechanic is certificated under the FAA to maintain the airframe and engines. Avionics technicians work on the electrical, navigation, and communication systems, and many are not A&P-certificated — they may hold an FCC license or manufacturer training instead. The jobs overlap but they aren't the same, and postings usually ask for one or the other. Describe what you actually do rather than blurring the two."
   - q: "Is the IA worth listing if I only got it recently?"
@@ -50,7 +50,7 @@ If you hold an **Inspection Authorization (IA)**, list it plainly. Eligibility f
 
 Be careful with the **avionics** line. Avionics technicians work on electrical, navigation, and communication systems, and many hold an FCC license or manufacturer certifications rather than an A&P. If your work is avionics, describe it as avionics; if it's airframe and powerplant, keep it there. Blurring the two reads as either padding or confusion to someone who lives in these distinctions.
 
-If your background is military — an aviation maintenance technician (**AMT**) is the same trade under a different banner — translate the airframes, engines, and maintenance level into civilian terms, and be straight about whether you've converted your experience into an FAA certificate yet.
+If your background is military — whatever your rating or specialty code called it, aviation maintenance technician (**AMT**) work is the same trade under a different banner — translate the airframes, engines, and maintenance level into civilian terms, and be straight about whether you've converted your experience into an FAA certificate yet.
 
 ## Show return-to-service and airworthiness work
 
@@ -94,7 +94,7 @@ Otherwise: reverse chronological, single column, a clearly labeled certificates 
 - "Troubleshot and cleared [system] squawks; performed engine run-up and borescope inspection"
 - "Executed sheet metal / composite repairs per [manufacturer maintenance manual / SRM]"
 - "Removed and installed [turbine/reciprocating] engine; [rigged flight controls / serviced landing gear]"
-- "Maintained maintenance records in [logbook system / CAMP / TRAX] with no audit findings"
+- "Maintained maintenance records in [logbook system / CAMP / TRAX]; [no audit findings over N years]"
 
 ## What screening software looks for on an aircraft mechanic resume
 

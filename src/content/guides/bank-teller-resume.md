@@ -25,20 +25,20 @@ faq:
     a: "Banks track referrals precisely, so estimate conservatively and mark it: '~15 platform referrals/month' reads honest. Never inflate a number your old branch manager could contradict in a reference call."
 ---
 
-Teller work generates its own evidence every single day: a drawer that balances, a transaction count, referral numbers your branch tracked on a whiteboard. Most teller resumes leave all of it off and write "processed customer transactions" instead. The numbers were the job — put them on the page.
+Teller work generates its own evidence every single day: a drawer that balances, a transaction count, referral numbers your branch tracked on a whiteboard. Many teller resumes leave all of it off and write "processed customer transactions" instead. The numbers were the job — put them on the page.
 
 ## The three numbers on a bank teller resume branch managers scan for
 
 - **Accuracy** — drawer balancing is the trust metric. If your drawer balanced consistently, say it plainly: "balanced a $10-15k drawer daily with no unresolved discrepancies." Use your true figures; banks can and do check references on exactly this.
 - **Volume** — transactions per day, customers served, peak-window load. "~150 transactions/day at the branch's busiest window" is workload proof.
-- **Referrals** — every modern teller job is part sales. Referrals to bankers, cards opened, appointments set: whatever your branch measured, report your honest numbers. This is the line that moves a teller resume toward personal banker.
+- **Referrals** — many teller jobs are part sales. Referrals to bankers, cards opened, appointments set: whatever your branch measured, report your honest numbers. This is the line that moves a teller resume toward personal banker.
 
 **Before:** "Processed deposits, withdrawals, and other transactions for customers."
 **After:** "Handled ~150 transactions/day with a consistently balanced drawer; generated 8-12 qualified referrals/month to personal bankers; trusted with vault dual-control and ATM balancing."
 
 ## Compliance fluency you already have
 
-Teller work builds regulatory habits worth naming exactly — and only as deep as they truly go: CTR completion for cash transactions over the reporting threshold, suspicious-activity escalation per BSA/AML training, Reg CC hold decisions, OFAC-check workflows. "Completed annual BSA/AML training; escalated suspicious activity per policy" is honest and screenable. Don't claim compliance expertise you don't have — claim the operational fluency you do.
+Teller work builds regulatory habits worth naming exactly — and only as deep as they truly go: CTR (currency transaction report) completion for cash transactions over the reporting threshold, suspicious-activity escalation per BSA/AML (Bank Secrecy Act / anti-money-laundering) training, Reg CC (funds-availability) hold decisions, OFAC (sanctions-list) check workflows. "Completed annual BSA/AML training; escalated suspicious activity per policy" is honest and screenable. Don't claim compliance expertise you don't have — claim the operational fluency you do.
 
 ## Trust positions: say what you were handed
 
@@ -54,7 +54,7 @@ Cash handling, shrink accountability, POS reconciliation, and high-volume custom
 
 ## Format notes
 
-One page. Single column, clean dates on every role — banking hiring is stability-sensitive and gap-sensitive, so handle any gap with a plain, honest line rather than a stretch. A short skills block (systems used, languages spoken — bilingual tellers should say so prominently) and then bullets carrying the numbers.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe. Single column, clean dates on every role — banking hiring is stability-sensitive and gap-sensitive, so handle any gap with a plain, honest line rather than a stretch. A short skills block (systems used, languages spoken — bilingual tellers should say so prominently) and then bullets carrying the numbers.
 
 
 ## A bullet bank you can adapt - keep only what's true

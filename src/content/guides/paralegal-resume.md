@@ -1,6 +1,6 @@
 ---
 title: "Paralegal Resume: Practice Area, Case Volume, and Court Proof"
-description: "Paralegal resumes are read practice-area first, then for court and discovery proof. How to write yours with real case volume and filing experience — plus the legal assistant distinction that costs people interviews."
+description: "Paralegal resumes are read practice-area first, then for court and discovery proof. How to write yours with real case volume and filing experience — plus the legal assistant distinction that trips people up."
 seoTitle: "Paralegal Resume: Practice Area, Case Volume, Courts"
 seoDescription: "Paralegal resume guide: lead with practice area, show real case volume and e-filing experience, and draw the legal assistant line honestly."
 segment: "job-seekers"
@@ -19,7 +19,7 @@ faq:
   - q: "Do I need a paralegal certificate to be hired as a paralegal?"
     a: "It depends entirely on the employer, and plenty of working paralegals don't hold one. Firms that require it will screen for it; many others weigh practice-area experience more heavily. List what you actually hold — a certificate, an associate or bachelor's degree, a CP or ACP credential — with its real status, and let your case work carry the rest."
   - q: "Should I call myself a paralegal if my title was legal assistant?"
-    a: "Keep your real title and describe the real work. Titles vary wildly between firms — some legal assistants draft and manage discovery, some paralegals do heavy administrative work. Inflating the title is the kind of thing a reference check surfaces immediately. Describing substantive work under an accurate title is far stronger."
+    a: "Keep your real title and describe the real work. Titles vary wildly between firms — some legal assistants draft and manage discovery, some paralegals do heavy administrative work. Inflating the title is the kind of thing a reference check turns up immediately. Describing substantive work under an accurate title is far stronger."
   - q: "How much case detail can I put on a resume?"
     a: "Describe your work, not your clients. Case types, volume, court, and your specific role are fine. Client names, matter specifics, and anything covered by privilege or a protective order are not. When in doubt, generalize the matter and keep the verb — 'drafted discovery responses in commercial contract disputes' says plenty."
   - q: "I've never been to trial. Does that sink a litigation paralegal resume?"
@@ -68,7 +68,7 @@ The second version is scannable in four seconds and answers what the first versi
 
 List your education and any credential with its true status: a paralegal certificate and the granting institution, an associate or bachelor's degree, and NALA's Certified Paralegal or NFPA's Registered Paralegal if you hold them. Notary commission is worth a line — it's small, and firms use it constantly. If you're enrolled in a program, write it as in progress with the expected completion date.
 
-Georgia, like most states, does not license paralegals, so no one can require a credential you don't have — but a firm that lists one in a posting will screen for it. State what's true and let the case work do the arguing.
+Georgia does not license paralegals (no state does, though California sets rules for who may use the title), so no one can require a credential you don't have — but a firm that lists one in a posting will screen for it. State what's true and let the case work do the arguing.
 
 ## Format notes
 
@@ -97,4 +97,4 @@ Filters commonly read for: litigation support, discovery, e-discovery, document 
 
 The highest-risk lines are the ones that overstate scope — a title you didn't hold, drafting you didn't do, or court experience you observed rather than performed. Legal employers check, and the profession is small enough that they check informally too.
 
-The **Role Skills Checklist** below helps you inventory what your caseload actually proves, which for most paralegals is considerably more than the resume currently says. Our build does it with you: we work backwards from your real matters, courts, and systems, propose the standards and software that work like yours normally involves, and ask you to confirm every item before it appears. We never add a credential, a court, or a platform you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your caseload actually proves, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real matters, courts, and systems, propose the standards and software that work like yours normally involves, and ask you to confirm every item before it appears. We never add a credential, a court, or a platform you didn't tell us about.

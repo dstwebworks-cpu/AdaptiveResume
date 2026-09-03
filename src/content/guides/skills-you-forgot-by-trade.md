@@ -1,6 +1,6 @@
 ---
 title: "The Skills You Forgot to Put on Your Resume (and How to Find Them)"
-description: "Most people leave real, valuable skills off their resume simply because the work became routine. Here's how to find what you've stopped noticing — without padding."
+description: "Many people leave real, valuable skills off their resume simply because the work became routine. Here's how to find what you've stopped noticing — without padding."
 seoTitle: "Skills to Put on a Resume — The Ones You Forgot"
 seoDescription: "The skills to put on your resume are often the ones routine made invisible. How to find what you've stopped noticing — without padding."
 segment: "job-seekers"
@@ -25,7 +25,7 @@ faq:
     a: "If it's expired or you can't verify it, describe the experience instead of claiming the credential: 'operated forklifts daily for 5 years' is true regardless of card status. Never list a credential you can't back up."
 ---
 
-The biggest gap on most resumes isn't a missing job — it's the everyday skills you stopped noticing because they became second nature. A machinist who reads GD&T, runs SPC checks, and holds tolerances all day often writes "operated machines." That undersells years of real capability. Here's how to find what you left off — honestly.
+The biggest gap on many resumes isn't a missing job — it's the everyday skills you stopped noticing because they became second nature. A machinist who reads GD&T, runs SPC checks, and holds tolerances all day often writes "operated machines." That undersells years of real capability. Here's how to find what you left off — honestly.
 
 ## Routine work hides your best skills
 
@@ -33,7 +33,7 @@ When something becomes automatic, you stop listing it. But the reader doesn't kn
 
 ## Walk through a normal shift
 
-Go hour by hour through a typical day and write down every distinct thing you handle: tools, software, standards, safety procedures, inspections, paperwork, the people you coordinate with. Most people find skills they'd never have listed from memory.
+Go hour by hour through a typical day and write down every distinct thing you handle: tools, software, standards, safety procedures, inspections, paperwork, the people you coordinate with. Many people find skills they'd never have listed from memory.
 
 ## Name the standards, not just the tasks
 
@@ -55,12 +55,12 @@ The skills to put on a resume are the ones you can demonstrate on day one — he
 
 - **Machinists / CNC:** setup vs. operate (say which), the controls you run (Fanuc, Haas, Mazak), print reading, GD&T, in-process inspection, the measuring tools you use daily (micrometers, calipers, CMM).
 - **Electricians / maintenance:** the systems you troubleshoot (PLC brands count), preventive-maintenance scheduling, conduit bending, panel work, the voltage classes you're comfortable in.
-- **Warehouse / logistics:** the equipment you're certified on (forklift, order picker, reach truck), RF scanners, WMS software by name, cycle counting, loading-dock safety.
+- **Warehouse / logistics:** the equipment you're trained and evaluated on (forklift, order picker, reach truck — under OSHA's 29 CFR 1910.178), RF scanners, WMS software by name, cycle counting, loading-dock safety.
 - **Drivers / operators:** endorsements and card types by name, ELD systems, pre-trip inspection routines, load securement, hazmat awareness.
 - **Healthcare support:** the charting system by name (Epic, Cerner), the units you've floated to, patient ratios you've handled, equipment you're checked off on.
 - **Office / admin:** the systems that run the place — payroll software, scheduling tools, the reports you build monthly, the vendors you manage, onboarding you've handled.
 
-If you can find yourself on [O*NET's occupation profiles](https://www.onetonline.org/), read the tasks and tools listed for your role — it's a free memory-jogger built from real workplace data, and most people recognize half a dozen things they do but never wrote down.
+If you can find yourself on [O*NET's occupation profiles](https://www.onetonline.org/), read the tasks and tools listed for your role — it's a free memory-jogger built from real workplace data, and many people recognize half a dozen things they do but never wrote down.
 
 ## An example of the difference
 

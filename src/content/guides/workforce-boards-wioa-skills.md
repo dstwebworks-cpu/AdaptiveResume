@@ -44,7 +44,7 @@ Whether your board builds this in-house or brings in help, a workforce developme
 
 A participant spent nine years in a warehouse and wrote one line: *"Warehouse worker, shipping and receiving."*
 
-A structured intake — ask, confirm, record — produces: *"Shipping and receiving across a 120,000 sq ft distribution center · certified forklift and order-picker operator · trained seasonal hires on RF scanner workflows · maintained OSHA-compliant loading dock procedures."*
+A structured intake — ask, confirm, record — produces: *"Shipping and receiving across a 120,000 sq ft distribution center · forklift and order-picker operator, trained and evaluated under OSHA 29 CFR 1910.178 · trained seasonal hires on RF scanner workflows · maintained OSHA-compliant loading dock procedures."*
 
 Every item came out of the participant's own history, confirmed one at a time. The difference isn't embellishment — it's documentation of work that was always real. That's documentation a board can put in front of local employers with confidence.
 
@@ -58,7 +58,7 @@ Padding a participant's resume to "help" them backfires — it places them in ro
 
 ## Fits reporting and compliance
 
-Consistent skills documentation supports the measurement WIOA programs already do — participant progress, credential attainment, employment outcomes — with a clean, auditable record of what was captured and confirmed. (Document the skills; never promise an employment outcome.)
+Consistent skills documentation supports the measurement WIOA (Workforce Innovation and Opportunity Act) programs already do — participant progress, credential attainment, employment outcomes — with a clean, auditable record of what was captured and confirmed. (Document the skills; never promise an employment outcome.)
 
 ## Scale across a caseload
 

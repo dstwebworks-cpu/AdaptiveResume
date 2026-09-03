@@ -18,14 +18,14 @@ order: 13
 draft: false
 faq:
   - q: "Do I need a PMP to get hired as a project manager?"
-    a: "No - plenty of PMs are hired on demonstrated delivery. A PMP helps you pass screens at larger companies, but scope and outcomes carry the resume. Never list one you don't hold; 'currently pursuing' on its own line is the honest middle."
+    a: "No - plenty of PMs are hired on demonstrated delivery. A PMP is often a screening filter at larger companies, but scope and outcomes carry the resume. Never list one you don't hold; 'currently pursuing' on its own line is the honest middle."
   - q: "How many projects should my resume show?"
     a: "Two to four per role, chosen for scope and outcome - not a project inventory. Each gets the four numbers (budget, people, timeline, outcome) where you honestly have them."
   - q: "Agile or waterfall - which should my resume emphasize?"
-    a: "Whichever you actually ran, attached to the project where you ran it. Most experienced PMs show both. A methodology keyword without a project behind it reads as padding to the human reviewer."
+    a: "Whichever you actually ran, attached to the project where you ran it. Many experienced PMs show both. A methodology keyword without a project behind it reads as padding to the human reviewer."
 ---
 
-Project management resumes have a specific disease: they're written in the language of project management instead of the language of projects. "Drove cross-functional stakeholder alignment across the delivery lifecycle" says nothing a reader can weigh. What gets a PM resume through the pile is scope — the size of what you ran and what happened because you ran it.
+Project management resumes have a specific disease: they're written in the language of project management instead of the language of projects. "Drove cross-functional stakeholder alignment across the delivery lifecycle" says nothing a reader can weigh. What makes a PM resume stand out in the pile is scope — the size of what you ran and what happened because you ran it.
 
 ## The four numbers every project manager resume bullet wants
 
@@ -47,7 +47,7 @@ PMP, CAPM, CSM, PMI-ACP, PRINCE2 — these are screening keywords, so name them 
 
 ## Methodology keywords without the stuffing
 
-ATS filters do look for Agile, Scrum, Kanban, waterfall — but a bare keyword list reads as padding to the human who opens the file next. Attach each methodology to a project where you actually used it: "ran two-week sprints with a 6-person dev team" earns the keyword "Scrum" the honest way.
+Applicant tracking system (ATS) filters do look for Agile, Scrum, Kanban, waterfall — but a bare keyword list reads as padding to the human who opens the file next. Attach each methodology to a project where you actually used it: "ran two-week sprints with a 6-person dev team" earns the keyword "Scrum" the honest way.
 
 ## No PM title yet? Claim the scope, not the rank
 
@@ -81,7 +81,7 @@ Same rule as everywhere on your resume: exact terms for true things is translati
 
 ## Format notes for PM resumes
 
-One page if under ~10 years, two if more. A compact skills block near the top (tools: Jira, MS Project, Smartsheet; methods; certifications) for the keyword scan — then bullets that prove each item in the block. Everything in the block must reappear in a project; a skills list with no evidence attached is where PM resumes lose trust.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal PM jobs through USAJOBS cap at two pages as of the September 2025 OPM change). A compact skills block near the top (tools: Jira, MS Project, Smartsheet; methods; certifications) for the keyword scan — then bullets that prove each item in the block. Everything in the block must reappear in a project; a skills list with no evidence attached is where PM resumes lose trust.
 
 
 ## The before-and-after, at a glance

@@ -45,7 +45,7 @@ If you're evaluating outplacement resume services — buying them, or building t
 
 A machine operator with 12 years at the plant writes one line about it: *"Ran production line, maintained equipment."*
 
-Twenty minutes of honest digging — asked, confirmed, in her words — turns it into: *"Operated and set up three CNC production lines · trained six new operators on lockout/tagout procedures · forklift certified · maintained daily production logs against ISO quality checks."*
+A short session of honest digging — asked, confirmed, in her words — turns it into: *"Operated and set up three CNC production lines · trained six new operators on lockout/tagout procedures · forklift-trained and evaluated under OSHA 29 CFR 1910.178 · maintained daily production logs against ISO quality checks."*
 
 Nothing in the second version was invented. Every item was already hers; it was just invisible to her because the work had become routine. That's the whole product of good enrichment: the difference between what people did and what they remember to say.
 

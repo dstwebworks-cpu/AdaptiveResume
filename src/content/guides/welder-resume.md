@@ -26,7 +26,7 @@ faq:
     a: "Be honest about depth. There's a real difference between running production MIG all day and having touched TIG in school. List the processes you can actually be productive on, and if a process is limited, say so plainly — 'SMAW and FCAW production; GTAW basic.' A weld test in the shop will find the gap fast, so it's better to set the expectation on the page."
 ---
 
-Welding is one of the few trades where a resume can be checked against a plate in about ten minutes — most shops give a weld test before they hire. That doesn't make the resume less important. It decides whether you get called in for the test at all, and it tells the shop which test to set up. A resume that just says "certified welder, 8 years experience" makes both of those harder than they need to be.
+Welding is one of the few trades where a resume can be checked against a plate in the time it takes to run a weld test — many shops give one before they hire. That doesn't make the resume less important. It decides whether you get called in for the test at all, and it tells the shop which test to set up. A resume that just says "certified welder, 8 years experience" makes both of those harder than they need to be.
 
 The thing that carries the most weight is specificity. Welding certifications are not general badges — a certification names a **process**, a **position**, a **material**, and a thickness range, and it's tied to a Welding Procedure Specification or a code. A welder who knows this and writes it out reads as someone who has actually been through qualification. A welder who leaves it vague reads, fairly or not, like someone who hasn't.
 
@@ -44,7 +44,7 @@ The second version is scannable in a few seconds and answers what the first leav
 
 ## Processes, stated by how you actually run them
 
-The four processes shops screen for most are worth naming individually, with the trade nicknames, because both show up in postings:
+The four processes shops screen for are worth naming individually, with the trade nicknames, because both show up in postings:
 
 - **SMAW (stick)** — the code and field-repair workhorse. Common on structural, pipe, and heavy repair.
 - **GMAW (MIG)** — high-deposition production welding; short-circuit, spray, and pulse variants if you know them.
@@ -105,4 +105,4 @@ Filters and foremen commonly read for: SMAW, GMAW, MIG, GTAW, TIG, FCAW, flux-co
 
 The highest-risk lines are the ones that overstate scope — a position you weren't qualified in, a process you barely ran, or a cert stated as permanent when it's lapsed. In welding this gets found in one weld test, so it's the wrong place to stretch. Accurate detail is stronger than inflation because it survives the plate.
 
-The **Role Skills Checklist** below helps you inventory what your work actually proves — which for most welders is more, and more specific, than the resume currently says. Our build does it with you: we work backwards from your real processes, positions, materials, and certs, propose the standards and terms work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a position, or a process you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your work actually proves — which is often more, and more specific, than the resume currently says. Our build does it with you: we work backwards from your real processes, positions, materials, and certs, propose the standards and terms work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a position, or a process you didn't tell us about.

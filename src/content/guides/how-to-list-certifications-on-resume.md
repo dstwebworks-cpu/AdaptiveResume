@@ -62,7 +62,7 @@ Spell out the full name *and* the acronym, because you can't know which one a re
 A cert you're actively pursuing can absolutely go on the page — labeled as exactly what it is:
 
 - **PMP — exam scheduled [month/year]** (when a date is booked)
-- **AWS Solutions Architect Associate — in progress, expected [month/year]** (when you're partway through)
+- **AWS Certified Solutions Architect – Associate — in progress, expected [month/year]** (when you're partway through)
 
 What never works: listing the bare acronym under Certifications and letting the reader assume it's earned. Credentials get checked — during background checks, credentialing, or a casual interview question — and "I meant I was planning to take it" is a conversation you don't recover from. If you haven't started studying and have no date, it doesn't belong on the resume at all.
 
@@ -80,7 +80,7 @@ The one option that doesn't exist: listing it as if it were current. That's a da
 
 They're not the same thing, and readers in licensed fields know the difference. A **license** is government permission to practice — a state nursing license, an electrician's license, a CDL. A **certification** is a credential from a professional body. If you hold both, use the heading **Licenses & Certifications** and put the license first with its state and status: "Registered Nurse — Georgia, active." Employers in licensed fields screen on the license before anything else.
 
-## The mistakes that cost interviews
+## The mistakes that cost you credibility
 
 - Acronym only, no full name — invisible to half the searches.
 - "Certified in project management" with no credential name or issuer — reads as a claim, not a credential.

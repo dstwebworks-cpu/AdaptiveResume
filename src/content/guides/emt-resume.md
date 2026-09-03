@@ -18,7 +18,7 @@ order: 19
 draft: false
 faq:
   - q: "How do I list EMT certifications that expire?"
-    a: "With their status, exactly: 'EMT-B (NREMT, current through [date])'. An expired cert stated as expired is a renewal task; one listed as current is a background-check failure."
+    a: "With their status, exactly: 'EMT (NREMT, current through [date])'. An expired cert stated as expired is a renewal task; one listed as current is a background-check failure."
   - q: "Does volunteer EMS count as real experience?"
     a: "Completely - calls are calls. State the service, the call volume, and your role exactly as they were; paid vs volunteer matters less than what you ran and documented."
   - q: "What if my call volume was low?"
@@ -39,28 +39,28 @@ The biggest honesty issue on EMT resumes is blurring interfacility transport int
 **After (911):** "911 EMT on a dual-medic ALS ambulance, ~8-12 calls/shift across a mixed urban/highway district; BLS assessments, immobilization, and assist on ALS interventions."
 **After (IFT):** "Interfacility transport EMT, ~10 transports/shift including cardiac and dialysis patients; monitoring, documentation, and transfer-of-care reporting between facilities."
 
-Both versions hire. The blurred version invites the one interview question that unravels a resume.
+Both versions read as real experience. The blurred version invites the one interview question that unravels a resume.
 
 ## Bullets that show EMS judgment
 
-Call volume and district type; assessments and interventions within your scope; documentation (ePCR system by name — agencies filter on them); lifting/moving as the physical reality it is ("2-person crew, ~15 patient moves/shift"); mass-casualty or standby events worked; FTO/preceptor duties if you trained new hires. If you kept a clean driving record through emergency operations, that single line carries weight with every fleet insurer.
+Call volume and district type; assessments and interventions within your scope; documentation (the ePCR — electronic patient care report — system by name; agencies filter on them); lifting/moving as the physical reality it is ("2-person crew, ~15 patient moves/shift"); mass-casualty or standby events worked; FTO/preceptor duties if you trained new hires. If you kept a clean driving record through emergency operations, that single line carries weight with every fleet insurer.
 
 ## The step up: medic school, fire, nursing
 
-Writing toward the next rung follows one rule — claim completed scope, label in-progress things as in progress. "Paramedic student, [program], clinical rotations begun [month/year]" is a legitimate, strong line. Fire-track EMTs: list CPAT completion and any Firefighter I/II coursework exactly as far as you've actually gotten. EMS-to-nursing: your patient-contact volume is the asset; count it honestly.
+Writing toward the next rung follows one rule — claim completed scope, label in-progress things as in progress. "Paramedic student, [program], clinical rotations begun [month/year]" is a legitimate, strong line. Fire-track EMTs: list CPAT (Candidate Physical Ability Test) completion and any Firefighter I/II coursework exactly as far as you've actually gotten. EMS-to-nursing: your patient-contact volume is the asset; count it honestly.
 
 ## New certificate, no runs yet
 
-Lead with the certification block, then ride-alongs and clinical hours from your course (they're real patient contacts — count them), then whatever work history shows reliability under pressure. Every agency hires new EMTs; the resume's job is to make the credential verifiable and the person dependable.
+Lead with the certification block, then ride-alongs and clinical hours from your course (they're real patient contacts — count them), then whatever work history shows reliability under pressure. Agencies hire new EMTs all the time; the resume's job is to make the credential verifiable and the person dependable.
 
 ## Format notes
 
-One page for most EMS careers. Single column, certification block clearly labeled at top, service type named for every employer. Skip the lights-and-sirens graphics — the parser can't read them and the chief has seen them a thousand times.
+One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal EMS applications through USAJOBS cap at two pages as of the September 2025 OPM change). Single column, certification block clearly labeled at top, service type named for every employer. Skip the lights-and-sirens graphics — the parser can't read them and the chief has seen them a thousand times.
 
 
 ## A bullet bank you can adapt - keep only what's true
 
-- "911 EMT-B with [service]: [~N] calls over [period] across [911/IFT/event] operations"
+- "911 EMT with [service]: [~N] calls over [period] across [911/IFT/event] operations"
 - "BLS, CPR/AED, [NIMS/ICS-100] certified - listed exactly as held, with dates"
 - "Documented every run to [county/state] protocol in [ePCR system]; [N] chart audits passed"
 - "Precepted [N] new EMTs through field training"

@@ -21,7 +21,7 @@ faq:
   - q: "How do I write a sysadmin resume when my title was 'IT Generalist'?"
     a: "Write the work, not the title. Small-company IT often means you ran the domain, the backups, the firewall, and the help desk at once — that's broader than a specialist's resume shows. Keep your real title, then describe the systems you owned."
   - q: "Do certifications still matter for systems administrators?"
-    a: "They matter most for getting past the first filter, and they matter differently by employer — government and MSP work weights them heavily, product companies less. List the ones you hold with their real status. Never list an exam you're studying for as though it's earned."
+    a: "They matter most for getting past the first filter, and they matter differently by employer — government and managed-service-provider (MSP) work weights them heavily, product companies less. List the ones you hold with their real status. Never list an exam you're studying for as though it's earned."
   - q: "How do I show on-call work without sounding like I only fought fires?"
     a: "Pair the response with what you changed. 'Primary on-call for 40 servers' is a duty; 'primary on-call for 40 servers; automated the top recurring alert and cut after-hours pages roughly in half' is an engineer. The second line is the same job, described by its outcome."
 ---
@@ -62,15 +62,15 @@ Write what was true: the rotation you carried, the systems in scope, the respons
 
 **Toward network administration**, the resume shifts from servers to topology. Foreground the routing and switching you've genuinely configured, VLAN and subnet design, firewall rules and VPN tunnels, wireless controllers, and vendor platforms by name. If your networking exposure was "I've reset the switch and opened firewall ports," say that plainly and let your systems depth carry the application — the honest version reads as a competent sysadmin growing into networking, which is a normal and hirable story.
 
-**Toward SOC analyst work**, the pivot is detection and response rather than administration. Your SIEM by name, log sources you actually onboarded, alert triage volume, EDR platform, phishing analysis, and any framework you worked against — MITRE ATT&CK, NIST, CIS benchmarks. Sysadmins are unusually well positioned here because you already know what normal looks like on a network, and knowing normal is most of detection. Say that in the summary rather than hoping it's inferred.
+**Toward SOC analyst work**, the pivot is detection and response rather than administration. Your SIEM (security log platform) by name, log sources you actually onboarded, alert triage volume, EDR (endpoint detection and response) platform, phishing analysis, and any framework you worked against — MITRE ATT&CK, NIST, CIS benchmarks. Sysadmins are unusually well positioned here because you already know what normal looks like on a network, and knowing normal is most of detection. Say that in the summary rather than hoping it's inferred.
 
 ## Format notes
 
 **Length follows your history, not a page count.** Infrastructure careers stack — three sysadmin roles across different scales, a help desk start that taught you the user side, a stint running IT for a small company where you owned everything. That progression is the argument for hiring you, and squeezing it onto one page to satisfy a convention throws it away.
 
-**Two pages is normal once you have more than one substantive environment to describe.** The test isn't length, it's whether every line earns its space: keep scale, stack, migrations, automation, and incidents; cut the duties every administrator shares.
+**Two pages is normal once you have more than one substantive environment to describe.** The test isn't length, it's whether every line earns its space: keep scale, stack, migrations, automation, and incidents; cut the duties every administrator shares. (Federal IT jobs through USAJOBS cap at two pages as of the September 2025 OPM change.)
 
-Reverse chronological, single column, environment line under every employer, and a skills block organized in labeled groups rather than one long comma-run. Skip the skill-level bar charts — a parser reads "Linux ▓▓▓▓░" as noise, and a reader has no idea what four bars means.
+Reverse chronological, single column, environment line under every employer, and a skills block organized in labeled groups rather than one long comma-run. Skip the skill-level bar charts — a parser reads "Linux" plus four filled bars as noise, and a reader has no idea what four bars means.
 
 ## A bullet bank you can adapt — keep only what's true
 

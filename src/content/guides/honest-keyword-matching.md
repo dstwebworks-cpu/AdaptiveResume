@@ -1,6 +1,6 @@
 ---
 title: "Resume Keywords: How to Match a Job Description Honestly"
-description: "Keyword-matching gets your resume found and shortlisted — but stuffing in terms you can't back up backfires. Here's how to mirror a job description truthfully."
+description: "Keyword-matching gets your resume found — but stuffing in terms you can't back up backfires. Here's how to mirror a job description truthfully."
 seoTitle: "Resume Keywords: Match a Job Description Honestly"
 seoDescription: "How to pull resume keywords from a job description and match them honestly — exact, translate, or gap — so software and humans both find you."
 segment: "job-seekers"

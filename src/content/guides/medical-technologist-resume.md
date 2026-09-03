@@ -28,7 +28,7 @@ faq:
 
 Lab hiring is read certification-first. Before a lead tech reads a single bullet, they look for the credential — MLS(ASCP), MT(ASCP), MLS(AMT) — and the departments you've actually run. A resume that says "performed laboratory testing" without naming the bench, the instruments, or the certification competes badly against one that says exactly which departments you own and what you're certified to do.
 
-The second thing that carries weight is scope: which benches, which analyzers, which laboratory information system, and how much volume. Lab work is concrete, and the resumes that land are the concrete ones. Vague verbs cost you against candidates who simply listed what they ran.
+The second thing that carries weight is scope: which benches, which analyzers, which laboratory information system, and how much volume. Lab work is concrete, and the resumes that read strongest are the concrete ones. Vague verbs cost you against candidates who simply listed what they ran.
 
 ## Lead with your certification and the benches you run
 
@@ -46,11 +46,11 @@ The second version is scannable in a few seconds and answers what the first leav
 
 This is the part a lab checks first and the part you must get exactly right.
 
-**Certifying bodies.** The ASCP Board of Certification is the most common. Its current credential is **MLS(ASCP)** — Medical Laboratory Scientist — which replaced the older **MT(ASCP)** (Medical Technologist). Some longtime techs still hold and use MT(ASCP), and that's legitimate; write whichever you were issued. The other national body is **AMT** (American Medical Technologists), whose current credential is **MLS(AMT)** — AMT moved its older MT(AMT) designation to Medical Laboratory Scientist in 2023, so longtime techs may still hold and use MT(AMT). Write whichever you were issued. List the body, the credential, and the year if you have it. Categorical certifications — for example in chemistry, hematology, microbiology, or blood banking — are worth a line if you hold one, because they signal depth in a specific bench.
+**Certifying bodies.** The ASCP Board of Certification is the largest and best known. Its current credential is **MLS(ASCP)** — Medical Laboratory Scientist — which replaced the older **MT(ASCP)** (Medical Technologist). Some longtime techs still hold and use MT(ASCP), and that's legitimate; write whichever you were issued. The other national body is **AMT** (American Medical Technologists), whose current credential is **MLS(AMT)** — AMT announced in 2022 that its older MT(AMT) designation would become Medical Laboratory Scientist, phased in through 2023, so longtime techs may still hold and use MT(AMT). Write whichever you were issued. List the body, the credential, and the year if you have it. Categorical certifications — for example in chemistry, hematology, microbiology, or blood banking — are worth a line if you hold one, because they signal depth in a specific bench.
 
 **The MLS vs MT vs MLT line.** Keep it honest. MLS and MT are the technologist-level credential (current name and older name for effectively the same track). **MLT** — Medical Laboratory Technician — is a different, technician-level credential, usually tied to an associate degree. If you hold an MLT, write MLT; don't round it up to technologist. A reference check catches the difference immediately, and labs are a small enough world that they check.
 
-**State licensure.** Several states license laboratory personnel — **California, New York, and Florida** are the ones most people run into, though others have requirements too. If a state licenses you, list the license and its status; if a posting is in a licensure state and you're not yet licensed there, be clear about that rather than silent.
+**State licensure.** Several states license laboratory personnel — **California, New York, and Florida** are the ones that come up most often in postings, though other states have requirements too. If a state licenses you, list the license and its status; if a posting is in a licensure state and you're not yet licensed there, be clear about that rather than silent.
 
 **CLIA context.** The Clinical Laboratory Improvement Amendments set federal personnel standards keyed to test complexity (waived, moderate, high). You don't need to recite the regulation, but it's fine to note that you're qualified to perform high-complexity testing, because that's the standard many technologist roles are hiring against.
 
@@ -70,7 +70,7 @@ This is the part a lab checks first and the part you must get exactly right.
 
 ## The systems labs read for
 
-Name your **laboratory information system** clearly — **Sunquest, Epic Beaker, or Cerner (Oracle Health)** are the ones postings ask for most, and lab hiring treats LIS familiarity as a proxy for how fast you'll be productive. Add middleware and analyzer interfaces if you've worked with them, plus any quality tools: **QC review, Westgard rules, Levey-Jennings, proficiency testing (CAP surveys), and competency assessments.** If you've supported a **CAP** or **Joint Commission** inspection, that's a line worth having — it signals you understand the compliance side of the bench.
+Name your **laboratory information system** clearly — **Sunquest, Epic Beaker, or Cerner (Oracle Health)** are the ones postings ask for by name, and lab hiring treats LIS familiarity as a proxy for how fast you'll be productive. Add middleware and analyzer interfaces if you've worked with them, plus any quality tools: **QC review, Westgard rules, Levey-Jennings, proficiency testing (CAP surveys), and competency assessments.** If you've supported a **CAP** or **Joint Commission** inspection, that's a line worth having — it signals you understand the compliance side of the bench.
 
 ## Format notes
 
@@ -84,10 +84,10 @@ Otherwise: reverse chronological, single column, a department-and-instrument lin
 
 - "Ran generalist bench across [chemistry/hematology/coag/UA/blood bank] on [shift]; ~[N] specimens/shift"
 - "Performed high-complexity testing on [Roche cobas / Sysmex XN / Architect]; maintained QC per Westgard rules"
-- "Resolved [N] antibody identifications and issued crossmatched components; no transfusion errors on record"
+- "Resolved [N] antibody identifications and issued crossmatched components; [no transfusion errors on record]"
 - "Set up and read cultures and susceptibilities; identified organisms on [VITEK / MALDI-TOF]"
 - "Validated [assay] on [molecular platform]; wrote method verification documentation"
-- "Reviewed daily QC and Levey-Jennings; passed [N] CAP proficiency surveys with no unacceptable results"
+- "Reviewed daily QC and Levey-Jennings; passed [N] CAP proficiency surveys with [no unacceptable results]"
 - "Documented results in [Sunquest / Epic Beaker / Cerner]; supported analyzer-to-LIS interfaces"
 - "Supported [CAP / Joint Commission] inspection; maintained competency assessments for [N] test systems"
 
@@ -97,4 +97,4 @@ Filters commonly read for: MLS(ASCP), MT(ASCP), MLS(AMT), MT(AMT), medical labor
 
 The highest-risk lines are the ones that overstate the credential — writing technologist when you hold an MLT, implying certification you don't yet hold, or claiming a bench you only observed. Labs verify certifications directly with ASCP or AMT, and they check licensure with the state. State what's true and let the bench work do the arguing.
 
-The **Role Skills Checklist** below helps you inventory what your bench experience actually proves, which for most techs is more than the resume currently says. Our build does it with you: we work backwards from your real departments, instruments, and systems, propose the credentials and skills that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a license, or an instrument you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your bench experience actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real departments, instruments, and systems, propose the credentials and skills that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a license, or an instrument you didn't tell us about.

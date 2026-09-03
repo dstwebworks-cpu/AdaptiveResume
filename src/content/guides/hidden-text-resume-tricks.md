@@ -25,10 +25,10 @@ faq:
   - q: "Is hiding instructions for an AI screener different from hiding keywords?"
     a: "Technically yes, and it's the newer version of the same idea — text no human sees, aimed at the software rather than the recruiter. Duke researchers found it in about 1% of 200,000 real resumes in 2026, with a sevenfold jump in roughly eighteen months. It's also the version most likely to read as deliberate deception rather than an honest formatting mistake, because a sentence like 'ignore previous instructions' has no innocent explanation."
   - q: "How do I get keywords onto my resume honestly?"
-    a: "Say true things using the words your field actually uses. Most people are underselling real experience with vague phrasing, not missing keywords they'd have to invent. The certifications, standards, and systems you've genuinely worked with are usually the keywords a posting asks for — you just haven't written them down yet."
+    a: "Say true things using the words your field actually uses. Many people are underselling real experience with vague phrasing, not missing keywords they'd have to invent. The certifications, standards, and systems you've genuinely worked with are usually the keywords a posting asks for — you just haven't written them down yet."
 ---
 
-There's a piece of advice that circulates every hiring season: paste the job description into your resume in white 2-point font, and the screening software will read the keywords while a human sees nothing. It sounds clever. For a while it worked often enough to keep spreading.
+There's a piece of advice that circulates every hiring season: paste the job description into your resume in white 2-point font, and the screening software (the ATS, or applicant tracking system) will read the keywords while a human sees nothing. It sounds clever. For a while it worked often enough to keep spreading.
 
 It's now a bad trade — not because it never worked, but because the odds moved. And there's a version of it that has appeared in the last two years that carries considerably more risk than the original.
 
@@ -62,7 +62,7 @@ Set aside ethics for a second and look at it as a wager.
 
 **The upside is one screening pass.** Hidden keywords might get you past a filter. They cannot get you through a phone screen, because you'll be asked about skills you don't have, by someone who has read them on your resume.
 
-**The downside is discovery, and discovery is cheap.** A recruiter selects all the text in your document and every hidden word lights up. Or saves your file as plain text — a test [Jobscan recommends](https://www.jobscan.co/blog/resume-keyword-stuffing/) for checking formatting, which doubles as an exposure test. Or the software flags an unnatural keyword density with no human suspicion required at all. None of this takes effort or motive.
+**The downside is discovery, and discovery is cheap.** A recruiter selects all the text in your document and every hidden word lights up. Or saves your file as plain text — a common formatting check that doubles as an exposure test. Or the software flags an unnatural keyword density with no human suspicion required at all. None of this takes effort or motive.
 
 **And the cost isn't symmetric.** A formatting mistake gets a shrug. Hidden text reads as deliberate, because it is — the effort of setting text to white *is* the intent. Practitioners writing about this consistently describe the outcome as an immediate rejection and a name a recruiter remembers, and some describe internal flags on candidates caught doing it. Recruiting circles in a given city and industry are smaller than they look.
 
@@ -70,13 +70,13 @@ The hidden-instruction version is worse on this dimension. Keywords in white fon
 
 ## The honest version gets you the same keywords
 
-Here's the part that makes the whole tactic unnecessary for most people: **the reason a resume misses keywords is usually not that the person lacks the qualification. It's that they described real work in vague language.**
+Here's the part that makes the whole tactic unnecessary for many people: **the reason a resume misses keywords is usually not that the person lacks the qualification. It's that they described real work in vague language.**
 
 **Before:** "Responsible for quality control on the production floor."
 
-**After:** "Quality control inspector on an automotive supplier line under IATF 16949; ran SPC charts, gauge R&R studies, and first-article inspections; completed lockout/tagout and forklift certification."
+**After:** "Quality control inspector on an automotive supplier line under IATF 16949; ran SPC charts, gauge R&R studies, and first-article inspections; completed lockout/tagout training and forklift operator training and evaluation under 29 CFR 1910.178."
 
-The second version is dense with exactly the terms a filter looks for, and every word of it is true. Nothing was hidden and nothing was invented — the terms were already earned and simply never written down. That's the common case, not the exception. Most people are underselling.
+The second version is dense with exactly the terms a filter looks for, and every word of it is true. Nothing was hidden and nothing was invented — the terms were already earned and simply never written down. That's the common case, not the exception. Many people are underselling.
 
 If you've genuinely never done a thing the posting asks for, no font trick fixes that. What helps is naming what you *have* done in the vocabulary of the field, and being straightforward about the gap. Hiring managers hire people with gaps constantly. They don't hire people they've caught.
 

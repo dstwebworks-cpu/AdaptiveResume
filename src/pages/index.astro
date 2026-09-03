@@ -28,14 +28,17 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           {LAUNCHED
             ? <>
                 <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-                <a class="btn btn-ghost btn-lg" href={appUrl + '/?demo'}>Try a sample review — no sign-up</a>
+                <a class="btn btn-ghost btn-lg" href="/demo/">Try a sample review — no sign-up</a>
               </>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
+            : <>
+                <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
+                <a class="btn btn-ghost btn-lg" href="/demo/">Try a sample review — no sign-up</a>
+              </>}
         </div>
         <ul class="pills">
-          <li class="pill">✓ Nothing made up</li>
-          <li class="pill">✓ ATS-readable</li>
-          <li class="pill">✓ You approve every line</li>
+          <li class="pill">Nothing made up</li>
+          <li class="pill">ATS-readable</li>
+          <li class="pill">You approve every line</li>
         </ul>
       </div>
 
@@ -80,7 +83,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
           </div>
           <p class="reoffer muted">
-            Want to see it first? <a href={appUrl + '/?demo'}>Try a sample review</a> — no upload, no account.
+            Want to see it first? <a href="/demo/">Try a sample review</a> — no upload, no account.
           </p>
         </>
       ) : (
@@ -147,7 +150,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         </ul>
         <a class="btn btn-primary" href="#pricing">See pricing &amp; get started →</a>
       </div>
-      <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with surfaced skills highlighted and a verification check" loading="lazy" />
+      <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with newly found skills highlighted and a format check" loading="lazy" />
     </div>
   </section>
 
@@ -156,7 +159,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     <div class="container">
       <p class="eyebrow">How we differ</p>
       <h2>How AdaptiveResume compares to other resume tools.</h2>
-      <p class="lede" style="max-width:62ch">Most tools either make you do all the thinking, or do too much of it — and invent things along the way. Here's the honest difference, by category.</p>
+      <p class="lede" style="max-width:62ch">Many tools either make you do all the thinking, or do too much of it — and invent things along the way. Here's the honest difference, by category.</p>
       <div class="table-wrap">
         <table class="compare">
           <thead>
@@ -201,9 +204,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <li><b>A chatbot polishes what you already wrote.</b> We dig into what work like yours really involves — the certifications, safety standards, and training that belong on your resume but weren't in your head to ask about. That's the part you can't prompt your way to.</li>
         <li><b>You finish with real files, not text in a chat window.</b> Finished Word and PDF, your original words quoted back on every finding, checked against what screening software reads — every check shown to you.</li>
       </ul>
-      <p>{LAUNCHED
-        ? <a href={appUrl + '/?demo'}>Watch the verification work on a sample review →</a>
-        : <a href="#get-started">See it the day it goes live — join the list →</a>}</p>
+      <p><a href="/demo/">Watch the checking work on a sample review — no sign-up →</a></p>
 
       <!-- ===== THE TIME MATH (toggle: vs writer / vs DIY chat) ===== -->
       <div class="timemath">
@@ -228,7 +229,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <ul>
               <li>Upload — your free scan appears in seconds</li>
               <li>Findings start streaming moments after your review begins</li>
-              <li>You review one finding at a time, at your pace — most people finish before their coffee goes cold. If you get interrupted, we save your work where you left off.</li>
+              <li>You review one finding at a time, at your pace. If you get interrupted, we save your work where you left off.</li>
               <li><b>Calendar time: today</b> — the longest you wait on us is measured in seconds, and there's a live clock on screen whenever we're working</li>
             </ul>
           </div>
@@ -240,13 +241,13 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
               <li>Rounds of prompting and re-prompting to get something usable</li>
               <li>Then the step almost nobody does: auditing every line yourself, because nothing else checks it</li>
               <li>Then wrestling the text into a clean, screening-software-safe file</li>
-              <li><b>Your active work: an evening or more — with the verification burden entirely on you</b></li>
+              <li><b>Your active work: an evening or more — with the checking burden entirely on you</b></li>
             </ul>
           </div>
           <div class="tm-col us">
             <h4>Here</h4>
             <ul>
-              <li>The digging, the checking, and the formatting are the product — verification is enforced by the system, not left to your discipline</li>
+              <li>The digging, the checking, and the formatting are the product — the checks are built into the process, not left to your discipline</li>
               <li>You spend your time on the one thing only you can do: confirming what's true</li>
               <li>Finished, checked, formatted files — Word and PDF — at the end of the same sitting</li>
               <li><b>Your active work: one focused session, guided the whole way</b></li>
@@ -274,9 +275,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <p>"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — to hospital SPD standards."</p></div>
       </div>
       <p class="muted small">Sample translation — generic profile, no real service member shown.</p>
-      <p>{LAUNCHED
-        ? <a href={appUrl + '/?demo=military'}>See the full military sample review — no sign-up →</a>
-        : <a href="#get-started">The full military sample arrives at launch — join the list →</a>}</p>
+      <p><a href="/demo/?p=military">See the full military sample review — no sign-up →</a></p>
     </div>
   </section>
 

@@ -49,7 +49,7 @@ It helps to see the whole trip:
 3. **Knockout questions apply, if the employer set any.** These are the explicit yes/no filters: "Are you authorized to work in the US?", "Do you hold an active CDL?" Answer no to a hard requirement and the application can be closed automatically. This is the only routine "automatic rejection" — and it's driven by your form answers, not by a robot judging your resume's style.
 4. **A human works the queue.** The recruiter opens the ATS, searches and filters the applicant pool, skims profiles and attached resumes, and moves people forward or not.
 
-Notice what's missing from that sequence: no step where software grades your resume's design, and — at most employers — no step where an algorithm decides your worth. The software files; people choose.
+Notice what's missing from that sequence: no step where software grades your resume's design, and — at the typical employer — no step where an algorithm decides your worth. The software files; people choose.
 
 ## What an ATS does to *your* resume
 
@@ -69,7 +69,7 @@ That's why the words on your page matter more than the design: the search happen
 
 ## The myth worth clearing up
 
-You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: most systems **store and organize** applications; humans still do the reviewing. Automatic knockouts exist, but usually only for **explicit, employer-set filters** (e.g., "must have an active CDL," "must be authorized to work in the US") — not some robot tossing resumes on a whim.
+You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: the typical system **stores and organizes** applications; humans still do the reviewing. Automatic knockouts exist, but usually only for **explicit, employer-set filters** (e.g., "must have an active CDL," "must be authorized to work in the US") — not some robot tossing resumes on a whim.
 
 So the goal isn't to "trick the robot." It's simpler: make sure the software can **read your resume cleanly** and that the real keywords for your experience are actually on the page.
 

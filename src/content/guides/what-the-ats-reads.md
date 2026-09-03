@@ -1,6 +1,6 @@
 ---
 title: "Will Your Resume Pass the ATS? What Screening Software Actually Reads"
-description: "Most resumes are read by software before a human sees them. Here's what an applicant-tracking system extracts, why good resumes get garbled, and how to make yours read cleanly."
+description: "Many resumes are read by software before a human sees them. Here's what an applicant-tracking system extracts, why good resumes get garbled, and how to make yours read cleanly."
 seoTitle: "ATS Resume Checks: What Screening Software Reads"
 seoDescription: "What ATS software extracts from your resume, why good resumes get garbled, and how to make yours read cleanly before a human ever sees it."
 segment: "job-seekers"
@@ -25,7 +25,7 @@ faq:
     a: "The software may ingest them, and the human who opens your resume minutes later sees the trick. It reads as dishonest and gets resumes discarded — never do it."
 ---
 
-Before a person reads your resume, software usually does. An [applicant-tracking system (ATS)](/guides/what-is-an-ats/) parses your file into fields — name, titles, dates, skills — so a recruiter can search and sort. When the parse goes wrong, a strong resume can quietly drop out. The good news: making yours read cleanly is mostly mechanical.
+Before a person reads your resume, software often does. An [applicant-tracking system (ATS)](/guides/what-is-an-ats/) parses your file into fields — name, titles, dates, skills — so a recruiter can search and sort. When the parse goes wrong, a strong resume can quietly drop out. The good news: making yours read cleanly is mostly mechanical.
 
 ## What "passing the ATS" really means
 
@@ -52,7 +52,7 @@ The usual culprits are formatting, not content:
 - **Unusual section headings** — "Where I've Made an Impact" may not register as "Experience."
 - **PDF saved as an image** — nothing to read at all.
 
-None of these are exotic mistakes. Most come straight from attractive templates that were designed to impress a human at a glance — and were never tested against the software that reads them first.
+None of these are exotic mistakes. Many come straight from attractive templates that were designed to impress a human at a glance — and were never tested against the software that reads them first.
 
 ## What a parse failure actually looks like
 

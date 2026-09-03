@@ -59,7 +59,7 @@ Airframe & Powerplant certificate up top, IA if held, then aircraft types and in
 
 ## Format notes
 
-One page is the strong convention for pilot resumes short of a long corporate career. Single column, no graphics — several operators run resumes through parsing software before a human sees them, and the hours table should be a simple table or aligned text, nothing decorative.
+One page is the strong convention for pilot resumes; once you've held several flying jobs, a tight two pages is normal (and federal applications through USAJOBS — FAA and military-civilian roles — cap at two pages as of the September 2025 OPM change). Single column, no graphics — several operators run resumes through parsing software before a human sees them, and the hours table should be a simple table or aligned text, nothing decorative.
 
 
 ## A bullet bank you can adapt - keep only what's true

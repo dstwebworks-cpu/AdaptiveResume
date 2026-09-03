@@ -25,7 +25,7 @@ faq:
     a: "List it as it stands: 'GA teaching certificate (lapsed [year]; renewal in progress)' if that's true. A lapsed credential stated honestly reads far better than one discovered in a background check."
 ---
 
-Teaching compresses a dozen professional skills into one job title — and then the resume says "taught 3rd grade." Principals know what that sentence hides. Districts' ATS filters and corporate recruiters don't. Whether you're moving schools or leaving the classroom, the fix is the same: name what the work actually was.
+Teaching compresses a dozen professional skills into one job title — and then the resume says "taught 3rd grade." Principals know what that sentence hides. Districts' applicant tracking system (ATS) filters and corporate recruiters don't. Whether you're moving schools or leaving the classroom, the fix is the same: name what the work actually was.
 
 ## The credentials block: licensure first
 
@@ -36,7 +36,7 @@ Your state teaching certificate is a screening item — make it findable in two 
 Every one of these is a real, nameable skill that classroom work builds:
 
 - **Data-driven instruction** — you ran benchmark assessments, read the reports, and regrouped students based on them. That's data analysis with decisions attached.
-- **Compliance documentation** — IEPs, 504 plans, accommodation tracking. Legal-deadline work with audit trails.
+- **Compliance documentation** — IEPs (individualized education programs), 504 plans, accommodation tracking. Legal-deadline work with audit trails.
 - **De-escalation and behavior management** — a skill employers in every industry pay for and few can prove.
 - **Stakeholder communication** — parent conferences, difficult-news conversations, written updates to families who disagree with you.
 - **Curriculum and training design** — you build instructional sequences from standards. Corporate teams call this instructional design and hire for it.
@@ -58,7 +58,7 @@ Patterns with placeholders - your real numbers and programs go in, anything not 
 **Leadership without the title**
 - "Mentored [N] student teachers / new hires through their first year"
 - "Led the [grade-level/department] team ([N] teachers) - planning, pacing, and assessment alignment"
-- "Wrote the [program] grant ([]) and ran the program for [N] students"
+- "Wrote the [program] grant ([$N]) and ran the program for [N] students"
 
 **Family and community**
 - "Led [N]+ parent conferences a year, including difficult-news and disagreement conversations"
@@ -69,13 +69,13 @@ Patterns with placeholders - your real numbers and programs go in, anything not 
 
 ## What screening software looks for on a teacher resume
 
-District ATS filters and corporate screens read for: classroom management, differentiated instruction, IEP/504 compliance, data-driven instruction, curriculum development, formative and summative assessment, parent communication, ESOL/ELL support, PBIS or MTSS, plus systems by name (PowerSchool, Infinite Campus, Canvas, Google Classroom). [O*NET's elementary teacher profile](https://www.onetonline.org/link/summary/25-2021.00) holds the standard task vocabulary - scan your grade band's profile for true lines you never thought to write.
+District ATS filters and corporate screens read for: classroom management, differentiated instruction, IEP/504 compliance, data-driven instruction, curriculum development, formative and summative assessment, parent communication, ESOL/ELL support, PBIS or MTSS (behavior and intervention frameworks), plus systems by name (PowerSchool, Infinite Campus, Canvas, Google Classroom). [O*NET's elementary teacher profile](https://www.onetonline.org/link/summary/25-2021.00) holds the standard task vocabulary - scan your grade band's profile for true lines you never thought to write.
 
 Use the exact term wherever it's true of you; never plant one that isn't. The screen you'd win with a false keyword sets up the interview you'd lose.
 
 ## Substitute and paraprofessional resumes
 
-The trap is listing the staffing arrangement instead of the work. "Substitute teacher, 2023–2026" reads as filler; the honest, stronger version names the scope: grade bands covered, subjects taught, the schools or district, and the skill subbing uniquely proves — walking into an unfamiliar room and holding it by second period. Paraprofessionals: your IEP-support work is specialized experience; name the settings (self-contained, inclusion, one-on-one).
+The mistake is listing the staffing arrangement instead of the work. "Substitute teacher, 2023–2026" reads as filler; the honest, stronger version names the scope: grade bands covered, subjects taught, the schools or district, and the skill subbing uniquely proves — walking into an unfamiliar room and holding it by second period. Paraprofessionals: your IEP-support work is specialized experience; name the settings (self-contained, inclusion, one-on-one).
 
 ## Leaving the classroom: translate, don't apologize
 
@@ -83,7 +83,7 @@ Career-change teacher resumes fail when they lead with what's being left. Lead w
 
 ## What an ATS needs from a teacher resume
 
-Spell out what districts search for: the license by its real name, endorsement names in full ("ESOL endorsement," not just "ESOL"), grade bands as words and numbers. Single column, no tables, no icons — the district's parser is older than the corporate ones.
+Spell out what districts search for: the license by its real name, endorsement names in full ("ESOL endorsement," not just "ESOL"), grade bands as words and numbers. Single column, no tables, no icons — district parsers are often older than corporate ones. (Federal school jobs, such as DoDEA, go through USAJOBS, which caps resumes at two pages as of the September 2025 OPM change.)
 
 
 ## The before-and-after, at a glance

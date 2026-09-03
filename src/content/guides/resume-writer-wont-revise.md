@@ -18,14 +18,14 @@ order: 7.5
 draft: false
 faq:
   - q: "How many revision rounds is it normal for a resume service to include?"
-    a: "Most paid services cap included revisions — often one or two rounds inside a set window. Check the terms you bought under before assuming you're owed more. Inside that window, precise line-level notes are how you make the rounds count."
+    a: "Many paid services cap included revisions — often one or two rounds inside a set window. Check the terms you bought under before assuming you're owed more. Inside that window, precise line-level notes are how you make the rounds count."
   - q: "Can I get my money back from a resume writer who won't revise?"
     a: "It depends entirely on the service's own refund and revision terms — read what you agreed to. Keep your request notes in writing either way; a clear record of specific, ignored asks is your best footing in any refund conversation."
   - q: "Is the draft I paid for wasted if I rebuild?"
     a: "No. Even a disappointing rewrite usually contains salvage — a cleaner structure, a few well-phrased lines, a tidy education block. Strip those into a keep list before you start over; you paid for them."
 ---
 
-You did the responsible thing. You paid a professional — maybe a few hundred dollars — to make your resume land. The first draft came back looking suspiciously like your old resume with new fonts. You sent notes. One revision arrived, sort of addressing them. You sent more notes. Then the replies slowed down, or stopped, or you got told that's the final draft.
+You did the responsible thing. You paid a professional — maybe a few hundred dollars — to make your resume work. The first draft came back looking suspiciously like your old resume with new fonts. You sent notes. One revision arrived, sort of addressing them. You sent more notes. Then the replies slowed down, or stopped, or you got told that's the final draft.
 
 If that's where you are, this guide is for you. Three steps: salvage, push once more (the right way), and know when to rebuild.
 
@@ -48,7 +48,7 @@ Don't torch the paid draft. Even a disappointing rewrite usually has something w
 - A few genuinely better-phrased lines
 - A tidy education/certification block
 
-Copy those into a "keep" list. The rescue checklist below walks the draft section by section so you can separate keep, fix, and missing in about twenty minutes.
+Copy those into a "keep" list. The rescue checklist below walks the draft section by section so you can separate keep, fix, and missing in one sitting.
 
 ## Step 2 — Ask for changes that can't be dodged
 
@@ -83,4 +83,4 @@ This situation is why we built the process the way we did. Upload the draft you 
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
 
-If you'd rather not fight this battle alone, our [resume rewrite service](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every line before it lands.
+If you'd rather not fight this battle alone, our [Fix my resume path](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every line before it lands.

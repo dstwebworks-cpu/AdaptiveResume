@@ -18,7 +18,7 @@ order: 2
 draft: false
 faq:
   - q: "How long should a private-sector resume be after converting from federal?"
-    a: "Two pages for most careers (one if you're early). The five-page federal format exists for federal HR rules — private-sector readers skim, so density beats completeness."
+    a: "Two pages for most careers (one if you're early). The old multi-page federal format existed for federal HR panels (USAJOBS itself now caps resumes at two pages, as of the September 2025 OPM change) — private-sector readers skim, so density beats completeness."
   - q: "Should I list my GS grade on a private-sector resume?"
     a: "Not by itself — it means nothing outside government. Translate what the grade carried: budget, team size, scope of authority, who you briefed. Say the scope, not the series."
   - q: "Do federal awards and clearances belong on it?"
@@ -29,7 +29,7 @@ A federal-style resume can work against you in a private-sector search. Federal 
 
 ## Converting a federal resume to a private sector one: cut the format, keep the substance
 
-Federal resumes ran 3–5+ pages for years (USAJOBS now caps them at two, under a 2025 OPM rule) — and either way they're written for federal HR panels, not private recruiters. The private version is **one to two pages**, impact-first. Keep the accomplishments; drop the federal scaffolding (GS grade, series number, hours, "salary," supervisor contact).
+Federal resumes ran 3–5+ pages for years (USAJOBS now caps them at two pages, as of the September 2025 OPM change) — and either way they're written for federal HR panels, not private recruiters. The private version is **one to two pages**, impact-first. Keep the accomplishments; drop the federal scaffolding (GS grade, series number, hours, "salary," supervisor contact).
 
 ## What to cut, line by line
 

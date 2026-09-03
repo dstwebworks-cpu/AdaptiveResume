@@ -16,7 +16,7 @@ pubDate: 2026-08-11
 order: 24
 faq:
   - q: "I only rotate into charge — can I still put it on my resume?"
-    a: "Yes, and you should, labeled exactly as it is: 'rotating charge, [frequency]' or 'relief charge.' Rotating charge is how most nurses build the record that permanent charge and supervisor roles are hired from."
+    a: "Yes, and you should, labeled exactly as it is: 'rotating charge, [frequency]' or 'relief charge.' Rotating charge is how many nurses build the record that permanent charge and supervisor roles are hired from."
   - q: "What's the difference between a charge nurse resume and a regular RN resume?"
     a: "One added layer: scope. Beds, staff count, shift, and the decisions you owned — assignments, staffing adjustments, escalations. Your clinical bullets stay; the charge lines sit on top of them."
   - q: "Do I need a management degree or certification to move up from charge?"
@@ -63,7 +63,7 @@ That last bracket matters. Charge-with-assignment and charge-out-of-count are di
 
 ## Does a charge nurse resume need a separate leadership section?
 
-Usually not. The cleaner pattern is to keep one experience section and put a scope line plus charge bullets at the top of each role where you held or rotated charge, so the leadership sits in context next to the clinical work it grew out of. Add a separate "Leadership" heading only if you're aiming at supervisor or manager postings and have enough material — committee work, project leads, precepting programs — to fill it honestly. Everything else follows standard nursing format: certifications in their own labeled block near the top, single column, plain headings, one to two pages.
+Usually not. The cleaner pattern is to keep one experience section and put a scope line plus charge bullets at the top of each role where you held or rotated charge, so the leadership sits in context next to the clinical work it grew out of. Add a separate "Leadership" heading only if you're aiming at supervisor or manager postings and have enough material — committee work, project leads, precepting programs — to fill it honestly. Everything else follows standard nursing format: certifications in their own labeled block near the top, single column, plain headings, one to two pages (federal applications through USAJOBS — VA roles, for example — cap at two pages as of the September 2025 OPM change).
 
 ## Aiming at supervisor or manager? Shift the emphasis, not the facts
 
@@ -77,4 +77,4 @@ The same record supports the next step up; what changes is which lines lead. For
 
 ## How AdaptiveResume helps
 
-We work backwards from what your work actually involved. Most nurses we talk with undersell charge — it was "just part of the job," so it never made the page. When you tell us about your unit and your shifts, we propose the scope lines your history supports — the assignment-making, the staffing calls, the escalations — and ask you to confirm, adjust, or skip each one. Nothing lands without your say-so, and nothing gets inflated past what you actually ran. If you've been running shifts, the record already exists; we help you write it down at its true size. The **Charge Nurse Resume Skeleton** below is the place to start.
+We work backwards from what your work actually involved. Nurses often undersell charge — it was "just part of the job," so it never made the page. When you tell us about your unit and your shifts, we propose the scope lines your history supports — the assignment-making, the staffing calls, the escalations — and ask you to confirm, adjust, or skip each one. Nothing lands without your say-so, and nothing gets inflated past what you actually ran. If you've been running shifts, the record already exists; we help you write it down at its true size. The **Charge Nurse Resume Skeleton** below is the place to start.

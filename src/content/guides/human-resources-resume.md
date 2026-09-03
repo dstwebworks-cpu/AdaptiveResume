@@ -18,18 +18,18 @@ order: 20
 draft: false
 faq:
   - q: "Do HR certifications (PHR/SHRM-CP) matter on the resume?"
-    a: "They pass screens at larger employers and never hurt - listed exactly as held. Without one, scope carries you: headcount supported, hires per year, systems run, audits survived."
+    a: "They're often a screening filter at larger employers and never hurt - listed exactly as held. Without one, scope carries you: headcount supported, hires per year, systems run, audits survived."
   - q: "How do I show HR results without breaching confidentiality?"
     a: "Aggregates and process outcomes are yours to share: time-to-fill trends, retention movement, clean audits, programs shipped. Individual cases never appear - which interviewers read as its own competence signal."
   - q: "Generalist or specialist resume - which way should I frame?"
-    a: "Frame what you actually did most: a generalist who ran full-cycle recruiting plus benefits plus ER states all three with volumes; forcing a specialist frame you can't back narrows you into interviews you'll struggle in."
+    a: "Frame what you actually did most: a generalist who ran full-cycle recruiting plus benefits plus employee relations (ER) states all three with volumes; forcing a specialist frame you can't back narrows you into interviews you'll struggle in."
 ---
 
 An HR resume faces the toughest reader in hiring: another HR professional, who knows exactly what the job involves and exactly which phrases are filler. "Supported the full employee lifecycle" doesn't survive that reader. Credentials, systems, and caseload numbers do.
 
 ## The human resources resume credential ladder, stated exactly
 
-HR has two certifying bodies and a real hierarchy — list what you hold by its precise name: aPHR, PHR, or SPHR from HRCI; SHRM-CP or SHRM-SCP from SHRM. Holding one is a screening advantage at nearly every level; holding none is survivable if the experience carries — but never blur "SHRM member" into looking like a certification, and list an exam date honestly if one is scheduled. The reader knows the difference on sight.
+HR has two main certifying bodies and a real hierarchy — list what you hold by its precise name: aPHR, PHR, or SPHR from HRCI; SHRM-CP or SHRM-SCP from SHRM. Holding one is a screening advantage at nearly every level; holding none is survivable if the experience carries — but never blur "SHRM member" into looking like a certification, and list an exam date honestly if one is scheduled. The reader knows the difference on sight.
 
 ## Name your systems
 
@@ -51,11 +51,11 @@ FMLA and leave administration, ADA accommodations, I-9/E-Verify, OSHA recordkeep
 
 ## Coordinator to generalist to manager: show the scope shift
 
-Each HR level is a scope claim: coordinators own processes, generalists own client groups, managers own outcomes and other people. Write each past role at its true altitude, and if you absorbed generalist work in a coordinator seat — most common step in the field — claim the work explicitly ("carried generalist duties for two client groups after a team departure") rather than inflating the title. The reader has seen both versions and trusts only one. (Our [promotions guide](/guides/how-to-list-promotions-on-resume/) covers the stacked-title format for the moves that did come with new titles.)
+Each HR level is a scope claim: coordinators own processes, generalists own client groups, managers own outcomes and other people. Write each past role at its true altitude, and if you absorbed generalist work in a coordinator seat — a common step in the field — claim the work explicitly ("carried generalist duties for two client groups after a team departure") rather than inflating the title. The reader has seen both versions and trusts only one. (Our [promotions guide](/guides/how-to-list-promotions-on-resume/) covers the stacked-title format for the moves that did come with new titles.)
 
 ## Format notes
 
-One to two pages by depth of career. Single column for the very ATS your reader administers. Certifications in a labeled block; systems in a short skills section, each one backed by a bullet somewhere in the history.
+One to two pages by depth of career — two is normal once you have more than one substantive role (federal HR jobs through USAJOBS cap at two pages as of the September 2025 OPM change). Single column for the very applicant tracking system (ATS) your reader administers. Certifications in a labeled block; systems in a short skills section, each one backed by a bullet somewhere in the history.
 
 
 ## A bullet bank you can adapt - keep only what's true

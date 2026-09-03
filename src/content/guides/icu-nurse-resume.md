@@ -17,7 +17,7 @@ order: 22
 draft: false
 faq:
   - q: "Do I need CCRN to get an ICU job?"
-    a: "No. Most units require BLS and ACLS and train the rest; CCRN is the specialty's board certification and a strong differentiator, not a gate. If you're sitting for it soon, say so honestly: 'CCRN — exam scheduled [month/year].'"
+    a: "No. Many units require only BLS and ACLS to start and train the rest; CCRN is the specialty's board certification and a strong differentiator, not a gate. If you're sitting for it soon, say so honestly: 'CCRN — exam scheduled [month/year].'"
   - q: "How do I show ICU experience when my title just says 'RN'?"
     a: "The unit line does it: unit type, bed count, typical ratio, and the therapies you ran. 'RN' plus '1:2 assignments, ventilated patients, titratable drips, CRRT' reads as critical care to anyone screening for it."
   - q: "Should I list every skill from my ICU orientation checklist?"
@@ -31,8 +31,8 @@ Critical care units hire on trust. The manager reading your resume wants to know
 Hospital screening software searches for the vocabulary of critical care, and a human reads for the same words a few minutes later. The terms that typically matter:
 
 - **Certifications:** BLS and ACLS are assumed but still listed. CCRN leads the block if you hold it. Add PALS if your unit takes pediatric patients, and NIH Stroke Scale where your unit receives strokes.
-- **Therapies and equipment:** ventilator management, titratable drips (vasopressors, sedation), CRRT, arterial and central line management, hemodynamic monitoring. If your unit runs ECMO or balloon pumps, name the role you actually played with them rather than the device alone.
-- **Assessment tools:** RASS, CAM-ICU, and the sedation and weaning protocols your unit works under.
+- **Therapies and equipment:** ventilator management, titratable drips (vasopressors, sedation), CRRT (continuous renal replacement therapy), arterial and central line management, hemodynamic monitoring. If your unit runs ECMO or balloon pumps, name the role you actually played with them rather than the device alone.
+- **Assessment tools:** RASS and CAM-ICU (the sedation and delirium scales), and the sedation and weaning protocols your unit works under.
 - **Charting and ratios:** Epic or Cerner by name, and your typical assignment (1:1, 1:2).
 
 One honesty note on job codes: [O*NET profiles this work under Registered Nurses (29-1141.00)](https://www.onetonline.org/link/summary/29-1141.00). Critical care is a specialty within the RN occupation, not a separately coded job, which is exactly why your unit specifics have to carry the message the occupation code can't.
@@ -64,7 +64,7 @@ Each bullet is a frame, not a claim. If a line isn't true of your practice, it d
 
 ## How long should an ICU nurse resume be, one page or two?
 
-Two pages for experienced critical care nurses, one for new graduates or nurses new to the specialty. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a unit line atop each role. Single column, standard headings, real text rather than graphics or tables — hospital systems parse plain layouts most reliably. If you're trimming to fit, cut older non-ICU detail before you cut a single critical care specific.
+Two pages for experienced critical care nurses, one for new graduates or nurses new to the specialty (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a unit line atop each role. Single column, standard headings, real text rather than graphics or tables — hospital systems parse plain layouts most reliably. If you're trimming to fit, cut older non-ICU detail before you cut a single critical care specific.
 
 ## Moving into the ICU from another unit
 

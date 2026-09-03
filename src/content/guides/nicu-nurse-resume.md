@@ -17,7 +17,7 @@ order: 40
 draft: false
 faq:
   - q: "Do I need RNC-NIC to get a NICU job?"
-    a: "No. Most units require BLS and NRP and train the rest at the bedside; RNC-NIC is the specialty's board certification through the NCC (National Certification Corporation) and a strong differentiator, not a gate. It also requires roughly two years of NICU experience to sit for, so newer nurses can't hold it yet. If you're scheduled to test, say so honestly: 'RNC-NIC — exam scheduled [month/year].'"
+    a: "No. Many units require only BLS and NRP to start and train the rest at the bedside; RNC-NIC is the specialty's board certification through the NCC (National Certification Corporation) and a strong differentiator, not a gate. It also requires roughly two years of NICU experience to sit for, so newer nurses can't hold it yet. If you're scheduled to test, say so honestly: 'RNC-NIC — exam scheduled [month/year].'"
   - q: "How do I show NICU experience when my title just says 'RN'?"
     a: "The unit line does it: acuity level, bed count, typical assignment, and the babies you actually cared for. 'RN' plus 'Level III NICU, ventilated and CPAP neonates, umbilical lines, gavage feeds' reads as neonatal critical care to anyone screening for it."
   - q: "What's the difference between a Level II, III, and IV NICU on a resume?"
@@ -50,7 +50,7 @@ The American Academy of Pediatrics defines neonatal care in levels, and hiring m
 
 - **Level II (special care nursery):** stable or moderately ill infants, some born prematurely; short-term respiratory support and feeding support, but transferred out when acuity climbs.
 - **Level III (neonatal intensive care):** full intensive care, including mechanically ventilated infants, umbilical and central lines, and sustained life support for the smallest and sickest.
-- **Level IV (regional NICU):** everything a Level III does plus on-site pediatric surgery, ECMO, and complex congenital care — the highest acuity there is.
+- **Level IV (regional NICU):** everything a Level III does plus on-site pediatric surgery, ECMO (extracorporeal membrane oxygenation), and complex congenital care — the highest acuity there is.
 
 Put your level in the unit line and let it do the work the occupation code can't. If you've floated or transferred across levels, say which and for how long. A nurse who ran Level IV surgical neonates has evidence a Level II resume can't imply, and a nurse with three solid years of Level III shouldn't hide behind "NICU experience."
 
@@ -72,7 +72,7 @@ List exactly what you hold, with real status. Nothing you're "about to take" unl
 
 **Lines and access.** Umbilical arterial and venous (UAC/UVC) lines, PICC lines, and the monitoring and care they require. If you assisted with insertion versus managed after placement, describe the real role — the difference matters to the person hiring.
 
-**Feeding and nutrition.** Gavage (NG/OG) feeds, feeding advancement, TPN and lipids, and breastfeeding and lactation support. Feeding is a large share of daily NICU work and belongs on the page.
+**Feeding and nutrition.** Gavage (NG/OG tube) feeds, feeding advancement, TPN (total parenteral nutrition) and lipids, and breastfeeding and lactation support. Feeding is a large share of daily NICU work and belongs on the page.
 
 **Developmental and family-centered care.** Neuroprotective and developmental care, kangaroo (skin-to-skin) care, cue-based feeding, and the family teaching and discharge preparation that carry real weight in this specialty. Parents of NICU babies remember their nurses; managers know it.
 
@@ -103,8 +103,8 @@ Each bullet is a frame, not a claim. If a line isn't true of your practice, it d
 
 Hospital filters read for the vocabulary of neonatal critical care, and a human reads for the same words minutes later. The terms that typically matter: NICU, neonatal intensive care, Level II / III / IV, ventilator, CPAP, high-flow, surfactant, umbilical line, UAC, UVC, PICC, gavage feeds, TPN, developmental care, family-centered care, kangaroo care, NRP, S.T.A.B.L.E., RNC-NIC, BLS, PALS, Epic, and Cerner.
 
-One honesty note on job codes: [O*NET profiles this work under Registered Nurses (29-1141.00)](https://www.onetonline.org/link/summary/29-1141.00). Neonatal intensive care is a specialty within the RN occupation, not a separately coded job — which is exactly why your acuity level and hands-on specifics have to carry the message the occupation code can't. If you also work critical care elsewhere, our [ICU nurse resume guide](/guides/icu-nurse-resume) covers drips, vents, and CRRT the same honest way.
+One honesty note on job codes: [O*NET profiles this work under Registered Nurses (29-1141.00)](https://www.onetonline.org/link/summary/29-1141.00). Neonatal intensive care is a specialty within the RN occupation, not a separately coded job — which is exactly why your acuity level and hands-on specifics have to carry the message the occupation code can't. If you also work critical care elsewhere, our [ICU nurse resume guide](/guides/icu-nurse-resume/) covers drips, vents, and CRRT the same honest way.
 
 The highest-risk lines are the ones that overstate scope — a Level you didn't work, a line you watched rather than managed, or a credential misnamed or not yet held. NICU is a small specialty, and employers check.
 
-The **Role Skills Checklist** below helps you inventory what your bedside work actually proves, which for most NICU nurses is considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, acuity levels, and certifications, propose the lines and credentials that history supports — each one offered as a question, not a decision made for you — and ask you to confirm every item before it appears. We never add a credential, a level, or a therapy you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your bedside work actually proves, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, acuity levels, and certifications, propose the lines and credentials that history supports — each one offered as a question, not a decision made for you — and ask you to confirm every item before it appears. We never add a credential, a level, or a therapy you didn't tell us about.

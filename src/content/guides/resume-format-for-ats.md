@@ -1,6 +1,6 @@
 ---
 title: "Resume Format for ATS: What Actually Matters (and What's Myth)"
-description: "The truth about ATS-friendly formatting: which layouts parse cleanly, which genuinely break, and the scare-stats you can safely ignore. Specific, tested, honest."
+description: "The truth about ATS-friendly formatting: which layouts parse cleanly, which genuinely break, and the scare-stats you can safely ignore. Specific and honest."
 seoTitle: "Resume Format for ATS: What Actually Matters"
 seoDescription: "The right resume format for ATS, without the scare-mongering: columns, headings, fonts, file type, dates — what parsers really read and what genuinely breaks."
 segment: "job-seekers"
@@ -21,10 +21,10 @@ faq:
   - q: "Will two columns get my resume rejected?"
     a: "Nothing about a layout triggers a rejection — parsing isn't a pass/fail gate. A short two-column skills list usually parses fine. The real risk is putting your work history itself in columns, where a parser reading across the page can scramble which dates belong to which job."
   - q: "Do ATS really reject 75% of resumes automatically?"
-    a: "No. That statistic doesn't trace to any solid evidence — it's repeated industry folklore. Most systems store, parse, and organize applications for humans to review. Automatic knockouts exist only for explicit employer-set questions, like work authorization or a required license."
+    a: "No. That statistic doesn't trace to any solid evidence — it's repeated industry folklore. The typical system stores, parses, and organizes applications for humans to review. Automatic knockouts exist only for explicit employer-set questions, like work authorization or a required license."
 ---
 
-Somewhere along the way you were told resumes get rejected by software before a human ever sees them — and probably shown a scary statistic to prove it. Take a breath. Formatting for applicant tracking systems is real, but it's plumbing, not wizardry: the software needs to read your file and drop your jobs, dates, and skills into the right fields. Here's the resume format that parses cleanly, what genuinely breaks, and the myths you can stop worrying about.
+Somewhere along the way you were told resumes get rejected by software before a human ever sees them — and probably shown a scary statistic to prove it. Take a breath. Formatting for applicant tracking systems (the ATS) is real, but it's plumbing, not wizardry: the software needs to read your file and drop your jobs, dates, and skills into the right fields. Here's the resume format that parses cleanly, what genuinely breaks, and the myths you can stop worrying about.
 
 ## First, the myth to clear out
 

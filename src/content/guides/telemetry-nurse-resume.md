@@ -46,7 +46,7 @@ The work that separates tele from med-surg is recognition and response — say i
 
 ## Writing the move to ICU or step-down
 
-Tele-to-ICU is one of the most common moves in nursing, and the resume version of it is scope-forward, not aspiration-forward. Show the ICU-adjacent work you already did: step-down patients held on the unit, drips managed, codes participated in, CRRT/vent exposure if any. Claim what happened, not readiness adjectives — "assisted in 4 codes as recorder and compressor" outworks "ready for critical care." If you're mid-course on CCRN eligibility or an ECCO program, list it as in progress, clearly labeled.
+Tele-to-ICU is one of the most common moves in nursing, and the resume version of it is scope-forward, not aspiration-forward. Show the ICU-adjacent work you already did: step-down patients held on the unit, drips managed, codes participated in, CRRT/vent exposure if any. Claim what happened, not readiness adjectives — "assisted in 4 codes as recorder and compressor" outworks "ready for critical care." If you're mid-course on CCRN eligibility or an ECCO (critical care orientation) program, list it as in progress, clearly labeled.
 
 ## Travel and float tele nurses
 
@@ -54,7 +54,7 @@ List each contract honestly — facility, unit type, weeks — rather than blurr
 
 ## Format notes
 
-Two pages is normal for an experienced RN; new grads hold to one. Single column for the ATS, certs in a dedicated block (hospital parsers key on them), and the unit-description line at the top of each role.
+Two pages is normal for an experienced RN; new grads hold to one (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Single column for the applicant tracking system (ATS), certs in a dedicated block (hospital parsers key on them), and the unit-description line at the top of each role.
 
 
 ## A bullet bank you can adapt - keep only what's true

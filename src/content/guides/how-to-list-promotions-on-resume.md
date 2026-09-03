@@ -25,7 +25,7 @@ faq:
     a: "Company-to-company advancement shows as increasing scope across entries - each new role's first bullet states what got bigger (team, budget, territory). The ladder reads through the numbers."
 ---
 
-A promotion is the best evidence a resume can carry: another employer already bet on you and won. But most resumes bury it — two titles mashed into one entry, or split into what looks like two separate jobs. Either way, the reader misses the story. Here's how to make the climb impossible to miss.
+A promotion is the best evidence a resume can carry: another employer already bet on you and won. But many resumes bury it — two titles mashed into one entry, or split into what looks like two separate jobs. Either way, the reader misses the story. Here's how to make the climb impossible to miss.
 
 ## How to list promotions on a resume: the two-second rule
 
@@ -67,7 +67,7 @@ Reorgs rename people without promoting them. Don't dress a re-title up as a clim
 
 Common and frustrating: you absorbed the bigger job, the title never followed. Your resume can say exactly what's true — "took over scheduling and vendor orders for the department (responsibilities of the lead role)" — without inventing a title you never held. The scope is real; claim the scope, not the rank.
 
-## Will an ATS read stacked titles correctly?
+## Will an ATS (applicant tracking system) read stacked titles correctly?
 
 Mostly yes — if you keep the ladder machine-simple:
 
