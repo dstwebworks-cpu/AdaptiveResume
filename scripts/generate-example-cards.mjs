@@ -161,6 +161,47 @@ export const PAIRS = {
     before: "Assisted the special education teacher with daily classroom activities and student needs.",
     after: "One-to-one aide for a [grade]-grade student in an inclusion setting; ran the behavior intervention plan, collected daily data on [N] IEP goals, and supported [reading/math] instruction in small groups of [N].",
   },
+  // Wave 5, 09/04 (pairs extracted from each guide body verbatim)
+  "special-education-teacher-resume": {
+    before: "Taught special education and supported students with IEPs.",
+    after: "Case manager for [N] students with IEPs in a [resource/inclusion] setting, grades [X–Y]; wrote and led [N] annual IEP meetings a year, progress-monitored [N] goals each grading period, and directed [N] paraprofessionals.",
+  },
+  "labor-and-delivery-nurse-resume": {
+    before: "Registered nurse providing care to mothers and newborns in the labor and delivery unit.",
+    after: "L&D RN, [16]-bed unit supporting [180] births per month; labor through delivery and recovery, OB triage rotation, circulating for cesarean sections; [Epic] charting.",
+  },
+  "hvac-technician-resume": {
+    before: "Responsible for servicing and repairing residential HVAC systems.",
+    after: "Residential service and repair, [6–8] calls a day across gas furnaces, heat pumps, and split systems; diagnosed refrigerant, airflow, and low-voltage control faults; [90]% first-visit completion; EPA 608 Universal.",
+  },
+  "journeyman-electrician-resume": {
+    before: "Journeyman electrician responsible for installing and maintaining electrical systems on commercial job sites.",
+    after: "Journeyman electrician ([state] license); commercial build-outs and service upgrades; bent and ran EMT and rigid conduit, installed [N] panels and [N]-amp services, led [N] apprentices; work to the NEC edition adopted in [jurisdiction].",
+  },
+  "diesel-mechanic-resume": {
+    before: "Responsible for maintenance and repair of diesel trucks and equipment.",
+    after: "Maintained a [120]-unit fleet of Class 8 tractors and trailers; completed [30+] preventive maintenance services per month, diagnosed engine and aftertreatment faults with Cummins INSITE and JPRO, and performed DOT annual inspections as a qualified inspector under 49 CFR 396.19.",
+  },
+  "forklift-operator-resume": {
+    before: "Operated forklift to move products around the warehouse.",
+    after: "Ran a stand-up reach truck and order picker on second shift, trained and evaluated under OSHA 1910.178; picked ~[N] lines/hour at [N]% scanner accuracy in [SAP EWM / Manhattan]; [N] months incident-free.",
+  },
+  "cyber-security-resume": {
+    before: "Monitored security alerts and escalated incidents to senior analysts.",
+    after: "Tier 1 analyst on a 24/7 SOC (security operations center) team of [N]; triaged ~[N] alerts per shift in Microsoft Sentinel, documented findings against MITRE ATT&CK techniques, and escalated confirmed incidents to tier 2 with host, user, and timeline attached.",
+  },
+  "radiologic-technologist-resume": {
+    before: "Performed X-ray exams on patients as ordered by physicians.",
+    after: "R.T.(R)(ARRT) in a [N]-bed Level [II] trauma center; [N] exams per shift across general radiography, portable/ED imaging, and C-arm fluoroscopy in the OR; images pushed to [PACS system] and documented in Epic.",
+  },
+  "financial-advisor-resume": {
+    before: "Responsible for managing client relationships and providing comprehensive financial planning services.",
+    after: "Lead advisor for [N] households, roughly [$X]M in assets under management; delivered [N] full financial plans last year; [N]% household retention across [N] years.",
+  },
+  "recruiter-resume": {
+    before: "Responsible for full-cycle recruiting and sourcing candidates for open positions.",
+    after: "Carried [18-25] open reqs across engineering and product; filled [14] roles last quarter at a [38]-day average time-to-fill and a [92%] offer-accept rate.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
