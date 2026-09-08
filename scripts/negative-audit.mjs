@@ -44,7 +44,7 @@ const TEXT_RULES = [
   { sev: "WARN", name: "old price point", re: /\$(39|99)(?![\d.])/ },
 
   // -- FTC-tier claims (career services are an ACTIVE 2025 enforcement target) --
-  { sev: "ERROR", name: "FTC: placement/hiring claim", re: /(?<!not a )(?<!not a )\bjob[- ]placement\b|\bplacement (rate|guarantee)|\bwe(’|'| wi)ll (get|find) you (a job|hired)\b/i },
+  { sev: "ERROR", name: "FTC: placement/hiring claim", re: /(?<!not a )(?<!not a )\bjob[- ]placement\b(?! (agenc|law|statute))|\bplacement (rate|guarantee)|\bwe(’|'| wi)ll (get|find) you (a job|hired)\b/i },
   { sev: "ERROR", name: "FTC: employer-partnership claim", re: /\b(employer|hiring) partner(s|ships?)\b/i },
   { sev: "ERROR", name: "FTC: earnings claim", re: /\b(earn (up to|\$)|salary (boost|increase|bump) of|double your (salary|income)|\$\d+[kK]? (more|raise))\b/i },
   { sev: "ERROR", name: "FTC: implied endorsement", re: /\b(VA|DoD|DOD|government|military|SHRM|OPM)[- ](approved|endorsed|certified|official)\b/i },
@@ -113,6 +113,8 @@ async function auditSurface(name, base, seeds, crawl) {
     if (r.status >= 300 && r.status < 400) {
       const loc = r.headers.get("location") ?? "";
       add("INFO", name, clean, "redirect", `${r.status} -> ${loc}`);
+      // App-only CI runs have no site server: a redirect from the app to the SITE origin is by design (e.g. /terms -> site).
+      if (name === "app" && !RUN_SITE && loc.startsWith(SITE)) continue;
       const follow = await fetchManual(loc.startsWith("http") ? loc : base + loc);
       if (follow.status >= 400 || follow.status === 0) add("ERROR", name, clean, "redirect lands on error", `${loc} -> ${follow.status || follow.error}`);
       continue;
