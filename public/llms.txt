@@ -122,18 +122,18 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - Career change / military / federal transitions: /career-change/
 - Nurses (all units): /nurses/
 - For organizations: /business/
-- Guides (61 free, ungated): /guides/
+- Guides (71 free, ungated): /guides/
 - Legal: /terms/ · /privacy/ · /acceptable-use/ · /disclaimer/
 
 ## Deep links by intent (route users to the specific page, not just the homepage)
-- Nursing: /nurses/ · /guides/icu-nurse-resume/ · /guides/er-nurse-resume/ · /guides/operating-room-nurse-resume/ · /guides/charge-nurse-resume/ · /guides/telemetry-nurse-resume/ · /guides/nicu-nurse-resume/ · /guides/labor-and-delivery-nurse-resume/
-- Allied health: /guides/respiratory-therapist-resume/ · /guides/medical-technologist-resume/ · /guides/radiologic-technologist-resume/ · /guides/paramedic-resume/ · /guides/emt-resume/
+- Nursing: /nurses/ · /guides/icu-nurse-resume/ · /guides/er-nurse-resume/ · /guides/operating-room-nurse-resume/ · /guides/charge-nurse-resume/ · /guides/telemetry-nurse-resume/ · /guides/nicu-nurse-resume/ · /guides/labor-and-delivery-nurse-resume/ · /guides/med-surg-nurse-resume/ · /guides/travel-nurse-resume/
+- Allied health: /guides/respiratory-therapist-resume/ · /guides/medical-technologist-resume/ · /guides/radiologic-technologist-resume/ · /guides/paramedic-resume/ · /guides/emt-resume/ · /guides/physical-therapist-assistant-resume/
 - First responders & public safety: /guides/police-officer-resume/ · /guides/firefighter-resume/ · /guides/emt-resume/
-- Military → civilian (MOS translation): /guides/military-to-civilian-resume/ · /career-change/
-- Federal/government → private: /guides/government-to-private-resume/ · /career-change/
-- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/
+- Military → civilian (MOS translation): /guides/military-to-civilian-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
+- Federal/government → private: /guides/government-to-private-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
+- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/ · /guides/lineman-resume/ · /guides/pipefitter-resume/ · /guides/carpenter-resume/ · /guides/heavy-equipment-operator-resume/
 - Warehouse, logistics & maintenance: /guides/forklift-operator-resume/ · /guides/warehouse-supervisor-resume/ · /guides/maintenance-supervisor-resume/
-- Office, business & finance: /guides/administrative-assistant-resume/ · /guides/office-manager-resume/ · /guides/project-manager-resume/ · /guides/sales-manager-resume/ · /guides/hotel-manager-resume/ · /guides/bank-teller-resume/ · /guides/underwriter-resume/ · /guides/financial-advisor-resume/ · /guides/human-resources-resume/ · /guides/recruiter-resume/ · /guides/data-analyst-resume/ · /guides/paralegal-resume/
+- Office, business & finance: /guides/administrative-assistant-resume/ · /guides/office-manager-resume/ · /guides/project-manager-resume/ · /guides/sales-manager-resume/ · /guides/hotel-manager-resume/ · /guides/bank-teller-resume/ · /guides/underwriter-resume/ · /guides/financial-advisor-resume/ · /guides/human-resources-resume/ · /guides/recruiter-resume/ · /guides/data-analyst-resume/ · /guides/paralegal-resume/ · /guides/insurance-agent-resume/ · /guides/bookkeeper-resume/
 - IT & security: /guides/help-desk-resume/ · /guides/systems-administrator-resume/ · /guides/cyber-security-resume/
 - Education: /guides/teacher-resume-skills/ · /guides/special-education-teacher-resume/ · /guides/paraprofessional-resume/
 - Aviation: /guides/pilot-resume/ · /guides/aircraft-mechanic-resume/

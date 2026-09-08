@@ -202,6 +202,46 @@ export const PAIRS = {
     before: "Responsible for full-cycle recruiting and sourcing candidates for open positions.",
     after: "Carried [18-25] open reqs across engineering and product; filled [14] roles last quarter at a [38]-day average time-to-fill and a [92%] offer-accept rate.",
   },
+  "med-surg-nurse-resume": {
+    before: "Registered nurse providing patient care on a busy medical-surgical unit.",
+    after: "Med-surg RN, [32]-bed unit with telemetry overlay; [1:5] ratio, post-surgical and general medicine patients; charge relief and preceptor for [3] new graduates; [Epic] charting.",
+  },
+  "travel-nurse-resume": {
+    before: "Travel RN providing patient care at various hospitals across multiple states.",
+    after: "Travel RN, [Facility] ([City, State]); [24]-bed Medical ICU, [1:2] ratio; [13]-week contract, extended [once]; floated to [step-down] as needed; [Epic] charting.",
+  },
+  "insurance-agent-resume": {
+    before: "Licensed insurance agent responsible for selling policies and providing excellent customer service to clients.",
+    after: "Licensed P&C producer ([state], Property and Casualty); managed a [$1.8M] premium book of [900] personal-lines policies at [92]% retention, appointed with [N] carriers; quoted in [EZLynx], serviced in [Applied Epic].",
+  },
+  "lineman-resume": {
+    before: "Lineman responsible for installing, maintaining, and repairing overhead and underground electrical lines in a safe manner.",
+    after: "Journeyman Lineman, [utility/contractor] distribution crew ([4]-person); energized rubber-glove work to [12.47] kV, hot-stick work to [69] kV; set and framed [N] poles per month, built transformer banks, and ran URD; Class A CDL, digger derrick and bucket truck.",
+  },
+  "bookkeeper-resume": {
+    before: "Responsible for bookkeeping duties including accounts payable, accounts receivable, and reconciliations for a small business.",
+    after: "Full-charge bookkeeper for [3] entities, [400] transactions per month in [QuickBooks Online]; reconciled [9] bank and credit card accounts, closed the books within [5] business days of month-end, and filed [1099s] and [state] sales tax.",
+  },
+  "physical-therapist-assistant-resume": {
+    before: "Physical therapist assistant responsible for treating patients and assisting the physical therapist with rehabilitation.",
+    after: "PTA, [outpatient orthopedic] clinic; [12–14] patients per day under PT plans of care — post-surgical knee and shoulder, low back, and balance cases; manual therapy, therapeutic exercise, and modalities; [WebPT] documentation.",
+  },
+  "heavy-equipment-operator-resume": {
+    before: "Operated heavy equipment on construction sites and followed all safety procedures.",
+    after: "Excavator and dozer operator on [civil site-work] crews; ran [Caterpillar 336]-class excavators and [D6]-class dozers with [Trimble Earthworks] grade control; [N] cubic yards moved and [N] linear feet of storm pipe set per [month]; CDL Class A; incident-free since [year].",
+  },
+  "pipefitter-resume": {
+    before: "Pipefitter responsible for installing and repairing piping systems on industrial and commercial projects.",
+    after: "Journeyman pipefitter, UA Local [N]; fabricated and installed carbon steel and stainless process piping to ASME B31.3 from isometrics and P&IDs; socket-weld and butt-weld fit-up, hydrostatic testing, and [N] valve installations on a [refinery] turnaround.",
+  },
+  "carpenter-resume": {
+    before: "Carpenter responsible for framing, finish work, and other duties on residential and commercial projects.",
+    after: "Lead carpenter on a [4]-person crew; rough framing and layout on [12] single-family homes per year ([2,400]–[3,200] sq ft each), plus interior trim, door hanging, and punch-list closeout; read architectural plans and set layout from them.",
+  },
+  "how-to-list-security-clearance-on-resume": {
+    before: "Security clearance, cleared for government work.",
+    after: "Active Top Secret/SCI — DoD, investigation completed [year]; enrolled in Continuous Vetting.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
