@@ -1,0 +1,322 @@
+---
+import Base from '../layouts/Base.astro';
+// Veterans landing page (09/09 wave 8). Message-matched to "veteran resume help"
+// (500/mo, $10.36 top bid), which had no dedicated page. Structure, components, capture
+// form, pricing block, and styles mirror nurses.astro exactly. Pre-launch CTA = waitlist
+// capture; PUBLIC_LAUNCHED=1 flips the CTAs to the app exactly as index.astro does.
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+const site = Astro.site ?? new URL('https://adaptiveresume.com');
+const faq = [
+  { q: 'Do I list my security clearance?',
+    a: "Yes, when it is true and the jobs you want care about it. The line is level, status, and date, and nothing from the classified side: no program names, no project details. We ask what your record shows and write only that. We never write a lapsed clearance as active and never write 'clearable', because only the government decides that. The exact line, and the difference between active, current, and eligible, is in our security clearance guide." },
+  { q: 'How far back do I go?',
+    a: "Your most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. A twenty-year career does not need every duty station spelled out, and a civilian reader will not follow it if it is. Each assignment stated at its true size (people led, equipment signed for, what you ran) fits in two pages, which is normal once you have more than one substantive role. Nothing you want kept gets dropped. You decide, line by line." },
+  { q: 'Do you translate my MOS, rate, or AFSC?',
+    a: "Yes, in the targeted build, and we do it with you: we map your specialty to the nearest honest civilian function, toward the posting you have open, and show you each line before it lands. The $49 build makes your resume complete and honest as it stands; the civilian-language translation is the $149 targeted build's job. We never claim a civilian job title, license, or certification you have not actually earned; training you completed is listed as training." },
+  { q: 'Can I use this for USAJOBS?',
+    a: "Use it for the private-sector side of your search. A federal resume is a different document: USAJOBS accepts only two pages as of the September 2025 OPM change, and federal applications ask for details a private-sector resume leaves off. Our build is aimed at civilian employers and the screening software they run. If you are running both tracks, keep the federal version in the format USAJOBS asks for and send ours to industry." },
+  { q: 'Why $149 instead of the $49 build?',
+    a: "The $49 build makes your one resume complete and honest. The $149 targeted build aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. The full breakdown is on the pricing page. If you have a specific civilian posting open in another tab, that's the one." },
+  { q: 'Can I buy from any state?',
+    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+];
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.href },
+    { '@type': 'ListItem', position: 2, name: 'Veterans' },
+  ],
+};
+const guides = [
+  { href: '/guides/military-to-civilian-resume/', unit: 'Translation', title: 'MOS, rank, and duties into civilian language, nothing inflated' },
+  { href: '/guides/how-to-list-security-clearance-on-resume/', unit: 'Clearance', title: 'The exact line, active vs. eligible, and what never goes on the page' },
+  { href: '/guides/government-to-private-resume/', unit: 'Federal to private', title: 'Grade and series into scope, agency language into business language' },
+  { href: '/guides/how-to-list-certifications-on-resume/', unit: 'Certifications', title: 'Where they go, the format line, in-progress and expired handled honestly' },
+  { href: '/guides/skills-you-forgot-by-trade/', unit: 'Skills', title: 'The hands-on skills routine made invisible, and how to find them' },
+  { href: '/guides/career-change-transferable-skills/', unit: 'Career change', title: 'Transferable skills mapped to a new field, truthfully' },
+];
+---
+<Base
+  title="Veteran Resume Help — Built From Your Real Service"
+  description="Veteran resume help built for civilian screening: clearance as held, scope at true size, service translated on the targeted build. You confirm every line; nothing made up. From $49."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Veteran resume help — separating, retiring, Guard and Reserve, and veterans already in civilian work</p>
+      <h1>The veteran resume help that puts your <span class="hl">real service</span> on the page.</h1>
+      <p class="lede">
+        Your resume says "LS2, USS [ship]" or "supervised junior sailors." Your work was [N] people led,
+        $[N] in equipment signed for, a maintenance program you ran, training you delivered, a clearance
+        you held. We work backwards through your real service together, show you what you left off, and
+        you confirm every line — so the finished resume is complete, honest, and reads cleanly to the
+        software that screens it.
+      </p>
+      <div class="cta-row">
+        {LAUNCHED
+          ? <>
+              <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first</a>
+            </>
+          : <>
+              <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first — free, no sign-up</a>
+            </>}
+      </div>
+      <ul class="pills">
+        <li class="pill">Nothing made up — ever</li>
+        <li class="pill">You approve every line</li>
+        <li class="pill">One-time payment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Who this is for</p>
+      <h2>Four moves, one problem: the resume undersells the service</h2>
+      <div class="grid cols-4">
+        <div class="card">
+          <h3>Separating or retiring from active duty</h3>
+          <p>Your TAP (Transition Assistance Program) draft is a correct starting point. The last mile is yours: the collateral duties, the property you signed for, the people you trained, the schools you finished. We work backwards through each one with you and put it on the page at civilian scope. A SkillBridge program (industry training, an apprenticeship, or an internship in your last 180 days of service) gets its own dated line with the employer and what you did there. You confirm the wording, line by line.</p>
+        </div>
+        <div class="card">
+          <h3>A veteran moving up in civilian work</h3>
+          <p>Your service is now the bottom half of the page and the civilian job is the top. Both need
+          to be at true size: the civilian role with its systems and numbers, the service years as scope
+          and results rather than a duty list. We find what you left off in both halves and you confirm
+          each line.</p>
+        </div>
+        <div class="card">
+          <h3>Guard or Reserve: two careers on one page</h3>
+          <p>Drill weekends, annual training, and activations alongside a civilian job. We lay both out
+          honestly: the civilian role as the main line, the Guard or Reserve role as its own entry with
+          rank, unit type, and what you led, and each mobilization as a dated line, so no reader mistakes
+          one career for a gap in the other.</p>
+        </div>
+        <div class="card">
+          <h3>Leaving federal work for private industry</h3>
+          <p>A GS grade, a series number, agency language, and a resume that runs five pages. The
+          <a href="/guides/government-to-private-resume/">government-to-private guide</a> shows the
+          conversion; we do that work with you, turning grade and series into scope and agency wording
+          into business wording, and you confirm every line.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">What civilian recruiters actually screen for</p>
+      <h2>The words civilian screening software looks for — and a hiring manager reads for a minute later</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Your MOS, rate, or AFSC as a civilian title</h3>
+          <p>Screening software searches for civilian job titles and skills, not a rating or a four-character code. We map
+          your specialty to the nearest honest civilian function and never claim a title you did not
+          hold. The full method is in our
+          <a href="/guides/military-to-civilian-resume/">military-to-civilian resume guide</a>; on your resume, the $149 targeted build does it with you.</p>
+        </div>
+        <div class="card">
+          <h3>Security clearance, written as held</h3>
+          <p>Level, status, and date, near the top, and nothing from the classified side. We ask what
+          your record shows and write only that; we never write "clearable" or a lapsed clearance as
+          active. The exact line, and what active, current, and eligible each mean, is in our
+          <a href="/guides/how-to-list-security-clearance-on-resume/">security clearance guide</a>.</p>
+        </div>
+        <div class="card">
+          <h3>Certifications earned through military training</h3>
+          <p>Many military schools map to civilian credentials, and the services' COOL programs
+          (Credentialing Opportunities On-Line: Army COOL, Navy COOL, Marine Corps COOL, and Air Force
+          COOL) show which ones fit your specialty. A civilian credential you earned goes on the page by
+          its civilian name and date. If you drove for the military, the FMCSA (Federal Motor Carrier
+          Safety Administration) military skills test waiver can let your state waive the CDL driving
+          skills test; the CDL goes on your resume once the state issues it, not before. Training you
+          completed without the civilian credential is listed as training.</p>
+        </div>
+        <div class="card">
+          <h3>Leadership scope as people and equipment value</h3>
+          <p>"Squad leader" says less than "[N]-person team, $[N] in equipment signed for, [N] vehicles
+          maintained to [N]% readiness." Head count, dollar value, inspection results, and the training
+          you ran are the lines a civilian manager reads and instantly understands. Numbers you actually knew go in; a number nobody could check stays off the page.</p>
+        </div>
+        <div class="card">
+          <h3>Awards, written plainly</h3>
+          <p>Name the award in full, then the reason: "[award] for [the accomplishment it recognized], [year]." A civilian manager cannot rank one medal against another, but can read "for clearing a [N]-item parts backlog in [N] months." The reason is what transfers; the award is the proof it happened.</p>
+        </div>
+        <div class="card">
+          <h3>Federal applications: the USAJOBS two-page rule</h3>
+          <p>If federal is one track of your search, know that applications through USAJOBS cap at two
+          pages as of the September 2025 OPM (Office of Personnel Management) change, and a federal
+          resume asks for details a private-sector one leaves off. Veterans' preference is a fact of federal hiring only: under federal law (5 U.S.C. 2108, administered by OPM), eligible veterans are ranked ahead of non-preference applicants when an agency rates by category, or get 5 or 10 points added to a passing score when it rates numerically. You claim it with your DD-214 (and the SF-15 for 10-point preference). It has no place on the private-sector resume, and we never write it there.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">What the rebuild looks like</p>
+      <h2>Same true service — a resume that finally says what it was</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Before</h3>
+          <p class="muted">"LS2, USS [ship]. Responsible for supply and inventory. Supervised junior sailors. Handled hazmat."</p>
+        </div>
+        <div class="card">
+          <h3>After — every line confirmed by the veteran</h3>
+          <p>"Supply and inventory lead (Navy Logistics Specialist, E-5), USS [ship]: [N] line items and $[N]
+          in parts across [N] storerooms · [N]% inventory accuracy across [N] audits · Supervised and trained
+          [N] sailors · Hazardous materials handling, Navy course completed [year] · Secret clearance, DoD: eligibility current, last held access [month/year]."</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The line-item
+      count, the dollar value, the audit results, the sailors trained, the clearance date: the veteran
+      had all of it. It just wasn't written down at its real size, or in words a civilian reader knows.
+      We propose each line as a question; the brackets get filled with your real numbers, or the line
+      doesn't go in.</p>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="container">
+      <p class="eyebrow">Pricing</p>
+      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <div class="grid cols-2">
+        <div class="card price">
+          <h3>Base build</h3>
+          <p class="amount">$49<span>one-time</span></p>
+          <p class="muted">Most veterans start here: your one resume made complete and honest — clearance line as held, scope at true size, certifications as earned, every assignment at its real weight — everything you've earned, finally on paper.</p>
+          <ul class="ticks">
+            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>You confirm what's yours — nothing lands without your say-so</li>
+            <li>Reads cleanly for civilian screening software, and for the manager after it</li>
+          </ul>
+        </div>
+        <div class="card price featured">
+          <span class="tag-premium">For a specific job posting</span>
+          <h3>Targeted build</h3>
+          <p class="amount">$149<span>one-time</span></p>
+          <p class="muted">Have the posting open in another tab? This aims your resume at that one
+          job.</p>
+          <ul class="ticks">
+            <li>Your experience translated into the language that posting uses</li>
+            <li>25 interview questions for that role</li>
+            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. One-time payment, no revision haggling. Paid a resume service already and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
+      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <p class="eyebrow">Guides for veterans</p>
+      <h2>Free reading while you decide</h2>
+      <ul class="guide-list">
+        {guides.map((g) => (
+          <li><a href={g.href}><b>{g.unit}</b><span>{g.title}</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="get-started">
+    <div class="container narrow" style="text-align:center">
+      {LAUNCHED ? (
+        <>
+          <h2>Let's see what your service has been leaving off</h2>
+          <p class="lede">Create your account, upload your resume, and we'll dig in together — assignment
+          by assignment, credential by credential. You approve every line before anything lands.</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+          </div>
+          <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
+        </>
+      ) : (
+        <>
+          <h2>We launch in October 2026 — be first in line</h2>
+          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
+          build is locked in</b>, and our Military-to-Civilian Skills Translator (a ready-to-use Word
+          worksheet that walks your MOS, rate, or AFSC into civilian wording) is yours the moment you join.
+          We'll tell you the moment it's live, plus the occasional genuinely useful note on veteran
+          resumes. No spam.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="veterans-page" />
+            <input type="hidden" name="redirect" value="/veterans/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+          </form>
+          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/military-to-civilian-skills-translator.docx" download>Download your Military-to-Civilian Skills Translator</a>
+          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+        </>
+      )}
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container narrow">
+      <h2>Common questions</h2>
+      {faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <script>
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) {
+      const done = document.getElementById('captureDone');
+      const err = document.getElementById('captureErr');
+      const form = document.querySelector('.capture-form');
+      if (joined === '1' && done) {
+        done.classList.remove('hide');
+        document.getElementById('captureGift')?.classList.remove('hide');
+        document.querySelector('.capture-note')?.classList.add('hide');
+        if (form instanceof HTMLElement) form.style.display = 'none';
+      }
+      else if (err) { err.classList.remove('hide'); }
+    }
+  </script>
+
+  <style>
+    .container.narrow { max-width: 760px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
+    .grid.cols-4 { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1080px) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
+    .guide-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    @media (min-width: 720px) { .guide-list { grid-template-columns: repeat(2, 1fr); } }
+    .guide-list a { display: flex; gap: 12px; align-items: baseline; padding: 12px 16px; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; }
+    .guide-list a:hover { border-color: var(--accent-strong); }
+    .guide-list b { flex: 0 0 9.5em; }
+    .guide-list span { color: var(--ink-soft); }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .hide { display: none; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    .small { font-size: .9rem; }
+    .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; background: var(--card); }
+    .faq-item summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+    .faq-item p { margin: 10px 0 2px; color: var(--ink-soft); }
+  </style>
+</Base>

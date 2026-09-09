@@ -122,6 +122,7 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - Burned by a paid resume service (rebound rebuilds): /fix/
 - Career change / military / federal transitions: /career-change/
 - Nurses (all units): /nurses/
+- Veterans and transitioning service members: /veterans/
 - For organizations: /business/
 - Guides (76 free, ungated): /guides/
 - Legal: /terms/ · /privacy/ · /acceptable-use/ · /disclaimer/
