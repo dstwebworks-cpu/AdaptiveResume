@@ -118,6 +118,7 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - Rewrite my resume: /rewrite-my-resume/
 - Update my resume: /update-my-resume/
 - Resume makeover: /resume-makeover/
+- Resume editing service (no human editor, rebuilt from your facts): /resume-editing-service/
 - Burned by a paid resume service (rebound rebuilds): /fix/
 - Career change / military / federal transitions: /career-change/
 - Nurses (all units): /nurses/

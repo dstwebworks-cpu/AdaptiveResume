@@ -33,6 +33,9 @@ const PAGES = [
   { path: "/update-my-resume/", label: "update-my-resume" },
   { path: "/resume-makeover/", label: "resume-makeover" },
   { path: "/nurses/", label: "nurses" },
+  // Wave 8 (09/09): editing-service landing page + one of the three new guides.
+  { path: "/resume-editing-service/", label: "resume-editing-service" },
+  { path: "/guides/soc-analyst-resume/", label: "guide (soc-analyst)" },
   { path: "/guides/warehouse-supervisor-resume/", label: "guide (warehouse-supervisor)" },
   { path: "/terms/", label: "terms" },
   { path: "/privacy/", label: "privacy" },
@@ -50,6 +53,7 @@ const CAPTURE_PAGES = [
   { path: "/update-my-resume/", label: "update-my-resume" },
   { path: "/resume-makeover/", label: "resume-makeover" },
   { path: "/nurses/", label: "nurses" },
+  { path: "/resume-editing-service/", label: "resume-editing-service" },
 ] as const;
 
 function trapPageErrors(page: Page, errors: string[]) {

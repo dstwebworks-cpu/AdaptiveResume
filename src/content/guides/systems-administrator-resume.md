@@ -1,10 +1,10 @@
 ---
 title: "Systems Administrator Resume: Scale, Stack, and the On-Call Reality"
-description: "Sysadmin resumes get read for scale and stack before anything else — how many users, whose cloud, which tools. How to write yours so the numbers do the work, including network admin and SOC analyst moves."
+description: "Sysadmin resumes get read for scale and stack before anything else — how many users, whose cloud, which tools. How to write yours so the numbers do the work, including the network admin move."
 seoTitle: "Systems Administrator Resume: Scale, Stack, On-Call"
-seoDescription: "Systems administrator resume guide: lead with environment scale and stack, write on-call and incident work honestly, plus network admin and SOC analyst paths."
+seoDescription: "Systems administrator resume guide: lead with environment scale and stack, write on-call and incident work honestly, plus the network admin path."
 segment: "job-seekers"
-audience: "Systems administrators, network administrators, and SOC analysts — on-prem, cloud, and hybrid environments"
+audience: "Systems administrators and network administrators — on-prem, cloud, and hybrid environments"
 keyword: "systems administrator resume"
 giveaway:
   name: "Role Skills Checklist"
@@ -58,11 +58,11 @@ On-call is the part of the job most resumes either hide or overstate. Hiding it 
 
 Write what was true: the rotation you carried, the systems in scope, the response expectation, and any incident you can describe without breaching your employer's confidentiality. A single well-written incident line does more than a paragraph of adjectives: what broke, what you did, how long it took, and what you changed so it didn't happen the same way again.
 
-## Network administrator and SOC analyst: the two adjacent moves
+## Network administrator: the adjacent move
 
 **Toward network administration**, the resume shifts from servers to topology. Foreground the routing and switching you've genuinely configured, VLAN and subnet design, firewall rules and VPN tunnels, wireless controllers, and vendor platforms by name. If your networking exposure was "I've reset the switch and opened firewall ports," say that plainly and let your systems depth carry the application — the honest version reads as a competent sysadmin growing into networking, which is a normal and hirable story.
 
-**Toward SOC analyst work**, the pivot is detection and response rather than administration. Your SIEM (security log platform) by name, log sources you actually onboarded, alert triage volume, EDR (endpoint detection and response) platform, phishing analysis, and any framework you worked against — MITRE ATT&CK, NIST, CIS benchmarks. Sysadmins are unusually well positioned here because you already know what normal looks like on a network, and knowing normal is most of detection. Say that in the summary rather than hoping it's inferred.
+Moving toward security operations is a different job with its own page: the [SOC analyst resume guide](/guides/soc-analyst-resume/). Sysadmins are well positioned for it because you already know what normal looks like on a network, and knowing normal is most of detection.
 
 ## Format notes
 

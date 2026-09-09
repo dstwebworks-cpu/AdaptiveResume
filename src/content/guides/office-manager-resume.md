@@ -1,8 +1,8 @@
 ---
 title: "Office Manager Resume: Scope, Systems, and the Ops Line"
-description: "Office manager resumes are read for scope first — headcount supported, vendors managed, budget owned — then for the systems you run. How to write yours with real numbers, plus the office-manager-vs-operations-manager distinction that trips people up."
+description: "Office manager resumes are read for scope first — headcount supported, vendors managed, budget owned — then for the systems you run. How to write yours with real numbers, plus where an office role ends and an operations role begins."
 seoTitle: "Office Manager Resume: Scope, Systems & Skills"
-seoDescription: "Office manager resume guide: lead with scope (headcount, vendors, budget), name real systems like QuickBooks and ADP, and draw the ops-manager line honestly."
+seoDescription: "Office manager resume guide: lead with scope (headcount, vendors, budget), name real systems like QuickBooks and ADP, and know where the job ends."
 segment: "job-seekers"
 audience: "Office managers, operations coordinators, and administrative leads — small business, professional services, medical and dental offices, agencies, and single- and multi-site teams"
 keyword: "office manager resume"
@@ -66,9 +66,9 @@ Skills sections fail when they list adjectives. "Organized, detail-oriented, mul
 
 The honest rule for the skills block: list what you can speak to in an interview, at the depth you actually used it. "Advanced Excel" that means pivot tables and VLOOKUP is fine; "advanced Excel" that means you kept a contact list is not. Employers read the software block as a proxy for how fast you'll be productive, and the fastest way to lose the interview is to be caught overstating it.
 
-## Office manager vs. operations manager — draw the line honestly
+## When the job was bigger than the office — draw the line honestly
 
-If you're aiming at an **operations manager resume**, the difference is real and worth getting right rather than blurring. Office manager work centers on running a workplace. Operations manager work usually owns a broader process or a P&L — service delivery, logistics, staffing across functions, or coordination across multiple sites and teams.
+If the job you are aiming at is an operations role, the difference is real and worth getting right rather than blurring. That job has its own page: the [operations manager resume guide](/guides/operations-manager-resume/). Office manager work centers on running a workplace. Operations manager work usually owns a broader process or a P&L — service delivery, logistics, staffing across functions, or coordination across multiple sites and teams.
 
 Plenty of office managers have genuinely done operations-level work: standing up processes, managing multi-site logistics, owning a real budget, leading people across functions. If that's you, claim it plainly with the numbers that prove it — sites coordinated, headcount, budget owned, the process you built and its result. What doesn't work is relabeling a single-office administrative role as "operations manager" because it sounds bigger. A reference check exposes that immediately, and a careful reader can usually feel the gap between the title and the numbers underneath it. Describe the real scope under an accurate title and let it argue for the bigger role on its own.
 

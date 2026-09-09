@@ -64,7 +64,7 @@ The second version is scannable in a few seconds and answers what the first leav
 
 **Housekeeping** is typically the largest labor line in a rooms-focused hotel and the biggest driver of cleanliness scores. Room-attendant productivity standards, inventory, and inspection pass rates are all concrete.
 
-**Food and beverage** ranges from a limited breakfast bar to full restaurants, banquets, and catering. If you oversaw a real F&B operation — or worked alongside a restaurant general manager or an executive chef running full-service outlets and banquets — say so, and name the revenue and cover volume. F&B scope is one of the clearest signals of how full-service your experience really is.
+**Food and beverage** ranges from a limited breakfast bar to full restaurants, banquets, and catering. If you oversaw a real F&B operation — or worked alongside a restaurant general manager (that job has its own [guide](/guides/restaurant-general-manager-resume/)) or an executive chef running full-service outlets and banquets — say so, and name the revenue and cover volume. F&B scope is one of the clearest signals of how full-service your experience really is.
 
 **Limited-service vs. full-service** is the distinction that changes what a reader expects, so name it plainly. Limited-service and select-service properties run leaner — the GM owns more directly and F&B is minimal. Full-service properties carry restaurants, banquets, larger teams, and more department heads reporting up. Neither is more impressive; they're different jobs. A reader hiring for one wants to see that you've done that one, or can explain how your experience transfers.
 

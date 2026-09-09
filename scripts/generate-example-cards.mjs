@@ -262,6 +262,18 @@ export const PAIRS = {
     before: "Plumber responsible for installing and repairing plumbing systems in residential and commercial buildings.",
     after: "Journeyman plumber, [state] license #[N]; roughed in DWV (drain-waste-vent) and PEX water supply for [N] units on a [4]-story multifamily build to the [IPC/UPC], set [N] fixtures and [N] water heaters, and passed [N] rough-in and final inspections with no re-inspections.",
   },
+  "operations-manager-resume": {
+    before: "Operations manager responsible for overseeing daily operations and leading a team to meet company goals.",
+    after: "Operations Manager, [N]-door distribution center; owned $[N]M annual operating budget, [N] direct and [N] indirect reports across [N] shifts; shipped ~[N]K units/day at [N]% OTIF, inventory accuracy [N]%, TRIR [N] (down from [N]); SAP and Manhattan WMS.",
+  },
+  "soc-analyst-resume": {
+    before: "Investigated security incidents and worked with the team to resolve them.",
+    after: "Tier 2 SOC analyst on a 24x7 MDR desk covering [N] client environments; owned ~[N] escalated cases per week end to end in Splunk Enterprise Security and CrowdStrike Falcon, contained [N] confirmed host compromises, and authored [N] detections mapped to MITRE ATT&CK.",
+  },
+  "restaurant-general-manager-resume": {
+    before: "Managed all aspects of restaurant operations including staff, inventory, and customer service.",
+    after: "General Manager, [full-service] [brand] unit, $[3.2]M AUV, [450] covers on a peak day; owned the unit P&L and held prime cost at [58]% ([30]% food, [28]% labor); [Toast] POS; team of [45] with [3] shift leads promoted from crew.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
