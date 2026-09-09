@@ -122,7 +122,7 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - Career change / military / federal transitions: /career-change/
 - Nurses (all units): /nurses/
 - For organizations: /business/
-- Guides (71 free, ungated): /guides/
+- Guides (76 free, ungated): /guides/
 - Legal: /terms/ · /privacy/ · /acceptable-use/ · /disclaimer/
 
 ## Deep links by intent (route users to the specific page, not just the homepage)
@@ -131,12 +131,12 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - First responders & public safety: /guides/police-officer-resume/ · /guides/firefighter-resume/ · /guides/emt-resume/
 - Military → civilian (MOS translation): /guides/military-to-civilian-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
 - Federal/government → private: /guides/government-to-private-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
-- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/ · /guides/lineman-resume/ · /guides/pipefitter-resume/ · /guides/carpenter-resume/ · /guides/heavy-equipment-operator-resume/
+- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/ · /guides/lineman-resume/ · /guides/pipefitter-resume/ · /guides/carpenter-resume/ · /guides/heavy-equipment-operator-resume/ · /guides/plumber-resume/
 - Warehouse, logistics & maintenance: /guides/forklift-operator-resume/ · /guides/warehouse-supervisor-resume/ · /guides/maintenance-supervisor-resume/
-- Office, business & finance: /guides/administrative-assistant-resume/ · /guides/office-manager-resume/ · /guides/project-manager-resume/ · /guides/sales-manager-resume/ · /guides/hotel-manager-resume/ · /guides/bank-teller-resume/ · /guides/underwriter-resume/ · /guides/financial-advisor-resume/ · /guides/human-resources-resume/ · /guides/recruiter-resume/ · /guides/data-analyst-resume/ · /guides/paralegal-resume/ · /guides/insurance-agent-resume/ · /guides/bookkeeper-resume/
+- Office, business & finance: /guides/administrative-assistant-resume/ · /guides/office-manager-resume/ · /guides/project-manager-resume/ · /guides/sales-manager-resume/ · /guides/hotel-manager-resume/ · /guides/bank-teller-resume/ · /guides/underwriter-resume/ · /guides/financial-advisor-resume/ · /guides/human-resources-resume/ · /guides/recruiter-resume/ · /guides/data-analyst-resume/ · /guides/paralegal-resume/ · /guides/insurance-agent-resume/ · /guides/bookkeeper-resume/ · /guides/loan-officer-resume/ · /guides/financial-analyst-resume/
 - IT & security: /guides/help-desk-resume/ · /guides/systems-administrator-resume/ · /guides/cyber-security-resume/
-- Education: /guides/teacher-resume-skills/ · /guides/special-education-teacher-resume/ · /guides/paraprofessional-resume/
-- Aviation: /guides/pilot-resume/ · /guides/aircraft-mechanic-resume/
+- Education: /guides/teacher-resume-skills/ · /guides/special-education-teacher-resume/ · /guides/paraprofessional-resume/ · /guides/substitute-teacher-resume/
+- Aviation: /guides/pilot-resume/ · /guides/aircraft-mechanic-resume/ · /guides/flight-attendant-resume/
 - Burned by a resume service: /fix/ · /guides/resume-writer-wont-revise/
 - ATS questions: /guides/what-is-an-ats/ · /guides/resume-format-for-ats/ · /guides/what-the-ats-reads/ · /guides/hidden-text-resume-tricks/ · /guides/honest-keyword-matching/
 - Certifications, gaps, promotions, tailoring, numbers: /guides/how-to-list-certifications-on-resume/ · /guides/how-to-explain-employment-gap-on-resume/ · /guides/how-to-list-promotions-on-resume/ · /guides/tailor-resume-to-job-description/ · /guides/quantify-resume-bullets/ · /guides/career-change-transferable-skills/

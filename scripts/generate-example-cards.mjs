@@ -242,6 +242,26 @@ export const PAIRS = {
     before: "Security clearance, cleared for government work.",
     after: "Active Top Secret/SCI — DoD, investigation completed [year]; enrolled in Continuous Vetting.",
   },
+  "substitute-teacher-resume": {
+    before: "Substitute teacher for various grade levels and subjects as needed.",
+    after: "Substitute teacher, [District] Public Schools, grades K–[8]; [90]+ day-to-day assignments a year across [11] schools, plus a [9]-week long-term assignment in [7th-grade math] carrying the grading and parent contact; scheduled through [Frontline].",
+  },
+  "loan-officer-resume": {
+    before: "Loan officer responsible for originating mortgage loans and providing excellent customer service to borrowers.",
+    after: "Mortgage Loan Originator, NMLS #[1234567], state-licensed in [GA, FL]; funded $[42]M across [140] units in [2025], [70]% purchase; conventional, FHA, and VA; [Encompass] LOS.",
+  },
+  "financial-analyst-resume": {
+    before: "Financial analyst responsible for budgeting, forecasting, and reporting for the company.",
+    after: "FP&A analyst owning the [$40M] operating budget for [three] business units; monthly variance analysis against forecast, quarterly reforecast, and the board deck; [NetSuite] and [Excel] models.",
+  },
+  "flight-attendant-resume": {
+    before: "Flight attendant responsible for passenger safety and providing excellent customer service on domestic and international flights.",
+    after: "Flight attendant, [Airline], [DFW] base; qualified on [Boeing 737] and [Airbus A321]; domestic and [Latin America] flying, [4] years; lead flight attendant on [40]% of trips; FAA Certificate of Demonstrated Proficiency, Group [II].",
+  },
+  "plumber-resume": {
+    before: "Plumber responsible for installing and repairing plumbing systems in residential and commercial buildings.",
+    after: "Journeyman plumber, [state] license #[N]; roughed in DWV (drain-waste-vent) and PEX water supply for [N] units on a [4]-story multifamily build to the [IPC/UPC], set [N] fixtures and [N] water heaters, and passed [N] rough-in and final inspections with no re-inspections.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
