@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "playwright test",
-    "test:mobile": "playwright test"
+    "test:mobile": "playwright test",
+    "prebuild": "node scripts/american-english-check.mjs",
+    "check:english": "node scripts/american-english-check.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",
