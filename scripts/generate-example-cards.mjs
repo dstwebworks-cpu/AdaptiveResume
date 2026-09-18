@@ -274,6 +274,14 @@ export const PAIRS = {
     before: "Managed all aspects of restaurant operations including staff, inventory, and customer service.",
     after: "General Manager, [full-service] [brand] unit, $[3.2]M AUV, [450] covers on a peak day; owned the unit P&L and held prime cost at [58]% ([30]% food, [28]% labor); [Toast] POS; team of [45] with [3] shift leads promoted from crew.",
   },
+  "medical-assistant-resume": {
+    before: "Medical assistant responsible for patient care and administrative duties in a busy clinic.",
+    after: "CMA (AAMA), [family medicine] clinic, [3] providers, [30]-[40] patients per day; rooming and vitals, injections, EKGs, and specimen collection under provider delegation; scheduling, referrals, and prior authorizations in [Epic].",
+  },
+  "cna-resume": {
+    before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
+    after: "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
