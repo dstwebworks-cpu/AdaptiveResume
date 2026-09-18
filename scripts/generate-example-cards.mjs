@@ -282,6 +282,18 @@ export const PAIRS = {
     before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
     after: "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care].",
   },
+  "phlebotomist-resume": {
+    before: "Phlebotomist responsible for drawing blood from patients and processing samples.",
+    after: "CPT (NHA), [hospital] inpatient rounds and outpatient draws, [60]-[80] venipunctures per shift including pediatric and hard-stick patients; CLSI order of draw, [0.8]% blood culture contamination rate against a [3]% threshold; accessioned and processed in [Epic Beaker].",
+  },
+  "dental-assistant-resume": {
+    before: "Dental assistant responsible for assisting the dentist and keeping the office running.",
+    after: "CDA (DANB), [general practice], [2] dentists, [12]-[16] patients per day; four-handed chairside for restorative, endo, and extractions; [state] radiography certificate, digital sensors and [CBCT]; autoclave and weekly spore testing; scheduling and treatment plans in [Dentrix].",
+  },
+  "lpn-resume": {
+    before: "LPN responsible for providing nursing care to residents and administering medications.",
+    after: "LPN, [state] license (active), [Nurse Licensure Compact multistate]; [28]-resident hall on a [120]-bed skilled nursing facility, [night] shift; med pass, treatments and wound care, data collection and reporting to the RN; [state] IV therapy certified; charted in [PointClickCare].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
