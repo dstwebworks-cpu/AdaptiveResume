@@ -16,13 +16,13 @@ const faq = [
   { q: 'Will you keep my format?',
     a: "No, and that is on purpose. You get a rebuilt file, not your old file with edits in it. The finished resume is single-column, uses tabs instead of tables (so the text reads in order), has standard section headings, and carries no photo or graphics, because that is what hiring software reads cleanly. Your content is what carries over: every line you confirmed, in your words. If your current layout uses columns, text boxes, or a photo, our free guide on resume format for screening software explains what breaks and why." },
   { q: 'Do you fix typos?',
-    a: "Not the way a proofreader does. Nobody reads your old file and corrects it; there is no human editor and no spelling pass on the file you upload. What happens instead: we rebuild the resume from your history and the lines you confirm, and you see the finished resume before you download it. There is no spelling pass on the file you upload. If a line comes out wrong, edit it or leave a note and we redo that line from your note. If you want a human to proofread the finished file afterward, that is a fine thing to do, and it is not something we sell." },
+    a: "Not the way a proofreader does. Nobody reads your old file and corrects it; there is no human editor and no spelling pass on the file you upload. What happens instead: we rebuild the resume from your history and the lines you confirm, and you see the finished resume before you download it. If a line comes out wrong, edit it or leave a note and we redo that line from your note. If you want a human to proofread the finished file afterward, that is a fine thing to do, and it is not something we sell." },
   { q: 'Do you add things?',
     a: "Only what you confirm. We work backwards from what your jobs actually involved and propose the tools, standards, credentials, and scope that are not on the page yet, one at a time, as questions. You confirm the ones that are really yours, edit the wording, or skip. If you skip something, it never appears. Nothing goes on the page that you did not confirm, so there is nothing on it you cannot stand behind in an interview." },
   { q: 'How long does it take?',
     a: "It goes in stages, and most of the elapsed time is yours. First you upload your resume, and your LinkedIn resume export if you have one. Then findings appear one at a time and you confirm, edit, or skip each. Then you see what screening software reads from the finished file, and you download it. There is no editor to wait on and no revision round to schedule. If a line comes out wrong, you edit it or leave a note and we redo that line from your note, right then." },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -51,18 +51,18 @@ const breadcrumbLd = {
         <h1>A <span class="hl">resume editing service</span> that rebuilds from your facts.</h1>
         <p class="tagline">Your resume reads fine. The problem is not the grammar. It is what never got written down.</p>
         <p class="lede">
-          Upload the resume you have. Nobody here reads it and moves commas. Instead we work backwards from what each job actually involved and ask you, one finding at a time, about the systems, standards, credentials, and scope it leaves out. You confirm what is really yours, in your words, or skip it. What you get back is a rebuilt file that screening software reads in order, built only from lines you approved.
+          Upload the resume you have. At AdaptiveResume, no editor reads it and moves commas around. Instead we work backwards from what each job actually involved and ask you, one finding at a time, about the systems, standards, credentials, and scope it leaves out. You confirm what is really yours, in your words, or skip it. What you get back is a rebuilt file that screening software reads in order, built only from lines you approved.
         </p>
         <div class="cta-row">
           {LAUNCHED
             ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
-          <a class="btn btn-ghost btn-lg" href="/demo/">Not sure yet? Try the demo first</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">You approve every line</li>
-          <li class="pill">One-time payment — no subscription</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">You approve every line.</li>
+          <li class="pill">You pay once.</li>
         </ul>
       </div>
 
@@ -78,7 +78,7 @@ const breadcrumbLd = {
           <b>"I paid for editing before and got my own file back with commas moved."</b>
           <p>That is what an edit does: it works with what is already on the page. It was never going to find what you left off. Bring that file. It
           is a starting point, and we finish what it started. If it was a full paid rewrite that went
-          quiet, <a href="/fix/">start at Fix my resume</a> instead.</p>
+          quiet, see <a href="/fix/">Fix a resume you paid for</a> instead.</p>
         </div>
       </div>
     </div>
@@ -131,6 +131,7 @@ const breadcrumbLd = {
     <div class="container">
       <p class="eyebrow">What the difference looks like</p>
       <h2>An edited line, next to a rebuilt line.</h2>
+      <p class="muted">This is a sample worker, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before: the line after a typical edit</h3>
@@ -140,10 +141,10 @@ const breadcrumbLd = {
         </div>
         <div class="card">
           <h3>After: rebuilt, every line confirmed by the person</h3>
-          <p>"Ran inventory for a [N]-person department in [system]: weekly cycle counts, reorder points, and supplier orders worth [$N] a month; cut stockouts to [N] in [N] months; negotiated delivery windows with [N] vendors so the floor never waited on parts."</p>
+          <p>"Ran inventory for a 9-person department in NetSuite: weekly cycle counts, reorder points, and supplier orders worth $60,000 a month. Cut stockouts to 2 in 6 months. Negotiated delivery windows with 5 vendors so the floor never waited on parts."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Every bracket is yours to fill: [N] is your number, [system] is the one you actually used, and we ask instead of guessing. The edit on the left tightened the wording. The rebuild on the right changed what a reader knows about you, and you confirmed every piece of it.</p>
+      <p class="muted" style="margin-top:12px">The edit on the left tightened the wording. The rebuild on the right changed what a reader knows about you, and you confirmed every piece of it.</p>
     </div>
   </section>
 
@@ -159,23 +160,23 @@ const breadcrumbLd = {
           <h3>What gets changed?</h3>
           <p>Typical editing: grammar, wording, and layout. Your facts stay exactly as you wrote them,
           including the ones you left out.</p>
-          <p class="ours"><b>Here:</b> the facts. We propose what your work involved that is not on the page. You confirm each one. Wording is yours to edit on any line.</p>
+          <p class="ours"><b>AdaptiveResume:</b> the facts. We propose what your work involved that is not on the page. You confirm each one. Wording is yours to edit on any line.</p>
         </div>
         <div class="card qcard">
           <h3>Who touches my file?</h3>
           <p>Typical editing: a human editor reads your document and sends it back marked up, often with
           tracked changes and a round or two of back-and-forth.</p>
-          <p class="ours"><b>Here:</b> no human editor, no proofreader, no marked-up file. Software works backwards through your history and asks you questions. The only person who reads and approves each line is you.</p>
+          <p class="ours"><b>AdaptiveResume:</b> no human editor, no proofreader, no marked-up file. Software works backwards through your history and asks you questions. The only person who reads and approves each line is you.</p>
         </div>
         <div class="card qcard">
           <h3>What do I get back?</h3>
           <p>Typical editing: your own file, corrected. Same layout, same length, same facts.</p>
-          <p class="ours"><b>Here:</b> a rebuilt file in a format screening software reads cleanly, and you see what that software extracts from it before you are done.</p>
+          <p class="ours"><b>AdaptiveResume:</b> a rebuilt file in a format screening software reads cleanly, and you see what that software extracts from it before you are done.</p>
         </div>
         <div class="card qcard">
           <h3>Is it a subscription or per round?</h3>
           <p>Typical editing: sometimes priced per page, per round, or on a monthly plan. Check before you enter a card.</p>
-          <p class="ours"><b>Here:</b> no. $49 or $149, one-time. Nothing to cancel. Revisions are not a negotiation: edit the line, or leave a note and we redo it from your note.</p>
+          <p class="ours"><b>AdaptiveResume:</b> no. $49 or $149, one-time. Nothing to cancel. Revisions are not a negotiation: edit the line, or leave a note and we redo it from your note.</p>
         </div>
       </div>
     </div>
@@ -188,12 +189,11 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
-          <p class="muted">The complete, honest, machine-readable rebuild of your one resume — everything
-          you've earned, finally on paper.</p>
+          <p class="muted">Your one resume is made complete and honest, in a file that screening software reads cleanly. Everything you've earned is finally on paper.</p>
           <ul class="ticks">
-            <li>Your resume and LinkedIn resume export (the PDF with your work history) dug through together for what you left off</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm, edit, or skip every finding — nothing made up</li>
             <li>Edit any line, or leave a note and we redo it from your note</li>
             <li>You see what screening software reads from the finished file</li>
@@ -201,17 +201,17 @@ const breadcrumbLd = {
         </div>
         <div class="card price featured">
           <span class="tag-premium">Aimed at one posting</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the base build, aimed at one specific job posting you bring us.</p>
+          <p class="muted">Everything in the Base resume, aimed at one specific job posting you bring us.</p>
           <ul class="ticks">
-            <li>Your experience translated into that field's language</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small" style="text-align:center">Join the list before launch and your first build is 25% off. You stay the author the whole way.
+      <p class="muted small" style="text-align:center">Join the launch list before launch and your first resume is 25% off. You stay the author the whole way.
       Aiming at one posting and want to do the tailoring yourself first? Our free guide on
       <a href="/guides/tailor-resume-to-job-description/">tailoring a resume to a job description</a> shows how.</p>
     </div>
@@ -225,13 +225,11 @@ const breadcrumbLd = {
         : <h2>We launch in October 2026 — don't pay full price</h2>}
       {LAUNCHED
         ? <p class="lede">Create your account, upload your resume, and we'll dig in together. You approve every line before anything lands.</p>
-        : <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) is yours
-          the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
+        : <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
       {LAUNCHED ? (
         <div class="cta-row" style="justify-content:center">
           <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
-          <a class="btn btn-ghost btn-lg" href="/demo/">Try the demo first</a>
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
       ) : (
         <>
@@ -240,13 +238,13 @@ const breadcrumbLd = {
             <input type="hidden" name="source" value="editing-service-page" />
             <input type="hidden" name="redirect" value="/resume-editing-service/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/role-skills-checklist.docx" download>Download your Role Skills Checklist</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
-          <p class="muted small"><a href="/demo/">Not sure yet? Try the demo first</a> — a sample review, no sign-up.</p>
+          <p class="muted small">Want to see it first? <a href="/demo/">See it work on a sample resume, no sign-up needed.</a></p>
         </>
       )}
     </div>
@@ -262,8 +260,8 @@ const breadcrumbLd = {
           <p>{f.a}</p>
         </details>
       ))}
-      <p class="muted small">We don't name or review specific companies. If an editing service treated you well, wonderful — this page is for anyone whose resume needs more than an edit. If a paid rewrite went wrong, <a href="/fix/">start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small">We don't name or review specific companies. If an editing service treated you well, wonderful — this page is for anyone whose resume needs more than an edit. If a paid rewrite went wrong, see <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 

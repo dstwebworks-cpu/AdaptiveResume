@@ -12,15 +12,15 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Who actually writes my resume?',
-    a: "You do — with us. We work backwards from what your work actually involved and show you, one finding at a time, the tools, standards, credentials and scope you left off. You confirm, edit, or skip each one. Nothing goes on the page you didn't confirm, so the finished resume is yours to stand behind in any interview." },
+    a: "There is no human writer. AdaptiveResume's software does the digging: it works backwards from what your jobs actually involved and shows you, one finding at a time, the tools, standards, credentials, and scope you left off. You confirm, edit, or skip each one, in your own words. You are the only person who reads and approves each line, so the finished resume is yours to stand behind in any interview." },
   { q: 'What does "nothing made up" mean in practice?',
     a: "We never put a credential, title, number, or employer on your resume that you didn't confirm. If we think your work involved something, we ask you first. If you say no, it never appears. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
   { q: 'Is this a subscription? What about revisions?',
-    a: "No subscription, nothing to cancel. $49 or $149, one-time. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. One-time payment, no revision haggling." },
-  { q: 'What is the difference between the $49 build and the $149 build?',
-    a: 'The $49 build is the complete, honest, machine-readable rebuild of your one resume. The $149 targeted build aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role. The full breakdown is on the pricing page.' },
+    a: "No subscription, nothing to cancel. $49 or $149, one-time. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. You pay once, with no revision rounds to argue over." },
+  { q: 'What is the difference between the $49 resume and the $149 resume?',
+    a: 'The $49 resume makes your one resume complete and honest, in a file that screening software reads cleanly. The $149 Targeted resume aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role.' },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -57,13 +57,13 @@ const breadcrumbLd = {
         <div class="cta-row">
           {LAUNCHED
             ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
-          <a class="btn btn-ghost btn-lg" href="/demo/">Not sure yet? Try the demo first</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">You approve every line</li>
-          <li class="pill">One-time payment — no subscription</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">You approve every line.</li>
+          <li class="pill">You pay once.</li>
         </ul>
       </div>
 
@@ -77,7 +77,7 @@ const breadcrumbLd = {
         <div class="fcard">
           <b>"I'm comparing services before I spend anything."</b>
           <p>Good. Below are the four questions we'd ask any resume writing service — and our honest
-          answers to each. Try the free demo before you decide.</p>
+          answers to each. See it work on a sample resume before you decide.</p>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@ const breadcrumbLd = {
   <!-- ===== HOW IT GOES HERE ===== -->
   <section class="section alt">
     <div class="container">
-      <p class="eyebrow">How it goes here</p>
+      <p class="eyebrow">How it works at AdaptiveResume</p>
       <h2>Four things you can count on.</h2>
       <div class="grid cols-2">
         <div class="card">
@@ -119,6 +119,7 @@ const breadcrumbLd = {
     <div class="container">
       <p class="eyebrow">What the difference looks like</p>
       <h2>Same true work — finally on the page.</h2>
+      <p class="muted">This is a sample worker, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
@@ -126,14 +127,10 @@ const breadcrumbLd = {
         </div>
         <div class="card">
           <h3>After — every line confirmed by the person</h3>
-          <p>"Ran daily operations for a [N]-person team: scheduling, [system] records, and supplier orders ·
-          trained [N] new hires on [system] and the department's safety procedures · handled [N] customer
-          accounts with no missed deadlines in [N] months."</p>
+          <p>"Ran daily operations for a 12-person team: scheduling, QuickBooks records, and supplier orders. Trained 5 new hires on QuickBooks and the department's safety procedures. Handled 40 customer accounts with no missed deadlines in 18 months."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The [N]s are
-      your numbers — we ask, you answer, and we never fill one in for you. The [system] is whatever you
-      actually used. That's the whole service, line by line, with your say-so on each one.</p>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. That's the whole service, line by line, with your say-so on each one.</p>
     </div>
   </section>
 
@@ -148,22 +145,22 @@ const breadcrumbLd = {
         <div class="card qcard">
           <h3>Who writes it?</h3>
           <p>A person you talk to? A pool you never meet? A template with your name dropped in?</p>
-          <p class="ours"><b>Here:</b> you do, with us. We find, you confirm. Your words stay your words.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> you do, with us. We find, you confirm. Your words stay your words.</p>
         </div>
         <div class="card qcard">
           <h3>Do I approve each line before it's final?</h3>
           <p>Or do you get a finished draft and a limited window to argue about it?</p>
-          <p class="ours"><b>Here:</b> yes, every line. Nothing goes on the page you didn't confirm.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> yes, every line. Nothing goes on the page you didn't confirm.</p>
         </div>
         <div class="card qcard">
           <h3>Is it a subscription?</h3>
           <p>Some prices are monthly and keep going after you've downloaded the file. Check before you enter a card.</p>
-          <p class="ours"><b>Here:</b> no. $49 or $149, one-time. Nothing to cancel.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> no. $49 or $149, one-time. Nothing to cancel.</p>
         </div>
         <div class="card qcard">
           <h3>Can I see what the screening software reads?</h3>
           <p>A resume that looks good to you can still come out scrambled to the software that reads it first.</p>
-          <p class="ours"><b>Here:</b> yes. You see what hiring software actually extracts from your finished file before you're done.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> yes. You see what hiring software actually extracts from your finished file before you're done.</p>
         </div>
       </div>
     </div>
@@ -176,12 +173,11 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
-          <p class="muted">The complete, honest, machine-readable rebuild of your one resume — everything
-          you've earned, finally on paper.</p>
+          <p class="muted">Your one resume is made complete and honest, in a file that screening software reads cleanly. Everything you've earned is finally on paper.</p>
           <ul class="ticks">
-            <li>Your resume and LinkedIn resume export (the PDF with your work history) dug through together for what you left off</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm, edit, or skip every finding — nothing made up</li>
             <li>Edit any line, or leave a note and we redo it from your note</li>
             <li>You see what screening software reads from the finished file</li>
@@ -189,17 +185,17 @@ const breadcrumbLd = {
         </div>
         <div class="card price featured">
           <span class="tag-premium">Aimed at one posting</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the base build, aimed at one specific job posting you bring us.</p>
+          <p class="muted">Everything in the Base resume, aimed at one specific job posting you bring us.</p>
           <ul class="ticks">
-            <li>Your experience translated into that field's language</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small" style="text-align:center">Join the list before launch and your first build is 25% off. You stay the author the whole way.</p>
+      <p class="muted small" style="text-align:center">Join the launch list before launch and your first resume is 25% off. You stay the author the whole way.</p>
     </div>
   </section>
 
@@ -211,13 +207,11 @@ const breadcrumbLd = {
         : <h2>We launch in October 2026 — don't pay full price</h2>}
       {LAUNCHED
         ? <p class="lede">Create your account, upload your resume, and we'll dig in together. You approve every line before anything lands.</p>
-        : <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) is yours
-          the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
+        : <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
       {LAUNCHED ? (
         <div class="cta-row" style="justify-content:center">
           <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
-          <a class="btn btn-ghost btn-lg" href="/demo/">Try the demo first</a>
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
       ) : (
         <>
@@ -226,13 +220,13 @@ const breadcrumbLd = {
             <input type="hidden" name="source" value="writing-service-page" />
             <input type="hidden" name="redirect" value="/resume-writing-service/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/role-skills-checklist.docx" download>Download your Role Skills Checklist</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
-          <p class="muted small"><a href="/demo/">Not sure yet? Try the demo first</a> — a sample review, no sign-up.</p>
+          <p class="muted small">Want to see it first? <a href="/demo/">See it work on a sample resume, no sign-up needed.</a></p>
         </>
       )}
     </div>
@@ -248,8 +242,8 @@ const breadcrumbLd = {
           <p>{f.a}</p>
         </details>
       ))}
-      <p class="muted small">We don't name or review specific companies. If a service treated you well, wonderful — this page is for anyone who wants to stay the author of their own resume. If one didn't, <a href="/fix/">start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small">We don't name or review specific companies. If a service treated you well, wonderful — this page is for anyone who wants to stay the author of their own resume. If one didn't, see <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 

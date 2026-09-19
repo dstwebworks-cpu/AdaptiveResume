@@ -15,13 +15,13 @@ const faq = [
   { q: 'How far back do I go?',
     a: "Your most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. A twenty-year career does not need every duty station spelled out, and a civilian reader will not follow it if it is. Each assignment stated at its true size (people led, equipment signed for, what you ran) fits in two pages, which is normal once you have more than one substantive role. Nothing you want kept gets dropped. You decide, line by line." },
   { q: 'Do you translate my MOS, rate, or AFSC?',
-    a: "Yes, in the targeted build, and we do it with you: we map your specialty to the nearest honest civilian function, toward the posting you have open, and show you each line before it lands. The $49 build makes your resume complete and honest as it stands; the civilian-language translation is the $149 targeted build's job. We never claim a civilian job title, license, or certification you have not actually earned; training you completed is listed as training." },
+    a: "Yes, in the Targeted resume, and we do it with you: we map your specialty to the nearest honest civilian function, toward the posting you have open, and show you each line before it lands. The $49 resume makes your resume complete and honest as it stands; the civilian-language translation is the $149 Targeted resume's job. We never claim a civilian job title, license, or certification you have not actually earned; training you completed is listed as training." },
   { q: 'Can I use this for USAJOBS?',
-    a: "Use it for the private-sector side of your search. A federal resume is a different document: USAJOBS accepts only two pages as of the September 2025 OPM change, and federal applications ask for details a private-sector resume leaves off. Our build is aimed at civilian employers and the screening software they run. If you are running both tracks, keep the federal version in the format USAJOBS asks for and send ours to industry." },
-  { q: 'Why $149 instead of the $49 build?',
-    a: "The $49 build makes your one resume complete and honest. The $149 targeted build aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. The full breakdown is on the pricing page. If you have a specific civilian posting open in another tab, that's the one." },
+    a: "Use it for the private-sector side of your search. A federal resume is a different document: USAJOBS accepts only two pages as of the September 2025 OPM change, and federal applications ask for details a private-sector resume leaves off. Our resume is aimed at civilian employers and the screening software they run. If you are running both tracks, keep the federal version in the format USAJOBS asks for and send ours to industry." },
+  { q: 'Why $149 instead of the $49 resume?',
+    a: "The $49 resume makes your one resume complete and honest. The $149 Targeted resume aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. If you have a specific civilian posting open in another tab, that's the one." },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -45,7 +45,7 @@ const guides = [
 ---
 <Base
   title="Veteran Resume Help — Built From Your Real Service"
-  description="Veteran resume help built for civilian screening: clearance as held, scope at true size, service translated on the targeted build. You confirm every line; nothing made up. From $49."
+  description="Veteran resume help built for civilian screening: clearance as held, scope at true size, service translated on the Targeted resume. You confirm every line; nothing made up. From $49."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -55,27 +55,27 @@ const guides = [
       <p class="eyebrow">Veteran resume help — separating, retiring, Guard and Reserve, and veterans already in civilian work</p>
       <h1>The veteran resume help that puts your <span class="hl">real service</span> on the page.</h1>
       <p class="lede">
-        Your resume says "LS2, USS [ship]" or "supervised junior sailors." Your work was [N] people led,
-        $[N] in equipment signed for, a maintenance program you ran, training you delivered, a clearance
+        Your resume says "LS2" or "supervised junior sailors." Your work was the people you led, the
+        equipment you signed for, a maintenance program you ran, training you delivered, and a clearance
         you held. We work backwards through your real service together, show you what you left off, and
-        you confirm every line — so the finished resume is complete, honest, and reads cleanly to the
+        you confirm every line, so the finished resume is complete, honest, and reads cleanly to the
         software that screens it.
       </p>
       <div class="cta-row">
         {LAUNCHED
           ? <>
               <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
             </>
           : <>
-              <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
-              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first — free, no sign-up</a>
+              <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
             </>}
       </div>
       <ul class="pills">
-        <li class="pill">Nothing made up — ever</li>
-        <li class="pill">You approve every line</li>
-        <li class="pill">One-time payment</li>
+        <li class="pill">We make nothing up.</li>
+        <li class="pill">You approve every line.</li>
+        <li class="pill">You pay once.</li>
       </ul>
     </div>
   </section>
@@ -124,7 +124,7 @@ const guides = [
           <p>Screening software searches for civilian job titles and skills, not a rating or a four-character code. We map
           your specialty to the nearest honest civilian function and never claim a title you did not
           hold. The full method is in our
-          <a href="/guides/military-to-civilian-resume/">military-to-civilian resume guide</a>; on your resume, the $149 targeted build does it with you.</p>
+          <a href="/guides/military-to-civilian-resume/">military-to-civilian resume guide</a>; on your resume, the $149 Targeted resume does it with you.</p>
         </div>
         <div class="card">
           <h3>Security clearance, written as held</h3>
@@ -145,13 +145,11 @@ const guides = [
         </div>
         <div class="card">
           <h3>Leadership scope as people and equipment value</h3>
-          <p>"Squad leader" says less than "[N]-person team, $[N] in equipment signed for, [N] vehicles
-          maintained to [N]% readiness." Head count, dollar value, inspection results, and the training
-          you ran are the lines a civilian manager reads and instantly understands. Numbers you actually knew go in; a number nobody could check stays off the page.</p>
+          <p>"Squad leader" says less than "9-person team, $1.8M in equipment signed for, 14 vehicles maintained to 95% readiness." Head count, dollar value, inspection results, and the training you ran are the lines a civilian manager reads and instantly understands. Numbers you actually knew go in; a number nobody could check stays off the page.</p>
         </div>
         <div class="card">
           <h3>Awards, written plainly</h3>
-          <p>Name the award in full, then the reason: "[award] for [the accomplishment it recognized], [year]." A civilian manager cannot rank one medal against another, but can read "for clearing a [N]-item parts backlog in [N] months." The reason is what transfers; the award is the proof it happened.</p>
+          <p>Name the award in full, then the reason, then the year. A civilian manager cannot rank one medal against another, but can read "for clearing a [N]-item parts backlog in [N] months." The reason is what transfers; the award is the proof it happened.</p>
         </div>
         <div class="card">
           <h3>Federal applications: the USAJOBS two-page rule</h3>
@@ -167,23 +165,18 @@ const guides = [
     <div class="container">
       <p class="eyebrow">What the rebuild looks like</p>
       <h2>Same true service — a resume that finally says what it was</h2>
+      <p class="muted">This is a sample service member, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
-          <p class="muted">"LS2, USS [ship]. Responsible for supply and inventory. Supervised junior sailors. Handled hazmat."</p>
+          <p class="muted">"LS2, guided-missile destroyer. Responsible for supply and inventory. Supervised junior sailors. Handled hazmat."</p>
         </div>
         <div class="card">
           <h3>After — every line confirmed by the veteran</h3>
-          <p>"Supply and inventory lead (Navy Logistics Specialist, E-5), USS [ship]: [N] line items and $[N]
-          in parts across [N] storerooms · [N]% inventory accuracy across [N] audits · Supervised and trained
-          [N] sailors · Hazardous materials handling, Navy course completed [year] · Secret clearance, DoD: eligibility current, last held access [month/year]."</p>
+          <p>"Supply and inventory lead (Navy Logistics Specialist, E-5), guided-missile destroyer: 4,200 line items and $3.1M in parts across 6 storerooms. 99% inventory accuracy across 4 audits. Supervised and trained 7 sailors. Hazardous materials handling, Navy course completed 2023. Secret clearance, DoD: eligibility current, last held access 03/2026."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The line-item
-      count, the dollar value, the audit results, the sailors trained, the clearance date: the veteran
-      had all of it. It just wasn't written down at its real size, or in words a civilian reader knows.
-      We propose each line as a question; the brackets get filled with your real numbers, or the line
-      doesn't go in.</p>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The line-item count, the dollar value, the audit results, the sailors trained, and the clearance date were all real. They just were not written down at their real size, or in words a civilian reader knows.</p>
     </div>
   </section>
 
@@ -193,30 +186,29 @@ const guides = [
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
-          <p class="muted">Most veterans start here: your one resume made complete and honest — clearance line as held, scope at true size, certifications as earned, every assignment at its real weight — everything you've earned, finally on paper.</p>
+          <p class="muted">Start here if you are not aiming at one specific posting yet. Your one resume is made complete and honest: your clearance exactly as your record shows it, your responsibilities at their real size, and your certifications as you earned them, with everything you have earned finally on paper.</p>
           <ul class="ticks">
-            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm what's yours — nothing lands without your say-so</li>
             <li>Reads cleanly for civilian screening software, and for the manager after it</li>
           </ul>
         </div>
         <div class="card price featured">
           <span class="tag-premium">For a specific job posting</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Have the posting open in another tab? This aims your resume at that one
-          job.</p>
+          <p class="muted">Have a specific job posting open in another tab? The Targeted resume aims your resume at that one job.</p>
           <ul class="ticks">
-            <li>Your experience translated into the language that posting uses</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. One-time payment, no revision haggling. Paid a resume service already and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. You pay once, with no revision rounds to argue over. Paid a resume service already and got a template back? See <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -247,19 +239,15 @@ const guides = [
       ) : (
         <>
           <h2>We launch in October 2026 — be first in line</h2>
-          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our Military-to-Civilian Skills Translator (a ready-to-use Word
-          worksheet that walks your MOS, rate, or AFSC into civilian wording) is yours the moment you join.
-          We'll tell you the moment it's live, plus the occasional genuinely useful note on veteran
-          resumes. No spam.</p>
+          <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Military-to-Civilian Skills Translator (a ready-to-use Word worksheet that walks your MOS, rate, or AFSC into civilian wording) the moment you join. We'll tell you the moment it's live, plus the occasional genuinely useful note on veteran resumes. No spam.</p>
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="veterans-page" />
             <input type="hidden" name="redirect" value="/veterans/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/military-to-civilian-skills-translator.docx" download>Download your Military-to-Civilian Skills Translator</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>

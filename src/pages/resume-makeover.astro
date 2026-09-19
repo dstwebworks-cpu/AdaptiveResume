@@ -11,16 +11,16 @@ const appUrl = import.meta.env.PUBLIC_APP_URL
 const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s back here
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
-  { q: 'What does a resume makeover actually change here?',
+  { q: 'What does an AdaptiveResume makeover actually change?',
     a: "What the resume says, first. We work backwards from what your work actually involved and show you the tools, standards, credentials and scope you left off — one at a time. You confirm, edit, or skip each one. Then the filler phrases come out, and the finished file goes into a clean single-column layout that screening software reads correctly. New look, yes — but built on new substance." },
   { q: 'Can I keep my two-column template or my photo?',
     a: "We'll be honest: we hand back a single-column file with no photo. Screening software reads text, not pictures, and a two-column layout can scramble the reading order so your dates end up next to the wrong job. You can see for yourself what the software pulls from the finished file before you're done." },
   { q: 'Is anything made up?',
     a: "No. Nothing goes on the page you didn't confirm. If we suggest a tool or a credential your work involved and it isn't really yours, you skip it and it's gone. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
   { q: 'What does it cost, and what is the difference between $49 and $149?',
-    a: '$49, one-time, is the complete, honest, machine-readable rebuild of your one resume — the makeover. $149, one-time, is the targeted build aimed at one specific job posting: the same rebuild in that posting\'s language, plus 25 interview questions for that role (full breakdown on the pricing page). No subscription. Join the list before launch and your first build is 25% off.' },
+    a: '$49, one-time, makes your one resume complete and honest, in a file that screening software reads cleanly. That is the makeover. $149, one-time, is the Targeted resume aimed at one specific job posting: the same rebuild in that posting\'s language, plus 25 interview questions for that role. There is no subscription. Join the launch list before launch and your first resume is 25% off.' },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -57,18 +57,18 @@ const breadcrumbLd = {
         <div class="cta-row">
           {LAUNCHED
             ? <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
-          <a class="btn btn-ghost btn-lg" href="/demo/">See the review on a sample profile</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">You approve every line</li>
-          <li class="pill">One-time payment — no subscription</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">You approve every line.</li>
+          <li class="pill">You pay once.</li>
         </ul>
       </div>
 
       <div class="familiar" aria-label="Common signs a resume needs a makeover">
-        <p class="familiar-label">Sound familiar? The resumes that come to us for a makeover:</p>
+        <p class="familiar-label">Sound familiar? A makeover is for three kinds of resume: one that reads like everyone else's, one built on a years-old template, and one that leaves the good work off entirely.</p>
         <div class="fcard">
           <b>"It reads like everyone else's."</b>
           <p>"Hard worker." "Team player." "Proven track record." Recruiters tend to skim right past these — they say nothing about what you actually did.</p>
@@ -116,9 +116,7 @@ const breadcrumbLd = {
           the whole way.</p>
         </div>
       </div>
-      <p class="muted scan-note">Also at launch: a free format check on your own file — images, fonts,
-      tables and columns, hidden text, filler phrases. No AI, nothing stored. Use it whether or not you
-      buy anything.</p>
+      <p class="muted scan-note">At launch you also get a free format check on your own file. It flags images, fonts, tables and columns, hidden text, and filler phrases. The check runs on fixed rules, not AI, and stores nothing. Use it whether or not you buy anything.</p>
     </div>
   </section>
 
@@ -127,6 +125,7 @@ const breadcrumbLd = {
     <div class="container">
       <p class="eyebrow">What the makeover looks like</p>
       <h2>One filler line, made specific and true</h2>
+      <p class="muted">This is a sample worker, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
@@ -135,14 +134,10 @@ const breadcrumbLd = {
         </div>
         <div class="card">
           <h3>After — every item confirmed by the person</h3>
-          <p>"[Title] at [employer], [N] years. Preventive maintenance on [N] machines, OSHA
-          lockout/tagout (LOTO) compliance, [system] troubleshooting, trained [N] new hires on
-          standard work procedures."</p>
+          <p>"Maintenance technician at a food-packaging plant, 6 years. Preventive maintenance on 40 machines, OSHA lockout/tagout (LOTO) compliance, Allen-Bradley PLC troubleshooting, and training for 8 new hires on standard work procedures."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">The bracketed parts are yours — your title, your
-      numbers, your systems. We never add a number you didn't give us. The first line could be about
-      anyone. The second could only be about you — and that's the whole makeover.</p>
+      <p class="muted" style="margin-top:12px">We never add a number you didn't give us. The first line could be about anyone. The second could only be about you, and that's the whole makeover.</p>
     </div>
   </section>
 
@@ -151,16 +146,14 @@ const breadcrumbLd = {
     <div class="container priceband">
       <p class="eyebrow">One-time payment. No subscription.</p>
       <h2>Honest pricing for a real makeover.</h2>
-      <p class="lede">$49 for the complete, honest, machine-readable rebuild of your one resume. Or $149
-      for the targeted build aimed at one specific job posting: the rebuild in that posting's language
-      plus 25 interview questions for the role (full breakdown on the pricing page). Join the list before launch day and your first build is 25% off.</p>
+      <p class="lede">$49 makes your one resume complete and honest, in a file that screening software reads cleanly. $149 aims that resume at one specific job posting, in that posting's language, and adds 25 interview questions for the role. Join the launch list before launch day and your first resume is 25% off.</p>
       <div class="cta-row" style="justify-content:center">
         {LAUNCHED
           ? <a class="btn btn-primary btn-lg" href={appUrl}>Get started</a>
-          : <a class="btn btn-primary btn-lg" href="#get-started">Lock in 25% off</a>}
+          : <a class="btn btn-primary btn-lg" href="#get-started">Join the launch list for 25% off</a>}
       </div>
-      <p class="muted small">If a line is wrong, we redo it from your note. One-time payment — no revision haggling. Paid for a makeover already and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small">If a line is wrong, we redo it from your note. You pay once, with no revision rounds to argue over. Paid for a makeover already and got a template back? See <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -193,18 +186,15 @@ const breadcrumbLd = {
       ) : (
         <>
           <h2>We launch in October 2026 — be first in line</h2>
-          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our ATS Readability Checklist (ATS is the software that reads your resume first; the checklist is a ready-to-use Word worksheet for
-          checking your current file today) is yours the moment you join. We'll tell you the moment
-          we're live. No spam.</p>
+          <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS Readability Checklist the moment you join. (ATS is the software that reads your resume first. The checklist is a ready-to-use Word worksheet for checking your current file today.) We'll tell you the moment we're live. No spam.</p>
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="makeover-page" />
             <input type="hidden" name="redirect" value="/resume-makeover/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/ats-readability-checklist.docx" download>Download your ATS Readability Checklist</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>

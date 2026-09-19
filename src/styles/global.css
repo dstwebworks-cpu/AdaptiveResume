@@ -93,10 +93,17 @@ p { margin: 0 0 1rem; }
 
 /* cards / pills */
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); transition: box-shadow .15s ease; }
-.pill { display: inline-flex; align-items: center; gap: 6px; font-size: .82rem; font-weight: 700;
-  padding: 5px 11px; border-radius: 999px; background: var(--true-bg); color: var(--true); border: 1px solid #c3e6cf;
-  white-space: nowrap; }
-.tag-premium { display: inline-block; width: fit-content; align-self: flex-start; margin: 0 0 10px; background: var(--premium-bg); color: var(--premium); border: 1px solid #ddccf6; font-size: .8rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
+/* hero pills are labels, not buttons (09/19/2026 clarity audit): plain check-marked text, no border, no fill */
+.pill { display: inline-flex; align-items: baseline; gap: 6px; font-size: .9rem; font-weight: 600; color: var(--ink-soft); }
+.pill::before { content: "✓"; color: var(--true); font-weight: 800; }
+/* pricing-card tag: small uppercase text, not a pill (09/19/2026 clarity audit) */
+.tag-premium { display: block; margin: 0 0 8px; color: var(--premium); font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+/* plain-language note on a term (ATS): hover, tap, or keyboard focus opens it (founder request 09/19/2026) */
+.term { position: relative; text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.term-note { display: none; position: absolute; left: 0; top: 1.6em; z-index: 40; width: min(320px, 86vw); background: var(--card); color: var(--ink);
+  border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow-lg); padding: 10px 12px;
+  font-size: .9rem; font-weight: 400; line-height: 1.45; text-align: left; text-transform: none; letter-spacing: 0; text-decoration: none; }
+.term:hover .term-note, .term:focus-within .term-note, .term.open .term-note { display: block; }
 
 /* two-tone before→after coverage bar (numbers anchored to their positions) */
 .cov2 { margin: 4px 0 2px; }

@@ -31,8 +31,8 @@ const steps = [
     <div class="container hero-grid">
       <div>
         <p class="eyebrow">For organizations</p>
-        <h1>Enrich every candidate's qualifications — at scale.</h1>
-        <p class="lede">Your people earned qualifications they never put on paper. Send us your candidates; we find the standards, certs, tools, and training each role really involved — and flag anything credential-like for <b>your reviewer's</b> sign-off, so nothing is made up. You pay per enriched candidate.</p>
+        <h1>Fill in every candidate's missing qualifications, at any volume.</h1>
+        <p class="lede">Your people earned qualifications they never put on paper. We call this enriching a resume: finding the real skills, standards, and training a candidate left off, and adding only what your reviewer confirms. Send us your candidates, and anything that looks like a license or certification goes to <b>your reviewer</b> to confirm first, so nothing is made up. You pay per enriched candidate.</p>
         <div class="cta-row">
           <a class="btn btn-amber btn-lg" href="#quote">Request a quote</a>
           <a class="btn btn-ghost btn-lg" href="#how-bulk">See how it works</a>
@@ -48,8 +48,8 @@ const steps = [
     <div class="container">
       <p class="eyebrow">Who it's for</p>
       <h2>Built for the people who place people.</h2>
-      <ul class="chips">
-        {buyers.map((b) => <li class="chip">{b}</li>)}
+      <ul class="ticks buyers">
+        {buyers.map((b) => <li>{b}</li>)}
       </ul>
     </div>
   </section>
@@ -80,7 +80,7 @@ const steps = [
       <h2>Consistent, fatigue-free, and honest at scale.</h2>
       <div class="grid cols-3">
         <div class="card"><h3>Integrity at scale</h3><p>We never put a credential on a resume on our own. Anything that looks like a formal certification goes to your reviewer's queue to confirm first — nothing made up.</p></div>
-        <div class="card"><h3>Finds what's implied</h3><p>The standards and training a role really involves (IATF, OSHA/LOTO, CLIA, NEC, MOS→civilian translation) that generic resume tools never name.</p></div>
+        <div class="card"><h3>Finds what's implied</h3><p>The standards and training a role really involves (IATF, OSHA/LOTO, CLIA, NEC, and military-to-civilian translation) that generic resume tools never name.</p></div>
         <div class="card"><h3>Honest build status</h3><p>Today: your reviewers work every candidate in our review queue, and we handle batch intake for you under a data-processing agreement. In active build: self-serve bulk upload with an itemized intake manifest. On the roadmap: API/webhook delivery into your own ATS. We will always tell you which is which.</p></div>
       </div>
     </div>
@@ -114,12 +114,12 @@ const steps = [
           </tbody>
         </table>
       </div>
-      <p class="scroll-hint" aria-hidden="true">Slide the table to see the alternatives →</p>
+      <p class="scroll-hint" aria-hidden="true">Slide the table to see the alternatives.</p>
       <p class="muted small" style="margin-top:12px">Cost figures are typical category ranges for comparison, not quotes from specific providers. "~" means it depends on the provider/process.</p>
 
       <div class="grid cols-2" style="margin-top:34px">
         <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unchecked under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
-        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With AdaptiveResume</h3><p>Send your batch → consistent enrichment finds real skills → low-confidence items wait for <b>your</b> reviewer → export ATS-clean resumes + a per-candidate review audit report. Your team spends its time reviewing, not retyping — and nothing is made up.</p></div>
+        <div class="card" style="border-color:#cfe0fb;background:var(--primary-bg)"><h3>With AdaptiveResume</h3><p>You send a batch. We find each candidate's real skills. Anything uncertain, and anything that looks like a certification, waits for <b>your</b> reviewer. You export ATS-clean resumes plus a per-candidate report showing what was reviewed. Your team spends its time reviewing, not retyping, and nothing is made up.</p></div>
       </div>
     </div>
   </section>
@@ -174,7 +174,7 @@ const steps = [
             <span>Anything we should know? <em class="muted">(optional)</em></span>
             <textarea name="note" rows="3" maxlength="2000" placeholder="Timeline, batch size, what you'd want a pilot to prove — whatever helps us size it right."></textarea>
           </label>
-          <button class="btn btn-primary btn-lg" type="submit">Request a quote →</button>
+          <button class="btn btn-primary btn-lg" type="submit">Request a quote</button>
         </form>
         <p class="quote-done hide" id="quoteDone">Got it — your request is in. We'll follow up by email to size your quote.</p>
         <p class="quote-err hide" id="quoteErr">That email didn't look right — mind trying it again?</p>
@@ -184,10 +184,10 @@ const steps = [
         <h3>Volume tiers</h3>
         <p class="muted">Per-candidate rate steps down as monthly volume rises.</p>
         <ul class="tierlist">
-          <li><span>Starter volume</span><span class="q">quote</span></li>
-          <li><span>Growing volume</span><span class="q">quote</span></li>
-          <li><span>High volume</span><span class="q">quote</span></li>
-          <li><span>Enterprise / channel</span><span class="q">quote</span></li>
+          <li><span>Starter volume</span><span class="q">Priced by quote</span></li>
+          <li><span>Growing volume</span><span class="q">Priced by quote</span></li>
+          <li><span>High volume</span><span class="q">Priced by quote</span></li>
+          <li><span>Enterprise / channel</span><span class="q">Priced by quote</span></li>
         </ul>
         <p class="muted small">Exact tiers and rates are set with you on a short call — sized to your real monthly volume.</p>
       </div>
@@ -199,7 +199,7 @@ const steps = [
     <div class="container cta-band">
       <h2>Start with a paid pilot on your own candidates.</h2>
       <p class="lede">Bring a real batch. Pilots run at standard rates and are fully credited against your first contract — so you see the enrichment and the integrity flags on your own people, and the pilot money is never spent twice.</p>
-      <a class="btn btn-primary btn-lg" href="#quote">Request a pilot quote</a>
+      <a class="btn btn-primary btn-lg" href="#quote">Request a quote</a>
     </div>
   </section>
 
@@ -214,12 +214,13 @@ const steps = [
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 12px; }
     .small { font-size: .85rem; }
 
-    .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 8px 0 0; }
-    .chip { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 9px 16px; font-weight: 600; color: var(--ink-soft); box-shadow: var(--shadow); }
+    /* audience list: plain check-marked text, not chips (09/19/2026 clarity audit) */
+    .buyers { display: grid; gap: 4px 28px; margin: 8px 0 0; }
+    @media (min-width: 720px) { .buyers { grid-template-columns: 1fr 1fr; } }
 
     .steps .card { position: relative; padding-top: 30px; }
     .steps .card:hover { box-shadow: var(--shadow-lg); }
-    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg, var(--accent-strong), #d97706); color: #16202b; font-weight: 800; box-shadow: 0 4px 12px rgba(217,119,6,.3); }
+    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--accent-strong); color: #16202b; font-weight: 800; }
 
     .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
     .ticks li { padding-left: 26px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }
@@ -229,7 +230,7 @@ const steps = [
     @media (min-width: 880px) { .quote-grid { grid-template-columns: 1.2fr 0.8fr; } }
     .tiers .tierlist { list-style: none; padding: 0; margin: 14px 0; }
     .tiers .tierlist li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line); font-weight: 600; color: var(--ink-soft); }
-    .tiers .q { color: var(--primary); font-weight: 700; }
+    .tiers .q { color: var(--muted); font-weight: 500; }
 
     .cta-band { text-align: center; max-width: 720px; }
     .cta-band .lede { margin: 0 auto 18px; max-width: 54ch; }

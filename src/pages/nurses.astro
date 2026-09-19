@@ -17,10 +17,10 @@ const faq = [
     a: "By stating it plainly. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we label what you're moving toward as what it is: a critical care residency you're seeking, a course you're completing. Stepdown experience dressed up as ICU experience is something we won't write." },
   { q: 'I travel. How should contracts show up?',
     a: "Each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status if you hold one under the Nurse Licensure Compact. We ask about each contract; you confirm the details." },
-  { q: 'Why $149 instead of the $49 build?',
-    a: "The $49 build makes your one nursing resume complete and honest. The $149 targeted build aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. The full breakdown is on the pricing page. If you have a specific unit posting open in another tab, that's the one." },
+  { q: 'Why $149 instead of the $49 resume?',
+    a: "The $49 resume makes your one nursing resume complete and honest. The $149 Targeted resume aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. If you have a specific unit posting open in another tab, that's the one." },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -58,26 +58,26 @@ const guides = [
       <p class="eyebrow">A resume builder for nurses — RN and LPN/LVN · ICU, ER, med-surg, tele, OR, NICU, L&amp;D, charge, travel</p>
       <h1>The nursing resume writing service that puts your <span class="hl">real units</span> on the page.</h1>
       <p class="lede">
-        Your resume says "provided patient care." Your work was a [N]-bed unit, 1:4 assignments, drips
+        Your resume says "provided patient care." Your work was a whole unit: 1:4 assignments, drips
         you titrated, nurses you precepted, shifts you ran as charge. We work backwards through your
-        real units together, show you what you left off, and you confirm every line — so the finished
+        real units together, show you what you left off, and you confirm every line, so the finished
         resume is complete, honest, and reads cleanly to the software that screens it.
       </p>
       <div class="cta-row">
         {LAUNCHED
           ? <>
               <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
             </>
           : <>
-              <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
-              <a class="btn btn-ghost btn-lg" href="/demo/">See a sample review first — free, no sign-up</a>
+              <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
+              <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
             </>}
       </div>
       <ul class="pills">
-        <li class="pill">Nothing made up — ever</li>
-        <li class="pill">You approve every line</li>
-        <li class="pill">One-time payment</li>
+        <li class="pill">We make nothing up.</li>
+        <li class="pill">You approve every line.</li>
+        <li class="pill">You pay once.</li>
       </ul>
     </div>
   </section>
@@ -140,7 +140,7 @@ const guides = [
         </div>
         <div class="card">
           <h3>Unit, bed count, and ratios</h3>
-          <p>"ICU" says less than "[N]-bed CVICU, typical 1:2 assignments." Unit type, bed count, and
+          <p>"ICU" says less than "24-bed CVICU, typical 1:2 assignments." Unit type, bed count, and
           your usual ratio is the one line another nurse reads and instantly understands.</p>
         </div>
         <div class="card">
@@ -161,6 +161,7 @@ const guides = [
     <div class="container">
       <p class="eyebrow">What the rebuild looks like</p>
       <h2>Same true shifts — a resume that finally says what they were</h2>
+      <p class="muted">This is a sample nurse, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
@@ -168,16 +169,10 @@ const guides = [
         </div>
         <div class="card">
           <h3>After — every line confirmed by the nurse</h3>
-          <p>"RN, [N]-bed telemetry unit, typical 1:4 assignments: continuous cardiac monitoring, titratable
-          drips per protocol; [Epic] charting · Precepted [N] new-graduate nurses through unit orientation ·
-          Relief charge [N] shifts/month: acuity-based assignments for [N] RNs and [N] techs · BLS and ACLS
-          (American Heart Association), current through [month/year]."</p>
+          <p>"RN, 32-bed telemetry unit, typical 1:4 assignments: continuous cardiac monitoring, titratable drips per protocol; Epic charting. Precepted 6 new-graduate nurses through unit orientation. Relief charge 4 shifts a month: acuity-based assignments for 8 RNs and 3 techs. BLS and ACLS (American Heart Association), current through 06/2027."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The bed count,
-      the ratio, the precepting, the charge shifts, the cert dates — the nurse had all of it. It just
-      wasn't written down at its real size. We propose each line as a question; the brackets get filled
-      with your real numbers, or the line doesn't go in.</p>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The bed count, the ratio, the precepting, the charge shifts, and the cert dates were all real. They just were not written down at their real size.</p>
     </div>
   </section>
 
@@ -187,31 +182,29 @@ const guides = [
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
-          <p class="muted">Most nurses start here: your one resume made complete and honest — license,
-          cert block, unit lines, precepting and charge — everything you've earned, finally on paper.</p>
+          <p class="muted">Start here if you are staying in your specialty. Your one resume is made complete and honest: license, certification block, unit lines, precepting, and charge, with everything you have earned finally on paper.</p>
           <ul class="ticks">
-            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm what's yours — nothing lands without your say-so</li>
             <li>Reads cleanly for hospital screening software, and for the manager after it</li>
           </ul>
         </div>
         <div class="card price featured">
           <span class="tag-premium">For a specific unit posting</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Have the posting open in another tab? This aims your resume at that one
-          job.</p>
+          <p class="muted">Have a specific job posting open in another tab? The Targeted resume aims your resume at that one job.</p>
           <ul class="ticks">
-            <li>Your experience translated into the language that posting uses</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. One-time payment, no revision haggling. Paid a resume service already and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small" style="margin-top:14px">If a line is wrong, we redo it from your note. You pay once, with no revision rounds to argue over. Paid a resume service already and got a template back? See <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -242,20 +235,17 @@ const guides = [
       ) : (
         <>
           <h2>We launch in October 2026 — be first in line</h2>
-          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our ICU Nurse Resume Skeleton (a ready-to-use Word template with
-          the license and cert block already laid out) is yours the moment you join. We'll tell you the
-          moment it's live, plus the occasional genuinely useful note on nursing resumes. No spam.</p>
+          <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ICU Nurse Resume Template (a ready-to-use Word template with the license and cert block already laid out) the moment you join. We'll tell you the moment it's live, plus the occasional genuinely useful note on nursing resumes. No spam.</p>
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="nurses-page" />
             <input type="hidden" name="redirect" value="/nurses/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
-          <a class="btn btn-premium hide" id="captureGift" href="/templates/icu-nurse-resume-template.docx" download>Download your ICU Nurse Resume Skeleton</a>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/icu-nurse-resume-template.docx" download>Download your ICU Nurse Resume Template</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
         </>
       )}

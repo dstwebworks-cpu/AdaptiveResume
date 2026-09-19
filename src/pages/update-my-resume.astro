@@ -18,9 +18,9 @@ const faq = [
   { q: 'How long does an update take?',
     a: "Most of the time is you reading findings and confirming lines, and you can do that in one sitting. There's no writer to wait on and no revision rounds to schedule. If a line comes out wrong, you edit it or leave a note and we redo that line from your note, right then." },
   { q: 'Why $49 instead of $149?',
-    a: 'The $49 build brings your one resume fully up to date: everything the last few years added, confirmed by you, in a file that reads cleanly to screening software. The $149 targeted build aims that same resume at one specific posting: your confirmed experience translated into that posting\'s language, plus 25 interview questions for that role. The full breakdown is on the pricing page. If a posting just appeared and you want to aim at it, that\'s the $149. If you just need to be current, $49.' },
+    a: 'The $49 resume brings your one resume fully up to date: everything the last few years added, confirmed by you, in a file that reads cleanly to screening software. The $149 Targeted resume aims that same resume at one specific posting: your confirmed experience translated into that posting\'s language, plus 25 interview questions for that role. If a posting just appeared and you want to aim at it, choose the $149 option. If you just need to be current, the $49 option is enough.' },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -57,18 +57,18 @@ const breadcrumbLd = {
         <div class="cta-row">
           {LAUNCHED
             ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-            : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
-          <a class="btn btn-ghost btn-lg" href="/demo/">Not sure yet? Walk a sample review</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">You approve every line</li>
-          <li class="pill">One-time payment — no subscription</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">You approve every line.</li>
+          <li class="pill">You pay once.</li>
         </ul>
       </div>
 
       <div class="familiar" aria-label="What an update usually finds">
-        <p class="familiar-label">What we usually find in a resume that's been sitting a few years:</p>
+        <p class="familiar-label">A resume that has been sitting for a few years usually has the same three gaps: the title is out of date, the new tools are missing, and the job has grown but the words have not.</p>
         <div class="fcard">
           <b>The title is wrong.</b>
           <p>You were promoted since. The resume still shows the job you had when you last opened the file.</p>
@@ -126,23 +126,18 @@ const breadcrumbLd = {
     <div class="container">
       <p class="eyebrow">What an update looks like</p>
       <h2>Same job. Same person. Four years later, finally on paper.</h2>
+      <p class="muted">This is a sample worker, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before — the resume as it's been sitting</h3>
-          <p class="muted">"Maintenance Technician, [Company], [year]–present. Repair equipment and perform preventive maintenance."</p>
+          <p class="muted">"Maintenance Technician, 2020 to present. Repair equipment and perform preventive maintenance."</p>
         </div>
         <div class="card">
           <h3>After — every line confirmed by the person</h3>
-          <p>"Maintenance Supervisor, [Company], promoted [year]; Maintenance Technician, [year]–[year].
-          Lead a crew of [N] technicians across [N] shifts and own the preventive maintenance schedule for
-          [N] machines. Moved work orders from paper to [CMMS system]; [N]% of preventive maintenance
-          completed on time last year. OSHA 30-Hour General Industry card, renewed [year]; [forklift] certified."</p>
+          <p>"Maintenance Supervisor, promoted 2024; Maintenance Technician, 2020 to 2024. Lead a crew of 6 technicians across 2 shifts and own the preventive maintenance schedule for 55 machines. Moved work orders from paper to a computerized maintenance system (Fiix); 96% of preventive maintenance completed on time last year. OSHA 30-Hour General Industry card, renewed 2025; forklift certified."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Every bracket is a fact only you can fill in, and we ask you
-      for it instead of inventing it. Nothing in the After was added that wasn't already true. The promotion,
-      the system, the crew, the card: all of it happened. It just never got written down. That's what an update
-      does, line by line, with your say-so on each one.</p>
+      <p class="muted" style="margin-top:12px">Nothing in the After was added that wasn't already true. The promotion, the system, the crew, the card: all of it happened. It just never got written down. That's what an update does, line by line, with your say-so on each one.</p>
     </div>
   </section>
 
@@ -153,33 +148,30 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price featured">
-          <span class="tag-premium">Most updates</span>
-          <h3>Base build</h3>
+          <span class="tag-premium">This is the right choice for most updates.</span>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume brought fully up to date: everything the last few years added,
           confirmed by you, in a file that reads cleanly to the software that screens it.</p>
           <ul class="ticks">
-            <li>One finished resume, built from up to three old ones plus your LinkedIn resume export (the PDF with your work history)</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>Promotions, systems, certifications, and scope shown to you one at a time; you confirm what's yours</li>
             <li>You see what hiring software actually extracts from the finished file</li>
           </ul>
         </div>
         <div class="card price">
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">A posting just appeared and you want to aim at it. Everything in the base build,
-          aimed at one specific role.</p>
+          <p class="muted">A posting just appeared and you want to aim at it. This is everything in the Base resume, aimed at one specific job.</p>
           <ul class="ticks">
-            <li>Your resume translated into the language that posting uses</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small" style="text-align:center">Join the list before launch day and your first build is 25% off.
-      If a line is wrong, you edit it or leave a note and we redo it from your note. One-time payment, no revision haggling.
-      Paid someone to update it and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small" style="text-align:center">Join the launch list before launch day and your first resume is 25% off. If a line is wrong, you edit it or leave a note and we redo it from your note. You pay once, with no revision rounds to argue over. Paid someone to update it and got a template back? See <a href="/fix/">Fix a resume you paid for</a>.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -212,18 +204,15 @@ const breadcrumbLd = {
       ) : (
         <>
           <h2>We launch in October 2026 — be current before you need to be</h2>
-          <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our Promotion History Worksheet (a ready-to-use Word worksheet for
-          writing down what changed each time you moved up) is yours the moment you join. When we're live,
-          you bring the resume you have and we find the rest together.</p>
+          <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Promotion History Worksheet (a ready-to-use Word worksheet for writing down what changed each time you moved up) the moment you join. When we're live, you bring the resume you have and we find the rest together.</p>
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="update-page" />
             <input type="hidden" name="redirect" value="/update-my-resume/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/promotion-history-worksheet.docx" download>Download your Promotion History Worksheet</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>

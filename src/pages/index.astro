@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import AtsTerm from '../components/AtsTerm.astro';
 // Pre-launch (default): app CTAs become email capture — set PUBLIC_LAUNCHED=1 at
 // build to flip the site live. Prod builds default to the real app origin so a
 // forgotten env var can never ship localhost links again (07/27 audit finding).
@@ -28,17 +29,17 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           {LAUNCHED
             ? <>
                 <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-                <a class="btn btn-ghost btn-lg" href="/demo/">Try a sample review — no sign-up</a>
+                <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>
             : <>
-                <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
-                <a class="btn btn-ghost btn-lg" href="/demo/">Try a sample review — no sign-up</a>
+                <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
+                <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>}
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">ATS-readable</li>
-          <li class="pill">You approve every line</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">Your resume reads cleanly for screening software.</li>
+          <li class="pill">You approve every line.</li>
         </ul>
       </div>
 
@@ -74,7 +75,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Let's see what you've been leaving off.</h2>
       {LAUNCHED
         ? <p class="lede">Create your account, upload your resume, and we'll dig in together — finding real things you've earned but never wrote down. You approve every line before anything lands.</p>
-        : <p class="lede">We launch in October 2026. Join the list before launch day — that's all it takes. <b>25% off your first build is locked in</b>, and our ATS-Safe Resume Skeleton (a ready-to-use Word template) is yours the moment you join.</p>}
+        : <p class="lede">We launch in October 2026. Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>}
 
       {LAUNCHED ? (
         <>
@@ -83,7 +84,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
           </div>
           <p class="reoffer muted">
-            Want to see it first? <a href="/demo/">Try a sample review</a> — no upload, no account.
+            Want to see it first? <a href="/demo/">See it work on a sample resume</a>, with no sign-up needed.
           </p>
         </>
       ) : (
@@ -92,11 +93,11 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="site-hero" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="start-alt muted">Just your email — no account, no card. The occasional useful note while we build, and your discount arrives with the launch email. No spam.</p>
+          <p class="start-alt muted">We only need your email. There is no account to create and no card to enter. We will send an occasional useful note before launch, and your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You&#39;re on the list, and your 25% is locked in. We&#39;ll send the occasional useful note and tell you the moment we&#39;re live.</p>
-          <a class="btn btn-premium hide" id="captureGift" href="/templates/resume-format-for-ats-template.docx" download>Download your ATS-Safe Resume Skeleton</a>
+          <a class="btn btn-premium hide" id="captureGift" href="/templates/resume-format-for-ats-template.docx" download>Download your ATS-Safe Resume Template</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
         </div>
       )}
@@ -112,7 +113,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="card">
           <span class="step-n">1</span>
           <h3>Upload</h3>
-          <p>Add up to three resumes (and, if you like, your LinkedIn resume export — the PDF with your work experience in it). Your data is a file you provide — we only ever use what you upload.</p>
+          <p>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours. We only ever use the files you upload.</p>
         </div>
         <div class="card">
           <span class="step-n">2</span>
@@ -122,7 +123,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="card">
           <span class="step-n">3</span>
           <h3>Download</h3>
-          <p>Get a clean, <a href="/guides/what-is-an-ats/">ATS</a>-readable resume built only from what you confirmed — and see for yourself how the screening software reads it.</p>
+          <p>Get a clean resume that screening software (<AtsTerm />) can read, built only from what you confirmed, and see for yourself how that software reads it.</p>
         </div>
       </div>
     </div>
@@ -143,12 +144,12 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <p class="lede">For career changers, military and government-to-private transitions, the trades, and specialists who do far more than their resume shows.</p>
         <ul class="ticks">
           <li>We'll find the skills and credentials you left off — you confirm each one, in your words</li>
-          <li>Aiming at a specific role? We'll point your experience toward it (targeted build)</li>
-          <li>Turns government, military, and trade terms into language the hiring side recognizes — <a href="#military">see a real translation</a></li>
+          <li>Aiming at one specific job? Our $149 Targeted resume aims your experience at it.</li>
+          <li>Aiming at a new field? Our Targeted resume turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
           <li>See for yourself how the screening software reads your resume</li>
-          <li>Paid a resume service and got a template back? <a href="/fix/">Start at Fix my resume</a> — bring the draft you paid for and we finish what it started</li>
+          <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
-        <a class="btn btn-primary" href="#pricing">See pricing &amp; get started →</a>
+        <a class="btn btn-primary" href="#pricing">See pricing</a>
       </div>
       <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with newly found skills highlighted and a format check" loading="lazy" />
     </div>
@@ -182,7 +183,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           </tbody>
         </table>
       </div>
-      <p class="scroll-hint" aria-hidden="true">Slide the table to see the other tools →</p>
+      <p class="scroll-hint" aria-hidden="true">Slide the table to see the other tools.</p>
       <p class="muted small" style="margin-top:12px">Cost ranges are typical figures for each category, for comparison — not quotes from specific companies. "~" means it depends on the tool. We never promise an outcome.</p>
     </div>
   </section>
@@ -200,57 +201,59 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         never typed at all.</b>
       </p>
       <ul class="ticks">
-        <li><b>A chatbot writes first and leaves you to catch what isn't true.</b> It puts plausible-sounding credentials straight into the draft, and spotting the false ones inside smooth, confident writing is genuinely hard. Here that's reversed: everything arrives as a question — "did you work under this standard?" — and nothing goes on the page until you say yes.</li>
+        <li><b>A chatbot writes first and leaves you to catch what isn't true.</b> It puts plausible-sounding credentials straight into the draft, and spotting the false ones inside smooth, confident writing is genuinely hard. With AdaptiveResume, it works the other way around: every suggestion arrives as a question, and nothing goes on the page until you say yes.</li>
         <li><b>A chatbot polishes what you already wrote.</b> We dig into what work like yours really involves — the certifications, safety standards, and training that belong on your resume but weren't in your head to ask about. That's the part you can't prompt your way to.</li>
         <li><b>You finish with real files, not text in a chat window.</b> Finished Word and PDF, your original words quoted back on every finding, checked against what screening software reads — every check shown to you.</li>
       </ul>
-      <p><a href="/demo/">Watch the checking work on a sample review — no sign-up →</a></p>
+      <p><a href="/demo/">See it work on a sample resume, no sign-up needed.</a></p>
 
-      <!-- ===== THE TIME MATH (toggle: vs writer / vs DIY chat) ===== -->
+      <!-- ===== HOW LONG IT TAKES (toggle: a resume writer / doing it yourself with a chatbot).
+           Retitled and rewritten 09/19/2026 (hero-page clarity audit, founder-approved item 2). ===== -->
       <div class="timemath">
-        <h3>The time math</h3>
-        <p class="muted">It feels like working with someone — because you are. One finding at a time, together, with no appointment to book. Compare your path:</p>
+        <h3>How long it takes</h3>
+        <p class="muted">You never do this alone. We go through your resume with you: no appointment to wait for, at your pace, one finding at a time.{LAUNCHED && ' You can start right now.'}</p>
+        <p class="tm-lead">Compare the time it takes with:</p>
         <div class="tm-tabs">
-          <button class="tm-tab active" data-tm="writer">vs. a resume writer</button>
-          <button class="tm-tab" data-tm="diy">vs. DIY with a chatbot</button>
+          <button class="tm-tab active" data-tm="writer">A resume writer</button>
+          <button class="tm-tab" data-tm="diy">Doing it yourself with a chatbot</button>
         </div>
         <div class="tm-panel" data-tm="writer">
           <div class="tm-col">
             <h4>A professional writing service</h4>
             <ul>
-              <li>Book, pay, fill out their questionnaire — day one</li>
-              <li>First draft arrives in 3–7 <em>business days</em> (typical advertised turnarounds, 2026)</li>
-              <li>Revision rounds: roughly another week — if they honor them</li>
-              <li><b>Calendar time: one to two weeks of waiting</b></li>
+              <li>Day one: you book, pay, and fill out their questionnaire.</li>
+              <li>A first draft arrives in 3 to 7 business days.</li>
+              <li>Revisions add roughly another week.</li>
+              <li><b>In total, you wait one to two weeks.</b></li>
             </ul>
           </div>
           <div class="tm-col us">
-            <h4>Here</h4>
+            <h4>AdaptiveResume</h4>
             <ul>
-              <li>Upload — your free scan appears in seconds</li>
-              <li>Findings start streaming moments after your review begins</li>
-              <li>You review one finding at a time, at your pace. If you get interrupted, we save your work where you left off.</li>
-              <li><b>Calendar time: today</b> — the longest you wait on us is measured in seconds, and there's a live clock on screen whenever we're working</li>
+              <li>Upload your resume. Within seconds you see a free format check of how screening software reads it.</li>
+              <li>The first suggestions appear moments after you start, and you say yes or no to each one.</li>
+              <li>You go at your own pace. If you get interrupted, we save your place.</li>
+              <li><b>In total, you finish today.</b> A live clock shows on screen whenever we are working, so you always know where things stand.</li>
             </ul>
           </div>
         </div>
         <div class="tm-panel hide" data-tm="diy">
           <div class="tm-col">
-            <h4>DIY with a chatbot</h4>
+            <h4>Doing it yourself with a chatbot</h4>
             <ul>
-              <li>Rounds of prompting and re-prompting to get something usable</li>
-              <li>Then the step almost nobody does: auditing every line yourself, because nothing else checks it</li>
-              <li>Then wrestling the text into a clean, screening-software-safe file</li>
-              <li><b>Your active work: an evening or more — with the checking burden entirely on you</b></li>
+              <li>You prompt and re-prompt until something is usable.</li>
+              <li>Then comes the step almost nobody does: checking every line yourself, because nothing else checks it.</li>
+              <li>Then you wrestle the text into a clean file that screening software can read.</li>
+              <li><b>Your active work is an evening or more, and all of the checking is on you.</b></li>
             </ul>
           </div>
           <div class="tm-col us">
-            <h4>Here</h4>
+            <h4>AdaptiveResume</h4>
             <ul>
-              <li>The digging, the checking, and the formatting are the product — the checks are built into the process, not left to your discipline</li>
-              <li>You spend your time on the one thing only you can do: confirming what's true</li>
-              <li>Finished, checked, formatted files — Word and PDF — at the end of the same sitting</li>
-              <li><b>Your active work: one focused session, guided the whole way</b></li>
+              <li>We do the digging, the checking, and the formatting. The checks are built in, so nothing depends on you remembering to do them.</li>
+              <li>You spend your time on the one thing only you can do: confirming what is true.</li>
+              <li>You finish the same sitting with checked, formatted Word and PDF files.</li>
+              <li><b>Your active work is one focused session, guided the whole way.</b></li>
             </ul>
           </div>
         </div>
@@ -266,7 +269,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Your record is strong. Its language is the problem.</h2>
       <p class="lede">
         Civilian screening software has never heard of an AMAL block, an NCOER, or a property book.
-        We translate what you actually did into the words the hiring side searches for — and you approve every line.
+        Our Targeted resume translates what you actually did into the words civilian employers search for, and you approve every line.
       </p>
       <div class="beforeafter">
         <div class="ba-row"><span class="ba-tag">Your resume says</span>
@@ -275,7 +278,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <p>"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — to hospital SPD standards."</p></div>
       </div>
       <p class="muted small">Sample translation — generic profile, no real service member shown.</p>
-      <p><a href="/demo/?p=military">See the full military sample review — no sign-up →</a></p>
+      <p><a href="/demo/?p=military">See it work on a military sample, no sign-up needed.</a></p>
     </div>
   </section>
 
@@ -286,34 +289,34 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2 pricing">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume, made complete — everything you've earned, finally on paper.</p>
           <ul class="ticks">
-            <li>Bring up to three old resumes (even the messy ones) plus your LinkedIn resume export</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>We'll dig through them together and find what you left off — you confirm what's yours</li>
             <li>Reads cleanly for the screening software, and for the person after it</li>
             <li>We run the format checks screening software cares about — and show you each one</li>
           </ul>
-          <a class="btn btn-primary" href="#get-started">Get started</a>
+          <a class="btn btn-primary" href="#get-started">{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
         </div>
 
         <div class="card price featured">
           <span class="tag-premium">For a specific role</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in base — plus we'll aim your resume at the one role you're going for, in language that side recognizes.</p>
+          <p class="muted">Everything in the Base resume, plus we aim your resume at the one job you are going for, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
-            <li>We'll translate your experience into the new field's language — government, military, and trade terms included</li>
-            <li>A side-by-side of what the posting asks for and what your resume covers — and what it doesn't</li>
-            <li>25 interview questions for that exact role, each traced to the posting and your own resume lines</li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
-          <p class="muted" style="font-size:.92em">Your finished resume is a file you keep — send it to as many employers as you want. Need another build later? 25% off your second, 50% off after that.</p>
-          <a class="btn btn-premium" href="#get-started">Get started</a>
+          <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
+          <a class="btn btn-premium" href="#get-started">{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
-      {!LAUNCHED && <p class="muted finep">On the launch list? Your <b>first</b> build is 25% off too — the discounts above start from your second.</p>}
-      <p class="muted finep">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted finep">{LAUNCHED ? 'Your second resume is 25% off, and every one after that is 50% off.' : 'If you join the launch list, your first resume is 25% off. Your second resume is also 25% off, and every one after that is 50% off.'}</p>
+      <p class="muted finep">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -324,8 +327,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <div>
         <p class="eyebrow">For organizations</p>
         <h2>Hiring, staffing, or placing people?</h2>
-        <p class="lede">AdaptiveResume fills out every candidate's resume in bulk — with the same promise, nothing made up — for staffing agencies, outplacement firms, workforce boards, and veteran and reentry nonprofits.</p>
-        <a class="btn btn-primary btn-lg" href="/business/">Interested in commercial offerings for your organization? →</a>
+        <p class="lede">AdaptiveResume finds what every candidate's resume left off, one batch at a time, with the same promise: nothing made up. It is built for staffing agencies, outplacement firms, workforce boards, and veteran and reentry nonprofits.</p>
+        <a class="btn btn-primary btn-lg" href="/business/">See plans for organizations</a>
       </div>
     </div>
   </section>
@@ -334,7 +337,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
   <section id="legal" class="section legal-strip">
     <div class="container legalnote">
       <p class="muted">
-        <b>How AdaptiveResume Works:</b> nothing made up · ATS-readable · real value added · your edits honored.
+        <b>How AdaptiveResume works:</b> We never make anything up. Your resume reads cleanly for screening software (<AtsTerm />). We only add things you confirm are true. Any edit you make stays.
         Read the full <a href="/terms/">Terms of Service</a>, <a href="/privacy/">Privacy Policy</a>, and
         <a href="/disclaimer/">Disclaimer</a>.
       </p>
@@ -371,7 +374,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     /* steps */
     .steps .card { position: relative; padding-top: 30px; }
     .steps .card:hover { box-shadow: var(--shadow-lg); }
-    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg, var(--accent-strong), #d97706); color: #16202b; font-weight: 800; box-shadow: 0 4px 12px rgba(217,119,6,.3); }
+    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--accent-strong); color: #16202b; font-weight: 800; }
 
     /* demo + jobs split */
     .demo-grid, .jobs-grid { display: grid; gap: 30px; align-items: center; }
@@ -445,7 +448,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     /* time math */
     .timemath { margin-top: 34px; }
     .timemath h3 { font-size: 1.3rem; margin: 0 0 6px; }
-    .tm-tabs { display: flex; gap: 8px; margin: 14px 0; }
+    .tm-lead { margin: 14px 0 8px; font-weight: 600; }
+    .tm-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
     .tm-tab { font: inherit; font-size: .9rem; font-weight: 700; padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
     .tm-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
     .tm-panel { display: grid; gap: 14px; }

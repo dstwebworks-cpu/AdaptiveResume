@@ -106,6 +106,15 @@ const siteLd = [
     </main>
     <Footer />
     <script is:inline>
+      // Term notes (ATS): a tap toggles the note; a tap anywhere else, or Escape, closes it.
+      document.querySelectorAll('.term').forEach((t) => {
+        t.addEventListener('click', (e) => { if (e.target.closest('a')) return; t.classList.toggle('open'); });
+        t.addEventListener('keydown', (e) => { if (e.key === 'Escape') t.classList.remove('open'); });
+      });
+      addEventListener('click', (e) => {
+        if (e.target.closest('.term')) return;
+        document.querySelectorAll('.term.open').forEach((t) => t.classList.remove('open'));
+      });
       // Instant feedback on any capture form: the POST->303 round trip takes a
       // moment, and a silent button reads as broken.
       addEventListener('submit', (e) => {

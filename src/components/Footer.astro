@@ -1,4 +1,5 @@
 ---
+import AtsTerm from './AtsTerm.astro';
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
@@ -15,7 +16,7 @@ const year = new Date().getFullYear();
     <nav aria-label="Product">
       <h4>Product</h4>
       <a href="/#job-seekers">For job seekers</a>
-      <a href="/fix/">Burned by a resume service?</a>
+      <a href="/fix/">Fix a resume you paid for</a>
       <a href="/demo/">Try the demo</a>
       <a href="/career-change/">Career change &amp; transitions</a>
       <a href="/nurses/">For nurses</a>
@@ -38,10 +39,10 @@ const year = new Date().getFullYear();
     <div>
       <h4>How AdaptiveResume Works</h4>
       <ul class="how">
-        <li>Nothing made up</li>
-        <li><a href="/guides/what-is-an-ats/">ATS</a>-readable</li>
-        <li>Real value added</li>
-        <li>Your edits honored</li>
+        <li>We never make anything up.</li>
+        <li>Your resume reads cleanly for screening software (<AtsTerm />).</li>
+        <li>We only add things you confirm are true.</li>
+        <li>Any edit you make stays.</li>
       </ul>
     </div>
   </div>

@@ -9,13 +9,13 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'How is a career change resume different from a regular one?',
-    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. The targeted build maps what you've actually done to the words the new role uses, and you confirm every line." },
+    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. The Targeted resume maps what you've actually done to the words the new role uses, and you confirm every line." },
   { q: "What if I'm coming from the military or a federal job?",
     a: "That's the same translation problem at maximum strength — MOS codes, grade levels, and agency language mean nothing outside. We work backwards from what the role actually involved and put it in terms the civilian or private-sector reader recognizes. Nothing gets inflated on the way." },
-  { q: 'Why $149 instead of the $49 build?',
-    a: 'The $49 build makes your one resume complete. The $149 targeted build aims it at the specific posting you want next: your experience translated into that posting\'s language, plus 25 interview questions you may face for that role — the full breakdown is on the pricing page. For a transition, the translation is the product.' },
+  { q: 'Why $149 instead of the $49 resume?',
+    a: 'The $49 resume makes your one resume complete. The $149 Targeted resume aims it at the specific posting you want next: your experience translated into that posting\'s language, plus 25 interview questions you may face for that role. For a transition, the translation is the product.' },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -46,13 +46,13 @@ const breadcrumbLd = {
         every line — so the resume that crosses over is complete, honest, and recognizably you.
       </p>
       <div class="cta-row">
-        <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
+        <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
         <a class="btn btn-ghost btn-lg" href="#pricing">See pricing first</a>
       </div>
       <ul class="pills">
-        <li class="pill">Nothing made up — ever</li>
-        <li class="pill">You approve every line</li>
-        <li class="pill">One-time payment</li>
+        <li class="pill">We make nothing up.</li>
+        <li class="pill">You approve every line.</li>
+        <li class="pill">You pay once.</li>
       </ul>
     </div>
   </section>
@@ -98,7 +98,7 @@ const breadcrumbLd = {
       </div>
       <p class="muted" style="margin-top:12px">Sample profile — no real service member shown. Nothing was added that wasn't already true — the work
       was always this valuable. It just wasn't in words the next employer could hear. That's what the
-      targeted build does, line by line, with your say-so on each one.</p>
+      $149 Targeted resume does, line by line, with your say-so on each one.</p>
       <img class="example-card" src="/img/guides/examples/military-to-civilian-resume-example.png"
         alt="Before and after example: a military supply specialist's resume line translated into civilian language"
         loading="lazy" width="1200" height="630" />
@@ -112,23 +112,22 @@ const breadcrumbLd = {
       <div class="grid cols-2">
         <div class="card price featured">
           <span class="tag-premium">Built for transitions</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">The transition product: your resume aimed at the role you're going to, in
-          language that side recognizes.</p>
+          <p class="muted">Made for transitions: we aim your resume at the job you're going to, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
-            <li>Your experience translated into the new field's language — government, military, and trade terms included</li>
-            <li>25 interview questions you may face for that exact role</li>
-            <li>Full breakdown of what's included on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
-          <p class="muted">Staying in your field? The base build makes your one resume complete —
-          everything you've earned, finally on paper. You can start here and target later.</p>
+          <p class="muted">Staying in your field? The Base resume makes your one resume complete —
+          everything you've earned, finally on paper. You can start here and aim it at a specific job later.</p>
           <ul class="ticks">
-            <li>Up to three old resumes plus your LinkedIn export, dug through together</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm what's yours — nothing lands without your say-so</li>
             <li>Reads cleanly for screening software, and for people</li>
           </ul>
@@ -140,16 +139,13 @@ const breadcrumbLd = {
   <section class="section" id="get-started">
     <div class="container narrow" style="text-align:center">
       <h2>We launch in October 2026 — be first in line</h2>
-      <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-      build is locked in</b>, and our Transferable Skills Inventory (a ready-to-use Word worksheet)
-      is yours the moment you join. We'll tell you the moment it's live, plus the occasional
-      genuinely useful note on making a transition resume work. No spam.</p>
+      <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Transferable Skills Inventory (a ready-to-use Word worksheet) the moment you join. We'll tell you the moment it's live, plus the occasional genuinely useful note on making a transition resume work. No spam.</p>
       <form class="capture-form" method="post" action={waitlistAction}>
         <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
         <input type="hidden" name="source" value="career-change-page" />
         <input type="hidden" name="redirect" value="/career-change/" />
         <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-        <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+        <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
       </form>
       <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
       <a class="btn btn-premium hide" id="captureGift" href="/templates/transferable-skills-inventory.docx" download>Download your Transferable Skills Inventory</a>

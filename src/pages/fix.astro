@@ -31,18 +31,18 @@ const storyAction = appUrl + '/waitlist/story';
           we'll listen.
         </p>
         <div class="cta-row">
-          <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>
-          <a class="btn btn-ghost btn-lg" href="/guides/resume-writer-wont-revise/">Not sure yet? Read the rescue guide</a>
+          <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
+          <a class="btn btn-ghost btn-lg" href="/guides/resume-writer-wont-revise/">Read our guide for when a resume writer won't revise</a>
         </div>
         <ul class="pills">
-          <li class="pill">Nothing made up</li>
-          <li class="pill">You approve every line</li>
-          <li class="pill">One-time payment — no revision haggling</li>
+          <li class="pill">We make nothing up.</li>
+          <li class="pill">You approve every line.</li>
+          <li class="pill">You pay once, with no revision rounds to argue over.</li>
         </ul>
       </div>
 
       <div class="familiar" aria-label="Common experiences with paid resume services">
-        <p class="familiar-label">Sound familiar? The patterns we hear again and again:</p>
+        <p class="familiar-label">Sound familiar? A paid rewrite usually goes wrong in one of three ways: you get your old resume back in a new font, your notes come back half-done, or the revision round ends in silence.</p>
         <div class="fcard">
           <b>"It was my old resume in a new font."</b>
           <p>You paid for a rewrite and got your own sentences rearranged — nothing new found, nothing added.</p>
@@ -63,18 +63,15 @@ const storyAction = appUrl + '/waitlist/story';
   <section class="section alt" id="get-started">
     <div class="container narrow" style="text-align:center">
       <h2>We launch in October 2026 — don't pay full price twice</h2>
-      <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-      build is locked in</b>, and our Paid-Rewrite Rescue Checklist (a ready-to-use Word worksheet)
-      is yours the moment you join. When we're live, you bring the resume you paid for and we
-      finish what it started.</p>
+      <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Paid-Rewrite Rescue Checklist (a ready-to-use Word worksheet) the moment you join. When we're live, you bring the resume you paid for and we finish what it started.</p>
       <form class="capture-form" method="post" action={waitlistAction}>
         <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
         <input type="hidden" name="source" value="fix-page" />
         <input type="hidden" name="redirect" value="/fix/" />
         <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-        <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+        <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
       </form>
-      <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email. No spam.</p>
+      <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
       <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
       <a class="btn btn-premium hide" id="captureGift" href="/templates/paid-rewrite-rescue-checklist.docx" download>Download your Paid-Rewrite Rescue Checklist</a>
       <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
@@ -113,7 +110,7 @@ const storyAction = appUrl + '/waitlist/story';
   <!-- ===== HOW IT GOES DIFFERENTLY ===== -->
   <section class="section">
     <div class="container">
-      <p class="eyebrow">How this goes differently here</p>
+      <p class="eyebrow">How AdaptiveResume handles it differently</p>
       <h2>You never have to argue with us.</h2>
       <div class="grid cols-2">
         <div class="card">
@@ -146,11 +143,9 @@ const storyAction = appUrl + '/waitlist/story';
     <div class="container priceband">
       <p class="eyebrow">One-time payment. No subscription.</p>
       <h2>Finish this for a fraction of what the last round cost.</h2>
-      <p class="lede">$49 for a complete, honest, machine-readable rebuild — or $149 to aim it at one
-      specific role, in that field's language. Join the list before launch day and your first build
-      is 25% off. You stay the author the whole way.</p>
+      <p class="lede">$49 makes your one resume complete and honest, in a file that screening software reads cleanly. $149 aims that resume at one specific job, in the words that employer uses. Join the launch list before launch day and your first resume is 25% off. You stay the author the whole way.</p>
       <div class="cta-row" style="justify-content:center">
-        <a class="btn btn-primary btn-lg" href="#get-started">Lock in 25% off</a>
+        <a class="btn btn-primary btn-lg" href="#get-started">Join the launch list for 25% off</a>
       </div>
       <p class="muted small">We don't name or review specific companies; if a service treated you well, wonderful — this page is for when one didn't.</p>
     </div>

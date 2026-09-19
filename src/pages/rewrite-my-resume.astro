@@ -17,11 +17,11 @@ const faq = [
   { q: 'Will you add things I never did?',
     a: "Never. Nothing goes on the page you didn't confirm. Every finding is shown to you first; you confirm it, edit it, or skip it. If a line reads wrong, you can edit it directly or leave a note and we redo that line from your note. You approve every line before it lands." },
   { q: 'How is this different from a resume rewrite service that charges hundreds?',
-    a: "Three ways. One: we start from what you actually did, not from a template. Two: you see and confirm every line, so nothing is made up, and nothing you confirmed gets cut without your say-so. Three: it's a one-time payment — $49 for the base build, $149 for a build aimed at one specific posting — with no subscription and no revision haggling." },
+    a: "Three ways. One: we start from what you actually did, not from a template. Two: you see and confirm every line, so nothing is made up, and nothing you confirmed gets cut without your say-so. Three: you pay once, $49 for the Base resume or $149 for the Targeted resume aimed at one specific posting, with no subscription and no revision rounds to argue over." },
   { q: 'What if I want it aimed at a specific job?',
-    a: "That's the $149 targeted build. Bring the posting and we translate your confirmed experience into that field's language, and add 25 interview questions relevant to that role. The full breakdown is on the pricing page." },
+    a: "That's the $149 Targeted resume. Bring the posting and we translate your confirmed experience into that field's language, and add 25 interview questions relevant to that role." },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell resume builds to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free scan and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -52,18 +52,18 @@ const breadcrumbLd = {
         Upload the resume you have — old, short, self-written, aimed at a job you no longer want.
         It's a starting point, not a problem. We work backwards through your real experience and
         show you, one finding at a time, the tools, standards, credentials and scope you left off.
-        You confirm each one, in your words. Nothing made up. One-time price.
+        You confirm each one, in your words. We make nothing up, and you pay once.
       </p>
       <div class="cta-row">
         {LAUNCHED
           ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
-          : <a class="btn btn-amber btn-lg" href="#get-started">Join the list — 25% off at launch</a>}
-        <a class="btn btn-ghost btn-lg" href="/demo/">Try the demo first</a>
+          : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+        <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
       </div>
       <ul class="pills">
-        <li class="pill">Nothing made up</li>
-        <li class="pill">You approve every line</li>
-        <li class="pill">One-time payment — no subscription</li>
+        <li class="pill">We make nothing up.</li>
+        <li class="pill">You approve every line.</li>
+        <li class="pill">You pay once.</li>
       </ul>
     </div>
   </section>
@@ -108,6 +108,7 @@ const breadcrumbLd = {
     <div class="container">
       <p class="eyebrow">What the rewrite looks like</p>
       <h2>Same job, same person — finally on paper</h2>
+      <p class="muted">This is a sample worker, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before — written by the person, years ago</h3>
@@ -116,15 +117,10 @@ const breadcrumbLd = {
         </div>
         <div class="card">
           <h3>After — every line confirmed by the person</h3>
-          <p>"Ran daily operations for a [N]-person team at [location] · scheduled shifts and
-          covered call-outs · handled customer complaints through to resolution · kept daily
-          reports current in [system] · trained [N] new hires on [procedure]."</p>
+          <p>"Ran daily operations for a 15-person team at one retail location. Scheduled shifts and covered call-outs. Handled customer complaints through to resolution. Kept daily reports current in Workday. Trained 6 new hires on opening and closing procedures."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The team
-      size, the system, the training — the person had done all of it and never written it down.
-      We asked about each one; they confirmed, edited, or skipped. The brackets are where your own
-      facts go. We never put in a number you didn't give us.</p>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The team size, the system, the training: the person had done all of it and never written it down. We asked about each one; they confirmed, edited, or skipped. We never put in a number you didn't give us.</p>
     </div>
   </section>
 
@@ -135,32 +131,30 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base build</h3>
+          <h3>Base resume</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume, rewritten from what you actually did — complete, honest,
           and readable to screening software.</p>
           <ul class="ticks">
-            <li>Upload your resume (and your LinkedIn resume export, the PDF with your work history, if you have one) — we work backwards through all of it</li>
+            <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>Every finding shown to you first; you confirm, edit, or skip each one</li>
             <li>You see what hiring software extracts from the finished file</li>
           </ul>
         </div>
         <div class="card price featured">
           <span class="tag-premium">For one specific posting</span>
-          <h3>Targeted build</h3>
+          <h3>Targeted resume</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the base build, aimed at one job posting you bring us.</p>
+          <p class="muted">Everything in the Base resume, aimed at one job posting you bring us.</p>
           <ul class="ticks">
-            <li>Your confirmed experience translated into that field's language</li>
-            <li>25 interview questions for that role</li>
-            <li>The full breakdown of the targeted build is on the <a href="/#pricing">pricing page</a></li>
+            <li>We translate your experience into the language that job posting uses.</li>
+            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
+            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
           </ul>
         </div>
       </div>
-      <p class="muted small">Join the list before launch and your first build is 25% off. If a
-      line is wrong, we redo it from your note — one-time payment, no revision haggling.
-      If you paid someone to rewrite it and it went wrong, <a href="/fix/">start here</a> instead.</p>
-      <p class="muted small" style="text-align:center">If your review genuinely finds nothing for you, we'll make it right — see the <a href="/terms/">Terms</a> for the plain-language details.</p>
+      <p class="muted small">Join the launch list before launch and your first resume is 25% off. If a line is wrong, we redo it from your note. You pay once, with no revision rounds to argue over. If you paid someone to rewrite it and it went wrong, see <a href="/fix/">Fix a resume you paid for</a> instead.</p>
+      <p class="muted small" style="text-align:center">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
@@ -187,15 +181,12 @@ const breadcrumbLd = {
         ? <p class="lede">Create your account, upload the resume you have, and we'll dig in together —
           finding real things you've earned but never wrote down. You approve every line before
           anything lands.</p>
-        : <p class="lede">Join the list before launch day — that's all it takes. <b>25% off your first
-          build is locked in</b>, and our Achievement Quantification Worksheet (a ready-to-use Word
-          worksheet for putting real numbers to what you did) is yours the moment you join. We'll tell
-          you the moment we're live. No spam.</p>}
+        : <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Achievement Quantification Worksheet (a ready-to-use Word worksheet for putting real numbers to what you did) the moment you join. We'll tell you the moment we're live. No spam.</p>}
 
       {LAUNCHED ? (
         <div class="cta-row" style="justify-content:center">
           <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
-          <a class="btn btn-ghost btn-lg" href="/demo/">Try the demo first</a>
+          <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
       ) : (
         <>
@@ -204,9 +195,9 @@ const breadcrumbLd = {
             <input type="hidden" name="source" value="rewrite-page" />
             <input type="hidden" name="redirect" value="/rewrite-my-resume/" />
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the list</button>
+            <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="capture-note muted">Just your email — no account, no card. Your discount arrives with the launch email.</p>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. Your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll tell you the moment we're live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/achievement-quantification-worksheet.docx" download>Download your Achievement Quantification Worksheet</a>
           <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
