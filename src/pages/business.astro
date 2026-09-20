@@ -16,7 +16,7 @@ const buyers = [
   'Government workforce programs',
 ];
 const steps = [
-  { n: '1', h: 'Send us your batch', p: 'A batch of resume files or a CSV of candidates — ten or a full roster. During your pilot we handle intake for you under a signed data-processing agreement, over a secure channel; self-serve bulk upload is in active build. No per-seat setup fee.' },
+  { n: '1', h: 'Send us your batch', p: 'A batch of resume files or a CSV of candidates — ten or a full roster. During your pilot we handle intake for you under a signed data-processing agreement, over a secure channel. What works today and what is still coming is stated plainly further down this page. No per-seat setup fee.' },
   { n: '2', h: 'We fill in the gaps', p: 'Working backwards from each person\'s experience, we find the skills, standards, and training their role really involved — across a wide range of occupations.' },
   { n: '3', h: 'Your team reviews', p: 'Per-candidate results; low-confidence items and anything credential-like are held for your review, never claimed on their own. You sign off on what goes out under your name.' },
   { n: '4', h: 'Export', p: 'Per-candidate and org-level reports, plus ATS-clean resumes where you supplied the file — export as PDF, DOCX, or CSV/JSON for your ATS.' },
@@ -57,7 +57,7 @@ const steps = [
   <!-- HOW IT WORKS -->
   <section class="section" id="how-bulk">
     <div class="container">
-      <p class="eyebrow">How it works (bulk)</p>
+      <p class="eyebrow">How it works for organizations</p>
       <h2>From roster to enriched candidates in four steps.</h2>
       <div class="grid cols-2 steps">
         {steps.map((s) => (
@@ -77,11 +77,11 @@ const steps = [
   <section class="section alt">
     <div class="container">
       <p class="eyebrow">Why it beats the manual way</p>
-      <h2>Consistent, fatigue-free, and honest at scale.</h2>
+      <h2>Consistent and honest, whether you send ten candidates or a thousand.</h2>
       <div class="grid cols-3">
         <div class="card"><h3>Integrity at scale</h3><p>We never put a credential on a resume on our own. Anything that looks like a formal certification goes to your reviewer's queue to confirm first — nothing made up.</p></div>
         <div class="card"><h3>Finds what's implied</h3><p>The standards and training a role really involves (IATF, OSHA/LOTO, CLIA, NEC, and military-to-civilian translation) that generic resume tools never name.</p></div>
-        <div class="card"><h3>Honest build status</h3><p>Today: your reviewers work every candidate in our review queue, and we handle batch intake for you under a data-processing agreement. In active build: self-serve bulk upload with an itemized intake manifest. On the roadmap: API/webhook delivery into your own ATS. We will always tell you which is which.</p></div>
+        <div class="card"><h3>What works today, and what is coming</h3><p>Today, you send us the batch and we load it for you under a signed data-processing agreement, and your reviewers work every candidate in the review queue. Uploading batches yourself is being built now. Direct delivery into your own applicant tracking system is planned but not yet available. We will always tell you which is which.</p></div>
       </div>
     </div>
   </section>
@@ -90,7 +90,7 @@ const steps = [
   <section class="section">
     <div class="container">
       <p class="eyebrow">How we compare</p>
-      <h2>What you're choosing between — and why this wins.</h2>
+      <h2>Your options at a glance, and where AdaptiveResume comes out ahead.</h2>
       <p class="lede" style="max-width:64ch">The alternatives are either too slow to scale, too loose to trust, or too expensive per head. Here's the honest comparison.</p>
       <div class="table-wrap">
         <table class="compare">
@@ -104,18 +104,18 @@ const steps = [
             </tr>
           </thead>
           <tbody>
-            <tr><th>Scales to hundreds or thousands, fast</th><td class="us c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="p">~</td></tr>
-            <tr><th>Consistent quality across staff &amp; candidates</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="p">~</td></tr>
+            <tr><th>Scales to hundreds or thousands, fast</th><td class="us c">✓</td><td class="x">✗</td><td class="c">✓</td><td class="p">Sometimes</td></tr>
+            <tr><th>Consistent quality across staff &amp; candidates</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="p">Sometimes</td></tr>
             <tr><th>Never makes a credential up</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td></tr>
-            <tr><th>Low-confidence flagged for YOUR reviewer</th><td class="us c">✓</td><td class="p">~</td><td class="x">✗</td><td class="p">~</td></tr>
-            <tr><th>Finds skills candidates left off</th><td class="us c">✓</td><td class="p">~</td><td class="x">✗</td><td class="c">✓</td></tr>
-            <tr><th>Bulk processing + structured export</th><td class="us c">✓</td><td class="x">✗</td><td class="p">~</td><td class="x">✗</td></tr>
+            <tr><th>Uncertain items go to your reviewer, not straight to the resume</th><td class="us c">✓</td><td class="p">Sometimes</td><td class="x">✗</td><td class="p">Sometimes</td></tr>
+            <tr><th>Finds skills candidates left off</th><td class="us c">✓</td><td class="p">Sometimes</td><td class="x">✗</td><td class="c">✓</td></tr>
+            <tr><th>Bulk processing + structured export</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="x">✗</td></tr>
             <tr><th>Typical cost</th><td class="us">per enriched candidate<br /><span class="sub">volume tiers · by quote</span></td><td>staff hours<br /><span class="sub">doesn't scale</span></td><td>low / per seat<br /><span class="sub">accuracy risk</span></td><td>$275–$10k+<br /><span class="sub">per employee</span></td></tr>
           </tbody>
         </table>
       </div>
       <p class="scroll-hint" aria-hidden="true">Slide the table to see the alternatives.</p>
-      <p class="muted small" style="margin-top:12px">Cost figures are typical category ranges for comparison, not quotes from specific providers. "~" means it depends on the provider/process.</p>
+      <p class="muted small" style="margin-top:12px">Cost figures are typical category ranges for comparison, not quotes from specific providers.</p>
 
       <div class="grid cols-2" style="margin-top:34px">
         <div class="card"><h3>The manual way</h3><p class="muted">Each recruiter or coach edits each resume by hand. Quality swings with whoever touched it, credentials can go out unchecked under deadline pressure, and it simply doesn't scale past a handful a day.</p></div>
@@ -134,7 +134,7 @@ const steps = [
         <ul class="ticks">
           <li>Volume-based monthly tiers</li>
           <li>No per-seat setup fee</li>
-          <li>Batch intake today — self-serve bulk upload in build, API on the roadmap</li>
+          <li>We handle batch intake for you today; what is still coming is stated in the card above</li>
           <li>Paid pilots, fully credited against your first contract</li>
           <li>The same promise as our consumer product — nothing made up</li>
         </ul>
