@@ -1,11 +1,11 @@
 ---
-title: "How Staffing Agencies Can Strengthen Candidate Resumes at Scale"
+title: "Automated Resume Formatting Is Solved. Candidate Resume Content Is Not."
 description: "Stronger candidate resumes strengthen every submission — without quality coming at the cost of accuracy. Here's how to enrich resumes in bulk, honestly."
-seoTitle: "Staffing Agency Candidate Resumes, Done at Scale"
-seoDescription: "How staffing agencies can strengthen candidate resumes at scale — enriching submissions in bulk without quality costing accuracy."
+seoTitle: "Automated Resume Formatting vs. Real Content, at Scale"
+seoDescription: "Automated resume formatting and redaction software restyle what is there. How staffing agencies strengthen the content of candidate resumes at scale, honestly."
 segment: "organizations"
 audience: "Staffing & recruiting agencies"
-keyword: "staffing agency candidate resume"
+keyword: "automated resume formatting"
 giveaway:
   name: "Candidate-Intake Skills Template"
   file: "/templates/candidate-intake-skills-template.docx"
@@ -13,7 +13,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business/"
 pubDate: 2026-07-26
-updatedDate: 2026-08-06
+updatedDate: 2026-09-19
 order: 8
 draft: false
 faq:
@@ -26,6 +26,8 @@ faq:
 ---
 
 A stronger candidate resume reads stronger at every stage of the process. But for a staffing agency, resume quality runs straight into a wall: you can't spend an hour per candidate, and you can't put your name behind claims no one confirmed. The answer is enrichment that's both **fast** and **honest**.
+
+Automated resume formatting and resume redaction software solve the visible grind: your template, your branding, contact details stripped, in seconds. This guide is about the part they leave untouched, the content. For the per-candidate service that rebuilds it, see [resume rewriting for staffing agencies](/guides/resume-rewriting-for-staffing-agencies/).
 
 ## The two failure modes
 

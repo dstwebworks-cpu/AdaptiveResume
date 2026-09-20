@@ -1,11 +1,11 @@
 ---
-title: "Workforce Boards & WIOA: Helping Participants Document Skills They Already Have"
+title: "A Career Services Platform Is Not a Skills Record: Documenting What WIOA Participants Already Have"
 description: "Workforce programs serve people who've done real work but can't document it. Here's how to draw out and record participants' existing skills consistently — and honestly."
-seoTitle: "Workforce Development Resumes: A WIOA Skills Guide"
-seoDescription: "How workforce development teams can draw out and document participants' real, existing skills — consistently and honestly."
+seoTitle: "Career Services Platform vs. a Real Skills Record"
+seoDescription: "A career services platform or virtual career center stores resumes. Documenting the skills WIOA participants already have takes a process. Here it is."
 segment: "organizations"
 audience: "Workforce boards, American Job Centers, and WIOA-funded programs"
-keyword: "workforce development resume"
+keyword: "career services platform"
 giveaway:
   name: "Participant Skills-Documentation Template"
   file: "/templates/participant-skills-documentation-template.docx"
@@ -13,7 +13,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business/"
 pubDate: 2026-07-26
-updatedDate: 2026-08-06
+updatedDate: 2026-09-19
 order: 10
 draft: false
 faq:
@@ -26,6 +26,8 @@ faq:
 ---
 
 Workforce programs serve people who've done real, valuable work but were never taught to document it — dislocated workers, justice-involved individuals, veterans, long-term unemployed, and career changers. The barrier often isn't a lack of skills; it's a lack of a record. Helping participants draw out and document what they already have is some of the highest-leverage work a board can do.
+
+If your board is weighing a career services platform or a virtual career center, this guide is about the step those platforms do not do: drawing out the skills a participant already has. For buying that step per participant, see [workforce development resume services, per participant](/guides/workforce-development-resume-services/).
 
 ## The documentation gap
 

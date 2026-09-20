@@ -1,0 +1,461 @@
+[
+  {
+    "path": "/guides/",
+    "viewport": "android-360",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_-android-360.png"
+  },
+  {
+    "path": "/guides/",
+    "viewport": "iphone-390",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_-iphone-390.png"
+  },
+  {
+    "path": "/guides/",
+    "viewport": "ipad-768",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_-ipad-768.png"
+  },
+  {
+    "path": "/terms/",
+    "viewport": "android-360",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 80,
+        "h": 20,
+        "text": "Disclaimer"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 173,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_terms_-android-360.png"
+  },
+  {
+    "path": "/terms/",
+    "viewport": "iphone-390",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use\n          Policy"
+      },
+      {
+        "tag": "a",
+        "w": 80,
+        "h": 20,
+        "text": "Disclaimer"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 173,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_terms_-iphone-390.png"
+  },
+  {
+    "path": "/terms/",
+    "viewport": "ipad-768",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use\n          Policy"
+      },
+      {
+        "tag": "a",
+        "w": 80,
+        "h": 20,
+        "text": "Disclaimer"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 172,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 107,
+        "h": 20,
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "a",
+        "w": 173,
+        "h": 20,
+        "text": "Acceptable Use Policy"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      },
+      {
+        "tag": "a",
+        "w": 237,
+        "h": 20,
+        "text": "support@adaptiveresume.com"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_terms_-ipad-768.png"
+  },
+  {
+    "path": "/guides/emt-resume/",
+    "viewport": "android-360",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 57,
+        "h": 15,
+        "text": "Guides"
+      },
+      {
+        "tag": "a",
+        "w": 167,
+        "h": 20,
+        "text": "O*NET’s EMT profile"
+      },
+      {
+        "tag": "a",
+        "w": 128,
+        "h": 19,
+        "text": "Try the demo first"
+      },
+      {
+        "tag": "a",
+        "w": 168,
+        "h": 43,
+        "text": "See how the service works"
+      },
+      {
+        "tag": "a",
+        "w": 137,
+        "h": 43,
+        "text": "Start at Fix my resume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_emt-resume_-android-360.png"
+  },
+  {
+    "path": "/guides/emt-resume/",
+    "viewport": "iphone-390",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 57,
+        "h": 15,
+        "text": "Guides"
+      },
+      {
+        "tag": "a",
+        "w": 167,
+        "h": 20,
+        "text": "O*NET’s EMT profile"
+      },
+      {
+        "tag": "summary",
+        "w": 312,
+        "h": 27,
+        "text": "What if my call volume was low?"
+      },
+      {
+        "tag": "a",
+        "w": 128,
+        "h": 19,
+        "text": "Try the demo first"
+      },
+      {
+        "tag": "a",
+        "w": 194,
+        "h": 19,
+        "text": "See how the service works"
+      },
+      {
+        "tag": "a",
+        "w": 161,
+        "h": 19,
+        "text": "Start at Fix my resume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_emt-resume_-iphone-390.png"
+  },
+  {
+    "path": "/guides/emt-resume/",
+    "viewport": "ipad-768",
+    "status": 200,
+    "overflowPx": 0,
+    "wide": [],
+    "smallTargets": [
+      {
+        "tag": "a",
+        "w": 179,
+        "h": 30,
+        "text": "AR AdaptiveResume"
+      },
+      {
+        "tag": "a",
+        "w": 57,
+        "h": 15,
+        "text": "Guides"
+      },
+      {
+        "tag": "summary",
+        "w": 682,
+        "h": 27,
+        "text": "How do I list EMT certifications that ex"
+      },
+      {
+        "tag": "summary",
+        "w": 682,
+        "h": 27,
+        "text": "Does volunteer EMS count as real experie"
+      },
+      {
+        "tag": "summary",
+        "w": 682,
+        "h": 27,
+        "text": "What if my call volume was low?"
+      },
+      {
+        "tag": "a",
+        "w": 128,
+        "h": 19,
+        "text": "Try the demo first"
+      },
+      {
+        "tag": "a",
+        "w": 194,
+        "h": 19,
+        "text": "See how the service works"
+      },
+      {
+        "tag": "a",
+        "w": 161,
+        "h": 19,
+        "text": "Start at Fix my resume"
+      }
+    ],
+    "jsErrors": [],
+    "screenshot": "scripts\\out\\mobile-sweep\\2026-09-20\\_guides_emt-resume_-ipad-768.png"
+  }
+]
