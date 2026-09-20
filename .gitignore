@@ -23,3 +23,6 @@ Thumbs.db
 test-results/
 playwright-report/
 /dist/
+
+# mobile-sweep output (screenshots + reports) stays local
+scripts/out/
