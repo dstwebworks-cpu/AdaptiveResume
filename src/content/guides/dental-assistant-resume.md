@@ -12,7 +12,7 @@ giveaway:
 cta:
   label: "Build your resume — $49"
   href: "/#pricing"
-pubDate: 2026-09-12
+pubDate: 2026-09-18
 order: 96
 draft: false
 faq:

@@ -12,7 +12,7 @@ giveaway:
 cta:
   label: "Request a per-candidate quote"
   href: "/business/#quote"
-pubDate: 2026-09-19
+pubDate: 2026-09-20
 order: 100
 draft: false
 faq:

@@ -1,0 +1,19 @@
+{
+  "_comment": "Sitemap lastmod for the static pages (src/pages/*.astro), the date each page's content last changed. Guides are NOT listed here: their date comes from pubDate/updatedDate in their own frontmatter. /guides/ takes the newest guide date. scripts/page-dates-check.mjs fails the build if a page file has a git commit newer than its entry, so update the date in the same commit that changes the page.",
+  "/": "2026-09-20",
+  "/acceptable-use/": "2026-09-01",
+  "/business/": "2026-09-20",
+  "/career-change/": "2026-09-20",
+  "/demo/": "2026-09-20",
+  "/disclaimer/": "2026-09-01",
+  "/fix/": "2026-09-20",
+  "/nurses/": "2026-09-20",
+  "/privacy/": "2026-09-08",
+  "/resume-editing-service/": "2026-09-20",
+  "/resume-makeover/": "2026-09-19",
+  "/resume-writing-service/": "2026-09-20",
+  "/rewrite-my-resume/": "2026-09-20",
+  "/terms/": "2026-09-06",
+  "/update-my-resume/": "2026-09-20",
+  "/veterans/": "2026-09-20"
+}

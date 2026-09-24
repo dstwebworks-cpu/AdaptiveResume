@@ -12,7 +12,7 @@ giveaway:
 cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
-pubDate: 2026-09-19
+pubDate: 2026-09-20
 order: 99
 draft: false
 faq:

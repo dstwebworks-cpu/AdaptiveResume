@@ -1,6 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { buildLastmodMap, urlPath } from './scripts/page-dates.mjs';
+
+const lastmod = buildLastmodMap();
 
 // Real domain (owned 07/04/2026, Wix registrar) — canonical URLs + sitemap resolve
 // here. The site still DEPLOYS only after validation passes (locked rule).
@@ -24,17 +27,17 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
   integrations: [sitemap({
-    // lastmod = honest freshness signal for crawler scheduling (added 08/06):
-    // dated only for surfaces genuinely updated. 08/11: batch-one guides (10 new),
-    // discount copy on every capture door, and privacy (new collection bullet) —
-    // so privacy now carries lastmod too; terms/disclaimer still untouched.
-    // Update this date only when content truly changes again.
+    // lastmod = one honest date per URL (rewritten 09/24/2026). Guides carry their own
+    // pubDate/updatedDate; static pages read src/data/page-dates.json, which the
+    // prebuild guard (scripts/page-dates-check.mjs) keeps in step with git. Before this,
+    // a single constant stamped every non-legal page 2026-08-11, so pages published or
+    // changed in September advertised an older date than their content. An unknown URL
+    // fails the build on purpose: a page with no date must not ship with a guessed one.
     serialize(item) {
-      // The four legal pages publish the attorney-final text on 09/01/2026 — that is
-      // their real freshness date, so they must not inherit the 08/11 batch date.
-      const legal = ['/terms', '/privacy', '/disclaimer', '/acceptable-use'];
-      if (legal.some((p) => item.url.includes(p))) { item.lastmod = '2026-09-01'; return item; }
-      item.lastmod = '2026-08-11';
+      const path = urlPath(item.url);
+      const date = lastmod[path];
+      if (!date) throw new Error(`sitemap: no lastmod for ${path}; add it to src/data/page-dates.json (static page) or fix the guide frontmatter`);
+      item.lastmod = date;
       return item;
     },
   })],
