@@ -57,7 +57,7 @@ If you are buying this service for a program, or building it in-house, hold it t
 
 **4. Handle credentials by asking.** Many military schools map to civilian certifications, and the services' Credentialing Opportunities On-Line (COOL) sites list which ones. A credential the veteran actually earned goes on by its civilian name and date. Training completed without the credential is listed as training. A CDL earned through the military skills test waiver goes on once the state issues it, not before.
 
-**5. Confirm every line with the veteran.** Each suggested line is a question. Nothing lands on the page the veteran did not confirm, and anything uncertain waits for your program's reviewer.
+**5. Confirm every line with the veteran.** Each suggested line is a question. Nothing lands on the page that the veteran or your program's reviewer did not confirm, and anything uncertain waits for that reviewer.
 
 Here is what that produces for one veteran. This is a sample service member, not a real person.
 
@@ -75,7 +75,7 @@ Programs shop for this service under several names: resume writing for veterans,
 
 **Resume building** means the resume is rebuilt from the veteran's record and prior documents, each likely skill and credential is put as a question, and every line is confirmed by the veteran or by your program's reviewer before it lands. The program receives the finished resume and the per-person record of what was proposed and what was confirmed. That record is what a counselor files, what a reviewer checks a clearance line against, and what makes the service consistent across a caseload of two hundred as it is across a caseload of two.
 
-For the federal track, the same confirmed record feeds the longer USAJOBS document. It does not replace a federal resume writer, and the format notes below say so.
+For the federal track, the same confirmed record feeds the more detailed USAJOBS document. It does not replace a federal resume writer, and the format notes below say so.
 
 ## Buying it as a program
 

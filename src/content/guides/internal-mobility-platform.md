@@ -78,7 +78,7 @@ Here is what the difference looks like for one person. This is a sample employee
 
 **After, confirmed line by line:** "Production supervisor for a 34-person second shift on two packaging lines; ran ISO 9001 internal audit preparation for four consecutive audits; trained 60 or more new hires on lockout-tagout under OSHA 29 CFR 1910.147; covered the production scheduler role for 11 months during a leave, building the weekly schedule in SAP."
 
-The role you are about to post for a quality coordinator asks for audit preparation experience and a documented training history. The platform would never have surfaced her. The confirmed record does, once someone reads it against the role.
+The role you are about to post for a quality coordinator asks for audit preparation experience and a documented training history. The platform would not have surfaced her. The confirmed record does, once someone reads it against the role.
 
 ## Buying, renewing, or skipping the platform
 
