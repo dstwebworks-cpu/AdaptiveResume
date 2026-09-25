@@ -17,7 +17,7 @@ order: 111
 draft: false
 faq:
   - q: "Is a work readiness assessment required under WIOA?"
-    a: "An objective assessment is. For youth, the regulations require an objective assessment of academic levels, skill levels, and service needs for each participant, and for adults and dislocated workers, comprehensive and specialized assessments are an individualized career service. The regulations do not name a specific instrument, so which assessment a program uses is a local decision."
+    a: "For youth, yes: the statute requires an objective assessment of each participant's academic levels, skill levels, and service needs, and the regulations carry that requirement. For adults and dislocated workers, comprehensive and specialized assessments are an individualized career service that must be made available when a one-stop determines it is appropriate for the person. Neither names a specific instrument, so which assessment a program uses is a local decision."
   - q: "What is the difference between a work readiness assessment and a job readiness assessment?"
     a: "In practice the terms are used for the same thing: an instrument that measures whether a person has the foundational skills and workplace behaviors to hold a job. Some programs use job readiness for the behavioral and soft-skill side and work readiness for the foundational academic and applied skills, but there is no standard that separates them."
   - q: "Does a confirmed skills record replace the assessment?"
@@ -45,9 +45,9 @@ Each of these produces a level or a score. None of them produces a sentence an e
 
 The Workforce Innovation and Opportunity Act (WIOA) requires an assessment; it does not name the instrument.
 
-For youth, the regulations require an objective assessment of each participant's academic levels, skill levels, and service needs, including a review of basic skills, occupational skills, prior work experience, employability, interests, aptitudes, supportive service needs, and developmental needs. That list is in the youth program regulations at 20 CFR 681.290. Prior work experience is on it, which means the assessment is supposed to capture what the young person has already done, not only what they score.
+For youth, the statute requires an objective assessment of each participant's academic levels, skill levels, and service needs, including a review of basic skills, occupational skills, prior work experience, employability, interests, aptitudes, supportive service needs, and developmental needs. That list is in WIOA section 129(c)(1)(A), codified at 29 U.S.C. 3164(c)(1)(A), and the youth program regulations carry it at 20 CFR 681.420(a)(1). Prior work experience is on it, which means the assessment is supposed to capture what the young person has already done, not only what they score.
 
-For adults and dislocated workers, comprehensive and specialized assessments of skill levels and service needs are an individualized career service under 20 CFR 678.430. The same regulation makes the individual employment plan a career service, and a plan is built on what the person can do and has done.
+For adults and dislocated workers, comprehensive and specialized assessments of skill levels and service needs are an individualized career service under 20 CFR 678.430(b), one that must be made available when the one-stop determines it is appropriate for the person. The same regulation makes the individual employment plan a career service, and a plan is built on what the person can do and has done.
 
 So the regulations already ask for two things the score alone does not give: prior experience, and a plan built on it. Programs meet that requirement today through case-manager interviews and notes. The quality of the notes depends on the case manager's caseload.
 
@@ -111,6 +111,6 @@ We do not administer readiness assessments, we do not place participants, and we
 
 ## Format notes
 
-One page for a participant with one or two roles, two pages once there are more. Reverse chronological order, a single column, no photos or graphics. Gaps get one plain dated line, never an explanation paragraph. For participants pursuing federal jobs, applications through USAJOBS cap at two pages as of the September 2025 OPM change. The youth objective assessment requirements are at [20 CFR 681.290](https://www.ecfr.gov/current/title-20/chapter-V/part-681/subpart-B/section-681.290), and adult career services are defined at [20 CFR 678.430](https://www.ecfr.gov/current/title-20/chapter-V/part-678/subpart-B/section-678.430).
+One page for a participant with one or two roles, two pages once there are more. Reverse chronological order, a single column, no photos or graphics. Gaps get one plain dated line, never an explanation paragraph. For participants pursuing federal jobs, applications through USAJOBS cap at two pages as of the September 2025 OPM change. The youth objective assessment requirement is in WIOA section 129(c)(1)(A), codified at [29 U.S.C. 3164](https://www.law.cornell.edu/uscode/text/29/3164), and carried in the regulations at [20 CFR 681.420](https://www.ecfr.gov/current/title-20/chapter-V/part-681/subpart-C/section-681.420); adult career services are defined at [20 CFR 678.430](https://www.ecfr.gov/current/title-20/chapter-V/part-678/subpart-B/section-678.430).
 
 The **Work-Readiness Evidence Checklist** below lists what a case manager captures at intake so the record is built from real inputs, next to whatever assessment your program uses. When you are ready to size a pilot, request a per-participant quote with your caseload and funding stream. We never add a credential nobody confirmed, and we never promise anyone a job.

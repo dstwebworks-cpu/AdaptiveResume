@@ -24,7 +24,7 @@ faq:
   - q: "Can the resumes be used for federal applications?"
     a: "The resume we build is aimed at civilian employers and the screening software they run. A federal resume is a different document: applications through USAJOBS cap at two pages as of the September 2025 OPM change and ask for details a private-sector resume leaves off. Programs running both tracks keep the federal version in the USAJOBS format and use ours for industry."
   - q: "Is this the same as a military-to-civilian resume writer or a resume writing service for veterans?"
-    a: "It is the same work, bought by a program per person instead of by one veteran at a time. A military-to-civilian resume writer produces a document for the veteran; we build the resume from the veteran's own record with the veteran confirming every line, and the program gets a per-person record of what was proposed and confirmed. Individual veterans can use the same service directly through our veterans page."
+    a: "It is the same work, bought by a program per person instead of by one veteran at a time. A military-to-civilian resume writer produces a document for the veteran; we build the resume from the veteran's own record, with every line confirmed by the veteran or by your reviewer, and the program gets a per-person record of what was proposed and confirmed. Individual veterans can use the same method directly through our veterans page."
   - q: "What does it cost, and is there a free pilot?"
     a: "It is priced per person, by quote, sized to your caseload. Pilots are paid at standard rates and fully credited against your first agreement. We do not offer free pilots, because a paid pilot means both sides are invested in it working."
 ---
@@ -73,9 +73,9 @@ Programs shop for this service under several names: resume writing for veterans,
 
 **Resume writing** means a writer takes what the veteran says in an interview and composes the document. It depends on the writer's military literacy and on the veteran remembering, under time pressure, what they did. Quality varies by writer, and the program has no record of what was said.
 
-**Resume building** means the resume is rebuilt from the veteran's record and prior documents, each likely skill and credential is put to the veteran as a question, and the veteran confirms every line before it lands. The program receives the finished resume and the per-person record of what was proposed and what was confirmed. That record is what a counselor files, what a reviewer checks a clearance line against, and what makes the service consistent across a caseload of two hundred as it is across a caseload of two.
+**Resume building** means the resume is rebuilt from the veteran's record and prior documents, each likely skill and credential is put as a question, and every line is confirmed by the veteran or by your program's reviewer before it lands. The program receives the finished resume and the per-person record of what was proposed and what was confirmed. That record is what a counselor files, what a reviewer checks a clearance line against, and what makes the service consistent across a caseload of two hundred as it is across a caseload of two.
 
-For the federal track, the same confirmed record feeds the longer USAJOBS document; it does not replace a federal resume writer, and we say so in the format notes below.
+For the federal track, the same confirmed record feeds the longer USAJOBS document. It does not replace a federal resume writer, and the format notes below say so.
 
 ## Buying it as a program
 
@@ -108,6 +108,6 @@ Pilots are paid at standard rates and fully credited against your first agreemen
 
 ## Format notes
 
-Two pages is normal once a veteran has more than one substantive assignment. The most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. Reverse chronological order, a single column, no graphics. For the federal track, applications through USAJOBS cap at two pages as of the September 2025 OPM change, and veterans' preference belongs on the federal application, never on the private-sector resume. The transition-program findings above come from the U.S. Government Accountability Office's report [GAO-23-106793](https://www.gao.gov/products/gao-23-106793).
+Two pages is normal once a veteran has more than one substantive assignment. The most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. Reverse chronological order, a single column, no graphics. For the federal track, applications through USAJOBS cap at two pages as of the September 2025 OPM change, and veterans' preference belongs on the federal application, never on the private-sector resume. The transition-program findings above come from the U.S. Government Accountability Office's report [GAO-23-106793](https://www.gao.gov/products/gao-23-106793). A federal resume is a different document, and this service does not replace a federal resume writer.
 
 The **Military-to-Civilian Skills Translator** below is the worksheet we use to walk an MOS, rate, or AFSC into civilian wording, and your counselors can use it today. When you are ready to see it on your own caseload, request a per-person quote with your head count. We never add a credential nobody confirmed, and we never promise anyone a job.

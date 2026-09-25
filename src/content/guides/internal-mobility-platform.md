@@ -21,7 +21,7 @@ faq:
   - q: "Do we need a platform to run redeployment?"
     a: "No. A redeployment program needs three things: a current record of what each affected employee can do, a list of the roles you need filled, and someone accountable for matching them. A platform automates the matching at scale. For a redeployment of fifty people, a confirmed skills record and a spreadsheet do the same job."
   - q: "Can a resume service feed our existing platform?"
-    a: "A platform reads whatever skills data its profiles hold. Our per-employee output is a confirmed, plain-text skills record and a finished resume in DOCX and PDF, plus a CSV report per batch. Loading that into a platform's profiles is a manual or import step on your side today; we do not offer an API or ATS integration yet, and we say so plainly."
+    a: "A platform reads whatever skills data its profiles hold. Our per-employee output is a finished resume in DOCX and PDF, a per-employee Review Audit report in PDF, and an organization report in CSV that shows each person's review status and counts. Nothing loads into a platform automatically; your team copies the confirmed lines into the profile. We do not offer an API or ATS integration yet, and we say so plainly."
   - q: "Is this an outplacement service?"
     a: "Redeployment keeps people; outplacement helps people who are leaving. We serve both, and the work is the same skills excavation either way. If a redeployment does not find a role for someone, the same confirmed record becomes the resume they leave with. Our outplacement guides cover that side."
 ---
@@ -70,7 +70,7 @@ The fix is a skills excavation done per person, before the platform runs, or ins
 2. **Work backwards through the real work.** The equipment, the systems, the standards, the people trained, the coverage assignments, the projects nobody wrote down. Every likely skill becomes a question.
 3. **The employee confirms every line.** Nothing goes on the record the person did not say yes to. This is what makes the record honest at volume, and what makes it the employee's own rather than HR's assumption.
 4. **Credentials are asked about, never assumed.** A certification the person no longer holds is worse on a record than one that was never listed.
-5. **The output is a plain record.** A confirmed skills inventory, a finished resume in DOCX and PDF, and a batch report in CSV, so it can be loaded into a platform, matched in a spreadsheet, or handed to the employee.
+5. **The output is a finished record.** A finished resume in DOCX and PDF per employee, built only from confirmed lines, a per-employee Review Audit report in PDF showing what was proposed and what was confirmed, and an organization report in CSV with each person's review status. Your team reads the confirmed lines from the resume into a platform profile or a matching spreadsheet; nothing loads automatically.
 
 Here is what the difference looks like for one person. This is a sample employee, not a real one.
 
@@ -78,11 +78,11 @@ Here is what the difference looks like for one person. This is a sample employee
 
 **After, confirmed line by line:** "Production supervisor for a 34-person second shift on two packaging lines; ran ISO 9001 internal audit preparation for four consecutive audits; trained 60 or more new hires on lockout-tagout under OSHA 29 CFR 1910.147; covered the production scheduler role for 11 months during a leave, building the weekly schedule in SAP."
 
-The role you are about to post for a quality coordinator asks for audit preparation experience and a documented training history. The platform would never have surfaced her. The confirmed record does.
+The role you are about to post for a quality coordinator asks for audit preparation experience and a documented training history. The platform would never have surfaced her. The confirmed record does, once someone reads it against the role.
 
 ## Buying, renewing, or skipping the platform
 
-**If you are buying a platform,** run the skills excavation first, on the population you most need to move, and load the confirmed records before launch. A platform that goes live on thin profiles produces weak matches in its first months, and employees stop trusting it.
+**If you are buying a platform,** run the skills excavation first, on the population you most need to move, and copy the confirmed lines into the profiles before launch. A platform that goes live on thin profiles produces weak matches in its first months, and employees stop trusting it.
 
 **If you are renewing one,** ask the vendor how many employees have updated their profile in the last twelve months. That number is the platform's real coverage.
 
@@ -90,7 +90,7 @@ The role you are about to post for a quality coordinator asks for audit preparat
 
 ## What we offer
 
-AdaptiveResume for organizations builds the confirmed skills record per employee. You send the batch, and during a pilot we handle intake under a signed data-processing agreement. Each employee's record is rebuilt from their real work, every suggested line is confirmed by the employee or by your reviewer, and anything that looks like a credential is held for confirmation. You get a finished resume per person in DOCX and PDF, a batch report in CSV, and a per-person record of what was proposed and what was confirmed.
+AdaptiveResume for organizations builds the confirmed skills record per employee. You send the batch, and during a pilot we handle intake under a signed data-processing agreement. Each employee's record is rebuilt from their real work, every suggested line is confirmed by the employee or by your reviewer, and anything that looks like a credential is held for confirmation. You get a finished resume per person in DOCX and PDF, a per-person Review Audit report in PDF showing what was proposed and what was confirmed, and an organization report in CSV with each person's review status.
 
 We do not sell a matching platform, we do not integrate with one yet, and we do not report placements. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 
