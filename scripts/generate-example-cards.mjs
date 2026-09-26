@@ -291,6 +291,14 @@ export const PAIRS = {
     before: "Pharmacy technician responsible for filling prescriptions and assisting the pharmacist.",
     after: "CPhT (PTCB, active), [Texas] Registered Pharmacy Technician; [400]-script-a-day retail pharmacy, [3]-tech team; data entry and fill in [PioneerRx], insurance rejections and prior authorizations through [CoverMyMeds], CII perpetual inventory, [immunization-trained].",
   },
+  "patient-care-technician-resume": {
+    before: "Patient care technician responsible for assisting nurses and providing patient care.",
+    after: "PCT, CPCT/A (NHA, active), BLS (AHA); [8]-patient assignment on a [36]-bed telemetry unit, [night] shift; vitals, [12]-lead EKGs, blood draws ([4]-[6] per shift), point-of-care glucose, Foley care, 1:1 safety sitting; charted in [Epic].",
+  },
+  "sterile-processing-technician-resume": {
+    before: "Sterile processing technician responsible for cleaning and sterilizing surgical instruments.",
+    after: "CRCST (HSPA, active); [12]-OR hospital SPD, [evening] shift; decontamination, inspection and assembly of [60]-[80] trays a shift, steam and [hydrogen peroxide] sterilization with Bowie-Dick, chemical and biological indicator logging under AAMI ST79; tracked in [CensiTrac].",
+  },
   "cna-resume": {
     before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
     after: "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care].",
