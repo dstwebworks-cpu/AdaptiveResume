@@ -79,7 +79,7 @@ List exactly what you hold, with real status. A lapsed BLS card written as curre
 
 **Dialysis, if that's your unit.** Machine setup and priming, cannulation where your training and facility allowed it, monitoring during treatment, and post-treatment care, with the patient count per shift and the equipment named.
 
-What stays off the list: assessments, medication administration, and any task your hospital never delegated to techs. Everything a tech does happens under a nurse's delegation, so write it in those terms. If you are a tech headed for the license, our [med-surg nurse resume guide](/guides/med-surg-nurse-resume/) and the rest of our [nursing resume guides](/nurses/) are for that page; this one is for the job you hold now. If your work was mostly draws, our [phlebotomist resume guide](/guides/phlebotomist-resume/) goes deeper on that side.
+Three things stay off the list: assessments, medication administration, and any task your hospital never delegated to techs. Everything a tech does happens under a nurse's delegation, so write it in those terms. If you are a tech headed for the license, our [med-surg nurse resume guide](/guides/med-surg-nurse-resume/) and the rest of our [nursing resume guides](/nurses/) are for that page; this one is for the job you hold now. If your work was mostly draws, our [phlebotomist resume guide](/guides/phlebotomist-resume/) goes deeper on that side.
 
 ## Patient care technician resume skills: the list, and how to make it true
 
