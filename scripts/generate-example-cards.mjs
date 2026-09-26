@@ -278,6 +278,11 @@ export const PAIRS = {
     before: "Medical assistant responsible for patient care and administrative duties in a busy clinic.",
     after: "CMA (AAMA), [family medicine] clinic, [3] providers, [30]-[40] patients per day; rooming and vitals, injections, EKGs, and specimen collection under provider delegation; scheduling, referrals, and prior authorizations in [Epic].",
   },
+  // Wave 10, 09/26 (healthcare support, second half)
+  "caregiver-resume": {
+    before: "Caregiver responsible for assisting clients with daily activities and providing companionship.",
+    after: "Caregiver, [Washington] certified Home Care Aide (active); [3] private-duty clients per week in their homes, [12]-hour shifts; full personal care, gait belt transfers, medication reminders on a written schedule, meals to a [diabetic] diet; visits verified and charted in [HHAeXchange].",
+  },
   "cna-resume": {
     before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
     after: "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care].",
