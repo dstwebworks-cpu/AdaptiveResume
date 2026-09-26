@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+// Business-card offer page (09/26/2026). The QR on the back of the founder's business card
+// resolves here. Pre-launch: capture the email (source=card) and promise the code in the
+// launch email. Post-launch (PUBLIC_LAUNCHED=1): show the code and link to the app, exactly
+// as the other landing pages flip. The code itself is never printed on the card.
+// Offer ruling + proposed parameters: 02-finance/decisions/pricing.md ("Business-card offer code").
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
+const appUrl = import.meta.env.PUBLIC_APP_URL
+  ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
+const waitlistAction = appUrl + '/waitlist';
+const CODE = 'CARD50';
+---
+<Base
+  title="Your card offer — 50% off your first resume build"
+  description="You met us in person and took a card. Here is the 50% offer that goes with it, on your first AdaptiveResume build."
+>
+  <section class="section">
+    <div class="container narrow">
+      <p class="eyebrow">You took one of our cards. Thank you.</p>
+      <h1>Half off your first resume build.</h1>
+      <p class="lede">The card gets you 50% off your first build, either one: the $49 complete resume or the $149 resume aimed at one specific job posting. The offer is for your first build only, once per person.</p>
+
+      <h2>What you get for it</h2>
+      <p>You upload the resume you have, and we work backwards through what your jobs actually involved, the tools, the standards, the people you trained, the things that became routine, and we put it in front of you line by line. You confirm every line. Nothing goes on the page you did not say yes to, and we never add a credential you do not hold. The result is a complete resume that screening software reads cleanly.</p>
+
+      {LAUNCHED ? (
+        <>
+          <h2>Your code</h2>
+          <p class="code"><b>{CODE}</b></p>
+          <p>Enter it at checkout when you start your first build. It takes 50% off the price shown, one time, on your first purchase only.</p>
+          <a class="btn btn-amber btn-lg" href={appUrl + '/'}>Start your build</a>
+          <p class="capture-note muted">If the code does not apply, write to <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> and tell us where you got the card. We will sort it out.</p>
+        </>
+      ) : (
+        <>
+          <h2>We open in October 2026. Your code arrives the day we do.</h2>
+          <p class="lede">Leave your email and we send your 50% code in the launch email, along with the day we open. That is the only thing the email is for.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="card" />
+            <input type="hidden" name="redirect" value="/card/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Send me the code</button>
+          </form>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. No spam.</p>
+          <p class="capture-done hide" id="captureDone">You are on the list, and your 50% is locked in. We will email your code the day we open.</p>
+          <p class="capture-err hide" id="captureErr">That email did not look right. Mind trying it again?</p>
+        </>
+      )}
+
+      <h2>The fine print, in plain words</h2>
+      <ul>
+        <li>The offer applies to your first build only, once per person.</li>
+        <li>It does not combine with other offers.</li>
+        <li>We do not sell the paid service to residents of New Jersey or Illinois yet, because of older state rules about paid resume help.</li>
+        <li>A resume that tells the truth about your work is what we make. We do not promise interviews, offers, or salaries, and we never make anything up.</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    const joined = new URLSearchParams(location.search).get('joined');
+    if (joined) {
+      const done = document.getElementById('captureDone');
+      const err = document.getElementById('captureErr');
+      const form = document.querySelector('.capture-form');
+      if (joined === '1' && done) {
+        done.classList.remove('hide');
+        document.querySelector('.capture-note')?.classList.add('hide');
+        if (form instanceof HTMLElement) form.style.display = 'none';
+      }
+      else if (err) { err.classList.remove('hide'); }
+    }
+  </script>
+
+  <style>
+    .container.narrow { max-width: 760px; }
+    .eyebrow { color: var(--ink-soft); font-weight: 700; letter-spacing: .02em; text-transform: uppercase; font-size: .85rem; margin-bottom: 6px; }
+    .code { font-size: 2rem; letter-spacing: .12em; margin: 8px 0 12px; }
+    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .hide { display: none; }
+    .capture-done { color: var(--true); font-weight: 700; }
+    ul { padding-left: 1.2em; }
+    li { margin: 6px 0; }
+  </style>
+</Base>
