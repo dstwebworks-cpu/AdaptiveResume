@@ -283,6 +283,10 @@ export const PAIRS = {
     before: "Caregiver responsible for assisting clients with daily activities and providing companionship.",
     after: "Caregiver, [Washington] certified Home Care Aide (active); [3] private-duty clients per week in their homes, [12]-hour shifts; full personal care, gait belt transfers, medication reminders on a written schedule, meals to a [diabetic] diet; visits verified and charted in [HHAeXchange].",
   },
+  "security-guard-resume": {
+    before: "Security guard responsible for patrolling the premises and monitoring security cameras.",
+    after: "Security Officer, [Georgia] Board weapons permit (armed, active); [120,000]-sq-ft distribution center, [night] shift, solo post; access control for [200] employees and [40] trucks a night, [hourly] foot and vehicle patrols, [Genetec] camera wall; DARs and incident reports in [TrackTik].",
+  },
   "cna-resume": {
     before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
     after: "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care].",
