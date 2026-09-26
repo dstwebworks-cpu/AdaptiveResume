@@ -1,6 +1,6 @@
 {
   "_comment": "Sitemap lastmod for the static pages (src/pages/*.astro), the date each page's content last changed. Guides are NOT listed here: their date comes from pubDate/updatedDate in their own frontmatter. /guides/ takes the newest guide date. scripts/page-dates-check.mjs fails the build if a page file has a git commit newer than its entry, so update the date in the same commit that changes the page.",
-  "/": "2026-09-20",
+  "/": "2026-09-26",
   "/acceptable-use/": "2026-09-01",
   "/business/": "2026-09-20",
   "/career-change/": "2026-09-20",
