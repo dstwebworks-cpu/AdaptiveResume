@@ -17,7 +17,7 @@ order: 102
 draft: false
 faq:
   - q: "Is resume assistance an allowable WIOA career service?"
-    a: "Yes. Resume help is delivered under job search and placement assistance, a basic career service named at 20 CFR 678.430(a)(4), and under the short-term pre-vocational services named as individualized career services at 678.430(b)(6). Job readiness training is a training service under 20 CFR 680.200, allowed there in combination with other training services. How a board delivers these, by workshop, by staff time, or by an outside vendor, is the board's decision within its procurement rules."
+    a: "Yes. Resume help is delivered under job search and placement assistance, a basic career service named at 20 CFR 678.430(a)(4), and under the short-term pre-vocational services named as individualized career services at 678.430(b)(6). Job readiness training is a training service under 20 CFR 680.200, allowed there only in combination with the training services listed at 680.200(a) through (h). How a board delivers these, by workshop, by staff time, or by an outside vendor, is the board's decision within its procurement rules."
   - q: "Does a better resume count toward WIOA performance indicators?"
     a: "No. No performance indicator measures resume quality, and we do not claim an effect on the employment-rate indicators either. What a per-participant resume service gives the board is staff time returned to case management and a per-participant record of the service delivered. We do not claim a compliance benefit that does not exist."
   - q: "How does a board buy a small pilot without a full solicitation?"

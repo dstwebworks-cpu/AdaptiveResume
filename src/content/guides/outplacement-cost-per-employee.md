@@ -35,7 +35,7 @@ This guide lays out the public numbers, explains what actually drives the cost p
 As of 2026, two large providers publish rate cards. One of them lists these tiers:
 
 - **Entry tier:** about $900 per employee. On the published card it bundles a set number of coaching calls, a resume-builder tool, a critique of the employee's existing resume, and job-search platform access. The resume is not rewritten.
-- **Custom-written resume plus coaching:** about $1,900 to $2,600 per employee. A writer produces the resume and the employee gets a set number of coaching sessions.
+- **Custom-written resume plus coaching:** about $1,900 to $2,600 per employee. A writer produces the resume and the employee gets unlimited coaching calls for the tier's term.
 - **Executive tiers:** from about $6,500 per employee upward.
 
 The other provider's published card has no critique tier. It starts at $2,400 per employee, with a middle tier at $5,200 and an executive tier at $11,310. Below those two published cards, smaller firms and newer AI-first services advertise per-employee prices from a few hundred dollars up, and those prices are marketing claims we have not verified.

@@ -57,7 +57,7 @@ If you are buying this service for a program, or building it in-house, hold it t
 
 **4. Handle credentials by asking.** Many military schools map to civilian certifications, and the services' Credentialing Opportunities On-Line (COOL) sites list which ones. A credential the veteran actually earned goes on by its civilian name and date. Training completed without the credential is listed as training. A CDL earned through the military skills test waiver goes on once the state issues it, not before.
 
-**5. Confirm every line with the veteran.** Each suggested line is a question. Nothing lands on the page that the veteran or your program's reviewer did not confirm, and anything uncertain waits for that reviewer.
+**5. Confirm every line.** Each suggested line is a question. Nothing lands on the page that the veteran or your program's reviewer did not confirm, and anything uncertain waits for that reviewer.
 
 Here is what that produces for one veteran. This is a sample service member, not a real person.
 
