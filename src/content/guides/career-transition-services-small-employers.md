@@ -40,7 +40,7 @@ A full career transition program, which the vendors still call outplacement, is 
 4. **Administrative support.** Someone who checks in, tracks who has used the service, and reports usage back to you.
 5. **A report to the employer.** Utilization figures, and sometimes placement figures, so the company can show the program was delivered.
 
-One large provider's published rate card, as of 2026, lists a resume critique at about $900 per person and a package with a custom-written resume and coaching at about $1,900 to $2,600 per person. Another large provider's published card starts at $2,400 per person. Most providers do not publish prices at all and quote each employer separately.
+One large provider's published rate card, as of 2026, lists an entry tier at about $900 per person, which bundles a set number of coaching calls, a resume-builder tool, a resume critique, and job-search platform access, and a package with a custom-written resume and coaching at about $1,900 to $2,600 per person. Another large provider's published card starts at $2,400 per person. Most providers do not publish prices at all and quote each employer separately.
 
 ## What each piece is worth to a small employer
 
@@ -104,7 +104,7 @@ These are lines an employee can adapt. Each bracket is a fact only that person c
 
 ## Format notes for the resumes your program produces
 
-Two pages is normal once a person has more than one substantive role, and a 20-year employee should not be forced onto one page. Reverse chronological order, a single column, and no graphics or photos. If anyone in your group is applying for federal jobs, applications through USAJOBS cap at two pages as of the September 2025 OPM change, and a federal resume asks for details a private-sector one leaves off.
+Two pages is normal once a person has more than one substantive role, and a 20-year employee should not be forced onto one page. Reverse chronological order, a single column, and no graphics or photos. If anyone in your group is applying for federal jobs, applications through USAJOBS cap at two pages as of the September 2025 Office of Personnel Management (OPM) change, and a federal resume asks for details a private-sector one leaves off.
 
 For the notice side of a layoff, the U.S. Department of Labor's [WARN Act page](https://www.dol.gov/agencies/eta/layoffs/warn) explains which employers are covered and what the 60-day notice requires. Notice and transition help are separate obligations; this guide is about the second one.
 

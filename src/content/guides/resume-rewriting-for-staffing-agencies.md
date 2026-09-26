@@ -106,6 +106,6 @@ Use these as questions at intake. Each bracket is a fact only the candidate can 
 
 ## Format notes for submitted resumes
 
-A submitted resume should be a single column with standard headings and no graphics, so the client's screening software reads it in order. Two pages is normal once a candidate has more than one substantive role. For federal placements, applications through USAJOBS cap at two pages as of the September 2025 OPM change. A shared vocabulary helps recruiters know what to ask about: [O*NET's occupation profiles](https://www.onetonline.org/) name the tasks, tools, and credentials employers already use for each role.
+A submitted resume should be a single column with standard headings and no graphics, so the client's screening software reads it in order. Two pages is normal once a candidate has more than one substantive role. For federal placements, applications through USAJOBS cap at two pages as of the September 2025 Office of Personnel Management (OPM) change. A shared vocabulary helps recruiters know what to ask about: [O*NET's occupation profiles](https://www.onetonline.org/) name the tasks, tools, and credentials employers already use for each role.
 
 The **Candidate-Intake Skills Template** below standardizes the intake step so the rebuild has real inputs to work from. When you are ready to see it on your own candidates, request a per-candidate quote with your monthly volume. We never add a credential nobody confirmed, and we never promise a placement.

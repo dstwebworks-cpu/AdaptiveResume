@@ -18,7 +18,7 @@ order: 10
 draft: false
 faq:
   - q: "Does skills documentation count toward WIOA performance reporting?"
-    a: "It supports the measurement programs already do — progress, credential attainment, employment outcomes — by giving caseworkers an auditable record of what was captured and confirmed. Document the skills; never promise the outcome."
+    a: "No performance indicator measures skills documentation, and we do not claim an effect on the employment-rate indicators. What it gives caseworkers is an auditable record of what was captured and confirmed. Document the skills; never promise the outcome."
   - q: "How do caseworkers know what skills to ask about?"
     a: "Anchor prompts to a standard occupation vocabulary like O*NET's profiles, so asking doesn't depend on each caseworker's industry background. Specific beats general: 'did you operate a forklift?' outperforms 'tell me about your skills.'"
   - q: "What about participants with justice involvement or long gaps?"
@@ -60,7 +60,7 @@ Padding a participant's resume to "help" them backfires — it places them in ro
 
 ## Fits reporting and compliance
 
-Consistent skills documentation supports the measurement WIOA (Workforce Innovation and Opportunity Act) programs already do — participant progress, credential attainment, employment outcomes — with a clean, auditable record of what was captured and confirmed. (Document the skills; never promise an employment outcome.)
+No WIOA (Workforce Innovation and Opportunity Act) performance indicator measures skills documentation, and we do not claim an effect on the employment-rate indicators. What consistent documentation gives a program is a clean, auditable record of what was captured and confirmed, for the participant file. (Document the skills; never promise an employment outcome.)
 
 ## Scale across a caseload
 

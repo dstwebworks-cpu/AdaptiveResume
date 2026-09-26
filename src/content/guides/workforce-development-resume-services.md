@@ -1,6 +1,6 @@
 ---
 title: "Workforce Development Resume Services: Buying Resume Assistance Per Participant"
-description: "Resume assistance is already a named WIOA career service, delivered today by workshop and staff time. Here is how a workforce board or American Job Center buys it per participant instead, what it should include, and what it is worth against the government's own published rates."
+description: "Resume assistance is already delivered as a WIOA career service, by workshop and staff time. Here is how a workforce board or American Job Center buys it per participant instead, what it should include, and what it is worth against the government's own published rates."
 seoTitle: "Workforce Development Resume Services, Per Participant"
 seoDescription: "How workforce boards and American Job Centers buy resume assistance per participant: what it must include, and the government's own published rates."
 segment: "organizations"
@@ -17,7 +17,7 @@ order: 102
 draft: false
 faq:
   - q: "Is resume assistance an allowable WIOA career service?"
-    a: "Yes. Resume help is delivered under job search and placement assistance, a basic career service named at 20 CFR 678.430(a)(4), and under the short-term pre-vocational services named as individualized career services at 678.430(b)(6). Job readiness training is a separate training service under 20 CFR 680.200. How a board delivers these, by workshop, by staff time, or by an outside vendor, is the board's decision within its procurement rules."
+    a: "Yes. Resume help is delivered under job search and placement assistance, a basic career service named at 20 CFR 678.430(a)(4), and under the short-term pre-vocational services named as individualized career services at 678.430(b)(6). Job readiness training is a training service under 20 CFR 680.200, allowed there in combination with other training services. How a board delivers these, by workshop, by staff time, or by an outside vendor, is the board's decision within its procurement rules."
   - q: "Does a better resume count toward WIOA performance indicators?"
     a: "No. No performance indicator measures resume quality, and we do not claim an effect on the employment-rate indicators either. What a per-participant resume service gives the board is staff time returned to case management and a per-participant record of the service delivered. We do not claim a compliance benefit that does not exist."
   - q: "How does a board buy a small pilot without a full solicitation?"
@@ -64,7 +64,7 @@ Every item in the second version was already the participant's. The work had bec
 
 ## What it is worth: the government's own rates
 
-Boards do not need a vendor's opinion about what resume assistance is worth per person, because state governments already publish what they pay for it. State vocational rehabilitation agencies pay approved outside vendors a flat per-person rate for resume-specific deliverables, and in the states that publish their fee schedules those rates run from about $100 per person for a basic resume up to several hundred dollars for resume training and job-readiness deliverables. Tennessee, for example, publishes $349 per person for a career-exploration plan that includes a resume and $696 per person for a job-readiness training package, at rates effective October 2025. Those are government-set prices for a comparable deliverable, and they are an honest reference for any per-participant quote.
+Boards do not need a vendor's opinion about what resume assistance is worth per person, because state governments already publish what they pay for it. State vocational rehabilitation agencies pay approved outside vendors a flat per-person rate for resume and job-readiness deliverables, and in the states that publish their fee schedules those rates run from about $100 per person for a basic resume up to several hundred dollars for job-readiness training. Tennessee, for example, publishes $349 per person for a customized-employment plan that includes a resume and $696 per person for job-readiness training, at rates effective October 2025. Those are government-set prices for a comparable deliverable, and they are an honest reference for any per-participant quote.
 
 Per-participant purchasing into boards is also an established motion. At least one skills-training platform is licensed by more than a hundred boards on a per-individual basis at under $100 per person. A per-participant resume service fits the same line item.
 
@@ -95,6 +95,6 @@ We do not place participants and we do not report placements. We report resumes 
 
 ## Format notes
 
-Two pages is normal once a participant has more than one substantive role, and an 18-year employee should not be forced onto one. Reverse chronological order, a single column, no photos or graphics. Gaps get one plain dated line, never an explanation paragraph. For participants pursuing federal jobs, applications through USAJOBS cap at two pages as of the September 2025 OPM change. Career services are defined in the WIOA regulations at [20 CFR 678.430](https://www.ecfr.gov/current/title-20/chapter-V/part-678/subpart-B/section-678.430).
+Two pages is normal once a participant has more than one substantive role, and an 18-year employee should not be forced onto one. Reverse chronological order, a single column, no photos or graphics. Gaps get one plain dated line, never an explanation paragraph. For participants pursuing federal jobs, applications through USAJOBS cap at two pages as of the September 2025 Office of Personnel Management (OPM) change. Career services are defined in the WIOA regulations at [20 CFR 678.430](https://www.ecfr.gov/current/title-20/chapter-V/part-678/subpart-B/section-678.430).
 
 The **Participant Skills-Documentation Template** below standardizes what a case manager captures at intake, so the rebuild has real inputs. When you are ready to size a pilot, request a per-participant quote with your caseload and funding stream, and we will price it against the published rates above. We never add a credential nobody confirmed, and we never promise anyone a job.

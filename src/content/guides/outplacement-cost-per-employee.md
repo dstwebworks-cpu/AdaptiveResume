@@ -17,13 +17,13 @@ order: 99
 draft: false
 faq:
   - q: "What does outplacement cost per employee?"
-    a: "One large provider's published rate card shows about $900 per person for a resume critique tier and about $1,900 to $2,600 per person for a package with a custom-written resume and coaching, with executive tiers well above that. Another large provider's published card starts at $2,400 per person and rises to $11,310 for executives. Most providers quote privately, so those published numbers are the only public anchor."
+    a: "One large provider's published rate card shows about $900 per person for its entry tier, which bundles a set number of coaching calls, a resume-builder tool, a resume critique, and job-search platform access, and about $1,900 to $2,600 per person for a package with a custom-written resume and coaching, with executive tiers well above that. Another large provider's published card starts at $2,400 per person and rises to $11,310 for executives. Most providers quote privately, so those published numbers are the only public anchor."
   - q: "Why do outplacement providers quote instead of publishing prices?"
     a: "Because packages are built from coaching hours, platform access, and reporting, and every employer negotiates a different mix. The practical effect is that buyers cannot comparison-shop, which is why it pays to price each component before you take a quote."
   - q: "Is a resume-only service a real alternative to outplacement?"
     a: "For the resume, yes. For coaching and job-search support, no. Many employers buy a full program for long-tenured people and a resume-only service for everyone else, which keeps the cost per person honest about what each person will use."
   - q: "How do you keep a per-person resume service from inventing things at volume?"
-    a: "Every suggested line is a question the person answers, and nothing goes on the page without a yes. Anything that looks like a license or certification is held for a reviewer. The process is the same for the first resume and the four-hundredth."
+    a: "Every suggested line is a question the person answers, and nothing goes on the page without a yes. Anything that looks like a license or certification is held for a reviewer. The process is the same for every resume in the batch."
 ---
 
 Outplacement is one of the few services a company buys where the buyer rarely sees a price list. Two large providers publish rate cards; nearly everyone else quotes privately. That leaves an HR or finance lead pricing a layoff with a handful of public numbers and a lot of guesswork.
@@ -34,7 +34,7 @@ This guide lays out the public numbers, explains what actually drives the cost p
 
 As of 2026, two large providers publish rate cards. One of them lists these tiers:
 
-- **Resume critique tier:** about $900 per employee. The employee's existing resume is reviewed and commented on. It is not rewritten.
+- **Entry tier:** about $900 per employee. On the published card it bundles a set number of coaching calls, a resume-builder tool, a critique of the employee's existing resume, and job-search platform access. The resume is not rewritten.
 - **Custom-written resume plus coaching:** about $1,900 to $2,600 per employee. A writer produces the resume and the employee gets a set number of coaching sessions.
 - **Executive tiers:** from about $6,500 per employee upward.
 
@@ -48,7 +48,7 @@ An outplacement package is a bundle, and the per-employee price is the sum of it
 
 **Coaching hours.** The biggest single driver. A package with six coaching sessions costs more than one with two, and executive packages are mostly coaching. Many providers staff coaching with contractors paid per session, which is why the session count moves the price.
 
-**The resume.** On the one published rate card that has both tiers, the jump from a resume critique to a custom-written resume is about $1,000 to $1,700 per employee. The higher tiers also add coaching and time, so that gap is an upper bound on what the resume itself is worth inside the package, not a precise price for it.
+**The resume.** On the one published rate card that has both tiers, the jump from the entry tier, where the resume is only critiqued, to a custom-written resume is about $1,000 to $1,700 per employee. The higher tiers also add coaching and time, so that gap is an upper bound on what the resume itself is worth inside the package, not a precise price for it.
 
 **Platform access.** A login to job listings, networking tools, and sometimes interview-practice software, usually for a fixed number of months. This is a low-cost item for the provider and is bundled into every tier.
 
@@ -80,7 +80,7 @@ Nothing in the second version was added that was not already true. The person ha
 
 Once you know what the resume piece is worth inside a package, you can price it on its own.
 
-A per-person resume service, done to the standard above, costs far less than the tier gap on that published rate card, because it does not carry coaching hours or platform access. For comparison, several state vocational rehabilitation agencies publish what they pay outside vendors for a resume-specific deliverable per person, and those published rates run from about $100 per person for a basic resume to about $700 for a job-readiness package that includes a resume, depending on the state. Those are government-set prices for a comparable service, and they are the most honest public floor we know of.
+A per-person resume service, done to the standard above, costs far less than the tier gap on that published rate card, because it does not carry coaching hours or platform access. For comparison, several state vocational rehabilitation agencies publish what they pay outside vendors per person for resume and job-readiness deliverables, and those published rates run from about $100 per person for a basic resume to about $700 for job-readiness training, depending on the state. Those are government-set prices for a comparable service, and they are the most honest public floor we know of.
 
 AdaptiveResume for organizations is priced per person, by quote, sized to your volume. We do not publish a list price because volume changes it, but we will tell you the number on a short call.
 
@@ -108,6 +108,6 @@ You send the batch of resumes. During a pilot we handle intake for you under a s
 
 ## Format notes
 
-Two pages is normal once a person has more than one substantive role. Reverse chronological order, a single column, and no photos or graphics. For anyone applying to federal jobs, applications through USAJOBS cap at two pages as of the September 2025 OPM change.
+Two pages is normal once a person has more than one substantive role. Reverse chronological order, a single column, and no photos or graphics. For anyone applying to federal jobs, applications through USAJOBS cap at two pages as of the September 2025 Office of Personnel Management (OPM) change.
 
 The **Outplacement Resume QA Checklist** below is the standard we hold every resume to. Use it to check any provider's work, including ours, and request a per-person quote when you have a head count and a date. We never add a credential nobody confirmed, and we never promise anyone a job.
