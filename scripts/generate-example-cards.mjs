@@ -285,19 +285,19 @@ export const PAIRS = {
   },
   "security-guard-resume": {
     before: "Security guard responsible for patrolling the premises and monitoring security cameras.",
-    after: "Security Officer, [Georgia] Board weapons permit (armed, active); [120,000]-sq-ft distribution center, [night] shift, solo post; access control for [200] employees and [40] trucks a night, [hourly] foot and vehicle patrols, [Genetec] camera wall; DARs and incident reports in [TrackTik].",
+    after: "Security Officer, [Georgia] Board weapon permit (armed, active); [120,000]-sq-ft distribution center, [night] shift, solo post; access control for [200] employees and [40] trucks a night, [hourly] foot and vehicle patrols, [Genetec] camera wall; DARs (daily activity reports) and incident reports in [TrackTik].",
   },
   "pharmacy-technician-resume": {
     before: "Pharmacy technician responsible for filling prescriptions and assisting the pharmacist.",
-    after: "CPhT (PTCB, active), [Texas] Registered Pharmacy Technician; [400]-script-a-day retail pharmacy, [3]-tech team; data entry and fill in [PioneerRx], insurance rejections and prior authorizations through [CoverMyMeds], CII perpetual inventory, [immunization-trained].",
+    after: "CPhT (PTCB, active), [Texas] Registered Pharmacy Technician; [400]-script-a-day retail pharmacy, [3]-tech team; data entry and fill in [PioneerRx], insurance rejections and prior authorizations through [CoverMyMeds], CII (Schedule II) perpetual inventory, [immunization-trained].",
   },
   "patient-care-technician-resume": {
     before: "Patient care technician responsible for assisting nurses and providing patient care.",
-    after: "PCT, CPCT/A (NHA, active), BLS (AHA); [8]-patient assignment on a [36]-bed telemetry unit, [night] shift; vitals, [12]-lead EKGs, blood draws ([4]-[6] per shift), point-of-care glucose, Foley care, 1:1 safety sitting; charted in [Epic].",
+    after: "PCT, CPCT/A (NHA, active), BLS (American Heart Association); [8]-patient assignment on a [36]-bed telemetry unit, [night] shift; vitals, [12]-lead EKGs (electrocardiograms), blood draws ([4]-[6] per shift), point-of-care glucose, Foley care, 1:1 safety sitting; charted in [Epic].",
   },
   "sterile-processing-technician-resume": {
     before: "Sterile processing technician responsible for cleaning and sterilizing surgical instruments.",
-    after: "CRCST (HSPA, active); [12]-OR hospital SPD, [evening] shift; decontamination, inspection and assembly of [60]-[80] trays a shift, steam and [hydrogen peroxide] sterilization with Bowie-Dick, chemical and biological indicator logging under AAMI ST79; tracked in [CensiTrac].",
+    after: "CRCST (HSPA, active); [12]-OR (operating room) hospital SPD (sterile processing department), [evening] shift; decontamination, inspection and assembly of [60]-[80] trays a shift, steam and [hydrogen peroxide] sterilization with Bowie-Dick, chemical and biological indicator logging under AAMI ST79; tracked in [CensiTrac].",
   },
   "cna-resume": {
     before: "CNA responsible for providing patient care and assisting nurses with daily tasks.",
