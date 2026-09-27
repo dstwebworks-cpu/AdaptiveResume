@@ -47,7 +47,7 @@ The second version is scannable in four seconds and answers what the first leave
 
 ## Licensed or registered: get your SAFE Act status exactly right
 
-The SAFE Act (Secure and Fair Enforcement for Mortgage Licensing Act) requires anyone who originates residential mortgage loans to be either state-licensed or federally registered as an MLO (mortgage loan originator). Both tracks run through the same system — NMLS, the Nationwide Multistate Licensing System, run by the CSBS (Conference of State Bank Supervisors) with the American Association of Residential Mortgage Regulators — but they are not interchangeable, and writing the wrong one is the fastest way to lose ground.
+The SAFE Act (Secure and Fair Enforcement for Mortgage Licensing Act) requires anyone who originates residential mortgage loans to be either state-licensed or federally registered as an MLO (mortgage loan originator). Both tracks run through the same system — NMLS, the Nationwide Multistate Licensing System, which the Conference of State Bank Supervisors (CSBS) created with the American Association of Residential Mortgage Regulators and now operates through its subsidiary, the State Regulatory Registry — but they are not interchangeable, and writing the wrong one is the fastest way to lose ground.
 
 **State-licensed MLOs** work for nonbank lenders and brokers and hold a license in each state where they originate. Getting there means the 20-hour NMLS-approved pre-licensing course, a passing score on the SAFE MLO Test (the NMLS national test with uniform state content), and whatever each state adds. Keeping it means at least 8 hours of NMLS-approved continuing education each year — the federal minimum under the SAFE Act; some states require more.
 
@@ -57,7 +57,7 @@ Write whichever you are, plainly: "NMLS #[N], state-licensed in [states]" or "NM
 
 ## Credentials, exactly as held
 
-Every item in this block gets checked against NMLS Consumer Access, a free public lookup. Our guide on [how to list certifications on a resume](/guides/how-to-list-certifications-on-resume/) covers placement; here is what typically belongs in a loan officer block:
+Your NMLS ID, state licenses, and federal registration can all be checked on NMLS Consumer Access, a free public lookup. Our guide on [how to list certifications on a resume](/guides/how-to-list-certifications-on-resume/) covers placement; here is what typically belongs in a loan officer block:
 
 - **NMLS unique identifier** — the number itself, once, near the top of the page.
 - **State licenses** — each state, and the year issued if you want to show tenure. Only states where the license is current.
@@ -87,7 +87,7 @@ List exactly what you hold, with real status. Nothing you're "about to take" unl
 
 ## Format notes
 
-**Length follows your history, not a page rule.** Two pages is normal and expected once you have more than one substantive lending role to describe; one page is right for newly licensed originators or processors making the move. Order matters more than length: NMLS number and status near the top in its own labeled section (screening software keys on it), then experience with a production line atop each role. If you're trimming to fit, cut older non-lending detail before you cut a single number.
+**Length follows your history, not a page rule.** Two pages is common and widely accepted once you have more than one substantive lending role to describe; one page is right for newly licensed originators or processors making the move. Order matters more than length: NMLS number and status near the top in its own labeled section (screening software keys on it), then experience with a production line atop each role. If you're trimming to fit, cut older non-lending detail before you cut a single number.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 

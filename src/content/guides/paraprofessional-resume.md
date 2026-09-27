@@ -13,11 +13,12 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
+updatedDate: 2026-09-27
 order: 64
 draft: false
 faq:
   - q: "Do I need a degree to be a paraprofessional?"
-    a: "Not always, and it depends on the program and the state. For paraprofessionals with instructional duties in a Title I program, federal law (ESEA as amended by ESSA) requires a high school diploma or equivalent plus one of three things: two years of college study, an associate degree or higher, or a passing score on a state-approved assessment such as the ETS ParaPro. Districts outside Title I set their own bar, and many states add a certificate or permit on top. List whichever path you actually meet, exactly as you meet it."
+    a: "Not always, and it depends on the program and the state. For paraprofessionals with instructional duties in a Title I program, federal law (ESEA as amended by ESSA) requires a high school diploma or equivalent plus one of three things: two years of college study, an associate degree or higher, or a passing score on a state-approved assessment, such as ETS's ParaPathways test, which replaced the ETS ParaPro Assessment in 2026. Districts outside Title I set their own bar, and many states add a certificate or permit on top. List whichever path you actually meet, exactly as you meet it."
   - q: "Should I say teacher assistant, instructional aide, or paraprofessional?"
     a: "Use the title your district used, and put the common term next to it if it helps a reader — 'Instructional Aide (Special Education Paraprofessional)'. Districts search for several of these words, and the one on your pay stub is the one a reference check will confirm. Never upgrade the title; describe the work instead."
   - q: "Can I list the students I worked with?"
@@ -40,6 +41,8 @@ Under each school, give one line of context before the bullets — grade band, s
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/paraprofessional-resume-example.png)
 
+*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+
 The second version is scannable in four seconds: setting, caseload, data work, and the instruction you could deliver on your own. It also uses the words a case manager put in the posting — "behavior intervention plan," "IEP goals," "small group" — because those are the words they think in.
 
 ## Paraprofessional resume skills hiding inside "assisted the teacher"
@@ -60,13 +63,13 @@ Every one of these is a real, nameable skill the work builds. Name the ones that
 
 ## Credentials, exactly as held
 
-**The federal Title I rule, stated plainly.** Under the Elementary and Secondary Education Act as amended by the Every Student Succeeds Act (Section 1111(g)(2)(M), which carries forward the earlier requirements), a paraprofessional with instructional duties in a Title I program must have a high school diploma or its equivalent **and** one of the following: at least two years of college study (many states define this as 48 semester hours — check yours), an associate degree or higher, or a passing score on a state- or district-approved academic assessment in reading, writing, and math. In a Title I schoolwide school this applies to instructional paraprofessionals regardless of which budget pays them. If you meet the rule, say how: "Meets ESSA Title I paraprofessional requirements (associate degree)" or "(ParaPro Assessment, [score], [year])."
+**The federal Title I rule, stated plainly.** Under the Elementary and Secondary Education Act as amended by the Every Student Succeeds Act (Section 1111(g)(2)(M), which carries forward the earlier requirements), a paraprofessional with instructional duties in a Title I program must have a high school diploma or its equivalent **and** one of the following: at least two years of college study (many states define this as 48 semester hours — check yours), an associate degree or higher, or a passing score on a state- or district-approved academic assessment in reading, writing, and math. In a Title I schoolwide school this applies to instructional paraprofessionals regardless of which budget pays them. If you meet the rule, say how: "Meets ESSA Title I paraprofessional requirements (associate degree)" or "(ParaPathways, [year])", or "(ParaPro Assessment, [score], [year])" for a score earned before ParaPro retired.
 
-**The ParaPro Assessment** is the assessment most states accept for that third path. It is run by ETS, covers reading, writing, and math, and each state sets its own passing score. List it with the year, and the score if the posting asks.
+**ParaPathways and the ParaPro Assessment** are the ETS tests most states use for that third path. ETS retired the ParaPro Assessment on August 31, 2026, and replaced it with ParaPathways, which tests reading, writing, and math; a few states, such as Washington, allowed ParaPro through the end of 2026. If you passed ParaPro before it retired, your score is still on record and still counts where your state accepts it, so list it with the year. If you are testing now, you will most likely take ParaPathways. Each state sets its own passing score, so check yours, and list the test by its exact name with the year.
 
 **State paraprofessional certificates** vary by state. Some states issue a paraprofessional certificate or license through the state education department; some require a permit or background clearance; some leave it to the district. Write yours by its real name and issuing body, with the expiration date. Never write "certified paraprofessional" as a generic phrase — write the actual credential or leave it off.
 
-**Crisis and behavior training.** The two programs districts most often name are **CPI Nonviolent Crisis Intervention** (Crisis Prevention Institute) and **Safety-Care** (QBS). Both expire and renew; list the program by its exact name and the year you were last trained. Never list a program you were not trained in because it looks similar.
+**Crisis and behavior training.** Two programs districts often name are **CPI Nonviolent Crisis Intervention** (from the Crisis Prevention Institute) and **Safety-Care** (from QBS), and some districts use others, such as the Mandt System. Both expire and renew; list the program by its exact name and the year you were last trained. Never list a program you were not trained in because it looks similar.
 
 **CPR and First Aid.** American Heart Association or American Red Cross, with the expiration date. Many postings require it at hire. **Mandated reporter training**, where your state or district requires it, is worth one line with the year.
 
@@ -97,11 +100,11 @@ Lines that show the shape of a strong entry. Every number is a placeholder — y
 
 **Length follows your history, not a page rule.** One school and two years usually fits on one page. If you have worked in two or three settings, or held a role before this one that matters (health care, child care, a field with supervision), that is the material that separates you from the other candidates — cramming it into one page throws it away.
 
-The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** Every line has to earn its space. Cut the duties everyone in the role shares; keep setting, caseload, data, programs, and anything that shows judgment.
+The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** Every line has to earn its space. Cut the duties everyone in the role shares; keep setting, caseload, data, programs, and anything that shows judgment.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That applies to federal education roles, not public school districts.
 
-Otherwise: reverse chronological, single column, a setting line under every school, and a clearly labeled credentials block near the top — district hiring systems are older than most corporate ones and read plain text best. Skip the graphics, tables, and columns.
+Otherwise: reverse chronological, single column, a setting line under every school, and a clearly labeled credentials block near the top — many district hiring systems read plain text best. Skip the graphics, tables, and columns.
 
 ## A bullet bank you can adapt — keep only what's true
 
@@ -116,7 +119,7 @@ Otherwise: reverse chronological, single column, a setting line under every scho
 
 ## What screening software looks for on a paraprofessional resume
 
-District filters commonly read for: special education, IEP, 504 plan, behavior intervention plan (BIP), data collection, progress monitoring, small-group instruction, one-to-one support, inclusion, self-contained, accommodations and modifications, de-escalation, CPI, Safety-Care, ABA, BCBA, AAC, assistive technology, personal care, ParaPro, CPR/First Aid, mandated reporter, and Title I. [O*NET's profile for special education teaching assistants](https://www.onetonline.org/link/summary/25-9043.00) has the full task list; the general-education profile is [Teaching Assistants, Except Special Education](https://www.onetonline.org/link/summary/25-9042.00).
+District filters commonly read for: special education, IEP, 504 plan, behavior intervention plan (BIP), data collection, progress monitoring, small-group instruction, one-to-one support, inclusion, self-contained, accommodations and modifications, de-escalation, CPI, Safety-Care, ABA, BCBA, AAC, assistive technology, personal care, ParaPro, ParaPathways, CPR/First Aid, mandated reporter, and Title I. [O*NET's profile for special education teaching assistants](https://www.onetonline.org/link/summary/25-9043.00) has the full task list; the general-education profile is [Teaching Assistants, Except Special Education](https://www.onetonline.org/link/summary/25-9042.00).
 
 Use the exact term wherever it is true of you, and never plant one that is not. The highest-risk lines are a crisis certification you did not complete and an "ABA" claim for work that was ordinary behavior support. Special education is a small field within any district, and case managers check informally as well as formally.
 

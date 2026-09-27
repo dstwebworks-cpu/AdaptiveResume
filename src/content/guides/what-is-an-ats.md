@@ -13,19 +13,19 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-26
-updatedDate: 2026-08-12
+updatedDate: 2026-09-27
 order: 4.5
 draft: false
 faq:
   - q: "Which ATS do most companies use?"
-    a: "There's no single winner. Workday, Greenhouse, Taleo, iCIMS, and Lever are among the most common at larger companies, and there are dozens more. The practical point: they all do the same core job — parse, store, search — so a cleanly formatted resume works across all of them."
+    a: "There's no single winner. Among the largest US companies, Workday and SAP SuccessFactors lead, with iCIMS and Oracle Taleo also common, and Greenhouse and Lever are widespread at mid-size and growing companies. They all do the same core job of parsing, storing, and searching resumes, so a cleanly formatted resume works across all of them."
   - q: "Can I tell which ATS a company uses?"
     a: "Often, yes — look at the application page's web address. Addresses containing greenhouse.io, lever.co, myworkdayjobs.com, or icims.com name the system outright. It rarely changes what you should do, though: clean formatting and honest keywords work everywhere."
   - q: "Do all companies use an ATS?"
     a: "No. Many small businesses still read applications straight from an email inbox. That's good news either way: a resume built to parse cleanly is also a resume that's easy for a human to skim."
 ---
 
-If you've applied to a job online, your resume almost certainly passed through an **applicant tracking system (ATS)** first. The term gets thrown around with a lot of fear attached. Here's what an ATS actually is, in plain English — and what it does and doesn't do to your resume.
+If you've applied to a job online, your resume very likely passed through an **applicant tracking system (ATS)** first. Nearly every large employer uses one, and many smaller ones do too. The term gets thrown around with a lot of fear attached. Here's what an ATS actually is, in plain English — and what it does and doesn't do to your resume.
 
 ## The simple definition
 
@@ -46,10 +46,10 @@ It helps to see the whole trip:
 
 1. **You submit.** Your file uploads, and any form questions you answered ride along with it.
 2. **The software parses.** Your resume becomes a structured profile — titles here, dates there, skills in their own field.
-3. **Knockout questions apply, if the employer set any.** These are the explicit yes/no filters: "Are you authorized to work in the US?", "Do you hold an active CDL?" Answer no to a hard requirement and the application can be closed automatically. This is the only routine "automatic rejection" — and it's driven by your form answers, not by a robot judging your resume's style.
+3. **Knockout questions apply, if the employer set any.** These are explicit yes/no filters, such as "Are you authorized to work in the US?" or "Do you hold an active CDL?" Answer no to a hard requirement and the application can be closed automatically. Some employers also set filters on the resume itself, such as a required degree or a recent gap in employment, so it pays to list required credentials plainly and account for your dates. What an ATS does not do is judge your resume's style.
 4. **A human works the queue.** The recruiter opens the ATS, searches and filters the applicant pool, skims profiles and attached resumes, and moves people forward or not.
 
-Notice what's missing from that sequence: no step where software grades your resume's design, and — at the typical employer — no step where an algorithm decides your worth. The software files; people choose.
+Notice what's missing from that sequence: there is no step where software grades your resume's design. Some systems rank or filter applicants by how well the extracted text matches the posting, but at most employers a person still decides who moves forward.
 
 ## What an ATS does to *your* resume
 
@@ -69,7 +69,7 @@ That's why the words on your page matter more than the design: the search happen
 
 ## The myth worth clearing up
 
-You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: the typical system **stores and organizes** applications; humans still do the reviewing. Automatic knockouts exist, but usually only for **explicit, employer-set filters** (e.g., "must have an active CDL," "must be authorized to work in the US") — not some robot tossing resumes on a whim.
+You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: the typical system stores and organizes applications, and people still do most of the reviewing. Automatic rejections do happen, but they come from filters the employer chose, such as a required license, work authorization, a degree requirement, or a recent employment gap. They are not a robot tossing resumes on a whim.
 
 So the goal isn't to "trick the robot." It's simpler: make sure the software can **read your resume cleanly** and that the real keywords for your experience are actually on the page.
 
@@ -84,7 +84,7 @@ Worth stating plainly, because the fear-marketing version of the ATS sells a lot
 ## Four terms, translated
 
 - **Parse** — the software reading your file into structured fields.
-- **Knockout question** — an explicit yes/no requirement set by the employer; the one true auto-reject.
+- **Knockout question** — an explicit yes/no requirement set by the employer, and the most common reason an application is closed automatically.
 - **Keyword search** — how recruiters find candidates in the pool; it runs on your resume's actual words.
 - **Ranking** — some systems order candidates by how well extracted terms match the posting. A ranking is a sort order for the recruiter's attention, not a verdict.
 

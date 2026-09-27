@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-27
 order: 15
 draft: false
 faq:
@@ -78,7 +78,7 @@ The honesty rule cuts both ways: use the exact terms for things you truly do —
 
 ## Format notes
 
-One page if you've held one substantive role; two pages is normal once you have more than one to describe (federal applications through USAJOBS cap at two pages as of the September 2025 OPM change). Clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guide](/guides/how-to-explain-employment-gap-on-resume/) applies here too).
+One page usually fits one substantive role, and two pages is common and widely accepted once you have more than one to describe (federal applications through USAJOBS cap at two pages as of the September 2025 OPM change). Clean single column. A short skills block near the top for the software keywords, then bullets that show each tool doing real work. Dates on every role — admin hiring is steadiness-sensitive, and unexplained gaps get read harshly, so handle them directly (our [employment-gap guide](/guides/how-to-explain-employment-gap-on-resume/) applies here too).
 
 
 ## The before-and-after, at a glance

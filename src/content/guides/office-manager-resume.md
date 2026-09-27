@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-27
 order: 37
 draft: false
 faq:
@@ -39,6 +40,8 @@ Under each employer, give the context before the bullets — headcount supported
 **After:** "Sole office manager for a ~45-person professional services firm across two sites; owned ~$400K annual facilities and supply budget, managed 20+ vendor contracts, and supervised 3 administrative staff."
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/office-manager-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
 
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: how big, how many, how much, and who reported to you. Every one of those is a number a hiring manager is trying to piece together from a vague resume, so hand it to them directly. If you don't have exact figures, approximate honestly — "~45-person," "20+ vendors" — rather than either inventing precision or leaving it blank.
 
@@ -76,7 +79,7 @@ Plenty of office managers have genuinely done operations-level work: standing up
 
 **Length follows your history, not a page rule.** The "keep it to one page" advice gets repeated far past the point where it helps. If you've held two or three office-manager or coordinator roles, or you ran an office through a growth phase or a move, or you came in from bookkeeping or HR and bring that depth — that's the material that puts you ahead of other candidates, and cramming it onto one page throws away your advantage.
 
-The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** What matters is that every line earns its space. A tight two pages beats a padded one page. Cut duties everyone in the role shares; keep scope, systems, spend, and anything that shows judgment.
+The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** What matters is that every line earns its space. A tight two pages beats a padded one page. Cut duties everyone in the role shares; keep scope, systems, spend, and anything that shows judgment.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement rather than a style preference.
 
@@ -95,8 +98,8 @@ Otherwise: reverse chronological, single column, a scope line under every employ
 
 ## What screening software looks for on an office manager resume
 
-Filters commonly read for: office management, operations, administrative, bookkeeping, accounts payable, accounts receivable, payroll, QuickBooks, ADP, Gusto, expense management, budget management, vendor management, contract management, facilities, onboarding, HR administration, benefits administration, Microsoft 365, Excel, Google Workspace, scheduling, calendar management, and staff supervision. [O*NET's Administrative Services Managers profile](https://www.onetonline.org/link/summary/11-3012.00) has the full task and skills list, and it's a useful check on which of your responsibilities are worth naming.
+Filters commonly read for: office management, operations, administrative, bookkeeping, accounts payable, accounts receivable, payroll, QuickBooks, ADP, Gusto, expense management, budget management, vendor management, contract management, facilities, onboarding, HR administration, benefits administration, Microsoft 365, Excel, Google Workspace, scheduling, calendar management, and staff supervision. [O*NET's profile for First-Line Supervisors of Office and Administrative Support Workers](https://www.onetonline.org/link/summary/43-1011.00), which lists Office Manager among its job titles, has the full task and skills list. If your role ran facilities and services across a larger organization, the [Administrative Services Managers profile](https://www.onetonline.org/link/summary/11-3012.00) is worth checking too.
 
 The highest-risk lines are the ones that overstate scope — a budget you tracked but didn't own, a title broader than the job, or software you touched once listed as a core skill. Small-business and professional-services employers check, and the work is close enough to the interview conversation that overstatement shows.
 
-The **Role Skills Checklist** below helps you inventory what your job actually proves, which is often considerably more than the resume currently says — the range of a generalist role is easy to undersell. Our build does it with you: we work backwards from your real headcount, vendors, budget, and systems, propose the scope numbers and software that a job like yours normally involves, and ask you to confirm every line before it appears. We never add a system, a number, or a credential you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your job actually proves, which is often considerably more than the resume currently says — the range of a generalist role is easy to undersell. Our build does it with you. We work backwards from your real headcount, vendors, budget, and systems, ask you for the numbers only you know, suggest the software and responsibilities a job like yours normally involves, and ask you to confirm every line before it appears. We never add a system, a number, or a credential you haven't confirmed.
