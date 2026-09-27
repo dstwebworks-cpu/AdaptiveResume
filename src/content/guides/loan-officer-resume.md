@@ -1,8 +1,8 @@
 ---
 title: "Loan Officer Resume: NMLS Status, Volume, and Product Mix"
 description: "Lending managers read for production and standing: your NMLS status written exactly right, funded volume with a purchase-refinance split, and the products and systems you actually ran. Here's how to write yours honestly."
-seoTitle: "Loan Officer Resume: NMLS, Volume & Skills Guide"
-seoDescription: "Loan officer resume guide: NMLS ID, licensed vs registered MLO status, funded volume, product mix and LOS skills written honestly, with a worked example."
+seoTitle: "Mortgage Loan Officer Resume: NMLS, Volume & Skills"
+seoDescription: "Mortgage loan officer resume: NMLS ID, licensed vs registered MLO status, funded volume, product mix and LOS skills written honestly, with a worked example."
 segment: "job-seekers"
 audience: "Mortgage loan officers and originators — retail, broker, and consumer-direct — plus consumer and commercial lenders at banks and credit unions, and loan processors moving up"
 keyword: "loan officer resume"
@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-27
 order: 86
 draft: false
 faq:
