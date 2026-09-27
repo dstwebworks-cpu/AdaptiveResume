@@ -1,8 +1,8 @@
 ---
 title: "Underwriter Resume: Authority, Volume, and the Line You Work"
 description: "Underwriter resumes are read for three things first: what line of business you underwrite, how much authority you hold, and how many files or accounts you move. How to write yours honestly — mortgage and insurance branches covered separately."
-seoTitle: "Underwriter Resume: Authority, Volume, Line of Business"
-seoDescription: "Underwriter resume guide: show signing authority, file or premium volume, and systems like DU, LPA, Encompass and Guidewire. Mortgage and insurance covered."
+seoTitle: "Underwriter Resume: Mortgage & Insurance Underwriting Guide"
+seoDescription: "Underwriter resume guide for mortgage and insurance underwriting: signing authority, file or premium volume, and systems like DU, LPA, Encompass and Guidewire."
 segment: "job-seekers"
 audience: "Underwriters in mortgage lending (conventional, FHA, VA, jumbo) and insurance (commercial and personal P&C, life and health), plus junior underwriters and underwriting assistants"
 keyword: "underwriter resume"
@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
+updatedDate: 2026-09-27
 order: 62
 draft: false
 faq:
