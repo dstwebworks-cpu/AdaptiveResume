@@ -46,7 +46,7 @@ It helps to see the whole trip:
 
 1. **You submit.** Your file uploads, and any form questions you answered ride along with it.
 2. **The software parses.** Your resume becomes a structured profile — titles here, dates there, skills in their own field.
-3. **Knockout questions apply, if the employer set any.** These are explicit yes/no filters, such as "Are you authorized to work in the US?" or "Do you hold an active CDL?" Answer no to a hard requirement and the application can be closed automatically. Some employers also set filters on the resume itself, such as a required degree or a recent gap in employment, so it pays to list required credentials plainly and account for your dates. What an ATS does not do is judge your resume's style.
+3. **Knockout questions apply, if the employer set any.** These are explicit yes/no filters, such as "Are you authorized to work in the US?" or "Do you hold an active CDL?" Answer no to a hard requirement and the application can be closed automatically. Some employers also set filters on the resume itself, such as a required degree or a gap in employment longer than six months, so it pays to list required credentials plainly and account for your dates. What an ATS does not do is judge your resume's style.
 4. **A human works the queue.** The recruiter opens the ATS, searches and filters the applicant pool, skims profiles and attached resumes, and moves people forward or not.
 
 Notice what's missing from that sequence: there is no step where software grades your resume's design. Some systems rank or filter applicants by how well the extracted text matches the posting, but at most employers a person still decides who moves forward.
@@ -69,7 +69,7 @@ That's why the words on your page matter more than the design: the search happen
 
 ## The myth worth clearing up
 
-You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: the typical system stores and organizes applications, and people still do most of the reviewing. Automatic rejections do happen, but they come from filters the employer chose, such as a required license, work authorization, a degree requirement, or a recent employment gap. They are not a robot tossing resumes on a whim.
+You've probably seen the claim that an ATS "automatically rejects 75% of resumes before a human ever sees them." That stat is repeated everywhere and is **largely unsubstantiated** — it doesn't trace to solid evidence, and we won't repeat it as fact. The reality is more mundane: the typical system stores and organizes applications, and people still do most of the reviewing. Automatic rejections do happen, but they come from filters the employer chose, such as a required license, work authorization, a degree requirement, or an employment gap longer than six months. They are not a robot tossing resumes on a whim.
 
 So the goal isn't to "trick the robot." It's simpler: make sure the software can **read your resume cleanly** and that the real keywords for your experience are actually on the page.
 
@@ -84,7 +84,7 @@ Worth stating plainly, because the fear-marketing version of the ATS sells a lot
 ## Four terms, translated
 
 - **Parse** — the software reading your file into structured fields.
-- **Knockout question** — an explicit yes/no requirement set by the employer, and the most common reason an application is closed automatically.
+- **Knockout question** — an explicit yes/no requirement set by the employer, and a common reason an application is closed automatically.
 - **Keyword search** — how recruiters find candidates in the pool; it runs on your resume's actual words.
 - **Ranking** — some systems order candidates by how well extracted terms match the posting. A ranking is a sort order for the recruiter's attention, not a verdict.
 
