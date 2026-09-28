@@ -41,7 +41,7 @@ Under each employer, give the context in one line before the bullets — shift, 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/forklift-operator-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers the questions the first one forces a reader to guess at: which truck, how fast, how accurate, how safe. It also names the warehouse system by brand, which matters more than it looks — postings filter on it.
 

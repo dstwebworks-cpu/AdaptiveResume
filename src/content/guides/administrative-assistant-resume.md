@@ -85,6 +85,6 @@ One page usually fits one substantive role, and two pages is common and widely a
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/administrative-assistant-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below walks through the inventory the job title hides. Our build does it with you — reads your history, proposes what it implies (the systems, the money, the trust), and asks you to confirm every line before it appears. The skills were always yours; they were just never on the page.

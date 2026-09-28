@@ -76,6 +76,6 @@ Filters read for: emergency department, trauma, triage, ACLS, PALS, TNCC, CEN, c
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/er-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you inventory what your department time proves. Our build reads your history, proposes the certifications and scope it implies — and asks before anything goes on the page. In a specialty where every credential gets verified, that's the only way a resume should be built.

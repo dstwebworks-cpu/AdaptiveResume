@@ -119,7 +119,7 @@ The three classification levels and their definitions come from Executive Order 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-list-security-clearance-on-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 Same person, same clearance — no new facts added. The rewrite names the level exactly, states the status honestly, and gives the one date a security officer will check. The whole job of this line is to survive the question "can the FSO confirm that?"
 

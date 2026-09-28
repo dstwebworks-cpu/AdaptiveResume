@@ -41,7 +41,7 @@ Under each employer, give the context in one line before the bullets — the fle
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/diesel-mechanic-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers in a few seconds what the first leaves a reader guessing: the size and type of the fleet, your share of the preventive maintenance load, the diagnostic software you actually run, and whether you carried inspection authority. Every one of those is something you either did or didn't do — so the line stays honest while working far harder.
 

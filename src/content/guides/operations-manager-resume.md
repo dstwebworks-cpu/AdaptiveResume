@@ -41,7 +41,7 @@ Under each role, give one line another operations manager would recognize instan
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/operations-manager-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 Read the second version the way an ops director reads it: budget, people, shifts, volume, service level, safety, systems — every question they would have asked in the first five minutes, answered before the bullets start. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your own reports, not memory — a hiring manager can and will ask how you got each number.
 

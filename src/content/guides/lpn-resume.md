@@ -41,7 +41,7 @@ Under each role, give one line another LPN or a director of nursing would recogn
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/lpn-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers what the first hides: the license and its status, the size of the hall and the facility, the shift, what you did, where your work sat relative to the RN, what you're certified to do, and what system you charted in. It invents nothing. Fill the brackets from your real assignment and your real license.
 

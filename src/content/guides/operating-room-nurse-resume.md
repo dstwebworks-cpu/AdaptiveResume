@@ -79,7 +79,7 @@ Contract work lists the same way staff work does, with honest attribution per as
 
 ![Before and after example of an improved operating room resume line - every line confirmed by the person](/img/guides/examples/operating-room-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 ## How AdaptiveResume helps
 

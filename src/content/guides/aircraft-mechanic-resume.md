@@ -41,7 +41,7 @@ Put your certificate status in the first lines, stated exactly, then give the co
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/aircraft-mechanic-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers in four seconds what the first leaves a reader guessing: what you're certificated for, what environment you worked in, which aircraft, and whether you were trusted to return them to service. Naming the operating rule — Part 145, Part 121, or Part 135 — matters because a hiring shop describes its own work that way, and it tells them how your paperwork habits and oversight will translate.
 

@@ -41,7 +41,7 @@ Under each employer, give the picture in one line before the bullets — the set
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/journeyman-electrician-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version reads in a few seconds and answers what the first leaves a hiring contractor guessing at. It names the license, the setting, the raceway types, the service size, and the crew scope — the exact language contractors write into their own postings.
 

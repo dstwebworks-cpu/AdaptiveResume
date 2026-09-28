@@ -78,6 +78,6 @@ Filters read for: total time, PIC, multi-engine, instrument, type ratings by nam
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/pilot-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you inventory what your flying history proves beyond the numbers. Our build works the same way — it reads your history, proposes what it implies, and asks you to confirm every line. In a field where claims get audited, nothing goes on the page you can't back with a logbook.

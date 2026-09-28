@@ -41,7 +41,7 @@ Under each job, give one line another aide or a charge nurse would recognize ins
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/cna-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers, in one line, what the first leaves a reader guessing at: where you worked, how many people you were responsible for, what shift, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real charting — not from what a "typical" aide does.
 

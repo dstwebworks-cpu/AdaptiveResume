@@ -41,7 +41,7 @@ Under each role, give one line a fellow operator would recognize instantly.
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/heavy-equipment-operator-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets with your real machines and numbers.
 

@@ -41,7 +41,7 @@ Under your current firm, give the shape of your practice in one line before the 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/financial-advisor-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The second line answers, in one pass, the questions the first line leaves open: how big the practice is, whether you plan or only gather, and whether clients stay. The brackets are your real numbers — and part of being honest is saying whose numbers they are. A book you built, a book you inherited, and a team book you co-manage are three different (and all legitimate) stories. Name which one is yours.
 

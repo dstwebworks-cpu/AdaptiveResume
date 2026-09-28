@@ -75,6 +75,6 @@ Filters read for: full-cycle recruiting, onboarding, benefits administration, em
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/human-resources-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you inventory the compliance areas, systems, and caseloads your history proves. Our build does it with you — proposes what your work implies, asks you to confirm every line, and keeps the resume at the standard your own profession screens against.
