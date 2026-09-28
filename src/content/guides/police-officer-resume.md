@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 25
 faq:
   - q: "Should I list radio codes and agency jargon on my resume?"
@@ -73,7 +74,7 @@ FTO, instructor certifications, K-9, traffic unit, detective rotations, honor gu
 
 ![Before and after example of an improved police officer resume line - every line confirmed by the person](/img/guides/examples/police-officer-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 ## How AdaptiveResume helps
 

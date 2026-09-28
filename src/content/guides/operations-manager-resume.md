@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-09
+updatedDate: 2026-09-28
 order: 90
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each role, give one line another operations manager would recognize instan
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/operations-manager-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 Read the second version the way an ops director reads it: budget, people, shifts, volume, service level, safety, systems — every question they would have asked in the first five minutes, answered before the bullets start. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your own reports, not memory — a hiring manager can and will ask how you got each number.
 

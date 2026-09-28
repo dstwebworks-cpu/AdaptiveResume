@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-26
+updatedDate: 2026-09-28
 order: 102
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each job, give one line another technician or a pharmacy manager would rec
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/pharmacy-technician-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers, in one line, what the first leaves a reader guessing at: what you hold, where you worked and at what pace, what you actually did, and what system you did it in. It invents nothing. Fill the brackets from your real store or department and your real duties, not from what a "typical" technician does.
 

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-09-27
+updatedDate: 2026-09-28
 order: 37
 draft: false
 faq:
@@ -41,7 +41,7 @@ Under each employer, give the context before the bullets — headcount supported
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/office-manager-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: how big, how many, how much, and who reported to you. Every one of those is a number a hiring manager is trying to piece together from a vague resume, so hand it to them directly. If you don't have exact figures, approximate honestly — "~45-person," "20+ vendors" — rather than either inventing precision or leaving it blank.
 

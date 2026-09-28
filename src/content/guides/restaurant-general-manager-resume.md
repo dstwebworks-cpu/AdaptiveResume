@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-09
+updatedDate: 2026-09-28
 order: 92
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each restaurant, give one line another operator would recognize instantly,
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/restaurant-general-manager-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 An operator reading the second version knows in one line what concept you ran, how much it did, whether prime cost was under control, which POS you can train on, and that you built people rather than just scheduled them. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your P&L and POS reports, not from memory — an operator will ask to talk through the numbers.
 

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-28
 order: 78
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each employer, give one line a fellow lineworker would read in four second
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/lineman-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second line invents nothing. It says plainly what the first was hiding: status, voltage, method, construction, equipment, and license. Fill the brackets with your real crew, voltages, and numbers — only those.
 

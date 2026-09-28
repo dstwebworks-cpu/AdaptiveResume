@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-28
 order: 17
 draft: false
 faq:
@@ -73,6 +73,6 @@ Filters read for: telemetry, progressive care, step-down, cardiac monitoring, rh
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/telemetry-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The **Role Skills Checklist** below helps you inventory what your unit time actually proves. Our build does it with you — it reads your history, proposes the certifications and scope it implies, and asks you to confirm each one. On a clinical resume, that ask-first step isn't just honesty — it's exactly how credentialing works.

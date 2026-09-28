@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 65
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each school, give one line of context before the bullets — grade band, s
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/special-education-teacher-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds: setting, caseload, the meeting load, the data work, and the adults you directed. It also uses the words a special education director thinks in, because those are the words in the posting.
 

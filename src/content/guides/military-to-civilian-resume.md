@@ -13,7 +13,7 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
-updatedDate: 2026-08-12
+updatedDate: 2026-09-28
 order: 1
 draft: false
 faq:
@@ -104,4 +104,4 @@ When you're ready, our targeted build does this with you: it finds the standards
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/military-to-civilian-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*

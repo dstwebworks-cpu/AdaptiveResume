@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 30
 draft: false
 faq:
@@ -77,7 +78,7 @@ A gap costs you some interviews, maybe. A discovered lie costs you every one it 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-explain-employment-gap-on-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 **Before:** "2021 – 2024: Various family responsibilities and independent projects."
 

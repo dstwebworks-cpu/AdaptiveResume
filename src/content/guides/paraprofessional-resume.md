@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
-updatedDate: 2026-09-27
+updatedDate: 2026-09-28
 order: 64
 draft: false
 faq:
@@ -41,7 +41,7 @@ Under each school, give one line of context before the bullets — grade band, s
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/paraprofessional-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds: setting, caseload, data work, and the instruction you could deliver on your own. It also uses the words a case manager put in the posting — "behavior intervention plan," "IEP goals," "small group" — because those are the words they think in.
 

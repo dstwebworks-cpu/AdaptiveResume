@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 68
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each employer, give the picture in one line before the bullets — the set
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/journeyman-electrician-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version reads in a few seconds and answers what the first leaves a hiring contractor guessing at. It names the license, the setting, the raceway types, the service size, and the crew scope — the exact language contractors write into their own postings.
 

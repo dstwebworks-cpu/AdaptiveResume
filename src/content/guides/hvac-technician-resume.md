@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 67
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each employer, give the picture in one line before the bullets — service
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/hvac-technician-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers what the first leaves a service manager guessing at: the lane (service, not install), the equipment mix, the daily volume, how often you fix it the first time, and the credential that makes it all legal. Every item is something you either did or didn't, so it stays honest. To watch a review like this happen line by line, the free [demo](/demo/) walks it on a sample profile from exactly this trade — an HVAC service tech.
 

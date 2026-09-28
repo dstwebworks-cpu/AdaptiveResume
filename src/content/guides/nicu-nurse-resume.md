@@ -41,7 +41,7 @@ Under each NICU role, give one line a fellow neonatal nurse would recognize inst
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/nicu-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice that the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets with your real unit and systems.
 

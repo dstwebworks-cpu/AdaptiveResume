@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 26
 faq:
   - q: "Does volunteer firefighting count as real experience on a resume?"
@@ -72,7 +73,7 @@ If you're testing for driver/operator, engineer, or lieutenant, the resume the p
 
 ![Before and after example of an improved firefighter resume line - every line confirmed by the person](/img/guides/examples/firefighter-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 ## How AdaptiveResume helps
 

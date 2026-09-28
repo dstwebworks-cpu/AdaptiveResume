@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 22
 draft: false
 faq:
@@ -74,7 +75,7 @@ Coming from tele, stepdown, or the ER? Lead with the overlap that's real: drips 
 
 ![Before and after example of an improved ICU resume line - every line confirmed by the person](/img/guides/examples/icu-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 ## How AdaptiveResume helps
 

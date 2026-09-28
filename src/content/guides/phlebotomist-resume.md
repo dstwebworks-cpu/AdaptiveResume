@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-18
+updatedDate: 2026-09-28
 order: 95
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each role, give one line another phlebotomist or a lab lead would recogniz
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/phlebotomist-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers what the first leaves out: which credential, which setting, how many draws, how hard they were, whether your specimens were clean, and which system you worked in. It invents nothing. Fill the brackets from your real accession counts and your lab's quality reports — not from what a "typical" shift looks like.
 

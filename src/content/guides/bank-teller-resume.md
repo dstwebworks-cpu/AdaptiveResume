@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-28
 order: 21
 draft: false
 faq:
@@ -78,6 +78,6 @@ Use exact terms only for real experience: a planted compliance keyword fails the
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/bank-teller-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The **Role Skills Checklist** below helps you pull the measurable facts out of branch work. Our build does it with you — reads your history, proposes what it implies, and asks you to confirm every number before it appears. In a job built on balancing to the penny, your resume should hold to the same standard.

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-26
+updatedDate: 2026-09-28
 order: 101
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each job, give one line another officer or an account manager would recogn
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/security-guard-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers, in one line, what the first leaves a reader guessing at: what you hold, where you stood post, whether you were armed, what the post covered, and what system you reported in. It invents nothing. Fill the brackets from your real post orders and your real reports, not from what a "typical" officer does.
 

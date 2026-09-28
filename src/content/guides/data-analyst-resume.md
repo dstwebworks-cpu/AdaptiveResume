@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-28
 order: 16
 draft: false
 faq:
@@ -73,6 +73,6 @@ Filters read for: SQL, Python or R, Excel (state your true level), Power BI, Tab
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/data-analyst-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The **Role Skills Checklist** below helps you inventory the analysis work your history already contains. Our build does the same thing with you — it reads what you did, proposes what it implies, and asks you to confirm every claim. For an analyst, that's not just ethics — it's the job skill on display.

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 66
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each role, give one line a fellow perinatal nurse would recognize instantl
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/labor-and-delivery-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets with your real unit and numbers.
 

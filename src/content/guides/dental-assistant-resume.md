@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-18
+updatedDate: 2026-09-28
 order: 96
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each role, give one line another assistant or an office manager would reco
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/dental-assistant-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers what the first hides: the credential and its body, the practice type and size, the daily pace, the procedures, the imaging you're permitted to take, the sterilization responsibility, and the software. It invents nothing. Fill the brackets from your real schedule and your real duties, not from a job description.
 

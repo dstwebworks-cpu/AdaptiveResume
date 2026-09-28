@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 28
 draft: false
 faq:
@@ -59,7 +60,7 @@ Knowing the target makes the rules obvious. The software is trying to fill these
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/resume-format-for-ats-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 **Before:** A two-column layout with work history running down the left, skills graphics on the right, and name and phone in the page header.
 

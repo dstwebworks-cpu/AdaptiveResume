@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-28
 order: 85
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each district or staffing firm, give one line a principal would recognize 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/substitute-teacher-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds: the district, the grade bands, the volume, the long-term work, and the system you already know. The rewrite invents nothing. Fill the brackets with your real districts and numbers.
 

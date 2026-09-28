@@ -13,6 +13,7 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 29
 draft: false
 faq:
@@ -53,7 +54,7 @@ This is the most underused tailoring move, and it's pure honesty — nothing cha
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/tailor-resume-to-job-description-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The JD's must-haves: *customer implementation, Salesforce, renewal retention.* The candidate has done all three — but her resume says it in her old company's dialect.
 

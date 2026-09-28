@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-28
 order: 13
 draft: false
 faq:
@@ -88,6 +88,6 @@ One page if you've held one substantive role; two pages is normal once you have 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/project-manager-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The **Role Skills Checklist** below helps you inventory the scope you've actually run. Our build does this with you — it reads your history, proposes the project-scale facts and credentials it implies, and asks you to confirm each one. If you can't defend it, it doesn't go on the page.

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 72
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each employer, give the context in one line before the bullets — your cr
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/radiologic-technologist-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: registration, acuity, modalities, volume, and systems. It also matches how imaging departments describe their own openings — postings name the modalities and shifts they need covered, so naming yours lines you up against the requirement directly.
 

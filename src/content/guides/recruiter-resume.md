@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 74
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each employer, give the desk in one line — setting, functions supported,
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/recruiter-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers in four seconds what the first leaves a reader guessing: how much you carry, how fast you close, and whether your offers stick. Every number is yours to fill in from your real reporting — and if you only have some of them, write the ones you have. Two true metrics beat five vague claims.
 

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-08-06
+updatedDate: 2026-09-28
 order: 14
 draft: false
 faq:
@@ -78,6 +78,6 @@ Filters read for: total time, PIC, multi-engine, instrument, type ratings by nam
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/pilot-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The **Role Skills Checklist** below helps you inventory what your flying history proves beyond the numbers. Our build works the same way — it reads your history, proposes what it implies, and asks you to confirm every line. In a field where claims get audited, nothing goes on the page you can't back with a logbook.

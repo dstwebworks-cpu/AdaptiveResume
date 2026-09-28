@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
+updatedDate: 2026-09-28
 order: 71
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each role, give one line of context before the bullets: the team, the envi
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/cyber-security-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version answers the questions a hiring manager is actually asking: what queue, what tool, what volume, and whether your escalations arrive usable. Every bracket is a prompt for your real figure — never permission to invent one.
 

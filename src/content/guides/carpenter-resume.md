@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-28
 order: 83
 draft: false
 faq:
@@ -40,7 +41,7 @@ Under each job, give one line another carpenter would recognize instantly.
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/carpenter-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 The second version is scannable in four seconds. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding.
 

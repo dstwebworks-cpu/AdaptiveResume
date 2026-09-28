@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 31
 draft: false
 faq:
@@ -83,7 +84,7 @@ Every bracket is a prompt for your real figure — not permission to invent one.
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/help-desk-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 ## What this occupation is called elsewhere
 

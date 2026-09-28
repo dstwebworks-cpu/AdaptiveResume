@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
+updatedDate: 2026-09-28
 order: 23
 faq:
   - q: "Should I say whether I circulate or scrub?"
@@ -78,7 +79,7 @@ Contract work lists the same way staff work does, with honest attribution per as
 
 ![Before and after example of an improved operating room resume line - every line confirmed by the person](/img/guides/examples/operating-room-nurse-resume-example.png)
 
-*Illustrative example. On your resume, every line comes from your real history - proposed as a question, added only when you confirm it.*
+*Illustrative example. On your resume, every line comes from your real history: what you already wrote, plus new lines we suggest and add only when you confirm them.*
 
 ## How AdaptiveResume helps
 
