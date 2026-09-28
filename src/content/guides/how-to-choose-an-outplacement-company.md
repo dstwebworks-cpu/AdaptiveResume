@@ -41,7 +41,7 @@ This is the question providers answer least clearly, and it is the one that matt
 
 - **A critique.** The employee's existing resume comes back with comments. Nothing is rewritten.
 - **A reformat.** The old resume goes into the provider's template. The content stays exactly as the employee wrote it, including everything they left off.
-- **A rebuild.** Someone works backwards from what the employee actually did, finds the tools, standards, credentials, and scope that never made it onto the page, and the employee confirms each line.
+- **A rebuild.** Someone works backwards from what the employee actually did, finds the tools, standards, credentials, and scope that never made it onto the page, and each line is checked with the employee and approved by a reviewer.
 
 Only the third one changes what a hiring manager learns about the person. Ask which one the proposal includes, and ask how the provider knows a line is true before it goes on the page.
 
@@ -51,7 +51,7 @@ A person you can name, a pool of contract writers, or software? Any of the three
 
 ## 4. How many of our people will actually use it?
 
-Ask for the provider's utilization rate and how it is measured. One figure that circulates, attributed to a 2009 Wall Street Journal report, is that only about 40 percent of employees offered outplacement used it; other retellings of that reporting put it the other way around, so we treat it as a caution rather than a fact, and that figure is old enough that we treat it as a caution rather than a fact. A provider who claims a much higher engagement rate should be able to say what counts as engagement: a login, a coaching session, or a finished resume. You are paying per person; the price per person who uses it is the real price.
+Ask for the provider's utilization rate and how it is measured. One figure that circulates, attributed to a 2009 Wall Street Journal report, is that only about 40 percent of employees offered outplacement used it; other retellings of that reporting put it the other way around, so we treat it as a caution rather than a fact. A provider who claims a much higher engagement rate should be able to say what counts as engagement: a login, a coaching session, or a finished resume. You are paying per person; the price per person who uses it is the real price.
 
 ## 5. What do you report back, and does it promise placements?
 

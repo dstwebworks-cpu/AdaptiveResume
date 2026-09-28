@@ -24,7 +24,7 @@ faq:
   - q: "Does a confirmed skills record replace the assessment?"
     a: "No. They answer different questions. The assessment answers whether the person can do certain things at a measured level today. The record answers what the person has actually done, confirmed by them, in a form an employer can read. A program file needs both."
   - q: "How is this different from the resume help our staff already give?"
-    a: "It is the same intent delivered as a per-participant service with a per-participant record. Every suggested line is confirmed by the participant, credentials are asked about rather than assumed, and the output reads cleanly to screening software. Staff hours go back to case management."
+    a: "It is the same intent delivered as a per-participant service with a per-participant record. Every suggested line is checked with the participant and approved by a reviewer, credentials are asked about rather than assumed, and the output reads cleanly to screening software. Staff hours go back to case management."
 ---
 
 A work readiness assessment answers one question: can this person do a set of measured things, today, at a scored level? That is a useful question, and most workforce programs have to answer it at intake. It is not the question an employer asks. An employer asks what the person has done, and a score does not say.
@@ -89,7 +89,7 @@ Building that record is exactly the work a per-participant resume service does, 
 
 1. **Start from what exists**: the intake form, any old resume, and the assessment results.
 2. **Work backwards through the real work**, asking about equipment, standards, people trained, and coverage, so routine work becomes visible again.
-3. **The participant confirms every line.** Nothing goes on the record they did not say yes to. This is what keeps a program honest and what makes the resume the participant's own.
+3. **Every line is checked with the participant.** Nothing goes on the record that was not confirmed by the participant's own answer and approved by a reviewer. This is what keeps a program honest and what makes the resume the participant's own.
 4. **Credentials are held for confirmation**, by the participant or by your staff.
 5. **The output** is a finished resume in DOCX and PDF plus a per-participant record of what was proposed and confirmed, for the file.
 
@@ -97,7 +97,7 @@ It fits the rules boards work under. Federal cost principles at 2 CFR 200.403 to
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-participant resume service. You send the batch, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed, for the file next to the assessment score.
+AdaptiveResume for organizations is a per-participant resume service. You send the batch, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, each participant answers questions about their own work, your staff reviewer approves every suggested line from those answers, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed, for the file next to the assessment score.
 
 We do not administer readiness assessments, we do not place participants, and we do not report placements. We report resumes completed and lines confirmed. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 

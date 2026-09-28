@@ -24,7 +24,7 @@ faq:
   - q: "What does a resume-only transition service leave out?"
     a: "Coaching, interview practice, job-search strategy, and networking support. A resume-only service gives each person a complete, honest resume that screening software can read. If your people also need a coach, a full program is the right buy, and the resume piece should still meet the standard on this page."
   - q: "How is the resume built without inventing anything?"
-    a: "Every suggested line is shown to the person as a question, and nothing goes on the page they did not confirm. Anything that looks like a license or certification is held for a reviewer instead of being written without confirmation. That is the standard we hold ourselves to, and the one to ask any provider about."
+    a: "Every suggested line is shown to the person as a question, and nothing goes on the page until a reviewer approves it. Anything that looks like a license or certification is held for a reviewer instead of being written without confirmation. That is the standard we hold ourselves to, and the one to ask any provider about."
 ---
 
 When a company of 30 people lets 6 of them go, the owner usually finds out that career transition services are priced for a company of 3,000. The published per-person packages, the account teams, and the coaching hours were built for the layoff that makes the news, not the one that happens quietly on a Friday in a small office.
@@ -61,7 +61,7 @@ A resume-only transition service is only worth buying if the resume is genuinely
 
 **The service works backwards from what the person actually did.** People who have been in a role for years stop noticing what they know. The machines they run, the standards they work under, the people they trained, and the systems they use every day never made it onto the page because they became routine.
 
-**Every suggestion is a question.** The person sees each proposed line and says yes, edits it, or skips it. Nothing lands on the page they did not confirm.
+**Every suggestion is a question.** The person answers a question about each proposed line, and a reviewer approves, edits, or drops the line from that answer. Nothing lands on the page that was not checked with the person and approved.
 
 **Credentials are handled with care.** A license or certification is the highest-risk line on any resume. It is never assumed from a job title; it is asked about, and anything uncertain waits for a reviewer.
 
@@ -86,7 +86,7 @@ Ask these before you take a quote from anyone, including us.
 
 ## What we offer, stated plainly
 
-AdaptiveResume for organizations is the resume piece, priced per person. You send us the batch of resumes, and during a pilot we handle intake for you. Each person's resume is rebuilt from their real work history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed.
+AdaptiveResume for organizations is the resume piece, priced per person. You send us the batch of resumes, and during a pilot we handle intake for you. Each person's resume is rebuilt from their real work history; each person answers questions about their own work, a reviewer you name approves every suggested line from those answers, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed.
 
 We do not sell coaching, and we do not sell a job-search platform. If your people need those, buy them from a provider who does them well, and hold the resume piece of that program to the standard on this page.
 

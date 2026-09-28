@@ -58,7 +58,7 @@ The honest way to improve a candidate's resume at volume has three parts, and th
 
 **1. Work backwards from what the role actually involved.** Instead of polishing the candidate's sentences, start from the job. A maintenance technician at a food-packaging plant almost certainly worked under lockout/tagout rules, used a maintenance management system, and trained someone. Those become suggestions, phrased as questions.
 
-**2. Confirm every line.** Each suggestion goes to the candidate, or to your recruiter working from the intake record, and gets a yes, an edit, or a skip. Nothing lands on the resume without a yes. This is the step a formatting tool does not have and a hand edit skips.
+**2. Confirm every line.** Each suggestion is checked with the candidate as a question, or worked by your recruiter from the intake record, and your recruiter gives it a yes, an edit, or a skip. Nothing lands on the resume without that yes. This is the step a formatting tool does not have and a hand edit skips.
 
 **3. Hold every credential for review.** A license or certification is never written from a job title. It is asked about, and anything uncertain waits in your reviewer's queue. Your recruiter signs off on what goes out under your name.
 
@@ -68,7 +68,7 @@ Here is what the difference looks like on one candidate. This is a sample candid
 
 **After:** "Maintenance technician, 6 years at a food-packaging plant. Preventive maintenance on 40 machines, lockout/tagout compliance under OSHA 29 CFR 1910.147, Allen-Bradley PLC troubleshooting, and training for 8 new hires on standard work procedures. EPA Section 608 Universal certified."
 
-Every item in the second version was confirmed by the candidate. The certification was asked about, not assumed. A formatting tool would have handed you the first line in your template. A rushed recruiter might have written the second line without asking, and been wrong about the certification.
+In a real rebuild, every item in the second version would come from the candidate's own answers and be approved by the recruiter. The certification was asked about, not assumed. A formatting tool would have handed you the first line in your template. A rushed recruiter might have written the second line without asking, and been wrong about the certification.
 
 ## What it changes for the agency
 
@@ -83,14 +83,14 @@ Every item in the second version was confirmed by the candidate. The certificati
 ## What to ask any vendor
 
 1. Does the tool change the content, or only the format? If only the format, it is a formatting tool, and that is fine as long as you know it.
-2. If it changes content, where does the new content come from? "The model wrote it" is the wrong answer. "It is suggested from the role and confirmed by the candidate or recruiter" is the right one.
+2. If it changes content, where does the new content come from? "The model wrote it" is the wrong answer. "It is suggested from the role, checked with the candidate, and approved by the recruiter" is the right one.
 3. What happens to a certification the candidate did not mention? It should be asked about, never added.
 4. Is there a record of who confirmed each line?
 5. What is the price per candidate, and what volume changes it?
 
 ## What we offer
 
-AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you. Each suggested line is confirmed by the candidate or by your recruiter, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It is the same standard we hold on our consumer product: nothing goes on the page that a person did not confirm.
+AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you. Each candidate answers questions about their own work, your recruiter approves every suggested line from those answers, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It carries the same integrity standard as our consumer product, with a recruiter in the approval seat: nothing goes on the page that wasn't confirmed by the candidate's own answer and approved by your recruiter.
 
 Pilots are paid at standard rates and fully credited against your first contract. We do not offer free pilots.
 

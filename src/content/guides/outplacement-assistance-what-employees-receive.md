@@ -43,9 +43,9 @@ One large provider's published rate card lists a resume-critique package at $899
 
 ## What employees actually use
 
-In most programs the resume is the piece employees reach for first, because it is the thing they send out that week. It is the thing the employee sends out that week, and the only part of the package with a deadline attached. Coaching tends to matter most to people who have not searched for a job in a long time. A platform login is easy to open once and forget. Check-ins mainly feed the provider's report to the employer.
+In most programs the resume is the piece employees reach for first, because it is the thing they send out that week, and the only part of the package with a deadline attached. Coaching tends to matter most to people who have not searched for a job in a long time. A platform login is easy to open once and forget. Check-ins mainly feed the provider's report to the employer.
 
-One figure that circulates, attributed to a 2009 Wall Street Journal report, is that only about 40 percent of employees offered outplacement used it; other retellings of that reporting put it the other way around, so we treat it as a caution rather than a fact, and that figure is dated enough that we treat it as a caution rather than a fact. Whatever the true number is, a program is only as good as the resume that comes out of it, because that is the part almost everyone touches.
+One figure that circulates, attributed to a 2009 Wall Street Journal report, is that only about 40 percent of employees offered outplacement used it; other retellings of that reporting put it the other way around, so we treat it as a caution rather than a fact. Whatever the true number is, a program is only as good as the resume that comes out of it, because that is the part almost everyone touches.
 
 ## The resume piece, done right and done badly
 
@@ -53,7 +53,7 @@ Here is where the employer and the employee should compare notes, because this i
 
 **Done badly:** the employee uploads the old resume, and it comes back in the provider's template with the same sentences. The employee has a nicer-looking version of the same thin document. Nothing was found, because a template cannot find anything.
 
-**Done right:** someone works backwards from what the employee actually did. The systems they ran, the standards they worked under, the people they trained, the numbers they owned. Each of those becomes a suggested line, the employee confirms or edits it, and the finished resume says what the person actually did at its real size.
+**Done right:** someone works backwards from what the employee actually did. The systems they ran, the standards they worked under, the people they trained, the numbers they owned. Each of those becomes a question for the employee, a reviewer approves or edits the line from the answer, and the finished resume says what the person actually did at its real size.
 
 This is a sample worker, not a real person.
 
@@ -68,7 +68,7 @@ In a real rebuild, nothing in the second version would be invented: the entities
 If you are buying outplacement assistance, ask for the resume piece by name and hold it to four requirements:
 
 - **It rebuilds, it does not reformat.** Ask the provider how it finds what the employee left off.
-- **The employee confirms every line.** Ask how that is recorded.
+- **Every line is checked with the employee and approved.** Ask how that is recorded.
 - **Licenses and certifications are asked about, never assumed.** Ask what happens to a credential the employee never mentioned.
 - **The finished file reads cleanly to screening software.** Single column, standard headings, no graphics.
 
@@ -98,7 +98,7 @@ If outplacement assistance is written into a severance agreement, the wording de
 
 Some employers split the purchase: a full program for a few long-tenured or senior people, and a resume-only service for everyone else. That keeps the cost per person honest about what each person will use, and it means nobody leaves without the one thing they need that week.
 
-For the employer, AdaptiveResume for organizations is the resume piece only, priced per person. During a pilot we take the batch and handle intake, each person answers the questions the reviewer sends about their own work, the reviewer approves, edits, or drops every suggested line based on those answers, and anything that looks like a credential waits for sign-off. For the employee, the result is a resume that says what you actually did, reads cleanly to screening software, and and your employer's reviewer holds a record of what was proposed and what you confirmed. We do not sell coaching or a job-search platform, and we do not report placements. A pilot is paid at standard rates, and the whole pilot fee is credited against your first contract.
+For the employer, AdaptiveResume for organizations is the resume piece only, priced per person. During a pilot we take the batch and handle intake, each person answers the questions the reviewer sends about their own work, the reviewer approves, edits, or drops every suggested line based on those answers, and anything that looks like a credential waits for sign-off. For the employee, the result is a resume that says what you actually did, reads cleanly to screening software, and your employer's reviewer holds a record of what was proposed and what you confirmed. We do not sell coaching or a job-search platform, and we do not report placements. A pilot is paid at standard rates, and the whole pilot fee is credited against your first contract.
 
 ## Format notes
 

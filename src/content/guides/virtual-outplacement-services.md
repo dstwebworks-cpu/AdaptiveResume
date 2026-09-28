@@ -54,7 +54,7 @@ That last option is where a buyer should look hardest. Software-drafted resumes 
 Ask the provider for a sample of what an employee receives, then check four things:
 
 1. **Does the resume contain anything the old one did not?** If the sample is the old resume restyled, the program reformats. Price it as formatting.
-2. **Was each line confirmed by the employee?** Ask how. A rebuilt resume should come with a record of what was proposed and what the person confirmed.
+2. **Was each line checked with the employee and approved?** Ask how. A rebuilt resume should come with a record of what was proposed and what the person confirmed.
 3. **How were licenses and certifications handled?** They should be asked about, never assumed from a job title.
 4. **Does it read cleanly to screening software?** Single column, standard headings, no graphics or photos. A virtual program that hands back a two-column template has handed the employee a file the next employer's software may scramble.
 

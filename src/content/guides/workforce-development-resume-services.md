@@ -47,7 +47,7 @@ If a board buys resume assistance from an outside vendor per participant, hold t
 
 **1. It works from what the participant actually did.** A dislocated worker who ran a production line for 18 years and wrote one line about it has a resume problem that no template fixes. The service has to work backwards through the real work, the equipment, the standards, the people trained, and put words to it.
 
-**2. Every line is confirmed by the participant.** Each suggested line is a question the participant answers. Nothing goes on the resume they did not say yes to. This is what keeps a program honest at volume and what makes the resume the participant's own.
+**2. Every line is checked with the participant.** Each suggested line is a question the participant answers, and nothing goes on the resume until a reviewer approves it from that answer. This is what keeps a program honest at volume and what makes the resume the participant's own.
 
 **3. Credentials are asked about, never assumed.** A forklift certification, a CDL, a state license. These are checkable, and a resume that claims one the participant does not hold is worse than one that leaves it off.
 
@@ -81,7 +81,7 @@ Per-participant purchasing into boards is also an established motion. At least o
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-participant resume service. You send the batch of resumes, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed.
+AdaptiveResume for organizations is a per-participant resume service. You send the batch of resumes, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, each participant answers questions about their own work, your staff reviewer approves every suggested line from those answers, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed.
 
 We do not place participants and we do not report placements. We report resumes completed and lines confirmed. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 

@@ -24,7 +24,7 @@ faq:
   - q: "Can the resumes be used for federal applications?"
     a: "The resume we build is aimed at civilian employers and the screening software they run. A federal resume is a different document: applications through USAJOBS cap at two pages as of the September 2025 OPM change and ask for details a private-sector resume leaves off. Programs running both tracks keep the federal version in the USAJOBS format and use ours for industry."
   - q: "Is this the same as a military-to-civilian resume writer or a resume writing service for veterans?"
-    a: "It is the same work, bought by a program per person instead of by one veteran at a time. A military-to-civilian resume writer produces a document for the veteran; we build the resume from the veteran's own record, with every line confirmed by the veteran or by your reviewer, and the program gets a per-person record of what was proposed and confirmed. Individual veterans can use the same method directly through our veterans page."
+    a: "It is the same work, bought by a program per person instead of by one veteran at a time. A military-to-civilian resume writer produces a document for the veteran; we build the resume from the veteran's own record, with every line checked with the veteran and approved by your reviewer, and the program gets a per-person record of what was proposed and confirmed. Individual veterans can use the same method directly through our veterans page."
   - q: "What does it cost, and is there a free pilot?"
     a: "It is priced per person, by quote, sized to your caseload. Pilots are paid at standard rates and fully credited against your first agreement. We do not offer free pilots, because a paid pilot means both sides are invested in it working."
 ---
@@ -57,7 +57,7 @@ If you are buying this service for a program, or building it in-house, hold it t
 
 **4. Handle credentials by asking.** Many military schools map to civilian certifications, and the services' Credentialing Opportunities On-Line (COOL) sites list which ones. A credential the veteran actually earned goes on by its civilian name and date. Training completed without the credential is listed as training. A CDL earned through the military skills test waiver goes on once the state issues it, not before.
 
-**5. Confirm every line.** Each suggested line is a question. Nothing lands on the page that the veteran or your program's reviewer did not confirm, and anything uncertain waits for that reviewer.
+**5. Confirm every line.** Each suggested line is a question. Nothing lands on the page that your program's reviewer did not approve from the veteran's answers, and anything uncertain waits for that reviewer.
 
 Here is what that produces for one veteran. This is a sample service member, not a real person.
 
@@ -73,7 +73,7 @@ Programs shop for this service under several names: resume writing for veterans,
 
 **Resume writing** means a writer takes what the veteran says in an interview and composes the document. It depends on the writer's military literacy and on the veteran remembering, under time pressure, what they did. Quality varies by writer, and the program has no record of what was said.
 
-**Resume building** means the resume is rebuilt from the veteran's record and prior documents, each likely skill and credential is put as a question, and every line is confirmed by the veteran or by your program's reviewer before it lands. The program receives the finished resume and the per-person record of what was proposed and what was confirmed. That record is what a counselor files, what a reviewer checks a clearance line against, and what makes the service consistent across a caseload of two hundred as it is across a caseload of two.
+**Resume building** means the resume is rebuilt from the veteran's record and prior documents, each likely skill and credential is put as a question, and every line is approved by your program's reviewer, from the veteran's answers, before it lands. The program receives the finished resume and the per-person record of what was proposed and what was confirmed. That record is what a counselor files, what a reviewer checks a clearance line against, and what makes the service consistent across a caseload of two hundred as it is across a caseload of two.
 
 For the federal track, the same confirmed record feeds the more detailed USAJOBS document. It does not replace a federal resume writer, and the format notes below say so.
 
@@ -91,7 +91,7 @@ Veteran-serving organizations buy services in a few shapes, and the per-person m
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-person resume service built for civilian screening. You send the batch of resumes, and during a pilot we handle intake for you. Each veteran's resume is rebuilt from their real service record: the translation toward the civilian job, the scope in civilian numbers, the clearance as held, the credentials as earned. Every suggested line is confirmed by the veteran or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that civilian screening software reads cleanly, plus a per-person record of what was reviewed.
+AdaptiveResume for organizations is a per-person resume service built for civilian screening. You send the batch of resumes, and during a pilot we handle intake for you. Each veteran's resume is rebuilt from their real service record: the translation toward the civilian job, the scope in civilian numbers, the clearance as held, the credentials as earned. Every suggested line is checked with the veteran and approved by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that civilian screening software reads cleanly, plus a per-person record of what was reviewed.
 
 We do not place veterans, and we do not report placements. We report resumes completed and lines confirmed, which is a number you can stand behind to a funder.
 

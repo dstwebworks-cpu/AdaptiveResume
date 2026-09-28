@@ -37,7 +37,7 @@ Hold any tool, including ours, to five requirements.
 
 **1. It should start from what the student did, not from what they wrote.** A student's real history is in their jobs, internships, campus roles, labs, and coursework projects. A tool that only grades the existing text cannot find the missing lines. A tool that works backwards from the roles can.
 
-**2. Every added line should be confirmed by the student.** A career office's name is on the advice its tools give. Nothing should land on a resume the student did not say yes to, and the tool should hand over a record of what was proposed and what was confirmed, so a career coach can read it.
+**2. Every added line should be checked with the student.** A career office's name is on the advice its tools give. Nothing should land on a resume that was not checked with the student and approved, and the tool should hand over a record of what was proposed and what was confirmed, so a career coach can read it.
 
 **3. Credentials should be asked about, never assumed.** Certifications, licenses, and language proficiencies are checkable, and a resume that claims one the student does not hold is worse than one that leaves it off. A tool that adds a credential because it fits the major has created a problem for the student and for the office.
 
@@ -88,7 +88,7 @@ Any tool a career center adopts should work on a phone, because that is where ma
 ## Questions to ask any vendor
 
 1. Does the tool find lines the student left off, or grade the lines already there?
-2. Does the student confirm every added line, and can a coach see that record?
+2. Is every added line checked with the student and approved before it lands, and can a coach see that record?
 3. What happens to a certification the student never mentioned?
 4. What is the price per student who completed a resume, not per student enrolled?
 5. Does the finished file read cleanly to applicant tracking systems, or is it a template?

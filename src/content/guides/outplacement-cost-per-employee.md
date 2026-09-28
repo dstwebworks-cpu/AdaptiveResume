@@ -24,7 +24,7 @@ faq:
   - q: "Is a resume-only service a real alternative to outplacement?"
     a: "For the resume, yes. For coaching and job-search support, no. Many employers buy a full program for long-tenured people and a resume-only service for everyone else, which keeps the cost per person honest about what each person will use."
   - q: "How do you keep a per-person resume service from inventing things at volume?"
-    a: "Every suggested line is a question the person answers, and nothing goes on the page without a yes. Anything that looks like a license or certification is held for a reviewer. The process is the same for every resume in the batch."
+    a: "Every suggested line is a question the person answers, and nothing goes on the page until a reviewer approves it from that answer. Anything that looks like a license or certification is held for a reviewer. The process is the same for every resume in the batch."
 ---
 
 Outplacement is one of the few services a company buys where the buyer rarely sees a price list. Two large providers publish rate cards; nearly everyone else quotes privately. That leaves an HR or finance lead pricing a layoff with a handful of public numbers and a lot of guesswork.
@@ -63,7 +63,7 @@ If a written resume is a large part of what separates one tier from the next, th
 
 **It works backwards from what the person actually did.** A 15-year employee has stopped noticing what they know. The machines, the standards, the systems, and the people they trained have become routine and never made it onto the page. The resume work is finding those things, not restyling the ones already there.
 
-**Every line is confirmed by the person.** Each suggested line is shown to the employee as a question. Nothing lands on the page without a yes. This is what makes the resume theirs, and what keeps a program honest at volume.
+**Every line is a question the person answers, and a reviewer approves it before it lands.** Each suggested line is shown to the employee as a question, and your reviewer approves, edits, or drops it based on the answer. This is what makes the resume theirs, and what keeps a program honest at volume.
 
 **Credentials are never assumed.** A license or certification is asked about, never written from a job title, and anything uncertain waits for a reviewer.
 
@@ -97,7 +97,7 @@ AdaptiveResume for organizations is priced per person, by quote, sized to your v
 
 1. What is the per-employee price, and what is in it? Ask for the components separately.
 2. Is the resume critiqued, rewritten from a template, or rebuilt from the person's real work history?
-3. Does the employee confirm every line before it is final? How is that recorded?
+3. Is every line checked with the employee and approved before it is final? How is that recorded?
 4. How are licenses and certifications handled? Are they ever written without confirmation?
 5. What do you report back to us, and does it include anything that sounds like a placement promise?
 
@@ -105,7 +105,7 @@ A provider who cannot answer the second and fourth questions plainly is selling 
 
 ## What we offer
 
-You send the batch of resumes. During a pilot we handle intake for you. Each resume is rebuilt from the person's real history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed and confirmed. Pilots are paid at standard rates and fully credited against your first contract.
+You send the batch of resumes. During a pilot we handle intake for you. Each resume is rebuilt from the person's real history; the person answers questions about their own work, a reviewer you name approves every suggested line from those answers, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed and confirmed. Pilots are paid at standard rates and fully credited against your first contract.
 
 ## Format notes
 
