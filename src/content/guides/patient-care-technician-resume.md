@@ -41,7 +41,7 @@ Under each job, give one line another tech or a charge nurse would recognize ins
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/patient-care-technician-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers, in one line, what the first leaves a reader guessing at: what you hold, what unit and shift, how many patients, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real competency checkoffs, not from what a "typical" tech does.
 

@@ -41,7 +41,7 @@ Under each job, give one line another caregiver or a care coordinator would reco
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/caregiver-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 Read the second version once and you know what the first never says: the credential you hold, how many clients you carried, where and for how long, what care you gave, and where you charted it. Nothing in it is invented. Fill the brackets from your real schedule and your real visit notes, not from what a "typical" caregiver does.
 

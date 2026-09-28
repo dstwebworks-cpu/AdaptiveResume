@@ -41,7 +41,7 @@ Under each employer, give the desk in one line — setting, functions supported,
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/recruiter-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers in four seconds what the first leaves a reader guessing: how much you carry, how fast you close, and whether your offers stick. Every number is yours to fill in from your real reporting — and if you only have some of them, write the ones you have. Two true metrics beat five vague claims.
 

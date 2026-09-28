@@ -74,7 +74,7 @@ The same record supports the next step up; what changes is which lines lead. For
 
 ![Before and after example of an improved charge nurse resume line - every line confirmed by the person](/img/guides/examples/charge-nurse-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 ## How AdaptiveResume helps
 

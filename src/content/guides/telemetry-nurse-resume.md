@@ -73,6 +73,6 @@ Filters read for: telemetry, progressive care, step-down, cardiac monitoring, rh
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/telemetry-nurse-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you inventory what your unit time actually proves. Our build does it with you — it reads your history, proposes the certifications and scope it implies, and asks you to confirm each one. On a clinical resume, that ask-first step isn't just honesty — it's exactly how credentialing works.

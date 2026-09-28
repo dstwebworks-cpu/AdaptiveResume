@@ -78,7 +78,7 @@ A gap costs you some interviews, maybe. A discovered lie costs you every one it 
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-explain-employment-gap-on-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 **Before:** "2021 – 2024: Various family responsibilities and independent projects."
 

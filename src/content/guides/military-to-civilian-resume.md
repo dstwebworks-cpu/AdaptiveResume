@@ -104,4 +104,4 @@ When you're ready, our targeted build does this with you: it finds the standards
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/military-to-civilian-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*

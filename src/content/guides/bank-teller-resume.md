@@ -78,6 +78,6 @@ Use exact terms only for real experience: a planted compliance keyword fails the
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/bank-teller-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you pull the measurable facts out of branch work. Our build does it with you — reads your history, proposes what it implies, and asks you to confirm every number before it appears. In a job built on balancing to the penny, your resume should hold to the same standard.

@@ -41,7 +41,7 @@ Under each school, give one line of context before the bullets — grade band, s
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/special-education-teacher-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version is scannable in four seconds: setting, caseload, the meeting load, the data work, and the adults you directed. It also uses the words a special education director thinks in, because those are the words in the posting.
 

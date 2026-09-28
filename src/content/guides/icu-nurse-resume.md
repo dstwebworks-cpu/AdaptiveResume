@@ -75,7 +75,7 @@ Coming from tele, stepdown, or the ER? Lead with the overlap that's real: drips 
 
 ![Before and after example of an improved ICU resume line - every line confirmed by the person](/img/guides/examples/icu-nurse-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 ## How AdaptiveResume helps
 

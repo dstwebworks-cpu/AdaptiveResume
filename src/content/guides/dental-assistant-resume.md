@@ -41,7 +41,7 @@ Under each role, give one line another assistant or an office manager would reco
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/dental-assistant-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers what the first hides: the credential and its body, the practice type and size, the daily pace, the procedures, the imaging you're permitted to take, the sterilization responsibility, and the software. It invents nothing. Fill the brackets from your real schedule and your real duties, not from a job description.
 

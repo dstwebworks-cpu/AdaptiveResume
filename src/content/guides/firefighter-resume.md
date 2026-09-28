@@ -73,7 +73,7 @@ If you're testing for driver/operator, engineer, or lieutenant, the resume the p
 
 ![Before and after example of an improved firefighter resume line - every line confirmed by the person](/img/guides/examples/firefighter-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 ## How AdaptiveResume helps
 

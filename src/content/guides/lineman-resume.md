@@ -41,7 +41,7 @@ Under each employer, give one line a fellow lineworker would read in four second
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/lineman-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second line invents nothing. It says plainly what the first was hiding: status, voltage, method, construction, equipment, and license. Fill the brackets with your real crew, voltages, and numbers — only those.
 

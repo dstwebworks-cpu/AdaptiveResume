@@ -41,7 +41,7 @@ Under each SOC role, before the bullets, give one line another analyst would rec
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/soc-analyst-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version answers what a SOC manager is actually asking: what desk, what tier, how much, in what, and did anything you touched get contained. Nothing in it is invented; it says plainly what the first line hid. Fill every bracket from your case system or shift reports, not from memory.
 

@@ -90,6 +90,6 @@ Spell out what districts search for: the license by its real name, endorsement n
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/teacher-resume-skills-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills and credentials that history implies, and asks you to confirm every one before it goes on the page. Nothing invented, including the things you forgot.

@@ -87,6 +87,6 @@ For what these systems actually do with your resume, see [what the ATS reads](/g
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-list-promotions-on-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Promotion-History Worksheet** below walks you through it title by title: dates, what grew, and the honest number behind each step. Our build does the same thing with you — it spots multiple titles at one employer in your history and formats the climb so no reader can miss it, using only what you confirm is true.

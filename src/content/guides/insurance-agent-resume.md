@@ -41,7 +41,7 @@ Under each role, give one line an insurance person would recognize instantly.
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/insurance-agent-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets with your real numbers.
 

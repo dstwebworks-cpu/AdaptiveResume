@@ -74,6 +74,6 @@ Filters read for: NREMT, BLS, CPR/AED, patient assessment, patient transport, eP
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/emt-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The **Role Skills Checklist** below helps you inventory what your time on a truck proves. Our build does it with you — proposes what your history implies, asks you to confirm each item, and never lists a certification you didn't tell us you hold. In EMS, that's just how the job works.

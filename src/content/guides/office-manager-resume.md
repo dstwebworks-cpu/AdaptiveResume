@@ -41,7 +41,7 @@ Under each employer, give the context before the bullets — headcount supported
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/office-manager-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills and credentials your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: how big, how many, how much, and who reported to you. Every one of those is a number a hiring manager is trying to piece together from a vague resume, so hand it to them directly. If you don't have exact figures, approximate honestly — "~45-person," "20+ vendors" — rather than either inventing precision or leaving it blank.
 
