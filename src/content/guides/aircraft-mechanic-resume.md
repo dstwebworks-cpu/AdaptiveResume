@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-28
 order: 43
 draft: false
 faq:
@@ -21,7 +22,7 @@ faq:
   - q: "What's the difference between an A&P and an avionics technician?"
     a: "An A&P (Airframe & Powerplant) mechanic is certificated under the FAA to maintain the airframe and engines. Avionics technicians work on the electrical, navigation, and communication systems, and many are not A&P-certificated — they may hold an FCC license or manufacturer training instead. The jobs overlap but they aren't the same, and postings usually ask for one or the other. Describe what you actually do rather than blurring the two."
   - q: "Is the IA worth listing if I only got it recently?"
-    a: "Yes. The Inspection Authorization is the highest maintenance credential short of an airline's own release authority, and it takes years of A&P experience just to qualify to test for it. List it with the truth: that you hold it, and if it's recent, your day-to-day return-to-service and annual-inspection work will speak for how you use it. The IA expires on March 31 of each odd-numbered year, so keep the status current on the resume too."
+    a: "Yes. The Inspection Authorization is a senior credential that only experienced A&P mechanics can earn, and it takes at least three years with both ratings just to qualify to test for it. List it with the truth: that you hold it, and if it's recent, your day-to-day return-to-service and annual-inspection work will speak for how you use it. The IA expires on March 31 of each odd-numbered year, so keep the status current on the resume too."
   - q: "How do I write a military maintenance background for a civilian resume?"
     a: "Translate the aircraft, systems, and scope into civilian terms, and be honest about the certificate gap if there is one. Name the airframes and engines you worked, the level of maintenance (line, phase, depot-level), and inspections you performed or supervised. If you're pursuing your A&P through the military experience pathway, say so. The skills transfer; the wording just needs to match how a repair station or airline reads a resume."
 ---
@@ -39,6 +40,8 @@ Put your certificate status in the first lines, stated exactly, then give the co
 **After:** "A&P certificated (Airframe & Powerplant, 14 CFR Part 65); IA held. Part 145 repair station line and heavy maintenance on [Boeing 737NG] and [CRJ700]; performed and signed return-to-service entries, AD compliance research, and [C-check] tasks."
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/aircraft-mechanic-resume-example.png)
+
+*Illustrative example. On your resume, every line comes from your real history — proposed as a question, added only when you confirm it.*
 
 The second version answers in four seconds what the first leaves a reader guessing: what you're certificated for, what environment you worked in, which aircraft, and whether you were trusted to return them to service. Naming the operating rule — Part 145, Part 121, or Part 135 — matters because a hiring shop describes its own work that way, and it tells them how your paperwork habits and oversight will translate.
 
@@ -79,7 +82,7 @@ Only claim inspection methods you're qualified in. Borescope is common line work
 
 **Length follows your history, not a page rule.** The old "one page" advice wastes the very experience that makes you hireable. If you've worked heavy maintenance and line, held roles at a repair station and an airline, or carried a lead or crew-chief role, that's the material that puts you ahead — don't crush it to fit a convention.
 
-The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** Every line still has to earn its space. Cut the generic duties every mechanic shares; keep certificates, aircraft types, return-to-service scope, and anything that shows judgment.
+The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** Every line still has to earn its space. Cut the generic duties every mechanic shares; keep certificates, aircraft types, return-to-service scope, and anything that shows judgment.
 
 One real exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change — a hard requirement, not a style preference. That matters for FAA, DoD, and depot-level roles.
 
@@ -90,7 +93,7 @@ Otherwise: reverse chronological, single column, a clearly labeled certificates 
 - "Held FAA A&P certificate (Airframe & Powerplant, 14 CFR Part 65); [IA held, renews [MM/YYYY]]"
 - "Performed and signed return-to-service entries on [aircraft type] under Part [145/121/135]"
 - "Researched and documented AD compliance on [N] aircraft; [zero] repeat discrepancies"
-- "Completed [annual / 100-hour / phase / C-check] inspections on [aircraft type]"
+- "Completed [100-hour / phase / C-check] inspections on [aircraft type]; [annual inspections as IA holder, if you hold an IA]"
 - "Troubleshot and cleared [system] squawks; performed engine run-up and borescope inspection"
 - "Executed sheet metal / composite repairs per [manufacturer maintenance manual / SRM]"
 - "Removed and installed [turbine/reciprocating] engine; [rigged flight controls / serviced landing gear]"

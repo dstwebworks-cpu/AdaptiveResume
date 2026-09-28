@@ -13,11 +13,12 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-28
 order: 79
 draft: false
 faq:
   - q: "Do I need a certification to get a bookkeeping job?"
-    a: "No. Bookkeeping has no state or government license, and many employers hire on experience and software skill. Two national credentials exist and are worth listing if you hold them: the Certified Bookkeeper (CB) from the AIPB (American Institute of Professional Bookkeepers) and the Certified Public Bookkeeper (CPB) from the NACPB (National Association of Certified Public Bookkeepers). Vendor certifications — QuickBooks Online certification through Intuit's ProAdvisor Program, and Xero's certification levels — are free and carry real weight because they name the exact system a posting asks for."
+    a: "No. Bookkeeping has no state or government license, and many employers hire on experience and software skill. Two national credentials exist and are worth listing if you hold them: the Certified Bookkeeper (CB) from the AIPB (American Institute of Professional Bookkeepers) and the Certified Public Bookkeeper (CPB) from the NACPB (National Association of Certified Public Bookkeepers). Vendor certifications — QuickBooks Online certification through Intuit's ProAdvisor Program, and Xero's certification levels — are free, and they are worth listing because they name the exact system many postings ask for."
   - q: "How do I write a bookkeeper resume with no experience?"
     a: "Lead with what you can prove. Free vendor certifications (QuickBooks Online, Xero) show you can run the software before day one. Coursework in accounting fundamentals, a volunteer treasurer role, cash handling, invoicing, or data entry from any job are all real bookkeeping-adjacent work — name them plainly with the systems you used. Don't title yourself 'Bookkeeper' for work you didn't do; 'Accounting coursework, QuickBooks Online certified, [N] months volunteer treasurer' is honest and reads well."
   - q: "What's the difference between a bookkeeper and a full-charge bookkeeper?"
@@ -50,8 +51,8 @@ Bookkeeping has no state or government license. Bookkeepers are generally hired 
 
 - **Certified Bookkeeper (CB)** — from the AIPB (American Institute of Professional Bookkeepers). It requires passing a four-part national exam, and the AIPB also asks for evidence of at least two years of full-time bookkeeping experience or 3,000 hours part-time or freelance, which can be met before or after the exam. Because of that experience rule, a CB tells a reader you have been doing the work for a while.
 - **Certified Public Bookkeeper (CPB)** — from the NACPB (National Association of Certified Public Bookkeepers). NACPB calls it a license; it is a private credential the NACPB issues on completing its program and agreeing to its code of conduct, and it renews yearly with 24 hours of CPE (continuing professional education). List the year and, if current, "active."
-- **QuickBooks Online certification** — Intuit offers QuickBooks Online Certification (Level 1 and Level 2) through its ProAdvisor Program, which is free to join with a QuickBooks Online Accountant account. Name the level and year; small-business postings filter for it constantly.
-- **Xero certification** — Xero's certification is free and runs in levels: Xero associate (Level 1), Xero professional (Level 2), and Xero specialist (Level 3), with add-on badges such as Payroll Specialist. Name the level you hold, not just "Xero certified."
+- **QuickBooks Online certification** — Intuit offers QuickBooks Online Certification (Level 1 and Level 2) through its ProAdvisor Program, which is free to join with a QuickBooks Online Accountant account. Name the level and year; many small-business postings ask for QuickBooks by name.
+- **Xero certification** — Xero's certification is free and runs in levels: Xero associate (Level 1), Xero professional (Level 2), and Xero specialist (Level 3), with add-on badges such as Migration Specialist. Each Xero certification lasts 12 months, so name the level you hold and the year you earned it, not just "Xero certified."
 
 List exactly what you hold, with real status. "QuickBooks Online Certification Level 1, [2025]" is a line; "QuickBooks expert" is a claim. An accounting degree belongs under education, not here — but say it.
 
@@ -69,11 +70,11 @@ List exactly what you hold, with real status. "QuickBooks Online Certification L
 
 **Filings.** Form 1099-NEC (Nonemployee Compensation) for contractors at year-end, state sales tax returns and their frequency, and anything else you filed on a deadline. Deadlines met on your own are proof of reliability.
 
-**Basis and standards.** Say whether you kept books on a cash or accrual basis and, if accrual, that you worked to GAAP (Generally Accepted Accounting Principles). Don't overstate it: a bookkeeper applies the basics of GAAP; the outside CPA (certified public accountant) signs off. For firm and freelance bookkeepers, add the number of client books you carried and the industries.
+**Basis and standards.** Say whether you kept books on a cash or accrual basis and, if accrual, that you worked to GAAP (Generally Accepted Accounting Principles). Don't overstate it: a bookkeeper applies the basics of GAAP, and an outside CPA (certified public accountant), if the business uses one, reviews the books or prepares the tax return. For firm and freelance bookkeepers, add the number of client books you carried and the industries.
 
 ## Format notes
 
-**Length follows your history, not a page rule.** Two pages is normal and expected once you have more than one substantive bookkeeping role to describe; one page is right for people starting out or moving over from clerical or cash-handling work. Order matters more than length: a skills-and-systems block near the top in its own labeled section (screening software keys on it), certifications if you hold any, then experience with a scope line atop each role. If you moved up inside one company — clerk to staff bookkeeper to full-charge — show each step; our guide on [how to list promotions on a resume](/guides/how-to-list-promotions-on-resume/) covers the layout.
+**Length follows your history, not a page rule.** Two pages is common and widely accepted once you have more than one substantive bookkeeping role to describe; one page is right for people starting out or moving over from clerical or cash-handling work. Order matters more than length: a skills-and-systems block near the top in its own labeled section (screening software keys on it), certifications if you hold any, then experience with a scope line atop each role. If you moved up inside one company — clerk to staff bookkeeper to full-charge — show each step; our guide on [how to list promotions on a resume](/guides/how-to-list-promotions-on-resume/) covers the layout.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 

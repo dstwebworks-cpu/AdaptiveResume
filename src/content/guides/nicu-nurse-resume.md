@@ -13,15 +13,16 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-28
 order: 40
 draft: false
 faq:
   - q: "Do I need RNC-NIC to get a NICU job?"
-    a: "No. Many units require only BLS and NRP to start and train the rest at the bedside; RNC-NIC is the specialty's board certification through the NCC (National Certification Corporation) and a strong differentiator, not a gate. It also requires roughly two years of NICU experience to sit for, so newer nurses can't hold it yet. If you're scheduled to test, say so honestly: 'RNC-NIC — exam scheduled [month/year].'"
+    a: "No. Many units require only BLS and NRP to start and train the rest at the bedside. Two specialty board certifications exist for this work: RNC-NIC from the NCC (National Certification Corporation) and CCRN (Neonatal) from the AACN (American Association of Critical-Care Nurses). Either one is a strong differentiator, not a gate. Both require real NICU hours before you can sit for the exam, so newer nurses can't hold them yet. If you're scheduled to test, say so honestly: 'RNC-NIC, exam scheduled [month/year].'"
   - q: "How do I show NICU experience when my title just says 'RN'?"
     a: "The unit line does it: acuity level, bed count, typical assignment, and the babies you actually cared for. 'RN' plus 'Level III NICU, ventilated and CPAP neonates, umbilical lines, gavage feeds' reads as neonatal critical care to anyone screening for it."
   - q: "What's the difference between a Level II, III, and IV NICU on a resume?"
-    a: "Acuity, and it matters. The AAP defines Level II as special care, Level III as full neonatal intensive care including ventilated infants and lines, and Level IV as the highest — surgical neonates, ECMO, and complex congenital care. Name your real level. A manager reads it as shorthand for what you've handled."
+    a: "Acuity, and it matters. The AAP defines Level II as special care, Level III as full neonatal intensive care including ventilated infants and lines, and Level IV as the highest, with surgical repair of complex congenital conditions and often ECMO. Name your real level. A manager reads it as shorthand for what you've handled."
   - q: "Should I list every skill from my NICU orientation checklist?"
     a: "No. List what you actually did at the bedside and could speak to in an interview. A shorter, true list beats a long one that falls apart on one follow-up question — and in a unit this small, every line gets tested quickly."
 ---
@@ -50,7 +51,7 @@ The American Academy of Pediatrics defines neonatal care in levels, and hiring m
 
 - **Level II (special care nursery):** stable or moderately ill infants, some born prematurely; short-term respiratory support and feeding support, but transferred out when acuity climbs.
 - **Level III (neonatal intensive care):** full intensive care, including mechanically ventilated infants, umbilical and central lines, and sustained life support for the smallest and sickest.
-- **Level IV (regional NICU):** everything a Level III does plus on-site pediatric surgery, ECMO (extracorporeal membrane oxygenation), and complex congenital care — the highest acuity there is.
+- **Level IV (regional NICU):** everything a Level III does plus surgical repair of complex congenital and acquired conditions, a broad range of pediatric surgical specialists, and often ECMO (extracorporeal membrane oxygenation) on site. It is the highest acuity there is.
 
 Put your level in the unit line and let it do the work the occupation code can't. If you've floated or transferred across levels, say which and for how long. A nurse who ran Level IV surgical neonates has evidence a Level II resume can't imply, and a nurse with three solid years of Level III shouldn't hide behind "NICU experience."
 
@@ -61,7 +62,7 @@ Every item in this block gets checked during credentialing, so it has to be exac
 - **RN license** with the state and, where relevant, your compact (multistate) status.
 - **NRP** — the Neonatal Resuscitation Program, the AAP/AHA course for delivery-room and early stabilization. Effectively expected in the NICU; list it with current-through dates.
 - **S.T.A.B.L.E.** — the post-resuscitation, pre-transport stabilization program (Sugar, Temperature, Airway, Blood pressure, Lab work, Emotional support). Common and worth a line, especially in transport and outreach roles.
-- **RNC-NIC** — Neonatal Intensive Care Nursing certification, administered by the **NCC (National Certification Corporation)**. This is the specialty board credential and leads the block if you hold it. Write the acronym correctly; it is not "CCRN-Neonatal" or "NICU-RN."
+- **RNC-NIC**: Neonatal Intensive Care Nursing certification, administered by the **NCC (National Certification Corporation)**. **CCRN (Neonatal)**: the neonatal critical-care certification from the **AACN (American Association of Critical-Care Nurses)**. These are two different credentials from two different bodies. List the one you hold, written exactly as the issuer writes it, and lead the block with it.
 - **BLS**, and **PALS** if your unit or transport role requires it.
 
 List exactly what you hold, with real status. Nothing you're "about to take" unless it's labeled that way — "RNC-NIC, exam scheduled [month/year]" is honest and reads fine. An invented or misnamed credential is the fastest way to lose a NICU offer, because the whole specialty runs on verified competence.
@@ -80,7 +81,7 @@ List exactly what you hold, with real status. Nothing you're "about to take" unl
 
 ## Format notes
 
-**Length follows your history, not a page rule.** Two pages is normal and expected once you have more than one substantive nursing role to describe; one page is right for new graduates or nurses new to the specialty. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with an acuity/unit line atop each role. If you're trimming to fit, cut older non-NICU detail before you cut a single neonatal specific.
+**Length follows your history, not a page rule.** Two pages is common and widely accepted once you have more than one substantive nursing role to describe; one page is right for new graduates or nurses new to the specialty. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with an acuity/unit line atop each role. If you're trimming to fit, cut older non-NICU detail before you cut a single neonatal specific.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 
@@ -103,7 +104,7 @@ Each bullet is a frame, not a claim. If a line isn't true of your practice, it d
 
 Hospital filters read for the vocabulary of neonatal critical care, and a human reads for the same words minutes later. The terms that typically matter: NICU, neonatal intensive care, Level II / III / IV, ventilator, CPAP, high-flow, surfactant, umbilical line, UAC, UVC, PICC, gavage feeds, TPN, developmental care, family-centered care, kangaroo care, NRP, S.T.A.B.L.E., RNC-NIC, BLS, PALS, Epic, and Cerner.
 
-One honesty note on job codes: [O*NET profiles this work under Registered Nurses (29-1141.00)](https://www.onetonline.org/link/summary/29-1141.00). Neonatal intensive care is a specialty within the RN occupation, not a separately coded job — which is exactly why your acuity level and hands-on specifics have to carry the message the occupation code can't. If you also work critical care elsewhere, our [ICU nurse resume guide](/guides/icu-nurse-resume/) covers drips, vents, and CRRT the same honest way.
+One honesty note on job codes: [O*NET profiles this work under Critical Care Nurses (29-1141.03)](https://www.onetonline.org/link/summary/29-1141.03), a specialty within the Registered Nurses occupation, and it lists 'Newborn ICU RN' among its job titles. That code covers every kind of ICU nurse, adult and pediatric included, which is exactly why your acuity level and hands-on specifics have to carry the message the occupation code can't. If you also work critical care elsewhere, our [ICU nurse resume guide](/guides/icu-nurse-resume/) covers drips, vents, and CRRT the same honest way.
 
 The highest-risk lines are the ones that overstate scope — a Level you didn't work, a line you watched rather than managed, or a credential misnamed or not yet held. NICU is a small specialty, and employers check.
 

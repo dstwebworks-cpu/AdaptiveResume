@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
+updatedDate: 2026-09-28
 order: 84
 draft: false
 faq:
@@ -124,4 +125,4 @@ Same person, same clearance — no new facts added. The rewrite names the level 
 
 ## How we handle clearances
 
-When we build your resume, we work backwards from what your work actually involved — and a clearance gets the strictest treatment of anything on the page, because it is the most checkable. We ask what your record shows, exactly as it reads, and place it where it carries the most weight for the job you are after. We never guess a level, a date, or a polygraph, and we never write "clearable." Nothing lands on the page without your say-so — and nothing goes on it that your FSO could not confirm tomorrow. Grab the **Clearance Line Cheat-Sheet** below for the format lines to copy.
+When we build your resume, we work backwards from what your work actually involved, and we never invent a clearance level, a date, or a polygraph. A clearance is a held credential, so it goes on the page only in the words you confirm, and nothing we suggest lands on the page without your say-so. Write the line from your record, check it with your FSO, and give it to us exactly as it reads. Grab the **Clearance Line Cheat-Sheet** below for the format lines to copy.
