@@ -93,7 +93,7 @@ Otherwise: reverse chronological, single column, a clearly labeled certificates 
 - "Held FAA A&P certificate (Airframe & Powerplant, 14 CFR Part 65); [IA held, renews [MM/YYYY]]"
 - "Performed and signed return-to-service entries on [aircraft type] under Part [145/121/135]"
 - "Researched and documented AD compliance on [N] aircraft; [zero] repeat discrepancies"
-- "Completed [100-hour / phase / C-check] inspections on [aircraft type]; [annual inspections as IA holder, if you hold an IA]"
+- "Completed [annual / 100-hour / phase / C-check] inspections on [aircraft type]; [as IA holder, or under Part 145 repair station authority]"
 - "Troubleshot and cleared [system] squawks; performed engine run-up and borescope inspection"
 - "Executed sheet metal / composite repairs per [manufacturer maintenance manual / SRM]"
 - "Removed and installed [turbine/reciprocating] engine; [rigged flight controls / serviced landing gear]"

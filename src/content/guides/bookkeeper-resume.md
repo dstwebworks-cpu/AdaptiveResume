@@ -52,7 +52,7 @@ Bookkeeping has no state or government license. Bookkeepers are generally hired 
 - **Certified Bookkeeper (CB)** — from the AIPB (American Institute of Professional Bookkeepers). It requires passing a four-part national exam, and the AIPB also asks for evidence of at least two years of full-time bookkeeping experience or 3,000 hours part-time or freelance, which can be met before or after the exam. Because of that experience rule, a CB tells a reader you have been doing the work for a while.
 - **Certified Public Bookkeeper (CPB)** — from the NACPB (National Association of Certified Public Bookkeepers). NACPB calls it a license; it is a private credential the NACPB issues on completing its program and agreeing to its code of conduct, and it renews yearly with 24 hours of CPE (continuing professional education). List the year and, if current, "active."
 - **QuickBooks Online certification** — Intuit offers QuickBooks Online Certification (Level 1 and Level 2) through its ProAdvisor Program, which is free to join with a QuickBooks Online Accountant account. Name the level and year; many small-business postings ask for QuickBooks by name.
-- **Xero certification** — Xero's certification is free and runs in levels: Xero associate (Level 1), Xero professional (Level 2), and Xero specialist (Level 3), with add-on badges such as Migration Specialist. Each Xero certification lasts 12 months, so name the level you hold and the year you earned it, not just "Xero certified."
+- **Xero certification** — Xero's certification is free and runs in levels: Xero associate (Level 1), Xero professional (Level 2), and Xero specialist (Level 3), with add-on badges such as Migration Specialist. Each Xero certification lasts 12 months, so name the level you hold and the year you earned or last renewed it, not just "Xero certified."
 
 List exactly what you hold, with real status. "QuickBooks Online Certification Level 1, [2025]" is a line; "QuickBooks expert" is a claim. An accounting degree belongs under education, not here — but say it.
 
@@ -70,7 +70,7 @@ List exactly what you hold, with real status. "QuickBooks Online Certification L
 
 **Filings.** Form 1099-NEC (Nonemployee Compensation) for contractors at year-end, state sales tax returns and their frequency, and anything else you filed on a deadline. Deadlines met on your own are proof of reliability.
 
-**Basis and standards.** Say whether you kept books on a cash or accrual basis and, if accrual, that you worked to GAAP (Generally Accepted Accounting Principles). Don't overstate it: a bookkeeper applies the basics of GAAP, and an outside CPA (certified public accountant), if the business uses one, reviews the books or prepares the tax return. For firm and freelance bookkeepers, add the number of client books you carried and the industries.
+**Basis and standards.** Say whether you kept books on a cash or accrual basis and, if accrual, that you worked to GAAP (Generally Accepted Accounting Principles). Don't overstate it: a bookkeeper applies the basics of GAAP, and an outside CPA (certified public accountant), if the business uses one, may prepare the tax return or compile, review, or audit the financial statements. For firm and freelance bookkeepers, add the number of client books you carried and the industries.
 
 ## Format notes
 

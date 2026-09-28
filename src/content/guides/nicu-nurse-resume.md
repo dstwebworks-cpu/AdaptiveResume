@@ -18,7 +18,7 @@ order: 40
 draft: false
 faq:
   - q: "Do I need RNC-NIC to get a NICU job?"
-    a: "No. Many units require only BLS and NRP to start and train the rest at the bedside. Two specialty board certifications exist for this work: RNC-NIC from the NCC (National Certification Corporation) and CCRN (Neonatal) from the AACN (American Association of Critical-Care Nurses). Either one is a strong differentiator, not a gate. Both require real NICU hours before you can sit for the exam, so newer nurses can't hold them yet. If you're scheduled to test, say so honestly: 'RNC-NIC, exam scheduled [month/year].'"
+    a: "No. Many units require only BLS and NRP to start and train the rest at the bedside. The two main specialty board certifications for NICU intensive care are RNC-NIC from the NCC (National Certification Corporation) and CCRN (Neonatal) from the AACN (American Association of Critical-Care Nurses). Either one is a strong differentiator, not a gate. Both require real NICU hours before you can sit for the exam, so newer nurses can't hold them yet. If you're scheduled to test, say so honestly: 'RNC-NIC, exam scheduled [month/year].'"
   - q: "How do I show NICU experience when my title just says 'RN'?"
     a: "The unit line does it: acuity level, bed count, typical assignment, and the babies you actually cared for. 'RN' plus 'Level III NICU, ventilated and CPAP neonates, umbilical lines, gavage feeds' reads as neonatal critical care to anyone screening for it."
   - q: "What's the difference between a Level II, III, and IV NICU on a resume?"
@@ -62,7 +62,7 @@ Every item in this block gets checked during credentialing, so it has to be exac
 - **RN license** with the state and, where relevant, your compact (multistate) status.
 - **NRP** — the Neonatal Resuscitation Program, the AAP/AHA course for delivery-room and early stabilization. Effectively expected in the NICU; list it with current-through dates.
 - **S.T.A.B.L.E.** — the post-resuscitation, pre-transport stabilization program (Sugar, Temperature, Airway, Blood pressure, Lab work, Emotional support). Common and worth a line, especially in transport and outreach roles.
-- **RNC-NIC**: Neonatal Intensive Care Nursing certification, administered by the **NCC (National Certification Corporation)**. **CCRN (Neonatal)**: the neonatal critical-care certification from the **AACN (American Association of Critical-Care Nurses)**. These are two different credentials from two different bodies. List the one you hold, written exactly as the issuer writes it, and lead the block with it.
+- **RNC-NIC**: Neonatal Intensive Care Nursing certification, administered by the **NCC (National Certification Corporation)**. **CCRN (Neonatal)**: the neonatal critical-care certification from the **AACN (American Association of Critical-Care Nurses)**. These are two different credentials from two different bodies. List each one you hold, written exactly as the issuer writes it, directly under your RN license.
 - **BLS**, and **PALS** if your unit or transport role requires it.
 
 List exactly what you hold, with real status. Nothing you're "about to take" unless it's labeled that way — "RNC-NIC, exam scheduled [month/year]" is honest and reads fine. An invented or misnamed credential is the fastest way to lose a NICU offer, because the whole specialty runs on verified competence.
@@ -102,7 +102,7 @@ Each bullet is a frame, not a claim. If a line isn't true of your practice, it d
 
 ## What screening software looks for on a NICU nurse resume
 
-Hospital filters read for the vocabulary of neonatal critical care, and a human reads for the same words minutes later. The terms that typically matter: NICU, neonatal intensive care, Level II / III / IV, ventilator, CPAP, high-flow, surfactant, umbilical line, UAC, UVC, PICC, gavage feeds, TPN, developmental care, family-centered care, kangaroo care, NRP, S.T.A.B.L.E., RNC-NIC, BLS, PALS, Epic, and Cerner.
+Hospital filters read for the vocabulary of neonatal critical care, and a human reads for the same words minutes later. The terms that typically matter: NICU, neonatal intensive care, Level II / III / IV, ventilator, CPAP, high-flow, surfactant, umbilical line, UAC, UVC, PICC, gavage feeds, TPN, developmental care, family-centered care, kangaroo care, NRP, S.T.A.B.L.E., RNC-NIC, CCRN (Neonatal), BLS, PALS, Epic, and Cerner.
 
 One honesty note on job codes: [O*NET profiles this work under Critical Care Nurses (29-1141.03)](https://www.onetonline.org/link/summary/29-1141.03), a specialty within the Registered Nurses occupation, and it lists 'Newborn ICU RN' among its job titles. That code covers every kind of ICU nurse, adult and pediatric included, which is exactly why your acuity level and hands-on specifics have to carry the message the occupation code can't. If you also work critical care elsewhere, our [ICU nurse resume guide](/guides/icu-nurse-resume/) covers drips, vents, and CRRT the same honest way.
 

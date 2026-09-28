@@ -90,7 +90,7 @@ When in doubt, ask your FSO whether a line is releasable.
 
 ## Format notes
 
-Reverse chronological, single column, no graphics, no photo. Two pages is normal once you have more than one substantive role, and cleared careers usually do. The one exception is federal: applications through USAJOBS cap at two pages as of the September 2025 OPM change, so a federal resume needs the clearance line on page one and nothing that pushes it past two.
+Reverse chronological, single column, no graphics, no photo. Two pages is common and widely accepted once you have more than one substantive role, and cleared careers usually do. The one exception is federal: applications through USAJOBS cap at two pages as of the September 2025 OPM change, so a federal resume needs the clearance line on page one and nothing that pushes it past two.
 
 Coming out of uniform? The clearance line pairs with the translation work in our [military-to-civilian resume guide](/guides/military-to-civilian-resume/). Leaving a federal role for industry? See the [government-to-private resume guide](/guides/government-to-private-resume/) — your clearance is often the strongest thing you carry across.
 
@@ -125,4 +125,4 @@ Same person, same clearance — no new facts added. The rewrite names the level 
 
 ## How we handle clearances
 
-When we build your resume, we work backwards from what your work actually involved, and we never invent a clearance level, a date, or a polygraph. A clearance is a held credential, so it goes on the page only in the words you confirm, and nothing we suggest lands on the page without your say-so. Write the line from your record, check it with your FSO, and give it to us exactly as it reads. Grab the **Clearance Line Cheat-Sheet** below for the format lines to copy.
+When we build your resume, we work backwards from what your work actually involved, and we never invent a clearance level, a date, or a polygraph. A clearance is a held credential, and nothing we suggest about it lands on the page without your say-so. Before you upload, write the clearance line from your record and check it with your FSO. Then read it on your finished resume and make sure it still matches your record word for word before you send it. Grab the **Clearance Line Cheat-Sheet** below for the format lines to copy.
