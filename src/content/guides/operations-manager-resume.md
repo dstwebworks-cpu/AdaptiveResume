@@ -62,7 +62,7 @@ Every setting has its own scorecard, but the same measures show up on nearly eve
 
 **OEE.** Overall equipment effectiveness, the plant measure that multiplies availability, performance, and quality into one percentage. If a line's OEE moved while you ran it, that is one of the strongest lines on a plant operations resume.
 
-**Safety.** TRIR (total recordable incident rate) is the OSHA (Occupational Safety and Health Administration) recordable-injury count normalized to 200,000 hours worked, roughly 100 full-time people for a year. Give your site's rate and the prior year's, and say if you also tracked DART (days away, restricted, or transferred) cases.
+**Safety.** TRIR (total recordable incident rate) is the OSHA (Occupational Safety and Health Administration) count of OSHA-recordable injuries and illnesses normalized to 200,000 hours worked, which is roughly 100 full-time people for a year. Give your site's rate and the prior year's, and say if you also tracked DART (days away, restricted, or transferred) cases.
 
 **Cost-out and inventory.** Dollars saved and the mechanism: a freight renegotiation, a labor model change, a Kaizen event that took a step out of the process. "Reduced costs" without a mechanism reads as filler. For inventory, give cycle-count accuracy as a percentage and shrink as a percentage of inventory value.
 

@@ -13,6 +13,7 @@ cta:
   label: "Request a per-candidate quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 100
 draft: false
 faq:
@@ -89,7 +90,7 @@ Every item in the second version was confirmed by the candidate. The certificati
 
 ## What we offer
 
-AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you under a signed data-processing agreement. Each suggested line is confirmed by the candidate or by your recruiter, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It is the same standard we hold on our consumer product: nothing goes on the page that a person did not confirm.
+AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you. Each suggested line is confirmed by the candidate or by your recruiter, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It is the same standard we hold on our consumer product: nothing goes on the page that a person did not confirm.
 
 Pilots are paid at standard rates and fully credited against your first contract. We do not offer free pilots.
 

@@ -13,6 +13,7 @@ cta:
   label: "Request a per-employee quote"
   href: "/business/#quote"
 pubDate: 2026-09-25
+updatedDate: 2026-09-28
 order: 110
 draft: false
 faq:
@@ -90,7 +91,7 @@ The role you are about to post for a quality coordinator asks for audit preparat
 
 ## What we offer
 
-AdaptiveResume for organizations builds the confirmed skills record per employee. You send the batch, and during a pilot we handle intake under a signed data-processing agreement. Each employee's record is rebuilt from their real work, every suggested line is confirmed by the employee or by your reviewer, and anything that looks like a credential is held for confirmation. You get a finished resume per person in DOCX and PDF, a per-person Review Audit report in PDF showing what was proposed and what was confirmed, and an organization report in CSV with each person's review status.
+AdaptiveResume for organizations builds the confirmed skills record per employee. You send the batch, and during a pilot we handle intake. Each employee's record is rebuilt from their real work, every suggested line is confirmed by the employee or by your reviewer, and anything that looks like a credential is held for confirmation. You get a finished resume per person in DOCX and PDF, a per-person Review Audit report in PDF showing what was proposed and what was confirmed, and an organization report in CSV with each person's review status.
 
 We do not sell a matching platform, we do not integrate with one yet, and we do not report placements. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 

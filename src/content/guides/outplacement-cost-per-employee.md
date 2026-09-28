@@ -13,11 +13,12 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 99
 draft: false
 faq:
   - q: "What does outplacement cost per employee?"
-    a: "One large provider's published rate card shows about $900 per person for its entry tier, which bundles a set number of coaching calls, a resume-builder tool, a resume critique, and job-search platform access, and about $1,900 to $2,600 per person for a package with a custom-written resume and coaching, with executive tiers well above that. Another large provider's published card starts at $2,400 per person and rises to $11,310 for executives. Most providers quote privately, so those published numbers are the only public anchor."
+    a: "One large provider's published rate card shows about $900 per person for its entry tier, which bundles a set number of coaching calls, a resume-builder tool, a resume critique, and job-search platform access, and about $1,900 to $2,600 per person for a package with a custom-written resume and coaching, with executive tiers well above that. Another large provider's published outplacement card starts at $2,400 per person for its program aimed at hourly employees and at $5,200 per person for its professional program. Most providers quote privately, so those published numbers are the only public anchor."
   - q: "Why do outplacement providers quote instead of publishing prices?"
     a: "Because packages are built from coaching hours, platform access, and reporting, and every employer negotiates a different mix. The practical effect is that buyers cannot comparison-shop, which is why it pays to price each component before you take a quote."
   - q: "Is a resume-only service a real alternative to outplacement?"
@@ -38,7 +39,7 @@ As of 2026, two large providers publish rate cards. One of them lists these tier
 - **Custom-written resume plus coaching:** about $1,900 to $2,600 per employee. A writer produces the resume and the employee gets unlimited coaching calls for the tier's term.
 - **Executive tiers:** from about $6,500 per employee upward.
 
-The other provider's published card has no critique tier. It starts at $2,400 per employee, with a middle tier at $5,200 and an executive tier at $11,310. Below those two published cards, smaller firms and newer AI-first services advertise per-employee prices from a few hundred dollars up, and those prices are marketing claims we have not verified.
+The other provider's published card has no critique tier. It starts at $2,400 per employee, with a professional program at $5,200. Below those two published cards, smaller firms and newer AI-first services advertise per-employee prices from a few hundred dollars up, and those prices are marketing claims we have not verified.
 
 We do not name providers in a comparison, and we do not claim their numbers are wrong. They are the price of the bundle they sell.
 
@@ -104,7 +105,7 @@ A provider who cannot answer the second and fourth questions plainly is selling 
 
 ## What we offer
 
-You send the batch of resumes. During a pilot we handle intake for you under a signed data-processing agreement. Each resume is rebuilt from the person's real history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed and confirmed. Pilots are paid at standard rates and fully credited against your first contract.
+You send the batch of resumes. During a pilot we handle intake for you. Each resume is rebuilt from the person's real history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed and confirmed. Pilots are paid at standard rates and fully credited against your first contract.
 
 ## Format notes
 

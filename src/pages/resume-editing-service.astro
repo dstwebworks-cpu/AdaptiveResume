@@ -18,9 +18,9 @@ const faq = [
   { q: 'Do you fix typos?',
     a: "Not the way a proofreader does. Nobody reads your old file and corrects it; there is no human editor and no spelling pass on the file you upload. What happens instead: we rebuild the resume from your history and the lines you confirm, and you see the finished resume before you download it. If a line comes out wrong, edit it or leave a note and we redo that line from your note. If you want a human to proofread the finished file afterward, that is a fine thing to do, and it is not something we sell." },
   { q: 'Do you add things?',
-    a: "Only what you confirm. We work backwards from what your jobs actually involved and propose the tools, standards, credentials, and scope that are not on the page yet, one at a time, as questions. You confirm the ones that are really yours, edit the wording, or skip. If you skip something, it never appears. Nothing goes on the page that you did not confirm, so there is nothing on it you cannot stand behind in an interview." },
+    a: "Only what you confirm. We work backwards from what your jobs actually involved and propose the tools, standards, credentials, and scope that are not on the page yet, one at a time, as questions. You confirm the ones that are really yours, edit the wording, or skip. If you skip something, it never appears. Nothing new goes on the page unless you confirm it, and everything else comes from the resume you uploaded, so there is nothing on it you cannot stand behind in an interview." },
   { q: 'How long does it take?',
-    a: "It goes in stages, and most of the elapsed time is yours. First you upload your resume, and your LinkedIn resume export if you have one. Then findings appear one at a time and you confirm, edit, or skip each. Then you see what screening software reads from the finished file, and you download it. There is no editor to wait on and no revision round to schedule. If a line comes out wrong, you edit it or leave a note and we redo that line from your note, right then." },
+    a: "It goes in stages, and most of the elapsed time is yours. First you upload your resume, and your LinkedIn resume export if you have one. Then findings appear one at a time and you confirm, edit, or skip each. Then you see a format check of the finished file before you download it, and you download it. There is no editor to wait on and no revision round to schedule. If a line comes out wrong, you edit it or leave a note and we redo that line from your note, right then." },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -51,7 +51,7 @@ const breadcrumbLd = {
         <h1>A <span class="hl">resume editing service</span> that rebuilds from your facts.</h1>
         <p class="tagline">Your resume reads fine. The problem is not the grammar. It is what never got written down.</p>
         <p class="lede">
-          Upload the resume you have. At AdaptiveResume, no editor reads it and moves commas around. Instead we work backwards from what each job actually involved and ask you, one finding at a time, about the systems, standards, credentials, and scope it leaves out. You confirm what is really yours, in your words, or skip it. What you get back is a rebuilt file that screening software reads in order, built only from lines you approved.
+          Upload the resume you have. At AdaptiveResume, no editor reads it and moves commas around. Instead we work backwards from what each job actually involved and ask you, one finding at a time, about the systems, standards, credentials, and scope it leaves out. You confirm what is really yours, in your words, or skip it. What you get back is a rebuilt file that screening software reads in order, built from your own resume and the findings you confirmed.
         </p>
         <div class="cta-row">
           {LAUNCHED
@@ -105,15 +105,15 @@ const breadcrumbLd = {
         <div class="card">
           <h3>3. What we do instead</h3>
           <p>We work backwards from what each job actually involved and propose what is missing, one
-          finding at a time, as a question to you. You confirm, edit, or skip each one. Nothing lands
+          finding at a time, as a question to you. You confirm, edit, or skip each one. Nothing new lands
           without your say-so. If a line reads wrong, edit it directly or leave a note and we redo that
           line from your note.</p>
         </div>
         <div class="card">
           <h3>4. What you get back</h3>
           <p>Not your file with tracked changes. A rebuilt resume: single-column, tabs instead of tables,
-          standard headings, no photo or graphics, plain letters and numbers with no symbols. Before you are done, you see what
-          hiring software actually reads from it. Our free guide on
+          standard headings, no photo or graphics, plain characters only (no icons, arrows, or fancy symbols that screening software can drop). Before you download, you see a format check of the finished file:
+          the section headings, role-by-role structure, dates on every role, contact details at the top, and no tables or graphics. Our free guide on
           <a href="/guides/resume-format-for-ats/">resume format for screening software</a> explains why
           those choices matter.</p>
         </div>
@@ -166,12 +166,12 @@ const breadcrumbLd = {
           <h3>Who touches my file?</h3>
           <p>Typical editing: a human editor reads your document and sends it back marked up, often with
           tracked changes and a round or two of back-and-forth.</p>
-          <p class="ours"><b>AdaptiveResume:</b> no human editor, no proofreader, no marked-up file. Software works backwards through your history and asks you questions. The only person who reads and approves each line is you.</p>
+          <p class="ours"><b>AdaptiveResume:</b> no human editor, no proofreader, no marked-up file. Software works backwards through your history and asks you questions. You confirm every new line, and you see the whole finished resume before you download it.</p>
         </div>
         <div class="card qcard">
           <h3>What do I get back?</h3>
           <p>Typical editing: your own file, corrected. Same layout, same length, same facts.</p>
-          <p class="ours"><b>AdaptiveResume:</b> a rebuilt file in a format screening software reads cleanly, and you see what that software extracts from it before you are done.</p>
+          <p class="ours"><b>AdaptiveResume:</b> a rebuilt file in a format screening software reads cleanly, and you see a format check of the finished file before you download it.</p>
         </div>
         <div class="card qcard">
           <h3>Is it a subscription or per round?</h3>
@@ -196,7 +196,7 @@ const breadcrumbLd = {
             <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm, edit, or skip every finding — nothing made up</li>
             <li>Edit any line, or leave a note and we redo it from your note</li>
-            <li>You see what screening software reads from the finished file</li>
+            <li>You see a format check of the finished file before you download it</li>
           </ul>
         </div>
         <div class="card price featured">
@@ -207,7 +207,7 @@ const breadcrumbLd = {
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
-            <li>You get 25 interview questions for that exact role, each traced to the posting and to your own resume lines.</li>
+            <li>You get 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
         </div>
       </div>

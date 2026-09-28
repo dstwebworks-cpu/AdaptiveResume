@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-25
+updatedDate: 2026-09-28
 order: 101
 draft: false
 faq:
@@ -91,7 +91,7 @@ Veteran-serving organizations buy services in a few shapes, and the per-person m
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-person resume service built for civilian screening. You send the batch of resumes, and during a pilot we handle intake for you under a signed data-processing agreement. Each veteran's resume is rebuilt from their real service record: the translation toward the civilian job, the scope in civilian numbers, the clearance as held, the credentials as earned. Every suggested line is confirmed by the veteran or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that civilian screening software reads cleanly, plus a per-person record of what was reviewed.
+AdaptiveResume for organizations is a per-person resume service built for civilian screening. You send the batch of resumes, and during a pilot we handle intake for you. Each veteran's resume is rebuilt from their real service record: the translation toward the civilian job, the scope in civilian numbers, the clearance as held, the credentials as earned. Every suggested line is confirmed by the veteran or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that civilian screening software reads cleanly, plus a per-person record of what was reviewed.
 
 We do not place veterans, and we do not report placements. We report resumes completed and lines confirmed, which is a number you can stand behind to a funder.
 

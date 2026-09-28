@@ -13,6 +13,7 @@ cta:
   label: "Request a per-participant quote"
   href: "/business/#quote"
 pubDate: 2026-09-25
+updatedDate: 2026-09-28
 order: 111
 draft: false
 faq:
@@ -96,7 +97,7 @@ It fits the rules boards work under. Federal cost principles at 2 CFR 200.403 to
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-participant resume service. You send the batch, and during a pilot we handle intake under a signed data-processing agreement. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed, for the file next to the assessment score.
+AdaptiveResume for organizations is a per-participant resume service. You send the batch, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed, for the file next to the assessment score.
 
 We do not administer readiness assessments, we do not place participants, and we do not report placements. We report resumes completed and lines confirmed. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 

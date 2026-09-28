@@ -13,6 +13,7 @@ cta:
   label: "Request a per-participant quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 102
 draft: false
 faq:
@@ -76,11 +77,11 @@ Per-participant purchasing into boards is also an established motion. At least o
 
 **Performance.** No WIOA performance indicator measures resume quality, and we will not claim one does. We do not claim an effect on the employment-rate indicators either. What a consistent resume service gives the board is staff hours returned to case management and a per-participant service record for the participant's file.
 
-**Data.** Participant records are protected, and any vendor should work under a signed data-processing agreement. During a pilot we handle intake for you under one.
+**Data.** Participant records are protected, and any vendor should work under a signed data-processing agreement. During a pilot we handle intake for you.
 
 ## What we offer
 
-AdaptiveResume for organizations is a per-participant resume service. You send the batch of resumes, and during a pilot we handle intake under a signed data-processing agreement. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed.
+AdaptiveResume for organizations is a per-participant resume service. You send the batch of resumes, and during a pilot we handle intake. Each participant's resume is rebuilt from their real work history, every suggested line is confirmed by the participant or by your staff, and anything that looks like a credential is held for your reviewer. You get finished resumes that screening software reads cleanly, plus a per-participant record of what was proposed and confirmed.
 
 We do not place participants and we do not report placements. We report resumes completed and lines confirmed. Pilots are paid at standard rates and fully credited against your first agreement; we do not offer free pilots.
 

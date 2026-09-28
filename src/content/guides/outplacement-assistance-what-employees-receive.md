@@ -13,6 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 109
 draft: false
 faq:
@@ -38,13 +39,13 @@ A standard outplacement package has five parts, and they are not equal.
 4. **Check-ins.** Someone who follows up and records whether the employee engaged.
 5. **A report to the employer.** Usage figures, and sometimes claims about outcomes.
 
-One large provider's published rate card lists packages with a custom-written resume and coaching at about $1,900 to $2,600 per person. Another large provider's published card starts at $2,400 per person and rises to $11,310 for executives. Most providers quote privately, so the employer often does not know what a comparable package costs elsewhere.
+One large provider's published rate card lists a resume-critique package at $899 per person, and packages with a custom-written resume and coaching from $1,899 to $6,499 per person. Another large provider's published outplacement card starts at $2,400 per person for its program aimed at hourly employees and at $5,200 per person for its professional program. Most providers quote privately, so the employer often does not know what a comparable package costs elsewhere.
 
 ## What employees actually use
 
-Employees use the resume first and most. It is the thing the employee sends out that week, and the only part of the package with a deadline attached. Coaching gets used by people who have not searched for a job in a long time and skipped by people who searched last year. The platform login is opened once by many people and never again. The check-ins are for the report.
+In most programs the resume is the piece employees reach for first, because it is the thing they send out that week. It is the thing the employee sends out that week, and the only part of the package with a deadline attached. Coaching tends to matter most to people who have not searched for a job in a long time. A platform login is easy to open once and forget. Check-ins mainly feed the provider's report to the employer.
 
-The most-cited public figure, a 2009 survey, found that only about 40 percent of employees offered outplacement used it, and that figure is dated enough that we treat it as a caution rather than a fact. Whatever the true number is, a program is only as good as the resume that comes out of it, because that is the part almost everyone touches.
+One figure that circulates, attributed to a 2009 Wall Street Journal report, is that only about 40 percent of employees offered outplacement used it; other retellings of that reporting put it the other way around, so we treat it as a caution rather than a fact, and that figure is dated enough that we treat it as a caution rather than a fact. Whatever the true number is, a program is only as good as the resume that comes out of it, because that is the part almost everyone touches.
 
 ## The resume piece, done right and done badly
 
@@ -95,9 +96,9 @@ If outplacement assistance is written into a severance agreement, the wording de
 
 ## Where a resume-only service fits
 
-Many employers now split the purchase: a full program for a few long-tenured or senior people, and a resume-only service for everyone else. That keeps the cost per person honest about what each person will use, and it means nobody leaves without the one thing they need that week.
+Some employers split the purchase: a full program for a few long-tenured or senior people, and a resume-only service for everyone else. That keeps the cost per person honest about what each person will use, and it means nobody leaves without the one thing they need that week.
 
-For the employer, AdaptiveResume for organizations is the resume piece only, priced per person. During a pilot we take the batch and handle intake under a signed data-processing agreement, each person answers questions about their own work and confirms every line (or your reviewer does), and anything that looks like a credential waits for sign-off. For the employee, the result is a resume that says what you actually did, reads cleanly to screening software, and comes with a record of what was proposed and what you confirmed. We do not sell coaching or a job-search platform, and we do not report placements. A pilot is paid at standard rates, and the whole pilot fee is credited against your first contract.
+For the employer, AdaptiveResume for organizations is the resume piece only, priced per person. During a pilot we take the batch and handle intake, each person answers the questions the reviewer sends about their own work, the reviewer approves, edits, or drops every suggested line based on those answers, and anything that looks like a credential waits for sign-off. For the employee, the result is a resume that says what you actually did, reads cleanly to screening software, and and your employer's reviewer holds a record of what was proposed and what you confirmed. We do not sell coaching or a job-search platform, and we do not report placements. A pilot is paid at standard rates, and the whole pilot fee is credited against your first contract.
 
 ## Format notes
 

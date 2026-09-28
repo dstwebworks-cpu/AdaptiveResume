@@ -13,6 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 98
 draft: false
 faq:
@@ -85,7 +86,7 @@ Ask these before you take a quote from anyone, including us.
 
 ## What we offer, stated plainly
 
-AdaptiveResume for organizations is the resume piece, priced per person. You send us the batch of resumes, and during a pilot we handle intake for you under a signed data-processing agreement. Each person's resume is rebuilt from their real work history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed.
+AdaptiveResume for organizations is the resume piece, priced per person. You send us the batch of resumes, and during a pilot we handle intake for you. Each person's resume is rebuilt from their real work history, every suggested line is confirmed by the person or by your reviewer, and anything that looks like a credential is held for sign-off. You get finished resumes that screening software reads cleanly, plus a per-person record of what was reviewed.
 
 We do not sell coaching, and we do not sell a job-search platform. If your people need those, buy them from a provider who does them well, and hold the resume piece of that program to the standard on this page.
 

@@ -1,8 +1,8 @@
 ---
 title: "Career Center Software for Resume Review: What a College Career Office Should Look For"
-description: "Career center software is usually priced per enrolled student and usually judged on logins. Here is what a resume-review tool should actually do for the students who use it, how per-student pricing distorts the buy, and where a per-served-student service fits."
+description: "Career center software is usually sold as a campus license sized to enrollment and judged on logins. Here is what a resume-review tool should actually do for the students who use it, how enrollment-based pricing hides the real cost per resume, and what to ask any vendor."
 seoTitle: "Career Center Software for Resume Review: What to Look For"
-seoDescription: "Career center software for resume review: what a college career office should look for, how per-student pricing distorts the buy, and a per-served alternative."
+seoDescription: "Career center software for resume review: what a college career office should look for, how enrollment-based pricing hides cost, and what to ask vendors."
 segment: "organizations"
 audience: "Directors and staff of college and community-college career centers evaluating career center software, career readiness platforms, or an alternative to their current resume-review tool"
 keyword: "career center software"
@@ -13,15 +13,16 @@ cta:
   label: "Request a quote for your career center"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 111
 draft: false
 faq:
   - q: "What does career center software do?"
     a: "It usually bundles several things: appointment scheduling, employer and job postings, event management, and a resume-review tool that scores a student's resume against a rubric or a job description. The resume-review tool is the part students touch most and the part this guide is about."
   - q: "How is career center software priced?"
-    a: "Most institutional tools are sold as an annual campus license sized to enrollment, and the license is paid whether or not a given student ever logs in. Vendors rarely publish the price. The public figures we could find are an individual subscription of about $20 per year for one platform, a $16-per-student course fee for another at one university, and two campus licenses disclosed in public student-technology-fee records: about $27,000 a year for a college of about 15,000 students, and about $116,000 for one year at a large multi-campus university. A per-served-student service is priced only for the students who actually go through it."
+    a: "Most institutional tools are sold as an annual campus license sized to enrollment, and the license is paid whether or not a given student ever logs in. Vendors rarely publish the price. The public figures we could find are an individual subscription of about $20 per year for one platform, a $16-per-student course fee for another at one university, and two campus licenses disclosed in public student-technology-fee records: about $27,000 a year for a college of about 15,000 students, and about $116,000 in one funding award at a large three-campus university. A license sized to expected use keeps the price closer to what the center actually gets."
   - q: "Can students use AdaptiveResume through our career center?"
-    a: "Yes, through a capped annual license for the career center, quoted for your enrollment and your expected use. Students bring their own resume, the system works backwards from their real jobs, internships, and campus roles to propose what they left off, and the student confirms every line. Nothing goes on the page the student did not confirm, which is the standard a career office has to stand behind."
+    a: "Yes, through a capped annual license for the career center, quoted for your enrollment and your expected use. Each student's resume is rebuilt from their real jobs, internships, and campus roles; the student answers questions about their own work, and a reviewer you name approves every suggested line from those answers. Nothing goes on the page without that approval, which is the standard a career office has to stand behind."
   - q: "How is this different from an automated resume scorer?"
     a: "A scorer grades what is already on the page against a rubric or a posting. It cannot find the lab technique, the campus job, or the certification the student never wrote down. Our approach starts from what the student actually did and proposes the missing lines as questions; the score is not the product, the confirmed resume is."
 ---
@@ -40,13 +41,13 @@ Hold any tool, including ours, to five requirements.
 
 **3. Credentials should be asked about, never assumed.** Certifications, licenses, and language proficiencies are checkable, and a resume that claims one the student does not hold is worse than one that leaves it off. A tool that adds a credential because it fits the major has created a problem for the student and for the office.
 
-**4. The finished file should read cleanly to screening software.** For a student, that means one column, the standard headings (Education, Experience, Skills), and no graphics or photos. Students love templates, and applicant tracking systems do not.
+**4. The finished file should read cleanly to screening software.** For a student, that means one column, the standard headings (Education, Experience, Skills), and no graphics or photos. Students often pick designed templates with columns and graphics, and applicant tracking systems can read those out of order or drop parts of them.
 
 **5. It should be readable by the student who most needs it.** First-generation students and students whose first language is not English are often the ones a scoring rubric serves least well, because the rubric assumes they know what a strong resume looks like. Plain questions ("Did you use SPSS or R in that lab?") serve them better than a score.
 
 ## How per-student pricing distorts the buy
 
-Most institutional tools are sold as an annual campus license sized to enrollment, paid whether or not a given student logs in, and the price is rarely published. Where public records show it, the amounts range from about $27,000 a year at a college of about 15,000 students to about $116,000 for one year at a large multi-campus university. The pricing is simple to budget, and it hides the number that matters: the price per student who actually used the tool. Take an illustration, not a real campus: a campus of 20,000 students paying a flat license, where 3,000 students log in and 800 finish a resume, is paying the whole license for 800 resumes, which is many times the per-enrolled-student figure the vendor quoted.
+Most institutional tools are sold as an annual campus license sized to enrollment, paid whether or not a given student logs in, and the price is rarely published. Where public records show it, the amounts range from about $27,000 a year at a college of about 15,000 students to about $116,000 in one funding award at a large three-campus university. The pricing is simple to budget, and it hides the number that matters: the price per student who actually used the tool. Take an illustration, not a real campus: a campus of 20,000 students paying a flat license, where 3,000 students log in and 800 finish a resume, is paying the whole license for 800 resumes, which is many times the per-enrolled-student figure the vendor quoted.
 
 Ask any vendor for two numbers: students who logged in and students who completed a resume, per year, at a campus like yours. Then divide the license fee by the second number. That is the price of the product.
 
@@ -60,11 +61,11 @@ This is a sample student, not a real person.
 
 In a real rebuild, every item in the second version would be true: the techniques, the sample count, the system, the poster, and the training would all be things the student did and never wrote down, because "assisted with research" was the phrase the student thought a resume required. No rubric would have found any of it.
 
-## Where a per-served-student service fits
+## Where a capped, use-based license fits
 
-A career center can keep its scheduling and employer-postings platform and buy the resume piece separately, priced for the students who actually go through it. That changes the math from per-enrolled to per-served, and it changes the product from a score to a confirmed resume.
+A career center can keep its scheduling and employer-postings platform and buy the resume piece separately, sized to the students it expects to go through it rather than to total enrollment. That brings the price closer to cost per completed resume, and it changes the product from a score to a confirmed resume.
 
-AdaptiveResume for organizations offers career centers a capped annual license, quoted for your enrollment and your expected use. A student brings their own resume, the system works backwards from their real jobs, internships, campus roles, and labs to propose the lines they left off, and the student confirms, edits, or skips each one. Anything that looks like a credential is held rather than written, and each resume comes with a per-student record of what was proposed and what was confirmed, which a coach can read before an appointment. The finished resume reads cleanly to screening software. We do not sell scheduling, employer postings, or event tools, and we do not report placements.
+AdaptiveResume for organizations offers career centers a capped annual license, quoted for your enrollment and your expected use. A student brings their own resume, the system works backwards from their real jobs, internships, campus roles, and labs to propose the lines they left off. The student answers questions about their own work, and a reviewer you name approves, edits, or drops every suggested line based on those answers. Anything that looks like a credential is held rather than written, and each resume comes with a per-student record of what was proposed and what was confirmed, which a coach can read before an appointment. The finished resume reads cleanly to screening software. We do not sell scheduling, employer postings, or event tools, and we do not report placements.
 
 A pilot is paid at standard rates, and the whole pilot fee is credited against the license if the center continues; we do not run free pilots.
 

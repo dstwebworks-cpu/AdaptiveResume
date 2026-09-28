@@ -13,11 +13,12 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
+updatedDate: 2026-09-28
 order: 110
 draft: false
 faq:
   - q: "What is virtual outplacement?"
-    a: "Outplacement delivered without an office: coaching by video or phone, a job-search platform, and a resume, all through a login. It became the default for distributed teams and for any employer whose departing employees do not live near a provider's office. Many providers now deliver most of the program online, whether or not the proposal calls it virtual."
+    a: "Outplacement delivered without an office: coaching by video or phone, a job-search platform, and a resume, all through a login. It is now common for distributed teams and for any employer whose departing employees do not live near a provider's office. Many providers now deliver most of the program online, whether or not the proposal calls it virtual."
   - q: "What does outplacement software actually do?"
     a: "It organizes the program: it holds the job listings, schedules the coaching, tracks who logged in, and produces the usage report. It does not write the resume. The resume is either written by a person, produced from a template the employee fills in, or, in newer services, drafted by software, and the difference between those three is the difference between a program that helps and one that does not."
   - q: "Does virtual outplacement cost less than in-person?"
@@ -32,7 +33,7 @@ The result is that a virtual program lives or dies on two things: whether the fi
 
 ## What a virtual program should include
 
-**A resume that is rebuilt, not templated.** In a virtual program the resume is often the only deliverable the employee holds in their hands, and it is the one they send out. It has to be built from what the person actually did, with every line confirmed by them, not their old resume dropped into a new layout. The section below says how to check.
+**A resume that is rebuilt, not templated.** In a virtual program the resume is often the only deliverable the employee holds in their hands, and it is the one they send out. It has to be built from what the person actually did, with every line confirmed by them or by a reviewer working from their answers, not their old resume dropped into a new layout. The section below says how to check.
 
 **Coaching that is scheduled, not offered.** A remote program that says "coaching available on request" delivers very little coaching. One that books the first session in the welcome email delivers some. Ask which one the proposal is.
 
@@ -83,7 +84,7 @@ Ask for the report format before you sign, and ask for three columns per person:
 
 A virtual program's weakest deliverable is usually its resume, because it is the one deliverable the platform cannot produce on its own. Many employers now buy the platform and coaching from a virtual provider and the resume piece separately, per person, from a service built for that one job. It costs less than the written-resume tier on a published rate card because it carries no coaching hours or platform, and it reaches every employee in the batch, not just the ones who engage with the platform, because the resume does not wait for a login.
 
-AdaptiveResume for organizations is that resume piece. During a pilot you send us the batch and we handle intake under a signed data-processing agreement, entirely online. Each person answers questions about their own work from wherever they are, confirms or edits every suggested line (or your reviewer does), and any line that looks like a credential waits for sign-off. The finished resumes read cleanly to screening software, and each one comes with a per-person record of what was proposed and confirmed. It is delivered remotely by design, so a distributed team is the normal case, not an exception. A pilot is paid at standard rates and the whole pilot fee is credited against your first contract; there are no free pilots.
+AdaptiveResume for organizations is that resume piece. During a pilot you send us the batch and we handle intake entirely online. Each person answers the reviewer's questions about their own work from wherever they are, the reviewer approves, edits, or drops every suggested line based on those answers, and any line that looks like a credential waits for sign-off. The finished resumes read cleanly to screening software, and each one comes with a per-person record of what was proposed and confirmed. It is delivered remotely by design, so a distributed team is the normal case, not an exception. A pilot is paid at standard rates and the whole pilot fee is credited against your first contract; there are no free pilots.
 
 ## Format notes
 
