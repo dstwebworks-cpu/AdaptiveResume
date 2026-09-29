@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 84
 draft: false
 faq:
@@ -117,7 +117,7 @@ The three classification levels and their definitions come from Executive Order 
 
 **After:** "Active Top Secret/SCI — DoD, investigation completed [year]; enrolled in Continuous Vetting."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-list-security-clearance-on-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/how-to-list-security-clearance-on-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
+updatedDate: 2026-09-29
 order: 60
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each employer, give the context in one line before the bullets — shift, 
 
 **After:** "Second-shift outbound supervisor for a [N]-person pick/pack crew; ~[N] orders/day at [N]% order accuracy and [N]% on-time-in-full; inventory accuracy held at [N]% through daily cycle counts in [SAP EWM / Manhattan]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/warehouse-supervisor-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/warehouse-supervisor-resume-example.png)
 
 The second version answers the four questions in one read. It also names the system: a posting that says "Manhattan experience preferred" is a filter, and a resume that says "WMS" without the brand doesn't pass it.
 

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 72
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — your cr
 
 **After:** "R.T.(R)(ARRT) in a [N]-bed Level [II] trauma center; [N] exams per shift across general radiography, portable/ED imaging, and C-arm fluoroscopy in the OR; images pushed to [PACS system] and documented in Epic."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/radiologic-technologist-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/radiologic-technologist-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

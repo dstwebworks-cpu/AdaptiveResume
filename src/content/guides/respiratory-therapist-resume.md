@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — your cr
 
 **After:** "RRT in a 24-bed medical/surgical ICU; managed [N] ventilated adults per shift, ran weaning protocols, drew and interpreted ABGs, and covered rapid responses and codes as the respiratory member."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/respiratory-therapist-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/respiratory-therapist-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -110,4 +110,4 @@ Filters commonly read for: respiratory therapist, RRT, CRT, RCP, mechanical vent
 
 The highest-risk lines are the ones that overstate scope — a credential you're testing toward but haven't earned, ICU acuity you covered as a float but didn't own, or a specialty exam you haven't sat. Clinical employers verify credentials directly with the NBRC and your state board, so anything you claim there has to be exactly true.
 
-The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, credentials, and the modalities you run, propose the standards and equipment that work like yours normally involves, and ask you to confirm every line before it appears. We never add a credential, a unit, or a certification you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real units, credentials, and the modalities you run, propose the standards and equipment that work like yours normally involves, and ask you to confirm every new line before it appears. We never add a credential, a unit, or a certification you didn't tell us about.

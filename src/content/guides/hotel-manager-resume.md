@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 42
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each employer, give the context in one line before the bullets — propert
 
 **After:** "General Manager, 140-room select-service Hilton-flag property; owned front office, housekeeping, and breakfast F&B, ~$7M annual revenue P&L; grew RevPAR [12%] and held occupancy at [78%] while lifting the brand guest-satisfaction score to the top [quartile] of the region."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/hotel-manager-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/hotel-manager-resume-example.png)
 
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: the size of the property, what "operations" actually covered, and whether the business improved on your watch. Room count and service level tell a reader instantly whether your experience transfers to the property they're filling.
 
@@ -95,4 +96,4 @@ Filters commonly read for: hotel operations, general manager, property managemen
 
 The highest-risk lines are the ones that overstate scope — a room count or revenue figure larger than you actually ran, a brand certification the property held claimed as your own, or a metric you can't defend when an interviewer asks how you got it. Hospitality is a small industry and references get checked informally as often as formally.
 
-The **Role Skills Checklist** below helps you inventory what your properties actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real properties, brands, and numbers, propose the metrics and systems that work like yours normally involve, and ask you to confirm every line before it appears. We never add a brand, a system, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your properties actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real properties, brands, and numbers, propose the metrics and systems that work like yours normally involve, and ask you to confirm every new line before it appears. We never add a brand, a system, or a number you didn't tell us about.

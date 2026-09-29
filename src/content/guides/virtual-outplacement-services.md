@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 110
 draft: false
 faq:
@@ -33,7 +33,7 @@ The result is that a virtual program lives or dies on two things: whether the fi
 
 ## What a virtual program should include
 
-**A resume that is rebuilt, not templated.** In a virtual program the resume is often the only deliverable the employee holds in their hands, and it is the one they send out. It has to be built from what the person actually did, with every line confirmed by them or by a reviewer working from their answers, not their old resume dropped into a new layout. The section below says how to check.
+**A resume that is rebuilt, not templated.** In a virtual program the resume is often the only deliverable the employee holds in their hands, and it is the one they send out. It has to be built from what the person actually did, with every new line confirmed by them or by a reviewer working from their answers, not their old resume dropped into a new layout. The section below says how to check.
 
 **Coaching that is scheduled, not offered.** A remote program that says "coaching available on request" delivers very little coaching. One that books the first session in the welcome email delivers some. Ask which one the proposal is.
 

@@ -66,4 +66,4 @@ Reviewer signature: ______________________ Date: __________
 
 ---
 
-*AdaptiveResume builds this record per employee from their real work, with every line confirmed by the employee, and returns a finished resume in DOCX and PDF plus a batch report in CSV. We never add a credential nobody confirmed, and we never promise anyone a role. Request a per-employee quote at adaptiveresume.com/business.*
+*AdaptiveResume builds this record per employee from their real work, with every new line confirmed by the employee, and returns a finished resume in DOCX and PDF plus a batch report in CSV. We never add a credential nobody confirmed, and we never promise anyone a role. Request a per-employee quote at adaptiveresume.com/business.*

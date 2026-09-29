@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 70
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — shift, 
 
 **After:** "Ran a stand-up reach truck and order picker on second shift, trained and evaluated under OSHA 1910.178; picked ~[N] lines/hour at [N]% scanner accuracy in [SAP EWM / Manhattan]; [N] months incident-free."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/forklift-operator-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/forklift-operator-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

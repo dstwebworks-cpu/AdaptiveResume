@@ -1,8 +1,8 @@
 ---
 title: "Resume Rewriting for Staffing Agencies: Formatting Is Not the Problem"
-description: "A reformatted weak resume is still weak, and a resume a recruiter quietly improved is a liability with your agency's name on it. Here is the middle path: rebuild each candidate's resume from their real history, with the recruiter confirming every line."
+description: "A reformatted weak resume is still weak, and a resume a recruiter quietly improved is a liability with your agency's name on it. Here is the middle path: rebuild each candidate's resume from their real history, with the recruiter confirming every new line."
 seoTitle: "Resume Rewriting for Staffing Agencies, Done Honestly"
-seoDescription: "Resume formatting services restyle what is already there. A staffing agency needs the content rebuilt from real history, with a recruiter confirming every line."
+seoDescription: "Formatting services restyle what is already there. A staffing agency needs the content rebuilt from real history, with a recruiter confirming every new line."
 segment: "organizations"
 audience: "Staffing and recruiting agency owners, branch managers, and recruiting operations leads"
 keyword: "resume formatting service"
@@ -13,7 +13,7 @@ cta:
   label: "Request a per-candidate quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 100
 draft: false
 faq:
@@ -31,7 +31,7 @@ Every staffing agency has a formatting problem, and the market has solved it. Ma
 
 The problem those tools cannot touch is the one that costs agencies clients: the content. A candidate who wrote "responsible for maintenance" and left off the three certifications, the two systems, and the crew they led will be reformatted into a beautifully branded resume that still says "responsible for maintenance." And the recruiter who fixes that by hand, under deadline, is one inflated title away from a very bad phone call.
 
-This guide is about the middle path: rebuilding the content from the candidate's real history, with your recruiter confirming every line, on a batch you send us, with the same standard for every resume in it.
+This guide is about the middle path: rebuilding the content from the candidate's real history, with your recruiter confirming every new line, on a batch you send us, with the same standard for every resume in it.
 
 ## Why a reformatted weak resume is still weak
 
@@ -58,7 +58,7 @@ The honest way to improve a candidate's resume at volume has three parts, and th
 
 **1. Work backwards from what the role actually involved.** Instead of polishing the candidate's sentences, start from the job. A maintenance technician at a food-packaging plant almost certainly worked under lockout/tagout rules, used a maintenance management system, and trained someone. Those become suggestions, phrased as questions.
 
-**2. Confirm every line.** Each suggestion is checked with the candidate as a question, or worked by your recruiter from the intake record, and your recruiter gives it a yes, an edit, or a skip. Nothing lands on the resume without that yes. This is the step a formatting tool does not have and a hand edit skips.
+**2. Confirm every new line.** Each suggestion is checked with the candidate as a question, or worked by your recruiter from the intake record, and your recruiter gives it a yes, an edit, or a skip. Nothing lands on the resume without that yes. This is the step a formatting tool does not have and a hand edit skips.
 
 **3. Hold every credential for review.** A license or certification is never written from a job title. It is asked about, and anything uncertain waits in your reviewer's queue. Your recruiter signs off on what goes out under your name.
 

@@ -13,7 +13,7 @@ cta:
   label: "Request a per-employee quote"
   href: "/business/#quote"
 pubDate: 2026-09-25
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 110
 draft: false
 faq:
@@ -69,7 +69,7 @@ The fix is a skills excavation done per person, before the platform runs, or ins
 
 1. **Start from what exists.** The current resume, the HR profile, the job description, and, if the employee chooses, a LinkedIn export. For long-tenured employees the current resume is often years old; that is fine, it is a starting point.
 2. **Work backwards through the real work.** The equipment, the systems, the standards, the people trained, the coverage assignments, the projects nobody wrote down. Every likely skill becomes a question.
-3. **Every line is checked with the employee.** Nothing goes on the record that was not confirmed by the employee's own answer and approved by a reviewer. This is what makes the record honest at volume, and what makes it the employee's own rather than HR's assumption.
+3. **Every new line is checked with the employee.** Nothing goes on the record that was not confirmed by the employee's own answer and approved by a reviewer. This is what makes the record honest at volume, and what makes it the employee's own rather than HR's assumption.
 4. **Credentials are asked about, never assumed.** A certification the person no longer holds is worse on a record than one that was never listed.
 5. **The output is a finished record.** A finished resume in DOCX and PDF per employee, built only from confirmed lines, a per-employee Review Audit report in PDF showing what was proposed and what was confirmed, and an organization report in CSV with each person's review status. Your team reads the confirmed lines from the resume into a platform profile or a matching spreadsheet; nothing loads automatically.
 

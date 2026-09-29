@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 26
 faq:
   - q: "Does volunteer firefighting count as real experience on a resume?"
@@ -71,7 +71,7 @@ If you're testing for driver/operator, engineer, or lieutenant, the resume the p
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved firefighter resume line - every line confirmed by the person](/img/guides/examples/firefighter-resume-example.png)
+![Before and after example of an improved firefighter resume line - every new line confirmed by the person](/img/guides/examples/firefighter-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

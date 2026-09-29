@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 103
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each job, give one line another tech or a charge nurse would recognize ins
 
 **After:** "PCT, CPCT/A (NHA, active), BLS (American Heart Association); [8]-patient assignment on a [36]-bed telemetry unit, [night] shift; vitals, [12]-lead EKGs (electrocardiograms), blood draws ([4]-[6] per shift), point-of-care glucose, Foley care, 1:1 safety sitting; charted in [Epic]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/patient-care-technician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/patient-care-technician-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

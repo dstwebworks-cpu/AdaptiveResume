@@ -9,7 +9,7 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'How is a career change resume different from a regular one?',
-    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. The Targeted resume maps what you've actually done to the words the new role uses, and you confirm every line." },
+    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. The Targeted resume maps what you've actually done to the words the new role uses, and you confirm every new line." },
   { q: "What if I'm coming from the military or a federal job?",
     a: "That's the same translation problem at maximum strength — MOS codes, grade levels, and agency language mean nothing outside. We work backwards from what the role actually involved and put it in terms the civilian or private-sector reader recognizes. Nothing gets inflated on the way." },
   { q: 'Why $149 instead of the $49 resume?',
@@ -31,7 +31,7 @@ const breadcrumbLd = {
 ---
 <Base
   title="Career Change Resume Service, Built From Real Experience"
-  description="Changing careers, leaving the military, or going federal-to-private? We translate what you've really done into the new field's language — you confirm every line. $149, one-time."
+  description="Changing careers, leaving the military, or going federal-to-private? We translate what you've really done into the new field's language — you confirm every new line. $149, one-time."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -43,7 +43,7 @@ const breadcrumbLd = {
       <p class="lede">
         Changing fields is hard enough without your resume working against you. We dig into what your
         work actually involved, translate it into the words the new field uses, and ask you to confirm
-        every line — so the resume that crosses over is complete, honest, and recognizably you.
+        every new line — so the resume that crosses over is complete, honest, and recognizably you.
       </p>
       <div class="cta-row">
         <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
@@ -51,7 +51,7 @@ const breadcrumbLd = {
       </div>
       <ul class="pills">
         <li class="pill">We make nothing up.</li>
-        <li class="pill">You approve every line.</li>
+        <li class="pill">You approve every new line.</li>
         <li class="pill">You pay once.</li>
       </ul>
     </div>
@@ -91,7 +91,7 @@ const breadcrumbLd = {
           <p class="muted">"92Y Unit Supply Specialist, maintained CSDP compliance, managed SSA transactions."</p>
         </div>
         <div class="card">
-          <h3>After — every line confirmed by the service member</h3>
+          <h3>After — every new line confirmed by the service member</h3>
           <p>"Inventory control for a 200-person organization: cycle counts, audits, and accountability
           for $4.2M in equipment · supervised and trained a supply team of 4 · zero losses across 3 inspections."</p>
         </div>

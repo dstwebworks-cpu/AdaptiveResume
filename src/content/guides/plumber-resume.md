@@ -39,7 +39,7 @@ Under each role, give one line another plumber would recognize instantly.
 
 **After:** "Journeyman plumber, [state] license #[N]; roughed in DWV (drain-waste-vent) and PEX water supply for [N] units on a [4]-story multifamily build to the [IPC/UPC], set [N] fixtures and [N] water heaters, and passed [N] rough-in and final inspections with no re-inspections."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/plumber-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/plumber-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

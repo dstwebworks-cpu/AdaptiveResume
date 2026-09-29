@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 24
 faq:
   - q: "I only rotate into charge — can I still put it on my resume?"
@@ -72,7 +72,7 @@ The same record supports the next step up; what changes is which lines lead. For
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved charge nurse resume line - every line confirmed by the person](/img/guides/examples/charge-nurse-resume-example.png)
+![Before and after example of an improved charge nurse resume line - every new line confirmed by the person](/img/guides/examples/charge-nurse-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

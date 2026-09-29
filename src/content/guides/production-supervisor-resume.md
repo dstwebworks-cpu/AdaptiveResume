@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-20
+updatedDate: 2026-09-29
 order: 107
 draft: true
 faq:
@@ -36,7 +37,7 @@ The supervisors who get called first write the crew size, the output, and the st
 
 **After:** "Second-shift production supervisor for a 22-person crew on three packaging lines: 180,000 units a shift, scrap reduced from 4.1% to 2.3% in one year, overall equipment effectiveness raised from 61% to 74%, zero recordable injuries in [N] months. Line runs under SQF and OSHA 29 CFR 1910.147 lockout/tagout."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/production-supervisor-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/production-supervisor-resume-example.png)
 
 The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Everything in it came from one supervisor's shift reports and the plant's quality system.
 

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-20
+updatedDate: 2026-09-29
 order: 104
 draft: true
 faq:
@@ -36,7 +37,7 @@ Most bus driver resumes get this order backward. They open with "responsible for
 
 **After:** "CDL Class B, Georgia, expires [month/year]. Endorsements: P (passenger), S (school bus). Air brake restriction: none. DOT medical certificate current through [month/year]. Georgia school bus driver certification [year]; CPR and first aid current through [month/year]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/bus-driver-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/bus-driver-resume-example.png)
 
 The second version answers the screening questions in one block and uses the words the posting uses. Write only what the license shows. The S endorsement requires its own knowledge and skills tests, and since February 2022, a first-time P or S endorsement also requires Entry-Level Driver Training through a registered provider. If you completed it, list the provider and the date. If you were endorsed before then, it does not apply, and you should not claim it.
 

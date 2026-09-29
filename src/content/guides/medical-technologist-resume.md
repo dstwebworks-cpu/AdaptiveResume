@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — your ro
 
 **After:** "Generalist bench, 400-bed hospital lab, night shift; chemistry, hematology, coag, urinalysis, and blood bank; ~250 specimens/shift on Roche cobas and Sysmex XN, all documented in Sunquest LIS."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/medical-technologist-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/medical-technologist-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -100,4 +100,4 @@ Filters commonly read for: MLS(ASCP), MT(ASCP), MLS(AMT), MT(AMT), medical labor
 
 The highest-risk lines are the ones that overstate the credential — writing technologist when you hold an MLT, implying certification you don't yet hold, or claiming a bench you only observed. Labs verify certifications directly with the body that issued them, and they check licensure with the state. State what's true and let the bench work do the arguing.
 
-The **Role Skills Checklist** below helps you inventory what your bench experience actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real departments, instruments, and systems, propose the credentials and skills that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a license, or an instrument you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your bench experience actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real departments, instruments, and systems, propose the credentials and skills that work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certification, a license, or an instrument you didn't tell us about.

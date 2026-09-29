@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 97
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each role, give one line another LPN or a director of nursing would recogn
 
 **After:** "LPN, [state] license (active), [Nurse Licensure Compact multistate]; [28]-resident hall on a [120]-bed skilled nursing facility, [night] shift; med pass, treatments and wound care, data collection and reporting to the RN; [state] IV therapy certified; charted in [PointClickCare]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/lpn-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/lpn-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

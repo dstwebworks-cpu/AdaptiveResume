@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 20
 draft: false
 faq:
@@ -73,8 +73,8 @@ Filters read for: full-cycle recruiting, onboarding, benefits administration, em
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/human-resources-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/human-resources-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The **Role Skills Checklist** below helps you inventory the compliance areas, systems, and caseloads your history proves. Our build does it with you — proposes what your work implies, asks you to confirm every line, and keeps the resume at the standard your own profession screens against.
+The **Role Skills Checklist** below helps you inventory the compliance areas, systems, and caseloads your history proves. Our build does it with you — proposes what your work implies, asks you to confirm every new line, and keeps the resume at the standard your own profession screens against.

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 101
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each job, give one line another officer or an account manager would recogn
 
 **After:** "Security Officer, [Georgia] Board weapon permit (armed, active); [120,000]-sq-ft distribution center, [night] shift, solo post; access control for [200] employees and [40] trucks a night, [hourly] foot and vehicle patrols, [Genetec] camera wall; DARs (daily activity reports) and incident reports in [TrackTik]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/security-guard-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/security-guard-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

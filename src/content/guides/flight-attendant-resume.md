@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 88
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each flying role, give one line another crew member would recognize instan
 
 **After:** "Flight attendant, [Airline], [DFW] base; qualified on [Boeing 737] and [Airbus A321]; domestic and [Latin America] flying, [4] years; lead flight attendant on [40]% of trips; FAA Certificate of Demonstrated Proficiency, Group [II]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/flight-attendant-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/flight-attendant-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

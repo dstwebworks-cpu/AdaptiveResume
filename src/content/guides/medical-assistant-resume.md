@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 94
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each role, give one line a practice manager would recognize instantly.
 
 **After:** "CMA (AAMA), [family medicine] clinic, [3] providers, [30]-[40] patients per day; rooming and vitals, injections, EKGs, and specimen collection under provider delegation; scheduling, referrals, and prior authorizations in [Epic]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/medical-assistant-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/medical-assistant-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-09
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 91
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each SOC role, before the bullets, give one line another analyst would rec
 
 **After:** "Tier 2 SOC analyst on a 24x7 MDR desk covering [N] client environments; owned ~[N] escalated cases per week end to end in Splunk Enterprise Security and CrowdStrike Falcon, contained [N] confirmed host compromises, and authored [N] detections mapped to MITRE ATT&CK."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/soc-analyst-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/soc-analyst-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

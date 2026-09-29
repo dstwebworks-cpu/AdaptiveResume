@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 85
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each district or staffing firm, give one line a principal would recognize 
 
 **After:** "Substitute teacher, [District] Public Schools, grades K–[8]; [90]+ day-to-day assignments a year across [11] schools, plus a [9]-week long-term assignment in [7th-grade math] carrying the grading and parent contact; scheduled through [Frontline]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/substitute-teacher-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/substitute-teacher-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

@@ -2,7 +2,7 @@
 ### A free worksheet from AdaptiveResume
 
 > The goal is to TRANSLATE your real experience into civilian language — never to inflate it.
-> Only write down what is genuinely true. You confirm every line.
+> Only write down what is genuinely true. You confirm every new line.
 
 ---
 

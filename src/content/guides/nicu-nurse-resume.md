@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 40
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each NICU role, give one line a fellow neonatal nurse would recognize inst
 
 **After:** "NICU RN, Level III, [40]-bed unit; ventilated and CPAP neonates, umbilical arterial and venous lines, gavage feeds, developmental and family-centered care; [Epic] charting."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/nicu-nurse-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/nicu-nurse-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

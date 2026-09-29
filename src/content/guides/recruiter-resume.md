@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 74
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the desk in one line — setting, functions supported,
 
 **After:** "Carried [18-25] open reqs across engineering and product; filled [14] roles last quarter at a [38]-day average time-to-fill and a [92%] offer-accept rate."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/recruiter-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/recruiter-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

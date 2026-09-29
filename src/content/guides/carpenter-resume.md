@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 83
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each job, give one line another carpenter would recognize instantly.
 
 **After:** "Lead carpenter on a [4]-person crew; rough framing and layout on [12] single-family homes per year ([2,400]–[3,200] sq ft each), plus interior trim, door hanging, and punch-list closeout; read architectural plans and set layout from them."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/carpenter-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/carpenter-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

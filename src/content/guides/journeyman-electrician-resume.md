@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 68
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the picture in one line before the bullets — the set
 
 **After:** "Journeyman electrician ([state] license); commercial build-outs and service upgrades; bent and ran EMT and rigid conduit, installed [N] panels and [N]-amp services, led [N] apprentices; work to the NEC edition adopted in [jurisdiction]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/journeyman-electrician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/journeyman-electrician-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -107,4 +107,4 @@ This part applies to every electrician resume, journeyman or not. Filters common
 
 The highest-risk lines are the ones that overstate what you're licensed or qualified to do — an endorsement you don't hold, energized work you weren't qualified for, or "industrial controls" depth that's really a few service calls. License claims are checkable against a state board in minutes, and the trade is small enough that scope claims get checked informally too. Accurate detail is stronger than inflation, because it holds up.
 
-The **Role Skills Checklist** below helps you inventory what your field work actually proves — which is often more, and more specific, than the resume currently says. Our build does it with you: we work backwards from the settings you've worked, the systems you've run, and the license you actually hold, propose the code, safety, and scope language work like yours normally involves, and ask you to confirm every line before it appears. We never add a license, a certification, or a scope you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your field work actually proves — which is often more, and more specific, than the resume currently says. Our build does it with you: we work backwards from the settings you've worked, the systems you've run, and the license you actually hold, propose the code, safety, and scope language work like yours normally involves, and ask you to confirm every new line before it appears. We never add a license, a certification, or a scope you didn't tell us about.

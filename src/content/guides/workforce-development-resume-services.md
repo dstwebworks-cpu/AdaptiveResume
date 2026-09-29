@@ -13,7 +13,7 @@ cta:
   label: "Request a per-participant quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 102
 draft: false
 faq:
@@ -47,7 +47,7 @@ If a board buys resume assistance from an outside vendor per participant, hold t
 
 **1. It works from what the participant actually did.** A dislocated worker who ran a production line for 18 years and wrote one line about it has a resume problem that no template fixes. The service has to work backwards through the real work, the equipment, the standards, the people trained, and put words to it.
 
-**2. Every line is checked with the participant.** Each suggested line is a question the participant answers, and nothing goes on the resume until a reviewer approves it from that answer. This is what keeps a program honest at volume and what makes the resume the participant's own.
+**2. Every new line is checked with the participant.** Each suggested line is a question the participant answers, and nothing goes on the resume until a reviewer approves it from that answer. This is what keeps a program honest at volume and what makes the resume the participant's own.
 
 **3. Credentials are asked about, never assumed.** A forklift certification, a CDL, a state license. These are checkable, and a resume that claims one the participant does not hold is worse than one that leaves it off.
 

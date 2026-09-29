@@ -65,4 +65,4 @@ Case manager signature: ____________________ Date: __________
 
 ---
 
-*AdaptiveResume builds this record per participant from their real work, with every line confirmed by the participant, and returns a finished resume in DOCX and PDF that screening software reads cleanly, plus a per-participant record for the file. We never add a credential nobody confirmed, and we never promise anyone a job. Request a per-participant quote at adaptiveresume.com/business.*
+*AdaptiveResume builds this record per participant from their real work, with every new line confirmed by the participant, and returns a finished resume in DOCX and PDF that screening software reads cleanly, plus a per-participant record for the file. We never add a credential nobody confirmed, and we never promise anyone a job. Request a per-participant quote at adaptiveresume.com/business.*

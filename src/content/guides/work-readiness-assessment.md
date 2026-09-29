@@ -13,7 +13,7 @@ cta:
   label: "Request a per-participant quote"
   href: "/business/#quote"
 pubDate: 2026-09-25
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 111
 draft: false
 faq:
@@ -89,7 +89,7 @@ Building that record is exactly the work a per-participant resume service does, 
 
 1. **Start from what exists**: the intake form, any old resume, and the assessment results.
 2. **Work backwards through the real work**, asking about equipment, standards, people trained, and coverage, so routine work becomes visible again.
-3. **Every line is checked with the participant.** Nothing goes on the record that was not confirmed by the participant's own answer and approved by a reviewer. This is what keeps a program honest and what makes the resume the participant's own.
+3. **Every new line is checked with the participant.** Nothing goes on the record that was not confirmed by the participant's own answer and approved by a reviewer. This is what keeps a program honest and what makes the resume the participant's own.
 4. **Credentials are held for confirmation**, by the participant or by your staff.
 5. **The output** is a finished resume in DOCX and PDF plus a per-participant record of what was proposed and confirmed, for the file.
 

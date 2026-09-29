@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 43
 draft: false
 faq:
@@ -39,7 +39,7 @@ Put your certificate status in the first lines, stated exactly, then give the co
 
 **After:** "A&P certificated (Airframe & Powerplant, 14 CFR Part 65); IA held. Part 145 repair station line and heavy maintenance on [Boeing 737NG] and [CRJ700]; performed and signed return-to-service entries, AD compliance research, and [C-check] tasks."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/aircraft-mechanic-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/aircraft-mechanic-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -105,4 +105,4 @@ Filters commonly read for: A&P, airframe, powerplant, Inspection Authorization, 
 
 The highest-risk lines are the ones that overstate the certificate — claiming an A&P you don't hold, an IA that's lapsed, or return-to-service authority for work you performed but didn't sign. Aviation is a documented, audited field and employers verify certificates against FAA records. Accuracy isn't just honest here; it's the thing that keeps you hireable.
 
-The **Role Skills Checklist** below helps you inventory what your maintenance history actually proves — which, for most mechanics, is more than the resume currently says. Our build does it with you: we work backwards from your real certificates, aircraft, and shop experience, propose the systems and standards that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certificate, a rating, or an aircraft type you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your maintenance history actually proves — which, for most mechanics, is more than the resume currently says. Our build does it with you: we work backwards from your real certificates, aircraft, and shop experience, propose the systems and standards that work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certificate, a rating, or an aircraft type you didn't tell us about.

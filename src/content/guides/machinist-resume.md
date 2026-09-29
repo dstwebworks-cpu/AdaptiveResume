@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 41
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each shop, give the context in one line before the bullets — the machine
 
 **After:** "3- and 4-axis CNC mills, Haas and Mazak controls; held ±0.0005\" on production aerospace parts in 6061 aluminum and 17-4 stainless; ran setup and first article, verified with micrometers, calipers, and CMM."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/machinist-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/machinist-resume-example.png)
 
 The second version is readable in a few seconds and answers what the first version leaves a shop guessing at. It names the control (Haas, Mazak), the real tolerance (±0.0005"), the material (6061, 17-4), the scope (setup and first article, not just cycle start), and how the work was checked. Every one of those is a hard filter in a good shop's hiring, and every one is something you either did or didn't — so it stays honest.
 
@@ -99,4 +100,4 @@ Filters commonly read for: CNC, manual machining, mill, lathe, 3-axis, 4-axis, 5
 
 The highest-risk lines are the ones that overstate scope — setup you didn't do, a tolerance you didn't hold, or a control you've only watched someone run. Machinists interview by making parts, so overstatement gets found in the first hour. Accurate detail is both safer and stronger.
 
-The **Role Skills Checklist** below helps you inventory what your bench work actually proves, which is often far more than the resume currently says. Our build does it with you: we work backwards from the machines you ran, the tolerances you held, and the parts you made, propose the controls, standards, and inspection language work like yours normally involves, and ask you to confirm every line before it appears. We never add a control, a credential, or a tolerance you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your bench work actually proves, which is often far more than the resume currently says. Our build does it with you: we work backwards from the machines you ran, the tolerances you held, and the parts you made, propose the controls, standards, and inspection language work like yours normally involves, and ask you to confirm every new line before it appears. We never add a control, a credential, or a tolerance you didn't tell us about.

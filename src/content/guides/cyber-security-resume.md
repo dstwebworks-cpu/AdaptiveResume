@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 71
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each role, give one line of context before the bullets: the team, the envi
 
 **After:** "Tier 1 analyst on a 24/7 SOC (security operations center) team of [N]; triaged ~[N] alerts per shift in Microsoft Sentinel, documented findings against MITRE ATT&CK techniques, and escalated confirmed incidents to tier 2 with host, user, and timeline attached."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/cyber-security-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/cyber-security-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

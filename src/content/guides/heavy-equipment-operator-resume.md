@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 81
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each role, give one line a fellow operator would recognize instantly.
 
 **After:** "Excavator and dozer operator on [civil site-work] crews; ran [Caterpillar 336]-class excavators and [D6]-class dozers with [Trimble Earthworks] grade control; [N] cubic yards moved and [N] linear feet of storm pipe set per [month]; CDL Class A; incident-free since [year]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/heavy-equipment-operator-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/heavy-equipment-operator-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

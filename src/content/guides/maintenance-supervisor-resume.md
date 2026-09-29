@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
+updatedDate: 2026-09-29
 order: 61
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each employer, give the scope in one line before the bullets — the setti
 
 **After:** "Led [N] technicians across [N] shifts in a [food-processing plant / hospital / distribution center]; PM completion held at [N]% in [Maximo / Fiix / UpKeep]; unplanned downtime on [line / system] cut [N]% over [period]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/maintenance-supervisor-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/maintenance-supervisor-resume-example.png)
 
 The second version tells the reader the setting, the size of the job, the software, and one result — all in a line a hiring manager can check. Fill in only what's true. A small true downtime number still reads better than a vague claim, because it shows you tracked it.
 

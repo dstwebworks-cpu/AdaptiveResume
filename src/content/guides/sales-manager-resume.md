@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 38
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each role, give the scope in one line before the bullets — team size, qu
 
 **After:** "Managed 7 quota-carrying AEs (SaaS, mid-market); team quota $6.4M, attainment 112% FY24 and 104% FY23; ramped 3 new hires to full productivity in ~4 months."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/sales-manager-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/sales-manager-resume-example.png)
 
 The second version is scannable in five seconds and answers what the first version leaves a reader guessing at: how many people, against what target, how they did, and how well you onboard. Notice it does not claim the biggest possible number — it states two years so a reader can see consistency, which is more convincing than a single record year.
 
@@ -95,4 +96,4 @@ Filters commonly read for: quota attainment, revenue growth, sales quota, pipeli
 
 The highest-risk lines are the ones that overstate scope — a team you did not manage, a quota you did not carry, or an attainment number the base doesn't support. Sales leaders check, and attainment is one of the few resume claims a reference call confirms almost every time.
 
-The **Role Skills Checklist** below helps you inventory what your track record actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real quotas, teams, and systems, propose the metrics and tools that a role like yours normally involves, and ask you to confirm every line before it appears. We never add a number, a team, or a quota you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your track record actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real quotas, teams, and systems, propose the metrics and tools that a role like yours normally involves, and ask you to confirm every new line before it appears. We never add a number, a team, or a quota you didn't tell us about.

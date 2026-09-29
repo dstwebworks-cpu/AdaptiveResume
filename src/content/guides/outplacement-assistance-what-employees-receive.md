@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 109
 draft: false
 faq:
@@ -68,7 +68,7 @@ In a real rebuild, nothing in the second version would be invented: the entities
 If you are buying outplacement assistance, ask for the resume piece by name and hold it to four requirements:
 
 - **It rebuilds, it does not reformat.** Ask the provider how it finds what the employee left off.
-- **Every line is checked with the employee and approved.** Ask how that is recorded.
+- **Every new line is checked with the employee and approved.** Ask how that is recorded.
 - **Licenses and certifications are asked about, never assumed.** Ask what happens to a credential the employee never mentioned.
 - **The finished file reads cleanly to screening software.** Single column, standard headings, no graphics.
 

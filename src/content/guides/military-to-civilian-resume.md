@@ -13,7 +13,7 @@ cta:
   label: "Start your targeted build — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 1
 draft: false
 faq:
@@ -102,6 +102,6 @@ When you're ready, our targeted build does this with you: it finds the standards
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/military-to-civilian-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/military-to-civilian-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 102
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each job, give one line another technician or a pharmacy manager would rec
 
 **After:** "CPhT (PTCB, active), [Texas] Registered Pharmacy Technician; [400]-script-a-day retail pharmacy, [3]-tech team; data entry and fill in [PioneerRx], insurance rejections and prior authorizations through [CoverMyMeds], CII (Schedule II) perpetual inventory, [immunization-trained]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/pharmacy-technician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/pharmacy-technician-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

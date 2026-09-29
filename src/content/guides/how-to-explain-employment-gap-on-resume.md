@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 30
 draft: false
 faq:
@@ -76,7 +76,7 @@ A gap costs you some interviews, maybe. A discovered lie costs you every one it 
 
 ## A before-and-after
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/how-to-explain-employment-gap-on-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/how-to-explain-employment-gap-on-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

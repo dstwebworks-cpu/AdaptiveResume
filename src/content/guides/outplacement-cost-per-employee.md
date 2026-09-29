@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 99
 draft: false
 faq:
@@ -97,7 +97,7 @@ AdaptiveResume for organizations is priced per person, by quote, sized to your v
 
 1. What is the per-employee price, and what is in it? Ask for the components separately.
 2. Is the resume critiqued, rewritten from a template, or rebuilt from the person's real work history?
-3. Is every line checked with the employee and approved before it is final? How is that recorded?
+3. Is every new line checked with the employee and approved before it is final? How is that recorded?
 4. How are licenses and certifications handled? Are they ever written without confirmation?
 5. What do you report back to us, and does it include anything that sounds like a placement promise?
 

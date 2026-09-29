@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 44
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each job, give the shop the picture in one line before the bullets: what y
 
 **After:** "Structural steel fabrication; SMAW and FCAW, plate and structural shapes, carbon steel 1/8\" to 1\"; qualified 3G and 4G; read shop drawings and weld symbols daily."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/welder-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/welder-resume-example.png)
 
 The second version is scannable in a few seconds and answers what the first leaves a hiring welder or shop foreman guessing at. It uses the exact terms shops write into their own postings — process abbreviations, position designations, material — so it matches how the job was described in the first place.
 
@@ -105,4 +106,4 @@ Filters and foremen commonly read for: SMAW, GMAW, MIG, GTAW, TIG, FCAW, flux-co
 
 The highest-risk lines are the ones that overstate scope — a position you weren't qualified in, a process you barely ran, or a cert stated as permanent when it's lapsed. In welding this gets found in one weld test, so it's the wrong place to stretch. Accurate detail is stronger than inflation because it survives the plate.
 
-The **Role Skills Checklist** below helps you inventory what your work actually proves — which is often more, and more specific, than the resume currently says. Our build does it with you: we work backwards from your real processes, positions, materials, and certs, propose the standards and terms work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a position, or a process you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your work actually proves — which is often more, and more specific, than the resume currently says. Our build does it with you: we work backwards from your real processes, positions, materials, and certs, propose the standards and terms work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certification, a position, or a process you didn't tell us about.

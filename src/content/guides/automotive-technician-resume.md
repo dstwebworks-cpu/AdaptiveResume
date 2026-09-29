@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-20
+updatedDate: 2026-09-29
 order: 105
 draft: true
 faq:
@@ -36,7 +37,7 @@ The technicians who get called first write the certifications exactly, put numbe
 
 **After:** "ASE Master Automobile Technician (A1–A8), current through [month/year]; L1 Advanced Engine Performance Specialist. Flat-rate technician at a [brand] dealership: about 55 flat-rate hours a week at 125% efficiency, comeback rate under 2%, drivability and electrical diagnosis on about a third of tickets."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/automotive-technician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/automotive-technician-resume-example.png)
 
 The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Every number in it is one you can read off your pay stubs and your shop's management system.
 

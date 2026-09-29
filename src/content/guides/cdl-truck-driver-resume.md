@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-20
+updatedDate: 2026-09-29
 order: 103
 draft: true
 faq:
@@ -38,7 +39,7 @@ Put the license line in the top third of the page, above the work history, and w
 
 **After:** "CDL Class A, Georgia, expires [month/year]. Endorsements: H (hazardous materials), N (tank), T (doubles/triples). DOT medical certificate current through [month/year]. FMCSA Drug and Alcohol Clearinghouse registered. Entry-Level Driver Training completed [year], [provider]."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/cdl-truck-driver-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/cdl-truck-driver-resume-example.png)
 
 The second version answers every screening question at once and matches the vocabulary in the posting. If you hold the X endorsement (tank and hazmat combined), write X rather than N and H separately. Write only what your license shows; a hazmat endorsement requires a Transportation Security Administration threat assessment and is one of the first things a carrier verifies.
 

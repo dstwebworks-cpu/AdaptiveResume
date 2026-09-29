@@ -39,7 +39,7 @@ Under each employer, give the picture in one line before the bullets — service
 
 **After:** "Residential service and repair, [6–8] calls a day across gas furnaces, heat pumps, and split systems; diagnosed refrigerant, airflow, and low-voltage control faults; [90]% first-visit completion; EPA 608 Universal."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/hvac-technician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/hvac-technician-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -116,4 +116,4 @@ Filters commonly read for: HVAC, EPA 608, Universal, refrigerant, refrigerant re
 
 The highest-risk lines are the ones that overstate scope — a 608 type you don't hold, a refrigerant you've never recovered, or load calculations you've never actually run. Shops ride techs along on day one, so overstatement gets found fast. Accurate detail is both safer and stronger.
 
-The **Role Skills Checklist** below helps you inventory what your service work actually proves, which is often far more than the resume currently says. Our build does it with you: we work backwards from the systems you ran, the calls you closed, and the credentials you hold, propose the refrigerants, standards, and control language work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a refrigerant, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your service work actually proves, which is often far more than the resume currently says. Our build does it with you: we work backwards from the systems you ran, the calls you closed, and the credentials you hold, propose the refrigerants, standards, and control language work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certification, a refrigerant, or a number you didn't tell us about.

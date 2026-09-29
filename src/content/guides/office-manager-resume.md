@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 37
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the context before the bullets — headcount supported
 
 **After:** "Sole office manager for a ~45-person professional services firm across two sites; owned ~$400K annual facilities and supply budget, managed 20+ vendor contracts, and supervised 3 administrative staff."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/office-manager-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/office-manager-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -102,4 +102,4 @@ Filters commonly read for: office management, operations, administrative, bookke
 
 The highest-risk lines are the ones that overstate scope — a budget you tracked but didn't own, a title broader than the job, or software you touched once listed as a core skill. Small-business and professional-services employers check, and the work is close enough to the interview conversation that overstatement shows.
 
-The **Role Skills Checklist** below helps you inventory what your job actually proves, which is often considerably more than the resume currently says — the range of a generalist role is easy to undersell. Our build does it with you. We work backwards from the headcount, vendors, budget, and systems in your real history, suggest the software and responsibilities a job like yours normally involves, and ask you to confirm every line before it appears. If a line is missing a number only you know, you can add it yourself or tell us, and we'll redo the line. We never add a system, a number, or a credential you haven't confirmed.
+The **Role Skills Checklist** below helps you inventory what your job actually proves, which is often considerably more than the resume currently says — the range of a generalist role is easy to undersell. Our build does it with you. We work backwards from the headcount, vendors, budget, and systems in your real history, suggest the software and responsibilities a job like yours normally involves, and ask you to confirm every new line before it appears. If a line is missing a number only you know, you can add it yourself or tell us, and we'll redo the line. We never add a system, a number, or a credential you haven't confirmed.

@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-20
+updatedDate: 2026-09-29
 order: 106
 draft: true
 faq:
@@ -36,7 +37,7 @@ The work behind that sentence is specific and valuable. The conveyors, the fille
 
 **After:** "Multi-craft maintenance technician on a 24/7 food-packaging line: 40 machines including fillers, case packers, conveyors, and two ammonia-refrigerated chillers; lockout/tagout under OSHA 29 CFR 1910.147 on every job; preventive maintenance completion raised from 78% to 96% in one year, tracked in Fiix."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/maintenance-technician-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/maintenance-technician-resume-example.png)
 
 The second version tells the manager the setting, the equipment, the standard, the system, and a number you moved. Every piece of it came from a real technician's work history; a plant manager can check each one.
 

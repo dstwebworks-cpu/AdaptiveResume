@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 69
 draft: false
 faq:
@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — the fle
 
 **After:** "Maintained a [120]-unit fleet of Class 8 tractors and trailers; completed [30+] preventive maintenance services per month, diagnosed engine and aftertreatment faults with Cummins INSITE and JPRO, and performed DOT annual inspections as a qualified inspector under 49 CFR 396.19."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/diesel-mechanic-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/diesel-mechanic-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
@@ -104,4 +104,4 @@ Filters commonly read for: diesel engines, preventive maintenance, DOT inspectio
 
 The highest-risk lines are the ones that overstate qualification — an ASE test you haven't passed, inspector status you never held, or software you've only watched someone else run. This is a field where employers check credentials and where a working interview happens at a truck, so accurate detail is both safer and stronger.
 
-The **Role Skills Checklist** below helps you inventory what your shop history actually proves — which, for many diesel mechanics, is more than the resume currently says. Our build does it with you: we work backwards from the fleets you kept running, the tests you passed, and the systems you fixed, propose the standards and software that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a qualification, or a piece of software you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your shop history actually proves — which, for many diesel mechanics, is more than the resume currently says. Our build does it with you: we work backwards from the fleets you kept running, the tests you passed, and the systems you fixed, propose the standards and software that work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certification, a qualification, or a piece of software you didn't tell us about.

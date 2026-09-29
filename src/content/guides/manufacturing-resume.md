@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
+updatedDate: 2026-09-29
 order: 63
 draft: false
 faq:
@@ -38,7 +39,7 @@ Under each plant, give the context in one line before the bullets — what you r
 
 **After:** "Line operator, injection molding, [N] presses on rotating shifts; ran [N] units/shift against a [N]-unit standard, held scrap under [N]%, and cut changeovers from [N] to [N] minutes on a 5S/SMED project; lockout/tagout trained, forklift trained and evaluated under 29 CFR 1910.178."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/manufacturing-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/manufacturing-resume-example.png)
 
 The second version is readable in a few seconds. It names the process, the scale, the rate and the standard, the scrap number, a real improvement with a before and after, and two safety items a posting can filter on. Every one of those is something you did or didn't do — so it stays honest, and every bracket is a number only you can fill in.
 
@@ -106,4 +107,4 @@ Filters commonly read for: production, line operator, machine operator, assembly
 
 The highest-risk lines are the ones that overstate scope — a belt you don't hold, "certified" on something that was a class, or a number you'd have to walk back. Plants call the last plant. Accurate detail is both safer and stronger.
 
-The **Role Skills Checklist** below helps you inventory what your floor work actually proves, which for most manufacturing workers is far more than the resume currently says. Our build does it with you: we work backwards from the lines you ran, the standards you worked under, and the numbers your shift hit, propose the safety, quality, and lean language work like yours normally involves, and ask you to confirm every line before it appears. We never add a card, a standard, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your floor work actually proves, which for most manufacturing workers is far more than the resume currently says. Our build does it with you: we work backwards from the lines you ran, the standards you worked under, and the numbers your shift hit, propose the safety, quality, and lean language work like yours normally involves, and ask you to confirm every new line before it appears. We never add a card, a standard, or a number you didn't tell us about.

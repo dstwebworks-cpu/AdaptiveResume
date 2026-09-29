@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 35
 draft: false
 faq:
@@ -38,7 +39,7 @@ Give the credential block up top, exactly as held, with real dates. This is the 
 
 **After:** "Licensed Paramedic, [State] (Lic. #[number], current through [date]); NRP (National Registry, current through [date]). ACLS, PALS, PHTLS (current through [dates]); NIMS ICS-100/200/700/800."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/paramedic-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/paramedic-resume-example.png)
 
 The second version is scannable in four seconds and answers what the first leaves a reader guessing at: which state, which registry, and whether the cards are current. The National Registry credential is formally the **NRP (Nationally Registered Paramedic)** — many people write it "NREMT-Paramedic," and either is understood, but the license and the registry are two separate lines and both get verified.
 
@@ -93,4 +94,4 @@ Filters commonly read for: paramedic, ALS, advanced life support, NRP, National 
 
 The highest-risk lines are the ones that overstate scope — a procedure you're cleared for but rarely run written as routine, IFT described as critical care, or a card listed as current when it lapsed. EMS is a small, verified field: agencies confirm every license and certification, and they check informally too.
 
-The **Role Skills Checklist** below helps you inventory what your calls actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real license, your call types, and the scope you run, propose the certifications and skills that work like yours normally involves, and ask you to confirm every line before it appears. We never add a certification, a procedure, or a call type you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your calls actually prove, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real license, your call types, and the scope you run, propose the certifications and skills that work like yours normally involves, and ask you to confirm every new line before it appears. We never add a certification, a procedure, or a call type you didn't tell us about.

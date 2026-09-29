@@ -71,7 +71,7 @@ Filters read for: telemetry, progressive care, step-down, cardiac monitoring, rh
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/telemetry-nurse-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/telemetry-nurse-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

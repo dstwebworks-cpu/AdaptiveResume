@@ -39,7 +39,7 @@ Under each employer, give the context in one line before the bullets — line of
 
 **After:** "Conventional and FHA underwriter; [N] files per month with signing authority to [$X]; DU and LPA findings reviewed on every file; [N]% of suspended files cleared to approval within [N] business days."
 
-![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/underwriter-resume-example.png)
+![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/underwriter-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

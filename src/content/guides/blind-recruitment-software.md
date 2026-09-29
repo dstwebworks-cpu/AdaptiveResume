@@ -13,7 +13,7 @@ cta:
   label: "Request a per-candidate quote"
   href: "/business/#quote"
 pubDate: 2026-09-25
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 112
 draft: false
 faq:
@@ -57,7 +57,7 @@ First, candidates under-describe their own work. Routine work becomes invisible 
 
 Second, records that were built to impress rather than to inform are worse under blind review, not better, because there is no name to lend them credibility. A masked reviewer reads "results-driven team player" and learns nothing.
 
-The fix is to build the record before the review: work backwards through what the candidate actually did, put words to it, and have the candidate confirm every line. Here is the difference for one candidate. This is a sample, not a real person.
+The fix is to build the record before the review: work backwards through what the candidate actually did, put words to it, and have the candidate confirm every new line. Here is the difference for one candidate. This is a sample, not a real person.
 
 **Before, as submitted:** "Warehouse associate, 4 years. Forklift. Team player."
 
