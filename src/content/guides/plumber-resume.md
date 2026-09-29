@@ -69,7 +69,7 @@ List exactly what you hold, with real dates. A tier you haven't tested for, or a
 
 **Water heaters.** Say whether you install tank or tankless units, gas or electric, and name the venting, expansion tanks, T&P (temperature and pressure relief) discharge, and gas connections you handle where your license covers gas.
 
-**Gas piping.** List gas work only where you're licensed or endorsed for it. Say which pipe and methods you use, such as black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections, and name the endorsement that covers it.
+**Gas piping.** List gas work only where you're licensed or endorsed for it. Say which pipe and methods you use, such as black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections, and name the license or endorsement that covers it.
 
 **Service and diagnosis.** Service plumbers should give this its own line: calls per day, the mix of jobs (leaks, stoppages, water heater replacements, repipes), camera inspection, cable and hydro-jet drain cleaning, and customer-facing work — quoting and explaining options.
 

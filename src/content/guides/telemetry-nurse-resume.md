@@ -29,7 +29,7 @@ Telemetry units run on credentials and scope — continuous cardiac monitoring, 
 
 ## The telemetry nurse resume credentials block
 
-License first — RN, state (or compact), unencumbered — then the certifications tele work implies, by their exact names: BLS, ACLS, and your dysrhythmia/telemetry course if you completed one. List PCCN, AACN's progressive care certification, prominently if you hold it. It is the board certification built for progressive care, and it is a genuine differentiator on tele and step-down units. If you also hold a cardiac certification, such as AACN's CMC (a subspecialty that attaches to a specialty certification like PCCN or CCRN) or ANCC's CV-BC, list it by its exact name. NIH Stroke Scale certification belongs here too if your unit runs stroke patients. Every one of these is checkable, so exact names and current status only — an expired ACLS listed as current is the kind of claim that ends a hospital application.
+License first — RN, state (or compact), unencumbered — then the certifications tele work implies, by their exact names: BLS, ACLS, and your dysrhythmia/telemetry course if you completed one. List PCCN, AACN's progressive care certification, prominently if you hold it. It is the board certification built for progressive care, and it is a genuine differentiator on tele and step-down units. If you hold a cardiac certification, such as ANCC's CV-BC or AACN's CMC (a subspecialty that attaches to a specialty certification like PCCN or CCRN), list it by its exact name. NIH Stroke Scale certification belongs here too if your unit runs stroke patients. Every one of these is checkable, so exact names and current status only — an expired ACLS listed as current is the kind of claim that ends a hospital application.
 
 ## The unit line: acuity in one sentence
 
@@ -67,7 +67,7 @@ Two pages is common and widely accepted for an experienced RN, and new grads usu
 
 ## What screening software looks for on a telemetry nurse resume
 
-Filters read for: telemetry, progressive care, step-down, cardiac monitoring, rhythm interpretation, drip titration, ACLS, PCCN, charge nurse, preceptor, Epic, Oracle Health, or Cerner, patient ratios. [O*NET's registered nurse profile](https://www.onetonline.org/link/summary/29-1141.00) covers the base vocabulary; the unit specifics are what tele recruiters actually read for.
+Filters read for: telemetry, progressive care, step-down, cardiac monitoring, rhythm interpretation, drip titration, ACLS, PCCN, charge nurse, preceptor, Epic, Oracle Health, Cerner, and patient ratios. [O*NET's registered nurse profile](https://www.onetonline.org/link/summary/29-1141.00) covers the base vocabulary; the unit specifics are what tele recruiters actually read for.
 
 ## The before-and-after, at a glance
 

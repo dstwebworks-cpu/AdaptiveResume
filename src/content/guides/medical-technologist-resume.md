@@ -22,7 +22,7 @@ faq:
   - q: "Do I have to be certified to work as a medical technologist?"
     a: "It depends on the employer and the state. Many hospital and reference labs require ASCP or AMT certification; some states — California, New York, and Florida among them — also require a state license to perform testing, and CLIA sets federal personnel standards for the complexity of tests you run. List what you actually hold with its real status: certification body, credential, and license number if a state requires one. If a credential is pending or an exam is scheduled, say so plainly rather than implying you already hold it."
   - q: "What's the difference between an MLS and an MLT, and does it matter on a resume?"
-    a: "It matters. They are different credentials at different levels, technologist and technician, and the MLS vs MT vs MLT section above explains the difference. Write the one you hold, exactly as issued, and describe the work you actually did under it."
+    a: "It matters. They are different credentials at different levels, technologist and technician, and the MLS vs MT vs MLT note in the certification section above explains the difference. Write the one you hold, exactly as issued, and describe the work you actually did under it."
   - q: "How do I show bench experience if I've mostly been a generalist?"
     a: "Name the departments you rotate through and the volume you handle. Generalist experience is genuinely valuable in smaller hospitals and on off-shifts, so don't hide it — write the benches you cover (chemistry, hematology, coag, urinalysis, blood bank, micro), the instruments you run, and roughly how many specimens or shifts you carry. A clear generalist line reads as range, not as a lack of depth."
 ---

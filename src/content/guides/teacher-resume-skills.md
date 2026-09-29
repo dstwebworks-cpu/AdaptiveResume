@@ -18,7 +18,7 @@ order: 12
 draft: false
 faq:
   - q: "Should teacher resumes be one page or two?"
-    a: "Two pages is common and widely accepted for teachers with five or more years, because districts look for your full certifications, endorsements, and grade bands. If you're leaving the classroom for a corporate role, compress it to one strong page in that industry's language."
+    a: "Two pages is common and widely accepted for teachers with five or more years, because districts look for your full certifications, endorsements, and grade bands. If you're leaving the classroom for a corporate role, compress your resume to one strong page in that industry's language."
   - q: "How do I show results without publishing student data?"
     a: "Use honest aggregates that are yours to share: growth trends, cohort sizes, program adoption. 'Reading growth outpaced the building average two years running' says it without a protected number. Never invent a statistic to fill the gap."
   - q: "What if my certificate lapsed while I was out of the classroom?"
