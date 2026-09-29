@@ -18,7 +18,7 @@ order: 12
 draft: false
 faq:
   - q: "Should teacher resumes be one page or two?"
-    a: "Two pages is common and widely accepted for teachers with five or more years, because districts look for your full certifications, endorsements, and grade bands. Leaving the classroom for a corporate role? Compress to one strong page in that industry's language."
+    a: "Two pages is common and widely accepted for teachers with five or more years, because districts look for your full certifications, endorsements, and grade bands. If you're leaving the classroom for a corporate role, compress it to one strong page in that industry's language."
   - q: "How do I show results without publishing student data?"
     a: "Use honest aggregates that are yours to share: growth trends, cohort sizes, program adoption. 'Reading growth outpaced the building average two years running' says it without a protected number. Never invent a statistic to fill the gap."
   - q: "What if my certificate lapsed while I was out of the classroom?"
@@ -29,7 +29,7 @@ Teaching compresses a dozen professional skills into one job title — and then 
 
 ## The credentials block: licensure first
 
-Your state teaching certificate is a screening item — make it findable in two seconds, with the state, the certification area, and grade band. Then the endorsements you may not think to list: ESOL, reading, gifted, special education, subject-area add-ons. Endorsements are easy to forget, so check your state certificate record for every one you hold, such as ESOL, reading, gifted, or special education. If you taught sheltered ELL classes, list that work in your experience, and list an ESOL endorsement only if it appears on your certificate.
+Your state teaching certificate is a screening item — make it findable in two seconds, with the state, the certification area, and grade band. Then list the endorsements you may not think of, such as ESOL, reading, gifted, special education, and subject-area add-ons. Endorsements are easy to forget, so check your state certificate record and list every one that appears there. If you taught sheltered ELL classes, list that work in your experience, and list an ESOL endorsement only if it appears on your certificate.
 
 ## Teacher resume skills hiding inside "classroom teacher"
 
@@ -92,4 +92,4 @@ Spell out what districts search for: the license by its real name, endorsement n
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills and credentials that history implies, and asks you to confirm every one before it goes on the page. Nothing is invented, and that includes the things you forgot.
+The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills that history implies, asks about any credentials you may hold, and asks you to confirm every one before it goes on the page. Nothing is invented, and that includes the things you forgot.

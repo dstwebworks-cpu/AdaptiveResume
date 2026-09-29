@@ -67,7 +67,7 @@ Claims adjusters share a lot of vocabulary with underwriters, but the resume is 
 
 **The metrics.** Files underwritten per month, decision turn times, your signing authority in dollars, pull-through (files that closed against files you approved), condition cure rates, and post-closing or investor audit results — a low defect rate on QC review is one of the strongest lines a mortgage underwriter can write. Manual underwriting experience is worth its own line; many underwriters have only worked findings.
 
-**One honest note on licensing.** NMLS licensing is built for loan originators, and whether an underwriter needs one depends on how they're employed, as the FAQ below explains. List an NMLS ID only if you actually hold one.
+**One honest note on licensing.** Whether an underwriter needs an NMLS license depends on how they're employed, and the FAQ below explains the difference and when an NMLS ID belongs on the page.
 
 ## Junior underwriters and underwriting assistants
 

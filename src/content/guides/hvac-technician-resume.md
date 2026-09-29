@@ -18,7 +18,7 @@ order: 67
 draft: false
 faq:
   - q: "Do I need EPA 608 certification on an HVAC resume?"
-    a: "If you handle refrigerants, you need it to do the work at all — Section 608 of the Clean Air Act requires certification for anyone who maintains, services, repairs, or disposes of equipment that could release refrigerants. It's the first thing a screener looks for, so state it exactly: the type you hold (Type I, II, III, or Universal). If you're in school and haven't tested yet, say that plainly rather than leaving the line off."
+    a: "Yes, if you handle refrigerants. Federal law requires Section 608 certification for that work, as the EPA 608 section above explains, and it's the first thing a screener looks for. Write the exact type you hold. If you're in school and haven't tested yet, say that plainly rather than leaving the line off."
   - q: "Is NATE certification worth listing?"
     a: "Yes, if you hold it — NATE (North American Technician Excellence) is voluntary, but shops recognize it and some postings filter for it. Write the credential exactly as NATE issued it, whether that's a core-plus-specialty track or the CHP-5 pathway described above. Don't round a practice course or in-house training up to 'NATE certified' — the credential is checkable."
   - q: "Should I mention the new A2L refrigerants like R-32 and R-454B?"

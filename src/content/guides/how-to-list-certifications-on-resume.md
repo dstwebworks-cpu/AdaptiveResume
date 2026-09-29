@@ -18,7 +18,7 @@ order: 27
 draft: false
 faq:
   - q: "Should certifications go at the top or the bottom of a resume?"
-    a: "Wherever they carry the most weight for the job. If the posting requires a specific credential, put the section high — right after your summary — so it's found in the first skim. If certifications are supporting evidence rather than requirements, after Experience is fine."
+    a: "Wherever they carry the most weight for the job. If the posting requires a specific credential, put the section high — right after your summary — so it's found in the first skim. If certifications are supporting evidence rather than requirements, listing them after Experience and Education is fine."
   - q: "How do I list a certification I'm still working on?"
     a: "Label it plainly: 'In progress — expected [month/year],' or 'Exam scheduled [month/year]' if a date is booked. Never list it in a way that could be read as earned; that reads as dishonest the moment anyone checks."
   - q: "Do I need to include the year I earned a certification?"
@@ -54,7 +54,7 @@ One line per credential, in this shape:
 
 - Certified ScrumMaster (CSM) — Scrum Alliance, current through 11/2027
 - CompTIA Security+ — CompTIA, current through 05/2028
-- OSHA 30-Hour General Industry course completion card — authorized OSHA Outreach trainer, completed 2024
+- OSHA 30-Hour General Industry course completion card — [training provider], completed 2024
 
 OSHA calls its 10- and 30-hour cards course completion cards, not certifications, so you can also list them under Training.
 

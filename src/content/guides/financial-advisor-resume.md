@@ -61,7 +61,7 @@ If a posting names a license you don't hold, don't stretch. "Series 65 scheduled
 
 Designations do the same work here that they do on an [underwriter resume](/guides/underwriter-resume/) — they're screening filters before they're anything else, so the letters have to be exactly right.
 
-- **CFP** — Certified Financial Planner, granted by CFP Board. Getting there involves approved coursework, the exam, qualifying experience, and an ethics commitment — which is why the letters carry weight, and why you can't use them until CFP Board says you're certified. In progress? Write the true stage.
+- **CFP** — Certified Financial Planner, granted by CFP Board. Getting there involves approved coursework, the exam, qualifying experience, and an ethics commitment — which is why the letters carry weight, and why you can't use them until CFP Board says you're certified. If you're still working toward it, use the one resume wording CFP Board allows, which the FAQ below explains.
 - **ChFC** — Chartered Financial Consultant, granted by The American College of Financial Services. Planning-focused, course-by-course; list it with the year earned.
 - **CFA** — Chartered Financial Analyst, granted by CFA Institute. More common on the portfolio-management side, but if you hold the charter or have passed a level, it signals analytical depth — state the level in CFA Institute's own wording: "Passed Level [I/II] of the CFA® Program" is its own real line.
 

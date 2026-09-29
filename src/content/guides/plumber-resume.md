@@ -18,7 +18,7 @@ order: 89
 draft: false
 faq:
   - q: "Do I need a license to put 'plumber' on my resume?"
-    a: "You can call yourself a plumber for the work you do, but the license line has to match your real tier. Write exactly the tier you hold, with the state and number: '[State] journeyman plumber license #[N].' If you're a registered apprentice, say so with your year. A title above your real tier is the fastest way to lose a job offer, because the license gets checked before you're on the payroll."
+    a: "Use the job title you actually held, and make the license line match your real tier. Write exactly the tier you hold, with the state and number: '[State] journeyman plumber license #[N].' If you're a registered apprentice, say so with your year. A title above your real tier is the fastest way to lose a job offer, because the license gets checked before you're on the payroll."
   - q: "Should I put the plumbing code on my resume?"
     a: "Yes, the one your jurisdiction actually adopted. Most of the country works under either the IPC (International Plumbing Code, published by the ICC, the International Code Council) or the UPC (Uniform Plumbing Code, published by IAPMO, the International Association of Plumbing and Mechanical Officials), sometimes with state amendments. Name the code you built to and the inspections you passed under it. Don't list both codes unless you've genuinely worked under both."
   - q: "How do I show service plumbing experience versus new construction?"
@@ -69,7 +69,7 @@ List exactly what you hold, with real dates. A tier you haven't tested for, or a
 
 **Water heaters.** Say whether you install tank or tankless units, gas or electric, and name the venting, expansion tanks, T&P (temperature and pressure relief) discharge, and gas connections you handle where your license covers gas.
 
-**Gas piping.** Only where you're licensed or endorsed for it. Name the pipe and methods you use, such as black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections. Name the endorsement that covers it.
+**Gas piping.** List gas work only where you're licensed or endorsed for it. Say which pipe and methods you use, such as black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections, and name the endorsement that covers it.
 
 **Service and diagnosis.** Service plumbers should give this its own line: calls per day, the mix of jobs (leaks, stoppages, water heater replacements, repipes), camera inspection, cable and hydro-jet drain cleaning, and customer-facing work — quoting and explaining options.
 

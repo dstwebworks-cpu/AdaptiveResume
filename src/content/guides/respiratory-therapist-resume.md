@@ -51,7 +51,7 @@ Your credential from the National Board for Respiratory Care is the first filter
 
 The **CRT (Certified Respiratory Therapist)** and the **RRT (Registered Respiratory Therapist)** are the two core NBRC credentials. Many higher-acuity roles require the RRT; list the one you actually hold. If you're a graduate testing toward the RRT, write it as *RRT-eligible* with your test timeline rather than claiming the credential early.
 
-The two NBRC specialty credentials are the **RRT-ACCS (Adult Critical Care Specialty)** and the **RRT-NPS (Neonatal/Pediatric Specialty)**, each earned on top of the RRT. If you work PFTs or sleep, the NBRC also issues the CPFT and RPFT (Certified and Registered Pulmonary Function Technologist) and the Sleep Disorders Specialty credential, written CRT-SDS or RRT-SDS. Name only what you've earned.
+The NBRC's critical care specialty credentials are the **RRT-ACCS (Adult Critical Care Specialty)** and the **RRT-NPS (Neonatal/Pediatric Specialty)**, and each is earned on top of the RRT. If you work PFTs or sleep, the NBRC also issues the CPFT and RPFT (Certified and Registered Pulmonary Function Technologist) and the Sleep Disorders Specialty credential, written CRT-SDS or RRT-SDS. Name only what you've earned.
 
 Then your **state license**, written with your state's exact title and its current status, as the FAQ below explains.
 
