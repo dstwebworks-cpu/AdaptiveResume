@@ -29,7 +29,7 @@ faq:
 
 A maintenance supervisor resume gets read in a specific order: **what kind of place, how big a crew, and what the numbers looked like.** A plant manager scanning resumes wants to know within a few seconds whether you ran six technicians on one shift in a distribution center or twenty across three shifts in a food plant. Generic versions — "supervised maintenance staff," "ensured equipment uptime" — answer none of that, and they lose to the resume that does.
 
-The second thing that separates a strong maintenance supervisor resume from a weak one is the difference between listing duties and showing a program. Every supervisor "oversaw preventive maintenance." Far fewer say what their PM completion rate was, which system they ran it in, and what happened to downtime while they had the crew. Those are the lines a hiring manager is actually trying to find.
+The second thing that separates a standout maintenance supervisor resume from an average one is the difference between listing duties and showing a program. Every supervisor "oversaw preventive maintenance." Far fewer say what their PM completion rate was, which system they ran it in, and what happened to downtime while they had the crew. Those are the lines a hiring manager is actually trying to find.
 
 ## Lead with the crew, the shifts, and the numbers
 

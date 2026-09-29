@@ -432,7 +432,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .capture-done, .capture-err { margin-top: 12px; font-weight: 700; }
     .capture-done.hide, .capture-err.hide { display: none; }
     /* the gift button is a .btn (inline-flex) — the id rule outranks it, so .hide
-       actually hides (the guide-gate lesson: display rules silently beat weaker hides) */
+       actually hides (the guide-gate lesson: display rules silently beat less specific hides) */
     #captureGift.hide { display: none !important; }
     #captureGift { margin-top: 10px; }
     .start { max-width: 720px; text-align: center; }

@@ -1,6 +1,6 @@
 ---
 title: "Resume Rewriting for Staffing Agencies: Formatting Is Not the Problem"
-description: "A reformatted weak resume is still weak, and a resume a recruiter quietly improved is a liability with your agency's name on it. Here is the middle path: rebuild each candidate's resume from their real history, with the recruiter confirming every new line."
+description: "Reformatting doesn't fix what a resume leaves out, and a resume a recruiter quietly improved is a liability with your agency's name on it. Here is the middle path: rebuild each candidate's resume from their real history, with the recruiter confirming every new line."
 seoTitle: "Resume Rewriting for Staffing Agencies, Done Honestly"
 seoDescription: "Formatting services restyle what is already there. A staffing agency needs the content rebuilt from real history, with a recruiter confirming every new line."
 segment: "organizations"
@@ -33,7 +33,7 @@ The problem those tools cannot touch is the one that costs agencies clients: the
 
 This guide is about the middle path: rebuilding the content from the candidate's real history, with your recruiter confirming every new line, on a batch you send us, with the same standard for every resume in it.
 
-## Why a reformatted weak resume is still weak
+## Why a reformatted resume still falls short
 
 Formatting tools work on what is already on the page. That is their design and their limit. Candidates, especially skilled-trades and healthcare candidates, routinely leave off the things a client's screening software searches for by name:
 

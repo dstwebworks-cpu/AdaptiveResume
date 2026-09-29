@@ -29,7 +29,7 @@ faq:
 
 Sales management resumes live or die on numbers a reader can trust. Every other part of the job — coaching, forecasting, territory design, hiring — is real, but a sales leader reading your resume is first checking one thing: did your number come in, and how big was the number. A resume that describes leadership in adjectives ("dynamic," "results-driven") and never states a quota or an attainment percentage competes badly against one that opens with the figures.
 
-The catch is that raw figures without context are just as weak. "$4.2M in revenue" says nothing until a reader knows the quota, the team size, and the period. The single most useful thing you can do is pair every result with the base it was measured against, so the number can actually be believed.
+The catch is that raw figures without context fall just as flat. "$4.2M in revenue" says nothing until a reader knows the quota, the team size, and the period. The single most useful thing you can do is pair every result with the base it was measured against, so the number can actually be believed.
 
 ## Lead with quota and attainment, in context
 

@@ -1,8 +1,8 @@
 ---
 title: "Internal Mobility Platform: The Skills Record It Needs Before It Can Work"
-description: "An internal mobility platform matches open roles to the skills your people have on file. Here is why that file is the weak link, what redeployment actually requires, and how to build a confirmed skills record per employee before you buy or renew a platform."
+description: "An internal mobility platform matches open roles to the skills your people have on file. Here is why that file is where matching breaks down, what redeployment actually requires, and how to build a confirmed skills record per employee before you buy or renew a platform."
 seoTitle: "Internal Mobility Platform: The Skills Record It Needs"
-seoDescription: "Internal mobility platforms match roles to skills on file, and the file is the weak link. Build a confirmed skills record per employee before you buy or renew."
+seoDescription: "Internal mobility platforms match roles to skills on file, and that file is the gap. Build a confirmed skills record per employee before you buy or renew."
 segment: "organizations"
 audience: "HR and talent leaders at employers of 50 to 5,000 people, redeployment and restructuring leads, and anyone evaluating an internal talent marketplace"
 keyword: "internal mobility platform"
@@ -29,7 +29,7 @@ faq:
 
 Every internal mobility platform makes the same promise: open roles get matched to the skills your people already have, so you fill from inside before you hire from outside, and you redeploy people before you lay them off. The promise depends on one input the platform does not create: an accurate record of what each employee can actually do.
 
-That record is the weak link, and this guide is about it. It covers what the platform category does and does not do, what a redeployment actually requires, why employee skills profiles are thin, and how to build a confirmed skills record per employee, whether you are buying a platform, renewing one, or running a redeployment with a spreadsheet.
+That record is where matching breaks down, and this guide is about it. It covers what the platform category does and does not do, what a redeployment actually requires, why employee skills profiles are thin, and how to build a confirmed skills record per employee, whether you are buying a platform, renewing one, or running a redeployment with a spreadsheet.
 
 ## What the platform category does
 
@@ -83,7 +83,7 @@ The role you are about to post for a quality coordinator asks for audit preparat
 
 ## Buying, renewing, or skipping the platform
 
-**If you are buying a platform,** run the skills excavation first, on the population you most need to move, and copy the confirmed lines into the profiles before launch. A platform that goes live on thin profiles produces weak matches in its first months, and employees stop trusting it.
+**If you are buying a platform,** run the skills excavation first, on the population you most need to move, and copy the confirmed lines into the profiles before launch. A platform that goes live on thin profiles produces poor matches in its first months, and employees stop trusting it.
 
 **If you are renewing one,** ask the vendor how many employees have updated their profile in the last twelve months. That number is the platform's real coverage.
 

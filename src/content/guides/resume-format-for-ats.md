@@ -66,7 +66,7 @@ Knowing the target makes the rules obvious. The software is trying to fill these
 
 **After:** The same content, one column: name and contact in the body, standard headings, the same jobs with month-and-year dates, skills as plain text. Nothing was reworded — nothing needed to be. The fix was purely structural, and now every field lands where it should.
 
-That's the honest scope of ATS formatting: it can't make weak content strong, and clean parsing won't rank you above anyone. It just makes sure the system sees what's actually there.
+That's the honest scope of ATS formatting: it can't add substance that isn't there, and clean parsing won't rank you above anyone. It just makes sure the system sees what's actually there.
 
 ## How we handle formatting
 

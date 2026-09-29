@@ -77,7 +77,7 @@ Life-support cards belong here as well: **ACLS**, **PALS**, and **NRP** (the Neo
 
 **Emergency department:** Name your intubation assists, non-invasive ventilation, nebulizer treatments, and ABGs, and show how fast the turnover runs. Volume and the range of what you handle solo matter here.
 
-**Med-surg / floor:** State your treatment volume, protocols, patient teaching, and coverage ratios. Naming your patient load honestly is not a weakness — floor managers know what that volume feels like.
+**Med-surg / floor:** State your treatment volume, protocols, patient teaching, and coverage ratios. Naming your patient load honestly is nothing to hide — floor managers know what that volume feels like.
 
 **PFT lab:** List the full study menu you run, such as spirometry, lung volumes, diffusion capacity, bronchodilator response, and methacholine challenge, plus quality control and calibration.
 

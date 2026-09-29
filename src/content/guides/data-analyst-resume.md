@@ -38,7 +38,7 @@ The second version proves the thing tool lists can't: someone acted on your work
 
 ## The tool stack: only what you can be interviewed on
 
-The strong move is a short stack listed at your true level: "SQL (daily — joins, CTEs, window functions), Excel (pivot tables, Power Query), Tableau (dashboards in production use)." The weak move is naming every tool you've ever opened — analytics interviews probe the stack directly, and one stumble on a tool you padded discredits the ones you actually know. A shorter honest stack outperforms a longer inflated one everywhere it matters: past the applicant tracking system (ATS — the screening software; your real tools are the keywords), through the screen, and in the room.
+The strong move is a short stack listed at your true level: "SQL (daily — joins, CTEs, window functions), Excel (pivot tables, Power Query), Tableau (dashboards in production use)." The move that backfires is naming every tool you've ever opened — analytics interviews probe the stack directly, and one stumble on a tool you padded discredits the ones you actually know. A shorter honest stack outperforms a longer inflated one everywhere it matters: past the applicant tracking system (ATS — the screening software; your real tools are the keywords), through the screen, and in the room.
 
 ## Certificates and coursework: real, in their place
 
