@@ -63,7 +63,7 @@ If a written resume is a large part of what separates one tier from the next, th
 
 **It works backwards from what the person actually did.** A 15-year employee has stopped noticing what they know. The machines, the standards, the systems, and the people they trained have become routine and never made it onto the page. The resume work is finding those things, not restyling the ones already there.
 
-**Every line is a question the person answers, and a reviewer approves it before it lands.** Each suggested line is shown to the employee as a question, and your reviewer approves, edits, or drops it based on the answer. This is what makes the resume theirs, and what keeps a program honest at volume.
+**Every new line is a question the person answers, and a reviewer approves it before it lands.** Each suggested line is shown to the employee as a question, and your reviewer approves, edits, or drops it based on the answer. This is what makes the resume theirs, and what keeps a program honest at volume.
 
 **Credentials are never assumed.** A license or certification is asked about, never written from a job title, and anything uncertain waits for a reviewer.
 

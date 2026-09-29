@@ -59,7 +59,7 @@ The second version is scannable in four seconds and answers what the first versi
 
 **Corporate and transactional:** entity formations and annual filings, registered-agent and Secretary of State work, closing checklists, cap-table and minute-book maintenance, due-diligence support. Volume and deal size matter more than adjectives.
 
-**Family law:** high emotional-labor caseloads, financial affidavits, discovery, and hearing prep. Naming caseload honestly is nothing to hide — family practices know what their volume feels like.
+**Family law:** high emotional-labor caseloads, financial affidavits, discovery, and hearing prep. Naming your caseload honestly does not count against you — family practices know what their volume feels like.
 
 **Immigration:** form families by name (I-130, I-485, I-589, H-1B, and so on), USCIS filing volume, RFE responses, and language capability if you have it. This is one of the few paralegal specialties where a second language is a direct qualification, so put it where it can be seen.
 

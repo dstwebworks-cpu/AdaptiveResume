@@ -24,7 +24,7 @@ faq:
   - q: "I was offered outplacement. Should I use it?"
     a: "Use the resume piece first, and use it this week; it is the part you will send out. Then decide about coaching based on how long it has been since you searched for a job. If the resume you get back is your old resume in a new template, ask for more, or get the resume rebuilt properly elsewhere."
   - q: "What should the resume piece include?"
-    a: "It should be rebuilt from what you actually did, not restyled. Every line should be one you confirmed, any license or certification should be asked about rather than assumed, and the finished file should read cleanly to screening software. If the service cannot say how it knows a line is true, that is your answer."
+    a: "It should be rebuilt from what you actually did, not restyled. Every new line should be one you confirmed, any license or certification should be asked about rather than assumed, and the finished file should read cleanly to screening software. If the service cannot say how it knows a line is true, that is your answer."
 ---
 
 Outplacement assistance has an odd shape. The employer buys it, the employee receives it, and the two almost never compare notes on what was delivered. HR sees a proposal and a usage report. The employee sees an email with a login and, a week or two later, a resume. Neither side sees the whole thing, which is why this guide is written for both.

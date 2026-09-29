@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 108
 draft: false
 faq:
@@ -81,7 +81,7 @@ We are not an outplacement company. We do the resume piece, priced per person, a
 
 1. **Cost.** Per person, by quote, sized to your head count. One number, and it contains one thing: the resume, rebuilt and confirmed.
 2. **Critiqued, reformatted, or rebuilt.** Rebuilt. We work backwards from what each person actually did, and every suggested line is approved by a reviewer before it lands.
-3. **Who writes and who checks.** Software does the digging and asks the questions; the person answers them, the reviewer you name approves each line, and anything that looks like a license or certification is held until it is verified.
+3. **Who writes and who checks.** Software does the digging and asks the questions; the person answers them, the reviewer you name approves each suggested line, and anything that looks like a license or certification is held until it is verified.
 4. **Utilization.** We report resumes completed, because a finished resume is the one measure that shows the person got the thing they will send out.
 5. **Reporting.** A per-person record of what was proposed and what was confirmed, plus a report for the employer of resumes completed for the batch. It never contains a placement figure.
 6. **In pieces.** Yes. That is the whole offer: buy the resume for everyone, and buy coaching from a coach for the people who need it.

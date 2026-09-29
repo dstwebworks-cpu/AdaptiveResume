@@ -13,7 +13,7 @@ cta:
   label: "See AdaptiveResume for organizations"
   href: "/business/"
 pubDate: 2026-07-26
-updatedDate: 2026-09-19
+updatedDate: 2026-09-29
 order: 8
 draft: false
 faq:
@@ -65,7 +65,7 @@ Before: *"Forklift driver, 5 years, warehouse duties."*
 
 After intake + confirmed enrichment: *"Forklift and reach-truck operator, trained and evaluated under OSHA 29 CFR 1910.178 · 5 years in high-volume distribution (3rd shift lead for 2) · RF scanning, cycle counts, and OSHA dock procedures · zero recordable incidents."*
 
-Same candidate. Every line confirmed. The second version makes a far stronger submission — and survives the client interview, which is the part that protects your fee.
+It is the same candidate, and every new line was confirmed. The second version makes a far stronger submission — and survives the client interview, which is the part that protects your fee.
 
 ## Measure it
 

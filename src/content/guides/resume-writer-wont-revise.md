@@ -79,7 +79,7 @@ At that point, more emails cost you weeks you could spend applying.
 
 ## How we handle exactly this
 
-This situation is why we built the process the way we did. Upload the draft you paid for — it's a starting point, not a loss. We work backwards from your real experience to find what the rewrite left out: the tools, standards, and training your work involved that never made it onto the page. You confirm each one before it appears. Every line is editable in your words, and if a line isn't right, you add a note and we redo it — you never have to argue with us or wait on a reply. Nothing gets made up, and you see for yourself what the screening software reads at the end.
+This situation is why we built the process the way we did. Upload the draft you paid for — it's a starting point, not a loss. We work backwards from your real experience to find what the rewrite left out: the tools, standards, and training your work involved that never made it onto the page. You confirm each one before it appears. Every new line is editable in your words, and if one isn't right, you add a note and we redo it — you never have to argue with us or wait on a reply. Nothing gets made up, and you see for yourself what the screening software reads at the end.
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
 

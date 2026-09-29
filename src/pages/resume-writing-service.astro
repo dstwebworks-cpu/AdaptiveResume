@@ -12,7 +12,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Who actually writes my resume?',
-    a: "There is no human writer. AdaptiveResume's software does the digging: it works backwards from what your jobs actually involved and shows you, one finding at a time, the tools, standards, credentials, and scope you left off. You confirm, edit, or skip each one, in your own words. You are the only person who reads and approves each line, so the finished resume is yours to stand behind in any interview." },
+    a: "There is no human writer. AdaptiveResume's software does the digging: it works backwards from what your jobs actually involved and shows you, one finding at a time, the tools, standards, credentials, and scope you left off. You confirm, edit, or skip each one, in your own words. You are the only person who reads and approves each new line, so the finished resume is yours to stand behind in any interview." },
   { q: 'What does "nothing made up" mean in practice?',
     a: "We never put a credential, title, number, or employer on your resume that you didn't confirm. If we think your work involved something, we ask you first. If you say no, it never appears. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
   { q: 'Is this a subscription? What about revisions?',
@@ -150,7 +150,7 @@ const breadcrumbLd = {
         <div class="card qcard">
           <h3>Do I approve each line before it's final?</h3>
           <p>Or do you get a finished draft and a limited window to argue about it?</p>
-          <p class="ours"><b>AdaptiveResume's answer:</b> yes, every line. Nothing goes on the page you didn't confirm.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> yes, every new line. Each one is shown to you first, and nothing new goes on the page unless you confirm it.</p>
         </div>
         <div class="card qcard">
           <h3>Is it a subscription?</h3>
