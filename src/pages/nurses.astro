@@ -12,11 +12,11 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Is this a nursing resume writing service or a resume builder for nurses?',
-    a: "Both, honestly. We do the digging a writer would do — working backwards through your units, ratios, charting systems, and certifications to find what you left off — and you do the confirming a builder asks of you. Every line is shown to you first. Nothing goes on the page you didn't confirm, and nothing is made up." },
+    a: "It's both. We do the digging a writer would do, working backwards from your job titles and units to find the skills, charting systems, and certifications you left off, and you do the confirming a builder asks of you. Every new line we suggest is shown to you first. Nothing new goes on the page unless you confirm it, and nothing is made up." },
   { q: "I'm moving to a new unit — say, telemetry into the ICU. How do you handle the gap?",
-    a: "By stating it plainly. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we never present the unit you're moving toward as experience you already have. Stepdown experience dressed up as ICU experience is something we won't write." },
+    a: "We keep it honest. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we never present the unit you're moving toward as experience you already have. Stepdown experience dressed up as ICU experience is something we won't write." },
   { q: 'I travel. How should contracts show up?',
-    a: "Each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status if you hold one under the Nurse Licensure Compact. List each contract in your current resume, and we keep each one as its own entry; you confirm every new detail we suggest." },
+    a: "List each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status under the Nurse Licensure Compact when your resume shows it or you confirm it. If your current resume lists each contract, we keep each one as its own entry, and you confirm every new detail we suggest." },
   { q: 'Why $149 instead of the $49 resume?',
     a: "The $49 resume makes your one nursing resume complete and honest. The $149 Targeted resume aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. If you have a specific unit posting open in another tab, that's the one." },
   { q: 'Can I buy from any state?',
@@ -98,7 +98,7 @@ const guides = [
           <p>Same unit, new employer. Their recruiter and their screening software are reading for
           your license status, your cert block, your ratios, and which charting system you know. Every
           one of those belongs on the page, exactly as you hold it, and we write each one only from
-          what you tell us and confirm.</p>
+          your own resume or from a suggestion you confirm.</p>
         </div>
         <div class="card">
           <h3>Into charge or leadership</h3>
@@ -110,7 +110,7 @@ const guides = [
           <h3>Travel contracts</h3>
           <p>Six contracts in three years is a strength when each one is stated cleanly: facility, unit
           type, ratio, float status, charting system. We keep them contract by contract, as your resume
-          lists them, and your multistate license status goes on the license line if you hold it.</p>
+          lists them, and your multistate license status goes on the license line when your resume shows it or you confirm it.</p>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ const guides = [
         <div class="card">
           <h3>License and compact status</h3>
           <p>RN or LPN/LVN, the state, and whether it's a multistate license under the Nurse Licensure
-          Compact. If you hold it, it goes on the license line. If you don't, we never add it.</p>
+          Compact. It goes on the license line when your resume shows it or you confirm it. If you don't hold it, we never add it.</p>
         </div>
         <div class="card">
           <h3>Life-support and course cards</h3>
@@ -139,7 +139,7 @@ const guides = [
           Nursing), CMSRN (Medical-Surgical Nursing Certification Board), RNC-NIC and RNC-OB (National
           Certification Corporation), CNOR (Competency &amp; Credentialing Institute). If you're sitting
           for one soon, it is never printed as held; you can add it yourself with a plain label such as
-          "exam scheduled [month/year]."</p>
+          "CCRN exam scheduled 03/2027."</p>
         </div>
         <div class="card">
           <h3>Unit, bed count, and ratios</h3>
@@ -164,7 +164,7 @@ const guides = [
     <div class="container">
       <p class="eyebrow">What the rebuild looks like</p>
       <h2>Same true shifts — a resume that finally says what they were</h2>
-      <p class="muted">This is a sample nurse, not a real person. Every number here comes from you, either from your current resume or typed in by you when you edit a line during review. If you do not confirm a line, it does not go in.</p>
+      <p class="muted">This is a sample nurse, not a real person. In a real review, every number comes from you: from the resumes you upload, or typed in by you when you edit a line. If you do not confirm a new line, it does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
