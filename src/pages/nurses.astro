@@ -14,9 +14,9 @@ const faq = [
   { q: 'Is this a nursing resume writing service or a resume builder for nurses?',
     a: "Both, honestly. We do the digging a writer would do — working backwards through your units, ratios, charting systems, and certifications to find what you left off — and you do the confirming a builder asks of you. Every line is shown to you first. Nothing goes on the page you didn't confirm, and nothing is made up." },
   { q: "I'm moving to a new unit — say, telemetry into the ICU. How do you handle the gap?",
-    a: "By stating it plainly. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we label what you're moving toward as what it is: a critical care residency you're seeking, a course you're completing. Stepdown experience dressed up as ICU experience is something we won't write." },
+    a: "By stating it plainly. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we never present the unit you're moving toward as experience you already have. Stepdown experience dressed up as ICU experience is something we won't write." },
   { q: 'I travel. How should contracts show up?',
-    a: "Each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status if you hold one under the Nurse Licensure Compact. We ask about each contract; you confirm the details." },
+    a: "Each contract as its own line, with what a recruiter actually checks: the facility and unit type, the contract length, your typical ratio there, whether you floated, and the charting system. Your license line carries your multistate status if you hold one under the Nurse Licensure Compact. List each contract in your current resume, and we keep each one as its own entry; you confirm every new detail we suggest." },
   { q: 'Why $149 instead of the $49 resume?',
     a: "The $49 resume makes your one nursing resume complete and honest. The $149 Targeted resume aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. If you have a specific unit posting open in another tab, that's the one." },
   { q: 'Can I buy from any state?',
@@ -90,26 +90,27 @@ const guides = [
         <div class="card">
           <h3>Moving to a new unit</h3>
           <p>Tele to ICU, med-surg to ER, floor to OR. The overlap is real — drips, codes, rhythms —
-          but your resume never named it. We put the true overlap on the page and label the gap
-          honestly, so a manager can see exactly what you bring.</p>
+          but your resume never named it. We put the true overlap on the page and never dress the
+          gap up as experience, so a manager can see exactly what you bring.</p>
         </div>
         <div class="card">
           <h3>New hospital or health system</h3>
           <p>Same unit, new employer. Their recruiter and their screening software are reading for
-          your license status, your cert block, your ratios, and which charting system you know. We
-          make sure every one of those is on the page, exactly as you hold it.</p>
+          your license status, your cert block, your ratios, and which charting system you know. Every
+          one of those belongs on the page, exactly as you hold it, and we write each one only from
+          what you tell us and confirm.</p>
         </div>
         <div class="card">
           <h3>Into charge or leadership</h3>
           <p>You've made the assignments, absorbed the call-offs, kept beds moving. It was "just part of
-          the job," so it never made the page. We size that scope at its true weight — beds, staff,
-          shift — and you confirm each line.</p>
+          the job," so it never made the page. We help you put that scope on the page in your own words
+          and numbers, including beds, staff, and shifts, and you confirm each line.</p>
         </div>
         <div class="card">
           <h3>Travel contracts</h3>
           <p>Six contracts in three years is a strength when each one is stated cleanly: facility, unit
-          type, ratio, float status, charting system. We lay them out contract by contract, with your
-          multistate license status where it belongs.</p>
+          type, ratio, float status, charting system. We keep them contract by contract, as your resume
+          lists them, and your multistate license status goes on the license line if you hold it.</p>
         </div>
       </div>
     </div>
@@ -127,7 +128,8 @@ const guides = [
         </div>
         <div class="card">
           <h3>Life-support and course cards</h3>
-          <p>BLS, ACLS, and PALS from the American Heart Association. NRP from the American Academy of
+          <p>BLS, ACLS, and PALS, most often from the American Heart Association (the American Red Cross
+          issues its own cards, so name the issuer on yours). NRP from the American Academy of
           Pediatrics. TNCC from the Emergency Nurses Association. Listed exactly as held, with the
           current-through date, because credentialing will check every one.</p>
         </div>
@@ -136,7 +138,8 @@ const guides = [
           <p>CCRN and PCCN (AACN Certification Corporation), CEN (Board of Certification for Emergency
           Nursing), CMSRN (Medical-Surgical Nursing Certification Board), RNC-NIC and RNC-OB (National
           Certification Corporation), CNOR (Competency &amp; Credentialing Institute). If you're sitting
-          for one soon, it's labeled that way — never as held.</p>
+          for one soon, it is never printed as held; you can add it yourself with a plain label such as
+          "exam scheduled [month/year]."</p>
         </div>
         <div class="card">
           <h3>Unit, bed count, and ratios</h3>
@@ -161,7 +164,7 @@ const guides = [
     <div class="container">
       <p class="eyebrow">What the rebuild looks like</p>
       <h2>Same true shifts — a resume that finally says what they were</h2>
-      <p class="muted">This is a sample nurse, not a real person. Every number here is one we would ask you for. If you do not confirm it, the line does not go in.</p>
+      <p class="muted">This is a sample nurse, not a real person. Every number here comes from you, either from your current resume or typed in by you when you edit a line during review. If you do not confirm a line, it does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
@@ -172,7 +175,7 @@ const guides = [
           <p>"RN, 32-bed telemetry unit, typical 1:4 assignments: continuous cardiac monitoring, titratable drips per protocol; Epic charting. Precepted 6 new-graduate nurses through unit orientation. Relief charge 4 shifts a month: acuity-based assignments for 8 RNs and 3 techs. BLS and ACLS (American Heart Association), current through 06/2027."</p>
         </div>
       </div>
-      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The bed count, the ratio, the precepting, the charge shifts, and the cert dates were all real. They just were not written down at their real size.</p>
+      <p class="muted" style="margin-top:12px">Nothing was added that wasn't already true. The bed count, the ratio, the precepting, the charge shifts, and the cert dates were all real, and the nurse supplied each one while reviewing her lines.</p>
     </div>
   </section>
 
