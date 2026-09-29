@@ -13,12 +13,12 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 12
 draft: false
 faq:
   - q: "Should teacher resumes be one page or two?"
-    a: "Two pages is normal and accepted for teachers with 5+ years - districts read for completeness (certifications, endorsements, grade bands). Leaving the classroom for a corporate role? Compress to one strong page in that industry's language."
+    a: "Two pages is common and widely accepted for teachers with five or more years, because districts look for your full certifications, endorsements, and grade bands. Leaving the classroom for a corporate role? Compress to one strong page in that industry's language."
   - q: "How do I show results without publishing student data?"
     a: "Use honest aggregates that are yours to share: growth trends, cohort sizes, program adoption. 'Reading growth outpaced the building average two years running' says it without a protected number. Never invent a statistic to fill the gap."
   - q: "What if my certificate lapsed while I was out of the classroom?"
@@ -29,14 +29,14 @@ Teaching compresses a dozen professional skills into one job title — and then 
 
 ## The credentials block: licensure first
 
-Your state teaching certificate is a screening item — make it findable in two seconds, with the state, the certification area, and grade band. Then the endorsements you may not think to list: ESOL, reading, gifted, special education, subject-area add-ons. Endorsements are exactly the kind of thing your work history implies but your resume forgets — if you taught sheltered ELL classes, there's likely paperwork behind it that belongs on the page.
+Your state teaching certificate is a screening item — make it findable in two seconds, with the state, the certification area, and grade band. Then the endorsements you may not think to list: ESOL, reading, gifted, special education, subject-area add-ons. Endorsements are easy to forget, so check your state certificate record for every one you hold, such as ESOL, reading, gifted, or special education. If you taught sheltered ELL classes, list that work in your experience, and list an ESOL endorsement only if it appears on your certificate.
 
 ## Teacher resume skills hiding inside "classroom teacher"
 
 Every one of these is a real, nameable skill that classroom work builds:
 
 - **Data-driven instruction** — you ran benchmark assessments, read the reports, and regrouped students based on them. That's data analysis with decisions attached.
-- **Compliance documentation** — IEPs (individualized education programs), 504 plans, accommodation tracking. Legal-deadline work with audit trails.
+- **Compliance documentation** — IEPs (individualized education programs), 504 plans, accommodation tracking. It is legal-deadline work with audit trails.
 - **De-escalation and behavior management** — a skill employers in every industry pay for and few can prove.
 - **Stakeholder communication** — parent conferences, difficult-news conversations, written updates to families who disagree with you.
 - **Curriculum and training design** — you build instructional sequences from standards. Corporate teams call this instructional design and hire for it.
@@ -44,11 +44,11 @@ Every one of these is a real, nameable skill that classroom work builds:
 **Before:** "Taught 3rd grade at Ridgeview Elementary."
 **After:** "Taught a 3rd-grade class of ~28, including 6 students on IEP/504 plans; regrouped instruction from quarterly benchmark data; led 40+ parent conferences a year."
 
-Same job. The second version survives both the ATS and the skim.
+It is the same job, and the second version survives both the ATS and the skim.
 
 ## A bullet bank you can adapt - keep only what's true
 
-Patterns with placeholders - your real numbers and programs go in, anything not genuinely yours stays out.
+These are patterns with placeholders: your real numbers and programs go in, and anything not genuinely yours stays out.
 
 **Instruction**
 - "Taught [grade/subject] to classes of [~N], including [N] students with IEP/504 accommodations"
@@ -79,11 +79,11 @@ The mistake is listing the staffing arrangement instead of the work. "Substitute
 
 ## Leaving the classroom: translate, don't apologize
 
-Career-change teacher resumes fail when they lead with what's being left. Lead with the transferable skill the new field buys: training and development, project coordination, data analysis, client communication. Your evidence is classroom evidence — that's fine; the naming is what changes. (Our [career-change guide](/guides/career-change-transferable-skills/) covers the full translation approach.)
+Career-change teacher resumes fail when they lead with what's being left. Lead with the transferable skill the new field buys: training and development, project coordination, data analysis, client communication. Your evidence is classroom evidence — that's fine; the naming is what changes.
 
 ## What an ATS needs from a teacher resume
 
-Spell out what districts search for: the license by its real name, endorsement names in full ("ESOL endorsement," not just "ESOL"), grade bands as words and numbers. Single column, no tables, no icons — district parsers are often older than corporate ones. (Federal school jobs, such as DoDEA, go through USAJOBS, which caps resumes at two pages as of the September 2025 OPM change.)
+Spell out what districts search for: the license by its real name, endorsement names in full ("ESOL endorsement," not just "ESOL"), grade bands as words and numbers. Use a single column with no tables or icons, because simple layouts parse most reliably. (Federal school jobs, such as DoDEA, go through USAJOBS, which caps resumes at two pages as of the September 2025 OPM change.)
 
 
 ## The before-and-after, at a glance
@@ -92,4 +92,4 @@ Spell out what districts search for: the license by its real name, endorsement n
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills and credentials that history implies, and asks you to confirm every one before it goes on the page. Nothing invented, including the things you forgot.
+The **Role Skills Checklist** below walks you through naming what your work already proves. Our build does it with you — it reads your history, proposes the skills and credentials that history implies, and asks you to confirm every one before it goes on the page. Nothing is invented, and that includes the things you forgot.

@@ -13,12 +13,12 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 89
 draft: false
 faq:
   - q: "Do I need a license to put 'plumber' on my resume?"
-    a: "Licensing is set by your state, and in some states by the city or county, with apprentice, journeyman, and master tiers whose exam and experience requirements vary from place to place. Write exactly the tier you hold, with the state and number: '[State] journeyman plumber license #[N].' If you're a registered apprentice, say so with your year. A title above your real tier is the fastest way to lose a job offer, because the license gets checked before you're on the payroll."
+    a: "You can call yourself a plumber for the work you do, but the license line has to match your real tier. Write exactly the tier you hold, with the state and number: '[State] journeyman plumber license #[N].' If you're a registered apprentice, say so with your year. A title above your real tier is the fastest way to lose a job offer, because the license gets checked before you're on the payroll."
   - q: "Should I put the plumbing code on my resume?"
     a: "Yes, the one your jurisdiction actually adopted. Most of the country works under either the IPC (International Plumbing Code, published by the ICC, the International Code Council) or the UPC (Uniform Plumbing Code, published by IAPMO, the International Association of Plumbing and Mechanical Officials), sometimes with state amendments. Name the code you built to and the inspections you passed under it. Don't list both codes unless you've genuinely worked under both."
   - q: "How do I show service plumbing experience versus new construction?"
@@ -57,19 +57,19 @@ Every item in this block gets checked against the state licensing board, so it h
 - **OSHA 10-hour or 30-hour Construction.** These are course-completion cards from the OSHA (Occupational Safety and Health Administration) Outreach Training Program. OSHA itself says the cards are not a certification, so list them as "OSHA 30-Hour Construction, [year]" — never as "OSHA certified."
 - **EPA Section 608 technician certification**, only if you also service equipment that holds refrigerant — HVAC or refrigeration work. The EPA (Environmental Protection Agency) requires it for technicians who maintain, service, repair, or dispose of that equipment. If you're strictly a plumber, leave it off; it isn't a plumbing credential.
 
-List exactly what you hold, with real dates. A tier you haven't tested for or an expired backflow certification written as current is the fastest way to lose ground in a trade where the license is checked before you're on the payroll.
+List exactly what you hold, with real dates. A tier you haven't tested for, or an expired backflow certification written as current, is exactly what a licensing-board lookup exposes.
 
 ## The parts of the job that carry the most weight
 
 **DWV rough-in.** Drain, waste, and vent is the backbone of new-construction and remodel plumbing. Say what you've run: PVC (polyvinyl chloride), ABS (acrylonitrile butadiene styrene), or cast iron, underground and above ground; venting from plans; slope, cleanouts, and test. Name the building type and the count — "[N] fixture units across [N] apartments" beats "rough-in plumbing."
 
-**Water supply.** Copper (soldered and press), PEX (cross-linked polyethylene; expansion or crimp), and CPVC (chlorinated PVC). Name the material and the joining method you're actually fluent in.
+**Water supply.** Name the materials you work in, such as copper (soldered and press), PEX (cross-linked polyethylene; expansion or crimp), or CPVC (chlorinated PVC), and the joining method you're actually fluent in.
 
 **Fixtures and trim.** Setting and trimming out water closets, lavatories, tubs and showers, and commercial fixtures — flush valves, wall-hung carriers, ADA (Americans with Disabilities Act) accessible installs. Give a count per job.
 
-**Water heaters.** Tank and tankless, gas and electric. Venting, expansion tanks, T&P (temperature and pressure relief) discharge, and gas connections where your license covers gas.
+**Water heaters.** Say whether you install tank or tankless units, gas or electric, and name the venting, expansion tanks, T&P (temperature and pressure relief) discharge, and gas connections you handle where your license covers gas.
 
-**Gas piping.** Only where you're licensed or endorsed for it. Black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections. Name the endorsement that covers it.
+**Gas piping.** Only where you're licensed or endorsed for it. Name the pipe and methods you use, such as black iron, CSST (corrugated stainless steel tubing), pressure testing, and appliance connections. Name the endorsement that covers it.
 
 **Service and diagnosis.** Service plumbers should give this its own line: calls per day, the mix of jobs (leaks, stoppages, water heater replacements, repipes), camera inspection, cable and hydro-jet drain cleaning, and customer-facing work — quoting and explaining options.
 
@@ -77,11 +77,11 @@ List exactly what you hold, with real dates. A tier you haven't tested for or an
 
 ## Format notes
 
-**Length follows your history, not a page rule.** Two pages is normal and expected once you have more than one substantive role to describe; one page is right for apprentices in the first year or two. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a scope line atop each job.
+**Length follows your history, not a page rule.** Two pages is common and widely accepted once you have more than one substantive role to describe, and one page usually fits apprentices in their first year or two. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a scope line atop each job.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 
-Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — contractor and service-company hiring systems parse plain layouts most reliably. Skip the graphics.
+Otherwise, use reverse-chronological order, a single column, standard headings, and real text rather than graphics or tables, because contractor and service-company hiring systems parse plain layouts most reliably.
 
 ## A bullet bank you can adapt — keep only what's true
 

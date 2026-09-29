@@ -13,15 +13,16 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 39
 draft: false
 faq:
   - q: "Should my resume say Medical Technologist or Medical Laboratory Scientist?"
-    a: "Use the title on your certification and the title your employer actually gave you, and don't be afraid to show both. The ASCP Board of Certification renamed the credential to Medical Laboratory Scientist — MLS(ASCP) — and MT(ASCP) is the older designation that some longtime techs still carry. If your badge said Medical Technologist and your certification reads MLS(ASCP), write your title as it was and list the credential exactly as issued. Search filters read both terms, so having both on the page helps you rather than hurts."
+    a: "Use the title on your certification and the title your employer actually gave you, and don't be afraid to show both. MLS(ASCP) is the current ASCP name and MT(ASCP) the older one, as explained above. If your badge said Medical Technologist and your certification reads MLS(ASCP), write your title as it was and list the credential exactly as issued. Search filters read both terms, so having both on the page helps you rather than hurts."
   - q: "Do I have to be certified to work as a medical technologist?"
     a: "It depends on the employer and the state. Many hospital and reference labs require ASCP or AMT certification; some states — California, New York, and Florida among them — also require a state license to perform testing, and CLIA sets federal personnel standards for the complexity of tests you run. List what you actually hold with its real status: certification body, credential, and license number if a state requires one. If a credential is pending or an exam is scheduled, say so plainly rather than implying you already hold it."
   - q: "What's the difference between an MLS and an MLT, and does it matter on a resume?"
-    a: "It matters, and blurring it is the fastest way to lose a reader's trust. A Medical Laboratory Scientist (MLS, formerly MT) typically holds a bachelor's degree and works at the technologist level; a Medical Laboratory Technician (MLT) typically holds an associate degree and works at the technician level. They are different credentials with different scopes. Write the one you hold, exactly as issued, and describe the work you actually did under it."
+    a: "Yes. They are different credentials at different levels, technologist and technician, and the section above explains the difference. Write the one you hold, exactly as issued, and describe the work you actually did under it."
   - q: "How do I show bench experience if I've mostly been a generalist?"
     a: "Name the departments you rotate through and the volume you handle. Generalist experience is genuinely valuable in smaller hospitals and on off-shifts, so don't hide it — write the benches you cover (chemistry, hematology, coag, urinalysis, blood bank, micro), the instruments you run, and roughly how many specimens or shifts you carry. A clear generalist line reads as range, not as a lack of depth."
 ---
@@ -40,13 +41,15 @@ Under each employer, give the context in one line before the bullets — your ro
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/medical-technologist-resume-example.png)
 
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
+
 The second version is scannable in a few seconds and answers what the first leaves a reader guessing at: level, departments, instruments, volume, and the LIS. It also matches how labs describe their own openings — postings list the exact benches and analyzers they need covered, so naming yours lines you up against the requirement directly.
 
 ## Certification and licensure, exactly as held
 
 This is the part a lab checks first and the part you must get exactly right.
 
-**Certifying bodies.** The ASCP Board of Certification is the largest and best known. Its current credential is **MLS(ASCP)** — Medical Laboratory Scientist — which replaced the older **MT(ASCP)** (Medical Technologist). Some longtime techs still hold and use MT(ASCP), and that's legitimate; write whichever you were issued. The other national body is **AMT** (American Medical Technologists), whose current credential is **MLS(AMT)** — AMT announced in 2022 that its older MT(AMT) designation would become Medical Laboratory Scientist, phased in through 2023, so longtime techs may still hold and use MT(AMT). Write whichever you were issued. List the body, the credential, and the year if you have it. Categorical certifications — for example in chemistry, hematology, microbiology, or blood banking — are worth a line if you hold one, because they signal depth in a specific bench.
+**Certifying bodies.** The ASCP Board of Certification is the largest and best known. Its current credential is **MLS(ASCP)** — Medical Laboratory Scientist — which replaced the older **MT(ASCP)** (Medical Technologist). Some longtime techs still hold and use MT(ASCP), and that's legitimate. Another national body is **AMT** (American Medical Technologists), whose current credential is **MLS(AMT)** — AMT announced in 2022 that its older MT(AMT) designation would become Medical Laboratory Scientist, phased in through 2023, so longtime techs may still hold and use MT(AMT). The **AAB Board of Registry** (American Association of Bioanalysts) also certifies technologists as **MT(AAB)**. Whichever body certified you, write the credential exactly as it was issued. List the body, the credential, and the year if you have it. Categorical certifications — for example in chemistry, hematology, microbiology, or blood banking — are worth a line if you hold one, because they signal depth in a specific bench.
 
 **The MLS vs MT vs MLT line.** Keep it honest. MLS and MT are the technologist-level credential (current name and older name for effectively the same track). **MLT** — Medical Laboratory Technician — is a different, technician-level credential, usually tied to an associate degree. If you hold an MLT, write MLT; don't round it up to technologist. A reference check catches the difference immediately, and labs are a small enough world that they check.
 
@@ -56,15 +59,15 @@ This is the part a lab checks first and the part you must get exactly right.
 
 ## The departments — name them and show scope
 
-**Chemistry:** analyzers you run (Roche cobas, Beckman, Abbott Architect/Alinity, Siemens), test menu, and any special assays. Volume and turnaround matter.
+**Chemistry:** Name the analyzers you run (Roche cobas, Beckman, Abbott Architect or Alinity, Siemens), your test menu, and any special assays. Volume and turnaround matter.
 
-**Hematology:** CBCs and differentials, manual diffs, body fluids; instruments like Sysmex or Beckman Coulter. Coagulation often lives here too — PT/INR, PTT, and specialty coag.
+**Hematology:** Name your CBC, differential, manual diff, and body-fluid work, and instruments such as Sysmex or Beckman Coulter. Coagulation often lives here too — PT/INR, PTT, and specialty coag.
 
-**Blood bank / immunohematology:** type and screen, antibody identification, crossmatch, component preparation and issue, and transfusion reaction workups. This is the highest-stakes bench, so demonstrated antibody-ID work and a clean record read as real competence. Name your system — many labs run this in the LIS or a dedicated module.
+**Blood bank / immunohematology:** Name your type and screen, antibody identification, crossmatch, component preparation and issue, and transfusion reaction workups. This is the highest-stakes bench, so demonstrated antibody-ID work and a clean record read as real competence. Name your system — many labs run this in the LIS or a dedicated module.
 
-**Microbiology:** culture setup and reading, Gram stains, susceptibility testing, and identification platforms (VITEK, MALDI-TOF, BD Phoenix). Molecular methods increasingly overlap here.
+**Microbiology:** Name your culture setup and reading, Gram stains, susceptibility testing, and identification platforms (VITEK, MALDI-TOF, BD Phoenix). Molecular methods increasingly overlap here.
 
-**Molecular:** PCR and other amplification methods, extraction platforms, and the assays you validated or ran. If you did assay validation or method verification, say so — it's senior-level work.
+**Molecular:** Name the PCR and other amplification methods, extraction platforms, and assays you validated or ran. If you did assay validation or method verification, say so — it's senior-level work.
 
 **Urinalysis and generalist coverage:** if you cross benches on a shift, that range is an asset in smaller and night-shift labs. Write it as coverage, not as a gap.
 
@@ -74,11 +77,11 @@ Name your **laboratory information system** clearly — **Sunquest, Epic Beaker,
 
 ## Format notes
 
-**Length follows your history, not a page rule.** If you've held two or three bench roles, cross multiple departments, or moved from technician to technologist, that's the material that puts you ahead — don't crush it onto one page to satisfy a convention. The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** A tight two pages beats a padded one page. Cut duties every tech shares; keep departments, instruments, volume, certifications, and anything that shows judgment.
+**Length follows your history, not a page rule.** If you've held two or three bench roles, cross multiple departments, or moved from technician to technologist, that's the material that puts you ahead — don't crush it onto one page to satisfy a convention. The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** A tight two pages beats a padded one page. Cut duties every tech shares; keep departments, instruments, volume, certifications, and anything that shows judgment.
 
 One genuine exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference — relevant if you're applying to a VA lab or another federal facility.
 
-Otherwise: reverse chronological, single column, a department-and-instrument line under each employer, and a clearly labeled certification and LIS block near the top. Skip the graphics — lab hiring reads plain, scannable structure as professionalism.
+Otherwise, use reverse-chronological order and a single column, put a department-and-instrument line under each employer, and add a clearly labeled certification and LIS block near the top. Skip the graphics — lab hiring reads plain, scannable structure as professionalism.
 
 ## A bullet bank you can adapt — keep only what's true
 

@@ -81,7 +81,7 @@ export const PAIRS = {
   },
   "how-to-list-certifications-on-resume": {
     before: "Certified in project management and additional IT certifications.",
-    after: "Project Management Professional (PMP) - Project Management Institute, current through 09/2027 · CompTIA A+ - CompTIA, earned 2024.",
+    after: "Project Management Professional (PMP) - Project Management Institute, current through 09/2027 · CompTIA A+ - CompTIA, current through 03/2027.",
   },
   "resume-format-for-ats": {
     before: "A two-column layout with work history down the left, skills graphics on the right, and name and phone in the page header.",

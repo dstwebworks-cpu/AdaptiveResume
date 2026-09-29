@@ -13,18 +13,18 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 67
 draft: false
 faq:
   - q: "Do I need EPA 608 certification on an HVAC resume?"
     a: "If you handle refrigerants, you need it to do the work at all — Section 608 of the Clean Air Act requires certification for anyone who maintains, services, repairs, or disposes of equipment that could release refrigerants. It's the first thing a screener looks for, so state it exactly: the type you hold (Type I, II, III, or Universal). If you're in school and haven't tested yet, say that plainly rather than leaving the line off."
   - q: "Is NATE certification worth listing?"
-    a: "Yes, if you hold it — NATE (North American Technician Excellence) is voluntary, but shops recognize it and some postings filter for it. List the real thing you earned: the specialty and track for the traditional core-plus-specialty path, or the Certified HVAC Professional (CHP-5) pathway if that's how you certified. Don't round a practice course or in-house training up to 'NATE certified' — the credential is checkable."
+    a: "Yes, if you hold it — NATE (North American Technician Excellence) is voluntary, but shops recognize it and some postings filter for it. Write the credential exactly as NATE issued it, whether that's a core-plus-specialty track or the CHP-5 pathway described above. Don't round a practice course or in-house training up to 'NATE certified' — the credential is checkable."
   - q: "Should I mention the new A2L refrigerants like R-32 and R-454B?"
     a: "If you've been trained on them or worked on equipment that runs them, absolutely — the industry is mid-transition and techs current on A2L handling are exactly what many shops are looking for right now. Say what's true: training completed, systems installed or serviced, recovery and charging practices you've actually used. If you haven't touched A2L equipment yet, don't claim it; say what you do run."
   - q: "I'm mostly an installer. Should my resume look different from a service tech's?"
-    a: "Same skeleton, different proof. Install proof is systems set per week, equipment types and tonnage range, brazing, line sets, ductwork, startup and commissioning, inspections passed. Service proof is calls per day, diagnosis, first-visit completion, and callbacks. Many techs do both — say which is your center of gravity, because shops hire for one or the other and want to know what they're getting."
+    a: "The skeleton is the same, but the proof is different. Install proof is systems set per week, equipment types and tonnage range, brazing, line sets, ductwork, startup and commissioning, inspections passed. Service proof is calls per day, diagnosis, first-visit completion, and callbacks. Many techs do both — say which is your center of gravity, because shops hire for one or the other and want to know what they're getting."
 ---
 
 HVAC (heating, ventilation, and air conditioning) hiring starts with a question the law answers: can this person legally handle refrigerants? That makes an HVAC technician resume unusual — there's one credential a screener looks for before anything else, and a resume that buries it or states it vaguely loses ground to weaker techs who wrote it clearly. After that, a shop is reading for your real scope: service or install, residential or light commercial, which equipment, how many calls.
@@ -93,11 +93,11 @@ Service managers live in dispatch software, so numbers from it translate instant
 
 ## Format notes
 
-**Length follows your history, not a page rule.** Many HVAC resumes are one strong page, and if you've held one or two roles, that's the right call — but keep the specific proof. Your EPA 608 type, refrigerants handled, equipment mix, and real numbers are what a screener needs to find, so cut generic duty lines ("provided excellent customer service") before you cut a real credential or metric. If you've run service and install across several shops, **two pages is normal once you have more than one substantive role to describe** — a tight two pages beats a padded one.
+**Length follows your history, not a page rule.** Many HVAC resumes are one strong page, and if you've held one or two roles, that's the right call — but keep the specific proof. Your EPA 608 type, refrigerants handled, equipment mix, and real numbers are what a screener needs to find, so cut generic duty lines ("provided excellent customer service") before you cut a real credential or metric. If you've run service and install across several shops, **two pages is common and widely accepted once you have more than one substantive role to describe** — a tight two pages beats a padded one.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 
-Otherwise: reverse chronological, single column, a clearly labeled certifications block near the top — EPA 608 type first — and skip the graphics. A screener wants your credential and equipment list fast, not a layout to admire.
+Otherwise, use reverse-chronological order and a single column, put a clearly labeled certifications block near the top with your EPA 608 type first, and skip the graphics. A screener wants your credential and equipment list fast, not a layout to admire.
 
 ## A bullet bank you can adapt — keep only what's true
 

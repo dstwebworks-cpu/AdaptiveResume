@@ -13,13 +13,14 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-09-29
 order: 36
 draft: false
 faq:
   - q: "Do I need to be an RRT, or is CRT enough?"
     a: "It depends on the employer and the setting. Both the CRT and the RRT are real credentials from the National Board for Respiratory Care (NBRC), and plenty of therapists work on the CRT. But many hospitals — especially for ICU and higher-acuity roles — require or strongly prefer the RRT, and some postings screen for it as a hard filter. List the credential you actually hold with its true status. If you're RRT-eligible and testing, say so; don't write RRT before you've earned it."
   - q: "Should I list ACCS or NPS if I only have a little critical care experience?"
-    a: "List a specialty credential only if you actually hold it. The Adult Critical Care Specialist (ACCS) and Neonatal/Pediatric Specialist (NPS) are separate NBRC exams beyond the RRT — holding one is a real distinction, not a description of your comfort level. If you have ICU or NICU experience but not the credential, write the experience honestly (units, acuity, vent hours) and leave the credential line for what you've earned."
+    a: "List a specialty credential only if you actually hold it. The Adult Critical Care Specialty (RRT-ACCS) and Neonatal/Pediatric Specialty (RRT-NPS) are separate NBRC exams that require the RRT first, and holding one is a real distinction, not a description of your comfort level. If you have ICU or NICU experience but not the credential, write the experience honestly (units, acuity, vent hours) and leave the credential line for what you've earned."
   - q: "How do I show critical care experience if I've mostly floated?"
     a: "Describe the units you've actually staffed and what you did there. Floating across the ICU, ED, and med-surg floors is a genuine strength — it shows range — so name the units, the acuity, and the modalities you ran in each. 'Floated ICU, ED, and step-down; managed ventilated and BiPAP patients across all three' says far more than 'provided respiratory care in various settings.'"
   - q: "Does my state license go on the resume, and what do I call it?"
@@ -40,6 +41,8 @@ Under each employer, give the context in one line before the bullets — your cr
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/respiratory-therapist-resume-example.png)
 
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
+
 The second version is scannable in four seconds and answers what the first version leaves a reader guessing at. It also matches how hospitals describe their own needs in postings — they hire for a unit and an acuity, not for "respiratory therapy" in the abstract.
 
 ## Lead with your NBRC credential, exactly as held
@@ -48,9 +51,9 @@ Your credential from the National Board for Respiratory Care is the first filter
 
 The **CRT (Certified Respiratory Therapist)** and the **RRT (Registered Respiratory Therapist)** are the two core NBRC credentials. Many higher-acuity roles require the RRT; list the one you actually hold. If you're a graduate testing toward the RRT, write it as *RRT-eligible* with your test timeline rather than claiming the credential early.
 
-Specialty credentials are separate NBRC exams beyond the RRT, and holding one is a genuine distinction: the **ACCS (Adult Critical Care Specialist)** and the **NPS (Neonatal/Pediatric Specialist)**. If you work PFTs or sleep, the CPFT/RPFT (pulmonary function technologist) and SDS (sleep disorders specialty) credentials exist too — name only what you've earned.
+The two NBRC specialty credentials are the **RRT-ACCS (Adult Critical Care Specialty)** and the **RRT-NPS (Neonatal/Pediatric Specialty)**, each earned on top of the RRT. If you work PFTs or sleep, the NBRC also issues the CPFT and RPFT (Certified and Registered Pulmonary Function Technologist) and the Sleep Disorders Specialty credential, written CRT-SDS or RRT-SDS. Name only what you've earned.
 
-Then your **state license**. Nearly every state licenses respiratory therapists, and many issue the title **RCP (Respiratory Care Practitioner)**. Use your state's exact title, name the state, and keep the status current.
+Then your **state license**, written with your state's exact title and its current status, as the FAQ below explains.
 
 Life-support cards belong here as well: **ACLS**, **PALS**, and **NRP** (the Neonatal Resuscitation Program) — list the ones you hold, with current dates, because code and delivery-room coverage often depend on them.
 
@@ -70,25 +73,25 @@ Life-support cards belong here as well: **ACLS**, **PALS**, and **NRP** (the Neo
 
 **ICU / critical care:** ventilated census, weaning, ABGs, and code coverage are your resume. Bed count and acuity are the shorthand a manager reads for competence.
 
-**NICU:** neonatal ventilation, surfactant administration, delivery-room and resuscitation coverage (NRP), transport, and the acuity level of the unit. This is where the NPS credential earns its space.
+**NICU:** Name your neonatal ventilation, surfactant administration, delivery-room and resuscitation coverage (NRP), transport work, and the unit's acuity level. This is where the RRT-NPS credential earns its space.
 
-**Emergency department:** intubation assist, non-invasive ventilation, nebs, ABGs, and fast turnover. Volume and the range of what you handle solo matter here.
+**Emergency department:** Name your intubation assists, non-invasive ventilation, nebulizer treatments, and ABGs, and show how fast the turnover runs. Volume and the range of what you handle solo matter here.
 
-**Med-surg / floor:** treatment volume, protocols, patient teaching, and coverage ratios. Naming your patient load honestly is not a weakness — floor managers know what that volume feels like.
+**Med-surg / floor:** State your treatment volume, protocols, patient teaching, and coverage ratios. Naming your patient load honestly is not a weakness — floor managers know what that volume feels like.
 
-**PFT lab:** the full study menu you run — spirometry, lung volumes, diffusion capacity, bronchodilator response, methacholine challenge — plus quality control and calibration.
+**PFT lab:** List the full study menu you run, such as spirometry, lung volumes, diffusion capacity, bronchodilator response, and methacholine challenge, plus quality control and calibration.
 
-**Sleep lab:** polysomnography setup and scoring, titration studies, and the SDS credential if you hold it.
+**Sleep lab:** Name your polysomnography setup and scoring, titration studies, and the SDS credential if you hold it.
 
 ## Format notes
 
 **Length follows your history, not a page rule.** The "keep it to one page" advice gets repeated far past the point where it helps. If you've worked more than one unit, held a specialty credential, precepted new hires, or came into respiratory from another clinical field — that's the material that puts you ahead of the other candidates, and cramming it onto one page to satisfy a convention throws away your advantage.
 
-The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** What matters is that every line earns its space. A tight two pages beats a padded one page. Cut duties everyone in the role shares; keep acuity, setting, modalities, credentials, and anything that shows judgment.
+The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** What matters is that every line earns its space. A tight two pages beats a padded one page. Cut duties everyone in the role shares; keep acuity, setting, modalities, credentials, and anything that shows judgment.
 
 One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference — it matters for VA hospital roles especially.
 
-Otherwise: reverse chronological, single column, a setting-and-acuity line under every employer, and a clearly labeled credentials-and-licensure block up top. Clinical hiring reads credentials as a proxy for how quickly you'll be cleared to work. Skip the graphics.
+Otherwise, use reverse-chronological order and a single column, put a setting-and-acuity line under every employer, and add a clearly labeled credentials-and-licensure block up top. Clinical hiring reads credentials as a proxy for how quickly you'll be cleared to work. Skip the graphics.
 
 ## A bullet bank you can adapt — keep only what's true
 

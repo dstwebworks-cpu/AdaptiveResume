@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 27
 draft: false
 faq:
@@ -52,9 +52,11 @@ One line per credential, in this shape:
 
 **Full name (Acronym) — Issuing organization, date earned or current-through date**
 
-- Certified ScrumMaster (CSM) — Scrum Alliance, earned 2025
+- Certified ScrumMaster (CSM) — Scrum Alliance, current through 11/2027
 - CompTIA Security+ — CompTIA, current through 05/2028
-- OSHA 30-Hour General Industry — completed 2024
+- OSHA 30-Hour General Industry course completion card — authorized OSHA Outreach trainer, completed 2024
+
+OSHA calls its 10- and 30-hour cards course completion cards, not certifications, so you can also list them under Training.
 
 Spell out the full name *and* the acronym, because you can't know which one a recruiter searches for. Name the issuer — "Six Sigma Green Belt" means different things from different providers, and the issuer is what makes the line checkable. Include the expiration or current-through date whenever the credential has one; an unlabeled expiring cert invites the question you least want asked in an interview.
 
@@ -97,10 +99,10 @@ They're not the same thing, and readers in licensed fields know the difference. 
 
 **Before:** "Certified in project management and additional IT certifications."
 
-**After:** "Project Management Professional (PMP) — Project Management Institute, current through 09/2027 · CompTIA A+ — CompTIA, earned 2024."
+**After:** "Project Management Professional (PMP) — Project Management Institute, current through 09/2027 · CompTIA A+ — CompTIA, current through 03/2027."
 
 Same person, same credentials — no new facts added. The rewrite just names what was already true precisely enough to be searched, checked, and believed. That's the whole job of this section: every line should survive the question "can I see the credential?"
 
 ## How we handle certifications
 
-When we build your resume, we work backwards from what your work actually involved — and certifications get the strictest treatment of anything on the page, because they're the most checkable. We ask what you hold, exactly as it reads on the credential, and place it where it carries the most weight for the job you're after. Anything still in progress gets labeled that way, plainly. Nothing lands on the page without your say-so — and nothing goes on it that you couldn't hand over proof of tomorrow. Grab the **Certification Section Cheat-Sheet** below for the format lines to copy.
+When we build your resume, we work backwards from what your work actually involved — and certifications get the strictest treatment of anything on the page, because they're the most checkable. We never print a certification as held until you confirm you hold it, and you can edit each line so it reads exactly as your credential does, including an in-progress label or a current-through date. Nothing lands on the page without your say-so. Grab the **Certification Section Cheat-Sheet** below for the format lines to copy.

@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-28
+updatedDate: 2026-09-29
 order: 73
 draft: false
 faq:
@@ -22,7 +22,7 @@ faq:
   - q: "Should I put assets under management on my resume?"
     a: "Yes, if the number is honestly yours to describe. Say whether it's your own book, a team's, or a branch's — 'co-managed [$X]M with a three-person team' is a strong line precisely because it's precise. A range is fine. What hurts you is rounding a shared number into a personal one, because this is a field that checks."
   - q: "I passed the CFP exam but haven't finished the experience requirement. Can I write CFP?"
-    a: "No. The marks belong to CFP Board and can only be used once you're certified. Write what's actually true — 'passed the CFP exam, [date]; experience requirement in progress.' That line is honest and still carries real weight, because the exam is the part everyone knows is hard."
+    a: "No. The marks belong to CFP Board and can only be used once you're certified. CFP Board does allow one resume wording before that: if you completed the education requirement within the last five years, you may write 'Candidate for CFP® certification.' Use exactly that phrase, and explain your exam and experience progress in plain words in the interview."
   - q: "Can I mention specific clients or the returns I got them?"
     a: "Describe your work, not your clients. Household counts, plan volume, retention, and asset ranges are yours to state; a client's name or portfolio performance is not, and quoting returns can create problems a resume doesn't need. Your firm's compliance rules govern what you can say publicly — when in doubt, describe scope, not results."
 ---
@@ -51,7 +51,7 @@ Write these in their own block, near the top, with real names and real status:
 
 - **SIE** — the Securities Industry Essentials exam, administered by FINRA (the Financial Industry Regulatory Authority). If it's all you hold so far, list it; it tells a hiring firm exactly where you are.
 - **Series 7** — the General Securities Representative exam, administered by FINRA. The registration it supports is held through a firm, so state the status truthfully: active through your current firm, or previously held.
-- **Series 66** — the Uniform Combined State Law Examination, written by NASAA (the North American Securities Administrators Association) and administered by FINRA. Passing it counts as having passed both the 63 and the 65, so you don't list all three.
+- **Series 66** — the Uniform Combined State Law Examination, written by NASAA (the North American Securities Administrators Association) and administered by FINRA. Paired with a valid SIE and Series 7, it qualifies you as if you had passed both the 63 and the 65, so you list the 66 rather than all three.
 - **Series 63 and Series 65** — the Uniform Securities Agent State Law exam and the Uniform Investment Adviser Law exam, both NASAA exams administered by FINRA. List whichever you actually sat for.
 - **State insurance licenses** — issued by each state's insurance department, not by FINRA. If you're licensed for life insurance and annuities, say so and name the states: "Life and annuity licensed in [states]."
 
@@ -63,7 +63,7 @@ Designations do the same work here that they do on an [underwriter resume](/guid
 
 - **CFP** — Certified Financial Planner, granted by CFP Board. Getting there involves approved coursework, the exam, qualifying experience, and an ethics commitment — which is why the letters carry weight, and why you can't use them until CFP Board says you're certified. In progress? Write the true stage.
 - **ChFC** — Chartered Financial Consultant, granted by The American College of Financial Services. Planning-focused, course-by-course; list it with the year earned.
-- **CFA** — Chartered Financial Analyst, granted by CFA Institute. More common on the portfolio-management side, but if you hold the charter or have passed a level, it signals analytical depth — state the level honestly ("passed CFA Level [I/II]" is its own real line).
+- **CFA** — Chartered Financial Analyst, granted by CFA Institute. More common on the portfolio-management side, but if you hold the charter or have passed a level, it signals analytical depth — state the level in CFA Institute's own wording: "Passed Level [I/II] of the CFA® Program" is its own real line.
 
 ## Name your setting: RIA, broker-dealer, or both
 
@@ -75,15 +75,15 @@ If you came up through a bank branch — one of the common on-ramps into this ca
 
 Beyond the book line, these are the honest metrics this field reads for — every one bracketed until it's your real figure:
 
-**Households and assets** — [N] households, [$X]M–[$X]M range, and how the book was built: referrals, a bank platform, seminars, acquisition. **Retention** — [N]% of households retained over [N] years says more than any adjective about relationships. **Plans delivered** — [N] full financial plans a year separates planners from pure gatherers. **Net new assets** — [$X]M brought in over [period], with the source named honestly. **Client contact discipline** — [N] review meetings a year, documented in your CRM (customer relationship management system) — name it if it's Salesforce or Redtail, because clean notes are a compliance skill firms actively want.
+**Households and assets:** State how many households you serve, the asset range, and how the book was built, whether through referrals, a bank platform, seminars, or an acquisition. **Retention** — [N]% of households retained over [N] years says more than any adjective about relationships. **Plans delivered** — [N] full financial plans a year separates planners from pure gatherers. **Net new assets** — [$X]M brought in over [period], with the source named honestly. **Client contact discipline** — [N] review meetings a year, documented in your CRM (customer relationship management system) — name it if it's Salesforce or Redtail, because clean notes are a compliance skill firms actively want.
 
 What's never yours to claim: client names, individual outcomes, or performance numbers. Describe the practice, not the portfolios.
 
 ## Format notes
 
-**Length follows your history, not a page rule.** If you've held seats at two firms, carry insurance licenses in several states, and hold a designation, cramming that into one page throws away your evidence. The honest rule: **two pages is normal and expected once you have more than one substantive role to describe** — as long as every line earns its space. One genuine exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change.
+**Length follows your history, not a page rule.** If you've held seats at two firms, carry insurance licenses in several states, and hold a designation, cramming that into one page throws away your evidence. The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe** — as long as every line earns its space. One genuine exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change.
 
-Otherwise: reverse chronological, single column, a licenses-and-designations block near the top, and no graphics. This is a conservative, compliance-reviewed field; a clean, plain document reads as a professional habit, because it is one.
+Otherwise, use reverse-chronological order, a single column, a licenses-and-designations block near the top, and no graphics. This is a conservative, compliance-reviewed field; a clean, plain document reads as a professional habit, because it is one.
 
 ## A bullet bank you can adapt — keep only what's true
 

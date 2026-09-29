@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-02
-updatedDate: 2026-09-27
+updatedDate: 2026-09-29
 order: 62
 draft: false
 faq:
@@ -41,13 +41,15 @@ Under each employer, give the context in one line before the bullets — line of
 
 ![Before and after example of an improved resume line - every line confirmed by the person](/img/guides/examples/underwriter-resume-example.png)
 
-The second version answers what the first leaves a reader guessing: which programs, how much you can sign for, how fast, and which automated systems you actually ran. For an insurance underwriter the same line looks like: "Commercial package and BOP; book of [$X] written premium; authority to [$X] per account; quotes turned in [N] days on average." Same shape, different nouns.
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
+
+The second version answers what the first leaves a reader guessing: which programs, how much you can sign for, how fast, and which automated systems you actually ran. For an insurance underwriter the same line looks like: "Commercial package and BOP; book of [$X] written premium; authority to [$X] per account; quotes turned in [N] days on average." The shape is the same; only the nouns change.
 
 ## Insurance underwriter resume
 
 **Name the line of business and the market segment.** Commercial property, general liability, workers' compensation, commercial auto, personal lines, excess and surplus, life, disability, or health — say it plainly, and say whether you worked small business, middle market, or large accounts. Insurance hiring is segmented by line, and a "P&C underwriter" with no line named competes badly against people who name theirs.
 
-**Put the numbers on the page.** The metrics insurance managers read for are the ones they're measured on themselves: **loss ratio** (claims paid against premium earned), **hit ratio** (quotes that bound as policies), **written premium** on your book, **authority limit** per account, quote turnaround, renewal retention, and new-business count. If your book beat plan, say by how much. If you inherited a book and improved it, say what changed.
+**Put the numbers on the page.** The metrics insurance managers read for are the ones they're measured on themselves: **loss ratio** (losses incurred, including reserves for claims not yet paid, against premium earned), **hit ratio** (quotes that bound as policies), **written premium** on your book, **authority limit** per account, quote turnaround, renewal retention, and new-business count. If your book beat plan, say by how much. If you inherited a book and improved it, say what changed.
 
 **Systems are a hard filter.** Name your policy administration and rating platforms — Guidewire PolicyCenter, Duck Creek Policy, or whatever your carrier runs — plus rating tools and any ISO or NCCI classification work you did. Larger carriers screen for the platform by name.
 
@@ -57,7 +59,7 @@ Claims adjusters share a lot of vocabulary with underwriters, but the resume is 
 
 ## Mortgage underwriter resume
 
-**Name the loan programs.** Conventional, FHA, VA, USDA, jumbo, non-QM, construction, HELOC. Then the agency or investor guidelines you worked under. A hiring manager for a government-lending desk wants FHA and VA in the first screen.
+**Name the loan programs.** Name the programs you've underwritten, such as conventional, FHA, VA, USDA, jumbo, non-QM, construction, or HELOC, and then the agency or investor guidelines you worked under. A hiring manager for a government-lending desk wants FHA and VA in the first screen.
 
 **Authority and program designations carry real weight.** An **FHA Direct Endorsement (DE) underwriter** is registered by their lender with HUD through FHA Connection and receives an FHA underwriter ID number that follows them between employers — if you hold one, put "FHA DE underwriter" on the page with the year you were registered. For VA lending, a **Staff Appraisal Reviewer (SAR)** is a lender employee approved by VA under the **Lender Appraisal Processing Program (LAPP)** to review VA appraisals for the lender; VA requires at least three years of qualifying experience before approval. If you're SAR-approved, say so. Don't write DE or SAR because you underwrote FHA or VA files under someone else's authority — that's exactly the line a reference check catches.
 
@@ -65,7 +67,7 @@ Claims adjusters share a lot of vocabulary with underwriters, but the resume is 
 
 **The metrics.** Files underwritten per month, decision turn times, your signing authority in dollars, pull-through (files that closed against files you approved), condition cure rates, and post-closing or investor audit results — a low defect rate on QC review is one of the strongest lines a mortgage underwriter can write. Manual underwriting experience is worth its own line; many underwriters have only worked findings.
 
-**One honest note on licensing.** NMLS licensing is for loan originators. An underwriter employed by a licensed lender and working under licensed originators generally doesn't need one; independent contract underwriters are treated differently under the SAFE Act. List an NMLS ID only if you actually hold one.
+**One honest note on licensing.** NMLS licensing is built for loan originators, and whether an underwriter needs one depends on how they're employed, as the FAQ below explains. List an NMLS ID only if you actually hold one.
 
 ## Junior underwriters and underwriting assistants
 
@@ -75,11 +77,11 @@ If you're in a trainee or assistant role, describe the real scope: files prepare
 
 **Length follows your history, not a page rule.** If you've underwritten across two lenders and three loan programs, or moved from processing into underwriting, or came from a credit or claims role that sharpened your judgment — that history is your edge, and cutting it to fit one page throws it away.
 
-The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** What matters is that every line earns its place. Cut duties every underwriter shares; keep authority, volume, programs, systems, and audit results.
+The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** What matters is that every line earns its place. Cut duties every underwriter shares; keep authority, volume, programs, systems, and audit results.
 
 One genuine exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference.
 
-Otherwise: reverse chronological, single column, a line-of-business and authority line under every employer, and a clearly labeled systems block — DU, LPA, Encompass, Guidewire, Duck Creek, whatever you ran. Skip the graphics. Underwriting is a conservative field; a plain, dense, accurate page is the right signal.
+Otherwise, use reverse-chronological order and a single column, put a line-of-business and authority line under every employer, and add a clearly labeled systems block naming DU, LPA, Encompass, Guidewire, Duck Creek, or whatever you ran. Skip the graphics. Underwriting is a conservative field; a plain, dense, accurate page is the right signal.
 
 ## A bullet bank you can adapt — keep only what's true
 
