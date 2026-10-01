@@ -17,9 +17,9 @@ const faq = [
   { q: 'Will you add things I never did?',
     a: "Never. Nothing goes on the page you didn't confirm. Every finding is shown to you first; you confirm it, edit it, or skip it. If a line reads wrong, you can edit it directly or leave a note and we redo that line from your note. You approve every new line before it lands." },
   { q: 'How is this different from a resume rewrite service that charges hundreds?',
-    a: "Three ways. One: we start from what you actually did, not from a template. Two: you see and confirm every new line, so nothing is made up, and nothing you confirmed gets cut without your say-so. Three: you pay once, $49 for the Base resume or $149 for the Targeted resume aimed at one specific posting, with no subscription and no revision rounds to argue over." },
+    a: "Three ways. One: we start from what you actually did, not from a template. Two: you see and confirm every new line, so nothing is made up, and nothing you confirmed gets cut without your say-so. Three: you pay once, $49 for the Base Resume Build or $149 for the Targeted Resume Build aimed at one specific posting, with no subscription and no revision rounds to argue over." },
   { q: 'What if I want it aimed at a specific job?',
-    a: "That's the $149 Targeted resume. Bring the posting and we translate your confirmed experience into that field's language, and add 25 interview questions relevant to that role." },
+    a: "That's the $149 Targeted Resume Build. Bring the posting and we translate your confirmed experience into that field's language, and add 25 interview questions relevant to that role." },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -56,7 +56,7 @@ const breadcrumbLd = {
       </p>
       <div class="cta-row">
         {LAUNCHED
-          ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+          ? <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
           : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
         <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
       </div>
@@ -131,7 +131,7 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base resume</h3>
+          <h3>Base Resume Build</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume, rewritten from what you actually did — complete, honest,
           and readable to screening software.</p>
@@ -143,9 +143,9 @@ const breadcrumbLd = {
         </div>
         <div class="card price featured">
           <span class="tag-premium">For one specific posting</span>
-          <h3>Targeted resume</h3>
+          <h3>Targeted Resume Build</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the Base resume, aimed at one job posting you bring us.</p>
+          <p class="muted">Everything in the Base Resume Build, aimed at one job posting you bring us.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>

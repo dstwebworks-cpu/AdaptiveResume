@@ -18,7 +18,7 @@ const faq = [
   { q: 'Is this a subscription? What about revisions?',
     a: "No subscription, nothing to cancel. $49 or $149, one-time. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. You pay once, with no revision rounds to argue over." },
   { q: 'What is the difference between the $49 resume and the $149 resume?',
-    a: 'The $49 resume makes your one resume complete and honest, in a file that screening software reads cleanly. The $149 Targeted resume aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role.' },
+    a: 'The $49 resume makes your one resume complete and honest, in a file that screening software reads cleanly. The $149 Targeted Resume Build aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role.' },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -56,7 +56,7 @@ const breadcrumbLd = {
         </p>
         <div class="cta-row">
           {LAUNCHED
-            ? <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+            ? <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
             : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
           <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
@@ -173,7 +173,7 @@ const breadcrumbLd = {
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base resume</h3>
+          <h3>Base Resume Build</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume is made complete and honest, in a file that screening software reads cleanly. Everything you've earned is finally on paper.</p>
           <ul class="ticks">
@@ -185,9 +185,9 @@ const breadcrumbLd = {
         </div>
         <div class="card price featured">
           <span class="tag-premium">Aimed at one posting</span>
-          <h3>Targeted resume</h3>
+          <h3>Targeted Resume Build</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the Base resume, aimed at one specific job posting you bring us.</p>
+          <p class="muted">Everything in the Base Resume Build, aimed at one specific job posting you bring us.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>

@@ -28,7 +28,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="cta-row">
           {LAUNCHED
             ? <>
-                <a class="btn btn-amber btn-lg" href="#get-started">Upload your resume &amp; get started</a>
+                <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
                 <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>
             : <>
@@ -144,8 +144,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <p class="lede">For career changers, military and government-to-private transitions, the trades, and specialists who do far more than their resume shows.</p>
         <ul class="ticks">
           <li>We'll find the skills and credentials you left off — you confirm each one, in your words</li>
-          <li>Aiming at one specific job? Our $149 Targeted resume aims your experience at it.</li>
-          <li>Aiming at a new field? Our Targeted resume turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
+          <li>Aiming at one specific job? Our $149 Targeted Resume Build aims your experience at it.</li>
+          <li>Aiming at a new field? Our Targeted Resume Build turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
           <li>See for yourself how the screening software reads your resume</li>
           <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
@@ -269,7 +269,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Your record is strong. Its language is the problem.</h2>
       <p class="lede">
         Civilian screening software has never heard of an AMAL block, an NCOER, or a property book.
-        Our Targeted resume translates what you actually did into the words civilian employers search for, and you approve every new line.
+        Our Targeted Resume Build translates what you actually did into the words civilian employers search for, and you approve every new line.
       </p>
       <div class="beforeafter">
         <div class="ba-row"><span class="ba-tag">Your resume says</span>
@@ -289,7 +289,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>One-time payment. No subscription. Nothing to cancel.</h2>
       <div class="grid cols-2 pricing">
         <div class="card price">
-          <h3>Base resume</h3>
+          <h3>Base Resume Build</h3>
           <p class="amount">$49<span>one-time</span></p>
           <p class="muted">Your one resume, made complete — everything you've earned, finally on paper.</p>
           <ul class="ticks">
@@ -298,21 +298,21 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>Reads cleanly for the screening software, and for the person after it</li>
             <li>We run the format checks screening software cares about — and show you each one</li>
           </ul>
-          <a class="btn btn-primary" href="#get-started">{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=base' : '#get-started'}>{LAUNCHED ? 'Start my Base Resume Build' : 'Join the launch list for 25% off'}</a>
         </div>
 
         <div class="card price featured">
           <span class="tag-premium">For a specific role</span>
-          <h3>Targeted resume</h3>
+          <h3>Targeted Resume Build</h3>
           <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the Base resume, plus we aim your resume at the one job you are going for, in the language that employer's hiring team recognizes.</p>
+          <p class="muted">Everything in the Base Resume Build, plus we aim your resume at the one job you are going for, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
             <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
           <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href="#get-started">{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=targeted' : '#get-started'}>{LAUNCHED ? 'Start my Targeted Resume Build' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
       <p class="muted finep">{LAUNCHED ? 'Your second resume is 25% off, and every one after that is 50% off.' : 'If you join the launch list, your first resume is 25% off. Your second resume is also 25% off, and every one after that is 50% off.'}</p>
