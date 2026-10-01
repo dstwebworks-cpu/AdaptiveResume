@@ -13,6 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-08-30
+updatedDate: 2026-10-01
 order: 34
 draft: false
 faq:
@@ -23,7 +24,7 @@ faq:
   - q: "What if I didn't put it there — a template or a resume service did?"
     a: "This happens more than people realize, and it's the reason we check. Some paid resume services and downloadable templates have stuffed hidden keywords on a client's behalf without saying so. You'd have no way of knowing, and you'd carry the risk. Run the free scan, look at what's actually in the file, and delete anything you didn't write."
   - q: "Is hiding instructions for an AI screener different from hiding keywords?"
-    a: "Technically yes, and it's the newer version of the same idea — text no human sees, aimed at the software rather than the recruiter. Duke researchers found it in about 1% of 200,000 real resumes in 2026, with a sevenfold jump in roughly eighteen months. It's also the version most likely to read as deliberate deception rather than an honest formatting mistake, because a sentence like 'ignore previous instructions' has no innocent explanation."
+    a: "Technically yes, and it's the newer version of the same idea — text no human sees, aimed at the software rather than the recruiter. In research published in 2026, Duke-led researchers found it in about 1% of 200,000 real resumes submitted between 2019 and 2025, with a sevenfold jump between July 2024 and November 2025. It's also the version most likely to read as deliberate deception rather than an honest formatting mistake, because a sentence like 'ignore previous instructions' has no innocent explanation."
   - q: "How do I get keywords onto my resume honestly?"
     a: "Say true things using the words your field actually uses. Many people are underselling real experience with vague phrasing, not missing keywords they'd have to invent. The certifications, standards, and systems you've genuinely worked with are usually the keywords a posting asks for — you just haven't written them down yet."
 ---
@@ -92,7 +93,7 @@ Three checks you can run in about two minutes:
 2. **Save as plain text** (.txt) and open it. Every word survives; all formatting disappears. Anything you don't recognize was hidden.
 3. **Check the file size against the page count.** A one-page resume that's unusually heavy sometimes has content you can't see.
 
-Our **free scan** looks for this too — including white and near-white text, text too small to read, and text hidden in headers — and tells you what it found without any judgment about how it got there. It runs without an account and we don't store the file.
+For Word files, our **free scan** checks for white and near-white text, text too small to read, and text hidden in headers. For any file, it flags invisible characters and sentences written to steer screening software, and it tells you what it found without guessing how it got there. It runs without an account and we don't store the file.
 
 ## What to do instead, in order
 

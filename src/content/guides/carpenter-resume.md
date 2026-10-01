@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-10-01
 order: 83
 draft: false
 faq:
@@ -24,7 +24,7 @@ faq:
   - q: "What skills should a carpenter resume list?"
     a: "The ones you've done, by name: rough framing, layout, concrete formwork, finish and trim, door hanging and hardware, cabinet installation, drywall, and plan reading. Add the code you work under (IRC — International Residential Code — or IBC — International Building Code), the tools you run, and the scope around the work: crew size, square footage, units, and punch-list closeout. Skip skill lists that just say 'carpentry' and 'teamwork.'"
   - q: "Should I list my union apprenticeship on a carpenter resume?"
-    a: "Yes, as a credential with its own line. A completed UBC (United Brotherhood of Carpenters and Joiners of America) apprenticeship is a registered program with the U.S. Department of Labor, and finishing it makes you a journeyman — that's a status, not a job title, and it belongs in your credentials block with the training center and year. If you're still in the program, write 'Carpenter Apprentice, [year] of [N]' so the reader knows exactly where you stand."
+    a: "Yes, as a credential with its own line. A completed UBC (United Brotherhood of Carpenters and Joiners of America) apprenticeship is a registered program, registered with the U.S. Department of Labor or a state apprenticeship agency, and finishing it makes you a journeyman — that's a status, not a job title, and it belongs in your credentials block with the training center and year. If you're still in the program, write 'Carpenter Apprentice, [year] of [N]' so the reader knows exactly where you stand."
 ---
 
 Carpentry hiring runs on one question: what can you actually build, and how much of it have you done? A superintendent reading your resume wants to know whether you can lay out a wall from the plans, frame it plumb and square, and hand off a room that passes punch list. Generic language ("skilled carpenter with a strong work ethic and attention to detail") doesn't answer that. The specifics do — the kind of carpentry, the size of what you built, the crew you worked with, and the training you hold exactly as issued.
@@ -49,7 +49,7 @@ The second version is scannable in four seconds. Notice the rewrite invents noth
 
 Carpentry has few required credentials, so the ones you hold get read closely. Our guide on [how to list certifications on a resume](/guides/how-to-list-certifications-on-resume/) covers placement and format; here is what typically belongs in a carpenter's block, listed with the issuing body and year.
 
-- **Apprenticeship and journeyman status.** A UBC (United Brotherhood of Carpenters and Joiners of America) apprenticeship is a registered apprenticeship with the U.S. Department of Labor; most run four years, with curriculum from the CITF (Carpenters International Training Fund) through regional training centers. Completing it makes you a journeyman carpenter — write "Journeyman Carpenter — [training center], [year]," or "Carpenter Apprentice, [year] of [N]" if you're still in it. Non-union registered apprenticeships count the same way; name the sponsor.
+- **Apprenticeship and journeyman status.** A UBC (United Brotherhood of Carpenters and Joiners of America) apprenticeship is a registered apprenticeship, registered with the U.S. Department of Labor or a state apprenticeship agency; most run four years, with curriculum from the CITF (Carpenters International Training Fund) through regional training centers. Completing it makes you a journeyman carpenter — write "Journeyman Carpenter — [training center], [year]," or "Carpenter Apprentice, [year] of [N]" if you're still in it. Non-union registered apprenticeships count the same way; name the sponsor.
 - **NCCER Carpentry.** The NCCER (National Center for Construction Education and Research) structures its carpentry curriculum in three tiers — General Carpentry; Advanced Carpentry: Frame & Finish; and Form Carpentry — with NCCER Core as the prerequisite. List the tier completed and the year.
 - **OSHA 10-hour or 30-hour construction card.** OSHA (Occupational Safety and Health Administration) runs the Outreach Training Program; the 10-hour class is for workers, the 30-hour for supervisors or anyone with safety responsibility. Write "OSHA 30-Hour Construction, [year]." OSHA itself says the card is not a certification or license, so don't call it one.
 - **Scaffold training.** OSHA's construction scaffold standard, 29 CFR 1926 Subpart L, requires anyone who works on a scaffold to be trained by a qualified person, and anyone who erects, moves, or dismantles one to be trained by a competent person. If your employer has designated you the scaffold competent person, say so — it's worth a line.

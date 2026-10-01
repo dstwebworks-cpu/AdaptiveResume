@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-29
+updatedDate: 2026-10-01
 order: 95
 draft: false
 faq:
@@ -29,7 +29,7 @@ faq:
 
 A phlebotomist resume is read by a lab supervisor or a patient services manager, and they read for two things: volume and quality. Volume means how many draws you performed, in what setting, and how difficult they were. Quality means whether the specimens you sent arrived labeled, in the right tubes, in the right order, and usable — because a redraw costs the lab time and costs the patient a second stick. Generic language — "drew blood from patients and processed samples" — says nothing about either. The specifics do.
 
-The other thing that sinks phlebotomist resumes is the credential written loosely. There are four national phlebotomy certifications from four different bodies, plus state licensure in a few states, and "certified phlebotomist" doesn't tell a reader which one you hold. This guide is about writing all of it exactly.
+The other thing that sinks phlebotomist resumes is the credential written loosely. There are several national phlebotomy certifications from different bodies, plus state licensure in a few states, and "certified phlebotomist" doesn't tell a reader which one you hold. This guide is about writing all of it exactly.
 
 ## The draw line: your scope in one sentence
 

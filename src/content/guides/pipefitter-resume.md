@@ -13,7 +13,7 @@ cta:
   label: "Build your resume — $49"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-10-01
 order: 82
 draft: false
 faq:
@@ -54,7 +54,7 @@ Every item in this block gets checked by the hall or the contractor's quality de
 - **NCCER Pipefitting.** NCCER (National Center for Construction Education and Research) publishes a four-level Pipefitting curriculum — threaded, socket-weld, and butt-weld fabrication, valves, hangers and supports, testing, hot taps, and more. List the highest level you completed: "NCCER Pipefitting, Level [N]."
 - **Weld qualifications, tied to who tested you.** A welder performance qualification under **ASME Section IX** (the welding and brazing qualification section of the ASME Boiler and Pressure Vessel Code, from ASME, the American Society of Mechanical Engineers) is issued by the contractor or manufacturer that tested you, to a specific process and position, and has to be kept current. Write it that way: process, position, material, who tested you, year. The **UA Welder Certification** program runs its own numbered weld tests; list those by test number.
 - **OSHA 10-hour or 30-hour Construction.** These are course-completion cards from the OSHA (Occupational Safety and Health Administration) Outreach Training Program. OSHA itself says the cards are not a certification or license, so list them as "OSHA 30-Hour Construction, [year]" — never as "OSHA certified."
-- **Rigging and signal person.** Under OSHA's crane standard, a signal person has to be qualified by a qualified evaluator (29 CFR 1926.1428), and a qualification done in-house by one employer isn't portable to the next — so name who qualified you. Crane rigging calls for a qualified rigger (29 CFR 1926.1404 and 1926.1425). The UA also offers a UA/EPRI Industrial Rigging Certification and a UA/NCCCO Crane Signalperson Certification, with EPRI (Electric Power Research Institute) and NCCCO (National Commission for the Certification of Crane Operators); list those by name if you hold them.
+- **Rigging and signal person.** Under OSHA's crane standard, a signal person has to be qualified by a qualified evaluator (29 CFR 1926.1428), and a qualification done in-house by one employer isn't portable to the next — so name who qualified you. Crane rigging calls for a qualified rigger (29 CFR 1926.1404 and 1926.1425). The UA also offers a UA/EPRI Industrial Rigging & Signage Certification, with EPRI (the Electric Power Research Institute), and a UA Crane Signalperson Certification; list those by name if you hold them.
 - **ASSE 6010 Medical Gas Systems Installer**, from ASSE International, where you install medical gas and vacuum piping in hospitals. An exam-based professional qualification with a brazing practical; only list it if you hold it.
 
 List exactly what you hold, with real dates. A misnamed code or an expired weld qualification written as current is the fastest way to lose ground in a trade where every credential gets checked.
