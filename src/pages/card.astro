@@ -2,8 +2,8 @@
 import Base from '../layouts/Base.astro';
 // Business-card offer page (09/26/2026). The QR on the back of the founder's business card
 // resolves here. Pre-launch: capture the email (source=card) and promise the code in the
-// launch email. Post-launch (PUBLIC_LAUNCHED=1): show the code and link to the app, exactly
-// as the other landing pages flip. The code itself is never printed on the card.
+// launch email. Post-launch (PUBLIC_LAUNCHED=1, 10/01/2026): the code does not work at checkout yet, so the page still
+// collects the email and asks people to wait for the code before buying. Show the code only once checkout accepts it.
 // Offer ruling + proposed parameters: 02-finance/decisions/pricing.md ("Business-card offer code").
 const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
 const appUrl = import.meta.env.PUBLIC_APP_URL
@@ -27,7 +27,7 @@ const CODE = 'CARD50';
       {LAUNCHED ? (
         <>
           <h2>Get your code by email.</h2>
-          <p class="lede">Leave your email and we'll send your 50% code as soon as it's ready to use at checkout. That is the only thing the email is for.</p>
+          <p class="lede">Leave your email and we'll send your 50% code as soon as it works at checkout. Please wait for that email before you buy, because we can't add the code after you pay. We'll also send the occasional useful note, and you can unsubscribe with one click.</p>
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
             <input type="hidden" name="source" value="card" />
@@ -36,7 +36,7 @@ const CODE = 'CARD50';
             <button class="btn btn-amber btn-lg" type="submit">Send me the code</button>
           </form>
           <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. No spam.</p>
-          <p class="capture-done hide" id="captureDone">Thank you. Your 50% is saved to this email, and we'll send your code as soon as it's ready.</p>
+          <p class="capture-done hide" id="captureDone">Thank you. We'll email your 50% code to this address as soon as it works at checkout. Please wait for it before you buy.</p>
           <p class="capture-err hide" id="captureErr">That email did not look right. Mind trying it again?</p>
         </>
       ) : (

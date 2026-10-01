@@ -107,7 +107,7 @@ const related = ring.length <= 3 ? ring
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free template</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Pop your email in and the download unlocks right here. Joining our list also takes <b>25% off your first resume</b> through October 31, 2026, when you sign up with the same email, and we'll send the occasional useful note. No spam.</p>
+        <p class="muted">Pop your email in and the download unlocks right here. Joining our list also takes <b>25% off your first resume</b> through October 31, 2026, when you create your account with this same email. We'll also send the occasional useful note. No spam.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
@@ -116,7 +116,7 @@ const related = ring.length <= 3 ? ring
           <button class="btn btn-primary" type="submit">Unlock the template</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download: {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>Thanks, you're on our list. Your 25% off is saved to this email, and your download is ready below.</p>
+        <p class="gate-note muted" hidden>Thanks, you're on our list. Your 25% off is saved to this email through October 31, 2026, and your download is ready below.</p>
         <p class="gate-err muted" hidden>That email didn't look right — mind trying it again?</p>
       </div>
 
