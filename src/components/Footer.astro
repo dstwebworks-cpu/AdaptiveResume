@@ -1,5 +1,4 @@
 ---
-import AtsTerm from './AtsTerm.astro';
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
@@ -45,15 +44,6 @@ const year = new Date().getFullYear();
       <a href="/disclaimer/">Disclaimer</a>
     </nav>
 
-    <div>
-      <h4>How AdaptiveResume Works</h4>
-      <ul class="how">
-        <li>We never make anything up.</li>
-        <li>Your resume reads cleanly for screening software (<AtsTerm />).</li>
-        <li>We only add things you confirm are true.</li>
-        <li>Any edit you make stays.</li>
-      </ul>
-    </div>
   </div>
 
   <div class="container legal">
@@ -67,16 +57,13 @@ const year = new Date().getFullYear();
   .cols { display: grid; gap: 28px; grid-template-columns: 1fr; }
   @media (min-width: 760px) { .cols { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
-  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--ink); color: #fff; font-size: .74rem; font-weight: 800; }
+  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: .74rem; font-weight: 800; }
   .brandcol p { max-width: 34ch; font-size: .95rem; }
   .site-footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
   .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-bottom: 9px; }
   .site-footer nav a:hover { color: var(--ink); }
   .social { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-top: 4px; }
   .social:hover { color: var(--ink); }
-  .how { list-style: none; padding: 0; margin: 0; }
-  .how li { color: var(--ink-soft); font-size: .95rem; margin-bottom: 9px; padding-left: 20px; position: relative; }
-  .how li::before { content: "✓"; position: absolute; left: 0; color: var(--true); font-weight: 800; }
   .legal { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); }
   .legal p { font-size: .85rem; margin: 0; }
 </style>
