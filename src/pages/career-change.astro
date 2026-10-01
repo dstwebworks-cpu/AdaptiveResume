@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 // Transition landing page (08/06 research: GO-WITH-CHANGES — dedicated message-matched
 // page is the highest-evidence conversion lever; $149 presented FIRST on transition
 // intent, $49 visible below, both honest). Pre-launch CTA = waitlist capture only.
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
 const appUrl = import.meta.env.PUBLIC_APP_URL
   ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
 const waitlistAction = appUrl + '/waitlist';
@@ -15,7 +16,7 @@ const faq = [
   { q: 'Why $149 instead of the $49 resume?',
     a: 'The $49 resume makes your one resume complete. The $149 Targeted resume aims it at the specific posting you want next: your experience translated into that posting\'s language, plus 25 interview questions you may face for that role. For a transition, the translation is the product.' },
   { q: 'Can I buy from any state?',
-    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. At launch, the free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
+    a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -46,7 +47,7 @@ const breadcrumbLd = {
         every new line — so the resume that crosses over is complete, honest, and recognizably you.
       </p>
       <div class="cta-row">
-        <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
+        <a class="btn btn-amber btn-lg" href={LAUNCHED ? appUrl : '#get-started'}>{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
         <a class="btn btn-ghost btn-lg" href="#pricing">See pricing first</a>
       </div>
       <ul class="pills">
@@ -138,18 +139,31 @@ const breadcrumbLd = {
 
   <section class="section" id="get-started">
     <div class="container narrow" style="text-align:center">
-      <h2>We launch in October 2026 — be first in line</h2>
-      <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Transferable Skills Inventory (a ready-to-use Word worksheet) the moment you join. We'll tell you the moment it's live, plus the occasional genuinely useful note on making a transition resume work. No spam.</p>
-      <form class="capture-form" method="post" action={waitlistAction}>
-        <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
-        <input type="hidden" name="source" value="career-change-page" />
-        <input type="hidden" name="redirect" value="/career-change/" />
-        <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-        <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
-      </form>
-      <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
-      <a class="btn btn-premium hide" id="captureGift" href="/templates/transferable-skills-inventory.docx" download>Download your Transferable Skills Inventory</a>
-      <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+      {LAUNCHED ? (
+        <>
+          <h2>Let's build the resume that carries you into your new field.</h2>
+          <p class="lede">Create your account, upload your resume, and we'll dig into what your work actually involved, together. Nothing new goes on your resume until you tell us it's right.</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account and get started</a>
+          </div>
+          <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
+        </>
+      ) : (
+        <>
+        <h2>We launch in October 2026 — be first in line</h2>
+        <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Transferable Skills Inventory (a ready-to-use Word worksheet) the moment you join. We'll tell you the moment it's live, plus the occasional genuinely useful note on making a transition resume work. No spam.</p>
+        <form class="capture-form" method="post" action={waitlistAction}>
+          <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+          <input type="hidden" name="source" value="career-change-page" />
+          <input type="hidden" name="redirect" value="/career-change/" />
+          <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+          <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
+        </form>
+        <p class="capture-done hide" id="captureDone">You're on the list, and your 25% is locked in. We'll send the occasional useful note and tell you the moment we're live.</p>
+        <a class="btn btn-premium hide" id="captureGift" href="/templates/transferable-skills-inventory.docx" download>Download your Transferable Skills Inventory</a>
+        <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+        </>
+      )}
     </div>
   </section>
 

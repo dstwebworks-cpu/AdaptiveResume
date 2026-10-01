@@ -5,6 +5,7 @@
 // app origin — the demo makes zero server/model calls (all sample data). Publicly
 // linkable in ads + the hero; email capture happens AFTER the person sees value.
 import Base from '../layouts/Base.astro';
+const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
 const appUrl = import.meta.env.PUBLIC_APP_URL
   ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
 const waitlistAction = appUrl + '/waitlist';
@@ -45,15 +46,24 @@ const waitlistAction = appUrl + '/waitlist';
 
         <div class="cta-card">
           <p class="lead">This is what you'd walk away with — from your <b>own</b> resume.</p>
-          <p>Same way, every time: we work backwards from the jobs you've actually held, you approve every new line, and nothing goes in that isn't yours. Join the launch list before launch and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>
-          <form class="capture-form" method="post" action={waitlistAction}>
-            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
-            <input type="hidden" name="source" value="demo-page" />
-            <input type="hidden" name="redirect" value="/demo" />
-            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
-            <button class="btn btn-amber btn-lg" type="submit">Join the launch list for 25% off</button>
-          </form>
-          <p class="start-alt muted">We only need your email. There is no account to create and no card to enter. Your 25% off is locked in for launch, and the free ATS-safe resume template downloads the moment you join. No spam.</p>
+          <p>Same way, every time: we work backwards from the jobs you've actually held, you approve every new line, and nothing goes in that isn't yours.{!LAUNCHED && <> Join the launch list before launch and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</>}</p>
+          {LAUNCHED ? (
+            <>
+              <a class="btn btn-amber btn-lg" href={appUrl}>Start with your own resume</a>
+              <p class="start-alt muted">Creating your account is free, and you pay only when you're ready to start your review.</p>
+            </>
+          ) : (
+            <>
+              <form class="capture-form" method="post" action={waitlistAction}>
+                <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+                <input type="hidden" name="source" value="demo-page" />
+                <input type="hidden" name="redirect" value="/demo" />
+                <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+                <button class="btn btn-amber btn-lg" type="submit">Join the launch list for 25% off</button>
+              </form>
+              <p class="start-alt muted">We only need your email. There is no account to create and no card to enter. Your 25% off is locked in for launch, and the free ATS-safe resume template downloads the moment you join. No spam.</p>
+            </>
+          )}
           <button class="btn btn-ghost" id="restartBtn" type="button">Try another profile</button>
         </div>
       </div>

@@ -26,11 +26,18 @@ const CODE = 'CARD50';
 
       {LAUNCHED ? (
         <>
-          <h2>Your code</h2>
-          <p class="code"><b>{CODE}</b></p>
-          <p>Enter it at checkout when you start your first build. It takes 50% off the price shown, one time, on your first purchase only.</p>
-          <a class="btn btn-amber btn-lg" href={appUrl + '/'}>Start your build</a>
-          <p class="capture-note muted">If the code does not apply, write to <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a> and tell us where you got the card. We will sort it out.</p>
+          <h2>Get your code by email.</h2>
+          <p class="lede">Leave your email and we'll send your 50% code as soon as it's ready to use at checkout. That is the only thing the email is for.</p>
+          <form class="capture-form" method="post" action={waitlistAction}>
+            <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+            <input type="hidden" name="source" value="card" />
+            <input type="hidden" name="redirect" value="/card/" />
+            <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
+            <button class="btn btn-amber btn-lg" type="submit">Send me the code</button>
+          </form>
+          <p class="capture-note muted">We only need your email. There is no account to create and no card to enter. No spam.</p>
+          <p class="capture-done hide" id="captureDone">Thank you. Your 50% is saved to this email, and we'll send your code as soon as it's ready.</p>
+          <p class="capture-err hide" id="captureErr">That email did not look right. Mind trying it again?</p>
         </>
       ) : (
         <>
