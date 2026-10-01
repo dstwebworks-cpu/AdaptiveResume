@@ -8,7 +8,7 @@ AdaptiveResume works backwards from your real experience. It looks at what roles
 AdaptiveResume is open. Purchases went live on October 1, 2026: $49 for a general resume build, or $149
 for a build aimed at one specific job posting, which also includes 25 interview questions for that role.
 A person starts at https://app.adaptiveresume.com/ and completes checkout there; payment is processed by
-Stripe. People who joined our waitlist before launch get 25% off their first build automatically.
+Stripe. People on our email list get 25% off their first build automatically through October 31, 2026.
 
 A free, no-sign-up demo is LIVE now at https://adaptiveresume.com/demo/ — it walks the review on a
 sample profile (six occupations, including military-to-civilian and HVAC). It runs entirely in the
