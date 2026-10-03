@@ -97,6 +97,21 @@ const siteLd = [
         </script>
       </>
     )}
+    {import.meta.env.PROD && (
+      <script is:inline>
+        // Ahrefs Web Analytics (founder 10/03/2026: rank tracking against competitors). Same rule as Google
+        // Analytics: the privacy-page opt-out or the browser's Global Privacy Control keeps it from loading.
+        try {
+          if (localStorage.getItem('ar-analytics-optout') !== '1' && !navigator.globalPrivacyControl) {
+            var ah = document.createElement('script');
+            ah.src = 'https://analytics.ahrefs.com/analytics.js';
+            ah.async = true;
+            ah.setAttribute('data-key', 'mKtTeiFJrP1dbyNCb9wsvQ');
+            document.head.appendChild(ah);
+          }
+        } catch (e) { /* storage blocked: load nothing */ }
+      </script>
+    )}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>

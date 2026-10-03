@@ -57,7 +57,11 @@ import Base from '../layouts/Base.astro';
             system, device category, and the date and time of your visit; we use these tools for
             analytics and conversion measurement, with Google Signals disabled, an opt-out toggle,
             and Global Privacy Control honored before any tag loads, but we do not use them for
-            advertising personalization or cross-site tracking.</strong>
+            advertising personalization or cross-site tracking. Ahrefs Web Analytics also counts visits
+            to our marketing pages and where they came from; Ahrefs states that it uses no cookies and
+            collects no personal data, though, as with any web request, your browser sends it your IP
+            address and browser details when it loads. The same opt-out toggle and Global Privacy Control
+            keep it off.</strong>
           </li>
           <li>
             <strong>Free scan:</strong> runs without an account; scan files are processed in memory
@@ -258,7 +262,41 @@ import Base from '../layouts/Base.astro';
           <li>
             We respond to verified requests within 45 days, and we will tell you if we need more time.
           </li>
+          <li>
+            <strong>Analytics on our marketing pages:</strong> you can turn analytics off in this browser
+            here.
+            <button type="button" id="analytics-optout" class="optout-btn">Turn analytics off in this browser</button>
+            <span id="analytics-optout-status" class="optout-status" role="status"></span>
+            If your browser sends the <a href="https://globalprivacycontrol.org/" rel="noopener">Global
+            Privacy Control</a> signal, analytics never loads at all.
+          </li>
         </ul>
+        <script is:inline>
+          // Restored 10/03/2026: this toggle (built 07/30) was dropped when the attorney-final pages were
+          // published on 09/01, while the policy kept promising it.
+          (function () {
+            var KEY = 'ar-analytics-optout';
+            var btn = document.getElementById('analytics-optout');
+            var status = document.getElementById('analytics-optout-status');
+            if (!btn || !status) return;
+            function isOff() { try { return localStorage.getItem(KEY) === '1'; } catch (e) { return false; } }
+            function render() {
+              var off = isOff();
+              btn.textContent = off ? 'Turn analytics back on' : 'Turn analytics off in this browser';
+              status.textContent = off
+                ? 'Analytics is off in this browser.'
+                : (navigator.globalPrivacyControl ? 'Your browser sends Global Privacy Control, so analytics is already off.' : '');
+            }
+            btn.addEventListener('click', function () {
+              try {
+                if (isOff()) { localStorage.removeItem(KEY); if (window.__arGaDisableKey) window[window.__arGaDisableKey] = false; }
+                else { localStorage.setItem(KEY, '1'); if (window.__arGaDisableKey) window[window.__arGaDisableKey] = true; }
+              } catch (e) { status.textContent = 'This browser is blocking site storage, so the setting cannot be saved.'; return; }
+              render();
+            });
+            render();
+          })();
+        </script>
 
         <h2>11. Children</h2>
         <p>
@@ -274,7 +312,7 @@ import Base from '../layouts/Base.astro';
           holders by email at least 14 days ahead.
         </p>
 
-        <p class="effective">Last updated: 09/01/2026</p>
+        <p class="effective">Last updated: 10/03/2026</p>
       </div>
 
       <nav class="legal-links" aria-label="Other legal pages">
@@ -294,6 +332,9 @@ import Base from '../layouts/Base.astro';
     .prose ul { padding-left: 1.2em; }
     .prose li { margin-bottom: .5em; }
     .prose strong { color: var(--ink); }
+    .optout-btn { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; margin: 6px 0; cursor: pointer; }
+    .optout-btn:hover { border-color: var(--ink-soft); }
+    .optout-status { margin-left: 10px; color: var(--muted); font-size: .95rem; }
     .subprocessors { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: .95rem; }
     .subprocessors th, .subprocessors td { text-align: left; vertical-align: top;
       padding: 8px 10px; border-bottom: 1px solid var(--line); }
