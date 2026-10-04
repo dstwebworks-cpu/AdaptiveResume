@@ -291,6 +291,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="card price">
           <h3>AR Pass</h3>
           <p class="amount">$79<span>up to 5 resume builds in 90 days</span></p>
+          <p class="muted">Any builds you don't use end when the 90 days end.</p>
           <p class="muted">Your one resume, made complete — everything you've earned, finally on paper.</p>
           <ul class="ticks">
             <li>We dig through up to three of your old resumes plus your LinkedIn export together, and you confirm what is yours.</li>
@@ -305,6 +306,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <span class="tag-premium">For a specific role</span>
           <h3>AR Pass Plus</h3>
           <p class="amount">$149<span>up to 10 targeted builds in 90 days</span></p>
+          <p class="muted">Any builds you don't use end when the 90 days end.</p>
           <p class="muted">Everything in the AR Pass, plus we aim each resume at the job you are going for, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
@@ -315,7 +317,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=targeted' : '#get-started'}>{LAUNCHED ? 'Get AR Pass Plus' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
-      <p class="muted finep">{LAUNCHED ? 'Each pass lasts 90 days and never renews on its own. Buying another pass adds its builds and starts a new 90 days.' : 'If you join the launch list, your first resume is 25% off. Your second resume is also 25% off, and every one after that is 50% off.'}</p>
+      <p class="muted finep">{LAUNCHED ? 'Each pass lasts 90 days and never renews on its own. Buying another pass adds its builds and starts a new 90 days.' : 'If you join the launch list, your first pass is 25% off through October 31, 2026.'}</p>
       <p class="muted finep">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
