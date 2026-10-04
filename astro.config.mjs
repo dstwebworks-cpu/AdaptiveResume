@@ -24,6 +24,10 @@ export default defineConfig({
   // links advertised a duplicate URL to Google, which then filed the crawl under the
   // canonical instead of indexing it. Links fixed 08/21; this setting stops the drift
   // coming back, and makes dev behave like production.
+  // /card/ promised 50% off a first pass for a business card that was never printed, with a code that was never built.
+  // Founder 10/04/2026: no half-off until the site is making money; the page now sends visitors to the pricing section.
+  redirects: { '/card/': '/#pricing' },
+
   trailingSlash: 'always',
   build: { format: 'directory' },
   integrations: [sitemap({
