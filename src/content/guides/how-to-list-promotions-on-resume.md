@@ -10,7 +10,7 @@ giveaway:
   name: "Promotion-History Worksheet"
   file: "/templates/promotion-history-worksheet.docx"
 cta:
-  label: "Get the 90-day Pass — $79"
+  label: "Get the AR Pass — $79"
   href: "/#pricing"
 pubDate: 2026-07-30
 updatedDate: 2026-09-29

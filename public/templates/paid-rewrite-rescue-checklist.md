@@ -30,4 +30,4 @@ Count your KEEP lines against your FIX + MISSING lines.
 - Mostly MISSING: the service reformatted instead of rewriting. Stop chasing; rebuild from your real experience.
 
 ## 5. If you rebuild with us
-Upload the paid draft as your starting point at adaptiveresume.com. We find what it left out, you confirm every new item before it appears, and any suggested line you don't like gets redone from your note during the review. Nothing is made up. Pass Plus is $149, paid once, for up to 10 targeted builds in 90 days.
+Upload the paid draft as your starting point at adaptiveresume.com. We find what it left out, you confirm every new item before it appears, and any suggested line you don't like gets redone from your note during the review. Nothing is made up. AR Pass Plus is $149, paid once, for up to 10 targeted builds in 90 days.

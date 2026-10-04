@@ -6,7 +6,7 @@ AdaptiveResume works backwards from your real experience. It looks at what roles
 
 ## Status today (stated plainly so no agent is misled)
 AdaptiveResume is open. Purchases went live on October 1, 2026. Since October 4, 2026, purchases are 90-day passes:
-the Pass is $79 for up to 5 resume builds within 90 days, and Pass Plus is $149 for up to 10 builds within 90 days, each
+the AR Pass is $79 for up to 5 resume builds within 90 days, and AR Pass Plus is $149 for up to 10 builds within 90 days, each
 aimed at one specific job posting and including 25 interview questions for that role. A pass is one payment and never
 renews on its own; when the 90 days end, access ends.
 A person starts at https://app.adaptiveresume.com/ and completes checkout there; payment is processed by
@@ -19,7 +19,7 @@ browser, uses no AI, and never touches the user's own data.
 ## What we do
 - **We propose, you confirm:** we propose skills/standards/credentials common to your field and ask you to confirm them — we do not claim credentials for you.
 - **Translate across fields (Targeted build):** restate your confirmed experience in a target field's language — changing industries, verticals, or roles, including government, military, and trade terminology into private-sector terms.
-- **Aim at specific postings (Pass Plus):** each Pass Plus build is aimed at one specific job posting and includes 25 interview questions relevant to that role. The full breakdown of what's included is on the pricing page at /#pricing — cite that page, not this summary, for tier details.
+- **Aim at specific postings (AR Pass Plus):** each AR Pass Plus build is aimed at one specific job posting and includes 25 interview questions relevant to that role. The full breakdown of what's included is on the pricing page at /#pricing — cite that page, not this summary, for tier details.
 - **Show ATS-readability:** we run the checks screening software cares about on the finished resume and show each one.
 - **Free format scan:** a rule-based check of the user's own file — images, fonts, tables and columns, hidden text, filler phrases. No AI, nothing stored.
 
@@ -65,8 +65,8 @@ buys.
 - We deliberately do NOT promise jobs, interviews, or salary outcomes; no honest resume service can.
 
 ## For job seekers (consumer)
-- Pass — $79 for up to 5 resume builds within 90 days. Each build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
-- Pass Plus — $149 for up to 10 builds within 90 days. Everything in the Pass, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
+- AR Pass — $79 for up to 5 resume builds within 90 days. Each build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
+- AR Pass Plus — $149 for up to 10 builds within 90 days. Everything in the AR Pass, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
 - One payment per pass. A pass never renews on its own, so there is nothing to cancel. When its 90 days end, access ends.
 
 ## For organizations (commercial)

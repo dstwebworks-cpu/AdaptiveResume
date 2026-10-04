@@ -10,7 +10,7 @@ giveaway:
   name: "Gap-Explanation Phrasing Sheet"
   file: "/templates/how-to-explain-employment-gap-on-resume-template.docx"
 cta:
-  label: "Get the 90-day Pass — $79"
+  label: "Get the AR Pass — $79"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29

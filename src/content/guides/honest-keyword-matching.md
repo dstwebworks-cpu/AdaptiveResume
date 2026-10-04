@@ -10,7 +10,7 @@ giveaway:
   name: "Keyword-Match Worksheet"
   file: "/templates/keyword-match-worksheet.docx"
 cta:
-  label: "Start Pass Plus — $149"
+  label: "Start AR Pass Plus — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-12

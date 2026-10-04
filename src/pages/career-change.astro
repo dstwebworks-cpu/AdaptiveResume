@@ -10,11 +10,11 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'How is a career change resume different from a regular one?',
-    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. Pass Plus maps what you've actually done to the words the new role uses, and nothing goes on your resume unless you confirm it." },
+    a: "It has to translate. Your experience is real, but it's written in your old field's language — a hiring manager in the new field can't hear it. AR Pass Plus maps what you've actually done to the words the new role uses, and nothing goes on your resume unless you confirm it." },
   { q: "What if I'm coming from the military or a federal job?",
     a: "That's the same translation problem at maximum strength — MOS codes, grade levels, and agency language mean nothing outside. We work backwards from what the role actually involved and put it in terms the civilian or private-sector reader recognizes. Nothing gets inflated on the way." },
-  { q: 'Why Pass Plus instead of the Pass?',
-    a: 'The Pass ($79) makes your resume complete, with up to 5 builds in 90 days. Pass Plus ($149) aims each build at the specific posting you want next: your experience translated into that posting\'s language, plus 25 interview questions you may face for that role, with up to 10 targeted builds in 90 days. For a transition, the translation is the product.' },
+  { q: 'Why AR Pass Plus instead of the AR Pass?',
+    a: 'The AR Pass ($79) makes your resume complete, with up to 5 builds in 90 days. AR Pass Plus ($149) aims each build at the specific posting you want next: your experience translated into that posting\'s language, plus 25 interview questions you may face for that role, with up to 10 targeted builds in 90 days. For a transition, the translation is the product.' },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -32,7 +32,7 @@ const breadcrumbLd = {
 ---
 <Base
   title="Career Change Resume Service, Built From Real Experience"
-  description="Changing careers, leaving the military, or going federal-to-private? We translate what you've really done into the new field's language, and nothing goes on your resume unless you confirm it. Pass Plus, $149 for 90 days."
+  description="Changing careers, leaving the military, or going federal-to-private? We translate what you've really done into the new field's language, and nothing goes on your resume unless you confirm it. AR Pass Plus, $149 for 90 days."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -99,7 +99,7 @@ const breadcrumbLd = {
       </div>
       <p class="muted" style="margin-top:12px">Sample profile — no real service member shown. Nothing was added that wasn't already true — the work
       was always this valuable. It just wasn't in words the next employer could hear. That's what the
-      Pass Plus does, line by line, with your say-so on each one.</p>
+      AR Pass Plus does, line by line, with your say-so on each one.</p>
       <img class="example-card" src="/img/guides/examples/military-to-civilian-resume-example.png"
         alt="Before and after example: a military supply specialist's resume line translated into civilian language"
         loading="lazy" width="1200" height="630" />
@@ -113,7 +113,7 @@ const breadcrumbLd = {
       <div class="grid cols-2">
         <div class="card price featured">
           <span class="tag-premium">Built for transitions</span>
-          <h3>Pass Plus</h3>
+          <h3>AR Pass Plus</h3>
           <p class="amount">$149<span>up to 10 targeted builds in 90 days</span></p>
           <p class="muted">Made for transitions: we aim your resume at the job you're going to, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
@@ -123,10 +123,10 @@ const breadcrumbLd = {
           </ul>
         </div>
         <div class="card price">
-          <h3>Pass</h3>
+          <h3>AR Pass</h3>
           <p class="amount">$79<span>up to 5 resume builds in 90 days</span></p>
-          <p class="muted">Staying in your field? The Pass makes your resume complete —
-          everything you've earned, finally on paper. If you later want builds aimed at specific jobs, Pass Plus covers that.</p>
+          <p class="muted">Staying in your field? The AR Pass makes your resume complete —
+          everything you've earned, finally on paper. If you later want builds aimed at specific jobs, AR Pass Plus covers that.</p>
           <ul class="ticks">
             <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
             <li>You confirm every new line, and nothing new lands without your say-so</li>

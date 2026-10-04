@@ -10,7 +10,7 @@ giveaway:
   name: "ATS Plain-English Cheat-Sheet"
   file: "/templates/ats-cheat-sheet.docx"
 cta:
-  label: "Get the 90-day Pass — $79"
+  label: "Get the AR Pass — $79"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-09-27
