@@ -75,9 +75,8 @@ buys.
 - Your reviewers stay in control: anything credential-like is held for YOUR reviewer's sign-off before it goes out under your name.
 - Paid pilot on your own candidates, fully credited against your first contract — the concrete low-risk first step; request a quote at /business/.
 
-## Legal and data posture
-Cite these pages, not this summary, for anything legal. The Privacy Policy, Acceptable Use Policy and Disclaimer are the
-attorney-reviewed versions live since 09/01/2026. The Terms of Service were updated on 10/04/2026 for the 90-day passes.
+## Legal and data posture (attorney-reviewed documents, live since 09/01/2026; the Terms' pricing and refund sections updated 10/04/2026 for the 90-day passes)
+Cite these pages, not this summary, for anything legal:
 - Terms of Service: /terms/
 - Privacy Policy: /privacy/ (Your Privacy Choices: /privacy/#your-privacy-choices)
 - Acceptable Use Policy: /acceptable-use/
