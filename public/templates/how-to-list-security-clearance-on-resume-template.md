@@ -52,4 +52,4 @@ Secret · Top Secret · TS/SCI and Top Secret/SCI (write both) · clearance · a
 Could your FSO confirm it tomorrow? If yes, it belongs. If you would have to explain, rewrite it until the explanation is on the page.
 
 ---
-Want this handled for you? Our build asks what your record shows — exactly as it reads — and places it where it carries the most weight. We never guess a level, a date, or a polygraph. $49 one-time · adaptiveresume.com
+Want this handled for you? Our build asks what your record shows — exactly as it reads — and places it where it carries the most weight. We never guess a level, a date, or a polygraph. From $79 for a 90-day pass · adaptiveresume.com

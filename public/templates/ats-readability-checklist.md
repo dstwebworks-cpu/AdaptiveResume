@@ -26,4 +26,4 @@
 - [ ] I could paste this resume into plain text and it still makes sense in order
 
 ---
-Want this checked for you? Our build runs the checks screening software cares about on your finished resume and shows you each one. $49 one-time · adaptiveresume.com
+Want this checked for you? Our build runs the checks screening software cares about on your finished resume and shows you each one. From $79 for a 90-day pass · adaptiveresume.com

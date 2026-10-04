@@ -10,7 +10,7 @@ giveaway:
   name: "JD-to-Resume Tailoring Worksheet"
   file: "/templates/tailor-resume-to-job-description-template.docx"
 cta:
-  label: "Start your targeted build — $149"
+  label: "Start Pass Plus — $149"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29

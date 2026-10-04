@@ -44,4 +44,4 @@ Fill in only what's true of you. Every [bracket] is a prompt for your real numbe
 Every line should survive: "Tell me about that." If you'd stumble, rewrite it until you wouldn't.
 
 ---
-Want it built with you? We ask about your real queue — system, volume, escalation line — and nothing lands without your say-so. $49 one-time · adaptiveresume.com
+Want it built with you? We ask about your real queue — system, volume, escalation line — and nothing lands without your say-so. From $79 for a 90-day pass · adaptiveresume.com

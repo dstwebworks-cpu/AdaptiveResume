@@ -15,11 +15,11 @@ const faq = [
   { q: 'How far back do I go?',
     a: "Your most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. A twenty-year career does not need every duty station spelled out, and a civilian reader will not follow it if it is. Each assignment stated at its true size (people led, equipment signed for, what you ran) fits in two pages, which is normal once you have more than one substantive role. Nothing you want kept gets dropped. You decide, line by line." },
   { q: 'Do you translate my MOS, rate, or AFSC?',
-    a: "Yes, in the Targeted Resume Build, and we do it with you: we map your specialty to the nearest honest civilian function, toward the posting you have open, and show you each line before it lands. The $49 resume makes your resume complete and honest as it stands; the civilian-language translation is the $149 Targeted Resume Build's job. We never claim a civilian job title, license, or certification you have not actually earned; training you completed is listed as training." },
+    a: "Yes, with Pass Plus, and we do it with you: we map your specialty to the nearest honest civilian function, toward the posting you have open, and show you each line before it lands. The Pass ($79) makes your resume complete and honest as it stands; the civilian-language translation is the job of Pass Plus ($149). We never claim a civilian job title, license, or certification you have not actually earned; training you completed is listed as training." },
   { q: 'Can I use this for USAJOBS?',
     a: "Use it for the private-sector side of your search. A federal resume is a different document: USAJOBS accepts only two pages as of the September 2025 OPM change, and federal applications ask for details a private-sector resume leaves off. Our resume is aimed at civilian employers and the screening software they run. If you are running both tracks, keep the federal version in the format USAJOBS asks for and send ours to industry." },
-  { q: 'Why $149 instead of the $49 resume?',
-    a: "The $49 resume makes your one resume complete and honest. The $149 Targeted Resume Build aims it at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role. If you have a specific civilian posting open in another tab, that's the one." },
+  { q: 'Why Pass Plus instead of the Pass?',
+    a: "The Pass ($79) makes your resume complete and honest, with up to 5 builds in 90 days. Pass Plus ($149) aims each build at one specific posting: the language translated to what that posting uses, plus 25 interview questions for that role, with up to 10 targeted builds in 90 days. If you have a specific civilian posting open in another tab, Pass Plus is the one." },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -45,7 +45,7 @@ const guides = [
 ---
 <Base
   title="Veteran Resume Help — Built From Your Real Service"
-  description="Veteran resume help built for civilian screening: clearance as held, scope at true size, service translated on the Targeted Resume Build. You confirm every new line; nothing made up. From $49."
+  description="Veteran resume help built for civilian screening: clearance as held, scope at true size, service translated with Pass Plus. Nothing goes on it unless you confirm it, and nothing is made up. From $79 for a 90-day pass."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -124,7 +124,7 @@ const guides = [
           <p>Screening software searches for civilian job titles and skills, not a rating or a four-character code. We map
           your specialty to the nearest honest civilian function and never claim a title you did not
           hold. The full method is in our
-          <a href="/guides/military-to-civilian-resume/">military-to-civilian resume guide</a>; on your resume, the $149 Targeted Resume Build does it with you.</p>
+          <a href="/guides/military-to-civilian-resume/">military-to-civilian resume guide</a>; on your resume, Pass Plus ($149) does it with you.</p>
         </div>
         <div class="card">
           <h3>Security clearance, written as held</h3>
@@ -181,11 +181,11 @@ const guides = [
   <section class="section" id="pricing">
     <div class="container">
       <p class="eyebrow">Pricing</p>
-      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <h2>One payment covers 90 days. Nothing renews, so there is nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base Resume Build</h3>
-          <p class="amount">$49<span>one-time</span></p>
+          <h3>Pass</h3>
+          <p class="amount">$79<span>up to 5 resume builds in 90 days</span></p>
           <p class="muted">Start here if you are not aiming at one specific posting yet. Your one resume is made complete and honest: your clearance exactly as your record shows it, your responsibilities at their real size, and your certifications as you earned them, with everything you have earned finally on paper.</p>
           <ul class="ticks">
             <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
@@ -195,9 +195,9 @@ const guides = [
         </div>
         <div class="card price featured">
           <span class="tag-premium">For a specific job posting</span>
-          <h3>Targeted Resume Build</h3>
-          <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Have a specific job posting open in another tab? The Targeted Resume Build aims your resume at that one job.</p>
+          <h3>Pass Plus</h3>
+          <p class="amount">$149<span>up to 10 targeted builds in 90 days</span></p>
+          <p class="muted">Have a specific job posting open in another tab? Pass Plus aims your resume at that job, with builds left for the next ones.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>

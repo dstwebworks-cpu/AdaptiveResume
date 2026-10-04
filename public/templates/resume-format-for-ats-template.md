@@ -46,4 +46,4 @@ Select-all and copy your finished file into a plain-text editor. If your jobs, t
 Clean parsing doesn't rank you above anyone — it just guarantees the system sees what's actually there. The content still has to be true and specific.
 
 ---
-Want it checked for you? Our build runs the checks screening software cares about and shows you every one — passes and heads-ups alike. $49 one-time · adaptiveresume.com
+Want it checked for you? Our build runs the checks screening software cares about and shows you every one — passes and heads-ups alike. From $79 for a 90-day pass · adaptiveresume.com

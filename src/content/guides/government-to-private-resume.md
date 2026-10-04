@@ -10,7 +10,7 @@ giveaway:
   name: "GS-to-Private Translation Checklist"
   file: "/templates/gs-to-private-translation-checklist.docx"
 cta:
-  label: "Start your targeted build — $149"
+  label: "Start Pass Plus — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-12

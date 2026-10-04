@@ -16,9 +16,9 @@ const faq = [
   { q: 'What does "nothing made up" mean in practice?',
     a: "We never put a credential, title, number, or employer on your resume that you didn't confirm. If we think your work involved something, we ask you first. If you say no, it never appears. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
   { q: 'Is this a subscription? What about revisions?',
-    a: "No subscription, nothing to cancel. $49 or $149, one-time. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. You pay once, with no revision rounds to argue over." },
-  { q: 'What is the difference between the $49 resume and the $149 resume?',
-    a: 'The $49 resume makes your one resume complete and honest, in a file that screening software reads cleanly. The $149 Targeted Resume Build aims it at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role.' },
+    a: "No subscription, nothing to cancel. You pay once for a 90-day pass, $79 or $149, and it never renews on its own. Revisions aren't a negotiation here: you edit any line yourself, or leave a note and we redo it from your note. You pay once, with no revision rounds to argue over." },
+  { q: 'What is the difference between the Pass and Pass Plus?',
+    a: 'The Pass ($79) makes your resume complete and honest, in a file that screening software reads cleanly, with up to 5 builds in 90 days. Pass Plus ($149) aims each build at one specific job posting: your experience translated into that field\'s language, plus 25 interview questions for that role, with up to 10 targeted builds in 90 days.' },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -35,8 +35,8 @@ const breadcrumbLd = {
 };
 ---
 <Base
-  title="Resume Writing Service — You Stay the Author, From $49"
-  description="A resume writing service where you stay the author: we find what you left off, you confirm every new line, nothing made up. $49 one-time, no subscription."
+  title="Resume Writing Service — You Stay the Author, From $79"
+  description="A resume writing service where you stay the author: we find what you left off, nothing goes on it unless you confirm it, and nothing is made up. From $79 for a 90-day pass."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -155,7 +155,7 @@ const breadcrumbLd = {
         <div class="card qcard">
           <h3>Is it a subscription?</h3>
           <p>Some prices are monthly and keep going after you've downloaded the file. Check before you enter a card.</p>
-          <p class="ours"><b>AdaptiveResume's answer:</b> no. $49 or $149, one-time. Nothing to cancel.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> no. $79 or $149 for a 90-day pass, paid once. Nothing to cancel.</p>
         </div>
         <div class="card qcard">
           <h3>Can I see what the screening software reads?</h3>
@@ -170,11 +170,11 @@ const breadcrumbLd = {
   <section class="section" id="pricing">
     <div class="container">
       <p class="eyebrow">What you get</p>
-      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <h2>One payment covers 90 days. Nothing renews, so there is nothing to cancel.</h2>
       <div class="grid cols-2">
         <div class="card price">
-          <h3>Base Resume Build</h3>
-          <p class="amount">$49<span>one-time</span></p>
+          <h3>Pass</h3>
+          <p class="amount">$79<span>up to 5 resume builds in 90 days</span></p>
           <p class="muted">Your one resume is made complete and honest, in a file that screening software reads cleanly. Everything you've earned is finally on paper.</p>
           <ul class="ticks">
             <li>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours.</li>
@@ -184,10 +184,10 @@ const breadcrumbLd = {
           </ul>
         </div>
         <div class="card price featured">
-          <span class="tag-premium">Aimed at one posting</span>
-          <h3>Targeted Resume Build</h3>
-          <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the Base Resume Build, aimed at one specific job posting you bring us.</p>
+          <span class="tag-premium">Aimed at the postings you choose</span>
+          <h3>Pass Plus</h3>
+          <p class="amount">$149<span>up to 10 targeted builds in 90 days</span></p>
+          <p class="muted">Everything in the Pass, and each build can be aimed at a different job posting you bring us.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
@@ -195,7 +195,7 @@ const breadcrumbLd = {
           </ul>
         </div>
       </div>
-      <p class="muted small" style="text-align:center">If you joined our list, create your account with that same email and your first resume is 25% off at checkout through October 31, 2026. You stay the author the whole way.</p>
+      <p class="muted small" style="text-align:center">If you joined our list, create your account with that same email and your first pass is 25% off at checkout through October 31, 2026. You stay the author the whole way.</p>
     </div>
   </section>
 

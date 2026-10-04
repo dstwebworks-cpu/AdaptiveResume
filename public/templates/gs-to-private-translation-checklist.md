@@ -40,4 +40,4 @@
 - [ ] Translated to the nearest true equivalent — no inflation
 
 ---
-Want this done with you, toward a specific private role? Targeted build, $149 one-time · adaptiveresume.com
+Want this done with you, toward a specific private role? Pass Plus, $149 for 90 days · adaptiveresume.com

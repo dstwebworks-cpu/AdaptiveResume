@@ -10,7 +10,7 @@ giveaway:
   name: "Military-to-Civilian Skills Translator"
   file: "/templates/military-to-civilian-skills-translator.docx"
 cta:
-  label: "Start your targeted build — $149"
+  label: "Start Pass Plus — $149"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-09-29

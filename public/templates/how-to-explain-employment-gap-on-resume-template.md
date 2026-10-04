@@ -35,4 +35,4 @@ If real skills stayed warm during the gap (bookkeeping, coordination, volunteeri
 An explained gap is a detail. A discovered cover-up ends the process.
 
 ---
-Want a calm second set of eyes on it? Our build proposes a plain, accurate line for anything a reader would wonder about — you decide what's said. $49 one-time · adaptiveresume.com
+Want a calm second set of eyes on it? Our build proposes a plain, accurate line for anything a reader would wonder about — you decide what's said. From $79 for a 90-day pass · adaptiveresume.com

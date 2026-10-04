@@ -10,7 +10,7 @@ giveaway:
   name: "ATS-Safe Resume Skeleton"
   file: "/templates/resume-format-for-ats-template.docx"
 cta:
-  label: "Build your resume — $49"
+  label: "Get the 90-day Pass — $79"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29

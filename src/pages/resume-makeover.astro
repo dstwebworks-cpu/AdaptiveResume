@@ -17,8 +17,8 @@ const faq = [
     a: "We'll be honest: we hand back a single-column file with no photo. Screening software reads text, not pictures, and a two-column layout can scramble the reading order so your dates end up next to the wrong job. You can see for yourself what the software pulls from the finished file before you're done." },
   { q: 'Is anything made up?',
     a: "No. Nothing goes on the page you didn't confirm. If we suggest a tool or a credential your work involved and it isn't really yours, you skip it and it's gone. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
-  { q: 'What does it cost, and what is the difference between $49 and $149?',
-    a: '$49, one-time, makes your one resume complete and honest, in a file that screening software reads cleanly. That is the makeover. $149, one-time, is the Targeted Resume Build aimed at one specific job posting: the same rebuild in that posting\'s language, plus 25 interview questions for that role. There is no subscription. If you joined our list, create your account with that same email and your first resume is 25% off at checkout through October 31, 2026.' },
+  { q: 'What does it cost, and what is the difference between the Pass and Pass Plus?',
+    a: 'The Pass is $79 for up to 5 resume builds in 90 days. Each build makes your resume complete and honest, in a file that screening software reads cleanly. That is the makeover. Pass Plus is $149 for up to 10 targeted builds in 90 days: the same rebuild aimed at each job posting you choose, in that posting\'s language, plus 25 interview questions for that role. Each pass is one payment and never renews on its own. If you joined our list, create your account with that same email and your first pass is 25% off at checkout through October 31, 2026.' },
   { q: 'Can I buy from any state?',
     a: "Almost. Right now we can't sell our paid resume service to residents of New Jersey or Illinois. Those two states have laws written for job-placement agencies that can also reach paid resume help, and we're staying on the safe side until that's settled. The free format check and the demo work everywhere in the United States, and if you're in one of those states we'll tell you the day this changes." },
 ];
@@ -36,7 +36,7 @@ const breadcrumbLd = {
 ---
 <Base
   title="Resume Makeover Service — Substance First, Then Format"
-  description="A resume makeover service that changes what your resume says, not just how it looks: real skills you left off, filler out, a file screening software reads. $49."
+  description="A resume makeover service that changes what your resume says, not just how it looks: real skills you left off, filler out, a file screening software reads. From $79."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
@@ -144,9 +144,9 @@ const breadcrumbLd = {
   <!-- ===== PRICING ANCHOR ===== -->
   <section class="section">
     <div class="container priceband">
-      <p class="eyebrow">One-time payment. No subscription.</p>
+      <p class="eyebrow">One payment. No automatic renewal.</p>
       <h2>Honest pricing for a real makeover.</h2>
-      <p class="lede">$49 makes your one resume complete and honest, in a file that screening software reads cleanly. $149 aims that resume at one specific job posting, in that posting's language, and adds 25 interview questions for the role. If you joined our list, create your account with that same email and your first resume is 25% off at checkout through October 31, 2026.</p>
+      <p class="lede">The $79 Pass makes your resume complete and honest, in a file that screening software reads cleanly, with up to 5 builds in 90 days. The $149 Pass Plus aims each build at one specific job posting, in that posting's language, and adds 25 interview questions for the role. If you joined our list, create your account with that same email and your first pass is 25% off at checkout through October 31, 2026.</p>
       <div class="cta-row" style="justify-content:center">
         {LAUNCHED
           ? <a class="btn btn-primary btn-lg" href={appUrl}>Get started</a>

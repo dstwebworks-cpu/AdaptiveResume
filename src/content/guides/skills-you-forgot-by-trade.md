@@ -10,7 +10,7 @@ giveaway:
   name: "Role-by-Role Skills Checklist"
   file: "/templates/role-skills-checklist.docx"
 cta:
-  label: "Build your resume — $49"
+  label: "Get the 90-day Pass — $79"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-06

@@ -10,7 +10,7 @@ giveaway:
   name: "Operating Room Nurse Resume Skeleton"
   file: "/templates/operating-room-nurse-resume-template.docx"
 cta:
-  label: "Build your resume — $49"
+  label: "Get the 90-day Pass — $79"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29

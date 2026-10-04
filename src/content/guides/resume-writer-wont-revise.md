@@ -10,7 +10,7 @@ giveaway:
   name: "Paid-Rewrite Rescue Checklist"
   file: "/templates/paid-rewrite-rescue-checklist.docx"
 cta:
-  label: "Fix it with a targeted build — $149"
+  label: "Fix it with Pass Plus — $149"
   href: "/fix/"
 pubDate: 2026-07-26
 updatedDate: 2026-09-29

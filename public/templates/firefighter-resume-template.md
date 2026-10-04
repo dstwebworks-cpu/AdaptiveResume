@@ -43,4 +43,4 @@ Your department line: ____________________
 - [ ] Nothing here is padding
 
 ---
-Want this done with you? Our base build reads your history, proposes role-relevant lines, and asks you to confirm each one. $49 one-time · adaptiveresume.com
+Want this done with you? Our base build reads your history, proposes role-relevant lines, and asks you to confirm each one. From $79 for a 90-day pass · adaptiveresume.com

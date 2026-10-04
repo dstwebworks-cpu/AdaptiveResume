@@ -26,4 +26,4 @@ Keep it qualitative but specific — what you did and why it mattered:
 - [ ] No false precision, no invented metrics
 
 ---
-Want this done with you? Our build flags where a real number would help and asks you to supply it. $49 one-time · adaptiveresume.com
+Want this done with you? Our build flags where a real number would help and asks you to supply it. From $79 for a 90-day pass · adaptiveresume.com

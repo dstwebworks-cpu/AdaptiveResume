@@ -11,7 +11,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
 ---
 <Base
   title="AdaptiveResume — you've earned more than your resume shows"
-  description="Upload your resume and we'll find the skills and credentials your work involved that you left off — you confirm every new line. Nothing made up. From $49, one-time."
+  description="Upload your resume and we'll find the skills and credentials your work involved that you left off. Nothing goes on it unless you confirm it, and nothing is made up. From $79 for a 90-day pass."
 >
   <!-- ===== HERO ===== -->
   <section class="hero">
@@ -144,8 +144,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <p class="lede">For career changers, military and government-to-private transitions, the trades, and specialists who do far more than their resume shows.</p>
         <ul class="ticks">
           <li>We'll find the skills and credentials you left off — you confirm each one, in your words</li>
-          <li>Aiming at one specific job? Our $149 Targeted Resume Build aims your experience at it.</li>
-          <li>Aiming at a new field? Our Targeted Resume Build turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
+          <li>Aiming at one specific job? Pass Plus ($149) aims your experience at it, with up to 10 targeted builds in 90 days.</li>
+          <li>Aiming at a new field? Pass Plus turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
           <li>See for yourself how the screening software reads your resume</li>
           <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
@@ -179,7 +179,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <tr><th>Asks you before anything lands in your final resume</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">Sometimes</td></tr>
             <tr><th>Shows you how screening software reads your resume</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="x">✗</td></tr>
             <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Typical cost</th><td class="us">$49–$149<br /><span class="sub">one-time</span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
+            <tr><th>Typical cost</th><td class="us">$79–$149<br /><span class="sub">per 90-day pass, no renewal</span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -269,7 +269,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <h2>Your record is strong. Its language is the problem.</h2>
       <p class="lede">
         Civilian screening software has never heard of an AMAL block, an NCOER, or a property book.
-        Our Targeted Resume Build translates what you actually did into the words civilian employers search for, and you approve every new line.
+        Pass Plus translates what you actually did into the words civilian employers search for, and nothing goes on your resume unless you confirm it.
       </p>
       <div class="beforeafter">
         <div class="ba-row"><span class="ba-tag">Your resume says</span>
@@ -286,11 +286,11 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
   <section id="pricing" class="section">
     <div class="container">
       <p class="eyebrow">Pricing</p>
-      <h2>One-time payment. No subscription. Nothing to cancel.</h2>
+      <h2>One payment covers 90 days. Nothing renews, so there is nothing to cancel.</h2>
       <div class="grid cols-2 pricing">
         <div class="card price">
-          <h3>Base Resume Build</h3>
-          <p class="amount">$49<span>one-time</span></p>
+          <h3>Pass</h3>
+          <p class="amount">$79<span>up to 5 resume builds in 90 days</span></p>
           <p class="muted">Your one resume, made complete — everything you've earned, finally on paper.</p>
           <ul class="ticks">
             <li>We dig through up to three of your old resumes plus your LinkedIn export together, and you confirm what is yours.</li>
@@ -298,24 +298,24 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>Reads cleanly for the screening software, and for the person after it</li>
             <li>We run the format checks screening software cares about — and show you each one</li>
           </ul>
-          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=base' : '#get-started'}>{LAUNCHED ? 'Start my Base Resume Build' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=base' : '#get-started'}>{LAUNCHED ? 'Get the 90-day Pass' : 'Join the launch list for 25% off'}</a>
         </div>
 
         <div class="card price featured">
           <span class="tag-premium">For a specific role</span>
-          <h3>Targeted Resume Build</h3>
-          <p class="amount">$149<span>one-time</span></p>
-          <p class="muted">Everything in the Base Resume Build, plus we aim your resume at the one job you are going for, in the language that employer's hiring team recognizes.</p>
+          <h3>Pass Plus</h3>
+          <p class="amount">$149<span>up to 10 targeted builds in 90 days</span></p>
+          <p class="muted">Everything in the Pass, plus we aim each resume at the job you are going for, in the language that employer's hiring team recognizes.</p>
           <ul class="ticks">
             <li>We translate your experience into the language that job posting uses.</li>
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
             <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
           <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=targeted' : '#get-started'}>{LAUNCHED ? 'Start my Targeted Resume Build' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=targeted' : '#get-started'}>{LAUNCHED ? 'Get Pass Plus' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
-      <p class="muted finep">{LAUNCHED ? 'Your second resume is 25% off, and every one after that is 50% off.' : 'If you join the launch list, your first resume is 25% off. Your second resume is also 25% off, and every one after that is 50% off.'}</p>
+      <p class="muted finep">{LAUNCHED ? 'Each pass lasts 90 days and never renews on its own. Buying another pass adds its builds and starts a new 90 days.' : 'If you join the launch list, your first resume is 25% off. Your second resume is also 25% off, and every one after that is 50% off.'}</p>
       <p class="muted finep">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>

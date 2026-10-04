@@ -10,7 +10,7 @@ giveaway:
   name: "Achievement-Quantification Worksheet"
   file: "/templates/achievement-quantification-worksheet.docx"
 cta:
-  label: "Build your resume — $49"
+  label: "Get the 90-day Pass — $79"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-06
