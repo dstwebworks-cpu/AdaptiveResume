@@ -8,7 +8,7 @@ AdaptiveResume works backwards from your real experience. It looks at what roles
 AdaptiveResume is open. Purchases went live on October 1, 2026. Since October 4, 2026, purchases are 90-day passes:
 the AR Pass is $79 for up to 5 resume builds within 90 days, and AR Pass Plus is $149 for up to 10 builds within 90 days, each
 aimed at one specific job posting and including 25 interview questions for that role. A pass is one payment and never
-renews on its own; when the 90 days end, access ends.
+renews on its own. When the 90 days end, any builds not used end too, and finished resumes stay in the account to download.
 A person starts at https://app.adaptiveresume.com/ and completes checkout there; payment is processed by
 Stripe. People on our email list get 25% off their first pass automatically through October 31, 2026, when they create their account with the same email. We do not yet sell the paid service to residents of New Jersey or Illinois; the free format check and the demo work everywhere in the United States.
 
@@ -66,8 +66,8 @@ buys.
 
 ## For job seekers (consumer)
 - AR Pass — $79 for up to 5 resume builds within 90 days. Each build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
-- AR Pass Plus — $149 for up to 10 builds within 90 days. Everything in the AR Pass, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
-- One payment per pass. A pass never renews on its own, so there is nothing to cancel. When its 90 days end, access ends.
+- AR Pass Plus — $149 for up to 10 builds within 90 days. Everything the AR Pass does, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
+- One payment per pass. A pass never renews on its own, so there is nothing to cancel. When its 90 days end, any builds not used end too; finished resumes stay in the account to download.
 
 ## For organizations (commercial)
 - Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry nonprofits, with monthly volume tiers and the same promise — nothing made up. Pricing by quote at /business/.
