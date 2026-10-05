@@ -12,8 +12,7 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-09-20
-updatedDate: 2026-09-29
+pubDate: 2026-10-11
 order: 106
 draft: true
 faq:
@@ -37,7 +36,7 @@ The work behind that sentence is specific and valuable. The conveyors, the fille
 
 **After:** "Multi-craft maintenance technician on a 24/7 food-packaging line: 40 machines including fillers, case packers, conveyors, and two ammonia-refrigerated chillers; lockout/tagout under OSHA 29 CFR 1910.147 on every job; preventive maintenance completion raised from 78% to 96% in one year, tracked in Fiix."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/maintenance-technician-resume-example.png)
+![Before and after example of a maintenance technician resume line, built only from what the person gave us or confirmed](/img/guides/examples/maintenance-technician-resume-example.png)
 
 The second version tells the manager the setting, the equipment, the standard, the system, and a number you moved. Every piece of it came from a real technician's work history; a plant manager can check each one.
 
@@ -54,6 +53,12 @@ The second version tells the manager the setting, the equipment, the standard, t
 **The CMMS and the numbers.** Name the computerized maintenance management system (Fiix, MaintainX, UpKeep, SAP Plant Maintenance, Maximo, eMaint) and the numbers it tracked: preventive maintenance completion rate, unplanned downtime, mean time to repair, work orders closed per week. If you built or improved a preventive maintenance schedule, that is a project worth its own line.
 
 **Refrigeration and HVAC, if you cover it.** EPA Section 608 certification (Type I, II, III, or Universal) is required to work on stationary refrigeration and air conditioning, and it is verified. Ammonia refrigeration in food plants has its own training; name it.
+
+## Predictive work and the reliability numbers
+
+**Predictive and condition-based maintenance** is a different skill from preventive maintenance, and plants that run it say so in the posting. If you have done it, name the method and the tool: vibration analysis with a route-based data collector, infrared thermography on electrical panels and bearings, oil sampling and analysis, or ultrasonic leak and bearing detection. Write what you found with it, such as "caught [N] bearing failures before they stopped the line," and list any formal level you hold, such as a vibration analyst category under ISO 18436-2, with the certifying body.
+
+**Mean time between failures and mean time to repair** are the two reliability numbers a maintenance manager reports upward. MTBF is operating time divided by the number of failures; MTTR is total repair time divided by the number of repairs. If your CMMS calculated them, use its figures. If you cut the repair time on a machine by standardizing the fix, stocking the right spares, or writing a troubleshooting guide, that is a project worth its own line, and the before-and-after numbers are the proof.
 
 ## Credentials, exactly as held
 
@@ -88,4 +93,4 @@ Filters commonly read for: industrial maintenance, multi-craft, preventive maint
 
 The highest-risk lines are the ones a plant verifies in the technical interview or the first week: PLC programming you have not done, a certification you have not earned, or a number your last plant will not confirm. Write the work at its real level.
 
-The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, propose the certifications, tools, and numbers that work like yours normally involves, and ask you to confirm every item before it appears. We never add a certification, a system, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, and we ask you about the certifications, tools, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a system, or a number you never told us about stays off the page.
