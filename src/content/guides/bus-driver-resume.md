@@ -12,8 +12,7 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-09-20
-updatedDate: 2026-09-29
+pubDate: 2026-10-11
 order: 104
 draft: true
 faq:
@@ -37,7 +36,7 @@ Most bus driver resumes get this order backward. They open with "responsible for
 
 **After:** "CDL Class B, Georgia, expires [month/year]. Endorsements: P (passenger), S (school bus). Air brake restriction: none. DOT medical certificate current through [month/year]. Georgia school bus driver certification [year]; CPR and first aid current through [month/year]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/bus-driver-resume-example.png)
+![Before and after example of a bus driver resume line, built only from what the person gave us or confirmed](/img/guides/examples/bus-driver-resume-example.png)
 
 The second version answers the screening questions in one block and uses the words the posting uses. Write only what the license shows. The S endorsement requires its own knowledge and skills tests, and since February 2022, a first-time P or S endorsement also requires Entry-Level Driver Training through a registered provider. If you completed it, list the provider and the date. If you were endorsed before then, it does not apply, and you should not claim it.
 
@@ -62,6 +61,8 @@ Do not list a school bus or passenger endorsement you have not yet earned as if 
 ## Moving between bus jobs
 
 School to transit, transit to motorcoach, and shuttle to paratransit are common moves, and the resume should show the overlap and name the gap honestly. A school bus driver moving to transit already has the P endorsement, the medical card, and the safety record; what changes is fare handling, ADA securement on a lift-equipped transit bus, and a different testing program. Write the parts you have done, and let the interview cover the training the new employer provides. Inflating a shuttle job into transit experience, or a P endorsement into an S, is the kind of claim a licensing check catches immediately.
+
+**Moving into passenger work from trucking.** A Class A or Class B truck driver already has the license class, the medical card, and years in a federal drug and alcohol testing program, and the miles and the safety record carry over directly. What a passenger employer still needs is the endorsement: P for transit and motorcoach work, and S as well for school routes, each with its own knowledge test and a skills test in a vehicle of the right type, plus the Entry-Level Driver Training described above. Some school districts and transit agencies pay for that training. If a posting says it does, write the truck experience in full and list the endorsement as in progress with the expected date. Then add the passenger-facing work you already have, such as customer deliveries on a dedicated account or an earlier service job, because handling people is the part of the job a truck license cannot show.
 
 ## Format notes
 
@@ -88,4 +89,4 @@ Filters commonly read for: CDL Class B, Class A, passenger endorsement, school b
 
 The highest-risk lines are the ones a licensing check verifies in minutes: an endorsement you do not hold, a lapsed medical card, a certificate you have not finished, or a safety record that disagrees with your motor vehicle record. Write what the license and the record show.
 
-The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real routes, equipment, and years, propose the endorsements, training, and safety facts that work like yours normally involves, and ask you to confirm every item before it appears. We never add an endorsement, a certificate, or a passenger count you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real routes, equipment, and years, and we ask you about the endorsements, training, and safety facts that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so an endorsement, a certificate, or a passenger count you never told us about stays off the page.
