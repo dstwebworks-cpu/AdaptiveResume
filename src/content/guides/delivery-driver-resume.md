@@ -1,6 +1,6 @@
 ---
 title: "Delivery Driver Resume: Stops, Vehicles, and a Clean Driving Record"
-description: "Delivery driver resumes are read for the vehicle you can drive, the stops you can handle, and a record an insurer will accept. How to write yours with real route numbers, the right license and medical card details, and gig or contract work listed honestly."
+description: "Delivery driver resumes are read for the vehicle you can drive, the stops you can handle, and a record an insurer will accept. Here's how to write yours with real route numbers, the right license and medical card details, and gig or contract work listed honestly."
 seoTitle: "Delivery Driver Resume: Stops, Vehicles, Driving Record"
 seoDescription: "Delivery driver resume guide: write your real stops and packages per day, name the vans or box trucks you drove, list the medical card correctly, and show gig work honestly."
 segment: "job-seekers"
@@ -17,18 +17,18 @@ order: 116
 draft: true
 faq:
   - q: "Do I need a CDL to be a delivery driver?"
-    a: "Most delivery jobs do not require one. Cargo vans and many box trucks are rated under 26,001 pounds, which is below the line where a commercial driver's license is required, unless the vehicle hauls placarded hazardous materials or is designed for 16 or more passengers. Write the license class you actually hold and the vehicles you have driven. If you hold a CDL, our CDL truck driver guide covers how to write it."
+    a: "Many delivery jobs do not require a CDL. Cargo vans and many box trucks are rated under 26,001 pounds, which is below the line where a commercial driver's license is required, unless the vehicle hauls placarded hazardous materials or is designed to carry 16 or more people, including the driver. Write the license class you actually hold and the vehicles you have driven. If you hold a CDL, our CDL truck driver guide covers how to write it."
   - q: "How do I list gig delivery work like DoorDash or Instacart?"
     a: "List it as independent contract work, with the app's name, your dates, and real numbers: deliveries completed, your completion or on-time rate, and your customer rating if it is strong. Keep it honest about the arrangement. Writing 'Independent contractor, DoorDash' tells an employer exactly what the work was, and many will value the record of steady, self-managed driving."
   - q: "I drove for an Amazon delivery service partner. Who do I list as the employer?"
     a: "List the delivery service partner company that hired and paid you, and name Amazon as the client, for example '[Company name], Amazon delivery service partner.' That matches what an employment check will show. The same goes for drivers who worked for a contractor delivering for another carrier."
   - q: "Should I put my driving record on my resume?"
-    a: "Put the facts that help you, such as years without an at-fault accident or a moving violation. Employers will check your motor vehicle record anyway, and their insurer often sets the bar, so the resume should match it. Never describe a record as clean if it is not; leave the line off and be ready to explain it plainly."
+    a: "Put the facts that help you, such as years without an at-fault accident or a moving violation. Employers usually check your motor vehicle record, and their insurer often sets the bar, so the resume should match it. Never describe a record as clean if it is not; leave the line off and be ready to explain it plainly."
 ---
 
-A delivery driver resume is read by a dispatcher, a station manager, or a fleet hiring coordinator who has a route to fill. They want to know which vehicles you can drive, how many stops you can handle in a day, and whether your driving record will pass their insurer. A resume that says "reliable driver with excellent customer service skills" answers none of those questions, and it reads like every other application for the job.
+A delivery driver resume is read by a dispatcher, a station manager, or a fleet hiring coordinator who has a route to fill. They want to know which vehicles you can drive, how many stops you can handle in a day, and whether your driving record will pass their insurer. A resume that says "reliable driver with excellent customer service skills" answers none of those questions, and it reads like many other applications for the job.
 
-Delivery work is tracked stop by stop, and those records are where your resume numbers come from. Put the vehicle, the volume, and the record on the page.
+Much parcel and gig delivery work is tracked stop by stop, and those records are where your resume numbers come from. Put the vehicle, the volume, and the record on the page.
 
 ## Lead with the vehicle, the volume, and the record
 
@@ -40,7 +40,7 @@ Delivery work is tracked stop by stop, and those records are where your resume n
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the vehicles, routes, and numbers your work already involved, each added only after you confirm it's true.*
 
-The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. Every number in a line like this comes from the scanner, the route app, or your company's reports.
+The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. The numbers in a line like this usually come from the scanner, the route app, or your company's reports.
 
 ## The numbers a delivery manager reads
 
@@ -48,7 +48,7 @@ The second version tells the reader the work, the vehicle, the volume, the quali
 
 **On-time and completion rate.** Write the share of stops delivered in the promised window and the share completed without a return to the station. Many delivery companies score drivers on these, so you may have seen your own.
 
-**Delivery quality.** Show damage claims, missing-package reports, and customer feedback scores if your company tracked them. A low claim rate is proof you handle freight carefully.
+**Delivery quality.** Show damage claims, missing-package reports, and customer feedback scores if your company tracked them. A low claim rate shows that you handle freight carefully.
 
 **Route size and miles.** Give daily miles, the area you covered, and whether you ran the same route or rotated, because a dispatcher plans around both.
 
@@ -56,7 +56,7 @@ The second version tells the reader the work, the vehicle, the volume, the quali
 
 Name the vehicles you have driven: cargo vans, high-roof sprinter-style vans, step vans, box trucks, or your own car for gig or courier work. If you drove a box truck, give its length or weight rating if you know it, since that tells the reader what you can handle.
 
-Most delivery vehicles do not require a commercial driver's license. A CDL is required for a single vehicle rated at 26,001 pounds or more, for a vehicle that hauls placarded hazardous materials, or for one designed to carry 16 or more passengers. Below that line, write the regular license class you hold and the state.
+Many delivery vehicles do not require a commercial driver's license. A CDL is required for a single vehicle rated at 26,001 pounds or more, for a combination of 26,001 pounds or more when the trailer is rated over 10,000 pounds, for a vehicle that hauls placarded hazardous materials, or for one designed to carry 16 or more people, including the driver. Below that line, write the regular license class you hold and the state.
 
 The medical card is the detail many drivers get wrong. Under FMCSA's rules, [a driver of a vehicle rated over 10,000 pounds in interstate commerce](https://www.fmcsa.dot.gov/are-cmv-drivers-who-operate-interstate-commerce-required-have-medical-certificate) needs a valid medical examiner's certificate, whether or not they hold a CDL. If you drove a larger box truck across state lines, you probably held one; list it with its expiration date.
 
@@ -84,7 +84,7 @@ Drug and alcohol testing under the federal DOT rules applies to CDL drivers. Man
 
 ## Moving up from delivery driving
 
-The lines that point upward matter: training new drivers, covering a dispatcher's desk, running the station's loading line, or earning a CDL. If you are working toward a Class A or Class B license, first-time CDL applicants must complete Entry-Level Driver Training through a registered provider, and our [CDL truck driver resume guide](/guides/cdl-truck-driver-resume/) covers how to write the license once you have it. If warehouse work is part of your history, our [warehouse worker resume guide](/guides/warehouse-worker-resume/) covers the loading-dock side.
+The lines that point upward matter: training new drivers, covering a dispatcher's desk, running the station's loading line, or earning a CDL. If you are working toward a Class A or Class B license, you will need Entry-Level Driver Training from a provider on FMCSA's Training Provider Registry before your first Class A or Class B skills test, and our [CDL truck driver resume guide](/guides/cdl-truck-driver-resume/) covers how to write the license once you have it. If warehouse work is part of your history, our [warehouse worker resume guide](/guides/warehouse-worker-resume/) covers the loading-dock side.
 
 ## Format notes
 
@@ -107,6 +107,6 @@ Use reverse chronological order and a single column, and leave out graphics and 
 
 Filters commonly read for: delivery driver, courier, last-mile, package delivery, route, stops, on-time delivery, proof of delivery, handheld scanner, route app, cargo van, step van, box truck, valid driver's license, clean driving record, MVR, DOT medical card, customer service, lifting, safe driving, two-person delivery, white glove, and the company or app names in the posting. [O*NET's profile for light truck drivers](https://www.onetonline.org/link/summary/53-3033.00) has the full task list.
 
-The highest-risk lines are the ones a delivery company confirms before your first route: a license class you do not hold, a medical card that has lapsed, a record the motor vehicle report contradicts, or gig work written as if you were an employee. Match each line to your license and your records.
+Before your first route, a delivery company will usually pull your motor vehicle record and may call your last station, so the lines most likely to cost you are a stop count your old station would not recognize, a vehicle you never drove, and gig work written as if you were an employee. Match each line to your license and your records.
 
-The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real routes, vehicles, and years, and we ask you about the numbers, systems, and safety facts that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a vehicle, a stop count, or a card you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real routes, vehicles, and years, and we ask you about the vehicles, systems, and safety facts that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a vehicle, a stop count, or a card you never told us about stays off the page.

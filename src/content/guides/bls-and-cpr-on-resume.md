@@ -1,6 +1,6 @@
 ---
 title: "How to List BLS and CPR Certification on a Resume"
-description: "BLS and CPR are different cards, and employers read the difference. How to write the course name, the issuer, and the expiration exactly as your card shows them, where the line goes, and what to do with an expired or online-only card."
+description: "BLS and CPR are different cards, and employers read the difference. Here's how to write the course name, the issuer, and the expiration exactly as your card shows them, where the line goes, and what to do with an expired or online-only card."
 seoTitle: "How to List BLS and CPR Certification on a Resume"
 seoDescription: "List BLS or CPR on a resume the way employers check it: the exact course name, the issuer, and the expiration month and year, plus expired and online-only cards."
 segment: "job-seekers"
@@ -17,16 +17,16 @@ order: 114
 draft: true
 faq:
   - q: "Is BLS the same as CPR on a resume?"
-    a: "They are different courses. BLS is the healthcare provider course: it covers CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and working as a team during a code. A community or workplace CPR course covers the basics for a lay rescuer. A healthcare posting that asks for BLS will not accept a workplace CPR card, so write the course name exactly as your card prints it."
+    a: "They are different courses. BLS is the healthcare provider course: it covers CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and working as a team during a code. A community or workplace CPR course covers the basics for a lay rescuer. A healthcare posting that asks for BLS usually will not accept a workplace CPR card, so write the course name exactly as your card prints it."
   - q: "Do I put my card number on the resume?"
-    a: "Leave it off. The resume needs the course name, the issuer, and the expiration month and year. Keep the eCard code or certificate ID ready for the application or the first day, because that is where an employer verifies it."
+    a: "Leave the card number off your resume. The resume needs the course name, the issuer, and the expiration month and year. Keep the eCard code or certificate ID ready for the application or the first day, because that is where an employer verifies it."
   - q: "My card expired last month. Can I still list it?"
-    a: "You can list it, but not as current. Either renew before you apply, or write the renewal honestly, for example 'BLS Provider, American Heart Association, renewal class scheduled [month/year].' Listing an expired card as current is the kind of detail an onboarding check catches on day one."
+    a: "You can list it, but not as current. Either renew before you apply, or write the renewal honestly, for example 'BLS Provider, American Heart Association, renewal class scheduled [month/year].' Listing an expired card as current is the kind of detail an onboarding check is built to catch."
   - q: "Where does BLS go if every job in my field requires it?"
     a: "Put it near the top. For nurses and other clinical roles, a credentials line under your name or a certifications section above the work history puts it where the reader looks first. For jobs where the card is a plus rather than a requirement, the certifications section after your experience is fine."
 ---
 
-BLS and CPR look like the same line to most job seekers, and they are not the same card. A hiring manager in a hospital, a daycare director, and a safety coordinator each read that line for something specific: the right course, from an issuer they accept, with an expiration date that has not passed. A resume that says "CPR certified" answers none of those three questions.
+BLS and CPR look like the same line to many job seekers, and they are not the same card. A hiring manager in a hospital, a daycare director, and a safety coordinator each read that line for something specific: the right course, from an issuer they accept, with an expiration date that has not passed. A resume that says "CPR certified" answers none of those three questions.
 
 The fix is short. Write the course name the way your card prints it, add the organization that issued it, and give the expiration month and year. That one line does more work than a paragraph of "trained in emergency response."
 
@@ -44,7 +44,7 @@ The second version names two different courses and two different issuers, and it
 
 ## BLS and CPR are different courses
 
-**BLS is the healthcare provider course.** The American Heart Association calls it BLS Provider; the American Red Cross calls its version Basic Life Support. It covers high-quality CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and team roles during a resuscitation. Hospitals, clinics, nursing homes, home health agencies, and EMS agencies ask for it by name.
+**BLS is the healthcare provider course.** The American Heart Association calls it BLS Provider; the American Red Cross calls its version Basic Life Support. It covers high-quality CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and team roles during a resuscitation. Hospitals, clinics, nursing homes, home health agencies, and EMS agencies often ask for it by name.
 
 **CPR, AED, and first aid courses are for lay rescuers.** The American Heart Association's version is Heartsaver; the Red Cross offers Adult First Aid/CPR/AED and Adult and Pediatric First Aid/CPR/AED, among others. These are what schools, childcare programs, gyms, pools, security companies, and workplaces usually require.
 
@@ -52,7 +52,7 @@ If you hold one, write that one. If you hold both, list both, because they are s
 
 ## Expiration dates, and what to do when one lapses
 
-Both major issuers set a two-year period. The American Heart Association's [course card information](https://cpr.heart.org/en/resources/course-card-information) says a BLS Provider card is valid for two years, and the Red Cross says the same of its CPR and first aid certifications. Write the expiration as month and year, because that is how the cards print it and how an employer compares it.
+Both major issuers set a two-year period. The American Heart Association's [course card information](https://cpr.heart.org/en/resources/course-card-information) says a BLS Provider card is valid for two years, and the Red Cross says the same of its CPR and first aid certifications. Write the expiration as month and year, because AHA cards print it that way and an employer compares the month and year against the card.
 
 An expired card does not go on the resume as current. If you are renewing, say so with the date of the class. If you let a card lapse because your last job did not require it, leave it off, or list it under past training with the year, and renew before you start a job that requires it.
 
@@ -64,9 +64,9 @@ Blended courses are different. The American Heart Association's HeartCode BLS, f
 
 ## Where the line goes, by job
 
-**Nursing and clinical roles.** BLS is a condition of the job, so it belongs near the top: a short credentials line under your name, or a certifications section above your experience. Our [ICU nurse](/guides/icu-nurse-resume/) and [ER nurse](/guides/er-nurse-resume/) guides show how BLS, ACLS, and PALS sit together.
+**Nursing and clinical roles.** BLS is usually a condition of the job, so it belongs near the top: a short credentials line under your name, or a certifications section above your experience. Our [ICU nurse](/guides/icu-nurse-resume/) and [ER nurse](/guides/er-nurse-resume/) guides show how BLS, ACLS, and PALS sit together.
 
-**Childcare and early education.** Under the federal Child Care and Development Fund rules, every caregiver and teacher in a program that receives that funding must complete pediatric first aid and CPR training, and many state licensing rules require it as well. Name the pediatric course exactly, because "Adult First Aid/CPR/AED" does not cover what a childcare program needs.
+**Childcare and early education.** Under the federal Child Care and Development Fund [rules](https://www.law.cornell.edu/cfr/text/45/98.41), caregivers, teachers, and directors at child care providers that serve children on that subsidy must complete pediatric first aid and CPR training, with narrow exceptions for some relative caregivers, and many state licensing rules require it as well. Name the pediatric course exactly, because "Adult First Aid/CPR/AED" does not cover what a childcare program needs.
 
 **Fitness, aquatics, coaching, and teaching.** Many personal-trainer certifications, lifeguard programs, and coaching roles require a current CPR and AED card. List it in your certifications with the issuer and the date.
 
@@ -74,7 +74,7 @@ Blended courses are different. The American Heart Association's HeartCode BLS, f
 
 ## How employers verify the card
 
-Employers can check the card itself. An American Heart Association eCard can be verified at [heart.org/cpr/mycards](https://www.heart.org/cpr/mycards) with the eCard code or the QR code. A Red Cross digital certificate can be checked online with its certificate ID or QR code. That is why the resume line has to match the card exactly: a reviewer who sees "BLS" on the resume and "Heartsaver CPR AED" on the eCard will notice.
+Employers can check the card itself. An American Heart Association eCard can be verified at [heart.org/cpr/mycards](https://www.heart.org/cpr/mycards) with the eCard code or the QR code. A Red Cross digital certificate can be checked on the Red Cross [Find My Certificate](https://www.redcross.org/take-a-class/digital-certificate) page with its certificate ID or QR code. That is why the resume line has to match the card exactly: a reviewer who sees "BLS" on the resume and "Heartsaver CPR AED" on the eCard will notice.
 
 ## The mistakes that cost you credibility
 
@@ -100,4 +100,4 @@ Filters commonly read for: BLS, Basic Life Support, CPR, cardiopulmonary resusci
 
 The highest-risk line is a card that does not match the resume: a different course, a different issuer, or a date that has passed. Write exactly what the card shows.
 
-The **Certification Section Cheat-Sheet** below gives you the format for every credential line on your resume, not just this one. Our build does the same with you: we work backwards from your real jobs, and we ask you about the cards and certifications that work like yours normally requires. Nothing goes on your resume that you didn't give us or confirm, so a card you don't hold, or a date you never gave us, stays off the page.
+The **Certification Section Cheat-Sheet** below gives you the format for every credential line on your resume, not just this one, and our guide on [how to list certifications](/guides/how-to-list-certifications-on-resume/) walks through the rest. Our build does the same with you: we work backwards from your real jobs, and we ask you about the cards and certifications that work like yours normally requires. Nothing goes on your resume that you didn't give us or confirm, so a card you don't hold, or a date you never gave us, stays off the page.

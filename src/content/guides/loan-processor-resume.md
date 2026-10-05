@@ -1,6 +1,6 @@
 ---
 title: "Loan Processor Resume: Pipeline, Turn Times, and Clean Files to Close"
-description: "Loan processor resumes are read for the size of the pipeline, how fast files reach clear to close, and how clean they are when they get there. How to write yours with real file counts, the systems you work in, and the compliance steps you keep on schedule."
+description: "Loan processor resumes are read for the size of the pipeline, how fast files reach clear to close, and how clean they are when they get there. Here's how to write yours with real file counts, the systems you work in, and the compliance steps you keep on schedule."
 seoTitle: "Loan Processor Resume: Pipeline, Turn Times, Systems"
 seoDescription: "Mortgage loan processor resume guide: write your pipeline size and files closed, turn times to clear to close, the LOS and AUS you use, and the disclosure deadlines you keep."
 segment: "job-seekers"
@@ -17,9 +17,9 @@ order: 117
 draft: true
 faq:
   - q: "Do loan processors need an NMLS license?"
-    a: "That depends on how you work. Under the federal SAFE Act rules, a processor who only does clerical and support work under the direction and supervision of a licensed loan originator does not need a loan originator license. A processor who works as an independent contractor generally does. Write your status exactly: if you hold a license, give the NMLS ID and the states; if you do not, there is no need to mention it unless the posting asks."
+    a: "That depends on how you work. Under the federal SAFE Act rules, a processor who only does clerical and support work under the actual direction and supervision of a licensed or registered loan originator does not need a loan originator license. A processor who works as an independent contractor generally does. Write your status exactly: if you hold a license, give the NMLS ID and the states; if you do not, there is no need to mention it unless the posting asks."
   - q: "Which numbers matter most on a loan processor resume?"
-    a: "The ones your manager reports: how many files you carry at once, how many close a month, the average days from application or submission to clear to close, and the share that closed on time. If your company tracked suspended or declined files or post-closing defects, a low rate is worth a line."
+    a: "The numbers that matter most are the ones your manager reports: how many files you carry at once, how many close a month, the average days from application or submission to clear to close, and the share that closed on time. If your company tracked suspended or declined files or post-closing defects, a low rate is worth a line."
   - q: "I'm a contract processor. How do I list the clients?"
     a: "List your own business or the processing company as the employer, with the dates, and name the types of lenders or brokers you processed for, along with the volume. If your contracts allow it, name the clients; if not, describe them, such as 'three mortgage brokers and one credit union.' Your license status belongs in the same entry."
   - q: "How do I move from processing into underwriting or origination?"
@@ -28,7 +28,7 @@ faq:
 
 A loan processor resume is read by a processing manager, an operations lead, or a branch manager who needs files to close on time without coming back from underwriting covered in conditions. They want to know how big a pipeline you can carry, how fast you get a file to clear to close, how clean the file is when it gets there, and which systems you already know. A resume that says "detail-oriented processor responsible for processing loan files" answers none of those questions.
 
-Processing is measured closely. Your loan origination system recorded every milestone, and your manager tracked your pipeline every week. Those numbers belong on the page.
+Processing is measured closely. Your loan origination system records the milestones on each file, and many processing managers track pipelines on a regular schedule. Those numbers belong on the page.
 
 ## Lead with the pipeline, the speed, and the systems
 
@@ -40,7 +40,7 @@ Processing is measured closely. Your loan origination system recorded every mile
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the loan types, systems, and numbers your work already involved, each added only after you confirm it's true.*
 
-The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. Every number in a line like this comes from your pipeline reports and your loan origination system.
+The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. The numbers in a line like this usually come from your pipeline reports and your loan origination system.
 
 ## The numbers a processing manager reads
 
@@ -48,7 +48,7 @@ The second version gives the manager the workload, the loan types, the speed, th
 
 **Turn times.** Write the average days from application or submission to clear to close, and the share of files that closed on the scheduled date. If you cut a turn time by changing how you ordered third-party items or chased conditions, that change is worth its own bullet.
 
-**File quality.** Show how often your files went to underwriting complete, how many conditions came back, and any post-closing or quality-control findings. "Fewer than [2] conditions per file on average" tells an underwriter you send clean work.
+**File quality.** Show how often your files went to underwriting complete, how many conditions came back, and any post-closing or quality-control findings. "Fewer than [N] added conditions per file on average after submission" tells an underwriter you send clean work.
 
 **Loan types.** Name the programs you process: conventional, FHA, VA, USDA, jumbo, non-QM, construction, or home equity. Government loans have their own documentation rules, so experience with them is worth naming.
 
@@ -66,7 +66,7 @@ The second version gives the manager the workload, the loan types, the speed, th
 
 ## Licensing and certifications, as held
 
-Under the federal SAFE Act rules, [a processor who works as an independent contractor](https://www.consumerfinance.gov/rules-policy/regulations/1008/c/) generally needs a state loan originator license, while one who does only clerical and support work under a licensed originator's supervision does not. If you hold a license, list your NMLS ID and the states. If you do not, you do not need to mention licensing.
+Under the federal SAFE Act rules, [a processor who works as an independent contractor](https://www.consumerfinance.gov/rules-policy/regulations/1008/c/) generally needs a state loan originator license, while one who does only clerical and support work under the actual supervision of a licensed or registered originator does not. If you hold a license, list your NMLS ID and the states. If you do not, you do not need to mention licensing.
 
 Processing certifications are voluntary. If you hold one, such as the National Association of Mortgage Processors' Certified Mortgage Processor (NAMP-CMP), list it with the year. Training on a specific system or loan program can be listed as training, with the provider.
 
@@ -86,7 +86,7 @@ Use reverse chronological order and a single column, and leave out graphics and 
 - "Brought files from submission to clear to close in an average of [N] days; [N]% closed on the scheduled date"
 - "Tracked Loan Estimate and Closing Disclosure timing to TRID deadlines on every file in [LOS]"
 - "Ordered and reviewed appraisals, title, flood certifications, VOEs, and 4506-C transcripts"
-- "Read [DU/LPA] findings and cleared prior-to-document conditions; averaged fewer than [N] conditions per file"
+- "Read [DU/LPA] findings and cleared prior-to-document conditions; averaged fewer than [N] added conditions per file after submission"
 - "Calculated income for self-employed and commission borrowers from tax returns and pay records"
 - "Coordinated with [N] loan officers, agents, and title companies to keep closing dates on schedule"
 - "Trained [N] new processors on the LOS, the disclosure calendar, and the condition checklist"
@@ -97,4 +97,4 @@ Filters commonly read for: loan processor, mortgage processor, processing, pipel
 
 The highest-risk lines are the ones a lender confirms in a reference call or a license lookup: a pipeline or closing count your last manager will not confirm, an NMLS license you do not hold, or underwriting authority you never had. Write the work at its real level.
 
-If you are moving on from processing, our [underwriter resume guide](/guides/underwriter-resume/) and [loan officer resume guide](/guides/loan-officer-resume/) cover how those jobs are read. The **Role Skills Checklist** below helps you inventory what your lending history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lenders, loan types, and systems, and we ask you about the numbers, steps, and tools that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a loan count, a system, or a license you never told us about stays off the page.
+If you are moving on from processing, our [underwriter resume guide](/guides/underwriter-resume/) and [loan officer resume guide](/guides/loan-officer-resume/) cover how those jobs are read. The **Role Skills Checklist** below helps you inventory what your lending history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lenders, loan types, and systems, and we ask you about the compliance steps, systems, and tools that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a loan count, a system, or a license you never told us about stays off the page.
