@@ -12,8 +12,7 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-09-20
-updatedDate: 2026-09-29
+pubDate: 2026-10-11
 order: 107
 draft: true
 faq:
@@ -37,7 +36,7 @@ The supervisors who get called first write the crew size, the output, and the st
 
 **After:** "Second-shift production supervisor for a 22-person crew on three packaging lines: 180,000 units a shift, scrap reduced from 4.1% to 2.3% in one year, overall equipment effectiveness raised from 61% to 74%, zero recordable injuries in [N] months. Line runs under SQF and OSHA 29 CFR 1910.147 lockout/tagout."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/production-supervisor-resume-example.png)
+![Before and after example of a production supervisor resume line, built only from what the person gave us or confirmed](/img/guides/examples/production-supervisor-resume-example.png)
 
 The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Everything in it came from one supervisor's shift reports and the plant's quality system.
 
@@ -54,6 +53,16 @@ The second version gives the reader the crew, the equipment, the output, two imp
 **Continuous improvement.** 5S, standard work, Kaizen events you led, root-cause analysis, and the result of each in a number. A supervisor who can write "led a changeover Kaizen that cut setup time from 45 to 28 minutes" has written a line that gets the interview.
 
 **People development.** Operators trained and cross-trained, leads you developed, and turnover on your shift compared with the plant.
+
+## Working out the numbers your plant already keeps
+
+If your plant never handed you a scorecard, most of these numbers can be rebuilt from records you saw every shift. Rebuild them honestly, and label an estimate as an estimate.
+
+**Overall equipment effectiveness** is availability times performance times quality: the share of planned time the line actually ran, how close it ran to its ideal speed while it was running, and the share of output that was good the first time. A line that ran 90% of planned time, at 85% of ideal speed, with 97% good parts, is at about 74% OEE. If your plant reported OEE, use its figure rather than your own math.
+
+**Recordable incident rate** comes from OSHA's formula: recordable injuries and illnesses times 200,000, divided by the hours your crew worked. The 200,000 stands for 100 full-time workers over a year, which is why the rate can be compared across plants of different sizes. If your safety department reported a rate for your shift, use that one.
+
+**Scrap and first-pass yield** come from the quality reports: scrapped or reworked units divided by total units produced, and the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
 
 ## Certifications and training, exactly as held
 
@@ -86,4 +95,4 @@ Filters commonly read for: production supervisor, shift supervisor, manufacturin
 
 The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write what the shift reports show.
 
-The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, propose the certifications, systems, and numbers that work like yours normally involves, and ask you to confirm every item before it appears. We never add a number, a standard, or a credential you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.
