@@ -19,11 +19,11 @@ faq:
   - q: "How do I find my pick rate if I never wrote it down?"
     a: "Start with what your warehouse told you. Many fulfillment operations show workers their rate on the scanner, a screen, or a daily report, and in several states large warehouse employers must give workers a written description of the quotas they are held to. If you never saw a number, estimate honestly from a typical shift, such as orders picked divided by hours worked, and write it as approximate."
   - q: "I have no warehouse experience. What goes on the resume?"
-    a: "The work that carries over. Retail stocking and receiving, restaurant prep and dish work, landscaping, moving jobs, and military supply work all show that you can do physical work on a schedule, count accurately, and follow safety rules. Write those jobs with their numbers, add any equipment you have used, and list a forklift or pallet jack certificate only if an employer trained and evaluated you."
+    a: "List the work that carries over. Retail stocking and receiving, restaurant prep and dish work, landscaping, moving jobs, and military supply work all show that you can do physical work on a schedule, count accurately, and follow safety rules. Write those jobs with their numbers, add any equipment you have used, and list a forklift or pallet jack certificate only if an employer trained and evaluated you."
   - q: "Should I list my forklift experience on a warehouse worker resume?"
-    a: "Yes, if you were trained and evaluated on that truck by an employer. Name the truck type and the employer. If you want to move into a driving role, our forklift operator guide covers how operators write the truck classes and the evaluation."
+    a: "List it if you were trained and evaluated on that truck by an employer. Name the truck type and the employer. If you want to move into a driving role, our forklift operator guide covers how operators write the truck classes and the evaluation."
   - q: "What is the difference between a warehouse worker and a warehouse supervisor resume?"
-    a: "Scope. A warehouse worker resume is built on your own rate, accuracy, equipment, and attendance. A supervisor resume is built on the crew you ran and the building's numbers. If you have covered for a lead or trained new hires, say so on your worker resume; that is the step toward supervision."
+    a: "The difference is scope. A warehouse worker resume is built on your own rate, accuracy, equipment, and attendance. A supervisor resume is built on the crew you ran and the building's numbers. If you have covered for a lead or trained new hires, say so on your worker resume; that is the step toward supervision."
 ---
 
 A warehouse worker resume is read by a hiring manager or a staffing recruiter who fills shifts for a living. They are looking for three numbers and a short list: how fast you work, how accurate you are, how reliably you show up, and which equipment and systems you can run on day one. A resume that says "hard-working team player responsible for picking and packing orders" gives them none of it, and it looks like every other application in the pile.
@@ -38,17 +38,19 @@ The good news is that warehouse work is measured more closely than almost any ot
 
 ![Before and after example of a warehouse worker resume line, built only from what the person gave us or confirmed](/img/guides/examples/warehouse-worker-resume-example.png)
 
-The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. Every number in it came from what the warehouse tracked.
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the systems, equipment, and numbers your work already involved, each added only after you confirm it's true.*
+
+The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. Every number in a line like this comes from what your warehouse already tracks.
 
 ## The numbers a warehouse manager reads
 
-**Rate.** Units per hour, lines per hour, cases per hour, or orders per shift, depending on how your building counted it. Write the unit your warehouse used, because "140 units an hour" and "140 lines an hour" are very different jobs. If you met or beat the standard, say so: "about 110% of the standard rate across peak season."
+**Rate.** Give your rate in units per hour, lines per hour, cases per hour, or orders per shift, depending on how your building counted it. Write the unit your warehouse used, because "140 units an hour" and "140 lines an hour" are very different jobs. If you met or beat the standard, say so: "about 110% of the standard rate across peak season."
 
-**Accuracy.** Pick accuracy, pack accuracy, or the error rate on your counts. Accuracy matters as much as speed, because every wrong item costs the warehouse a return and a customer.
+**Accuracy.** Give your pick accuracy, pack accuracy, or the error rate on your counts. Accuracy matters as much as speed, because every wrong item costs the warehouse a return and a customer.
 
-**Attendance and reliability.** Months without a missed shift, overtime and peak-season shifts worked, and any attendance or performance recognition. In a business that runs on full shifts, this is a selling point, not a filler line.
+**Attendance and reliability.** Count your months without a missed shift, the overtime and peak-season shifts you worked, and any attendance or performance recognition. In a business that runs on full shifts, this is a selling point, not a filler line.
 
-**Safety.** Months or years without a recordable incident, safety training completed, and any safety-team role.
+**Safety.** Write your months or years without a recordable incident, the safety training you completed, and any safety-team role.
 
 ## Where your numbers come from
 
@@ -58,15 +60,15 @@ If no one ever gave you a number, estimate from a normal shift, round it down, a
 
 ## Warehouse worker resume skills that carry weight
 
-**Scanners and systems.** RF handheld scanners, voice picking headsets, pick-to-light and put-to-light systems, and the warehouse management system (WMS) by name if you know it: Manhattan, Blue Yonder, SAP, Oracle, or the company's own system. Knowing the system shortens your training, and recruiters search for those names.
+**Scanners and systems.** Name the RF handheld scanners, voice picking headsets, pick-to-light and put-to-light systems you used, and the warehouse management system (WMS) by name if you know it, such as Manhattan, Blue Yonder, SAP, Oracle, or the company's own system. Knowing the system shortens your training, and recruiters search for those names.
 
-**Equipment.** Manual pallet jacks, electric pallet jacks, order pickers, reach trucks, sit-down forklifts, carts, and conveyors. An electric pallet jack counts as a powered industrial truck under OSHA's rule, so the training and evaluation your employer gave you are worth naming, along with the truck type.
+**Equipment.** List the equipment you ran, such as manual pallet jacks, electric pallet jacks, order pickers, reach trucks, sit-down forklifts, carts, and conveyors. An electric pallet jack counts as a powered industrial truck under OSHA's rule, so the training and evaluation your employer gave you are worth naming, along with the truck type.
 
-**Receiving and inventory.** Unloading trucks, checking shipments against the paperwork, putaway, cycle counts, and inventory adjustments in the system. Cycle-count accuracy is a number worth writing.
+**Receiving and inventory.** Describe receiving work such as unloading trucks, checking shipments against the paperwork, putaway, cycle counts, and inventory adjustments in the system. Cycle-count accuracy is a number worth writing.
 
-**Packing and shipping.** Packing to standard, choosing box sizes, labeling, building pallets, wrapping loads, loading trailers, and working with bills of lading and carrier pickups.
+**Packing and shipping.** Describe packing to standard, choosing box sizes, labeling, building pallets, wrapping loads, loading trailers, and working with bills of lading and carrier pickups.
 
-**Stocking and replenishment.** Keeping pick locations full, rotating stock first in, first out, and handling temperature-controlled or hazardous products if your building carried them.
+**Stocking and replenishment.** Show that you kept pick locations full, rotated stock first in, first out, and handled temperature-controlled or hazardous products if your building carried them.
 
 ## Moving up from the floor
 
@@ -76,7 +78,7 @@ The lines that point upward matter even for an entry-level job: training new hir
 
 **Length follows your history.** A warehouse worker with one or two jobs usually fits on one page, and that is fine. **Two pages is normal and expected once you have more than one substantive job to describe,** such as several warehouses plus a military or retail history. Keep the numbers, the equipment, the systems, and the safety record; cut the duties every warehouse job shares.
 
-Reverse chronological, single column, and no graphics or photos. Large warehouse employers and staffing agencies run applications through hiring software, and a two-column template can scramble the read. List staffing-agency jobs under the agency's name with the warehouse you worked at, for example "[Staffing agency], assigned to [warehouse]," so the dates make sense.
+Use reverse chronological order and a single column, and leave out graphics and photos. Large warehouse employers and staffing agencies run applications through hiring software, and a two-column template can scramble the read. List staffing-agency jobs under the agency's name with the warehouse you worked at, for example "[Staffing agency], assigned to [warehouse]," so the dates make sense.
 
 Gaps get one plain dated line. Seasonal and peak-season work is normal in this industry, and listing it honestly with its dates reads well.
 

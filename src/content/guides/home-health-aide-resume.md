@@ -17,13 +17,13 @@ order: 113
 draft: true
 faq:
   - q: "What is the difference between a home health aide and a caregiver on a resume?"
-    a: "The training and the employer. A home health aide at a Medicare-certified home health agency has met the federal qualification rule, and the visits follow a plan of care that a registered nurse or therapist writes and supervises. A caregiver or personal care aide usually provides non-medical help without that qualification. If you have done both kinds of work, keep them as separate entries with their own titles, and read our caregiver guide for the non-medical side."
+    a: "The difference is the training and the employer. A home health aide at a Medicare-certified home health agency has met the federal qualification rule, and the visits follow a plan of care that a registered nurse or therapist writes and supervises. A caregiver or personal care aide usually provides non-medical help without that qualification. If you have done both kinds of work, keep them as separate entries with their own titles, and read our caregiver guide for the non-medical side."
   - q: "I'm a CNA. Can I list myself as a home health aide?"
-    a: "Only if you actually worked as one. The federal rule lets a nurse aide who is listed in good standing on a state registry qualify for home health aide work, so many CNAs move into home care without a second course. But the title on your resume should be the title you were hired under. Write the CNA certification exactly as your state registry shows it, and add the home health job as its own entry once you hold one."
+    a: "You can, but only if you actually worked as one. The federal rule lets a nurse aide who is listed in good standing on a state registry qualify for home health aide work, so many CNAs move into home care without a second course. But the title on your resume should be the title you were hired under. Write the CNA certification exactly as your state registry shows it, and add the home health job as its own entry once you hold one."
   - q: "My training certificate is from years ago. Does it still count?"
     a: "It depends on whether you kept working. Under the federal rule, an aide who goes 24 consecutive months without providing paid aide services has to complete a new training or competency evaluation before working again. If you have worked steadily, list the original program and year along with your recent in-service training. If you had a long break, say so plainly and list the refresher you completed or are scheduled for."
   - q: "Should I list the agency's software on my resume?"
-    a: "Yes, by name. Many home health agencies record every visit electronically, and a handful of scheduling and visit-verification apps are widely used. If a posting names the app you already use, that is one less thing to train you on. Write the app and what you did in it, such as clocking in and out at the client's home and completing the visit checklist."
+    a: "Yes, list it by name. Many home health agencies record every visit electronically, and a handful of scheduling and visit-verification apps are widely used. If a posting names the app you already use, that is one less thing to train you on. Write the app and what you did in it, such as clocking in and out at the client's home and completing the visit checklist."
 ---
 
 A home health aide resume is read by a staffing coordinator or a clinical manager who has to answer one question before anything else: can this person legally be sent into a patient's home on our behalf? For an agency that bills Medicare, that question has a regulatory answer, and the resume should give it in the first few lines. Then the reader wants to know how many clients you have seen, what care you gave, and whether your visit records were complete.
@@ -38,6 +38,8 @@ Most home health aide resumes open with "compassionate caregiver dedicated to he
 
 ![Before and after example of a home health aide resume line, built only from what the person gave us or confirmed](/img/guides/examples/home-health-aide-resume-example.png)
 
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the training, care tasks, and records your work already involved, each added only after you confirm it's true.*
+
 The second version tells the agency that you meet the qualification, that you keep your training current, how much work you carry, and that your records are clean. Write only the program you actually completed, with the name on your certificate.
 
 ## What the federal rule asks for, and how to write it
@@ -50,15 +52,15 @@ After you qualify, the rule requires at least 12 hours of in-service training in
 
 ## The parts of the job that carry the most weight
 
-**Clients and visits, in numbers.** Visits per day or per week, the number of clients on your schedule, the area you covered, and the visit length. "Five to seven visits a day across two counties" tells a coordinator you can carry a full route.
+**Clients and visits, in numbers.** Give your visits per day or per week, the number of clients on your schedule, the area you covered, and the visit length. "Five to seven visits a day across two counties" tells a coordinator you can carry a full route.
 
-**The care tasks on the plan.** Bathing, grooming, toileting, dressing, transfers with a gait belt or a mechanical lift, range-of-motion exercises, ambulation, meal preparation to a prescribed diet, and medication reminders where your state and agency allow them. Write the tasks you actually performed, and keep them inside the aide scope. Wound care, injections, and medication administration are nursing tasks, and listing them as yours raises a red flag in any home health interview.
+**The care tasks on the plan.** List the tasks you carried out, such as bathing, grooming, toileting, dressing, transfers with a gait belt or a mechanical lift, range-of-motion exercises, ambulation, meal preparation to a prescribed diet, and medication reminders where your state and agency allow them. Write the tasks you actually performed, and keep them inside the aide scope. Wound care, injections, and medication administration are nursing tasks, and listing them as yours raises a red flag in any home health interview.
 
-**Observation and reporting.** Vital signs, changes in skin condition, appetite, mood, or mobility, and falls, each reported to the supervising nurse the same day. Under the federal rule, a registered nurse or therapist reviews the aide's work on a set schedule: at least every 14 days for patients receiving skilled care, and at least every 60 days for patients who are not. A clean record across those reviews is worth one line.
+**Observation and reporting.** Write how you took vital signs and reported changes in skin condition, appetite, mood, or mobility, and falls, each to the supervising nurse the same day. Under the federal rule, a registered nurse or therapist reviews the aide's work on a set schedule: at least every 14 days for patients receiving skilled care, and at least every 60 days for patients who are not. A clean record across those reviews is worth one line.
 
 **Visit records.** State Medicaid programs require electronic visit verification for Medicaid-paid home health visits, which records the type of service, the person served, the date, the location, the aide, and the start and end times. Name the app your agency used and describe your record honestly, for example "every visit clocked in and out on site, no missed check-ins in [N] months."
 
-**Patients and conditions.** Older adults after a hospital stay, people living with dementia, stroke recovery, hospice support alongside the hospice team, pediatric home care, and clients with disabilities. Name the groups you have cared for, because agencies match aides to patients by experience.
+**Patients and conditions.** Name the groups you have cared for, such as older adults after a hospital stay, people living with dementia, stroke recovery, hospice support alongside the hospice team, pediatric home care, and clients with disabilities. Agencies match aides to patients by experience, so this line helps them place you.
 
 ## Credentials and checks, as held
 
@@ -76,7 +78,7 @@ A background check is a condition of the job rather than a credential, but if th
 
 **Length follows your history, not a page rule.** An aide with several agencies and a CNA background has more that matters than one page holds. **Two pages is normal and expected once you have more than one substantive job to describe.** Keep the qualification, the visit numbers, the care tasks, the populations, and the records; cut the duties every aide shares.
 
-Reverse chronological, single column, the qualification line near the top, and no graphics or photos. Home health agencies often take applications through hiring software, and a two-column template can scramble the read. Gaps get one plain dated line, especially if a gap is long enough to raise the 24-month retraining question.
+Use reverse chronological order and a single column, put the qualification line near the top, and leave out graphics and photos. Home health agencies often take applications through hiring software, and a two-column template can scramble the read. Gaps get one plain dated line, especially if a gap is long enough to raise the 24-month retraining question.
 
 ## A bullet bank you can adapt — keep only what's true
 

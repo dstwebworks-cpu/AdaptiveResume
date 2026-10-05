@@ -17,13 +17,13 @@ order: 114
 draft: true
 faq:
   - q: "Is BLS the same as CPR on a resume?"
-    a: "No. BLS is the healthcare provider course: it covers CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and working as a team during a code. A community or workplace CPR course covers the basics for a lay rescuer. A healthcare posting that asks for BLS will not accept a workplace CPR card, so write the course name exactly as your card prints it."
+    a: "They are different courses. BLS is the healthcare provider course: it covers CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and working as a team during a code. A community or workplace CPR course covers the basics for a lay rescuer. A healthcare posting that asks for BLS will not accept a workplace CPR card, so write the course name exactly as your card prints it."
   - q: "Do I put my card number on the resume?"
-    a: "No. The resume needs the course name, the issuer, and the expiration month and year. Keep the eCard code or certificate ID ready for the application or the first day, because that is where an employer verifies it."
+    a: "Leave it off. The resume needs the course name, the issuer, and the expiration month and year. Keep the eCard code or certificate ID ready for the application or the first day, because that is where an employer verifies it."
   - q: "My card expired last month. Can I still list it?"
-    a: "Not as current. Either renew before you apply, or write the renewal honestly, for example 'BLS Provider, American Heart Association, renewal class scheduled [month/year].' Listing an expired card as current is the kind of detail an onboarding check catches on day one."
+    a: "You can list it, but not as current. Either renew before you apply, or write the renewal honestly, for example 'BLS Provider, American Heart Association, renewal class scheduled [month/year].' Listing an expired card as current is the kind of detail an onboarding check catches on day one."
   - q: "Where does BLS go if every job in my field requires it?"
-    a: "Near the top. For nurses and other clinical roles, a credentials line under your name or a certifications section above the work history puts it where the reader looks first. For jobs where the card is a plus rather than a requirement, the certifications section after your experience is fine."
+    a: "Put it near the top. For nurses and other clinical roles, a credentials line under your name or a certifications section above the work history puts it where the reader looks first. For jobs where the card is a plus rather than a requirement, the certifications section after your experience is fine."
 ---
 
 BLS and CPR look like the same line to most job seekers, and they are not the same card. A hiring manager in a hospital, a daycare director, and a safety coordinator each read that line for something specific: the right course, from an issuer they accept, with an expiration date that has not passed. A resume that says "CPR certified" answers none of those three questions.
@@ -37,6 +37,8 @@ The fix is short. Write the course name the way your card prints it, add the org
 **After:** "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027]."
 
 ![Before and after example of a BLS and CPR resume line, built only from what the person gave us or confirmed](/img/guides/examples/bls-and-cpr-on-resume-example.png)
+
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the cards and certifications your work already involved, each added only after you confirm it's true.*
 
 The second version names two different courses and two different issuers, and it shows that both are current. It also spells out "Basic Life Support" next to "BLS," so a screening system matches the line whichever form the posting uses.
 
@@ -76,11 +78,11 @@ Employers can check the card itself. An American Heart Association eCard can be 
 
 ## The mistakes that cost you credibility
 
-- Writing "CPR/BLS certified" as one item when you hold only one of the two courses.
-- Leaving out the issuer, which leaves the reader unable to tell whether the card is one they accept.
-- Listing a card as current after it expired.
-- Burying the card in a skills list instead of a certifications section.
-- Calling an online-only certificate "hands-on" or treating it as the same as an instructor-led course.
+- Don't write "CPR/BLS certified" as one item when you hold only one of the two courses.
+- Don't leave out the issuer, because the reader can't tell whether the card is one they accept.
+- Don't list a card as current after it has expired.
+- Don't bury the card in a skills list; give it a certifications section.
+- Don't call an online-only certificate "hands-on" or treat it as the same as an instructor-led course.
 
 ## Lines you can adapt — keep only what's true
 
