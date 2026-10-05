@@ -12,8 +12,7 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-09-20
-updatedDate: 2026-09-29
+pubDate: 2026-10-11
 order: 105
 draft: true
 faq:
@@ -37,7 +36,7 @@ The technicians who get called first write the certifications exactly, put numbe
 
 **After:** "ASE Master Automobile Technician (A1–A8), current through [month/year]; L1 Advanced Engine Performance Specialist. Flat-rate technician at a [brand] dealership: about 55 flat-rate hours a week at 125% efficiency, comeback rate under 2%, drivability and electrical diagnosis on about a third of tickets."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/automotive-technician-resume-example.png)
+![Before and after example of a automotive technician resume line, built only from what the person gave us or confirmed](/img/guides/examples/automotive-technician-resume-example.png)
 
 The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Every number in it is one you can read off your pay stubs and your shop's management system.
 
@@ -92,4 +91,4 @@ Filters commonly read for: ASE certified, Master Technician, A1 through A9, L1, 
 
 The highest-risk lines are the ones a dealership verifies before an offer: an ASE area you have not passed, a lapsed certification written as current, a factory level you did not reach, or production numbers your last shop will not confirm. Write what your certificates and your pay stubs show.
 
-The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, propose the certifications, tools, and numbers that work like yours normally involves, and ask you to confirm every item before it appears. We never add a certification, a tool, or a number you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, and we ask you about the certifications, tools, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a tool, or a number you never told us about stays off the page.
