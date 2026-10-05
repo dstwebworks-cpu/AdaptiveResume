@@ -56,7 +56,7 @@ The second version answers every screening question at once and matches the voca
 
 **Customer and dock work.** Show your on-time delivery rate, drop-and-hook or live-unload work, lumper coordination, and any customer-facing accounts. Local and dedicated postings care about this more than over-the-road postings do.
 
-## Endorsements, permits, and cards, as held
+## Endorsements, cards, and training, as held
 
 List every endorsement by its letter and name: H (hazardous materials), N (tank vehicles), X (tank and hazmat combined), T (doubles and triples), P (passenger), S (school bus). List restrictions honestly if you have one that matters, such as an automatic-transmission restriction, because the carrier will see it on the license anyway.
 

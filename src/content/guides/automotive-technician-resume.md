@@ -38,7 +38,7 @@ A strong technician resume writes the certifications exactly, puts numbers on pr
 
 ![Before and after example of an automotive technician resume line, built only from what the person gave us or confirmed](/img/guides/examples/automotive-technician-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the certifications, tools, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the certifications, tools, and safety training your work already involved, each added only after you confirm it's true.*
 
 The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Every number in a line like this is one you can find on your pay stubs, your repair orders, or your shop's management system.
 
@@ -93,4 +93,4 @@ Filters commonly read for: ASE certified, Master Technician, A1 through A9, L1, 
 
 The highest-risk lines are the ones a dealership verifies before an offer: an ASE area you have not passed, a lapsed certification written as current, a factory level you did not reach, or production numbers your last shop will not confirm. Write what your certificates and your pay stubs show.
 
-The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, and we ask you about the certifications, tools, and systems that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a tool, or a number you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, and we ask you about the certifications, tools, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a tool, or a number you never told us about stays off the page.
