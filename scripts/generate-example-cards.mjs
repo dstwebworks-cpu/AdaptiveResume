@@ -315,6 +315,26 @@ export const PAIRS = {
     before: "LPN responsible for providing nursing care to residents and administering medications.",
     after: "LPN, [state] license (active), [Nurse Licensure Compact multistate]; [28]-resident hall on a [120]-bed skilled nursing facility, [night] shift; med pass, treatments and wound care, data collection and reporting to the RN; [state] IV therapy certified; charted in [PointClickCare].",
   },
+  "bus-driver-resume": {
+    before: "CDL driver with passenger endorsement, experienced with school buses and transit.",
+    after: "CDL Class B, Georgia, expires [month/year]. Endorsements: P (passenger), S (school bus). Air brake restriction: none. DOT medical certificate current through [month/year]. Georgia school bus driver certification [year]; CPR and first aid current through [month/year].",
+  },
+  "production-supervisor-resume": {
+    before: "Production supervisor responsible for overseeing daily operations and ensuring production targets were met.",
+    after: "Second-shift production supervisor for a 22-person crew on three packaging lines: 180,000 units a shift, scrap reduced from 4.1% to 2.3% in one year, overall equipment effectiveness raised from 61% to 74%, zero recordable injuries in [N] months. Line runs under SQF and OSHA 29 CFR 1910.147 lockout/tagout.",
+  },
+  "automotive-technician-resume": {
+    before: "ASE certified technician with 8 years of experience in brakes, engines, and electrical.",
+    after: "ASE Master Automobile Technician (A1–A8), current through [month/year]; L1 Advanced Engine Performance Specialist. Flat-rate technician at a [brand] dealership: about 55 flat-rate hours a week at 125% efficiency, comeback rate under 2%, drivability and electrical diagnosis on about a third of tickets.",
+  },
+  "maintenance-technician-resume": {
+    before: "Maintenance technician responsible for troubleshooting and repairing production equipment.",
+    after: "Multi-craft maintenance technician on a 24/7 food-packaging line: 40 machines including fillers, case packers, conveyors, and two ammonia-refrigerated chillers; lockout/tagout under OSHA 29 CFR 1910.147 on every job; preventive maintenance completion raised from 78% to 96% in one year, tracked in Fiix.",
+  },
+  "cdl-truck-driver-resume": {
+    before: "CDL holder with tanker and hazmat, clean record, DOT certified.",
+    after: "CDL Class A, Georgia, expires [month/year]. Endorsements: H (hazardous materials), N (tank), T (doubles/triples). DOT medical certificate current through [month/year]. FMCSA Drug and Alcohol Clearinghouse registered. Entry-Level Driver Training completed [year], [provider].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -330,8 +350,8 @@ function wrap(text, max) {
 const tspans = (lines, x, y0, lh) => lines.map((l, i) => `<tspan x="${x}" y="${y0 + i * lh}">${esc(l)}</tspan>`).join("");
 
 function svg({ before, after }) {
-  const b = wrap(`"${before}"`, 62).slice(0, 3);
-  const a = wrap(`"${after}"`, 62).slice(0, 5);
+  const b = wrap(`"${before}"`, 62), a = wrap(`"${after}"`, 62);
+  if (b.length > 3 || a.length > 6) throw new Error(`card text too long (before ${b.length}/3 lines, after ${a.length}/6): ${after.slice(0, 50)}`);
   return `<svg width="1200" height="628" xmlns="http://www.w3.org/2000/svg">
   <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="${NAVY}"/><stop offset="1" stop-color="${DEEP}"/></linearGradient></defs>
@@ -341,7 +361,7 @@ function svg({ before, after }) {
     <text x="70" y="88" font-size="22" font-weight="700" fill="${MUTED}" letter-spacing="3">BEFORE</text>
     <text font-size="26" font-style="italic" fill="${MUTED}">${tspans(b, 70, 128, 36)}</text>
     <line x1="70" y1="${140 + b.length * 36}" x2="1130" y2="${140 + b.length * 36}" stroke="${AMBER}" stroke-width="2" opacity="0.6"/>
-    <text x="70" y="${188 + b.length * 36}" font-size="22" font-weight="700" fill="${AMBER}" letter-spacing="3">AFTER - EVERY NEW LINE CONFIRMED BY THE PERSON</text>
+    <text x="70" y="${188 + b.length * 36}" font-size="22" font-weight="700" fill="${AMBER}" letter-spacing="3">AFTER - BUILT ONLY FROM WHAT THE PERSON GAVE US OR CONFIRMED</text>
     <text font-size="27" font-weight="600" fill="${INK}">${tspans(a, 70, 228 + b.length * 36, 38)}</text>
     <text x="70" y="580" font-size="22" font-weight="700" fill="${INK}">Adaptive<tspan fill="${AMBER}">Resume</tspan></text>
     <text x="1130" y="580" font-size="20" font-weight="600" fill="${SOFT}" text-anchor="end">Illustrative example - nothing invented, ever, on yours.</text>
