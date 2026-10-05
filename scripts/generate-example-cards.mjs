@@ -335,6 +335,10 @@ export const PAIRS = {
     before: "CDL holder with tanker and hazmat, clean record, DOT certified.",
     after: "CDL Class A, Georgia, expires [month/year]. Endorsements: H (hazardous materials), N (tank), T (doubles/triples). DOT medical certificate current through [month/year]. FMCSA Drug and Alcohol Clearinghouse registered. Entry-Level Driver Training completed [year], [provider].",
   },
+  "home-health-aide-resume": {
+    before: "Compassionate home health aide with experience caring for elderly patients in their homes.",
+    after: "Home health aide, [state] [training program name] ([year]), [75]-hour training and competency evaluation; [12] hours of in-service training a year. [5]-[7] client visits a day across [county], bathing and transfers on each care plan, vital signs reported to the supervising RN, every visit clocked in [HHAeXchange].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
