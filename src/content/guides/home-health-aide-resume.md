@@ -46,7 +46,7 @@ A home health agency that participates in Medicare can only use aides who meet [
 
 The competency evaluation is more than a written test. The rule requires an evaluator to watch you perform several tasks with a patient or a stand-in, including communication, vital signs, personal hygiene, safe transfers, and range of motion and positioning. If your program put you through that observed evaluation, your resume can say "training and competency evaluation completed," and that phrase is exactly what a compliance reviewer looks for.
 
-After you qualify, the rule requires at least 12 hours of in-service training in every 12-month period. Listing that training, with the topics and the year, shows the agency that you are current without them having to ask. Some states add their own layer, such as a state certificate or a home care registry listing. New York keeps a Home Care Registry for home health aides and personal care aides, and New Jersey certifies homemaker-home health aides through its Board of Nursing. Write your state's credential by its exact name if you hold one.
+After you qualify, the rule requires at least 12 hours of in-service training in every 12-month period. Listing that training, with the topics and the year, shows the agency that you are current without them having to ask. Some states add their own layer, such as a state certificate or a home care registry listing. New York, for example, lists home health aides and personal care aides who completed a state-approved program on its Home Care Registry. Write your state's credential by its exact name if you hold one.
 
 ## The parts of the job that carry the most weight
 
