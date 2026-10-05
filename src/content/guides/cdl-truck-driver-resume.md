@@ -1,6 +1,6 @@
 ---
 title: "CDL Truck Driver Resume: Class, Endorsements, Miles, and a Clean Record"
-description: "Truck driver resumes are screened for the CDL class, the endorsements, and the record before anyone reads a sentence. How to write yours with the exact license line, real miles and freight, and the DOT facts a recruiter checks."
+description: "Truck driver resumes are screened for the CDL class, the endorsements, and the record before anyone reads a sentence. Here's how to write yours with the exact license line, real miles and freight, and the DOT facts a recruiter checks."
 seoTitle: "CDL Truck Driver Resume: Class, Endorsements, Miles"
 seoDescription: "CDL truck driver resume guide: write the license line exactly, show real miles and freight types, and list the DOT medical card, ELDT, and safety record."
 segment: "job-seekers"

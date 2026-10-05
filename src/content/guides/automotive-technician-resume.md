@@ -1,6 +1,6 @@
 ---
 title: "Automotive Technician Resume: ASE Areas, Flat-Rate Numbers, and the Systems You Fix"
-description: "Automotive technician resumes are read for the ASE areas first, then for the numbers a service manager lives on: flat-rate hours, efficiency, and comebacks. How to write yours with the exact certifications, the real numbers, and the diagnostic work that separates a technician from a parts changer."
+description: "Automotive technician resumes are read for the ASE areas first, then for the numbers a service manager lives on: flat-rate hours, efficiency, and comebacks. Here's how to write yours with the exact certifications, the real numbers, and the diagnostic work that separates a technician from a parts changer."
 seoTitle: "Automotive Technician Resume: ASE, Flat-Rate, Diagnostics"
 seoDescription: "Automotive technician resume guide: list ASE certifications by area, show flat-rate hours, efficiency, and comebacks, and name the diagnostic and EV work."
 segment: "job-seekers"
@@ -93,4 +93,4 @@ Filters commonly read for: ASE certified, Master Technician, A1 through A9, L1, 
 
 The highest-risk lines are the ones a dealership verifies before an offer: an ASE area you have not passed, a lapsed certification written as current, a factory level you did not reach, or production numbers your last shop will not confirm. Write what your certificates and your pay stubs show.
 
-The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, and we ask you about the certifications, tools, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a tool, or a number you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your shop history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real shops, brands, and systems, and we ask you about the certifications, tools, and systems that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a tool, or a number you never told us about stays off the page.

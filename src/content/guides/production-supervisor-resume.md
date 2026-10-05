@@ -1,6 +1,6 @@
 ---
 title: "Production Supervisor Resume: Crew, Shift Numbers, and the Standards Your Line Runs Under"
-description: "Production supervisor resumes are read for the crew you lead, the shift numbers you own, and the quality and safety standards your line runs under. How to write yours with real head counts, output, scrap, and safety figures, and the certifications plants screen for."
+description: "Production supervisor resumes are read for the crew you lead, the shift numbers you own, and the quality and safety standards your line runs under. Here's how to write yours with real head counts, output, scrap, and safety figures, and the certifications plants screen for."
 seoTitle: "Production Supervisor Resume: Crew, Output, Safety Numbers"
 seoDescription: "Production supervisor resume guide: crew size, shift output, scrap and OEE numbers, the safety record, and the Lean, OSHA, and quality standards."
 segment: "job-seekers"
@@ -97,4 +97,4 @@ Filters commonly read for: production supervisor, shift supervisor, manufacturin
 
 The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write what the shift reports show.
 
-The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and standards that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.

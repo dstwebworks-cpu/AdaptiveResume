@@ -1,6 +1,6 @@
 ---
 title: "Maintenance Technician Resume: Equipment, Safety Standards, and Downtime Numbers"
-description: "Industrial maintenance technician resumes are read for the equipment you keep running, the safety standards you work under, and the downtime numbers you own. How to write yours with the real machines, the exact standards, and the CMMS and PLC work that hiring managers screen for."
+description: "Industrial maintenance technician resumes are read for the equipment you keep running, the safety standards you work under, and the downtime numbers you own. Here's how to write yours with the real machines, the exact standards, and the CMMS and PLC work that hiring managers screen for."
 seoTitle: "Maintenance Technician Resume: Equipment, Safety, Uptime"
 seoDescription: "Maintenance technician resume guide: name the equipment, the safety standards, the CMMS and PLC work, and the downtime and PM numbers you own."
 segment: "job-seekers"
@@ -96,4 +96,4 @@ Filters commonly read for: industrial maintenance, multi-craft, preventive maint
 
 The highest-risk lines are the ones a plant verifies in the technical interview or the first week: PLC programming you have not done, a certification you have not earned, or a number your last plant will not confirm. Write the work at its real level.
 
-The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, and we ask you about the certifications, tools, and numbers that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a system, or a number you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, and we ask you about the certifications, tools, and standards that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a system, or a number you never told us about stays off the page.

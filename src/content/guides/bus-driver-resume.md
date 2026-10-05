@@ -1,6 +1,6 @@
 ---
 title: "Bus Driver Resume: The P and S Endorsements, Passengers, and a Safe Record"
-description: "Bus driver resumes are read for the CDL class and the passenger or school bus endorsement first. How to write yours with the exact license line, real passenger and route numbers, and the safety facts a transit agency or school district checks."
+description: "Bus driver resumes are read for the CDL class and the passenger or school bus endorsement first. Here's how to write yours with the exact license line, real passenger and route numbers, and the safety facts a transit agency or school district checks."
 seoTitle: "Bus Driver Resume: CDL Endorsements, Passengers, Safety"
 seoDescription: "Bus driver resume guide: write the CDL and P or S endorsement line exactly, show real routes and passenger counts, and list the medical card and safety record."
 segment: "job-seekers"
