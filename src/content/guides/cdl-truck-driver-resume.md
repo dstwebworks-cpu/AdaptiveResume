@@ -12,8 +12,7 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-09-20
-updatedDate: 2026-09-29
+pubDate: 2026-10-11
 order: 103
 draft: true
 faq:
@@ -39,7 +38,7 @@ Put the license line in the top third of the page, above the work history, and w
 
 **After:** "CDL Class A, Georgia, expires [month/year]. Endorsements: H (hazardous materials), N (tank), T (doubles/triples). DOT medical certificate current through [month/year]. FMCSA Drug and Alcohol Clearinghouse registered. Entry-Level Driver Training completed [year], [provider]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/cdl-truck-driver-resume-example.png)
+![Before and after example of a truck driver resume line, built only from what the person gave us or confirmed](/img/guides/examples/cdl-truck-driver-resume-example.png)
 
 The second version answers every screening question at once and matches the vocabulary in the posting. If you hold the X endorsement (tank and hazmat combined), write X rather than N and H separately. Write only what your license shows; a hazmat endorsement requires a Transportation Security Administration threat assessment and is one of the first things a carrier verifies.
 
@@ -94,4 +93,4 @@ Filters commonly read for: CDL Class A, Class B, hazmat, tanker, doubles/triples
 
 The highest-risk lines are the ones a carrier verifies in minutes: an endorsement you do not hold, a medical card that has lapsed, training you did not complete, or a safety record that disagrees with your motor vehicle record. Write what the license and the record show.
 
-The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real freight, equipment, and years, propose the endorsements, systems, and safety facts that work like yours normally involves, and ask you to confirm every item before it appears. We never add an endorsement, a card, or a mile you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real freight, equipment, and years, and we ask you about the endorsements, systems, and safety facts that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so an endorsement, a card, or a mile you never told us about stays off the page.
