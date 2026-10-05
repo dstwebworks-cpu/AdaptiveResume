@@ -40,7 +40,7 @@ A strong supervisor resume gives the crew size, the output, and the standards th
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the standards, systems, and numbers your work already involved, each added only after you confirm it's true.*
 
-The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Every figure in a line like this can come from your own shift reports and your plant's quality system.
+The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Every figure in a line like this can come from your own shift reports and your plant's quality and safety records.
 
 ## The parts of the job that carry the most weight
 
@@ -54,7 +54,7 @@ The second version gives the reader the crew, the equipment, the output, two imp
 
 **Continuous improvement.** List 5S, standard work, Kaizen events you led, root-cause analysis, and the result of each in a number. A supervisor who can write "led a changeover Kaizen that cut setup time from 45 to 28 minutes" has written a line a plant manager can check and remember.
 
-**People development.** Count the operators you trained and cross-trained, the leads you developed, and turnover on your shift compared with the plant.
+**People development.** Count the operators you trained and cross-trained and the leads you developed, and give the turnover on your shift compared with the plant's.
 
 ## Working out the numbers your plant already keeps
 
@@ -72,13 +72,13 @@ List your OSHA 30-hour or 10-hour General Industry card with the year. List Lean
 
 ## Industry notes
 
-In automotive and tier-supplier plants, name IATF 16949, the production part approval process (PPAP), layered process audits, takt time, and line balancing. In food and beverage, name SQF or BRCGS, sanitation and changeover, allergen control, washdown-rated equipment, and HACCP. In packaging and consumer goods, name high-speed lines, changeovers, and OEE. In pharmaceutical and medical device plants, name cGMP, batch records, deviations, and validated equipment. In process industries, name batch or continuous operation, control rooms, and process safety management. Write your industry's standards by name; a plant manager reads them as proof you have lived under them.
+In automotive and tier-supplier plants, name IATF 16949, the production part approval process (PPAP), layered process audits, takt time, and line balancing. In food and beverage, name SQF or BRCGS, sanitation and changeover, allergen control, washdown-rated equipment, and HACCP. In packaging and consumer goods, name high-speed lines, changeovers, and OEE. In pharmaceutical and medical device plants, name cGMP, batch records, deviations, and validated equipment. In process industries, name batch or continuous operation, control rooms, and process safety management under OSHA 29 CFR 1910.119 if your site is covered by it. Write your industry's standards by name; a plant manager reads them as proof you have lived under them.
 
 ## Format notes
 
 **Length follows your history, not a page rule.** A supervisor with two plants, a promotion from lead, and a Lean project history has more that matters than one page holds. **Two pages is normal and expected once you have more than one substantive job to describe.** Keep the crew, the numbers, the standards, and the improvements; cut the duties every supervisor shares.
 
-Use reverse chronological order and a single column, show a promotion as two entries under one employer, and leave out graphics and photos. Our guide on [how to list promotions on a resume](/guides/how-to-list-promotions-on-resume/) shows the layout. Many plants run applications through screening software before a manager sees them, and a two-column template can scramble the read. One exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change.
+Use reverse chronological order and a single column, show a promotion as two entries under one employer, and leave out graphics and photos. If you were promoted from operator or lead, our guide on [how to list promotions on a resume](/guides/how-to-list-promotions-on-resume/) walks through the two-entry layout. Many plants run applications through screening software before a manager sees them, and a two-column template can scramble the read. One exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change.
 
 ## A bullet bank you can adapt — keep only what's true
 

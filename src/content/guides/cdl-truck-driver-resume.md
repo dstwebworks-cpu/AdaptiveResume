@@ -48,7 +48,7 @@ The second version answers every screening question at once and matches the voca
 
 **Miles and years, stated plainly.** Give your total miles or average miles per year, your years of Class A driving, and how much of it was over-the-road, regional, or local. "About 120,000 miles a year, over-the-road, 48 states" says more than any adjective.
 
-**Freight and equipment.** Name the trailer types you have pulled: dry van, reefer, flatbed, tanker, doubles, intermodal, or LTL. For flatbed, name load securement under the federal cargo securement rules (49 CFR Part 393) and the load types: steel, lumber, machinery, oversize with permits. For reefer, name temperature-controlled loads and the reefer units you ran. For tanker, name the product class and whether it was food grade or hazmat.
+**Freight and equipment.** Name the trailer types and freight you have run: dry van, reefer, flatbed, tanker, doubles, intermodal containers, or LTL. For flatbed, name load securement under the federal cargo securement rules (49 CFR Part 393) and the load types: steel, lumber, machinery, oversize with permits. For reefer, name temperature-controlled loads and the reefer units you ran. For tanker, name the product class and whether it was food grade or hazmat.
 
 **Safety record, in checkable numbers.** Write accident-free miles, years without a preventable accident, roadside inspections passed, and your Compliance, Safety, Accountability (CSA) history if it helps you. Carriers check your motor vehicle record, and many pull your Pre-Employment Screening Program report, so the resume should agree with both.
 
@@ -60,7 +60,7 @@ The second version answers every screening question at once and matches the voca
 
 List every endorsement by its letter and name: H (hazardous materials), N (tank vehicles), X (tank and hazmat combined), T (doubles and triples), P (passenger), S (school bus). List restrictions honestly if you have one that matters, such as an automatic-transmission restriction, because the carrier will see it on the license anyway.
 
-Add the cards and registrations a carrier checks: the DOT medical certificate with its expiration, the FMCSA Drug and Alcohol Clearinghouse registration, a Transportation Worker Identification Credential (TWIC) if you run ports, and the oversize or overweight permitted loads you have hauled, by type. If you completed Entry-Level Driver Training, list the provider and the date; if your license class and endorsements were all issued before February 7, 2022, it does not apply, and claiming it is the kind of detail a verification catches.
+Add the cards and registrations a carrier checks: the DOT medical certificate with its expiration, the FMCSA Drug and Alcohol Clearinghouse registration, and a Transportation Worker Identification Credential (TWIC) if you run ports. If you completed Entry-Level Driver Training, list the provider and the date; if your license class and endorsements were all issued before February 7, 2022, it does not apply, and claiming it is the kind of detail a verification catches.
 
 Defensive driving and company safety programs (for example, the Smith System) are worth a line each, with the year. So is forklift training and evaluation under OSHA 29 CFR 1910.178 if you loaded your own freight at customer sites.
 

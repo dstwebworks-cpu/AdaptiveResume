@@ -48,11 +48,11 @@ The second version answers the screening questions in one block and uses the wor
 
 **Equipment.** Name the buses you have driven, such as conventional and transit-style school buses, 35- and 40-foot transit buses, articulated buses, motorcoaches, or cutaway shuttles. Name the fuel if the posting cares (diesel, CNG, hybrid, or battery-electric), and name the wheelchair lift or ramp systems you have operated and secured.
 
-**Safety record, in checkable facts.** Write years without a preventable accident, trips without a passenger injury, clean state or roadside inspections, and your pre-trip and post-trip inspection routine. A driver who can write "[N] years, zero preventable accidents, zero passenger injuries" has written the line a safety manager looks for first.
+**Safety record, in checkable facts.** Write years without a preventable accident, trips without a passenger injury, clean state or roadside inspections, and your pre-trip and post-trip inspection routine. A driver who can write "[N] years, zero preventable accidents, zero passenger injuries" has written the line a safety manager is looking for.
 
 **Passenger management.** On school routes, show student management, discipline reporting, special-needs transportation with securement and individualized plans, and communication with parents and the school. On transit and paratransit, show fare handling, wheelchair securement and stop announcements under the Americans with Disabilities Act (ADA), de-escalation, and incident reporting. On charters, show itineraries, luggage, and passenger communication over multi-day trips.
 
-**Compliance you drove under.** Name the drug and alcohol testing program you drove under (Federal Motor Carrier Safety Administration rules for CDL drivers, Federal Transit Administration rules at transit agencies), the hours-of-service or agency scheduling rules you followed, and any electronic logging or fleet telematics system the employer ran.
+**Compliance you drove under.** Name the drug and alcohol testing program that covered you (Federal Motor Carrier Safety Administration rules for CDL drivers, Federal Transit Administration rules at transit agencies), the hours-of-service or agency scheduling rules you followed, and any electronic logging or fleet telematics system the employer ran.
 
 ## Credentials and checks, as held
 
@@ -62,7 +62,7 @@ Do not list a school bus or passenger endorsement you have not yet earned as if 
 
 ## Moving between bus jobs
 
-School to transit, transit to motorcoach, and shuttle to paratransit are common moves, and the resume should show the overlap and name the gap honestly. A school bus driver moving to transit already has the P endorsement, the medical card, and the safety record, though a Class C license needs a Class B upgrade for a full-size transit bus; what changes is fare handling, ADA securement on a lift-equipped transit bus, and a different testing program. Write the parts you have done, and let the interview cover the training the new employer provides. Inflating a shuttle job into transit experience, or a P endorsement into an S, is the kind of claim a licensing check catches immediately.
+School to transit, transit to motorcoach, and shuttle to paratransit are common moves, and the resume should show the overlap and name the gap honestly. A school bus driver moving to transit already has the P endorsement, the medical card, and the safety record. A driver whose license is Class C will need a Class B upgrade, with Entry-Level Driver Training, to drive a full-size transit bus, and the rest of what changes is fare handling, ADA securement on a lift-equipped transit bus, and a different testing program. Write the parts you have done, and let the interview cover the training the new employer provides. Inflating a shuttle job into transit experience, or a P endorsement into an S, is the kind of claim a licensing check catches immediately.
 
 **Moving into passenger work from trucking.** A Class A or Class B truck driver already has the license class, the medical card, and years in a federal drug and alcohol testing program, and the miles and the safety record carry over directly. What a passenger employer still needs is the endorsement: P for transit and motorcoach work, and S as well for school routes, each with its own knowledge test and a skills test in a vehicle of the right type, plus the Entry-Level Driver Training described above. Some school districts and transit agencies pay for that training. If a posting says it does, write the truck experience in full and say in your summary that you hold the license class and are ready to add the endorsement; list the endorsement as in progress only once you are enrolled, with the expected date. Then add the passenger-facing work you already have, such as customer deliveries on a dedicated account or an earlier service job, because handling people is the part of the job a truck license cannot show. Our [CDL truck driver resume guide](/guides/cdl-truck-driver-resume/) covers the freight side of that history.
 
@@ -79,7 +79,7 @@ Gaps get one plain dated line. An employer verifying your driving employment his
 - "CDL Class [B/A], [state], endorsements P and S; DOT medical certificate current through [month/year]"
 - "Drove [N] daily routes serving [N] passengers a day on [route type]; [N] years without a preventable accident"
 - "Operated [35-foot/40-foot/articulated/motorcoach] buses; wheelchair lift and securement on every ADA trip"
-- "Kept the assigned bus through [N] state inspections with no defects; completed pre-trip and post-trip inspections every shift"
+- "Kept the assigned bus defect-free through [N] state inspections; completed pre-trip and post-trip inspections every shift"
 - "Transported [N] students with individualized transportation plans; documented incidents per district policy"
 - "Handled fares and passenger counts on fixed-route service; [N] complaint-free months"
 - "Completed [state] school bus driver certification [year]; CPR and first aid current through [month/year]"

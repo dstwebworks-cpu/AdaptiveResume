@@ -28,7 +28,7 @@ faq:
 
 A maintenance technician resume is read by a maintenance manager who wants three things right away: which equipment you keep running, which safety standards you work under, and whether you have moved a number they care about, such as downtime or preventive maintenance completion. Most technician resumes say "responsible for maintenance and repair of plant equipment" and answer none of the three.
 
-The work behind that sentence is specific and valuable. It covers the conveyors, fillers, presses, compressors, chillers, and packaging lines you keep running, the lockout/tagout procedures and arc-flash boundaries you work inside, the CMMS you close work orders in, and the PLC fault you traced at two in the morning so the line ran by six. That is the resume, and it is already true.
+The work behind that sentence is specific and valuable. It covers the conveyors, fillers, presses, compressors, chillers, and packaging lines you keep running, the lockout/tagout and arc-flash procedures you work under, the CMMS you close work orders in, and the PLC fault you traced at two in the morning so the line ran by six. That is the resume, and it is already true.
 
 ## Lead with the equipment and the standards
 
@@ -46,7 +46,7 @@ The second version tells the manager the setting, the equipment, the standard, t
 
 **Equipment, by name and count.** Name the equipment you maintain, such as conveyors, packaging lines, fillers and cappers, presses, CNC and production machinery, compressors, boilers, chillers, pumps, motors, gearboxes, and the building systems if you cover facilities. Name the count and the environment: "40 machines on a 24/7 line" says more than "a variety of equipment."
 
-**Safety standards you work under.** List the standards you work under: lockout/tagout (OSHA 29 CFR 1910.147), electrical safety and arc-flash practices under NFPA 70E, machine guarding, confined space entry if you have done it, and your OSHA 10-hour or 30-hour General Industry card. Write the standards you actually follow; a safety manager reads this section closely.
+**Safety standards you work under.** Name lockout/tagout (OSHA 29 CFR 1910.147), electrical safety and arc-flash practices under NFPA 70E, machine guarding, and confined space entry if you have done it, and add your OSHA 10-hour or 30-hour General Industry card. Write the standards you actually follow; a safety manager reads this section closely.
 
 **Electrical, controls, and PLC work.** Describe your work on three-phase motors and controls, variable frequency drives (VFDs), sensors and photo-eyes, and PLC troubleshooting at its real level: reading ladder logic, forcing outputs under the plant's procedure, replacing I/O modules, and using the platform's software (Allen-Bradley Studio 5000 or RSLogix, Siemens TIA Portal). If you only trace faults and replace components, say that; it is valuable, and overstating it is caught in the first technical interview.
 
@@ -54,7 +54,7 @@ The second version tells the manager the setting, the equipment, the standard, t
 
 **The CMMS and the numbers.** Name the computerized maintenance management system (Fiix, MaintainX, UpKeep, SAP Plant Maintenance, Maximo, eMaint) and the numbers it tracked: preventive maintenance completion rate, unplanned downtime, mean time to repair, work orders closed per week. If you built or improved a preventive maintenance schedule, that is a project worth its own line.
 
-**Refrigeration and HVAC, if you cover it.** EPA Section 608 certification (Type I, II, III, or Universal) is required to open the refrigerant circuit on stationary refrigeration and air conditioning that uses regulated refrigerants, and employers verify it. Ammonia and CO2 systems fall outside Section 608, and ammonia refrigeration in food plants has its own training programs; name the one you completed.
+**Refrigeration and HVAC, if you cover it.** EPA Section 608 certification (Type I, II, III, or Universal) is required for work that could release refrigerant from stationary refrigeration and air conditioning that uses regulated refrigerants, including attaching gauges or adding refrigerant, and employers verify it. Ammonia and CO2 systems fall outside Section 608, and ammonia refrigeration in food plants has its own training programs; name the one you completed.
 
 ## Predictive work and the reliability numbers
 
@@ -86,7 +86,7 @@ Use reverse chronological order and a single column, add a clearly labeled block
 - "Raised preventive maintenance completion from [N]% to [N]% in [CMMS]; cut unplanned downtime by [N] hours a month"
 - "Repaired and aligned [motors/gearboxes/pumps]; rebuilt [N] [component] per year"
 - "EPA Section 608 [type] certified; serviced [N] [chillers/rooftop units/walk-in coolers] on [refrigerant]"
-- "Maintained [N] [ammonia/CO2] refrigeration systems; [ammonia training program and provider], [year]"
+- "Maintained [N] [ammonia/CO2] refrigeration systems; [refrigeration training program and provider], [year]"
 - "Completed [N] work orders a week in [CMMS] with parts and labor documented"
 - "Trained [N] operators on autonomous maintenance checks and [N] new technicians on plant safety"
 
