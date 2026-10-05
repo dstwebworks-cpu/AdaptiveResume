@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 104
-draft: true
+draft: false
 faq:
   - q: "Which CDL class do I list for bus driving?"
     a: "List the class your license shows. Full-size school and transit buses are Class B vehicles (a single vehicle rated at 26,001 pounds or more), and a Class A license also covers them. Smaller buses designed for 16 or more passengers, including the driver, are Class C vehicles. What every CDL bus job screens for is the endorsement: P for passenger vehicles, and S for school buses, which requires the P endorsement plus its own knowledge and skills tests. Write the class, the endorsements, and the expiration exactly as printed on the license."

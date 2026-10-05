@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 107
-draft: true
+draft: false
 faq:
   - q: "I was promoted from operator or lead to supervisor. How do I show that?"
     a: "Show it as two entries under the same employer, each with its own dates and its own scope, so the promotion is visible without a word of explanation. The operator entry carries the equipment and the output; the supervisor entry carries the crew, the shift numbers, and the decisions that stopped with you. Our guide on how to list promotions on a resume shows the layout."

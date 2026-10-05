@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 106
-draft: true
+draft: false
 faq:
   - q: "What is the difference between a maintenance technician resume and a maintenance supervisor resume?"
     a: "Scope. A technician resume is built on the equipment you maintain, the standards you work under, and the repairs and preventive maintenance you perform. A supervisor resume is built on the crew, the schedule, the budget, and the plant-level numbers. If you lead a shift or a crew, say so with the head count, and read our maintenance supervisor guide as well; if you do the work, this guide is yours."

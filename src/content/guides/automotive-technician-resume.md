@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 105
-draft: true
+draft: false
 faq:
   - q: "Do I need ASE certifications to be hired as an automotive technician?"
     a: "No law requires them, and many working technicians hold none. Dealerships and larger shops screen for them, and pay plans often step up with them. List exactly the areas you hold, by their letter and name, with the expiration, since ASE certifications must be renewed every five years. If you are registered to test, say so; do not list an area you have not passed."
