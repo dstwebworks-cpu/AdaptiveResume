@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 107
-draft: true
+draft: false
 faq:
   - q: "I was promoted from operator or lead to supervisor. How do I show that?"
     a: "Show it as two entries under the same employer, each with its own dates and its own scope, so the promotion is visible without a word of explanation. The operator entry carries the equipment and the output; the supervisor entry carries the crew, the shift numbers, and the decisions that stopped with you. Our guide on how to list promotions on a resume shows the layout."
@@ -38,7 +38,7 @@ A strong supervisor resume gives the crew size, the output, and the standards th
 
 ![Before and after example of a production supervisor resume line, built only from what the person gave us or confirmed](/img/guides/examples/production-supervisor-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the standards, systems, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the standards, systems, and safety training your work already involved, each added only after you confirm it's true.*
 
 The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Every figure in a line like this can come from your own shift reports and your plant's quality and safety records.
 
@@ -97,4 +97,4 @@ Filters commonly read for: production supervisor, shift supervisor, manufacturin
 
 The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write what the shift reports show.
 
-The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and standards that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.

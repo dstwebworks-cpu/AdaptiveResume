@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 103
-draft: true
+draft: false
 faq:
   - q: "Do I put my CDL number on my resume?"
     a: "No. Put the class, the state, the endorsements, and the expiration month and year. The number itself goes on the application and the DOT paperwork, not on a document you email to strangers. The same goes for your DOT medical card: list that you hold a current medical certificate and its expiration, not the certificate number."
@@ -56,7 +56,7 @@ The second version answers every screening question at once and matches the voca
 
 **Customer and dock work.** Show your on-time delivery rate, drop-and-hook or live-unload work, lumper coordination, and any customer-facing accounts. Local and dedicated postings care about this more than over-the-road postings do.
 
-## Endorsements, permits, and cards, as held
+## Endorsements, cards, and training, as held
 
 List every endorsement by its letter and name: H (hazardous materials), N (tank vehicles), X (tank and hazmat combined), T (doubles and triples), P (passenger), S (school bus). List restrictions honestly if you have one that matters, such as an automatic-transmission restriction, because the carrier will see it on the license anyway.
 

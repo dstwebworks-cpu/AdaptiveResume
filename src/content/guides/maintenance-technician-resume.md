@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get the AR Pass — $79"
   href: "/#pricing"
-pubDate: 2026-10-11
+pubDate: 2026-10-05
 order: 106
-draft: true
+draft: false
 faq:
   - q: "What is the difference between a maintenance technician resume and a maintenance supervisor resume?"
     a: "Scope. A technician resume is built on the equipment you maintain, the standards you work under, and the repairs and preventive maintenance you perform. A supervisor resume is built on the crew, the schedule, the budget, and the plant-level numbers. If you lead a shift or a crew, say so with the head count, and read our maintenance supervisor guide as well; if you do the work, this guide is yours."
@@ -38,7 +38,7 @@ The work behind that sentence is specific and valuable. It covers the conveyors,
 
 ![Before and after example of a maintenance technician resume line, built only from what the person gave us or confirmed](/img/guides/examples/maintenance-technician-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the equipment, standards, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the equipment, standards, and safety training your work already involved, each added only after you confirm it's true.*
 
 The second version tells the manager the setting, the equipment, the standard, the system, and a number you moved. Every piece of a line like this comes from your own work history, and a plant manager can check each one.
 
@@ -96,4 +96,4 @@ Filters commonly read for: industrial maintenance, multi-craft, preventive maint
 
 The highest-risk lines are the ones a plant verifies in the technical interview or the first week: PLC programming you have not done, a certification you have not earned, or a number your last plant will not confirm. Write the work at its real level.
 
-The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, and we ask you about the certifications, tools, and standards that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a system, or a number you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your plant history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real equipment, standards, and systems, and we ask you about the certifications, tools, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a certification, a system, or a number you never told us about stays off the page.
