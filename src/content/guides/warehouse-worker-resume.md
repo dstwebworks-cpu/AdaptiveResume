@@ -38,7 +38,7 @@ The good news is that warehouse work is measured closely, and in many buildings 
 
 ![Before and after example of a warehouse worker resume line, built only from what the person gave us or confirmed](/img/guides/examples/warehouse-worker-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the systems, equipment, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the systems, equipment, and safety training your work already involved, each added only after you confirm it's true.*
 
 The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. The numbers in a line like this usually come from what your warehouse already tracks.
 
@@ -99,4 +99,4 @@ Filters commonly read for: warehouse associate, warehouse worker, picker, packer
 
 The highest-risk lines are the ones a warehouse can check in a phone call: a rate your last building will not confirm, equipment you were never evaluated on, or a job title changed to match the posting. Write what you actually did and how you were measured.
 
-The **Role Skills Checklist** below helps you inventory what your warehouse history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real jobs, shifts, and equipment, and we ask you about the systems, equipment, and training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a rate, a piece of equipment, or a system you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your warehouse history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real jobs, shifts, and equipment, and we ask you about the systems, certifications, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a rate, a piece of equipment, or a system you never told us about stays off the page.

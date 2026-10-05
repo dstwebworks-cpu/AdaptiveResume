@@ -38,7 +38,7 @@ Processing is measured closely. Your loan origination system records the milesto
 
 ![Before and after example of a loan processor resume line, built only from what the person gave us or confirmed](/img/guides/examples/loan-processor-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the loan types, systems, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the loan types, systems, and compliance steps your work already involved, each added only after you confirm it's true.*
 
 The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. The numbers in a line like this usually come from your pipeline reports and your loan origination system.
 
@@ -48,7 +48,7 @@ The second version gives the manager the workload, the loan types, the speed, th
 
 **Turn times.** Write the average days from application or submission to clear to close, and the share of files that closed on the scheduled date. If you cut a turn time by changing how you ordered third-party items or chased conditions, that change is worth its own bullet.
 
-**File quality.** Show how often your files went to underwriting complete, how many conditions came back, and any post-closing or quality-control findings. "Fewer than [N] added conditions per file on average after submission" tells an underwriter you send clean work.
+**File quality.** Show how often your files went to underwriting complete, how many conditions came back, and any post-closing or quality-control findings. "Fewer than [N] underwriting conditions per file on average" tells an underwriter you send clean work.
 
 **Loan types.** Name the programs you process: conventional, FHA, VA, USDA, jumbo, non-QM, construction, or home equity. Government loans have their own documentation rules, so experience with them is worth naming.
 
@@ -86,7 +86,7 @@ Use reverse chronological order and a single column, and leave out graphics and 
 - "Brought files from submission to clear to close in an average of [N] days; [N]% closed on the scheduled date"
 - "Tracked Loan Estimate and Closing Disclosure timing to TRID deadlines on every file in [LOS]"
 - "Ordered and reviewed appraisals, title, flood certifications, VOEs, and 4506-C transcripts"
-- "Read [DU/LPA] findings and cleared prior-to-document conditions; averaged fewer than [N] added conditions per file after submission"
+- "Read [DU/LPA] findings and cleared prior-to-document conditions; averaged fewer than [N] underwriting conditions per file"
 - "Calculated income for self-employed and commission borrowers from tax returns and pay records"
 - "Coordinated with [N] loan officers, agents, and title companies to keep closing dates on schedule"
 - "Trained [N] new processors on the LOS, the disclosure calendar, and the condition checklist"
@@ -97,4 +97,4 @@ Filters commonly read for: loan processor, mortgage processor, processing, pipel
 
 The highest-risk lines are the ones a lender confirms in a reference call or a license lookup: a pipeline or closing count your last manager will not confirm, an NMLS license you do not hold, or underwriting authority you never had. Write the work at its real level.
 
-If you are moving on from processing, our [underwriter resume guide](/guides/underwriter-resume/) and [loan officer resume guide](/guides/loan-officer-resume/) cover how those jobs are read. The **Role Skills Checklist** below helps you inventory what your lending history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lenders, loan types, and systems, and we ask you about the compliance steps, systems, and tools that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a loan count, a system, or a license you never told us about stays off the page.
+If you are moving on from processing, our [underwriter resume guide](/guides/underwriter-resume/) and [loan officer resume guide](/guides/loan-officer-resume/) cover how those jobs are read. The **Role Skills Checklist** below helps you inventory what your lending history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lenders, loan types, and systems, and we ask you about the compliance steps, tools, and verifications that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a loan count, a system, or a license you never told us about stays off the page.

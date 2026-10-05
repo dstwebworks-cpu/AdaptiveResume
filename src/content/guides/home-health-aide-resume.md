@@ -70,7 +70,7 @@ A background check is a condition of the job rather than a credential, but if th
 
 ## Moving into home health from other care jobs
 
-**From a nursing home or hospital CNA job.** If your registry listing is current and in good standing, you already meet the route the federal rule accepts, and you bring the vital signs, transfers, and documentation habits, though your state may add a short transition course. What changes is working alone in the client's home, driving between visits, and reporting by phone or app instead of at the nurses' station. Write the CNA work in full and say plainly that you are moving into home care.
+**From a nursing home or hospital CNA job.** If your registry listing is current and in good standing, you already qualify through one of the routes the federal rule accepts, though your state may add a short transition course. You also bring the vital signs, transfers, and documentation habits. What changes is working alone in the client's home, driving between visits, and reporting by phone or app instead of at the nurses' station. Write the CNA work in full and say plainly that you are moving into home care.
 
 **From private-duty caregiving.** You have the client relationships and the personal care. What you may not have is the federal qualification. If you have completed home health aide training, list it with the year; if you are enrolled, list it as in progress with the expected date. Do not change your old job titles to "home health aide," and use our [caregiver guide](/guides/caregiver-resume/) for how to write the private-duty work itself.
 

@@ -38,7 +38,7 @@ Much parcel and gig delivery work is tracked stop by stop, and those records are
 
 ![Before and after example of a delivery driver resume line, built only from what the person gave us or confirmed](/img/guides/examples/delivery-driver-resume-example.png)
 
-*Illustrative example. Everything on your resume is yours: the experience you listed, plus the vehicles, routes, and numbers your work already involved, each added only after you confirm it's true.*
+*Illustrative example. Everything on your resume is yours: the experience you listed, plus the vehicles, routes, and safety training your work already involved, each added only after you confirm it's true.*
 
 The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. The numbers in a line like this usually come from the scanner, the route app, or your company's reports.
 
@@ -107,6 +107,6 @@ Use reverse chronological order and a single column, and leave out graphics and 
 
 Filters commonly read for: delivery driver, courier, last-mile, package delivery, route, stops, on-time delivery, proof of delivery, handheld scanner, route app, cargo van, step van, box truck, valid driver's license, clean driving record, MVR, DOT medical card, customer service, lifting, safe driving, two-person delivery, white glove, and the company or app names in the posting. [O*NET's profile for light truck drivers](https://www.onetonline.org/link/summary/53-3033.00) has the full task list.
 
-Before your first route, a delivery company will usually pull your motor vehicle record and may call your last station, so the lines most likely to cost you are a stop count your old station would not recognize, a vehicle you never drove, and gig work written as if you were an employee. Match each line to your license and your records.
+Before your first route, a delivery company will usually verify your past jobs and may call your last station, so the lines most likely to cost you are a stop count your old station would not recognize, a vehicle you never drove, and gig work written as if you were an employee. Match each line to your records.
 
-The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real routes, vehicles, and years, and we ask you about the vehicles, systems, and safety facts that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a vehicle, a stop count, or a card you never told us about stays off the page.
+The **Role Skills Checklist** below helps you inventory what your driving history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real routes, vehicles, and years, and we ask you about the equipment, systems, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a vehicle, a stop count, or a card you never told us about stays off the page.
