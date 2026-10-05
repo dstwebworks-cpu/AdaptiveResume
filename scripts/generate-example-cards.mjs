@@ -317,7 +317,7 @@ export const PAIRS = {
   },
   "bus-driver-resume": {
     before: "CDL driver with passenger endorsement, experienced with school buses and transit.",
-    after: "CDL Class B, Georgia, expires [month/year]. Endorsements: P (passenger), S (school bus). Air brake restriction: none. DOT medical certificate current through [month/year]. Georgia school bus driver certification [year]; CPR and first aid current through [month/year].",
+    after: "CDL Class B, Georgia, expires [month/year]. Endorsements: P (passenger), S (school bus). Air brake restriction: none. DOT medical certificate current through [month/year]. Georgia Department of Education school bus driver training completed [year]; CPR and first aid current through [month/year].",
   },
   "production-supervisor-resume": {
     before: "Production supervisor responsible for overseeing daily operations and ensuring production targets were met.",
