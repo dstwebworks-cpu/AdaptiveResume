@@ -347,6 +347,10 @@ export const PAIRS = {
     before: "Warehouse associate responsible for picking, packing, and shipping orders in a fast-paced environment.",
     after: "Warehouse associate at a [regional fulfillment center], [night] shift: picked about [140] units an hour on an RF scanner at [99.8]% accuracy; trained on the electric pallet jack and the pick-to-light line; [12] months with no safety incidents and no missed shifts.",
   },
+  "delivery-driver-resume": {
+    before: "Delivery driver responsible for delivering packages to customers safely and on time.",
+    after: "Delivery driver, [company], last-mile parcel routes: [140]-[180] stops a day in a [Ford Transit] cargo van, [98]% on-time and [99.5]% delivered without a damage claim; scanner and photo proof of delivery on every stop; [3] years without an at-fault accident.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
