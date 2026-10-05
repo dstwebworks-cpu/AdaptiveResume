@@ -343,6 +343,10 @@ export const PAIRS = {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",
   },
+  "warehouse-worker-resume": {
+    before: "Warehouse associate responsible for picking, packing, and shipping orders in a fast-paced environment.",
+    after: "Warehouse associate at a [regional fulfillment center], [night] shift: picked about [140] units an hour on an RF scanner at [99.8]% accuracy; trained on the electric pallet jack and the pick-to-light line; [12] months with no safety incidents and no missed shifts.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
