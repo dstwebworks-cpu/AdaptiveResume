@@ -40,4 +40,4 @@ Bullet prompts (write only the ones true of your practice):
 - [ ] Nothing here is padding
 
 ---
-Want this done with you? Our base build reads your history, proposes role-relevant lines, and asks you to confirm each one. From $29, one payment · adaptiveresume.com
+Want this done with you? Our single resume build reads your history, proposes role-relevant lines, and asks you to confirm each one. Builds start at $29, paid once. adaptiveresume.com

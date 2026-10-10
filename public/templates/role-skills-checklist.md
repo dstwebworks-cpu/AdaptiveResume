@@ -35,4 +35,4 @@ List every distinct thing you handle in a typical day:
 - [ ] Nothing here is padding
 
 ---
-Want this done with you? Our base build proposes role-relevant skills and asks you to confirm each one. From $29, one payment · adaptiveresume.com
+Want this done with you? Our single resume build proposes role-relevant skills and asks you to confirm each one. Builds start at $29, paid once. adaptiveresume.com

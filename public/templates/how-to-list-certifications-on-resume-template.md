@@ -45,4 +45,4 @@ License = government permission to practice (state nursing license, CDL, electri
 Could you hand over proof of it tomorrow? If yes, it belongs. If you'd have to explain, rewrite it until the explanation is on the page.
 
 ---
-Want this handled for you? Our build asks what you hold — exactly as the credential reads — and places it where it carries the most weight. From $29, one payment · adaptiveresume.com
+Want this handled for you? Our build asks what you hold — exactly as the credential reads — and places it where it carries the most weight. Builds start at $29, paid once. adaptiveresume.com

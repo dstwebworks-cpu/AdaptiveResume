@@ -51,4 +51,4 @@
 ---
 
 Want this done with you, toward a specific civilian role? AdaptiveResume finds what your roles involved, asks you to confirm each item, and translates it honestly — nothing made up.
-→ The AR Pass, $99 for 90 days · adaptiveresume.com
+→ The AR Pass is $99 for up to 10 targeted builds in 90 days. adaptiveresume.com

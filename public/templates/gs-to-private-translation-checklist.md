@@ -40,4 +40,4 @@
 - [ ] Translated to the nearest true equivalent — no inflation
 
 ---
-Want this done with you, toward a specific private role? The AR Pass, $99 for 90 days · adaptiveresume.com
+Want this done with you, toward a specific private role? The AR Pass is $99 for up to 10 targeted builds in 90 days. adaptiveresume.com
