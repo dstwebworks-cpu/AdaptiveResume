@@ -10,7 +10,7 @@ giveaway:
   name: "Clearance Line Cheat-Sheet"
   file: "/templates/how-to-list-security-clearance-on-resume-template.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-08
 updatedDate: 2026-09-29

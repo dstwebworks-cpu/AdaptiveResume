@@ -2,6 +2,8 @@
 // Terms of Service â€” attorney-final text (source: 01-legal-entity/drafts-for-attorney/
 // Final-Docs-8-31-2026/_txt/Terms-Final-Updated.md, 08/31/2026).
 //
+// 10/11/2026: sections 2, 5, 6 and 14 updated for the Single Resume Build, the $99 AR Pass and the $55 upgrade (interim wording,
+// founder approval at the push; attorney review in the ~11/15 legal bundle; draft 04-product/feature-specs/terms-interim-single-build-2026-10-11-DRAFT.md).
 // 10/04/2026: sections 2, 5, 6, 9 and 14 rewritten for the 90-day AR Pass and AR Pass Plus (wording from
 // 01-legal-entity/pass-pricing-legal-feasibility-2026-10-03.md with the founder's rulings; attorney review pending).
 //
@@ -44,12 +46,11 @@ import Base from '../layouts/Base.astro';
           kind of file alone is enough to start. We identify skills, credentials, and standards you
           may have left off, and you confirm, edit, or skip every single item. Nothing appears on
           your resume without your confirmation. Your finished resume is delivered as a downloadable
-          DOCX and PDF. Each targeted build, included in the AR Pass Plus, additionally analyzes one job posting you provide,
+          DOCX and PDF. Each targeted build, included in the AR Pass, additionally analyzes one job posting you provide,
           lists which of its requirements your confirmed items cover and which have no matching
           confirmed item, and prepares 25 role-specific interview questions, each showing the
           posting requirement and the confirmed resume lines it comes from. It does not provide
-          answers, answer guidance, or coaching. Before you buy a pass, you can try two things
-          at no cost.
+          answers, answer guidance, or coaching. Before you buy, you can try two things at no cost.
           The free scan runs a set of formatting and structure checks on your resume and does not
           suggest any content. The demo walks you through a sample review using a fictional profile;
           it does not use any of your information and never contacts our server.
@@ -82,15 +83,12 @@ import Base from '../layouts/Base.astro';
 
         <h2>5. Purchases, pricing, and payment</h2>
         <p>
-          The Service is sold as a 90-day pass, bought with one payment. The AR Pass includes up
-          to 5 base builds. The AR Pass Plus includes up to 10 targeted builds, and a targeted
-          build can also be used as a base build. The current price of each pass is shown on our
-          pricing page and at checkout, in United States dollars, and the price shown at checkout
+          The Service is sold in two ways, each bought with one payment. A Single Resume Build includes one base build, and it does not expire. The AR Pass is a 90-day pass that includes up to 10 targeted builds, and a targeted build can also be used as a base build. The current price of each is shown on our pricing page and at checkout, in United States dollars, and the price shown at checkout
           is the price that applies to that purchase. We may change prices going forward.
         </p>
         <p>
           A build is one resume taken through the build process to finished DOCX and PDF
-          documents. A build counts toward your pass once we have prepared the findings for your
+          documents. A build counts toward your purchase once we have prepared the findings for your
           review; if a build stops before then, it does not count. Reworking a build under Section
           6 never uses up a build. A replacement build under Section 6 is added to your account as
           an extra build. It does not reduce the builds your pass gives you, and it does not end
@@ -98,29 +96,22 @@ import Base from '../layouts/Base.astro';
           ends. We keep an unfinished review for 7 days after you last work on it.
         </p>
         <p>
-          Your pass runs through 11:59 p.m. Eastern time on the 90th day after the day you buy it,
-          and your account shows that date. When the 90 days end, you can no longer start new
-          builds with that pass, and any builds you have not used end with it. Unused builds have
-          no cash value and are not refunded, except as Section 6 or Section 14 provides. Your
-          finished documents remain yours, and you can still download them after your pass ends.
+          Your AR Pass runs through 11:59 p.m. Eastern time on the 90th day after the day you buy it, and your account shows that date. When the 90 days end, you can no longer start new builds with that pass, and any of its builds you have not used end with it. Unused builds have no cash value and are not refunded, except as Section 6 or Section 14 provides. A Single Resume Build does not expire. Your finished documents remain yours, and you can still download them after your pass ends.
         </p>
         <p>
           There is no subscription and no automatic renewal, so there is nothing for you to
-          cancel. We never charge you unless you choose to buy. You can hold one type of pass at a
-          time. While your pass has builds left, you can buy the same pass again: its builds are
-          added to your pass builds, and a new 90-day period starts from that purchase for all of
-          your pass builds. Builds that do not expire are not affected. You can buy the other pass
-          once your pass has no builds left or its 90 days have ended. We may offer you a discount
-          on another pass; any such offer is optional and is charged only if you choose to buy.
+          cancel. We never charge you unless you choose to buy. While your AR Pass has builds left, you can buy another AR Pass: its builds are added to your pass builds, and a new 90-day period starts from that purchase for all of your pass builds. Builds that do not expire are not affected. If you hold a 5-build pass bought before October 12, 2026, it keeps its builds and its end date, and you can buy the AR Pass once those builds are used or its 90 days have ended.
         </p>
         <p>
-          A pass is for your own use. It cannot be transferred, resold, shared, or given to
+          If you buy a Single Resume Build, you can buy an AR Pass at the upgrade price shown at checkout until 11:59 p.m. Eastern time on the 30th day after the day you bought the Single Resume Build. After that, the upgrade price ends, and the AR Pass is available at its regular price. The upgrade price is not available once the Single Resume Build has been refunded or charged back, or once you have bought an AR Pass after it. Your Single Resume Build stays yours and is not counted against the AR Pass. We may offer you a discount on another purchase; any such offer is optional and is charged only if you choose to buy.
+        </p>
+        <p>
+          A Single Resume Build or an AR Pass is for your own use. It cannot be transferred, resold, shared, or given to
           someone else, and it is not sold as a gift card or gift certificate.
         </p>
         <p>
           Payment is processed by Stripe, and we never receive or store your card number. You are
-          responsible for any applicable taxes. What you are buying is access to the build process
-          for the period of your pass and the documents it produces, not an interview, a job
+          responsible for any applicable taxes. What you are buying is access to the build process for the build or pass you bought and the documents it produces, not an interview, a job
           offer, or any other employment outcome.
         </p>
 
@@ -141,9 +132,7 @@ import Base from '../layouts/Base.astro';
           extra build, and you can use it even if your pass has ended.
         </p>
         <p>
-          Third, if the replacement build still does not give you anything useful, we will refund
-          the full price you paid for the pass that included the build at issue to your original
-          payment method through Stripe, and that pass ends. We will issue the refund within ten
+          Third, if the replacement build still does not give you anything useful, we will refund the full price you paid for the purchase that included the build at issue (the Single Resume Build, or the AR Pass at the price you paid for it) to your original payment method through Stripe, and that purchase ends. We will issue the refund within ten
           business days after you ask for it. We will grant a refund at this third step unless one
           of the following is true, and if we decline we will tell you in writing which one
           applies: you did not complete the rework step or the replacement build; you asked for
@@ -153,14 +142,12 @@ import Base from '../layouts/Base.astro';
           href="/acceptable-use/">Acceptable Use Policy</a>.
         </p>
         <p>
-          Separately from the make-it-right process, you may request a full refund of a pass for
-          any reason within 14 days of buying it, as long as you have not downloaded any finished
+          Separately from the make-it-right process, you may request a full refund of a Single Resume Build or an AR Pass for any reason within 14 days of buying it, as long as you have not downloaded any finished
           documents since you bought it, and we will honor it, unless the request results from a
           chargeback or a fraudulent payment, involves a violation of the <a
           href="/acceptable-use/">Acceptable Use Policy</a>, or reflects a pattern of reviewing
           the build's findings and then seeking this refund rather than a genuine problem with the
-          build. When a pass is refunded under this Section, it ends and its builds come off the
-          builds you have left. If you hold more than one pass, we remove as many pass builds as
+          build. When a purchase is refunded under this Section, it ends and its builds come off the builds you have left. If you hold more than one pass, we remove as many pass builds as
           the refunded pass included (or all of your pass builds, if fewer are left), and the pass
           builds you keep stay on their current end date.
         </p>
@@ -279,8 +266,7 @@ import Base from '../layouts/Base.astro';
         <p>
           You can stop using the Service and delete your account at any time. We may suspend or
           terminate an account that violates these Terms or abuses the Service. If we terminate
-          your account without cause, or if we stop offering the Service, we will refund the part
-          of the price of any active pass that matches the builds you have not used. The sections
+          your account without cause, or if we stop offering the Service, we will refund the price of any Single Resume Build you have not used, and the part of the price of any active AR Pass that matches the builds you have not used. The sections
           that by their nature should survive, including Sections 6, 7, 8, 11, 12, 15, 17, 18, and
           19, survive termination.
         </p>
@@ -395,7 +381,7 @@ import Base from '../layouts/Base.astro';
           Sacramento, California 95834, or by telephone at (800) 952-5210.
         </p>
 
-        <p class="effective">Last updated: 10/04/2026</p>
+        <p class="effective">Last updated: 10/11/2026</p>
       </div>
 
       <nav class="legal-links" aria-label="Other legal pages">

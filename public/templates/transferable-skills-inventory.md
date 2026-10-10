@@ -36,4 +36,4 @@ Skills the role needs that you don't have yet (name them — growth area or go e
 - [ ] Gaps named, not hidden
 
 ---
-Want this done with you, toward a specific new field? AR Pass Plus, $149 for 90 days · adaptiveresume.com
+Want this done with you, toward a specific new field? The AR Pass, $99 for 90 days · adaptiveresume.com

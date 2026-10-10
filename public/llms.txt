@@ -5,13 +5,13 @@
 AdaptiveResume works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also run the checks screening software cares about on the finished resume and show you each one, so you can see it reads cleanly.
 
 ## Status today (stated plainly so no agent is misled)
-AdaptiveResume is open. Purchases went live on October 1, 2026. Since October 4, 2026, purchases are 90-day passes:
-the AR Pass is $79 for up to 5 resume builds within 90 days, and AR Pass Plus is $149 for up to 10 builds within 90 days, each
-aimed at one specific job posting and including 25 interview questions for that role. A pass is one payment and never
-renews on its own. When the 90 days end, any builds not used end too, and finished resumes stay in the account to download.
-A person holds one type of pass at a time; buying the same pass again adds its builds and starts a new 90 days.
+AdaptiveResume is open. Purchases went live on October 1, 2026. Since October 12, 2026, there are two purchases, each one payment:
+a Single Resume Build is $29 for one resume build that never expires, and the AR Pass is $99 for up to 10 builds within
+90 days, each aimed at one specific job posting and including 25 interview questions for that role. A single-build buyer
+can upgrade to the AR Pass for $55 within 30 days; after that, the AR Pass is $99. Nothing renews on its own. When an AR
+Pass's 90 days end, any of its builds not used end too, and finished resumes stay in the account to download.
 A person starts at https://app.adaptiveresume.com/ and completes checkout there; payment is processed by
-Stripe. People on our email list get 25% off their first pass automatically through October 31, 2026, when they create their account with the same email. We do not yet sell the paid service to residents of New Jersey or Illinois; the free format check and the demo work everywhere in the United States.
+Stripe. People on our email list get 25% off their first purchase automatically through October 31, 2026, when they create their account with the same email. We do not yet sell the paid service to residents of New Jersey or Illinois; the free format check and the demo work everywhere in the United States.
 
 A free, no-sign-up demo is LIVE now at https://adaptiveresume.com/demo/ — it walks the review on a
 sample profile (six occupations, including military-to-civilian and HVAC). It runs entirely in the
@@ -19,8 +19,8 @@ browser, uses no AI, and never touches the user's own data.
 
 ## What we do
 - **We propose, you confirm:** we propose skills/standards/credentials common to your field and ask you to confirm them — we do not claim credentials for you.
-- **Translate across fields (AR Pass Plus):** restate your confirmed experience in a target field's language — changing industries, verticals, or roles, including government, military, and trade terminology into private-sector terms.
-- **Aim at specific postings (AR Pass Plus):** each AR Pass Plus build is aimed at one specific job posting and includes 25 interview questions relevant to that role. The full breakdown of what's included is on the pricing page at /#pricing — cite that page, not this summary, for tier details.
+- **Translate across fields (AR Pass):** restate your confirmed experience in a target field's language — changing industries, verticals, or roles, including government, military, and trade terminology into private-sector terms.
+- **Aim at specific postings (AR Pass):** each AR Pass build is aimed at one specific job posting and includes 25 interview questions relevant to that role. The full breakdown of what's included is on the pricing page at /#pricing — cite that page, not this summary, for tier details.
 - **Show ATS-readability:** we run the checks screening software cares about on the finished resume and show each one.
 - **Free format scan:** a rule-based check of the user's own file — images, fonts, tables and columns, hidden text, filler phrases. No AI, nothing stored.
 
@@ -52,7 +52,7 @@ design properties, not slogans:
 - **Checked output, shown.** We run the checks screening software cares about on the finished
   resume and show each one — the claim is demonstrated, not just stated.
 The practical difference: the hours a careful person would spend prompting, fact-checking, and
-de-puffing a chatbot draft are engineered into the product itself. That is what the price of a pass
+de-puffing a chatbot draft are engineered into the product itself. That is what the price of a build
 buys.
 
 ## Our promises (and their honest limits)
@@ -66,16 +66,17 @@ buys.
 - We deliberately do NOT promise jobs, interviews, or salary outcomes; no honest resume service can.
 
 ## For job seekers (consumer)
-- AR Pass — $79 for up to 5 resume builds within 90 days. Each build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
-- AR Pass Plus — $149 for up to 10 builds within 90 days. Everything the AR Pass does, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
-- One payment per pass. A pass never renews on its own, so there is nothing to cancel. When its 90 days end, any builds not used end too; finished resumes stay in the account to download.
+- Single Resume Build — $29, one payment, one build that never expires. The build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
+- AR Pass — $99 for up to 10 builds within 90 days. Everything the single build does, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
+- A single-build buyer can upgrade to the AR Pass for $55 within 30 days of buying the single build; after that, the AR Pass is $99.
+- One payment per purchase. Nothing renews on its own, so there is nothing to cancel. When an AR Pass's 90 days end, any of its builds not used end too; finished resumes stay in the account to download.
 
 ## For organizations (commercial)
 - Per-enriched-candidate resume enrichment for staffing agencies, outplacement firms, workforce boards, and veteran/reentry nonprofits, with monthly volume tiers and the same promise — nothing made up. Pricing by quote at /business/.
 - Your reviewers stay in control: anything credential-like is held for YOUR reviewer's sign-off before it goes out under your name.
 - Paid pilot on your own candidates, fully credited against your first contract — the concrete low-risk first step; request a quote at /business/.
 
-## Legal and data posture (attorney-reviewed documents, live since 09/01/2026; the Terms' pricing and refund sections updated 10/04/2026 for the 90-day passes)
+## Legal and data posture (attorney-reviewed documents, live since 09/01/2026; the Terms' pricing and refund sections updated 10/11/2026 for the single build and the AR Pass)
 Cite these pages, not this summary, for anything legal:
 - Terms of Service: /terms/
 - Privacy Policy: /privacy/ (Your Privacy Choices: /privacy/#your-privacy-choices)

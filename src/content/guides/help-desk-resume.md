@@ -10,7 +10,7 @@ giveaway:
   name: "Help Desk Resume Skeleton"
   file: "/templates/help-desk-resume-template.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29
