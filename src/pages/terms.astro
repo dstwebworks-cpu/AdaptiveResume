@@ -83,7 +83,7 @@ import Base from '../layouts/Base.astro';
 
         <h2>5. Purchases, pricing, and payment</h2>
         <p>
-          The Service is sold in two ways, each bought with one payment. A Single Resume Build includes one base build, which is a build that is not aimed at a specific job posting, and it does not expire. The AR Pass is a 90-day pass that includes up to 10 targeted builds, and a targeted build can also be used as a base build. The current price of each is shown on our pricing page and at checkout, in United States dollars, and the price shown at checkout
+          The Service is sold in two ways, each bought with one payment. A Single Resume Build includes one base build, which is a build that is not aimed at a specific job posting, and it can be used for 12 months after the day you buy it. The AR Pass is a 90-day pass that includes up to 10 targeted builds, and a targeted build can also be used as a base build. The current price of each is shown on our pricing page and at checkout, in United States dollars, and the price shown at checkout
           is the price that applies to that purchase. We may change prices going forward.
         </p>
         <p>
@@ -95,17 +95,17 @@ import Base from '../layouts/Base.astro';
           ends. We keep an unfinished review for 7 days after you last work on it.
         </p>
         <p>
-          Your AR Pass runs through 11:59 p.m. Eastern time on the 90th day after the day you buy it, and your account shows that date. When the 90 days end, you can no longer start new builds with that pass, and any of its builds you have not used end with it. Unused builds have no cash value and are not refunded, except as Section 6 or Section 14 provides. A Single Resume Build does not expire. Your finished documents remain yours, and you can still download them after your pass ends.
+          Your AR Pass runs through 11:59 p.m. Eastern time on the 90th day after the day you buy it, and your account shows that date. When the 90 days end, you can no longer start new builds with that pass, and any of its builds you have not used end with it. Unused builds have no cash value and are not refunded, except as Section 6 or Section 14 provides. A Single Resume Build that has not been used within 12 months after the day you buy it ends, and like other unused builds it has no cash value. Your finished documents remain yours, and you can still download them after your pass ends.
         </p>
         <p>
           There is no subscription and no automatic renewal, so there is nothing for you to
-          cancel. We never charge you unless you choose to buy. While your AR Pass has builds left, you can buy another AR Pass: its builds are added to your pass builds, and a new 90-day period starts from that purchase for all of your pass builds. Builds that do not expire are not affected. If you bought our earlier AR Pass with up to 5 builds before we stopped selling it on October 11, 2026, it keeps its builds and its end date. That earlier pass is not the AR Pass described above, and you can buy the AR Pass at any time.
+          cancel. We never charge you unless you choose to buy. While your AR Pass has builds left, you can buy another AR Pass: its builds are added to your pass builds, and a new 90-day period starts from that purchase for all of your pass builds. Builds that do not expire are not affected. If you bought our earlier AR Pass with up to 5 builds before we stopped selling it on October 11, 2026, it keeps its builds and its end date until you buy an AR Pass; from then on, all of your pass builds share the new AR Pass's 90-day period. That earlier pass is not the AR Pass described above, and you can buy the AR Pass at any time.
         </p>
         <p>
-          If you buy a Single Resume Build and have never bought an AR Pass, you can buy an AR Pass at the upgrade price shown at checkout until 11:59 p.m. Eastern time on the 30th day after the day you bought the Single Resume Build. After that, the upgrade price ends, and the AR Pass is available at its regular price. The upgrade price is not available once the Single Resume Build has been refunded or charged back, or once you have bought an AR Pass. Your Single Resume Build stays yours and is not counted against the AR Pass. The upgrade is a separate purchase from the Single Resume Build: a refund of the upgrade covers the upgrade price and ends that AR Pass, and it does not include the Single Resume Build. We may offer you a discount on another purchase; any such offer is optional and is charged only if you choose to buy.
+          If you buy a Single Resume Build and have never bought an AR Pass of any kind, including our earlier AR Pass with up to 5 builds, you can buy an AR Pass at the upgrade price shown at checkout until 11:59 p.m. Eastern time on the 30th day after the day you bought your most recent Single Resume Build. After that, the upgrade price ends, and the AR Pass is available at its regular price. The upgrade price is not available once the Single Resume Build has been refunded or charged back, or once you have bought an AR Pass. Your Single Resume Build stays yours and is not counted against the AR Pass. The upgrade is a separate purchase from the Single Resume Build: a refund of the upgrade covers the upgrade price and ends that AR Pass, and it does not include the Single Resume Build.
         </p>
         <p>
-          While your AR Pass is within its 90 days and you have used all of its builds, you can add 10 more targeted builds at the refill price shown at checkout. A refill starts a new 90-day period for your pass builds. After your AR Pass's 90 days have ended, a new AR Pass is available at its regular price.
+          While your AR Pass is within its 90 days and you have used all of its builds, you can buy a refill: an AR Pass of 10 more targeted builds at the refill price shown at checkout. A refill starts a new 90-day period for your pass builds. After your AR Pass's 90 days have ended, a new AR Pass is available at its regular price. A refill is a separate purchase: a refund of a refill under Section 6 covers the refill price and removes its 10 builds, or all of your pass builds if fewer are left, and your pass keeps its current end date. We may offer you a discount on another purchase; any such offer is optional and is charged only if you choose to buy.
         </p>
         <p>
           A Single Resume Build or an AR Pass is for your own use. It cannot be transferred, resold, shared, or given to
@@ -134,7 +134,7 @@ import Base from '../layouts/Base.astro';
           extra build, and you can use it even if your pass has ended.
         </p>
         <p>
-          Third, if the replacement build still does not give you anything useful, we will refund the full price you paid for the purchase that included the build at issue (the Single Resume Build, or the AR Pass at the price you paid for it) to your original payment method through Stripe, and that purchase ends. We will issue the refund within ten
+          Third, if the replacement build still does not give you anything useful, we will refund the full price you paid for the purchase that included the build at issue (the Single Resume Build, or the AR Pass at the price you paid for it) to your original payment method through Stripe, and that purchase ends. If your pass builds come from more than one AR Pass purchase, including a refill, the refund at this step is the price you paid for the most recent of those purchases. We will issue the refund within ten
           business days after you ask for it. We will grant a refund at this third step unless one
           of the following is true, and if we decline we will tell you in writing which one
           applies: you did not complete the rework step or the replacement build; you asked for
@@ -144,7 +144,7 @@ import Base from '../layouts/Base.astro';
           href="/acceptable-use/">Acceptable Use Policy</a>.
         </p>
         <p>
-          Separately from the make-it-right process, you may request a full refund of a Single Resume Build or an AR Pass for any reason within 14 days of buying it, as long as you have not downloaded any finished
+          Separately from the make-it-right process, you may request a full refund of a Single Resume Build or an AR Pass (including an AR Pass bought at the upgrade price or a refill) for any reason within 14 days of buying it, as long as you have not downloaded any finished
           documents since you bought it, and we will honor it, unless the request results from a
           chargeback or a fraudulent payment, involves a violation of the <a
           href="/acceptable-use/">Acceptable Use Policy</a>, or reflects a pattern of reviewing
@@ -374,8 +374,7 @@ import Base from '../layouts/Base.astro';
           Under California Civil Code section 1789.3, California users are entitled to the following
           notice. The provider of this service is AdaptiveResume LLC, 8735 Dunwoody Place, Suite N,
           Atlanta, Georgia 30350, <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a>.
-          The charge for the service is the price shown on our pricing page at the time of your
-          purchase, plus any applicable taxes described in Section 5, and there are no other charges.
+          The charge for the service is the price shown on our pricing page or at checkout at the time of your purchase, plus any applicable taxes described in Section 5, and there are no other charges.
           To resolve a complaint or to get further information, email
           <a href="mailto:support@adaptiveresume.com">support@adaptiveresume.com</a>. You may also
           contact the Complaint Assistance Unit of the Division of Consumer Services of the California

@@ -6,7 +6,7 @@ AdaptiveResume works backwards from your real experience. It looks at what roles
 
 ## Status today (stated plainly so no agent is misled)
 AdaptiveResume is open. Purchases went live on October 1, 2026. Since October 11, 2026, there are two purchases, each one payment:
-a Single Resume Build is $29 for one resume build that never expires, and the AR Pass is $99 for up to 10 builds within
+a Single Resume Build is $29 for one resume build you can use any time within 12 months of buying it, and the AR Pass is $99 for up to 10 builds within
 90 days, each aimed at one specific job posting and including 25 interview questions for that role. A single-build buyer who has
 never bought an AR Pass can upgrade to it for $55 within 30 days; after that, the AR Pass is $99. An AR Pass holder
 who uses all 10 builds while the pass is active can add 10 more for $49. Nothing renews on its own. When an AR
@@ -67,7 +67,7 @@ buys.
 - We deliberately do NOT promise jobs, interviews, or salary outcomes; no honest resume service can.
 
 ## For job seekers (consumer)
-- Single Resume Build — $29, one payment, one build that never expires. The build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
+- Single Resume Build — $29, one payment, one build you can use any time within 12 months of buying it. The build is the complete, honest, machine-readable rebuild of your resume, built from up to three old resumes plus a LinkedIn resume export.
 - AR Pass — $99 for up to 10 builds within 90 days. Everything the single build does, with each build aimed at one specific job posting: your confirmed experience translated into that posting's language, plus 25 interview questions for that role. Ideal for career changers and military/government-to-private transitions. Full breakdown: /#pricing.
 - A single-build buyer who has never bought an AR Pass can upgrade to it for $55 within 30 days of buying the single build; after that, the AR Pass is $99.
 - An AR Pass holder who uses all 10 builds while the pass is active can add 10 more for $49, which starts a new 90 days.
