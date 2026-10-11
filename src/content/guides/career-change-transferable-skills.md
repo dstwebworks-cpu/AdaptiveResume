@@ -10,7 +10,7 @@ giveaway:
   name: "Transferable-Skills Inventory"
   file: "/templates/transferable-skills-inventory.docx"
 cta:
-  label: "Start AR Pass Plus — $149"
+  label: "Start the AR Pass — $99"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-12

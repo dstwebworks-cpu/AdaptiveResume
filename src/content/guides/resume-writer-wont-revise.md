@@ -10,7 +10,7 @@ giveaway:
   name: "Paid-Rewrite Rescue Checklist"
   file: "/templates/paid-rewrite-rescue-checklist.docx"
 cta:
-  label: "Fix it with AR Pass Plus — $149"
+  label: "Fix it with the AR Pass — $99"
   href: "/fix/"
 pubDate: 2026-07-26
 updatedDate: 2026-09-29

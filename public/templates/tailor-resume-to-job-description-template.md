@@ -46,4 +46,4 @@ For each must-have:
 If honest tailoring can't produce a decent match against the must-have list, spend the fifteen minutes on the next posting instead.
 
 ---
-Want this done with you? Our targeted build lines your real history up against the posting and proposes every change as a question — nothing lands without your say-so. AR Pass Plus, $149 for 90 days · adaptiveresume.com
+Want this done with you? Our targeted build lines your real history up against the posting and proposes every change as a question — nothing lands without your say-so. The AR Pass is $99 for up to 10 targeted builds in 90 days. adaptiveresume.com

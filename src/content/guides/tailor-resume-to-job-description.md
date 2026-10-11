@@ -10,7 +10,7 @@ giveaway:
   name: "JD-to-Resume Tailoring Worksheet"
   file: "/templates/tailor-resume-to-job-description-template.docx"
 cta:
-  label: "Start AR Pass Plus — $149"
+  label: "Start the AR Pass — $99"
   href: "/#pricing"
 pubDate: 2026-08-11
 updatedDate: 2026-09-29

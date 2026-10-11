@@ -10,7 +10,7 @@ giveaway:
   name: "ATS-Readability Checklist"
   file: "/templates/ats-readability-checklist.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-07-26
 updatedDate: 2026-08-12
