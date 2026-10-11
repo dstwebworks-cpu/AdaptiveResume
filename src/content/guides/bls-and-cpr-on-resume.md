@@ -2,7 +2,7 @@
 title: "How to List BLS and CPR Certification on a Resume"
 description: "BLS and CPR are different cards, and employers read the difference. Here's how to write the course name, the issuer, and the expiration exactly as your card shows them, where the line goes, and what to do with an expired or online-only card."
 seoTitle: "How to List BLS and CPR Certification on a Resume"
-seoDescription: "List BLS or CPR on a resume the way employers check it: the exact course name, the issuer, and the expiration month and year, plus expired and online-only cards."
+seoDescription: "List BLS or CPR on a resume the way employers check it: the exact course name, the issuer, and the expiration date, plus expired and online-only cards."
 segment: "job-seekers"
 audience: "Nurses, aides, and other healthcare workers with a BLS card, and childcare workers, teachers, coaches, fitness trainers, lifeguards, security officers, and workplace first aid responders with a CPR, AED, or first aid card"
 keyword: "bls certification on resume"
@@ -10,11 +10,11 @@ giveaway:
   name: "Certification Section Cheat-Sheet"
   file: "/templates/how-to-list-certifications-on-resume-template.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
 order: 114
-draft: true
+draft: false
 faq:
   - q: "Is BLS the same as CPR on a resume?"
     a: "They are different courses. BLS is the healthcare provider course: it covers CPR for adults, children, and infants, the AED, rescue breathing with a bag-mask device, and working as a team during a code. A community or workplace CPR course covers the basics for a lay rescuer. A healthcare posting that asks for BLS usually will not accept a workplace CPR card, so write the course name exactly as your card prints it."

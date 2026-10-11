@@ -25,6 +25,14 @@ function wrap(text, max) {
   return lines;
 }
 
+// Audience tag: at most two rows of 52 characters (it ran off the right edge on 96 cards, 10/05 catalog). A longer
+// audience drops whole clauses from the end, at a comma, so the tag never stops mid-phrase.
+function audienceLines(audience) {
+  let a = audience.toUpperCase();
+  while (wrap(a, 52).length > 2 && a.includes(",")) a = a.slice(0, a.lastIndexOf(",")).trim();
+  return wrap(a, 52).slice(0, 2);
+}
+
 function cardSvg({ title, audience }) {
   const big = title.length <= 58;
   const size = big ? 58 : 48;
@@ -45,10 +53,10 @@ function cardSvg({ title, audience }) {
     <rect x="90" y="64" width="54" height="54" rx="12" fill="${INK}" opacity="0.95"/>
     <text x="117" y="101" font-size="26" font-weight="800" fill="${NAVY}" text-anchor="middle">AR</text>
     <text x="160" y="99" font-size="30" font-weight="700" fill="${INK}">Adaptive<tspan fill="${AMBER}">Resume</tspan></text>
-    <text x="90" y="196" font-size="22" font-weight="700" fill="${AMBER}" letter-spacing="3">${esc(audience.toUpperCase())}</text>
+    <text font-size="22" font-weight="700" fill="${AMBER}" letter-spacing="3">${audienceLines(audience).map((l, i) => `<tspan x="90" y="${180 + i * 32}">${esc(l)}</tspan>`).join("")}</text>
     <text font-size="${size}" font-weight="800" fill="${INK}">${tspans}</text>
     <text x="90" y="560" font-size="24" font-weight="600" fill="${SOFT}">adaptiveresume.com</text>
-    <text x="1110" y="560" font-size="24" font-weight="600" fill="${SOFT}" text-anchor="end">You approve every line.</text>
+    <text x="1110" y="560" font-size="24" font-weight="600" fill="${SOFT}" text-anchor="end">We ask. You confirm.</text>
   </g>
 </svg>`;
 }

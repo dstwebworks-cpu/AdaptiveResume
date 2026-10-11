@@ -2,7 +2,7 @@
 title: "Warehouse Worker Resume: Your Rate, Your Accuracy, and the Equipment You Run"
 description: "Warehouse worker resumes are read for three numbers and a short equipment list. Here's how to write yours with your real pick or pack rate, your accuracy, the systems and equipment you used, and the safety record a warehouse manager checks."
 seoTitle: "Warehouse Worker Resume: Skills, Rate, and Examples"
-seoDescription: "Warehouse worker resume guide: write your real rate and accuracy, name the scanners, systems, and equipment you ran, and build skills lines a warehouse manager trusts."
+seoDescription: "Write your warehouse worker resume with your real rate and accuracy, the scanners, systems, and equipment you ran, and skills a warehouse manager trusts."
 segment: "job-seekers"
 audience: "Warehouse associates, pickers, packers, loaders, receivers, stockers, material handlers, and fulfillment center workers, including people applying for their first warehouse job"
 keyword: "warehouse worker resume"
@@ -10,11 +10,11 @@ giveaway:
   name: "Role Skills Checklist"
   file: "/templates/role-skills-checklist.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
 order: 115
-draft: true
+draft: false
 faq:
   - q: "How do I find my pick rate if I never wrote it down?"
     a: "Start with what your warehouse told you. Many fulfillment operations show workers their rate on the scanner, a screen, or a daily report, and in several states large warehouse employers must give workers a written description of the quotas they are held to. If you never saw a number, estimate honestly from a typical shift, such as orders picked divided by hours worked, and write it as approximate."

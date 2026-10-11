@@ -2,7 +2,7 @@
 title: "Loan Processor Resume: Pipeline, Turn Times, and Clean Files to Close"
 description: "Loan processor resumes are read for the size of the pipeline, how fast files reach clear to close, and how clean they are when they get there. Here's how to write yours with real file counts, the systems you work in, and the compliance steps you keep on schedule."
 seoTitle: "Loan Processor Resume: Pipeline, Turn Times, Systems"
-seoDescription: "Mortgage loan processor resume guide: write your pipeline size and files closed, turn times to clear to close, the LOS and AUS you use, and the disclosure deadlines you keep."
+seoDescription: "Write your loan processor resume with pipeline size, files closed, turn times to clear to close, your LOS and AUS, and the disclosure deadlines you keep."
 segment: "job-seekers"
 audience: "Mortgage loan processors, junior and senior processors, contract processors, and consumer and commercial loan processors at banks and credit unions"
 keyword: "loan processor resume"
@@ -10,11 +10,11 @@ giveaway:
   name: "Role Skills Checklist"
   file: "/templates/role-skills-checklist.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
 order: 117
-draft: true
+draft: false
 faq:
   - q: "Do loan processors need an NMLS license?"
     a: "That depends on how you work. Under the federal SAFE Act rules, a processor who only does clerical and support work under the actual direction and supervision of a licensed or registered loan originator does not need a loan originator license. A processor who works as an independent contractor generally does. Write your status exactly: if you hold a license, give the NMLS ID and the states; if you do not, there is no need to mention it unless the posting asks."

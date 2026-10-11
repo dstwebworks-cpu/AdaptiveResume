@@ -2,7 +2,7 @@
 title: "Delivery Driver Resume: Stops, Vehicles, and a Clean Driving Record"
 description: "Delivery driver resumes are read for the vehicle you can drive, the stops you can handle, and a record an insurer will accept. Here's how to write yours with real route numbers, the right license and medical card details, and gig or contract work listed honestly."
 seoTitle: "Delivery Driver Resume: Stops, Vehicles, Driving Record"
-seoDescription: "Delivery driver resume guide: write your real stops and packages per day, name the vans or box trucks you drove, list the medical card correctly, and show gig work honestly."
+seoDescription: "Write your delivery driver resume with real daily stops and packages, the vans or box trucks you drove, your medical card, and gig work shown honestly."
 segment: "job-seekers"
 audience: "Package, parcel, and last-mile delivery drivers, courier and medical courier drivers, furniture and appliance delivery drivers, food and grocery delivery drivers, and gig drivers moving into employee jobs"
 keyword: "delivery driver resume"
@@ -10,11 +10,11 @@ giveaway:
   name: "Role Skills Checklist"
   file: "/templates/role-skills-checklist.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
 order: 116
-draft: true
+draft: false
 faq:
   - q: "Do I need a CDL to be a delivery driver?"
     a: "Many delivery jobs do not require a CDL. Cargo vans and many box trucks are rated under 26,001 pounds, which is below the line where a commercial driver's license is required, unless the vehicle hauls placarded hazardous materials or is designed to carry 16 or more people, including the driver. Write the license class you actually hold and the vehicles you have driven. If you hold a CDL, our CDL truck driver guide covers how to write it."

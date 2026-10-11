@@ -81,7 +81,7 @@ Environment counts too. Cold storage and freezer work is its own qualification �
 
 ## Warehouse worker resume — same rules, whatever you're pushing
 
-If your title is warehouse associate, picker, packer, loader, or material handler, everything above applies at your scale — the truck section just gets smaller and the numbers get bigger. Replace "responsible for picking and packing orders" with what you actually moved and how well: "picked ~[N] lines/hour at [N]% accuracy on an RF scanner; loaded [N] trailers/shift; [N] months incident-free." Name the equipment you do run, even if it's a manual pallet jack, and name the system.
+If your title is warehouse associate, picker, packer, loader, or material handler, everything above applies at your scale — the truck section just gets smaller and the numbers get bigger. Replace "responsible for picking and packing orders" with what you actually moved and how well: "picked ~[N] lines/hour at [N]% accuracy on an RF scanner; loaded [N] trailers/shift; [N] months incident-free." Name the equipment you do run, even if it's a manual pallet jack, and name the system. Our [warehouse worker resume guide](/guides/warehouse-worker-resume/) covers those roles in full.
 
 Then write the lines that point upward: trained new hires on the pick line, ran the cycle count team, covered the lead's duties, learned a second truck type. If you're aiming past the floor entirely, our [warehouse supervisor resume guide](/guides/warehouse-supervisor-resume/) covers the crew-size, throughput, and safety proof that role is read for.
 

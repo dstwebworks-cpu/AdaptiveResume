@@ -2,7 +2,7 @@
 title: "Home Health Aide Resume: The Federal Training Line, Your Clients, and the Care Plan You Followed"
 description: "Home health aide resumes are screened for the training and competency evaluation first, then for the visits, the care tasks, and the records. Here's how to write yours with the exact qualification line, real client and visit numbers, and the documentation an agency checks."
 seoTitle: "Home Health Aide Resume: Training, Visits, Care Tasks"
-seoDescription: "Home health aide resume guide: write the training and competency line exactly, show real client and visit numbers, and name the care tasks and visit records you kept."
+seoDescription: "Write your home health aide resume with the training line exactly as issued, your real client and visit counts, and the care tasks and visit records you kept."
 segment: "job-seekers"
 audience: "Home health aides at Medicare-certified and private home health agencies, certified nursing assistants moving into home care, and personal care aides who have completed or are completing home health aide training"
 keyword: "home health aide resume"
@@ -10,11 +10,11 @@ giveaway:
   name: "Role Skills Checklist"
   file: "/templates/role-skills-checklist.docx"
 cta:
-  label: "Get the AR Pass — $79"
+  label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
 order: 113
-draft: true
+draft: false
 faq:
   - q: "What is the difference between a home health aide and a caregiver on a resume?"
     a: "The difference is the training and the employer. A home health aide at a Medicare-certified home health agency has met the federal qualification rule, and each visit follows written care instructions that a registered nurse or therapist prepares and supervises. A caregiver or personal care aide usually provides non-medical help without that qualification. If you have done both kinds of work, keep them as separate entries with their own titles, and read our caregiver guide for the non-medical side."
