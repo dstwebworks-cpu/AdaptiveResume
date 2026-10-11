@@ -72,7 +72,7 @@ If no one ever gave you a number, estimate from a normal shift, round it down, a
 
 ## Moving up from the floor
 
-The lines that point upward matter even for an entry-level job: training new hires, covering a lead's duties, running a cycle-count team, earning a second piece of equipment, or moving from picking into receiving or inventory control. Each one shows the manager that you can be trusted with more. If you are aiming at a lead or supervisor job next, our [warehouse supervisor resume guide](/guides/warehouse-supervisor-resume/) covers what that role is read for, and our [forklift operator guide](/guides/forklift-operator-resume/) covers moving into a driving role.
+The lines that point upward matter even for an entry-level job: training new hires, covering a lead's duties, running a cycle-count team, getting trained on a second piece of equipment, or moving from picking into receiving or inventory control. Each one shows the manager that you can be trusted with more. If you are aiming at a lead or supervisor job next, our [warehouse supervisor resume guide](/guides/warehouse-supervisor-resume/) covers what that role is read for, and our [forklift operator guide](/guides/forklift-operator-resume/) covers moving into a driving role.
 
 ## Format notes
 
