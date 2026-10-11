@@ -12,7 +12,9 @@
     "test:mobile": "playwright test",
     "prebuild": "node scripts/american-english-check.mjs && node scripts/page-dates-check.mjs",
     "check:english": "node scripts/american-english-check.mjs",
-    "check:dates": "node scripts/page-dates-check.mjs"
+    "check:dates": "node scripts/page-dates-check.mjs",
+    "postbuild": "node scripts/meta-length-check.mjs",
+    "check:meta": "node scripts/meta-length-check.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",
