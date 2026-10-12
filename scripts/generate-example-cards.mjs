@@ -355,6 +355,10 @@ export const PAIRS = {
     before: "Loan processor responsible for reviewing loan documents and working with borrowers and underwriters.",
     after: "Mortgage loan processor, [retail lender]: [45]-[55] files in the pipeline, [18]-[22] closings a month across conventional, FHA, and VA; average [21] days from submission to clear to close, [97]% closed on schedule; Loan Estimates and Closing Disclosures tracked to TRID deadlines in [Encompass].",
   },
+  "dispatcher-resume": {
+    before: "911 dispatcher responsible for answering calls and dispatching police, fire, and EMS.",
+    after: "911 dispatcher at a [county] communications center: answered about [60] calls a shift on [CAD system], dispatched police, fire, and EMS on [N] radio channels, APCO Public Safety Telecommunicator and EMD certified, [N] commendations.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
