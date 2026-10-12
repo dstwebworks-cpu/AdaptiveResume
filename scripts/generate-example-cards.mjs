@@ -363,6 +363,10 @@ export const PAIRS = {
     before: "Logistics coordinator responsible for coordinating inbound and outbound shipments and communicating with carriers.",
     after: "Logistics coordinator for a [regional distributor]: booked about [120] outbound truckload and LTL shipments a week across [15] carriers in [TMS], kept on-time delivery at [96]%, and cut freight cost per order by [8]% by consolidating LTL lanes; [0] customs holds on [N] import entries in [year].",
   },
+  "construction-worker-resume": {
+    before: "Construction laborer responsible for site cleanup, carrying materials, and assisting tradesmen.",
+    after: "Construction laborer for a [commercial general contractor] on [3] projects, including a [4]-story steel-frame office building: concrete pours, forming and stripping, and site cleanup on a [12]-person crew; OSHA 10 ([year]), trained on the [skid steer] and [scissor lift]; [18] months with no missed days and no recordable injuries.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
