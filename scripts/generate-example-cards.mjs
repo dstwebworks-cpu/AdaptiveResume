@@ -371,6 +371,10 @@ export const PAIRS = {
     before: "Landscaper responsible for mowing, trimming, and general yard maintenance.",
     after: "Landscape crew member for a [commercial maintenance company]: mowed and maintained about [12] commercial properties a day on a [3]-person crew, ran [zero-turn and stand-on mowers], string trimmers, and blowers, installed [N] cubic yards of mulch a season; [state] commercial pesticide applicator license ([category]); returned for [4] seasons.",
   },
+  "custodian-resume": {
+    before: "Custodian responsible for cleaning classrooms, restrooms, and hallways.",
+    after: "Night custodian at a [1,200]-student high school: cleaned about [28,000] square feet a shift, including [18] classrooms and [6] restrooms; stripped and refinished [N] floors each summer with an auto scrubber and burnisher; bloodborne pathogens training every year; [2] years with no missed shifts.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
