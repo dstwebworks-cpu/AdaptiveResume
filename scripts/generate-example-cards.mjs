@@ -359,6 +359,10 @@ export const PAIRS = {
     before: "911 dispatcher responsible for answering calls and dispatching police, fire, and EMS.",
     after: "911 dispatcher at a [county] communications center: answered about [60] calls a shift on [CAD system], dispatched police, fire, and EMS on [N] radio channels, APCO Public Safety Telecommunicator and EMD certified, [N] commendations.",
   },
+  "logistics-coordinator-resume": {
+    before: "Logistics coordinator responsible for coordinating inbound and outbound shipments and communicating with carriers.",
+    after: "Logistics coordinator for a [regional distributor]: booked about [120] outbound truckload and LTL shipments a week across [15] carriers in [TMS], kept on-time delivery at [96]%, and cut freight cost per order by [8]% by consolidating LTL lanes; [0] customs holds on [N] import entries in [year].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
