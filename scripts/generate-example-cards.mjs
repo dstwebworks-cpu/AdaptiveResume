@@ -367,6 +367,10 @@ export const PAIRS = {
     before: "Construction laborer responsible for site cleanup, carrying materials, and assisting tradesmen.",
     after: "Construction laborer for a [commercial general contractor] on [3] projects, including a [4]-story steel-frame office building: concrete pours, forming and stripping, and site cleanup on a [12]-person crew; OSHA 10 ([year]), trained on the [skid steer] and [scissor lift]; [18] months with no missed days and no recordable injuries.",
   },
+  "landscaping-resume": {
+    before: "Landscaper responsible for mowing, trimming, and general yard maintenance.",
+    after: "Landscape crew member for a [commercial maintenance company]: mowed and maintained about [12] commercial properties a day on a [3]-person crew, ran [zero-turn and stand-on mowers], string trimmers, and blowers, installed [N] cubic yards of mulch a season; [state] commercial pesticide applicator license ([category]); returned for [4] seasons.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
