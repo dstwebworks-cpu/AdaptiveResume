@@ -21,7 +21,7 @@ faq:
   - q: "How do I figure out how many square feet I cleaned?"
     a: "Ask your supervisor or look at your area assignment. Many cleaning departments assign each custodian a set area by square footage or by number of rooms. If you cannot get the figure, count what you can: classrooms, restrooms, floors, or offices, and write that instead."
   - q: "Do I need a certification to be a custodian?"
-    a: "Usually you do not need one, but training counts. Under OSHA's rules, a covered employer had to train you on the hazardous chemicals you used, and if your job could expose you to blood, as many school and hospital jobs do, on bloodborne pathogens every year. List that training with the year. Industry courses on infection prevention and floor care are worth listing too."
+    a: "Usually you do not need one, but training counts. Under OSHA's rules, a covered employer had to train you on the hazardous chemicals you used. If cleaning up blood was part of your job, that employer also had to train you on bloodborne pathogens every year. List that training with the year. Industry courses on infection prevention and floor care are worth listing too."
   - q: "I'm applying for a lead custodian job. What should I add?"
     a: "Add the crew you led, the building or area you were responsible for, how you scheduled the work, how you trained new staff, and any inspection scores or supply budgets you handled. A lead is read for keeping a building ready with a team, not just for the cleaning."
 ---
