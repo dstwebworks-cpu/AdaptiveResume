@@ -17,18 +17,18 @@ order: 121
 draft: true
 faq:
   - q: "Do I need a license to spray weed killer or fertilizer for a landscaping company?"
-    a: "It depends on the product and the state. Federal rules require certification for anyone who applies or supervises the use of restricted use pesticides, and many states also license commercial application of other pesticides. If you sprayed under someone else's license, say so plainly, for example \"applied herbicide under the supervision of a licensed applicator,\" and list your own license only if it is in your name."
+    a: "It depends on the product and the state. Federal rules allow restricted use pesticides to be applied only by a certified applicator or by someone working under a certified applicator's direct supervision, and many states also license commercial application of other pesticides. If you sprayed under someone else's license, say so plainly, for example \"applied herbicide under the supervision of a licensed applicator,\" and list your own license only if it is in your name."
   - q: "My landscaping work was seasonal. How do I show that?"
     a: "List each season with its dates and the employer, and say what you did in the off-season if you worked, such as snow removal or holiday lighting. Seasonal work is normal in this industry, and returning to the same employer year after year is a strong signal of reliability. Write it as \"returned for [N] seasons.\""
   - q: "I mostly mowed. What skills can I put on my resume?"
-    a: "More than you think. Write the equipment you ran, the size and type of the properties, how many you finished in a day, and any trimming, edging, mulching, or cleanup work. Add the safety training you completed and any time you trained a new crew member or ran the route when the lead was out."
+    a: "You can list more than you think. Write the equipment you ran, the size and type of the properties, how many you finished in a day, and any trimming, edging, mulching, or cleanup work. Add the safety training you completed and any time you trained a new crew member or ran the route when the lead was out."
   - q: "Should I list plant identification on my resume?"
-    a: "Yes, if you can do it on the job. Name the kinds of plants and pests you can identify and how you used that knowledge, such as choosing plants for a site, spotting disease, or deciding what not to prune. It is a skill employers test in certification exams, so it is worth a line."
+    a: "Yes, list it if you can do it on the job. Name the kinds of plants and pests you can identify and how you used that knowledge, such as choosing plants for a site, spotting disease, or deciding what not to prune. Tree identification is one of the tested areas on the ISA Certified Arborist exam, so the industry treats it as a real skill, and it is worth a line."
 ---
 
 A landscaping resume is read by a crew leader, a branch or account manager, or the owner of a landscaping company. They are looking for proof that you can do the work without being watched: which equipment you run safely, what kinds of properties you have maintained or built, what licenses you hold, and whether you show up through a hot summer and a busy spring. A resume that says "experienced landscaper, hard worker, good with plants" tells them none of that.
 
-Landscaping work is counted by the property and the day. Routes, crews, and job tickets already hold the numbers for a strong resume. Put them on the page.
+Landscaping work is counted by the property and the day. Routes, crews, and job tickets usually hold the numbers for a strong resume. Put them on the page.
 
 ## Lead with your properties, your equipment, and your credentials
 
@@ -44,11 +44,11 @@ The second version tells the owner the type of work, the volume, the crew size, 
 
 ## Licenses and certifications, named exactly
 
-**Pesticide applicator license.** Federal rules require [certification for commercial applicators](https://www.law.cornell.edu/cfr/text/40/171.101) who use or supervise the use of restricted use pesticides, with categories such as ornamental and turf pest control. States run the testing, and the [competency standards](https://www.law.cornell.edu/cfr/text/40/171.103) require a written exam in the core standards and in each category. Many states also license commercial application of other pesticides and fertilizers. If you hold a license, write the state, the category, and the expiration date. If you applied products under someone else's license, describe it that way. The EPA's [applicator certification page](https://www.epa.gov/pesticide-worker-safety/certification-standards-pesticide-applicators) explains how the federal and state rules fit together.
+**Pesticide applicator license.** Federal rules require [certification for commercial applicators](https://www.law.cornell.edu/cfr/text/40/171.101) who use or supervise the use of restricted use pesticides, with categories such as ornamental and turf pest control. States run the testing, and the [competency standards](https://www.law.cornell.edu/cfr/text/40/171.103) require a written exam in the core standards and in each category. Many states also license commercial application of other pesticides, and a few, such as Florida, Maryland, and Virginia, also certify commercial fertilizer applicators. If you hold a license, write the state, the category, and the expiration date. If you applied products under someone else's license, describe it that way. The EPA's [applicator certification page](https://www.epa.gov/pesticide-worker-safety/certification-standards-pesticide-applicators) explains how the federal and state rules fit together.
 
 **Arborist certification.** The [ISA Certified Arborist](https://www.isa-arbor.com/Credentials/Types-of-Credentials/ISA-Certified-Arborist) credential requires three years of full-time arboriculture experience or a combination of education and practical experience, plus an exam. If you hold it, put it near the top. If you do tree work without it, describe the work: pruning, removals, climbing, rigging, and chipper and stump grinder operation.
 
-**Industry certifications.** The National Association of Landscape Professionals offers [Landscape Industry Certified](https://www.landscapeprofessionals.org/LP/Certification) credentials for technicians and managers, and the Irrigation Association offers [irrigation certifications](https://www.irrigation.org/IA/Certification/Certification-Programs/IA/Certification/Certification-Programs.aspx) such as irrigation technician and auditor. Some states also license irrigation contractors. Write each credential with its issuer and year.
+**Industry certifications.** The National Association of Landscape Professionals offers [Landscape Industry Certified](https://www.landscapeprofessionals.org/LP/Certification) credentials for technicians and managers, and the Irrigation Association offers [irrigation certifications](https://www.irrigation.org/ia/Certification/Landscape-Certifications.aspx) such as irrigation technician and auditor. Some states also license irrigation contractors. Write each credential with its issuer and year.
 
 **Safety and driving.** Chainsaw safety training, first aid and CPR, and heat illness training belong on the resume with their dates. A clean driving record and experience towing an equipment trailer are worth one line, because crews move between properties all day.
 
@@ -76,7 +76,7 @@ Lines that point upward matter: running the route when the crew leader is out, t
 
 **Length follows your history.** A landscaper with one or two employers usually fits on one page. **Two pages is normal and expected once you have more than one substantive job to describe,** such as several companies, a business of your own, or a mix of landscaping and construction. Keep the equipment, the licenses, the properties, and the numbers; cut the duties every crew shares.
 
-Use reverse chronological order and a single column, and leave out graphics and photos. Larger landscaping companies run applications through hiring software, and a two-column template can scramble the read. Put licenses and certifications in their own section near the top.
+Use reverse chronological order and a single column, and leave out graphics and photos. Many larger landscaping companies run applications through hiring software, and a two-column template can scramble the read. Put licenses and certifications in their own section near the top.
 
 Seasonal gaps are normal. Write each season with its dates and give any other gap one plain dated line.
 

@@ -28,7 +28,7 @@ faq:
 
 A logistics coordinator resume is read by a logistics manager, a supply chain manager, or a recruiter for a manufacturer, distributor, retailer, or third-party logistics company. They are looking for proof that you can keep freight moving: how many shipments you handled, how often they arrived on time, what they cost, and whether the paperwork was right the first time. A resume that says "coordinated shipments and communicated with carriers" gives them none of it.
 
-Logistics work runs on systems that record everything, from the booking to the delivery receipt. The numbers for a strong resume are usually already in those systems. Put them on the page.
+Much logistics work runs on systems that record each step, from the booking to the delivery receipt. The numbers for a strong resume are usually already in those systems. Put them on the page.
 
 ## Lead with volume, service, and cost
 
@@ -50,7 +50,7 @@ The second version tells the manager the volume, the modes, the carriers, the sy
 
 **Cost.** If you booked freight, compared quotes, audited freight bills, or moved volume to better lanes or modes, write the result as a percentage or a dollar figure you can explain. Saving money on freight is one of the clearest wins a coordinator can show.
 
-**Accuracy and claims.** Write your documentation accuracy, the freight claims you filed and recovered, and the billing errors you caught. Clean paperwork keeps freight out of holds and invoices out of disputes.
+**Accuracy and claims.** Write your documentation accuracy, the freight claims you filed and recovered, and the billing errors you caught. Clean paperwork helps keep freight out of holds and invoices out of disputes.
 
 ## Documents and rules, named exactly
 
@@ -58,15 +58,15 @@ The second version tells the manager the volume, the modes, the carriers, the sy
 
 **Incoterms.** If you worked on international shipments, say you applied the Incoterms rules on your company's contracts. The International Trade Administration explains that [Incoterms define who handles and pays for each step](https://www.trade.gov/know-your-incoterms), such as transport, insurance, and customs clearance. Name the terms your company used most, such as FOB, FCA, or DAP.
 
-**Hazardous materials.** If you prepared, packaged, or offered hazardous materials for shipment, you were required to be trained under the federal hazmat rules, and that training must be repeated [at least once every three years](https://www.law.cornell.edu/cfr/text/49/172.704). Write the training with its date. It tells an employer you can ship regulated products from day one.
+**Hazardous materials.** If you prepared, packaged, or offered hazardous materials for shipment, the federal hazmat rules required your employer to train and test you, and that training must be repeated [at least once every three years](https://www.law.cornell.edu/cfr/text/49/172.704). Write the training with its date. It tells an employer you already know the rules, and a new employer can count a current record of that training toward its own requirement.
 
 **Security programs.** If your company took part in CBP's [Customs Trade Partnership Against Terrorism (CTPAT)](https://www.cbp.gov/border-security/ports-entry/cargo-security/ctpat) and you kept the records or followed the procedures it requires, say what you did. Do not describe your company's status as your own credential.
 
 ## Systems and certifications
 
-**Systems.** Name the transportation management system (TMS), the warehouse management system (WMS), and the ERP you worked in, such as SAP, Oracle, NetSuite, or Microsoft Dynamics. Add carrier portals, freight-bill audit tools, tracking platforms, and Excel work such as pivot tables or lookups if you built reports. Recruiters search for these names.
+**Systems.** Name the transportation management system (TMS), the warehouse management system (WMS), and the ERP you worked in, such as SAP, Oracle, NetSuite, or Microsoft Dynamics. Add carrier portals, freight-bill audit tools, tracking platforms, and Excel work such as pivot tables or lookups if you built reports. Recruiters often search for these names.
 
-**Certifications.** The best-known logistics credential is ASCM's [Certified in Logistics, Transportation and Distribution (CLTD)](https://www.ascm.org/learning-development/certifications-credentials/cltd/). ASCM also offers supply chain and planning certifications, such as CSCP and CPIM. Write each one you hold with its issuer and year. Hazmat training, forklift training, and a customs broker license, if you hold one, belong in the same section.
+**Certifications.** A widely recognized logistics credential is ASCM's [Certified in Logistics, Transportation and Distribution (CLTD)](https://www.ascm.org/learning-development/certifications-credentials/cltd/). ASCM also offers supply chain and planning certifications, such as CSCP and CPIM. Write each one you hold with its issuer and year. Hazmat training, forklift training, and a customs broker license, if you hold one, belong in the same section.
 
 ## Moving up
 
@@ -76,7 +76,7 @@ Lines that point upward matter: training a new coordinator, owning a carrier rel
 
 **Length follows your history.** A coordinator with one or two jobs usually fits on one page. **Two pages is normal and expected once you have more than one substantive job to describe,** such as a third-party logistics company plus a shipper, or a military logistics history. Keep the numbers, the documents, the systems, and the certifications; cut the duties every logistics job shares.
 
-Use reverse chronological order and a single column, and leave out graphics and photos. Large shippers and logistics companies run applications through hiring software, and a two-column template can scramble the read.
+Use reverse chronological order and a single column, and leave out graphics and photos. Many large shippers and logistics companies run applications through hiring software, and a two-column template can scramble the read.
 
 Gaps get one plain dated line.
 

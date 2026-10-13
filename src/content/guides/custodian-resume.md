@@ -17,11 +17,11 @@ order: 122
 draft: true
 faq:
   - q: "What is the difference between a custodian and a janitor on a resume?"
-    a: "Often very little; many employers use the titles for the same job. Use the title your employer used, and if the posting uses the other word, mention it once in your summary. Schools and public agencies often say custodian, and their jobs can include building checks, opening and closing, and minor repairs, so list those duties if you did them."
+    a: "There is often very little difference, and many employers use the titles for the same job. Use the title your employer used, and if the posting uses the other word, mention it once in your summary. Schools and public agencies often say custodian, and their jobs can include building checks, opening and closing, and minor repairs, so list those duties if you did them."
   - q: "How do I figure out how many square feet I cleaned?"
     a: "Ask your supervisor or look at your area assignment. Many cleaning departments assign each custodian a set area by square footage or by number of rooms. If you cannot get the figure, count what you can: classrooms, restrooms, floors, or offices, and write that instead."
   - q: "Do I need a certification to be a custodian?"
-    a: "Usually not, but training counts. Your employer had to train you on the chemicals you used, and if your job exposed you to blood, as in a school or hospital, you were trained on bloodborne pathogens every year. List that training with the year. Industry courses on infection prevention and floor care are worth listing too."
+    a: "Usually you do not need one, but training counts. Under OSHA's rules, a covered employer had to train you on the hazardous chemicals you used, and if your job could expose you to blood, as many school and hospital jobs do, on bloodborne pathogens every year. List that training with the year. Industry courses on infection prevention and floor care are worth listing too."
   - q: "I'm applying for a lead custodian job. What should I add?"
     a: "Add the crew you led, the building or area you were responsible for, how you scheduled the work, how you trained new staff, and any inspection scores or supply budgets you handled. A lead is read for keeping a building ready with a team, not just for the cleaning."
 ---
@@ -52,13 +52,13 @@ The second version tells the supervisor the setting, the size of the assignment,
 
 **Work orders and setups.** Give the number of work orders, event setups, or moves you handled, such as cafeteria and gym setups, testing rooms, or meeting rooms.
 
-**Attendance.** Months without a missed shift and the overtime or emergency calls you covered show reliability, which is the first thing a supervisor checks.
+**Attendance.** Months without a missed shift and the overtime or emergency calls you covered show reliability, which a supervisor weighs heavily.
 
 ## Training and safety, named exactly
 
-**Chemicals.** Employers must train workers on the [hazardous chemicals in their work area](https://www.law.cornell.edu/cfr/text/29/1910.1200) when they start, including the labels and safety data sheets. Name the training and the chemical systems you used, such as a dilution station, disinfectants, floor finish and stripper, and carpet extraction chemicals.
+**Chemicals.** OSHA's hazard communication rule requires covered employers to train workers on the [hazardous chemicals in their work area](https://www.law.cornell.edu/cfr/text/29/1910.1200) when they start, including the labels and safety data sheets. Name the training and the chemical systems you used, such as a dilution station, disinfectants, floor finish and stripper, and carpet extraction chemicals.
 
-**Bloodborne pathogens.** If your job could expose you to blood or bodily fluids, as it often does in schools, hospitals, and public buildings, your employer had to train you when you started and [at least once a year](https://www.law.cornell.edu/cfr/text/29/1910.1030) after that. Write "bloodborne pathogens training, current [year]." It tells a hospital or a school you already know the cleanup procedures.
+**Bloodborne pathogens.** If your job could expose you to blood or other potentially infectious materials, as it often does in schools, hospitals, and public buildings, OSHA's bloodborne pathogens rule requires a covered employer to train you when you start and [at least once a year](https://www.law.cornell.edu/cfr/text/29/1910.1030) after that; public schools are covered in states that run their own OSHA-approved plans. Write "bloodborne pathogens training, current [year]." It tells a hospital or a school you already know the cleanup procedures.
 
 **Infection prevention.** Industry courses such as the Global Biorisk Advisory Council's GBAC Fundamentals, offered through the cleaning industry association ISSA, cover cleaning and disinfection for infection control. List any course you completed with its issuer and year.
 
@@ -80,7 +80,7 @@ Lines that point upward matter even for an entry-level job: training new custodi
 
 **Length follows your history.** A custodian with one or two employers usually fits on one page. **Two pages is normal and expected once you have more than one substantive job to describe,** such as a school district plus a contract cleaning company, or a military history. Keep the area, the floor work, the training, and the numbers; cut the duties every custodial job shares.
 
-Use reverse chronological order and a single column, and leave out graphics and photos. School districts, hospitals, and large contractors run applications through hiring software, and a two-column template can scramble the read. Put your training in its own section, where a supervisor sees it quickly.
+Use reverse chronological order and a single column, and leave out graphics and photos. Many school districts, hospitals, and large contractors run applications through hiring software, and a two-column template can scramble the read. Put your training in its own section, where a supervisor sees it quickly.
 
 Gaps get one plain dated line. Contract cleaning work that moved you between sites can be listed under the contractor's name with the buildings you served.
 

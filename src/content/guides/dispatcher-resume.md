@@ -17,18 +17,18 @@ order: 118
 draft: true
 faq:
   - q: "Should a 911 dispatcher resume and a truck dispatcher resume look the same?"
-    a: "No. They share a title, but they are read for different things. A 911 resume is read for call volume, protocols, certifications, and calm accuracy on the radio. A truck dispatch resume is read for loads, lanes, on-time delivery, and keeping drivers inside their hours of service. If you have done both, keep them as separate entries and lead with the one that matches the posting."
+    a: "They should not look the same. They share a title, but they are read for different things. A 911 resume is read for call volume, protocols, certifications, and calm accuracy on the radio. A truck dispatch resume is read for loads, lanes, on-time delivery, and keeping drivers inside their hours of service. If you have done both, keep them as separate entries and lead with the one that matches the posting."
   - q: "I don't know my call volume. What do I write?"
     a: "Ask your center. Many dispatch centers keep monthly call statistics by position or shift, and your supervisor may be able to tell you a typical number. If you cannot get one, estimate from a normal shift, round it down, and write it as approximate."
   - q: "Can I list a certification that my agency paid for but has lapsed?"
     a: "List it with its dates and say it has lapsed, or leave it off. Do not list it as current. Dispatch certifications are easy for an agency to check, and a lapsed card listed as current can end an application."
   - q: "I am moving into dispatch from a call center or a driving job. What carries over?"
-    a: "A great deal. Call center work shows phone volume, calm handling of upset callers, and data entry while you talk. Driving work shows that you know routes, hours of service, and what a driver needs from dispatch. Write those jobs with their numbers, and list any dispatch training you have completed with the issuer and the date."
+    a: "A great deal of it carries over. Call center work shows phone volume, calm handling of upset callers, and data entry while you talk. Driving work shows that you know routes, hours of service, and what a driver needs from dispatch. Write those jobs with their numbers, and list any dispatch training you have completed with the issuer and the date."
 ---
 
-A dispatcher resume is read by someone who has done the job, often a communications supervisor or a fleet manager. They are looking for proof that you can handle volume without losing accuracy, that you know the systems they run, and that you hold the training their center or their carrier requires. A resume that says "responsible for answering calls and dispatching units" tells them none of that.
+A dispatcher resume is often read by someone who has done the job, such as a communications supervisor or a fleet manager. They are looking for proof that you can handle volume without losing accuracy, that you know the systems they run, and that you hold the training their center or their carrier requires. A resume that says "responsible for answering calls and dispatching units" tells them none of that.
 
-Dispatch work is measured closely. Calls are timed, loads are tracked, and radio traffic is recorded. That means the numbers for a strong resume usually already exist. Put them on the page.
+Dispatch work is measured closely. At a 911 center, calls are usually timed and radio traffic recorded, and at a carrier, loads are tracked in the system. That means the numbers for a strong resume usually already exist. Put them on the page.
 
 ## Two jobs share the title
 
@@ -36,7 +36,7 @@ The word "dispatcher" covers two different careers, and the resume should make c
 
 **Public safety dispatchers,** also called 911 dispatchers or telecommunicators, answer emergency and non-emergency calls, gather information, and send police, fire, and EMS units. O*NET lists them as [public safety telecommunicators](https://www.onetonline.org/link/summary/43-5031.00).
 
-**Truck, freight, and service dispatchers** schedule drivers, crews, and vehicles for freight, passengers, or field service work. O*NET groups them as [dispatchers, except police, fire, and ambulance](https://www.onetonline.org/link/summary/43-5032.00), a group that also includes taxi, school bus, paratransit, train, and tow dispatchers.
+**Truck, freight, and service dispatchers** schedule drivers, crews, and vehicles for freight, passengers, or field service work. O*NET groups them as [dispatchers, except police, fire, and ambulance](https://www.onetonline.org/link/summary/43-5032.00), a group that also includes taxi, school bus, paratransit, and train dispatchers.
 
 The sections below cover both. Use the one that matches the posting, and keep the other job as its own entry if you have done both.
 
@@ -54,17 +54,17 @@ The second version tells the supervisor the setting, the volume, the systems, th
 
 ## For 911 and public safety dispatch
 
-**Certifications, named exactly.** Write each certification with its issuer and its date. Common ones include the APCO Institute's [Public Safety Telecommunicator](https://www.apcointl.org/courses/public-safety-telecommunicator-1-7th-ed-online-80998/) course, which APCO describes as a 40-hour basic course, and Emergency Medical Dispatch (EMD) certification from APCO or the International Academies of Emergency Dispatch. APCO's certifications renew every two years with continuing dispatch education, so write the current expiration date if you have it. Some states add their own requirement. Texas licenses telecommunicators through its law enforcement commission, and California's POST program sets a basic course for dispatchers at participating agencies. If your state requires a license or certificate, name it.
+**Certifications, named exactly.** Write each certification with its issuer and its date. Common ones include the APCO Institute's [Public Safety Telecommunicator 1](https://www.apcointl.org/apco_course_category/pst/) course, which APCO runs as a 40-hour basic course, and Emergency Medical Dispatch (EMD) certification from APCO or the International Academies of Emergency Dispatch. APCO's certifications renew every two years with continuing dispatch education, so write the current expiration date if you have it. Some states add their own requirement. Texas licenses telecommunicators through its law enforcement commission, and California's POST program sets a basic course for dispatchers at participating agencies. If your state requires a license or certificate, name it.
 
-**Database access.** If you were trained and certified to query state and national criminal justice databases, such as NCIC through your state's system, say so. Agencies with that access must give staff security awareness training under the FBI's CJIS Security Policy, and a candidate who already holds the state certification saves the center a training step.
+**Database access.** If you were trained and certified to query state and national criminal justice databases, such as NCIC through your state's system, say so. Agencies with that access must give staff security awareness training under the FBI's CJIS Security Policy, and a candidate who already holds the state certification may save the center part of that training.
 
-**Call numbers.** Give calls answered per shift or per month, the share that were 911 calls, and the call types you handled. If your center tracked answer times, you can write how you performed against them. The national standard from NENA sets a target that [90% of 911 calls be answered within 15 seconds](https://cdn.ymaws.com/www.nena.org/resource/resmgr/standards/standards1/NENA-STA-020.2-2026_911CallP.pdf), so a line like "answered within the center's 15-second standard on [N]% of calls" is meaningful to any reader.
+**Call numbers.** Give calls answered per shift or per month, the share that were 911 calls, and the call types you handled. If your center tracked answer times, you can write how you performed against them. The national standard from NENA sets a target that [90% of 911 calls be answered within 15 seconds](https://cdn.ymaws.com/www.nena.org/resource/resmgr/standards/standards1/NENA-STA-020.2-2026_911CallP.pdf), so a line like "answered within the center's 15-second standard on [N]% of calls" means something to a communications supervisor.
 
-**Systems.** Name the computer-aided dispatch (CAD) system, the radio consoles, the phone system, and any protocol software you used, such as EMD card sets or ProQA. Also name text-to-911, mapping, and records systems. Recruiters search for these names, and knowing the system shortens your training.
+**Systems.** Name the computer-aided dispatch (CAD) system, the radio consoles, the phone system, and any protocol software you used, such as EMD card sets or ProQA. Also name text-to-911, mapping, and records systems. Recruiters often search for these names, and knowing the system can shorten your training.
 
 **Critical calls and training roles.** Describe the high-stakes work in plain terms: structure fires, pursuits, cardiac arrests talked through to the arrival of EMS, multi-agency incidents. Training others matters too. If you served as a communications training officer, write how many new dispatchers you trained and how many completed the program.
 
-The ENP credential from NENA is a senior professional certification that requires three years of experience in emergency communications. If you hold it, it belongs near the top.
+The ENP credential from NENA is a senior professional certification: candidates need at least three years of experience in emergency communications, enough eligibility points from experience, education, and training, and a passing score on the exam. If you hold it, it belongs near the top.
 
 ## For truck, freight, and service dispatch
 
@@ -72,7 +72,7 @@ The ENP credential from NENA is a senior professional certification that require
 
 **On-time and service numbers.** Write on-time pickup and delivery rates, loaded miles or revenue per truck if your carrier tracked them, and how you cut empty miles or detention time.
 
-**Hours of service.** A dispatcher plans every load around the driver's legal hours. Under the federal rule for property-carrying drivers, a driver needs [10 consecutive hours off duty, may drive up to 11 hours inside a 14-hour window, and needs a 30-minute break after 8 hours of driving](https://www.law.cornell.edu/cfr/text/49/395.3), with weekly limits of 60 or 70 hours. Federal rules also [bar a motor carrier and its agents from coercing a driver](https://www.law.cornell.edu/cfr/text/49/390.6) to break those limits. A line such as "planned [N] loads a week with no hours-of-service violations traced to dispatch" shows a safety manager exactly what they need to know.
+**Hours of service.** A dispatcher plans every load around the driver's legal hours. Under the federal rule for property-carrying drivers, a driver needs [10 consecutive hours off duty, may drive up to 11 hours inside a 14-hour window, and needs a 30-minute break after 8 hours of driving](https://www.law.cornell.edu/cfr/text/49/395.3), with weekly limits of 60 or 70 hours. Federal rules also [bar a motor carrier and its agents from coercing a driver](https://www.law.cornell.edu/cfr/text/49/390.6) to break those limits. A line such as "planned [N] loads a week with no hours-of-service violations traced to dispatch" shows a safety manager that you plan loads within the rules.
 
 **Systems.** Name the transportation management system (TMS), such as McLeod, TMW, or a carrier's own system, the electronic logging devices and telematics you read, such as Samsara or Omnitracs, and the load boards you booked on, such as DAT or Truckstop.
 

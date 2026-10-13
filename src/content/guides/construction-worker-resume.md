@@ -17,7 +17,7 @@ order: 120
 draft: true
 faq:
   - q: "Is an OSHA 10 card required for construction work?"
-    a: "Federal OSHA does not require the 10-hour or 30-hour card; it calls the outreach program voluntary. Some states and cities do require it for some or all job sites, and many contractors require it as a condition of hire. If you hold a card, list it with the year it was issued. If you don't, it is one of the fastest ways to make your resume stronger for construction work."
+    a: "Federal OSHA does not require the 10-hour or 30-hour card; it calls the outreach program voluntary. Some states and cities do require it for some or all job sites, and many contractors require it as a condition of hire. If you hold a card, list it with the year it was issued. If you don't have one yet, earning it is one of the fastest ways to make your resume stronger for construction work."
   - q: "I worked through a staffing agency on several job sites. How do I list that?"
     a: "List the agency as the employer and name the contractors or projects you were assigned to under it, with dates. That keeps your history honest and shows the range of work you did. If one assignment was long or important, give it its own line with the numbers."
   - q: "Should I list equipment I have only used a few times?"
@@ -44,9 +44,9 @@ The second version tells the foreman the type of contractor, the projects, the t
 
 ## Safety training, named exactly
 
-**OSHA outreach cards.** The OSHA 10-hour and 30-hour construction courses are part of OSHA's [Outreach Training Program](https://www.osha.gov/training/outreach), which federal OSHA treats as voluntary. Some places make them mandatory. Nevada, for example, requires construction workers to hold a 10-hour card and supervisors a 30-hour card. New York City requires [Site Safety Training (SST) cards](https://www.nyc.gov/site/buildings/safety/sst-worker-information.page) with at least 40 hours of training for workers on many larger sites. Write the card, the year, and for an SST card, the expiration date.
+**OSHA outreach cards.** The OSHA 10-hour and 30-hour construction courses are part of OSHA's [Outreach Training Program](https://www.osha.gov/training/outreach), which federal OSHA treats as voluntary. Some places make them mandatory. Nevada, for example, requires construction workers to get a 10-hour card and supervisors a 30-hour card [within 15 days of being hired](https://www.leg.state.nv.us/NRS/NRS-618.html#NRS618Sec983). New York City requires [Site Safety Training (SST) cards](https://www.nyc.gov/site/buildings/safety/sst-worker-information.page) with at least 40 hours of training for workers on many larger sites. Write the card, the year, and for an SST card, the expiration date.
 
-**Fall protection, scaffolds, and trenches.** The construction rules require fall protection where a worker could fall [6 feet or more](https://www.law.cornell.edu/cfr/text/29/1926.501) to a lower level, and protective systems in trenches and excavations [5 feet deep or more](https://www.law.cornell.edu/cfr/text/29/1926.652) unless the ground is stable rock or a competent person finds no sign of a cave-in. If you were trained in fall protection, scaffold use, or trench safety, name the training. A contractor reads it as one less thing to teach.
+**Fall protection, scaffolds, and trenches.** The construction rules require fall protection where a worker on an unprotected edge could fall [6 feet or more](https://www.law.cornell.edu/cfr/text/29/1926.501) to a lower level (scaffolds have their own 10-foot rule), and a protective system, such as sloping, shoring, or a trench box, in any trench or excavation [5 feet deep or more](https://www.law.cornell.edu/cfr/text/29/1926.652) unless it is cut entirely in stable rock. If you were trained in fall protection, scaffold use, or trench safety, name the training. A contractor reads it as one less thing to teach.
 
 **Other cards worth listing.** Flagger certification, first aid and CPR, forklift or aerial lift training, silica awareness, confined space entry, and hazard communication training all belong on the resume with the issuer and the year. List only what you completed.
 
@@ -62,7 +62,7 @@ The second version tells the foreman the type of contractor, the projects, the t
 
 **Projects and crew.** Give the number of projects, their type and size, and the size of your crew.
 
-**Attendance.** Months without a missed day, early starts, and overtime worked show reliability, which is the first thing a foreman worries about.
+**Attendance.** Months without a missed day, early starts, and overtime worked show reliability, which a foreman weighs heavily.
 
 **Safety record.** Write your months or years without a recordable injury and any safety recognition. If you served on a safety committee or did the morning stretch-and-flex or toolbox talks, say so.
 
@@ -80,7 +80,7 @@ Lines that point upward matter even for an entry-level job: being made lead on a
 
 **Length follows your history.** A construction worker with one or two employers usually fits on one page. **Two pages is normal and expected once you have more than one substantive job to describe,** such as several contractors, a staffing history, or military construction work. Keep the cards, the equipment, the projects, and the numbers; cut the duties every site shares.
 
-Use reverse chronological order and a single column, and leave out graphics and photos. Large contractors and staffing companies run applications through hiring software, and a two-column template can scramble the read. Put your safety cards in their own section near the top, where a foreman sees them first.
+Use reverse chronological order and a single column, and leave out graphics and photos. Many large contractors and staffing companies run applications through hiring software, and a two-column template can scramble the read. Put your safety cards in their own section near the top, where a foreman sees them first.
 
 Seasonal work and short gaps between projects are normal in construction. Write each job with its dates and give a gap one plain dated line.
 
