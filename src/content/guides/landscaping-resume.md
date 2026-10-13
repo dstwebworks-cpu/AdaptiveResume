@@ -17,7 +17,7 @@ order: 121
 draft: true
 faq:
   - q: "Do I need a license to spray weed killer or fertilizer for a landscaping company?"
-    a: "It depends on the product and the state. Federal rules allow restricted use pesticides to be applied only by a certified applicator or by someone working under a certified applicator's direct supervision, and your state may have its own license for other pesticide work and, in a few states, for fertilizer work. If you sprayed under someone else's license, say so plainly, for example \"applied herbicide under the supervision of a licensed applicator,\" and list your own license only if it is in your name."
+    a: "It depends on the product and the state. Federal rules allow restricted use pesticides to be applied only by a certified applicator or by someone working under a certified applicator's direct supervision. Your state may also require its own license for other pesticide work, and a few states require a certification for commercial fertilizer work. If you sprayed under someone else's license, say so plainly, for example \"applied herbicide under the supervision of a licensed applicator,\" and list your own license only if it is in your name."
   - q: "My landscaping work was seasonal. How do I show that?"
     a: "List each season with its dates and the employer, and say what you did in the off-season if you worked, such as snow removal or holiday lighting. Seasonal work is normal in this industry, and returning to the same employer year after year is a strong signal of reliability. Write it as \"returned for [N] seasons.\""
   - q: "I mostly mowed. What skills can I put on my resume?"
