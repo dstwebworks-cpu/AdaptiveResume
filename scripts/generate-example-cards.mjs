@@ -355,6 +355,26 @@ export const PAIRS = {
     before: "Loan processor responsible for reviewing loan documents and working with borrowers and underwriters.",
     after: "Mortgage loan processor, [retail lender]: [45]-[55] files in the pipeline, [18]-[22] closings a month across conventional, FHA, and VA; average [21] days from submission to clear to close, [97]% closed on schedule; Loan Estimates and Closing Disclosures tracked to TRID deadlines in [Encompass].",
   },
+  "dispatcher-resume": {
+    before: "911 dispatcher responsible for answering calls and dispatching police, fire, and EMS.",
+    after: "911 dispatcher at a [county] communications center: answered about [60] calls a shift on [CAD system], dispatched police, fire, and EMS on [N] radio channels, APCO Public Safety Telecommunicator and EMD certified, [N] commendations.",
+  },
+  "logistics-coordinator-resume": {
+    before: "Logistics coordinator responsible for coordinating inbound and outbound shipments and communicating with carriers.",
+    after: "Logistics coordinator for a [regional distributor]: booked about [120] outbound truckload and LTL shipments a week across [15] carriers in [TMS], kept on-time delivery at [96]%, and cut freight cost per order by [8]% by consolidating LTL lanes; [0] customs holds on [N] import entries in [year].",
+  },
+  "construction-worker-resume": {
+    before: "Construction laborer responsible for site cleanup, carrying materials, and assisting tradesmen.",
+    after: "Construction laborer for a [commercial general contractor] on [3] projects, including a [4]-story steel-frame office building: concrete pours, forming and stripping, and site cleanup on a [12]-person crew; OSHA 10 ([year]), trained on the [skid steer] and [scissor lift]; [18] months with no missed days and no recordable injuries.",
+  },
+  "landscaping-resume": {
+    before: "Landscaper responsible for mowing, trimming, and general yard maintenance.",
+    after: "Landscape crew member for a [commercial maintenance company]: mowed and maintained about [12] commercial properties a day on a [3]-person crew, ran [zero-turn and stand-on mowers], string trimmers, and blowers, installed [N] cubic yards of mulch a season; [state] commercial pesticide applicator license ([category]); returned for [4] seasons.",
+  },
+  "custodian-resume": {
+    before: "Custodian responsible for cleaning classrooms, restrooms, and hallways.",
+    after: "Night custodian at a [1,200]-student high school: cleaned about [28,000] square feet a shift, including [18] classrooms and [6] restrooms; stripped and refinished [N] floors each summer with an auto scrubber and burnisher; bloodborne pathogens training every year; [2] years with no missed shifts.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
