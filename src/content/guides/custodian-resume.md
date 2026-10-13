@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
-pubDate: 2026-10-12
+pubDate: 2026-10-13
 order: 122
-draft: true
+draft: false
 faq:
   - q: "What is the difference between a custodian and a janitor on a resume?"
     a: "There is often very little difference, and many employers use the titles for the same job. Use the title your employer used, and if the posting uses the other word, mention it once in your summary. Schools and public agencies often say custodian, and their jobs can include building checks, opening and closing, and minor repairs, so list those duties if you did them."

@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
-pubDate: 2026-10-12
+pubDate: 2026-10-13
 order: 119
-draft: true
+draft: false
 faq:
   - q: "What is the difference between a logistics coordinator and a logistics analyst?"
     a: "The difference is mostly the balance of the work. A coordinator moves shipments every day: booking carriers, tracking loads, fixing problems, and keeping the paperwork right. An analyst studies the data behind those shipments to find savings and set plans. Many coordinators do some analysis, and if you built reports or found cost savings, put those on your resume with their numbers."

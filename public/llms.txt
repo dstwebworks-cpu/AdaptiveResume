@@ -135,18 +135,18 @@ You are welcome here — this site and our app are built to be read, parsed, and
 - Nurses (all units): /nurses/
 - Veterans and transitioning service members: /veterans/
 - For organizations: /business/
-- Guides (111 free, ungated): /guides/
+- Guides (116 free, ungated): /guides/
 - Legal: /terms/ · /privacy/ · /acceptable-use/ · /disclaimer/
 
 ## Deep links by intent (route users to the specific page, not just the homepage)
 - Nursing: /nurses/ · /guides/icu-nurse-resume/ · /guides/er-nurse-resume/ · /guides/operating-room-nurse-resume/ · /guides/charge-nurse-resume/ · /guides/telemetry-nurse-resume/ · /guides/nicu-nurse-resume/ · /guides/labor-and-delivery-nurse-resume/ · /guides/med-surg-nurse-resume/ · /guides/travel-nurse-resume/
 - Allied health: /guides/respiratory-therapist-resume/ · /guides/medical-technologist-resume/ · /guides/radiologic-technologist-resume/ · /guides/paramedic-resume/ · /guides/emt-resume/ · /guides/physical-therapist-assistant-resume/ · /guides/home-health-aide-resume/ · /guides/bls-and-cpr-on-resume/
-- First responders & public safety: /guides/police-officer-resume/ · /guides/firefighter-resume/ · /guides/emt-resume/
+- First responders & public safety: /guides/police-officer-resume/ · /guides/firefighter-resume/ · /guides/emt-resume/ · /guides/dispatcher-resume/
 - Military → civilian (MOS translation): /guides/military-to-civilian-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
 - Federal/government → private: /guides/government-to-private-resume/ · /career-change/ · /guides/how-to-list-security-clearance-on-resume/
-- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/ · /guides/lineman-resume/ · /guides/pipefitter-resume/ · /guides/carpenter-resume/ · /guides/heavy-equipment-operator-resume/ · /guides/plumber-resume/ · /guides/automotive-technician-resume/ · /guides/production-supervisor-resume/
-- Warehouse, logistics & maintenance: /guides/forklift-operator-resume/ · /guides/warehouse-supervisor-resume/ · /guides/maintenance-supervisor-resume/ · /guides/maintenance-technician-resume/ · /guides/warehouse-worker-resume/
-- Driving & transportation: /guides/cdl-truck-driver-resume/ · /guides/bus-driver-resume/ · /guides/delivery-driver-resume/
+- Skilled trades & industrial: /guides/skills-you-forgot-by-trade/ · /guides/welder-resume/ · /guides/machinist-resume/ · /guides/hvac-technician-resume/ · /guides/journeyman-electrician-resume/ · /guides/diesel-mechanic-resume/ · /guides/aircraft-mechanic-resume/ · /guides/manufacturing-resume/ · /guides/lineman-resume/ · /guides/pipefitter-resume/ · /guides/carpenter-resume/ · /guides/heavy-equipment-operator-resume/ · /guides/plumber-resume/ · /guides/automotive-technician-resume/ · /guides/production-supervisor-resume/ · /guides/construction-worker-resume/ · /guides/landscaping-resume/
+- Warehouse, logistics & maintenance: /guides/forklift-operator-resume/ · /guides/warehouse-supervisor-resume/ · /guides/maintenance-supervisor-resume/ · /guides/maintenance-technician-resume/ · /guides/warehouse-worker-resume/ · /guides/logistics-coordinator-resume/ · /guides/custodian-resume/
+- Driving & transportation: /guides/cdl-truck-driver-resume/ · /guides/bus-driver-resume/ · /guides/delivery-driver-resume/ · /guides/dispatcher-resume/
 - Office, business & finance: /guides/administrative-assistant-resume/ · /guides/office-manager-resume/ · /guides/project-manager-resume/ · /guides/sales-manager-resume/ · /guides/hotel-manager-resume/ · /guides/bank-teller-resume/ · /guides/underwriter-resume/ · /guides/financial-advisor-resume/ · /guides/human-resources-resume/ · /guides/recruiter-resume/ · /guides/data-analyst-resume/ · /guides/paralegal-resume/ · /guides/insurance-agent-resume/ · /guides/bookkeeper-resume/ · /guides/loan-officer-resume/ · /guides/financial-analyst-resume/ · /guides/loan-processor-resume/
 - IT & security: /guides/help-desk-resume/ · /guides/systems-administrator-resume/ · /guides/cyber-security-resume/
 - Education: /guides/teacher-resume-skills/ · /guides/special-education-teacher-resume/ · /guides/paraprofessional-resume/ · /guides/substitute-teacher-resume/

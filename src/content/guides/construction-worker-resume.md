@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
-pubDate: 2026-10-12
+pubDate: 2026-10-13
 order: 120
-draft: true
+draft: false
 faq:
   - q: "Is an OSHA 10 card required for construction work?"
     a: "Federal OSHA does not require the 10-hour or 30-hour card; it calls the outreach program voluntary. Some states and cities do require it for some or all job sites, and many contractors require it as a condition of hire. If you hold a card, list it with the year it was issued. If you don't have one yet, earning it is one of the fastest ways to make your resume stronger for construction work."

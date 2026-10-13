@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
-pubDate: 2026-10-12
+pubDate: 2026-10-13
 order: 118
-draft: true
+draft: false
 faq:
   - q: "Should a 911 dispatcher resume and a truck dispatcher resume look the same?"
     a: "They should not look the same. They share a title, but they are read for different things. A 911 resume is read for call volume, protocols, certifications, and calm accuracy on the radio. A truck dispatch resume is read for loads, lanes, on-time delivery, and keeping drivers inside their hours of service. If you have done both, keep them as separate entries and lead with the one that matches the posting."

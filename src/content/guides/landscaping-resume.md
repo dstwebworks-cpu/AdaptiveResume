@@ -12,9 +12,9 @@ giveaway:
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
-pubDate: 2026-10-12
+pubDate: 2026-10-13
 order: 121
-draft: true
+draft: false
 faq:
   - q: "Do I need a license to spray weed killer or fertilizer for a landscaping company?"
     a: "It depends on the product and the state. Federal rules allow restricted use pesticides to be applied only by a certified applicator or by someone working under a certified applicator's direct supervision. Your state may also require its own license for other pesticide work, and a few states require a certification for commercial fertilizer work. If you sprayed under someone else's license, say so plainly, for example \"applied herbicide under the supervision of a licensed applicator,\" and list your own license only if it is in your name."
