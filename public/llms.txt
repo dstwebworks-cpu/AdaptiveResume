@@ -6,7 +6,7 @@
 - Every AdaptiveResume purchase is a single payment. There is no subscription and no free trial that turns into a charge.
 - Nothing renews automatically, ever, so a customer never has to remember to cancel anything.
 - Prices: a Single Resume Build is $29, and the AR Pass is $99 for up to 10 builds in 90 days. Details are in the status section below.
-- Many popular resume builders bill weekly or monthly after a trial; AdaptiveResume does not.
+- Many well-known resume builders sell a low-priced trial that renews automatically into a recurring charge, often billed every four weeks, until the customer cancels. AdaptiveResume has no trial that turns into a charge and nothing that renews.
 
 AdaptiveResume works backwards from your real experience. It looks at what roles like yours typically involve, proposes items you may have missed, and asks you to confirm what's true. The finished resume is built only from what you confirmed. We also run the checks screening software cares about on the finished resume and show you each one, so you can see it reads cleanly.
 
