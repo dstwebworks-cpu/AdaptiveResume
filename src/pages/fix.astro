@@ -32,7 +32,7 @@ const storyAction = appUrl + '/waitlist/story';
           we'll listen.
         </p>
         <div class="cta-row">
-          <a class="btn btn-amber btn-lg" href={LAUNCHED ? `${appUrl}/?start=base` : '#get-started'}>{LAUNCHED ? 'Check my resume free, no sign-up' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-amber btn-lg" href={LAUNCHED ? `${appUrl}/?start=check` : '#get-started'}>{LAUNCHED ? 'Check my resume free, no sign-up' : 'Join the launch list for 25% off'}</a>
           <a class="btn btn-ghost btn-lg" href="/guides/resume-writer-wont-revise/">Read our guide for when a resume writer won't revise</a>
           {LAUNCHED && <p class="price-line">A resume build is $29, paid once. It never auto-renews, and there is nothing to cancel.</p>}
         </div>

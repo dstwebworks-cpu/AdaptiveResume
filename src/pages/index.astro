@@ -28,7 +28,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="cta-row">
           {LAUNCHED
             ? <>
-                <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=base`}>Check my resume free, no sign-up</a>
+                <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
                 <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>
             : <>
@@ -50,17 +50,17 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <ul>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Showed 12 new people how we do things"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">add this or skip it</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">You choose "Add this" or "Skip."</span></span>
             </li>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Locked out machines before repairs"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">add this or skip it</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">You choose "Add this" or "Skip."</span></span>
             </li>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Counted the warehouse every month"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">add this or skip it</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">You choose "Add this" or "Skip."</span></span>
             </li>
-            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">yes, I hold it, or leave it off</span></li>
+            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">You answer "Yes, I hold it" or "No, leave it off."</span></li>
           </ul>
           <p class="covcap">Your facts, your numbers — put in the words employers search for. We never add a number you didn't give us.</p>
         </div>
@@ -148,7 +148,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
         <div class="cta-row">
-          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/?start=base`}>Check my resume free, no sign-up</a>}
+          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>}
           <a class="btn btn-primary" href="#pricing">See pricing</a>
         </div>
       </div>
@@ -180,7 +180,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <tr><th>Asks you before anything lands in your final resume</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">Sometimes</td></tr>
             <tr><th>Shows you how screening software reads your resume</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="x">✗</td></tr>
             <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Typical cost</th><td class="us">$29–$99<br /><span class="sub">one payment, never <span style="white-space:nowrap">auto-renews</span></span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$100–$700+<br /><span class="sub">one-time</span></td></tr>
+            <tr><th>Typical cost</th><td class="us">$29–$99<br /><span class="sub">one payment, never <span style="white-space:nowrap">auto-renews</span></span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -364,12 +364,13 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
     .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
     .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
-    .demo-card li.ask { display: flex; justify-content: space-between; gap: 12px; }
+    .demo-card li.ask { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; }
     /* one text size in-card (locked rule) — hierarchy by color/weight only */
     .demo-card .from { display: block; color: #8fa3cf; }
     .demo-card .add { display: block; color: #c9f7d8; }
     .demo-card .lbl { font-weight: 700; }
-    .demo-card .conf { color: #9fb3e0; font-size: .8rem; white-space: nowrap; }
+    /* tags are full sentences since 10/18/2026, so they wrap on their own line instead of staying on one row */
+    .demo-card .conf { display: block; margin-top: 2px; color: #9fb3e0; font-size: .8rem; white-space: normal; }
     .demo-card li.ask span:first-child { color: #ffe1a8; }
     .covcap { font-size: .8rem; color: #9fb3e0; margin: 4px 0 0; }
     .cap { font-size: .78rem; color: var(--muted); margin-top: 10px; text-align: center; }
