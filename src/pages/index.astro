@@ -28,13 +28,14 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
         <div class="cta-row">
           {LAUNCHED
             ? <>
-                <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
+                <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=base`}>Check my resume free, no sign-up</a>
                 <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>
             : <>
                 <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
                 <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>}
+          {LAUNCHED && <p class="price-line">A resume build is $29, paid once. It never auto-renews, and there is nothing to cancel.</p>}
         </div>
         <ul class="pills">
           <li class="pill">We make nothing up.</li>
@@ -49,17 +50,17 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <ul>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Showed 12 new people how we do things"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">you confirm</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">add this or skip it</span></span>
             </li>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Locked out machines before repairs"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">you confirm</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">add this or skip it</span></span>
             </li>
             <li>
               <span class="from"><b class="lbl">Your resume says:</b> "Counted the warehouse every month"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">you confirm</span></span>
+              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">add this or skip it</span></span>
             </li>
-            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">we ask, you decide</span></li>
+            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">yes, I hold it, or leave it off</span></li>
           </ul>
           <p class="covcap">Your facts, your numbers — put in the words employers search for. We never add a number you didn't give us.</p>
         </div>
@@ -83,9 +84,6 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
             <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
           </div>
-          <p class="reoffer muted">
-            Want to see it first? <a href="/demo/">See it work on a sample resume</a>, with no sign-up needed.
-          </p>
         </>
       ) : (
         <div class="start-cta" id="capture">
@@ -149,7 +147,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <li>See for yourself how the screening software reads your resume</li>
           <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
-        <a class="btn btn-primary" href="#pricing">See pricing</a>
+        <div class="cta-row">
+          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/?start=base`}>Check my resume free, no sign-up</a>}
+          <a class="btn btn-primary" href="#pricing">See pricing</a>
+        </div>
       </div>
       <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with newly found skills highlighted and a format check" loading="lazy" />
     </div>
@@ -179,7 +180,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <tr><th>Asks you before anything lands in your final resume</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">Sometimes</td></tr>
             <tr><th>Shows you how screening software reads your resume</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="x">✗</td></tr>
             <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Typical cost</th><td class="us">$29–$99<br /><span class="sub">one payment, no renewal</span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
+            <tr><th>Typical cost</th><td class="us">$29–$99<br /><span class="sub">one payment, never <span style="white-space:nowrap">auto-renews</span></span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$100–$700+<br /><span class="sub">one-time</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -407,6 +408,10 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .compare tbody th { text-align: left; font-weight: 600; color: var(--ink-soft); }
     .compare .us { background: var(--primary-bg); }
     .compare thead th.us { color: var(--primary); }
+    /* our column framed in green so it stands out (founder 10/18/2026) */
+    .compare .us { border-left: 3px solid var(--true); border-right: 3px solid var(--true); }
+    .compare thead th.us { border-top: 3px solid var(--true); }
+    .compare tbody tr:last-child td.us { border-bottom: 3px solid var(--true); }
     .compare .c { color: var(--true); font-weight: 800; font-size: 1.05rem; }
     .compare .x { color: #b42318; font-weight: 800; font-size: 1.05rem; }
     .compare .p { color: var(--muted); font-weight: 800; }

@@ -6,10 +6,6 @@ const year = new Date().getFullYear();
     <div class="brandcol">
       <div class="brand"><span class="mark" aria-hidden="true">AR</span><span>Adaptive<span style="color:var(--accent)">Resume</span></span></div>
       <p class="muted">The skills you already earned, finally on the page, plus a clear look at how screening software reads them. We never add anything you don't confirm.</p>
-      <a class="social" href="https://www.linkedin.com/company/adaptiveresume" rel="me noopener" target="_blank" aria-label="AdaptiveResume on LinkedIn">
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
-        LinkedIn
-      </a>
     </div>
 
     <nav aria-label="Product">
@@ -49,6 +45,10 @@ const year = new Date().getFullYear();
   <div class="container legal">
     {/* Swap "AdaptiveResume" for the formed legal entity name once the LLC-vs-DBA decision lands (see 00-overview TODO, Stage 1). */}
     <p class="muted">© {year} AdaptiveResume · The resume completeness tool that works from your real experience.</p>
+    <a class="social" href="https://www.linkedin.com/company/adaptiveresume" rel="me noopener" target="_blank" aria-label="AdaptiveResume on LinkedIn">
+      <span class="li-badge" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="#fff"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></span>
+      <span>Follow us on LinkedIn</span>
+    </a>
   </div>
 </footer>
 
@@ -62,8 +62,10 @@ const year = new Date().getFullYear();
   .site-footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
   .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-bottom: 9px; }
   .site-footer nav a:hover { color: var(--ink); }
-  .social { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-top: 4px; }
-  .social:hover { color: var(--ink); }
-  .legal { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .legal { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
+  /* LinkedIn in the bottom bar (founder 10/18/2026: "should be in the site footer... pop a little with Blue square icon"); #0A66C2 is LinkedIn's own brand blue for its mark */
+  .social { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); font-weight: 700; font-size: .95rem; }
+  .social:hover .li-badge { background: #004182; }
+  .li-badge { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; background: #0A66C2; box-shadow: 0 4px 12px rgba(10,102,194,.28); transition: background .15s ease; }
   .legal p { font-size: .85rem; margin: 0; }
 </style>

@@ -91,6 +91,10 @@ p { margin: 0 0 1rem; }
 .btn-lg { padding: 16px 28px; font-size: 1.06rem; }
 .btn:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #9db4d6; outline-offset: 2px; }
 
+/* hero price line (founder 10/18/2026): the price and "never auto-renews" sit right under the hero buttons, readable in a 3-second look */
+.cta-row > .price-line { flex-basis: 100%; order: 1; margin: 0; font-size: 1.02rem; font-weight: 700; color: var(--ink); }
+.cta-row > a ~ a { order: 2; }
+
 /* cards / pills */
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); transition: box-shadow .15s ease; }
 /* hero pills are labels, not buttons (09/19/2026 clarity audit): plain check-marked text, no border, no fill */

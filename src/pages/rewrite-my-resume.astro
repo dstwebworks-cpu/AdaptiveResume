@@ -56,9 +56,10 @@ const breadcrumbLd = {
       </p>
       <div class="cta-row">
         {LAUNCHED
-          ? <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
+          ? <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=base`}>Check my resume free, no sign-up</a>
           : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
         <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
+        {LAUNCHED && <p class="price-line">A resume build is $29, paid once. It never auto-renews, and there is nothing to cancel.</p>}
       </div>
       <ul class="pills">
         <li class="pill">We make nothing up.</li>
