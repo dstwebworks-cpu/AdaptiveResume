@@ -52,7 +52,12 @@ import Base from '../layouts/Base.astro';
             ourselves, though our infrastructure providers may log it briefly at the platform level
             for security and operations, such as hosting and authentication logs, and Google receives
             it transiently for coarse geolocation as part of analytics. Our application code never
-            reads or stores your browser type or user agent. On our marketing pages, Google Analytics
+            reads or stores your browser type or user agent. To improve the app, we count a few steps,
+            such as opening the app, running the free scan, opening the sign-up box, and opening checkout.
+            For each step we save only the step's name, a short label from a fixed list (such as which
+            link was used or why a sign-up was refused), whether the screen was phone-sized or larger,
+            and the time. These counts never include your name, email address, IP address, account, or
+            files. On our marketing pages, Google Analytics
             and Google Ads conversion measurement separately collect your browser type, operating
             system, device category, and the date and time of your visit; we use these tools for
             analytics and conversion measurement, with Google Signals disabled, an opt-out toggle,
@@ -185,6 +190,8 @@ import Base from '../layouts/Base.astro';
         </p>
         <p>
           Files submitted through the free scan are processed in memory and are never stored.
+          Anonymous step counts, described in Section 2, are kept until we delete them; they contain
+          nothing that identifies you.
         </p>
         <p>
           Finished resumes in My Files are kept until you delete them. You can delete any individual
@@ -312,7 +319,7 @@ import Base from '../layouts/Base.astro';
           holders by email at least 14 days ahead.
         </p>
 
-        <p class="effective">Last updated: 10/03/2026</p>
+        <p class="effective">Last updated: 10/18/2026</p>
       </div>
 
       <nav class="legal-links" aria-label="Other legal pages">
