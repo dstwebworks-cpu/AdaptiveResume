@@ -315,7 +315,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
           <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=check' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=check&mode=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
       <p class="muted finep">{LAUNCHED ? 'A single build can be used any time within 12 months of buying it. The AR Pass lasts 90 days and never renews on its own; buying it again adds its builds and starts a new 90 days. Bought a single build? You can upgrade to the AR Pass for $55 within 30 days of buying it.' : 'If you join our list, your first purchase is 25% off within 30 days of joining.'}</p>
