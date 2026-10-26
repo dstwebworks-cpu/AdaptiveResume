@@ -148,6 +148,15 @@ test.describe("site walk fixes (10/26/2026)", () => {
     await expect(page.locator(".finding").first()).toHaveCSS("border-top-color", "rgb(127, 176, 138)");
   });
 
+  test("THE guard (site-walk review NOTE-9): a skipped demo card fades its text, never the chosen answer button", async ({ page }) => {
+    await page.goto("/demo/");
+    const skip = page.locator(".pick-skip").first();
+    await skip.tap();
+    await expect(page.locator(".finding").first()).toHaveClass(/skipped/);
+    expect(await page.locator(".finding").first().evaluate((c) => getComputedStyle(c).opacity), "the card itself is not faded").toBe("1");
+    expect(await page.locator(".finding .why").first().evaluate((c) => getComputedStyle(c).opacity), "the reason text fades").toBe("0.55");
+  });
+
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
   test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
     const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
@@ -155,6 +164,10 @@ test.describe("site walk fixes (10/26/2026)", () => {
       const src = readFileSync(f, "utf8");
       expect(src.includes("href={appUrl}") || src.includes("href={LAUNCHED ? appUrl :"), `${f}: a button points at the bare app address`).toBe(false);
       expect(/Create your account, upload/.test(src), `${f}: says to create an account before the free check`).toBe(false);
+      // Site-walk review FIX-C: /?start=base and /?start=targeted are the after-payment landings and can start a review with no payment.
+      expect(src.includes("start=base") || src.includes("start=targeted"), `${f}: a button uses the after-payment link`).toBe(false);
+      // Site-walk review NOTE-11: "free" is never followed straight by the review; the account and the build are named first.
+      expect(src.includes("with no sign-up. Then we'll"), `${f}: the free check runs straight into the paid review`).toBe(false);
     }
   });
 

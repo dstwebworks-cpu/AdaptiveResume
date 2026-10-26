@@ -75,7 +75,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <p class="eyebrow">Get started</p>
       <h2>Let's see what you've been leaving off.</h2>
       {LAUNCHED
-        ? <p class="lede">Upload your resume for a free check, with no sign-up. Then we'll dig in together — finding real things you've earned but never wrote down. You approve every new line before anything lands.</p>
+        ? <p class="lede">Upload your resume for a free check, with no sign-up. When you're ready, create an account and choose your build, and we'll dig in together — finding real things you've earned but never wrote down. You approve every new line before anything lands.</p>
         : <p class="lede">We launch in October 2026. Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>}
 
       {LAUNCHED ? (
@@ -300,7 +300,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>Reads cleanly for the screening software, and for the person after it</li>
             <li>We run the format checks screening software cares about — and show you each one</li>
           </ul>
-          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=base' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=check' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
         </div>
 
         <div class="card price featured">
@@ -315,7 +315,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
           <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=check' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
       <p class="muted finep">{LAUNCHED ? 'A single build can be used any time within 12 months of buying it. The AR Pass lasts 90 days and never renews on its own; buying it again adds its builds and starts a new 90 days. Bought a single build? You can upgrade to the AR Pass for $55 within 30 days of buying it.' : 'If you join our list, your first purchase is 25% off within 30 days of joining.'}</p>

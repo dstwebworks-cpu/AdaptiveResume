@@ -217,7 +217,7 @@ const waitlistAction = appUrl + '/waitlist';
       border-left: 4px solid var(--accent, #d97706); border-radius: 10px; padding: 14px 16px; margin: 0 0 20px; }
     #findings :global(.finding) { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 14px; background: var(--card); transition: border-color .12s; }
     #findings :global(.finding.added) { border-color: #7fb08a; background: #f3faf4; }
-    #findings :global(.finding.skipped) { opacity: .55; }
+    #findings :global(.finding.skipped) :global(.says), #findings :global(.finding.skipped) :global(.adds), #findings :global(.finding.skipped) :global(.why) { opacity: .55; }
     #findings :global(.finding .says) { color: var(--muted); margin: 0 0 6px; }
     #findings :global(.finding .adds) { color: var(--ink); margin: 0 0 6px; }
     #findings :global(.finding .lbl) { font-weight: 700; }
