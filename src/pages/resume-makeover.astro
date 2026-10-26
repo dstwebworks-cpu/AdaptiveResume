@@ -150,7 +150,7 @@ const breadcrumbLd = {
       <p class="lede">The $29 Single Resume Build makes your resume complete and honest, in a file that screening software reads cleanly, and you can use it any time within 12 months of buying it. The $99 AR Pass aims each of up to 10 builds in 90 days at one specific job posting, in that posting's language, and adds 25 interview questions for the role. AR Pass builds you don't use end when the 90 days end. If you joined our list, create your account with that same email and your first purchase is 25% off at checkout within 30 days of joining.</p>
       <div class="cta-row" style="justify-content:center">
         {LAUNCHED
-          ? <a class="btn btn-primary btn-lg" href={appUrl}>Get started</a>
+          ? <a class="btn btn-primary btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           : <a class="btn btn-primary btn-lg" href="#get-started">Join the launch list for 25% off</a>}
       </div>
       <p class="muted small">If a line is wrong, we redo it from your note. You pay once, with no revision rounds to argue over. Paid for a makeover already and got a template back? See <a href="/fix/">Fix a resume you paid for</a>.</p>
@@ -177,10 +177,10 @@ const breadcrumbLd = {
       {LAUNCHED ? (
         <>
           <h2>Ready for the makeover?</h2>
-          <p class="lede">Create your account, upload the resume you have, and we'll dig in together.
+          <p class="lede">Upload the resume you have for a free check, with no sign-up. Then we'll dig in together.
           You approve every new line before anything lands.</p>
           <div class="cta-row" style="justify-content:center">
-            <a class="btn btn-amber btn-lg" href={appUrl}>Upload your resume &amp; get started</a>
+            <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           </div>
           <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
         </>

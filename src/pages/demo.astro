@@ -49,8 +49,8 @@ const waitlistAction = appUrl + '/waitlist';
           <p>Same way, every time: we work backwards from the jobs you've actually held, you approve every new line, and nothing goes in that isn't yours.{!LAUNCHED && <> Join the launch list before launch and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</>}</p>
           {LAUNCHED ? (
             <>
-              <a class="btn btn-amber btn-lg" href={appUrl}>Start with your own resume</a>
-              <p class="start-alt muted">Creating your account is free, and you pay only when you're ready to start your review.</p>
+              <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
+              <p class="start-alt muted">The check is free, with no sign-up. You create an account and pay only when you're ready to start your review.</p>
             </>
           ) : (
             <>
@@ -209,33 +209,33 @@ const waitlistAction = appUrl + '/waitlist';
   <style>
     .container.narrow { max-width: 70ch; }
     .demobar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 26px; }
-    .demobar button { font: inherit; font-size: .92rem; font-weight: 600; padding: 8px 14px; border-radius: 999px;
+    .demobar :global(button) { font: inherit; font-size: .92rem; font-weight: 600; padding: 8px 14px; border-radius: 999px;
       border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
-    .demobar button:hover { border-color: var(--navy, #1d3a66); }
-    .demobar button.active { background: var(--navy, #1d3a66); border-color: var(--navy, #1d3a66); color: #fff; }
+    .demobar :global(button:hover) { border-color: var(--navy, #1d3a66); }
+    .demobar :global(button.active) { background: var(--navy, #1d3a66); border-color: var(--navy, #1d3a66); color: #fff; }
     .occ { font-size: 1.05rem; font-weight: 600; color: var(--ink); background: var(--card); border: 1px solid var(--line);
       border-left: 4px solid var(--accent, #d97706); border-radius: 10px; padding: 14px 16px; margin: 0 0 20px; }
-    .finding { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 14px; background: var(--card); transition: border-color .12s; }
-    .finding.added { border-color: #7fb08a; background: #f3faf4; }
-    .finding.skipped { opacity: .55; }
-    .finding .says { color: var(--muted); margin: 0 0 6px; }
-    .finding .adds { color: var(--ink); margin: 0 0 6px; }
-    .finding .lbl { font-weight: 700; }
-    .finding .why { font-size: .9rem; color: var(--muted); margin: 6px 0 12px; }
-    .choices { display: flex; gap: 10px; }
-    .choices button { font: inherit; font-weight: 700; font-size: .92rem; padding: 8px 16px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--line); background: #fff; color: var(--ink); }
-    .choices .pick-add.on { background: #1c7a43; border-color: #1c7a43; color: #fff; }
-    .choices .pick-skip.on { background: var(--muted); border-color: var(--muted); color: #fff; }
+    #findings :global(.finding) { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 14px; background: var(--card); transition: border-color .12s; }
+    #findings :global(.finding.added) { border-color: #7fb08a; background: #f3faf4; }
+    #findings :global(.finding.skipped) { opacity: .55; }
+    #findings :global(.finding .says) { color: var(--muted); margin: 0 0 6px; }
+    #findings :global(.finding .adds) { color: var(--ink); margin: 0 0 6px; }
+    #findings :global(.finding .lbl) { font-weight: 700; }
+    #findings :global(.finding .why) { font-size: .9rem; color: var(--muted); margin: 6px 0 12px; }
+    #findings :global(.choices) { display: flex; gap: 10px; }
+    #findings :global(.choices button) { flex: 1 1 0; min-height: 48px; font: inherit; font-weight: 700; font-size: .95rem; padding: 12px 16px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--line); background: #fff; color: var(--ink); }
+    #findings :global(.choices .pick-add.on) { background: #1c7a43; border-color: #1c7a43; color: #fff; }
+    #findings :global(.choices .pick-skip.on) { background: var(--muted); border-color: var(--muted); color: #fff; }
     .nav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
     .count { font-size: .9rem; }
     .resume { border: 1px solid var(--line); border-radius: 12px; padding: 22px 24px; background: #fff; margin: 12px 0 18px; }
-    .resume .rtitle { font-size: 1.2rem; font-weight: 800; color: var(--ink); }
-    .resume .rmeta { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
-    .resume .rsum { color: var(--ink-soft, #3f4a59); margin: 0 0 14px; }
-    .resume h3 { font-size: 1rem; color: var(--navy, #1d3a66); margin: 16px 0 6px; }
-    .resume ul { margin: 0; padding-left: 1.1em; }
-    .resume li { margin-bottom: .4em; }
-    .resume li.new { color: #1c7a43; font-weight: 600; }
+    .resume :global(.rtitle) { font-size: 1.2rem; font-weight: 800; color: var(--ink); }
+    .resume :global(.rmeta) { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+    .resume :global(.rsum) { color: var(--ink-soft, #3f4a59); margin: 0 0 14px; }
+    .resume :global(h3) { font-size: 1rem; color: var(--navy, #1d3a66); margin: 16px 0 6px; }
+    .resume :global(ul) { margin: 0; padding-left: 1.1em; }
+    .resume :global(li) { margin-bottom: .4em; }
+    .resume :global(li.new) { color: #1c7a43; font-weight: 600; }
     .ok { color: #1c7a43; font-weight: 600; }
     .cta-card { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; background: var(--card); margin-top: 18px; }
     .cta-card .lead { font-weight: 700; font-size: 1.1rem; color: var(--ink); margin: 0 0 8px; }

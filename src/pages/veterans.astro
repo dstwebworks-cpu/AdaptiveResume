@@ -230,10 +230,10 @@ const guides = [
       {LAUNCHED ? (
         <>
           <h2>Let's see what your service has been leaving off</h2>
-          <p class="lede">Create your account, upload your resume, and we'll dig in together — assignment
+          <p class="lede">Upload your resume for a free check, with no sign-up. Then we'll dig in together — assignment
           by assignment, credential by credential. You approve every new line before anything lands.</p>
           <div class="cta-row" style="justify-content:center">
-            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+            <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           </div>
           <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
         </>

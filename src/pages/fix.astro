@@ -67,9 +67,9 @@ const storyAction = appUrl + '/waitlist/story';
       {LAUNCHED ? (
         <>
           <h2>Let's fix what the last rewrite got wrong.</h2>
-          <p class="lede">Create your account, upload your resume, and we'll go through it with you, line by line. Nothing new goes on your resume until you tell us it's right.</p>
+          <p class="lede">Upload your resume for a free check, with no sign-up. Then we'll go through it with you, line by line. Nothing new goes on your resume until you tell us it's right.</p>
           <div class="cta-row" style="justify-content:center">
-            <a class="btn btn-amber btn-lg" href={appUrl}>Create an account and get started</a>
+            <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           </div>
           <p class="muted">Already have an account? <a href={appUrl + '/login'}>Sign in</a></p>
         </>

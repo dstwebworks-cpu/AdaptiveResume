@@ -209,11 +209,11 @@ const breadcrumbLd = {
         ? <h2>Let's see what you've been leaving off.</h2>
         : <h2>We launch in October 2026. Join the launch list now and your first resume is 25% off.</h2>}
       {LAUNCHED
-        ? <p class="lede">Create your account, upload your resume, and we'll dig in together. You approve every new line before anything lands.</p>
+        ? <p class="lede">Upload your resume for a free check, with no sign-up. Then we'll dig in together. You approve every new line before anything lands.</p>
         : <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
       {LAUNCHED ? (
         <div class="cta-row" style="justify-content:center">
-          <a class="btn btn-amber btn-lg" href={appUrl}>Create an account — get started today</a>
+          <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
         </div>
       ) : (

@@ -1,4 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 
 /**
  * MOBILE/TABLET SUITE for the marketing site. Founder directive 09/01/2026:
@@ -130,3 +132,30 @@ for (const vp of VIEWPORTS) {
     });
   });
 }
+
+// Site walk 10/25/2026, loss points 9 and 10.
+test.describe("site walk fixes (10/26/2026)", () => {
+  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
+
+  test("THE guard (loss point 9): the demo's answer buttons are full-size tap targets and show the choice", async ({ page }) => {
+    await page.goto("/demo/");
+    const add = page.locator(".pick-add").first();
+    const box = await add.boundingBox();
+    expect(box!.height, "Add this is a real tap target").toBeGreaterThanOrEqual(44);
+    await add.tap();
+    await expect(add).toHaveClass(/\bon\b/);
+    expect(await add.evaluate((b) => getComputedStyle(b).backgroundColor), "a tapped Add this fills green").toBe("rgb(28, 122, 67)");
+    await expect(page.locator(".finding").first()).toHaveCSS("border-top-color", "rgb(127, 176, 138)");
+  });
+
+  // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
+  test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
+    const dir = "src/pages";
+    for (const f of readdirSync(dir).filter((x) => x.endsWith(".astro"))) {
+      const src = readFileSync(join(dir, f), "utf8");
+      expect(src.includes("href={appUrl}>"), `${f}: a button points at the bare app address`).toBe(false);
+      expect(/Create your account, upload/.test(src), `${f}: says to create an account before the free check`).toBe(false);
+    }
+  });
+
+});
