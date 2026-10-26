@@ -150,10 +150,10 @@ test.describe("site walk fixes (10/26/2026)", () => {
 
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
   test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
-    const dir = "src/pages";
-    for (const f of readdirSync(dir).filter((x) => x.endsWith(".astro"))) {
-      const src = readFileSync(join(dir, f), "utf8");
-      expect(src.includes("href={appUrl}>"), `${f}: a button points at the bare app address`).toBe(false);
+    const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
+    for (const f of files) {
+      const src = readFileSync(f, "utf8");
+      expect(src.includes("href={appUrl}") || src.includes("href={LAUNCHED ? appUrl :"), `${f}: a button points at the bare app address`).toBe(false);
       expect(/Create your account, upload/.test(src), `${f}: says to create an account before the free check`).toBe(false);
     }
   });

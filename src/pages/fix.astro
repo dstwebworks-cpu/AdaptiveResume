@@ -160,7 +160,7 @@ const storyAction = appUrl + '/waitlist/story';
       <h2>Finish your resume for far less than the last service charged you.</h2>
       <p class="lede">The $29 Single Resume Build makes your resume complete and honest, in a file that screening software reads cleanly, and you can use it any time within 12 months of buying it. The $99 AR Pass aims each of up to 10 builds in 90 days at one specific job, in the words that employer uses; AR Pass builds you don't use end when the 90 days end. If you joined our list, create your account with that same email and your first purchase is 25% off at checkout within 30 days of joining. You stay the author the whole way.</p>
       <div class="cta-row" style="justify-content:center">
-        <a class="btn btn-primary btn-lg" href={LAUNCHED ? appUrl : '#get-started'}>{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
+        <a class="btn btn-primary btn-lg" href={LAUNCHED ? `${appUrl}/?start=check` : '#get-started'}>{LAUNCHED ? 'Check my resume free, no sign-up' : 'Join the launch list for 25% off'}</a>
       </div>
       <p class="muted small">We don't name or review specific companies; if a service treated you well, wonderful — this page is for when one didn't.</p>
     </div>
