@@ -12,7 +12,7 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Is this a nursing resume writing service or a resume builder for nurses?',
-    a: "It's both. We do the digging a writer would do, working backwards from your job titles and units to find the skills, charting systems, and certifications you left off, and you do the confirming a builder asks of you. Everything we find is shown to you first as a question. Nothing goes on your resume that you didn't give us or confirm, and nothing is made up." },
+    a: "It's both. We do the digging a writer would do, working backwards from your job titles and units to find the skills, charting systems, and certifications you left off, and you do the confirming a builder asks of you. Everything we find is shown to you first, one at a time, and you add it, edit it, or skip it. Nothing is made up." },
   { q: "I'm moving to a new unit — say, telemetry into the ICU. How do you handle the gap?",
     a: "We keep it honest. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we never present the unit you're moving toward as experience you already have. Stepdown experience dressed up as ICU experience is something we won't write." },
   { q: 'I travel. How should contracts show up?',
@@ -232,7 +232,7 @@ const guides = [
         <>
           <h2>Let's see what your units have been leaving off</h2>
           <p class="lede">Upload your resume for a free check, with no sign-up. When you're ready, create an account and choose your build, and we'll dig in together — unit by
-          unit, cert by cert, and you confirm what's yours.</p>
+          unit, cert by cert, and you have the final say.</p>
           <div class="cta-row" style="justify-content:center">
             <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           </div>

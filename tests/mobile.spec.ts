@@ -1,6 +1,7 @@
 import { test, expect, type Page } from "@playwright/test";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { inflateRawSync } from "node:zlib";
 
 /**
  * MOBILE/TABLET SUITE for the marketing site. Founder directive 09/01/2026:
@@ -134,6 +135,21 @@ for (const vp of VIEWPORTS) {
 }
 
 // Site walk 10/25/2026, loss points 9 and 10.
+/** The text of word/document.xml inside a .docx (a zip), read with Node alone. */
+function docxText(buf: Buffer): string {
+  for (let i = 0; i + 30 < buf.length; i++) {
+    if (buf.readUInt32LE(i) !== 0x04034b50) continue; // local file header
+    const method = buf.readUInt16LE(i + 8), size = buf.readUInt32LE(i + 18), nameLen = buf.readUInt16LE(i + 26), extra = buf.readUInt16LE(i + 28);
+    const name = buf.toString("utf8", i + 30, i + 30 + nameLen);
+    if (name !== "word/document.xml") continue;
+    const start = i + 30 + nameLen + extra;
+    const data = buf.subarray(start, start + size);
+    const xml = method === 8 ? inflateRawSync(data).toString("utf8") : data.toString("utf8");
+    return xml.replace(/<[^>]+>/g, "");
+  }
+  throw new Error("word/document.xml not found");
+}
+
 test.describe("site walk fixes (10/26/2026)", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
 
@@ -173,8 +189,12 @@ test.describe("site walk fixes (10/26/2026)", () => {
   test("THE guard (founder rule 10/01/2026): no page, guide, template or llms.txt source says \"new line\"", async () => {
     const dirs = ["src/pages", "src/components", "src/layouts", "src/content/guides", "src/data/llms", "public/templates"];
     const files = dirs.flatMap((d) => readdirSync(d).filter((x) => /\.(astro|md|json)$/.test(x)).map((x) => join(d, x)));
-    const hits = files.filter((f) => /\bnew lines?\b/i.test(readFileSync(f, "utf8")));
-    expect(hits, "files that say \"new line\"").toEqual([]);
+    const hits = files.filter((f) => /\bnew (lines?|items?)\b/i.test(readFileSync(f, "utf8")));
+    // The Word downloads too (review FIX 7, 10/27/2026): read word/document.xml out of each .docx.
+    const docx = readdirSync("public/templates").filter((x) => x.endsWith(".docx")).map((x) => join("public/templates", x));
+    for (const d of docx) if (/\bnew (lines?|items?)\b/i.test(docxText(readFileSync(d)))) hits.push(d);
+    expect(docx.length, "template Word files found").toBeGreaterThan(10);
+    expect(hits, "files that say \"new line\" or \"new item\"").toEqual([]);
   });
 
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.

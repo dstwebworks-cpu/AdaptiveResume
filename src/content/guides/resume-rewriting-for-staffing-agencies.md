@@ -58,7 +58,7 @@ The honest way to improve a candidate's resume at volume has three parts, and th
 
 **1. Work backwards from what the role actually involved.** Instead of polishing the candidate's sentences, start from the job. A maintenance technician at a food-packaging plant almost certainly worked under lockout/tagout rules, used a maintenance management system, and trained someone. Those become suggestions, phrased as questions.
 
-**2. Confirm each item before it goes on.** Each suggestion is checked with the candidate as a question, or worked by your recruiter from the intake record, and your recruiter gives it a yes, an edit, or a skip. Nothing lands on the resume without that yes. This is the step a formatting tool does not have and a hand edit skips.
+**2. Confirm each item before it goes on the resume.** Each suggestion is checked with the candidate as a question, or worked by your recruiter from the intake record, and your recruiter gives it a yes, an edit, or a skip. Nothing lands on the resume without that yes. This is the step a formatting tool does not have and a hand edit skips.
 
 **3. Hold every credential for review.** A license or certification is never written from a job title. It is asked about, and anything uncertain waits in your reviewer's queue. Your recruiter signs off on what goes out under your name.
 

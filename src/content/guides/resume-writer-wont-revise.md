@@ -83,4 +83,4 @@ This situation is why we built the process the way we did. Upload the draft you 
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
 
-If you'd rather not fight this battle alone, our [Fix my resume path](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and nothing goes on your resume that you didn't give us or confirm.
+If you'd rather not fight this battle alone, our [Fix my resume path](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you confirm what's yours.
