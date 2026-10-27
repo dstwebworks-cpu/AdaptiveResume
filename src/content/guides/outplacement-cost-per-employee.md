@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-29
+updatedDate: 2026-10-27
 order: 99
 draft: false
 faq:
@@ -63,7 +63,7 @@ If a written resume is a large part of what separates one tier from the next, th
 
 **It works backwards from what the person actually did.** A 15-year employee has stopped noticing what they know. The machines, the standards, the systems, and the people they trained have become routine and never made it onto the page. The resume work is finding those things, not restyling the ones already there.
 
-**Every new line is a question the person answers, and a reviewer approves it before it lands.** Each suggested line is shown to the employee as a question, and your reviewer approves, edits, or drops it based on the answer. This is what makes the resume theirs, and what keeps a program honest at volume.
+**Every item is a question the person answers, and a reviewer approves it before it goes on the resume.** Each suggested line is shown to the employee as a question, and your reviewer approves, edits, or drops it based on the answer. This is what makes the resume theirs, and what keeps a program honest at volume.
 
 **Credentials are never assumed.** A license or certification is asked about, never written from a job title, and anything uncertain waits for a reviewer.
 
@@ -97,7 +97,7 @@ AdaptiveResume for organizations is priced per person, by quote, sized to your v
 
 1. What is the per-employee price, and what is in it? Ask for the components separately.
 2. Is the resume critiqued, rewritten from a template, or rebuilt from the person's real work history?
-3. Is every new line checked with the employee and approved before it is final? How is that recorded?
+3. Is every item checked with the employee and approved before it is final? How is that recorded?
 4. How are licenses and certifications handled? Are they ever written without confirmation?
 5. What do you report back to us, and does it include anything that sounds like a placement promise?
 

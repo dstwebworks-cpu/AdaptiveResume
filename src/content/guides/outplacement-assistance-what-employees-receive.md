@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-29
+updatedDate: 2026-10-27
 order: 109
 draft: false
 faq:
@@ -24,7 +24,7 @@ faq:
   - q: "I was offered outplacement. Should I use it?"
     a: "Use the resume piece first, and use it this week; it is the part you will send out. Then decide about coaching based on how long it has been since you searched for a job. If the resume you get back is your old resume in a new template, ask for more, or get the resume rebuilt properly elsewhere."
   - q: "What should the resume piece include?"
-    a: "It should be rebuilt from what you actually did, not restyled. Every new line should be one you confirmed, any license or certification should be asked about rather than assumed, and the finished file should read cleanly to screening software. If the service cannot say how it knows a line is true, that is your answer."
+    a: "It should be rebuilt from what you actually did, not restyled. Every item on it should be one you gave us or confirmed, any license or certification should be asked about rather than assumed, and the finished file should read cleanly to screening software. If the service cannot say how it knows a line is true, that is your answer."
 ---
 
 Outplacement assistance has an odd shape. The employer buys it, the employee receives it, and the two almost never compare notes on what was delivered. HR sees a proposal and a usage report. The employee sees an email with a login and, a week or two later, a resume. Neither side sees the whole thing, which is why this guide is written for both.
@@ -68,7 +68,7 @@ In a real rebuild, nothing in the second version would be invented: the entities
 If you are buying outplacement assistance, ask for the resume piece by name and hold it to four requirements:
 
 - **It rebuilds, it does not reformat.** Ask the provider how it finds what the employee left off.
-- **Every new line is checked with the employee and approved.** Ask how that is recorded.
+- **Every item is checked with the employee and approved.** Ask how that is recorded.
 - **Licenses and certifications are asked about, never assumed.** Ask what happens to a credential the employee never mentioned.
 - **The finished file reads cleanly to screening software.** Single column, standard headings, no graphics.
 

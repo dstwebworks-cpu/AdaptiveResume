@@ -39,7 +39,7 @@ Under each restaurant, give one line another operator would recognize instantly,
 
 **After:** "General Manager, [full-service] [brand] unit, $[3.2]M AUV, [450] covers on a peak day; owned the unit P&L and held prime cost at [58]% ([30]% food, [28]% labor); [Toast] POS; team of [45] with [3] shift leads promoted from crew."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/restaurant-general-manager-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/restaurant-general-manager-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

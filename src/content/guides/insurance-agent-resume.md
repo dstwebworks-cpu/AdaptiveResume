@@ -39,7 +39,7 @@ Under each role, give one line an insurance person would recognize instantly.
 
 **After:** "Licensed P&C producer ([state], Property and Casualty); managed a [$1.8M] premium book of [900] personal-lines policies at [92]% retention, appointed with [N] carriers; quoted in [EZLynx], serviced in [Applied Epic]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/insurance-agent-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/insurance-agent-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

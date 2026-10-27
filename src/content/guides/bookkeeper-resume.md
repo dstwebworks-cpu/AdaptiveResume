@@ -39,7 +39,7 @@ Under each role, give one line a fellow bookkeeper recognizes instantly.
 
 **After:** "Full-charge bookkeeper for [3] entities, [400] transactions per month in [QuickBooks Online]; reconciled [9] bank and credit card accounts, closed the books within [5] business days of month-end, and filed [1099s] and [state] sales tax."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/bookkeeper-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/bookkeeper-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

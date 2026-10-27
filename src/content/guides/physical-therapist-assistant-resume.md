@@ -39,7 +39,7 @@ Under each role, give one line a fellow PTA or a rehab director would recognize 
 
 **After:** "PTA, [outpatient orthopedic] clinic; [12–14] patients per day under PT plans of care — post-surgical knee and shoulder, low back, and balance cases; manual therapy, therapeutic exercise, and modalities; [WebPT] documentation."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/physical-therapist-assistant-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/physical-therapist-assistant-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

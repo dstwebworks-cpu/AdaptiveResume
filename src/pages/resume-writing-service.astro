@@ -12,7 +12,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Who actually writes my resume?',
-    a: "There is no human writer. AdaptiveResume's software does the digging: it works backwards from what your jobs actually involved and shows you, one finding at a time, the tools, standards, credentials, and scope you left off. You confirm, edit, or skip each one, in your own words. You are the only person who reads and approves each new line, so the finished resume is yours to stand behind in any interview." },
+    a: "There is no human writer. AdaptiveResume's software does the digging: it works backwards from what your jobs actually involved and shows you, one finding at a time, the tools, standards, credentials, and scope you left off. You confirm, edit, or skip each one, in your own words. You are the only person who decides what goes on it, so the finished resume is yours to stand behind in any interview." },
   { q: 'What does "nothing made up" mean in practice?',
     a: "We never put a credential, title, number, or employer on your resume that you didn't confirm. If we think your work involved something, we ask you first. If you say no, it never appears. If a line reads wrong, edit it directly or leave a note and we redo that line from your note." },
   { q: 'Is this a subscription? What about revisions?',
@@ -47,7 +47,7 @@ const breadcrumbLd = {
       <div>
         <p class="eyebrow">A resume writing service that works with you, not around you</p>
         <h1>A <span class="hl">resume writing service</span> where you stay the author.</h1>
-        <p class="tagline">We find what your work involved that you left off. You confirm every new line. Nothing made up.</p>
+        <p class="tagline">We find what your work involved that you left off. You confirm what's yours. Nothing made up.</p>
         <div class="cta-row">
           {LAUNCHED
             ? <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
@@ -57,7 +57,7 @@ const breadcrumbLd = {
         </div>
         <ul class="pills">
           <li class="pill">We make nothing up.</li>
-          <li class="pill">You approve every new line.</li>
+          <li class="pill">We ask. You decide.</li>
           <li class="pill">You pay once.</li>
         </ul>
         <p class="lede">
@@ -127,7 +127,7 @@ const breadcrumbLd = {
           <p class="muted">"Responsible for daily operations and helping the team with whatever came up. Trained new staff."</p>
         </div>
         <div class="card">
-          <h3>After — every new line confirmed by the person</h3>
+          <h3>After — built only from what the person gave us or confirmed</h3>
           <p>"Ran daily operations for a 12-person team: scheduling, QuickBooks records, and supplier orders. Trained 5 new hires on QuickBooks and the department's safety procedures. Handled 40 customer accounts with no missed deadlines in 18 months."</p>
         </div>
       </div>
@@ -146,12 +146,12 @@ const breadcrumbLd = {
         <div class="card qcard">
           <h3>Who writes it?</h3>
           <p>A person you talk to? A pool you never meet? A template with your name dropped in?</p>
-          <p class="ours"><b>AdaptiveResume's answer:</b> You write it with us. We find what your work involved, you confirm every new line, and your resume stays built on your own history.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> You write it with us. We find what your work involved, you confirm what's yours, and your resume stays built on your own history.</p>
         </div>
         <div class="card qcard">
           <h3>Do I approve each line before it's final?</h3>
           <p>Or do you get a finished draft and a limited window to argue about it?</p>
-          <p class="ours"><b>AdaptiveResume's answer:</b> yes, every new line. Each one is shown to you first, and nothing new goes on the page unless you confirm it.</p>
+          <p class="ours"><b>AdaptiveResume's answer:</b> yes. Everything we find is shown to you first, and nothing goes on your resume that you didn't give us or confirm.</p>
         </div>
         <div class="card qcard">
           <h3>Is it a subscription?</h3>
@@ -209,7 +209,7 @@ const breadcrumbLd = {
         ? <h2>Let's see what you've been leaving off.</h2>
         : <h2>We launch in October 2026. Join the launch list now and your first resume is 25% off.</h2>}
       {LAUNCHED
-        ? <p class="lede">Upload your resume for a free check, with no sign-up. When you're ready, create an account and choose your build, and we'll dig in together. You approve every new line before anything lands.</p>
+        ? <p class="lede">Upload your resume for a free check, with no sign-up. When you're ready, create an account and choose your build, and we'll dig in together. Nothing goes on your resume that you didn't give us or confirm.</p>
         : <p class="lede">Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our Role Skills Checklist (a ready-to-use Word worksheet) the moment you join. When we're live, you bring your resume and we find what it left off.</p>}
       {LAUNCHED ? (
         <div class="cta-row" style="justify-content:center">

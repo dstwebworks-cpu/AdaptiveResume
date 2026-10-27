@@ -72,7 +72,7 @@ FTO, instructor certifications, K-9, traffic unit, detective rotations, honor gu
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved police officer resume line - every new line confirmed by the person](/img/guides/examples/police-officer-resume-example.png)
+![Before and after example of an improved police officer resume line - built only from what the person gave us or confirmed](/img/guides/examples/police-officer-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

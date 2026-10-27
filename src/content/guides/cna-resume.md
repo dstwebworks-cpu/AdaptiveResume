@@ -39,7 +39,7 @@ Under each job, give one line another aide or a charge nurse would recognize ins
 
 **After:** "CNA, [state] Nurse Aide Registry (active); [12]-resident assignment on a [40]-bed skilled nursing unit, [day] shift; full ADL care, vitals and intake/output, Hoyer and sit-to-stand lifts; charted in [PointClickCare Point of Care]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/cna-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/cna-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

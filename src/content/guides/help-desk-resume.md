@@ -82,7 +82,7 @@ Every bracket is a prompt for your real figure — not permission to invent one.
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/help-desk-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/help-desk-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

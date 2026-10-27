@@ -39,7 +39,7 @@ Under each job, give one line another tech or a department manager would recogni
 
 **After:** "CRCST (HSPA, active); [12]-OR (operating room) hospital SPD (sterile processing department), [evening] shift; decontamination, inspection and assembly of [60]-[80] trays a shift, steam and [hydrogen peroxide] sterilization with Bowie-Dick, chemical and biological indicator logging under AAMI ST79; tracked in [CensiTrac]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/sterile-processing-technician-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/sterile-processing-technician-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

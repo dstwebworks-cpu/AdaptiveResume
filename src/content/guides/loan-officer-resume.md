@@ -39,7 +39,7 @@ Under each role, give one line another originator would recognize instantly.
 
 **After:** "Mortgage Loan Originator, NMLS #[1234567], state-licensed in [GA, FL]; funded $[42]M across [140] units in [2025], [70]% purchase; conventional, FHA, and VA; [Encompass] LOS."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/loan-officer-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/loan-officer-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

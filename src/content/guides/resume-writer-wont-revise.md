@@ -13,7 +13,7 @@ cta:
   label: "Fix it with the AR Pass — $99"
   href: "/fix/"
 pubDate: 2026-07-26
-updatedDate: 2026-09-29
+updatedDate: 2026-10-27
 order: 7.5
 draft: false
 faq:
@@ -79,8 +79,8 @@ At that point, more emails cost you weeks you could spend applying.
 
 ## How we handle exactly this
 
-This situation is why we built the process the way we did. Upload the draft you paid for — it's a starting point, not a loss. We work backwards from your real experience to find what the rewrite left out: the tools, standards, and training your work involved that never made it onto the page. You confirm each one before it appears. Every new line is editable in your words, and if one isn't right, you add a note and we redo it — you never have to argue with us or wait on a reply. Nothing gets made up, and you see for yourself what the screening software reads at the end.
+This situation is why we built the process the way we did. Upload the draft you paid for — it's a starting point, not a loss. We work backwards from your real experience to find what the rewrite left out: the tools, standards, and training your work involved that never made it onto the page. You confirm each one before it appears. Every line is editable in your words, and if one isn't right, you add a note and we redo it — you never have to argue with us or wait on a reply. Nothing gets made up, and you see for yourself what the screening software reads at the end.
 
 > We won't ask who the last service was. It doesn't matter. What matters is what your resume says now.
 
-If you'd rather not fight this battle alone, our [Fix my resume path](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and you approve every new line before it lands.
+If you'd rather not fight this battle alone, our [Fix my resume path](/fix/) does the rescue with you — we dig back into your real experience, find what the paid rewrite left out, and nothing goes on your resume that you didn't give us or confirm.

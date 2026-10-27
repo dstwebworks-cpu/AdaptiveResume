@@ -168,6 +168,15 @@ test.describe("site walk fixes (10/26/2026)", () => {
     });
   }
 
+  // Founder rule 10/01/2026: never say "new line(s)"; it contradicts "we don't make anything up". The 158 uses left on the
+  // site were rewritten on 10/27/2026 with the approved framing (we ask, you confirm). This keeps them from coming back.
+  test("THE guard (founder rule 10/01/2026): no page, guide, template or llms.txt source says \"new line\"", async () => {
+    const dirs = ["src/pages", "src/components", "src/layouts", "src/content/guides", "src/data/llms", "public/templates"];
+    const files = dirs.flatMap((d) => readdirSync(d).filter((x) => /\.(astro|md|json)$/.test(x)).map((x) => join(d, x)));
+    const hits = files.filter((f) => /\bnew lines?\b/i.test(readFileSync(f, "utf8")));
+    expect(hits, "files that say \"new line\"").toEqual([]);
+  });
+
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
   test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
     const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));

@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-09-29
+updatedDate: 2026-10-27
 order: 15
 draft: false
 faq:
@@ -83,8 +83,8 @@ One page usually fits one substantive role, and two pages is common and widely a
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/administrative-assistant-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/administrative-assistant-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The **Role Skills Checklist** below walks through the inventory the job title hides. Our build does it with you — reads your history, proposes what it implies (the systems, the money, the trust), and asks you to confirm every new line before it appears. The skills were always yours; they were just never on the page.
+The **Role Skills Checklist** below walks through the inventory the job title hides. Our build does it with you — reads your history, proposes what it implies (the systems, the money, the trust), and asks you to confirm each one before it goes on your resume. The skills were always yours; they were just never on the page.

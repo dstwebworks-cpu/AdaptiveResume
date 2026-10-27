@@ -39,7 +39,7 @@ Under each school, give one line of context before the bullets — grade band, s
 
 **After:** "Case manager for [N] students with IEPs in a [resource/inclusion] setting, grades [X–Y]; wrote and led [N] annual IEP meetings a year, progress-monitored [N] goals each grading period, and directed [N] paraprofessionals."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/special-education-teacher-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/special-education-teacher-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

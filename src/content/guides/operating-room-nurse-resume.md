@@ -77,7 +77,7 @@ Contract work lists the same way staff work does, with honest attribution per as
 
 ## The before-and-after, at a glance
 
-![Before and after example of an improved operating room resume line - every new line confirmed by the person](/img/guides/examples/operating-room-nurse-resume-example.png)
+![Before and after example of an improved operating room resume line - built only from what the person gave us or confirmed](/img/guides/examples/operating-room-nurse-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

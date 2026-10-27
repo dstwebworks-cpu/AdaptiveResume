@@ -39,7 +39,7 @@ Under each school, give one line of context before the bullets — grade band, s
 
 **After:** "One-to-one aide for a [grade]-grade student in an inclusion setting; ran the behavior intervention plan, collected daily data on [N] IEP goals, and supported [reading/math] instruction in small groups of [N]."
 
-![Before and after example of an improved resume line - every new line confirmed by the person](/img/guides/examples/paraprofessional-resume-example.png)
+![Before and after example of an improved resume line - built only from what the person gave us or confirmed](/img/guides/examples/paraprofessional-resume-example.png)
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 

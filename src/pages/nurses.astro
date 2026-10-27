@@ -12,7 +12,7 @@ const waitlistAction = appUrl + '/waitlist';
 const site = Astro.site ?? new URL('https://adaptiveresume.com');
 const faq = [
   { q: 'Is this a nursing resume writing service or a resume builder for nurses?',
-    a: "It's both. We do the digging a writer would do, working backwards from your job titles and units to find the skills, charting systems, and certifications you left off, and you do the confirming a builder asks of you. Every new line we suggest is shown to you first. Nothing new goes on the page unless you confirm it, and nothing is made up." },
+    a: "It's both. We do the digging a writer would do, working backwards from your job titles and units to find the skills, charting systems, and certifications you left off, and you do the confirming a builder asks of you. Everything we find is shown to you first as a question. Nothing goes on your resume that you didn't give us or confirm, and nothing is made up." },
   { q: "I'm moving to a new unit — say, telemetry into the ICU. How do you handle the gap?",
     a: "We keep it honest. We put the real overlap on the page — the drips you already titrate, the codes you've worked, ACLS in actual use — and we never present the unit you're moving toward as experience you already have. Stepdown experience dressed up as ICU experience is something we won't write." },
   { q: 'I travel. How should contracts show up?',
@@ -60,7 +60,7 @@ const guides = [
       <p class="lede">
         Your resume says "provided patient care." Your work was a whole unit: 1:4 assignments, drips
         you titrated, nurses you precepted, shifts you ran as charge. We work backwards through your
-        real units together, show you what you left off, and you confirm every new line, so the finished
+        real units together, show you what you left off, and you confirm what's yours, so the finished
         resume is complete, honest, and reads cleanly to the software that screens it.
       </p>
       <div class="cta-row">
@@ -77,7 +77,7 @@ const guides = [
       </div>
       <ul class="pills">
         <li class="pill">We make nothing up.</li>
-        <li class="pill">You approve every new line.</li>
+        <li class="pill">We ask. You decide.</li>
         <li class="pill">You pay once.</li>
       </ul>
     </div>
@@ -165,14 +165,14 @@ const guides = [
     <div class="container">
       <p class="eyebrow">What the rebuild looks like</p>
       <h2>Same true shifts — a resume that finally says what they were</h2>
-      <p class="muted">This is a sample nurse, not a real person. In a real review, every number comes from you: from the resumes you upload, or typed in by you when you edit a line. If you do not confirm a new line, it does not go in.</p>
+      <p class="muted">This is a sample nurse, not a real person. In a real review, every number comes from you: from the resumes you upload, or typed in by you when you edit a line. If you do not confirm something we found, it does not go in.</p>
       <div class="grid cols-2">
         <div class="card">
           <h3>Before</h3>
           <p class="muted">"Registered Nurse. Provided patient care on a busy medical unit. Helped train new staff and worked as charge when needed."</p>
         </div>
         <div class="card">
-          <h3>After — every new line confirmed by the nurse</h3>
+          <h3>After — built only from what the nurse gave us or confirmed</h3>
           <p>"RN, 32-bed telemetry unit, typical 1:4 assignments: continuous cardiac monitoring, titratable drips per protocol; Epic charting. Precepted 6 new-graduate nurses through unit orientation. Relief charge 4 shifts a month: acuity-based assignments for 8 RNs and 3 techs. BLS and ACLS (American Heart Association), current through 06/2027."</p>
         </div>
       </div>
@@ -232,7 +232,7 @@ const guides = [
         <>
           <h2>Let's see what your units have been leaving off</h2>
           <p class="lede">Upload your resume for a free check, with no sign-up. When you're ready, create an account and choose your build, and we'll dig in together — unit by
-          unit, cert by cert. You approve every new line before anything lands.</p>
+          unit, cert by cert, and you confirm what's yours.</p>
           <div class="cta-row" style="justify-content:center">
             <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
           </div>
