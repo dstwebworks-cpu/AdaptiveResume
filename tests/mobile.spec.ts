@@ -197,6 +197,15 @@ test.describe("site walk fixes (10/26/2026)", () => {
     expect(hits, "files that say \"new line\" or \"new item\"").toEqual([]);
   });
 
+  // Founder rule 10/25 and 10/27/2026: the resume's human readers are hiring managers and recruiters, never a vague
+  // "person after it" or "person who reads it next" ("very low-value and not accurate to what we expect").
+  test("THE guard (founder rule 10/27/2026): copy names hiring managers and recruiters, never a vague later reader", async () => {
+    const dirs = ["src/pages", "src/components", "src/layouts", "src/content/guides", "src/data/llms"];
+    const files = dirs.flatMap((d) => readdirSync(d).filter((x) => /\.(astro|md|json)$/.test(x)).map((x) => join(d, x)));
+    const vague = /\b(person|people) (after it|who reads? it (next|after))\b/i;
+    expect(files.filter((f) => vague.test(readFileSync(f, "utf8"))), "files with a vague later reader").toEqual([]);
+  });
+
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
   test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
     const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
