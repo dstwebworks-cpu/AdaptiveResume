@@ -1,0 +1,234 @@
+[
+  {
+    "topic": "Nursing",
+    "pages": [
+      "/nurses/"
+    ],
+    "guides": [
+      "icu-nurse-resume",
+      "er-nurse-resume",
+      "operating-room-nurse-resume",
+      "charge-nurse-resume",
+      "telemetry-nurse-resume",
+      "nicu-nurse-resume",
+      "labor-and-delivery-nurse-resume",
+      "med-surg-nurse-resume",
+      "travel-nurse-resume"
+    ]
+  },
+  {
+    "topic": "Allied health",
+    "pages": [],
+    "guides": [
+      "respiratory-therapist-resume",
+      "medical-technologist-resume",
+      "radiologic-technologist-resume",
+      "paramedic-resume",
+      "emt-resume",
+      "physical-therapist-assistant-resume",
+      "home-health-aide-resume",
+      "bls-and-cpr-on-resume"
+    ]
+  },
+  {
+    "topic": "Healthcare support and patient care",
+    "pages": [],
+    "guides": [
+      "cna-resume",
+      "lpn-resume",
+      "medical-assistant-resume",
+      "patient-care-technician-resume",
+      "caregiver-resume",
+      "pharmacy-technician-resume",
+      "phlebotomist-resume",
+      "dental-assistant-resume",
+      "sterile-processing-technician-resume"
+    ]
+  },
+  {
+    "topic": "First responders & public safety",
+    "pages": [],
+    "guides": [
+      "police-officer-resume",
+      "firefighter-resume",
+      "emt-resume",
+      "dispatcher-resume",
+      "security-guard-resume"
+    ]
+  },
+  {
+    "topic": "Military → civilian (MOS translation)",
+    "pages": [
+      "/career-change/"
+    ],
+    "guides": [
+      "military-to-civilian-resume",
+      "how-to-list-security-clearance-on-resume"
+    ]
+  },
+  {
+    "topic": "Federal/government → private",
+    "pages": [
+      "/career-change/"
+    ],
+    "guides": [
+      "government-to-private-resume",
+      "how-to-list-security-clearance-on-resume"
+    ]
+  },
+  {
+    "topic": "Skilled trades & industrial",
+    "pages": [],
+    "guides": [
+      "skills-you-forgot-by-trade",
+      "welder-resume",
+      "machinist-resume",
+      "hvac-technician-resume",
+      "journeyman-electrician-resume",
+      "diesel-mechanic-resume",
+      "aircraft-mechanic-resume",
+      "manufacturing-resume",
+      "lineman-resume",
+      "pipefitter-resume",
+      "carpenter-resume",
+      "heavy-equipment-operator-resume",
+      "plumber-resume",
+      "automotive-technician-resume",
+      "production-supervisor-resume",
+      "construction-worker-resume",
+      "landscaping-resume"
+    ]
+  },
+  {
+    "topic": "Warehouse, logistics & maintenance",
+    "pages": [],
+    "guides": [
+      "forklift-operator-resume",
+      "warehouse-supervisor-resume",
+      "maintenance-supervisor-resume",
+      "maintenance-technician-resume",
+      "warehouse-worker-resume",
+      "logistics-coordinator-resume",
+      "custodian-resume"
+    ]
+  },
+  {
+    "topic": "Driving & transportation",
+    "pages": [],
+    "guides": [
+      "cdl-truck-driver-resume",
+      "bus-driver-resume",
+      "delivery-driver-resume",
+      "dispatcher-resume"
+    ]
+  },
+  {
+    "topic": "Office, business & finance",
+    "pages": [],
+    "guides": [
+      "administrative-assistant-resume",
+      "office-manager-resume",
+      "project-manager-resume",
+      "sales-manager-resume",
+      "hotel-manager-resume",
+      "bank-teller-resume",
+      "underwriter-resume",
+      "financial-advisor-resume",
+      "human-resources-resume",
+      "recruiter-resume",
+      "data-analyst-resume",
+      "paralegal-resume",
+      "insurance-agent-resume",
+      "bookkeeper-resume",
+      "loan-officer-resume",
+      "financial-analyst-resume",
+      "loan-processor-resume",
+      "operations-manager-resume",
+      "restaurant-general-manager-resume"
+    ]
+  },
+  {
+    "topic": "IT & security",
+    "pages": [],
+    "guides": [
+      "help-desk-resume",
+      "systems-administrator-resume",
+      "cyber-security-resume",
+      "soc-analyst-resume"
+    ]
+  },
+  {
+    "topic": "Education",
+    "pages": [],
+    "guides": [
+      "teacher-resume-skills",
+      "special-education-teacher-resume",
+      "paraprofessional-resume",
+      "substitute-teacher-resume"
+    ]
+  },
+  {
+    "topic": "Aviation",
+    "pages": [],
+    "guides": [
+      "pilot-resume",
+      "aircraft-mechanic-resume",
+      "flight-attendant-resume"
+    ]
+  },
+  {
+    "topic": "Burned by a resume service",
+    "pages": [
+      "/fix/"
+    ],
+    "guides": [
+      "resume-writer-wont-revise"
+    ]
+  },
+  {
+    "topic": "ATS questions",
+    "pages": [],
+    "guides": [
+      "what-is-an-ats",
+      "resume-format-for-ats",
+      "what-the-ats-reads",
+      "hidden-text-resume-tricks",
+      "honest-keyword-matching"
+    ]
+  },
+  {
+    "topic": "Certifications, gaps, promotions, tailoring, numbers",
+    "pages": [],
+    "guides": [
+      "how-to-list-certifications-on-resume",
+      "how-to-explain-employment-gap-on-resume",
+      "how-to-list-promotions-on-resume",
+      "tailor-resume-to-job-description",
+      "quantify-resume-bullets",
+      "career-change-transferable-skills"
+    ]
+  },
+  {
+    "topic": "Organizations (staffing / outplacement / workforce)",
+    "pages": [
+      "/business/"
+    ],
+    "guides": [
+      "staffing-agencies-resumes-at-scale",
+      "outplacement-that-lands",
+      "workforce-boards-wioa-skills",
+      "resume-rewriting-for-staffing-agencies",
+      "workforce-development-resume-services",
+      "veteran-resume-services-for-organizations",
+      "career-center-software-resume-review",
+      "career-transition-services-small-employers",
+      "how-to-choose-an-outplacement-company",
+      "outplacement-assistance-what-employees-receive",
+      "outplacement-cost-per-employee",
+      "virtual-outplacement-services",
+      "internal-mobility-platform",
+      "blind-recruitment-software",
+      "work-readiness-assessment"
+    ]
+  }
+]
