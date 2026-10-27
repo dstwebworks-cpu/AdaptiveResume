@@ -157,6 +157,17 @@ test.describe("site walk fixes (10/26/2026)", () => {
     expect(await page.locator(".finding .why").first().evaluate((c) => getComputedStyle(c).opacity), "the reason text fades").toBe("0.55");
   });
 
+  for (const p of ["/rewrite-my-resume/", "/resume-writing-service/"]) {
+    test(`THE guard (#5, founder yes 10/26/2026): the main button sits in the first phone screen on ${p}`, async ({ page }) => {
+      await page.setViewportSize({ width: 390, height: 664 });
+      await page.goto(p);
+      const btn = await page.locator(".hero .cta-row .btn-amber").first().boundingBox();
+      expect(btn!.y + btn!.height, "the main button ends inside a 664-pixel screen").toBeLessThanOrEqual(664);
+      const order = await page.evaluate(() => { const h = document.querySelector(".hero")!; const kids = [...h.querySelectorAll(".cta-row, .pills, .lede")]; return kids.map((k) => k.className.split(" ")[0]); });
+      expect(order, "the gray paragraph comes after the buttons and the pills").toEqual(["cta-row", "pills", "lede"]);
+    });
+  }
+
   // The suite builds the pre-launch site (PUBLIC_LAUNCHED unset), where these buttons do not render, so this reads the source.
   test("THE guard (loss point 10): no button sends a visitor to the account-first front door, and no line says to create an account first", async () => {
     const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
