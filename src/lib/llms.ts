@@ -53,9 +53,22 @@ export async function llmsTxt(): Promise<string> {
     for (const path of g.pages) parts.push(pageEntry(path));
     for (const id of g.guides) parts.push(guideEntry(byId.get(id)!));
   }
-  parts.push('', '## Optional', `- [Full text of every guide](${url('/llms-full.txt')}): every guide above in plain text, with its frequently asked questions, for agents that want the whole library in one file.`);
-  parts.push('', outro.trim(), '');
+  parts.push('', outro.trim());
+  parts.push('', '## Optional', `- [Full text of every guide](${url('/llms-full.txt')}): Every guide above is in this one file in plain text, with its frequently asked questions, for agents that want the whole library.`);
+  parts.push('');
   return parts.join('\n');
+}
+
+/** A guide's markdown for llms-full.txt: headings one level down, no image lines, links as full addresses. */
+function bodyForAgents(md: string): string {
+  return md
+    .split('\n')
+    .filter((l) => !/^\s*!\[/.test(l))
+    .map((l) => l.replace(/^(#{2,5}) /, '#$1 '))
+    .join('\n')
+    .replace(/\]\((\/[^)\s]*)\)/g, (_m, p) => `](${SITE}${p})`)
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
 }
 
 export async function llmsFullTxt(): Promise<string> {
@@ -64,14 +77,14 @@ export async function llmsFullTxt(): Promise<string> {
   const parts = [
     '# AdaptiveResume: the full guide library',
     '',
-    `> Every AdaptiveResume guide in plain text, ${guides.length} in all, with each guide's address and frequently asked questions. The short index is ${url('/llms.txt')}. Cite each guide by its own address.`,
+    `> This file holds every AdaptiveResume guide in plain text, ${guides.length} in all, with each guide's address and frequently asked questions. The short index is ${url('/llms.txt')}. Please cite each guide by its own address.`,
     '',
     intro.trim().replace(/^# AdaptiveResume\n+/, ''),
   ];
   for (const g of guides) {
     const d = g.data;
-    const date = (d.updatedDate ?? d.pubDate).toISOString().slice(0, 10);
-    parts.push('', '---', '', `## ${oneLine(d.title)}`, `Address: ${url(`/guides/${g.id}/`)}`, `Last updated: ${date}`, '', oneLine(d.description), '', (g.body ?? '').trim());
+    const date = (d.updatedDate ?? d.pubDate).toISOString().slice(0, 10).replace(/(\d+)-(\d+)-(\d+)/, '$2/$3/$1');
+    parts.push('', '---', '', `## ${oneLine(d.title)}`, `Address: ${url(`/guides/${g.id}/`)}`, `Last updated: ${date}`, '', oneLine(d.description), '', bodyForAgents(g.body ?? ''));
     if (d.faq?.length) {
       parts.push('', '### Frequently asked questions');
       for (const f of d.faq) parts.push('', `**${oneLine(f.q)}**`, oneLine(f.a));

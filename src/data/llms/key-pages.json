@@ -1,8 +1,9 @@
 [
   { "path": "/", "title": "AdaptiveResume — you've earned more than your resume shows", "description": "Upload your resume, and we'll find the skills and credentials your work earned but your resume left off. Nothing goes on it unless you confirm it." },
   { "path": "/demo/", "title": "See it work on a sample resume | AdaptiveResume", "description": "Try a sample resume review with no sign-up. Pick a profile, see the skills and credentials we'd find, approve each one, and watch the resume build." },
+  { "path": "/#job-seekers", "title": "For job seekers", "description": "This section is for career changers, people moving from military or government work to private jobs, the trades, and specialists who do far more than their resume shows." },
   { "path": "/#pricing", "title": "Pricing", "description": "The Single Resume Build is $29 and the AR Pass is $99, each one payment. Nothing renews, so there is nothing to cancel." },
-  { "path": "/#how-it-works", "title": "How it works", "description": "The steps from uploading your resume to downloading the finished Word and PDF files." },
+  { "path": "/#how-it-works", "title": "How it works", "description": "There are three steps: you upload your resumes, confirm which skills and credentials are really yours, and download a clean resume built only from what you confirmed." },
   { "path": "/resume-writing-service/", "title": "Resume Writing Service — You Stay the Author, From $29", "description": "With our resume writing service, you stay the author. We find what you left off, and nothing goes on your resume unless you confirm it." },
   { "path": "/rewrite-my-resume/", "title": "Rewrite My Resume — Honest Resume Rewrite Service, From $29", "description": "Rewrite your resume without losing what's true. We find what you left off, and nothing goes on your resume unless you confirm it. Builds start at $29." },
   { "path": "/update-my-resume/", "title": "Resume Update Service — Find What the Last Few Years Added", "description": "Is your resume years behind? Our resume update service finds the promotions, systems, and certifications you never wrote down, and you confirm each one." },
