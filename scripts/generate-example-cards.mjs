@@ -339,6 +339,10 @@ export const PAIRS = {
     before: "Compassionate home health aide with experience caring for elderly patients in their homes.",
     after: "Home health aide, [state] [training program name] ([year]), [75]-hour training and competency evaluation; [12] hours of in-service training a year. [5]-[7] client visits a day across [county], bathing and transfers on each care plan, vital signs reported to the supervising RN, every visit clocked in [HHAeXchange].",
   },
+  "how-to-list-self-employment-on-resume": {
+    before: "Self-employed, 2019 - 2024. Did freelance work for various clients.",
+    after: "Freelance Bookkeeper (Self-employed), 03/2019 - 06/2024. Kept the books for 11 small-business clients in QuickBooks Online, closed each client's month within 5 business days, and prepared year-end packets for their tax preparers.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",
