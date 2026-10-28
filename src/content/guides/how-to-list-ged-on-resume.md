@@ -17,7 +17,7 @@ order: 124
 draft: false
 faq:
   - q: "Is a GED the same as a high school diploma on a resume?"
-    a: "For a job posting that asks for a high school diploma or equivalent, a GED is the equivalent, so it meets the requirement. On the resume itself, write what your credential actually is. Writing \"High School Diploma\" when you earned a GED is the kind of detail an education check can catch. If your state's certificate uses its own name, such as the California High School Equivalency Certificate, you can use those words, because they are the words on your document."
+    a: "For a job posting that asks for a high school diploma or equivalent, a GED meets the requirement, and the US Department of Education lists the GED as a recognized equivalent of a high school diploma. If a posting asks for a high school diploma with no \"or equivalent,\" ask the employer. On the resume itself, write what your credential actually is. Writing a plain \"High School Diploma\" when your document says something else is the kind of detail an education check can catch. If your state's certificate uses its own name, such as the California High School Equivalency Certificate, you can use those words, because they are the words on your document."
   - q: "Should I put the year I earned my GED?"
     a: "You can leave it off. The credential does not expire, and many people leave graduation years off once they have years of work experience. Include the year if you earned it recently and it explains a short work history, or if an application form asks for it."
   - q: "Do I list my GED if I have a college degree?"
@@ -46,13 +46,13 @@ The second version names the credential the way the certificate prints it, keeps
 
 ## Write what your credential actually is
 
-**"GED" is the name most readers know.** The GED test has four subjects: Mathematical Reasoning, Reasoning Through Language Arts, Science, and Social Studies. Passing all four earns a high school equivalency credential, and the diploma or certificate is issued under your state's rules.
+**"GED" is the name most readers know.** The GED test has four subjects: Mathematical Reasoning, Reasoning Through Language Arts, Science, and Social Studies. Passing all four, and meeting your state's age and residency rules, earns a high school equivalency credential, and the diploma or certificate is issued under your state's rules.
 
 **Your state may use its own name.** California, for example, issues the California High School Equivalency Certificate. If your document has a name like that, you can write it out and add "(GED)" after it, which covers both the official wording and the term a recruiter searches for.
 
 **Some states offer a second exam.** The California Department of Education [approves two high school equivalency tests](https://www.cde.ca.gov/ta/tg/gd/), the GED and the HiSET. If you passed the HiSET, write "High School Equivalency (HiSET)" or your state's credential name, the same way.
 
-**Never write "High School Diploma" for a GED.** The two meet the same requirement, so there is nothing to gain, and a background check that verifies education can turn a harmless line into a question about honesty.
+**Don't write "High School Diploma" unless that is the name on your document.** Writing a plain "High School Diploma" when your certificate says something else can turn a harmless line into a question about honesty when an employer checks. A few states do use the word diploma: New Jersey issues a state-issued high school diploma to people who pass the GED, and Pennsylvania issues the Commonwealth Secondary School Diploma. If yours does, write the full name and add "(GED)" after it.
 
 ## Where the line goes
 
@@ -64,13 +64,13 @@ The second version names the credential the way the certificate prints it, keeps
 
 The year you earned a GED is optional. The credential does not expire, so the date adds nothing a recruiter needs for most jobs.
 
-Leave it off if you earned it a long time ago and your work history already shows your experience. Include it if you earned it recently and it explains why your work history is short, or if an online application asks for the year in a form field. Whatever you choose, keep it consistent with the rest of the resume: if your other education and training lines have years, this one can too.
+Leave it off if you earned it a long time ago and your work history already shows your experience; leaving it off also keeps the focus on your experience rather than your age. Include it if you earned it recently and it explains why your work history is short, or if an online application asks for the year in a form field. Whatever you choose, keep it consistent with the rest of the resume: if your other education and training lines have years, this one can too.
 
 ## Application forms and screening questions
 
-Many online applications ask a yes-or-no question, such as "Do you have a high school diploma or equivalent?", before anyone reads your resume. With a GED, the honest answer is yes.
+Many online applications ask a yes-or-no question, such as "Do you have a high school diploma or equivalent?", before anyone reads your resume. With a GED, the honest answer is yes. The US Department of Education [lists the GED](https://fsapartners.ed.gov/knowledge-center/library/dear-colleague-letters/2014-04-11/gen-14-06-subject-recognized-equivalent-high-school-diploma) as a recognized equivalent of a high school diploma.
 
-If a form gives separate choices, such as "High School Diploma" and "GED or High School Equivalency," choose the equivalency option. It meets the same requirement, and it matches the document an employer may verify. If a form asks for a school name and you tested through an adult education center, enter the center's name or your state's credential name rather than leaving the field blank.
+If a form gives separate choices, such as "High School Diploma" and "GED or High School Equivalency," choose the equivalency option. It meets the same requirement, and it matches the document an employer may verify. If a form asks for a school name, enter the adult education center or testing center where you tested, or follow the form's instructions for equivalency credentials, rather than leaving the field blank.
 
 ## GED lines you can adapt
 
@@ -107,7 +107,7 @@ If you are working toward a GED, you can list it honestly as in progress, with t
 
 ## Do GED scores belong on a resume?
 
-For most jobs, no. Passing is what an employer checks. The GED Testing Service sets the [passing score at 145](https://ged.com/about_test/scores/) on each subject, and it describes two higher levels: 165 to 174 is GED College Ready, and 175 to 200 is GED College Ready + Credit, which it says could qualify you for up to 10 college credit hours.
+For most jobs, no. Passing is what an employer checks. The GED Testing Service sets the [passing score at 145](https://ged.com/about_test/scores/) on each subject, and it describes two higher levels: 165 to 174 is GED College Ready, and 175 to 200 is GED College Ready + Credit, which it says could qualify you for up to 10 college credit hours, depending on the college.
 
 Scores can help when you are applying to a college program, an apprenticeship, or a training program that looks at academic readiness. In that case, a short line such as "GED College Ready score level in Mathematical Reasoning" is accurate and useful. Write the level your transcript shows, and nothing higher.
 

@@ -100,9 +100,9 @@ Each bullet is a frame, not a claim. If a line isn't true of your work, it doesn
 
 ## What screening software looks for on an insurance agent resume
 
-Agency and carrier filters read for the vocabulary of the business, and a human reads for the same words minutes later. The terms that typically matter: property and casualty, P&C, personal lines, commercial lines, life and health, producer license, book of business, premium, retention, new business, renewals, cross-sell, carrier appointments, endorsements, claims, CPCU, CIC, CLU, ChFC, AINS, CISR, AIC, Applied Epic, AMS360, HawkSoft, EZLynx, and Xactimate.
+Agency and carrier filters read for the vocabulary of the business, and the hiring manager or recruiter who reads your resume looks for the same words. The terms that typically matter: property and casualty, P&C, personal lines, commercial lines, life and health, producer license, book of business, premium, retention, new business, renewals, cross-sell, carrier appointments, endorsements, claims, CPCU, CIC, CLU, ChFC, AINS, CISR, AIC, Applied Epic, AMS360, HawkSoft, EZLynx, and Xactimate.
 
-One honesty note on job codes: [O*NET profiles this work under Insurance Sales Agents (41-3021.00)](https://www.onetonline.org/link/summary/41-3021.00). That code covers the selling side; service staff and adjusters are coded elsewhere — which is exactly why your book line and role specifics have to carry the message the code can't.
+One honesty note on job codes: [O*NET profiles this work under Insurance Sales Agents (41-3021.00)](https://www.onetonline.org/link/summary/41-3021.00). That code covers the selling side; service staff and [adjusters](/guides/claims-adjuster-resume/) are coded elsewhere — which is exactly why your book line and role specifics have to carry the message the code can't.
 
 The highest-risk lines are the ones that overstate scope — a line of authority you don't hold, a securities registration you never earned, or a book you serviced written as one you built. Insurance is a licensed, looked-up field, and employers check.
 

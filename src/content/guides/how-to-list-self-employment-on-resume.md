@@ -21,7 +21,7 @@ faq:
   - q: "Will a hiring manager worry that I'll go back to working for myself?"
     a: "Some will wonder, so answer it on the page. Your summary can say in one plain sentence which role you want now. If you are closing the business or keeping only a little side work, be ready to say so in the interview. The resume's job is to show that the skills you used for your clients are the skills the posting asks for."
   - q: "How do I prove self-employment if an employer asks?"
-    a: "Have two or three kinds of proof ready. A client who has agreed to be a reference is the most common. Your own records work too: invoices, signed contracts, or the 1099 forms clients sent you. The IRS also offers free transcripts, including a wage and income transcript that shows information from forms such as 1099s filed with the IRS for you. Share proof of the work, never a client's confidential files."
+    a: "Have two or three kinds of proof ready. A client who has agreed to be a reference is the most common. Your own records work too: invoices, signed contracts, or any 1099 forms clients sent you, though households and some small clients never send one. The IRS also offers free transcripts, including a wage and income transcript that shows information from forms such as 1099s filed with the IRS for you. Share proof of the work, never a client's confidential files."
   - q: "Does gig work like rideshare or delivery count?"
     a: "Yes, paid gig work is work experience. Group it into one entry instead of listing each app on its own, with a title such as \"Independent Delivery Driver\" and the apps named underneath. Add the numbers the app shows you, such as completed deliveries or your rating, when they help with the job you want."
   - q: "What if my self-employment was only a few small jobs?"
@@ -53,6 +53,8 @@ When you work for yourself, you choose your own title, so choose one that descri
 - **Size the title to the work.** "CEO" or "Founder and President" of a one-person business can read as inflated, and it makes a reader wonder how big the company really was. A plain title is easier to trust.
 - **Use the posting's words when they are true.** If you did the work of an "accounting clerk" for your clients, you can use that wording in your summary and bullets. Keep every word true to what you actually did.
 
+**Contract work through a staffing agency is a regular job.** If an agency paid you on a W-2 and placed you with a client, list the agency as the employer and name the client, such as "Contract Accounts Payable Clerk, [Agency], assigned to [Client]." Write "Self-employed" only when you were paid as an independent contractor; the IRS explains the difference between [an independent contractor and an employee](https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee).
+
 ## Show your clients, your work, and your numbers
 
 The bullets under a self-employment entry carry more weight than they do under a regular job, because there is no well-known employer name to lean on.
@@ -71,7 +73,9 @@ Driving, delivery, shopping, and task apps are paid work, and they can show reli
 
 **Independent Delivery Driver (Self-employed), 01/2023 – Present.** Deliveries through DoorDash and Instacart: about 2,400 completed orders and a 4.9 customer rating.
 
-If you did gig work alongside a regular job, list both with their real dates and mark the gig work part-time. Overlapping dates are normal, and a recruiter will read them as two jobs held at once.
+Our [delivery driver resume guide](/guides/delivery-driver-resume/) covers driving work in more detail.
+
+If you did gig work alongside a regular job, list both with their real dates and mark the gig work part-time. Overlapping dates are normal, and a recruiter can read them as two jobs held at once.
 
 ## When self-employment filled the time between jobs
 
@@ -84,6 +88,7 @@ Describe it at its true size. A few paid projects are a few paid projects, and t
 - **Put it in your experience section, in date order,** like any other job. Moving it to an "Other" section at the bottom makes it look like something you would rather not discuss.
 - **Write the dates as month and year,** the same as your other jobs.
 - **Use your business name or "Self-employed" as the company line,** and include your city and state.
+- **Add a link to your work if the job values it.** A designer, writer, photographer, or developer can put a portfolio or business website address in the header or in the entry. Show only work you have the right to share.
 - **Keep it plain.** A logo, a text box, or a table can be dropped or scrambled by screening software, and our guide on [what screening software reads](/guides/what-the-ats-reads/) shows why.
 
 ## If an employer checks
@@ -91,8 +96,8 @@ Describe it at its true size. A few paid projects are a few paid projects, and t
 Employers often verify work history, and self-employment is checked differently from a regular job because there is no HR department to call. Have proof ready before you apply:
 
 - **Client references.** Ask two or three clients who know your work whether they are willing to take a call.
-- **Your own records.** Invoices, signed contracts, statements of work, and the 1099 forms clients sent you all show the work happened.
-- **IRS transcripts.** The IRS offers several [transcript types at no charge](https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them). A wage and income transcript shows information from forms such as 1099s that were filed with the IRS, and a tax return transcript shows most line items from your return as filed, along with its forms and schedules. Sole proprietors report business income on Schedule C, so the tax return transcript can show the business existed.
+- **Your own records.** Invoices, signed contracts, statements of work, and any 1099 forms clients sent you all show the work happened. Households and some small clients never send a 1099, so keep your invoices and payment records.
+- **IRS transcripts.** The IRS offers several [transcript types at no charge](https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them). A wage and income transcript shows information from forms such as 1099s that were filed with the IRS, and a tax return transcript shows most line items from your return as filed, along with its forms and schedules. Sole proprietors report business income on Schedule C, so the tax return transcript can show the business existed. The tax return transcript covers the current year and the three years before it, and the wage and income transcript covers the current year and the nine years before it, so keep your own copies of older returns.
 
 Share proof that the work happened, never a client's confidential files or data.
 

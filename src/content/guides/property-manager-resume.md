@@ -19,7 +19,7 @@ faq:
   - q: "What numbers belong on a property manager resume?"
     a: "Start with the size of what you ran: units or doors, square feet for commercial space, and the type of property. Then add the results an owner tracks: occupancy, collections or delinquency, lease renewals, how long a unit sat between residents, work orders, and the budget you managed. Use the figures from your own reports, and write the part you actually drove."
   - q: "Do I need a real estate license to be a property manager?"
-    a: "It depends on your state and on what you do. In California, for example, the state's real estate regulator has said there is no separate property manager license, and that leasing or collecting rent for an owner for pay generally requires a real estate broker license or a salesperson working under a broker. Other states set their own rules, so check with your state's real estate commission. If you hold a license, name it and the state on your resume."
+    a: "It depends on your state and on what you do. In California, for example, the state's real estate regulator has said there is no separate property manager license, and that leasing or collecting rent for an owner for pay requires a real estate broker license or a salesperson working under a broker, unless a narrow exemption applies; your employer's broker of record can tell you which rule covers your job. Other states set their own rules, so check with your state's real estate commission. If you hold a license, name it and the state on your resume."
   - q: "How is a leasing agent resume different from a property manager resume?"
     a: "A leasing resume leads with leasing numbers: tours, applications, leases signed, the share of tours that turned into leases, and renewals. It also names your fair housing training and any leasing credential, such as the CALP. A property manager resume adds the budget, the staff, collections, and the condition of the property."
   - q: "Which property management certifications matter most?"
@@ -57,7 +57,7 @@ The second version tells the reader the size and type of property in the first f
 
 ## Licenses and credentials, named exactly
 
-**State licensing.** Whether a property manager needs a real estate license depends on the state and the work. The California Department of Real Estate has said there is no "property manager" license in California, and that leasing, renting, or collecting rent for an owner for pay generally requires a real estate broker license, or a salesperson working under a broker. Owners managing their own property do not need one. Other states set their own rules, so check with your state's real estate commission, and if you hold a license, write it with the state: "Real Estate Salesperson License, California."
+**State licensing.** Whether a property manager needs a real estate license depends on the state and the work. The California Department of Real Estate has said there is no "property manager" license in California, and that leasing, renting, or collecting rent for an owner for pay requires a real estate broker license, or a salesperson working under a broker, unless a specific and narrow exemption applies. Owners managing their own property do not need one, and state law has other narrow exemptions, so if you are unsure which rule covers your job, ask your employer's broker of record or the Department of Real Estate. Other states set their own rules, so check with your state's real estate commission, and if you hold a license, write it with the state: "Real Estate Salesperson License, California."
 
 **Industry credentials.** Name each one with its issuer, the way the certificate prints it:
 
@@ -68,7 +68,7 @@ The second version tells the reader the size and type of property in the first f
 
 If you are working toward one, write it as in progress with an expected date: "CAM candidate, NAAEI, expected 06/2027."
 
-**Fair housing training.** The federal Fair Housing Act, enforced in part by the [Department of Justice](https://www.justice.gov/crt/fair-housing-act-1), bars housing discrimination based on race, color, religion, sex, national origin, familial status, and disability, and many states and cities add protections of their own. Write the training you completed, the provider, and the year. It matters most for anyone who shows units or screens applications.
+**Fair housing training.** The federal Fair Housing Act, enforced by the Department of Housing and Urban Development (HUD) and the [Department of Justice](https://www.justice.gov/crt/fair-housing-act-1), bars housing discrimination based on race, color, religion, sex, national origin, familial status, and disability, and many states and cities add protections of their own. Write the training you completed, the provider, and the year. It matters most for anyone who shows units or screens applications.
 
 ## Leasing agents and leasing consultants
 
@@ -82,13 +82,15 @@ Leasing is often the first job in property management, and the resume should lea
 
 Name your CALP if you have it, your fair housing training, and the software you used for leads and applications. If you are moving up to assistant manager, add the work you did beyond leasing: collections calls, move-in and move-out inspections, or covering the office when the manager was out.
 
+**Moving up from maintenance.** If you are a maintenance technician or supervisor aiming for an assistant manager role, lead with the numbers you already own: work orders closed per month, make-readies finished, preventive maintenance schedules, and the vendor work you scheduled or checked. Name your CAMT (Certificate for Apartment Maintenance Technicians) from NAAEI if you hold it, along with any trade licenses or certifications.
+
 ## Residential, commercial, and community associations
 
 The numbers change with the property type, so match them to the jobs you want:
 
 - **Commercial property** leans on square footage, lease administration, tenant improvement projects, and the yearly reconciliation of shared operating costs billed back to tenants.
 - **Community associations** lean on board meetings, annual budgets and reserves, vendor contracts, and the rules and violation process the board sets.
-- **Affordable housing** adds program compliance: income certifications, file audits, and inspections. Name the program and your role in it.
+- **Affordable housing** adds program compliance: income certifications, file audits, and inspections. Name the program, such as the Low-Income Housing Tax Credit program or HUD's project-based Section 8 program, and your role in it.
 
 If your experience is in hotels, our [hotel manager resume guide](/guides/hotel-manager-resume/) covers that path; hotels use different numbers, such as average daily rate and revenue per available room.
 

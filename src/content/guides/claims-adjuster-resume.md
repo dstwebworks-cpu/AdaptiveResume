@@ -53,7 +53,7 @@ Every adjusting job is a mix of a few choices, and the scope line names yours:
 - **How you were employed:** staff with one insurer, independent through an adjusting firm, with a third-party administrator, or as a public adjuster working for policyholders.
 - **Personal or commercial lines,** and the size of the losses you handled if it sets you apart.
 
-"Auto Desk Adjuster, bodily injury, staff" and "Independent Field Adjuster, residential property" are two different jobs, and the scope line lets a recruiter tell them apart without reading further.
+"Auto Desk Adjuster, bodily injury, staff" and "Independent Field Adjuster, residential property" are two different jobs, and the scope line lets a recruiter tell them apart without reading further. Your summary can pull it together in one line, for example: "Independent property field adjuster licensed in 4 states, with 3 catastrophe deployments and Xactimate estimates up to $150,000."
 
 ## The numbers a claims manager reads
 
@@ -69,9 +69,9 @@ Use only figures from your own reports, and keep everything about a claim itself
 
 ## Licenses, named exactly
 
-Adjuster licensing is set by each state. Many states require a license and some do not, and adjusters who travel often hold licenses in several states. If you live in a state that does not license adjusters, another state can issue you a designated home state license. The Texas Department of Insurance, for example, describes its [designated home state all-lines adjuster license](https://agate.tdi.texas.gov/agent/adjuster-designated-home-state-apply.html) as "the special non-resident license for individuals who are residents of non-licensing states."
+Adjuster licensing is set by each state. Many states require a license and some do not, and adjusters who travel often hold licenses in several states. If you live in a state that does not license adjusters, another state can issue you a designated home state license. The Texas Department of Insurance, for example, describes its [designated home state all-lines adjuster license](https://agate.tdi.texas.gov/agent/adjuster-designated-home-state-apply.html) as "the special non-resident license," and says only residents of states that don't license adjusters can apply.
 
-Write your licenses in one compact line so a recruiter can scan them: "Adjuster licenses: Texas (designated home state, all lines), Florida, Georgia, Louisiana." Many states also require continuing education to keep a license current, so check that each one is active before you list it.
+Write your licenses in one compact line so a recruiter can scan them: "Adjuster licenses: Texas (designated home state, all lines), Florida, Georgia, Louisiana." Many states also require continuing education to keep a license current, so check that each one is active before you list it. Public adjusters, who work for the policyholder, hold a separate public adjuster license in some states; Texas, for example, licenses public insurance adjusters under a separate chapter of its Insurance Code. Write that license by the name your state uses.
 
 ## Designations and training
 
@@ -83,7 +83,7 @@ If you also work in underwriting, our [underwriter resume guide](/guides/underwr
 
 ## Software and systems
 
-Name the estimating tools and claim systems you used every day, because many postings ask for a specific one. Property adjusters usually name Xactimate. Auto adjusters and appraisers often name estimating platforms such as CCC ONE, Mitchell, or Audatex. Claim systems such as Guidewire ClaimCenter are worth naming too. Add the tools you used in the field, such as drone or ladder-assist inspections, if they were part of the job.
+Name the estimating tools and claim systems you used every day, because many postings ask for a specific one. Property adjusters usually name Xactimate. Auto adjusters and appraisers often name estimating platforms such as CCC ONE, Mitchell, or Audatex. Claim systems such as Guidewire ClaimCenter are worth naming too. Add the tools you used in the field, such as drone inspections, or the ladder-assist services you scheduled, if they were part of the job.
 
 ## Moving into claims from another job
 

@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-02
-updatedDate: 2026-09-29
+updatedDate: 2026-10-28
 order: 62
 draft: false
 faq:
@@ -55,7 +55,7 @@ The second version answers what the first leaves a reader guessing: which progra
 
 **Designations, exactly as held.** For property-casualty, The Institutes issues the CPCU (Chartered Property Casualty Underwriter), the AU (Associate in Commercial Underwriting), and the AINS (Associate in Insurance). For life and health, LOMA issues the FLMI (Fellow, Life Management Institute) and ALMI (Associate, Life Management Institute), and the Academy of Life Underwriting confers the AALU (Associate, Academy of Life Underwriting) and FALU (Fellow, Academy of Life Underwriting). List the ones you've earned with the year. If you're mid-program, write "in progress" and the courses completed — that's honest and it still counts.
 
-Claims adjusters share a lot of vocabulary with underwriters, but the resume is a different one — it's built on claims handled, reserves, and settlement authority rather than accepting risk.
+Claims adjusters share a lot of vocabulary with underwriters, but the resume is a different one — it's built on claims handled, reserves, and settlement authority rather than accepting risk. Our [claims adjuster resume guide](/guides/claims-adjuster-resume/) covers that job.
 
 ## Mortgage underwriter resume
 

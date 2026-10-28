@@ -65,7 +65,7 @@ If you have covered several stations, say so plainly: "Cross-trained on grill, s
 - **Tickets per hour** on your station during peak service.
 - **Prep volume.** How much you prepped for a shift, such as cases of produce or pounds of protein.
 - **Food cost and waste,** only if the kitchen measured them and you had a part in the result.
-- **Health inspections.** A kitchen's inspection results, if you worked the line through them.
+- **Health inspections.** The kitchen's inspection results, if you worked the line through them, written as the kitchen's result, such as "Worked the line through 3 health inspections with no critical violations."
 - **Attendance.** Shifts covered, doubles worked, or a record with no missed shifts, if it is true.
 
 Write the numbers you know. A chef will believe "about 250 covers on Saturdays" from a cook who worked those Saturdays.
@@ -76,7 +76,7 @@ Write the numbers you know. A chef will believe "about 250 covers on Saturdays" 
 
 **Manager-level certification.** If you hold a food protection manager certificate, such as the ServSafe Food Protection Manager Certification, list it too. It can matter more as you move toward lead cook or sous chef, and our [restaurant general manager resume guide](/guides/restaurant-general-manager-resume/) covers how that certificate is written.
 
-**Allergen and other training.** Some places require allergen awareness training, and many kitchens train on it anyway. List any training you completed with the provider and the year.
+**Allergen and other training.** Some places require allergen awareness training (the restaurant general manager guide names two states that do), and many kitchens train on it anyway. List any training you completed with the provider and the year.
 
 **Daily safety work.** Temperature logs, labeling and dating, first in, first out stock rotation, and cleaning and sanitizing schedules are part of the job, and naming them shows a chef you already work that way.
 
@@ -108,6 +108,7 @@ The usual path is prep cook, line cook, lead line cook, then sous chef. To show 
 - **Use the title your kitchen used,** such as Line Cook, Grill Cook, or Lead Line Cook, and name the stations right after it.
 - **Name each restaurant with its city and its format.**
 - **Keep short jobs honest.** Restaurant jobs often run a few months; list them with real dates, and group seasonal or event work under one heading if there are many.
+- **Say when you can work** in your summary or header if it helps, such as "Available nights, weekends, and holidays." Kitchens schedule around the busiest shifts, and a chef filling a Saturday line looks for it.
 - **Keep the layout plain,** with standard headings, so screening software reads every line.
 
 ## Line cook resume bullets you can adapt — keep only what's true
