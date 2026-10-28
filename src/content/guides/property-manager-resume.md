@@ -61,7 +61,7 @@ The second version tells the reader the size and type of property in the first f
 
 **Industry credentials.** Name each one with its issuer, the way the certificate prints it:
 
-- **CALP (Certified Apartment Leasing Professional),** from the National Apartment Association Education Institute (NAAEI). The [CALP requirements](https://naahq.org/calp) are at least six months of on-site leasing experience, seven courses, and an exam within six months of becoming a candidate.
+- **CALP (Certified Apartment Leasing Professional),** from the National Apartment Association Education Institute (NAAEI). The [CALP requirements](https://naahq.org/naaei/credentials/calp) are at least six months of on-site leasing experience, seven courses, and an exam within six months of becoming a candidate.
 - **CAM (Certified Apartment Manager),** also from NAAEI. It requires at least 12 months of on-site property management experience, 40 hours of coursework, and an exam passed within six months.
 - **CPM (Certified Property Manager),** from the Institute of Real Estate Management (IREM). It requires 36 months of qualifying real estate management experience, eight courses, and a two-part capstone that includes the certification exam.
 - **CMCA (Certified Manager of Community Associations),** from the Community Association Managers International Certification Board (CAMICB), for managers of homeowners and condominium associations.
