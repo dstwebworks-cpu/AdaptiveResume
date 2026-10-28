@@ -359,6 +359,14 @@ export const PAIRS = {
     before: "Line cook. Cooked food and kept station clean.",
     after: "Grill and Saute Cook, 180-seat steakhouse: ran the grill on 300-cover Friday and Saturday nights, held ticket times under 12 minutes, built the daily prep list for 2 stations, and trained 3 new cooks.",
   },
+  "executive-chef-resume": {
+    before: "Executive Chef responsible for menu development, staff supervision, ordering, and cost control.",
+    after: "Executive Chef, 220-seat restaurant with private dining: cut food cost from 34% to 29% of food sales in 9 months, rebuilt the menu four times a year with seasonal sourcing, led a kitchen team of 18, and held a 96 or better on every county health inspection.",
+  },
+  "dental-hygienist-resume": {
+    before: "Dental hygienist responsible for cleanings, X-rays, and patient education.",
+    after: "Registered Dental Hygienist (RDH), Ohio. General practice, 3 dentists: see 8 to 9 patients a day, including periodontal maintenance and scaling and root planing; take and review full-mouth and bitewing radiographs; and kept a 92% reappointment rate across 2025.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",

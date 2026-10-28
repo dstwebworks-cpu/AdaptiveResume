@@ -42,6 +42,7 @@
       "pharmacy-technician-resume",
       "phlebotomist-resume",
       "dental-assistant-resume",
+      "dental-hygienist-resume",
       "sterile-processing-technician-resume"
     ]
   },
@@ -153,7 +154,8 @@
     "guides": [
       "hotel-manager-resume",
       "restaurant-general-manager-resume",
-      "line-cook-resume"
+      "line-cook-resume",
+      "executive-chef-resume"
     ]
   },
   {
