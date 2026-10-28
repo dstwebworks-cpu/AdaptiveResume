@@ -46,7 +46,7 @@ The second version names the credential the way the certificate prints it, keeps
 
 ## Write what your credential actually is
 
-**"GED" is the name most readers know.** The GED test has four subjects: Mathematical Reasoning, Reasoning Through Language Arts, Science, and Social Studies. Passing all four, and meeting your state's age and residency rules, earns a high school equivalency credential, and the diploma or certificate is issued under your state's rules.
+**"GED" is the name most readers know.** The GED test has four subjects: Mathematical Reasoning, Reasoning Through Language Arts, Science, and Social Studies. Passing all four, and meeting your state's age and residency rules, earns a high school equivalency credential, and you receive a diploma or certificate through your state's program.
 
 **Your state may use its own name.** California, for example, issues the California High School Equivalency Certificate. If your document has a name like that, you can write it out and add "(GED)" after it, which covers both the official wording and the term a recruiter searches for.
 
