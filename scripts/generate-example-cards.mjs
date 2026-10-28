@@ -347,6 +347,10 @@ export const PAIRS = {
     before: "GED.",
     after: "Education and Training: California High School Equivalency Certificate (GED). 12 college credits toward an associate degree in business, [Community College]. Commercial Driver's License, Class A.",
   },
+  "property-manager-resume": {
+    before: "Property Manager responsible for leasing, rent collection, and maintenance.",
+    after: "Property Manager, 312-unit garden community: raised occupancy from 91% to 96% in 10 months, held delinquency under 2% of monthly rent, renewed 58% of expiring leases, and ran a $1.4M operating budget in Yardi.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",
