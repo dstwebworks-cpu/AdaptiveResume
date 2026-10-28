@@ -351,6 +351,10 @@ export const PAIRS = {
     before: "Property Manager responsible for leasing, rent collection, and maintenance.",
     after: "Property Manager, 312-unit garden community: raised occupancy from 91% to 96% in 10 months, held delinquency under 2% of monthly rent, renewed 58% of expiring leases, and ran a $1.4M operating budget in Yardi.",
   },
+  "claims-adjuster-resume": {
+    before: "Claims Adjuster handling property claims from first notice of loss to settlement.",
+    after: "Property Field Adjuster (staff), homeowners claims: carried 110 to 130 open files, settled within $25,000 authority, held a 21-day average cycle time with estimates in Xactimate, and worked 2 catastrophe deployments after hail and wind events.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",

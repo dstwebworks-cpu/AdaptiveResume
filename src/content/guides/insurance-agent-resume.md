@@ -1,10 +1,10 @@
 ---
 title: "Insurance Agent Resume: Licenses, Book of Business, and Real Scope"
-description: "Insurance hiring reads for three things first: the lines you are licensed to sell, the size and health of the book you handle, and the systems you quote and service in. Here's how to write yours honestly — agents, producers, account managers, and adjusters covered."
+description: "Insurance hiring reads for three things first: the lines you are licensed to sell, the size and health of the book you handle, and the systems you quote and service in. Here's how to write yours honestly — agents, producers, and account managers covered."
 seoTitle: "Insurance Agent Resume: Licenses, Book & Skills"
 seoDescription: "Insurance agent resume guide: producer license by line of authority, CPCU, CLU and CIC placement, book and retention written honestly, with a worked example."
 segment: "job-seekers"
-audience: "Captive and independent insurance agents and producers in property and casualty and life and health, agency CSRs (customer service representatives) and account managers, and claims adjusters"
+audience: "Captive and independent insurance agents and producers in property and casualty and life and health, and agency CSRs (customer service representatives) and account managers"
 keyword: "insurance agent resume"
 giveaway:
   name: "Role Skills Checklist"
@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-10-28
 order: 77
 draft: false
 faq:
@@ -77,9 +77,7 @@ List exactly what you hold, with real status. "CPCU — [N] of 8 courses complet
 
 ## If you're a claims adjuster
 
-A claims adjuster resume is read for different specifics. Give it its own scope line: the claim types you handle (property, auto, liability, workers' compensation), whether you are a staff, independent, or public adjuster, your settlement authority, pending claim count, and cycle time. "Property field adjuster; [N] open claims, [$X] settlement authority, [N]-day average cycle time; estimates in Xactimate" is the shape.
-
-On credentials: many states license adjusters, some don't, and the rules vary — write the license you actually hold ("[State] adjuster license"), and if it's a designated home state license because your own state doesn't license adjusters, say which state. The **AIC** (Associate in Claims) from The Institutes is the field's designation. Name your estimating platform — Xactimate (Verisk) for property — and any catastrophe deployments. If you underwrite instead of adjust, our [underwriter resume guide](/guides/underwriter-resume/) covers that job separately.
+A claims adjuster resume is built on different specifics: the claim types you handle, desk or field work, settlement authority, caseload, cycle time, and state adjuster licenses. Our [claims adjuster resume guide](/guides/claims-adjuster-resume/) covers it in full, and if you underwrite instead, our [underwriter resume guide](/guides/underwriter-resume/) covers that job separately.
 
 ## Format notes
 
@@ -97,7 +95,6 @@ Otherwise: reverse chronological, single column, standard headings, real text ra
 - "Appointed with [N] carriers; placed [commercial/personal] accounts in [standard/E&S (excess and surplus lines)] markets"
 - "Cross-sold [N] [life/umbrella/commercial auto] policies into existing accounts; raised policies per household to [N]"
 - "Serviced [N] accounts: renewals, endorsements, certificates of insurance, claims intake; [Applied Epic / AMS360 / HawkSoft]"
-- "Adjusted [N] [property/auto/liability] claims with [$X] settlement authority; [N]-day average cycle time in [Xactimate]"
 
 Each bullet is a frame, not a claim. If a line isn't true of your work, it doesn't go on your page — an interviewer's first follow-up question will find it.
 
