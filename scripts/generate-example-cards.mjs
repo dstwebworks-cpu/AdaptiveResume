@@ -343,6 +343,10 @@ export const PAIRS = {
     before: "Self-employed, 2019 - 2024. Did freelance work for various clients.",
     after: "Freelance Bookkeeper (Self-employed), 03/2019 - 06/2024. Kept the books for 11 small-business clients in QuickBooks Online, closed each client's month within 5 business days, and prepared year-end packets for their tax preparers.",
   },
+  "how-to-list-ged-on-resume": {
+    before: "GED.",
+    after: "Education and Training: California High School Equivalency Certificate (GED). 12 college credits toward an associate degree in business, [Community College]. Commercial Driver's License, Class A.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",
