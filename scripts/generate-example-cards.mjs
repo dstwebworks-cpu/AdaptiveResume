@@ -355,6 +355,10 @@ export const PAIRS = {
     before: "Claims Adjuster handling property claims from first notice of loss to settlement.",
     after: "Property Field Adjuster (staff), homeowners claims: carried 110 to 130 open files, settled within $25,000 authority, held a 21-day average cycle time with estimates in Xactimate, and worked 2 catastrophe deployments after hail and wind events.",
   },
+  "line-cook-resume": {
+    before: "Line cook. Cooked food and kept station clean.",
+    after: "Grill and Saute Cook, 180-seat steakhouse: ran the grill on 300-cover Friday and Saturday nights, held ticket times under 12 minutes, built the daily prep list for 2 stations, and trained 3 new cooks.",
+  },
   "bls-and-cpr-on-resume": {
     before: "CPR/BLS certified.",
     after: "Basic Life Support (BLS) Provider, American Heart Association, expires [06/2027]. Adult and Pediatric First Aid/CPR/AED, American Red Cross, expires [03/2027].",

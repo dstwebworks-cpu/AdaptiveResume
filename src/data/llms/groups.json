@@ -130,7 +130,6 @@
       "office-manager-resume",
       "project-manager-resume",
       "sales-manager-resume",
-      "hotel-manager-resume",
       "bank-teller-resume",
       "underwriter-resume",
       "financial-advisor-resume",
@@ -144,9 +143,17 @@
       "financial-analyst-resume",
       "loan-processor-resume",
       "operations-manager-resume",
-      "restaurant-general-manager-resume",
       "property-manager-resume",
       "claims-adjuster-resume"
+    ]
+  },
+  {
+    "topic": "Restaurants, hotels & food service",
+    "pages": [],
+    "guides": [
+      "hotel-manager-resume",
+      "restaurant-general-manager-resume",
+      "line-cook-resume"
     ]
   },
   {
