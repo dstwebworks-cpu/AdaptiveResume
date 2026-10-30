@@ -41,7 +41,7 @@ The good news is that warehouse work is measured closely, and in many buildings 
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the systems, equipment, and safety training your work already involved, each added only after you confirm it's true.*
 
-The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. Use the numbers you know from your own shifts, such as your usual pick rate, and leave off any figure you would have to guess at.
+The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. Use the numbers you know from your own shifts, such as your usual pick rate, and leave off any figure you could not explain in an interview.
 
 ## The numbers a warehouse manager reads
 

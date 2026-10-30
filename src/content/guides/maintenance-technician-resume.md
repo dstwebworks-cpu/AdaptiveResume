@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-05
+updatedDate: 2026-10-30
 order: 106
 draft: false
 faq:
@@ -52,7 +53,7 @@ The second version tells the manager the setting, the equipment, the standard, t
 
 **Mechanical, hydraulic, and pneumatic work.** Name the mechanical work you do, such as bearings, belts, chains, gearboxes, alignment, hydraulic and pneumatic systems, welding and fabrication, and the precision tools you use.
 
-**The CMMS and the numbers.** Name the computerized maintenance management system (Fiix, MaintainX, UpKeep, SAP Plant Maintenance, Maximo, eMaint) and the numbers it tracked: preventive maintenance completion rate, unplanned downtime, mean time to repair, work orders closed per week. If you built or improved a preventive maintenance schedule, that is a project worth its own line.
+**The CMMS and the numbers.** Name the computerized maintenance management system (Fiix, MaintainX, UpKeep, SAP Plant Maintenance, Maximo, eMaint) and the numbers you were measured on: preventive maintenance completion rate, unplanned downtime, mean time to repair, work orders closed per week. If you built or improved a preventive maintenance schedule, that is a project worth its own line.
 
 **Refrigeration and HVAC, if you cover it.** EPA Section 608 certification (Type I, II, III, or Universal) is required for work that could release refrigerant from stationary refrigeration and air conditioning that uses regulated refrigerants, including attaching gauges or adding refrigerant, and employers verify it. Ammonia and CO2 systems fall outside Section 608, and ammonia refrigeration in food plants has its own training programs; name the one you completed.
 
@@ -60,7 +61,7 @@ The second version tells the manager the setting, the equipment, the standard, t
 
 **Predictive and condition-based maintenance** is a different skill from preventive maintenance, and plants that run it say so in the posting. If you have done it, name the method and the tool: vibration analysis with a route-based data collector, infrared thermography on electrical panels and bearings, oil sampling and analysis, or ultrasonic leak and bearing detection. Write what you found with it, such as "caught [N] bearing failures before they stopped the line," and list any formal level you hold, such as a vibration analyst category under ISO 18436-2, with the certifying body.
 
-**Mean time between failures and mean time to repair** are the two reliability numbers a maintenance manager reports upward. MTBF is operating time divided by the number of failures; MTTR is total repair time divided by the number of repairs. If your CMMS calculated them, use its figures. If you cut the repair time on a machine by standardizing the fix, stocking the right spares, or writing a troubleshooting guide, that is a project worth its own line, and the before-and-after numbers are the proof.
+**Mean time between failures and mean time to repair** are the two reliability numbers a maintenance manager reports upward. MTBF is operating time divided by the number of failures; MTTR is total repair time divided by the number of repairs. If your plant gave you these figures, use them rather than your own math. If you cut the repair time on a machine by standardizing the fix, stocking the right spares, or writing a troubleshooting guide, that is a project worth its own line, and the before-and-after numbers are the proof.
 
 ## Credentials, exactly as held
 

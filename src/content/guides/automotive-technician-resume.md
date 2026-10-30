@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-05
+updatedDate: 2026-10-30
 order: 105
 draft: false
 faq:
@@ -40,7 +41,7 @@ A strong technician resume writes the certifications exactly, puts numbers on pr
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the certifications, tools, and safety training your work already involved, each added only after you confirm it's true.*
 
-The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Every number in a line like this is one you can find on your pay stubs, your repair orders, or your shop's management system.
+The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Your pay stubs show your flat-rate hours, and the rest of the numbers in a line like this are ones you know from your own work and can explain. Never copy repair orders or anything out of a shop's system.
 
 ## Certifications, by their exact names
 

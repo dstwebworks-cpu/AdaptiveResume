@@ -61,11 +61,11 @@ The second version gives the reader the crew, the equipment, the output, two imp
 
 If your plant never handed you a scorecard, most of these numbers can be rebuilt from what you saw and did every shift. Rebuild them honestly, and label an estimate as an estimate.
 
-**Overall equipment effectiveness** is availability times performance times quality: the share of planned time the line actually ran, how close it ran to its ideal speed while it was running, and the share of output that was good the first time. A line that ran 90% of planned time, at 85% of ideal speed, with 97% good parts, is at about 74% OEE. If your plant reported OEE, use its figure rather than your own math.
+**Overall equipment effectiveness** is availability times performance times quality: the share of planned time the line actually ran, how close it ran to its ideal speed while it was running, and the share of output that was good the first time. A line that ran 90% of planned time, at 85% of ideal speed, with 97% good parts, is at about 74% OEE. If your plant gave you an OEE figure, use it rather than your own math.
 
 **Recordable incident rate** comes from OSHA's formula: recordable injuries and illnesses times 200,000, divided by the hours your crew worked. The 200,000 stands for 100 full-time workers over a year, which is why the rate can be compared across plants of different sizes. If your safety department reported a rate for your shift, use that one.
 
-**Scrap rate and first-pass yield** are scrapped or reworked units divided by total units produced, and the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
+**Scrap rate** is scrapped or reworked units divided by total units produced, and **first-pass yield** is the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
 
 ## Certifications and training, exactly as held
 

@@ -22,14 +22,14 @@ faq:
   - q: "How do I move from agency to corporate — does agency experience count against me?"
     a: "No — it's evidence of volume and pace, and corporate teams hire out of agencies constantly. Write the agency work truthfully: desk type, industries, placements, fee or submittal metrics. Then let bullets show the parts corporate cares about — hiring-manager relationships, quality of hire, process ownership — not just the placement count."
   - q: "My company never tracked my metrics. What do I put?"
-    a: "Reconstruct honestly from what you know: your ATS history, offer letters you moved, your own tracker. Approximations marked as approximations (\"~[N] hires/year\") are fine. What's not fine is inventing a number — a hiring leader who runs the same reports can smell an invented offer-accept rate in one question."
+    a: "Reconstruct honestly from what you know of your own desk: the reqs you carried, the hires you closed, and the offers you remember. Approximations marked as approximations (\"~[N] hires/year\") are fine. What's not fine is inventing a number — a hiring leader who runs the same reports can smell an invented offer-accept rate in one question."
   - q: "Should my resume say recruiter or talent acquisition?"
     a: "Keep your real title, and use the posting's language in your summary and skills lines. If your title was Recruiter and the target posting says Talent Acquisition Partner, a summary line like \"full-cycle recruiter (talent acquisition) across [functions]\" honestly covers both vocabularies without inflating anything."
 ---
 
 A recruiter resume has the strangest audience in hiring: it gets screened by another recruiter, who writes these documents for a living and knows precisely which phrases carry no information. "Partnered with hiring managers to identify top talent" doesn't survive that reader. Req load, fill numbers, and named tools do.
 
-The good news is that recruiting is one of the few professions where the honest currency is already on your desk. You track requisitions carried, time-to-fill, offer-accept rate, and hires per quarter for your own reporting — the same numbers belong on the resume, stated truthfully, with the setting that gives them context.
+The good news is that recruiting is one of the few professions where the honest currency is already on your desk. You know your requisitions carried, time-to-fill, offer-accept rate, and hires per quarter, and the same numbers belong on the resume, stated truthfully, with the setting that gives them context.
 
 ## Lead with the numbers you already track
 

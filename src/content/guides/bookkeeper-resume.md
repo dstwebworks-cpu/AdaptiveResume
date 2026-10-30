@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 79
 draft: false
 faq:
@@ -107,4 +107,4 @@ One honesty note on job codes: [O*NET profiles this work under Bookkeeping, Acco
 
 The highest-risk lines are the ones that overstate scope — an AP role written as full-charge, a close you assisted with written as one you owned, or a certification listed at the wrong level. Bookkeeping is a trust job, and references get called.
 
-The **Role Skills Checklist** below helps you inventory what your work with the books actually proves, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real systems, volumes, and filings, propose the lines and credentials that history supports — each one offered as a question, not a decision made for you — and ask you to confirm every item before it appears. We never add a credential, a system, or a filing you didn't tell us about.
+The **Role Skills Checklist** below helps you inventory what your work with the books actually proves, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from the systems you used, your volumes, and the filings you handled, propose the lines and credentials that history supports — each one offered as a question, not a decision made for you — and ask you to confirm every item before it appears. We never add a credential, a system, or a filing you didn't tell us about.

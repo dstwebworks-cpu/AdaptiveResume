@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-13
+updatedDate: 2026-10-30
 order: 118
 draft: false
 faq:
@@ -28,7 +29,7 @@ faq:
 
 A dispatcher resume is often read by someone who has done the job, such as a communications supervisor or a fleet manager. They are looking for proof that you can handle volume without losing accuracy, that you know the systems they run, and that you hold the training their center or their carrier requires. A resume that says "responsible for answering calls and dispatching units" tells them none of that.
 
-Dispatch work is measured closely. At a 911 center, calls are usually timed and radio traffic recorded, and at a carrier, loads are tracked in the system. That means the numbers for a strong resume usually already exist. Put them on the page.
+Dispatch work is measured closely, so you likely know your own numbers well: the calls you answered on a shift, the loads you covered in a week, and how often you hit the center's or the carrier's targets. Put them on the page.
 
 ## Two jobs share the title
 

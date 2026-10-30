@@ -31,7 +31,7 @@ faq:
 
 A line cook is hired on a handful of things a chef can picture: which stations you can run, how many covers you can handle on a busy night, how fast your tickets go out, whether you keep a clean and safe station, and whether you show up. A resume that says "cooked food and kept station clean" leaves every one of those questions open.
 
-The fix is to name your stations, put the kitchen's own numbers on the page, and list your food safety training the way your card prints it.
+The fix is to name your stations, put the numbers from your own shifts on the page, and list your food safety training the way your card prints it.
 
 ## Lead with your stations and your volume
 
@@ -62,7 +62,7 @@ If you have covered several stations, say so plainly: "Cross-trained on grill, s
 ## The numbers a chef reads
 
 - **Seats and covers.** The size of the dining room and the covers on your busiest nights.
-- **Ticket times.** If the kitchen display system tracked them, your average or your target on a rush.
+- **Ticket times.** Your usual ticket time, or your target on a rush, if the kitchen display showed it during service.
 - **Tickets per hour** on your station during peak service.
 - **Prep volume.** How much you prepped for a shift, such as cases of produce or pounds of protein.
 - **Food cost and waste,** only if the kitchen measured them and you had a part in the result.

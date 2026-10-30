@@ -29,7 +29,7 @@ faq:
 
 A loan processor resume is read by a processing manager, an operations lead, or a branch manager who needs files to close on time without coming back from underwriting covered in conditions. They want to know how big a pipeline you can carry, how fast you get a file to clear to close, how clean the file is when it gets there, and which systems you already know. A resume that says "detail-oriented processor responsible for processing loan files" answers none of those questions.
 
-Processing is measured closely. Your loan origination system records the milestones on each file, and many processing managers track pipelines on a regular schedule. Those numbers belong on the page.
+Processing is measured closely, so you likely know your own pipeline, your closings, and your turn times well. Those numbers belong on the page.
 
 ## Lead with the pipeline, the speed, and the systems
 

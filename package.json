@@ -10,7 +10,7 @@
     "astro": "astro",
     "test": "playwright test",
     "test:mobile": "playwright test",
-    "prebuild": "node scripts/american-english-check.mjs && node scripts/page-dates-check.mjs",
+    "prebuild": "node scripts/american-english-check.mjs && node scripts/page-dates-check.mjs && node scripts/severance-check.mjs",
     "check:english": "node scripts/american-english-check.mjs",
     "check:dates": "node scripts/page-dates-check.mjs",
     "postbuild": "node scripts/meta-length-check.mjs",

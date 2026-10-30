@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 31
 draft: false
 faq:
@@ -50,7 +50,7 @@ Twelve seconds in, a hiring manager knows your load, your tools, and your level.
 
 ## Numbers a help desk resume can actually claim
 
-You work in one of the most measured jobs there is — the ticketing system counts everything. Honest sources for figures: your daily or weekly ticket volume, your team's SLA targets and how you tracked against them, first-call-resolution if your queue measured it, users supported, devices imaged or deployed, and knowledge-base articles you wrote. If your shop never showed you a dashboard, estimate from what you know — tickets per shift times shifts per week — and mark it approximate. Never quote a precise percentage you never saw.
+You work in one of the most measured jobs there is, so you likely know your own numbers well. Numbers you can honestly claim include your daily or weekly ticket volume, your team's SLA targets and how you did against them, first-call resolution if your queue measured it and you saw the figure, users supported, devices imaged or deployed, and knowledge-base articles you wrote. If your shop never showed you a dashboard, estimate from what you know — tickets per shift times shifts per week — and mark it approximate. Never quote a precise percentage you never saw.
 
 ## The cert block: exactly as held
 

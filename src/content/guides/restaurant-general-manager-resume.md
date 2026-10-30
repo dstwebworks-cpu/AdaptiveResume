@@ -111,7 +111,7 @@ Otherwise: reverse chronological, single column, standard headings, real text ra
 - "Grew catering and delivery to [N]% of sales through [platform]; managed [N] third-party delivery partners"
 - "Ran [Toast/Aloha/Simphony] POS and [7shifts/HotSchedules]; led the rollout of [system] across the unit"
 
-Each bullet is a frame, not a claim. If a line isn't true of your unit, it doesn't go on your page — the P&L will find it.
+Each bullet is a frame, not a claim. If a line isn't true of your unit, it doesn't go on your page — a reference check will find it.
 
 ## What screening software looks for on a restaurant general manager resume
 

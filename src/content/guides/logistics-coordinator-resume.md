@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-13
+updatedDate: 2026-10-30
 order: 119
 draft: false
 faq:
@@ -28,7 +29,7 @@ faq:
 
 A logistics coordinator resume is read by a logistics manager, a supply chain manager, or a recruiter for a manufacturer, distributor, retailer, or third-party logistics company. They are looking for proof that you can keep freight moving: how many shipments you handled, how often they arrived on time, what they cost, and whether the paperwork was right the first time. A resume that says "coordinated shipments and communicated with carriers" gives them none of it.
 
-Much logistics work runs on systems that record each step, from the booking to the delivery receipt. The numbers for a strong resume are usually already in those systems. Put them on the page.
+Much logistics work is measured step by step, from the booking to the delivery receipt, so you likely know your own numbers well. Put them on the page.
 
 ## Lead with volume, service, and cost
 

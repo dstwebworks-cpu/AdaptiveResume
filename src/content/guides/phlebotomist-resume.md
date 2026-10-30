@@ -98,7 +98,7 @@ Otherwise: reverse chronological, single column, standard headings, real text ra
 - "Accessioned, centrifuged, and aliquoted specimens in [Epic Beaker / Sunquest]; ran point-of-care [glucose] testing"
 - "Completed a [N]-hour phlebotomy program at [school] with [N] documented venipunctures and [N] capillary sticks at [site]"
 
-Each bullet is a frame, not a claim. If a line isn't true of your draws, it doesn't go on the page — the LIS logs every accession under your ID, and your lead can pull the quality report.
+Each bullet is a frame, not a claim. If a line isn't true of your draws, it doesn't go on the page — a reference check will find it.
 
 ## What screening software looks for on a phlebotomist resume
 
