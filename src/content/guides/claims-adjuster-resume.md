@@ -13,13 +13,14 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-28
+updatedDate: 2026-10-30
 order: 126
 draft: false
 faq:
   - q: "Do I need a license to be a claims adjuster?"
     a: "It depends on the state. Many states license adjusters and some do not, and adjusters who work across states often hold several licenses. People who live in a state that does not license adjusters can get a designated home state license from another state; Texas, for example, offers one only to residents of states that do not license adjusters. Write each license you hold with its state."
   - q: "What numbers belong on a claims adjuster resume?"
-    a: "Your open caseload, the claims you close in a typical month, your settlement authority, your average cycle time, and any file audit or quality scores your employer tracks. Catastrophe deployments count too, with the event and the number of claims you handled. Use the figures from your own reports, and never include a claimant's name or a claim number."
+    a: "Your open caseload, the claims you close in a typical month, your settlement authority, your average cycle time, and any file audit or quality scores your employer tracks. Catastrophe deployments count too, with the event and the number of claims you handled. Use figures you know from your own work, never reports copied out of an employer's systems, and never include a claimant's name or a claim number."
   - q: "How do I show I'm ready for claims if I've never adjusted?"
     a: "Lead with the work that overlaps: high-volume customer service, construction or roofing estimates, auto repair, or careful documentation in another job. Add the adjuster license you hold or are studying for, and any estimating software training you have finished. A summary line that names the claim type you want ties it together."
   - q: "Should I list catastrophe deployments?"
@@ -65,7 +66,7 @@ Every adjusting job is a mix of a few choices, and the scope line names yours:
 - **Recoveries.** Subrogation or salvage recoveries, if you handled them.
 - **Catastrophe work.** Each deployment, with the event type, the dates, and the claims you handled.
 
-Use only figures from your own reports, and keep everything about a claim itself private: no claimant names, claim numbers, or details from a file.
+Use only figures you know from your own work, never reports copied out of an employer's systems, and keep everything about a claim itself private: no claimant names, claim numbers, or details from a file.
 
 ## Licenses, named exactly
 

@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-09
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 92
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each restaurant, give one line another operator would recognize instantly,
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-An operator reading the second version knows in one line what concept you ran, how much it did, whether prime cost was under control, which POS you can train on, and that you built people rather than just scheduled them. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your P&L and POS reports, not from memory — an operator will ask to talk through the numbers.
+An operator reading the second version knows in one line what concept you ran, how much it did, whether prime cost was under control, which POS you can train on, and that you built people rather than just scheduled them. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets only with numbers you can explain, because an operator will ask to talk through them. Use figures you know from your own work, such as the results reviewed with you each month, and never copy reports out of an employer's systems.
 
 ## Food safety and alcohol credentials, exactly as held
 

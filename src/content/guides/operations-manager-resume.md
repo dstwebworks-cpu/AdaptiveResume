@@ -13,14 +13,14 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-09
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 90
 draft: false
 faq:
   - q: "Do I need a certification to be an operations manager?"
     a: "No. Operations manager is not a licensed role, and many people in it hold no certification at all. What gets read first is scope: the budget or P&L you owned, the headcount, the sites, and the throughput, safety, and cost numbers that moved while you ran them. If you hold something real — an APICS CPIM or CSCP through ASCM, an ASQ Six Sigma belt, a PMP, an OSHA 30 card — list it with its true status and date. If your Green Belt came from a company program, write it that way: 'Green Belt, [company] program, [year]'."
   - q: "Can I just use an operations manager resume sample and change the numbers?"
-    a: "Use a sample for shape, never for substance. The lines that carry an operations resume are the ones a reference check or a plant tour would confirm: your real budget, your real headcount, your real OTIF or OEE or TRIR, the system you actually ran. A sample's numbers belong to someone else's building. Fill the brackets from your own reports — the monthly ops review, the P&L pack, the safety dashboard — and leave off any line you can't back up."
+    a: "Use a sample for shape, never for substance. The lines that carry an operations resume are the ones a reference check or a plant tour would confirm: your real budget, your real headcount, your real OTIF or OEE or TRIR, the system you actually ran. A sample's numbers belong to someone else's building. Fill the brackets with figures you know from your own work, such as the numbers reviewed with you in the monthly ops review, and leave off any line you can't back up. Never copy reports out of an employer's systems."
   - q: "I never owned the full P&L — just a cost center budget. What do I write?"
     a: "Write exactly that, with the number. 'Owned $[N]M annual operating budget (labor, supplies, freight)' is a strong, honest line. 'Contributed to a $[N]M P&L' or 'managed labor spend of $[N]M within a $[N]M site P&L' is also honest and still gives a reader the scale of the operation. What doesn't work is writing 'P&L responsibility' for a budget you tracked but didn't own — a hiring manager will ask what was in it, and the answer will show."
   - q: "I'm an assistant operations manager or a supervisor. How do I write scope I didn't fully own?"
@@ -43,7 +43,7 @@ Under each role, give one line another operations manager would recognize instan
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-Read the second version the way an ops director reads it: budget, people, shifts, volume, service level, safety, systems — every question they would have asked in the first five minutes, answered before the bullets start. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your own reports, not memory — a hiring manager can and will ask how you got each number.
+Read the second version the way an ops director reads it: budget, people, shifts, volume, service level, safety, systems — every question they would have asked in the first five minutes, answered before the bullets start. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets only with numbers you can explain, because a hiring manager can and will ask how you got each one.
 
 ## Office manager, supervisor, or operations manager: draw the line once
 

@@ -13,11 +13,12 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-28
+updatedDate: 2026-10-30
 order: 125
 draft: false
 faq:
   - q: "What numbers belong on a property manager resume?"
-    a: "Start with the size of what you ran: units or doors, square feet for commercial space, and the type of property. Then add the results an owner tracks: occupancy, collections or delinquency, lease renewals, how long a unit sat between residents, work orders, and the budget you managed. Use the figures from your own reports, and write the part you actually drove."
+    a: "Start with the size of what you ran: units or doors, square feet for commercial space, and the type of property. Then add the results an owner tracks: occupancy, collections or delinquency, lease renewals, how long a unit sat between residents, work orders, and the budget you managed. Use figures you know from your own work, never reports copied out of an employer's systems, and write the part you actually drove."
   - q: "Do I need a real estate license to be a property manager?"
     a: "It depends on your state and on what you do. In California, for example, the state's real estate regulator has said there is no separate property manager license, and that leasing or collecting rent for an owner for pay requires a real estate broker license or a salesperson working under a broker, unless a narrow exemption applies. If you are not sure which rule covers your job, ask your employer's broker of record or the California Department of Real Estate. Other states set their own rules, so check with your state's real estate commission. If you hold a license, name it and the state on your resume."
   - q: "How is a leasing agent resume different from a property manager resume?"
