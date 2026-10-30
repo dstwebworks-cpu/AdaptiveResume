@@ -62,7 +62,7 @@ If you have covered several stations, say so plainly: "Cross-trained on grill, s
 ## The numbers a chef reads
 
 - **Seats and covers.** The size of the dining room and the covers on your busiest nights.
-- **Ticket times.** Your usual ticket time, or your target on a rush, if the kitchen display showed it during service.
+- **Ticket times.** Give your usual ticket time, or your target on a rush, if the kitchen display showed it during service.
 - **Tickets per hour** on your station during peak service.
 - **Prep volume.** How much you prepped for a shift, such as cases of produce or pounds of protein.
 - **Food cost and waste,** only if the kitchen measured them and you had a part in the result.

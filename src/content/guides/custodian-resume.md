@@ -13,13 +13,14 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-13
+updatedDate: 2026-10-30
 order: 122
 draft: false
 faq:
   - q: "What is the difference between a custodian and a janitor on a resume?"
     a: "There is often very little difference, and many employers use the titles for the same job. Use the title your employer used, and if the posting uses the other word, mention it once in your summary. Schools and public agencies often say custodian, and their jobs can include building checks, opening and closing, and minor repairs, so list those duties if you did them."
   - q: "How do I figure out how many square feet I cleaned?"
-    a: "Ask your supervisor or look at your area assignment. Many cleaning departments assign each custodian a set area by square footage or by number of rooms. If you cannot get the figure, count what you can: classrooms, restrooms, floors, or offices, and write that instead."
+    a: "Start with what you were told when you were given your area, because many cleaning departments assign each custodian a set area by square footage or by number of rooms. If you do not know the figure, count what you can: classrooms, restrooms, floors, or offices, and write that instead."
   - q: "Do I need a certification to be a custodian?"
     a: "Usually you do not need one, but training counts. Under OSHA's rules, a covered employer had to train you on the hazardous chemicals you used. If cleaning up blood was part of your job, that employer also had to train you on bloodborne pathogens every year. List that training with the year. Industry courses on infection prevention and floor care are worth listing too."
   - q: "I'm applying for a lead custodian job. What should I add?"
@@ -28,7 +29,7 @@ faq:
 
 A custodian resume is read by a building services supervisor, a school district's facilities office, or a contractor's site manager. They are looking for proof that you can keep a building clean, safe, and ready on schedule: how big and what kind of building you kept, which floor machines and chemicals you can handle, what training you completed, and whether you show up every shift. A resume that says "responsible for cleaning and general maintenance" tells them none of that.
 
-Custodial work runs on area assignments, inspection checklists, and work orders. The numbers for a strong resume are usually in those. Put them on the page.
+Custodial work is measured by area, inspections, and work orders, so you likely know your own numbers well: the rooms or square feet you covered, how your areas did on inspections, and the work orders you handled. Put them on the page.
 
 ## Lead with your building, your floors, and your record
 

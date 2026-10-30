@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-13
+updatedDate: 2026-10-30
 order: 121
 draft: false
 faq:
@@ -28,7 +29,7 @@ faq:
 
 A landscaping resume is read by a crew leader, a branch or account manager, or the owner of a landscaping company. They are looking for proof that you can do the work without being watched: which equipment you run safely, what kinds of properties you have maintained or built, what licenses you hold, and whether you show up through a hot summer and a busy spring. A resume that says "experienced landscaper, hard worker, good with plants" tells them none of that.
 
-Landscaping work is counted by the property and the day. Routes, crews, and job tickets usually hold the numbers for a strong resume. Put them on the page.
+Landscaping work is counted by the property and the day, so you likely know your own numbers well: the properties on your route, the size of your crew, and the jobs you finished in a day. Put them on the page.
 
 ## Lead with your properties, your equipment, and your credentials
 

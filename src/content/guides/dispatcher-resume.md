@@ -20,7 +20,7 @@ faq:
   - q: "Should a 911 dispatcher resume and a truck dispatcher resume look the same?"
     a: "They should not look the same. They share a title, but they are read for different things. A 911 resume is read for call volume, protocols, certifications, and calm accuracy on the radio. A truck dispatch resume is read for loads, lanes, on-time delivery, and keeping drivers inside their hours of service. If you have done both, keep them as separate entries and lead with the one that matches the posting."
   - q: "I don't know my call volume. What do I write?"
-    a: "Ask your center. Many dispatch centers keep monthly call statistics by position or shift, and your supervisor may be able to tell you a typical number. If you cannot get one, estimate from a normal shift, round it down, and write it as approximate."
+    a: "Start with a normal shift: the calls you answered and how many were 911 calls. If a supervisor or a former coworker told you a typical number, you can use that. Otherwise estimate, round it down, and write it as approximate."
   - q: "Can I list a certification that my agency paid for but has lapsed?"
     a: "List it with its dates and say it has lapsed, or leave it off. Do not list it as current. Dispatch certifications are easy for an agency to check, and a lapsed card listed as current can end an application."
   - q: "I am moving into dispatch from a call center or a driving job. What carries over?"
