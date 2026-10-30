@@ -19,9 +19,9 @@ faq:
   - q: "How should I list my dental hygiene license on a resume?"
     a: "Write the credential and the state, such as \"Registered Dental Hygienist (RDH), Ohio,\" and add each state if you are licensed in more than one. The license number is optional, because offices verify it with the state dental board. Put it near the top, right under your name or in its own licenses section, because it is the first thing an office checks."
   - q: "What numbers belong on a dental hygienist resume?"
-    a: "The patients you see in a typical day, the procedures you perform most, such as periodontal maintenance and scaling and root planing, the radiographs you take, and any numbers your office tracks, such as reappointment rate or hygiene production. Use your own schedule and reports, and never include a patient's name or details."
+    a: "The patients you see in a typical day, the procedures you perform most, such as periodontal maintenance and scaling and root planing, the radiographs you take, and any numbers your office tracks, such as reappointment rate or hygiene production. Use the figures you know from your own work, such as your usual schedule or numbers your office shared with you. Never copy reports or patient records out of the practice's software, and never include a patient's name or details."
   - q: "Do I list local anesthesia and nitrous oxide on my resume?"
-    a: "Yes, if your state allows them and you hold the permit or certification. Rules differ by state: some states let hygienists give local anesthesia after a course and exam, and some do not allow it at all. Write the permit by the name your state board uses, with the state."
+    a: "Yes, if your state allows them and you hold the permit or certification. Every state now allows hygienists to give local anesthesia in some form, but the course, any exam, the supervision required, and the types of injections allowed all differ by state. Write the permit by the name your state board uses, with the state."
   - q: "I just graduated. What goes on my resume before I have a license?"
     a: "Your program, its accreditation, your expected or actual graduation date, and where you are in the exams, such as \"National Board Dental Hygiene Examination passed, 05/2026; clinical exam scheduled 07/2026; license pending.\" Add the patient experience from your school clinic and any rotations, with numbers."
   - q: "How do I show I'm good with patients without saying it?"
@@ -44,22 +44,25 @@ The fix is a short licenses section at the top, then one line per job with the p
 
 The second version answers the office's first question, which is whether you are licensed and where, then shows the size of the practice, the daily schedule, the procedures, and a number that shows patients come back.
 
+**Summary example:** "Registered Dental Hygienist (RDH), [State], with 6 years in general and periodontal practice. See 8 to 9 patients a day, give local anesthesia under a [State] permit, and chart in Dentrix." Name your license, your years, your setting, and one or two things an office cannot teach quickly.
+
 ## Your license, written exactly
 
 Every state requires dental hygienists to be licensed, and the rules vary by state. In most states, licensure means graduating from an accredited dental hygiene program and passing written and clinical exams. The written exam is usually the National Board Dental Hygiene Examination, which the Joint Commission on National Dental Examinations says is [intended to fulfill or partially fulfill the written examination requirement](https://jcnde.ada.org/nbdhe) for licensure in all states.
 
 On the resume:
 
-- **Write the credential and the state:** "Registered Dental Hygienist (RDH), Ohio." Some states use a different title, so use the one on your license.
+- **Write the credential and the state:** "Registered Dental Hygienist (RDH), Ohio." Some states use a different title, such as Licensed Dental Hygienist, so use the one on your license.
 - **List each state** if you hold more than one license.
-- **Keep your license active** before you list it, including your continuing education, which states require to renew.
+- **List only a license that is active,** and keep up the continuing education your state requires to renew it. If a license has lapsed, leave it off or write "(inactive)" next to it.
 - **The license number is optional.** Offices verify licenses through the state dental board.
+- **Write the clinical exam by its full name** and the testing agency that gave it, as your state dental board lists it, rather than "clinical exam" alone.
 
 ## Permits and certifications your state allows
 
 What a hygienist may do beyond cleanings depends on the state, and the permits you hold are worth a line each:
 
-- **Local anesthesia.** Many states allow hygienists to give local anesthesia after a course and an exam, some limit the types of injections, and a few do not allow it. The American Dental Hygienists' Association keeps a [state-by-state local anesthesia chart](https://www.adha.org/wp-content/uploads/2026/01/ADHA-Local-Anesthesia-Chart_Dec2025.pdf), and your state dental board has the current rule.
+- **Local anesthesia.** The American Dental Hygienists' Association's [state-by-state local anesthesia chart](https://www.adha.org/wp-content/uploads/2026/01/ADHA-Local-Anesthesia-Chart_Dec2025.pdf), revised December 2025, lists every state and the District of Columbia as allowing hygienists to give local anesthesia, but the rules differ: the course hours, whether an exam is required, the level of dentist supervision, and in some states the types of injections. Texas, for example, began allowing it in 2023 and allows infiltration only. A few states authorized it only recently, so check your state dental board for the current rule.
 - **Nitrous oxide,** if your state allows hygienists to give or monitor it and you hold the permit.
 - **Radiography,** if your state issues a separate certificate.
 - **Restorative or other expanded functions,** in states that allow them after added training, written exactly as your state names the permit.
@@ -80,7 +83,7 @@ Never put a patient's name, photo, or case details on a resume.
 
 ## Software and equipment
 
-Name the practice management software you chart in, such as Dentrix, Eaglesoft, or Open Dental, because many postings name one. Add the equipment you use daily: ultrasonic scalers, intraoral cameras, digital radiography sensors, and lasers if your state and training allow them.
+Name the practice management software you chart in, such as Dentrix, Eaglesoft, or Open Dental, because many postings name one. Add the equipment you use daily: ultrasonic scalers, intraoral cameras, digital radiography sensors, and lasers if your state and training allow them. Add professional memberships, such as the American Dental Hygienists' Association, and continuing education that matches the posting, such as a laser or periodontal course.
 
 ## The practice you work in
 
@@ -106,6 +109,7 @@ Write the setting next to each employer, because the work differs:
 - **Use the title on your license** and the practice type for each job.
 - **Keep it plain,** with standard headings and no tables, so screening software reads every line.
 - **Leave out photos.** Many US employers prefer resumes without them.
+- **One page is usually enough** for a new graduate or a few years in one or two offices, in our view; a second page is reasonable once you have several practices, specialties, or a public health role to describe.
 
 ## Dental hygienist resume bullets you can adapt — keep only what's true
 

@@ -7,8 +7,8 @@ segment: "job-seekers"
 audience: "Executive chefs, chefs de cuisine, executive sous chefs, sous chefs moving up, kitchen managers, banquet and hotel chefs, club chefs, and multi-unit culinary leaders"
 keyword: "executive chef resume"
 giveaway:
-  name: "Role Skills Checklist"
-  file: "/templates/role-skills-checklist.docx"
+  name: "Achievement-Quantification Worksheet"
+  file: "/templates/achievement-quantification-worksheet.docx"
 cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
@@ -17,7 +17,7 @@ order: 128
 draft: false
 faq:
   - q: "What numbers belong on an executive chef resume?"
-    a: "Food cost as a percentage of food sales, kitchen labor cost, the covers or plates your kitchen produced on a typical week, banquet or catering volume, the size of the team you led, and your health inspection results. Add the menus you built and any openings you led. Use the figures from your own reports, and say which part you drove."
+    a: "Food cost as a percentage of food sales, kitchen labor cost, the covers or plates your kitchen produced on a typical week, banquet or catering volume, the size of the team you led, and your health inspection results. Add the menus you built and any openings you led. Use figures you know from your own work, such as the food cost the owner reviewed with you each month, and say which part you drove. Never copy reports out of an employer's systems."
   - q: "Should I list ACF certification on my resume?"
     a: "Yes, if you hold it, and write it exactly: for example, \"Certified Executive Chef (CEC), American Culinary Federation.\" The CEC requires five years as a chef de cuisine, executive sous chef, or chef in charge of food production, supervising at least five full-time people, plus education, mandatory courses, and written and practical exams. If you are working toward it, write it as in progress."
   - q: "How is an executive chef resume different from a sous chef resume?"
@@ -44,10 +44,12 @@ The fix is to lead each job with the size and type of kitchen, then the numbers 
 
 The second version tells a reader the size and type of kitchen first, then shows cost, menus, team, and safety in numbers an owner recognizes from their own reports.
 
+**Summary example:** "Executive Chef with 12 years in hotel and independent kitchens, ACF Certified Executive Chef. Run three outlets and banquets for up to 400, hold food cost near 29%, and have opened two kitchens." Name your years, your settings, your scale, and the results you are known for.
+
 ## The numbers an owner or general manager reads
 
-- **Food cost.** Food cost as a percentage of food sales, where it started, and where you brought it. This is the number most owners ask about first.
-- **Labor cost.** Kitchen labor as a percentage of sales, or the hours you scheduled against the budget.
+- **Food cost.** Food cost as a percentage of food sales, where it started, and where you brought it. Owners and general managers often ask about it first.
+- **Labor cost.** Kitchen labor as a percentage of sales, or the hours you scheduled against the budget. If your owner tracks prime cost (food plus labor as a share of sales), give that figure too.
 - **Volume.** Covers per week, plates per banquet, or catering events per month, so a reader can picture the pace.
 - **Sales.** Food sales or the kitchen's share of revenue, if you saw the figures and had a part in them.
 - **Team.** The number of cooks and staff you led, the sous chefs and leads you developed, and turnover, if you lowered it.
@@ -63,7 +65,8 @@ Menu work is the creative half of the job, and it belongs on the page with speci
 - how many menus you wrote or changed, and how often
 - the cuisine and the price point
 - recipe costing and plate costing, and the system you used
-- purchasing: the vendors you managed, the bids you ran, and any savings from specs or ordering
+- purchasing: the vendors you managed, the bids you ran, the annual food and supply purchasing you controlled in dollars, such as "managed $1.2M in annual food purchasing," and any savings from specs or ordering
+- the systems you cost and order in, such as your point-of-sale system, an inventory or recipe-costing program, or a spreadsheet you built, named the way you used them, because postings often name one
 - inventory: how often you counted, and how you cut waste
 
 A line such as "costed every recipe on a 48-item menu and repriced 12 items to bring plate costs in line" shows both the cooking and the business.
@@ -75,7 +78,9 @@ A line such as "costed every recipe on a 48-item menu and repriced 12 items to b
 - **Certified Executive Chef (CEC).** The ACF's [CEC requirements](https://www.acfchefs.org/ACF/Certify/Levels/CEC/) include five years as a chef de cuisine, executive sous chef, or chef in charge of food production, supervising at least five full-time people, within the past ten years; an education path (such as a high school diploma or GED plus 150 continuing education hours, or an associate's degree in culinary arts); 30-hour courses in nutrition, food safety and sanitation, supervisory management, beverage management, and cost control management; and written and practical exams.
 - **Certified Chef de Cuisine (CCC).** The [CCC](https://www.acfchefs.org/ACF/Certify/Levels/CCC/) requires supervising at least two full-time people, three years supervising a shift or stations, an education path, courses in nutrition, food safety and sanitation, and supervisory management, and written and practical exams.
 
-Write each one with the issuer: "Certified Executive Chef (CEC), American Culinary Federation." If you are working toward one, write "CEC candidate, American Culinary Federation, expected [month/year]."
+Write each one with the issuer: "Certified Executive Chef (CEC), American Culinary Federation." If you are working toward one, write what you have finished and when you expect the rest: "Certified Executive Chef (CEC), American Culinary Federation: courses complete, practical exam expected [month/year]."
+
+ACF certifications [renew every five years](https://www.acfchefs.org/ACF/Certify/Recertification/), with 80 continuing education hours, so write "current through [year]" and leave off a lapsed level or mark it expired.
 
 **Food safety.** List your food protection manager certificate, such as the ServSafe Food Protection Manager Certification, with its expiration date. Our [restaurant general manager resume guide](/guides/restaurant-general-manager-resume/) covers how that certificate and allergen training are written.
 
@@ -92,7 +97,7 @@ Executive chef jobs differ by setting, so name yours next to each employer:
 - **Multi-unit groups:** consistency across locations, recipe standards, and training programs.
 - **Hospitals, universities, and corporate dining:** large daily volume, set budgets, and special diets.
 
-If you are moving between settings, your summary can name the one you want and what carries over.
+If you are changing settings, say so in your summary, for example from hotel banquets to an independent restaurant, and name the numbers that carry over.
 
 ## Moving up from sous chef
 
@@ -128,4 +133,4 @@ Filters commonly read for: executive chef, chef de cuisine, executive sous chef,
 
 The lines an owner can check with one call are the ones most worth getting right: a food cost figure you never reached, a certification you have not earned, or an award that belonged to the restaurant before you arrived. Write what you actually did.
 
-The **Role Skills Checklist** below helps you list what your culinary history actually proves, which is usually more than the resume currently says. Our build does it with you: we work backwards from the kitchens you ran and the roles you held, and we ask you about the numbers, the menus, and the certifications that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a credential, or an award you never told us about stays off the page.
+The **Achievement-Quantification Worksheet** below helps you find the real numbers behind your kitchens, such as food cost, covers, and team size, and mark honest estimates as estimates. Our build does it with you: we work backwards from the kitchens you ran and the roles you held, and we ask you about the numbers, the menus, and the certifications that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a credential, or an award you never told us about stays off the page.
