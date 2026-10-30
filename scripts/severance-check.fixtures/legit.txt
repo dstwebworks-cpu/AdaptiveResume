@@ -1,54 +1,13 @@
-Name your charting system: Epic, Cerner, or Meditech.
-Name the computerized maintenance management system you used and the numbers you were measured on.
-MTBF is operating time divided by the number of failures.
-Recordable incident rate comes from OSHA's formula.
-The 200,000 comes from the BLS reporting standard for 100 full-time workers.
-Write the reports you wrote, such as incident reports, as a skill: report writing.
-Your pay stubs show your hours.
-Your license status comes from the board's public lookup system.
-A skill employers test is reading, not memory.
-You can verify the credential on the state's public license lookup.
-The certification already exists in your wallet.
-The count from your own logbook is yours.
-Experience in Salesforce reporting and dashboards.
-Built weekly reports and dashboards in Power BI for the operations team.
-Your experience comes from the systems you ran every day.
-Your rate comes from the dispatch system's public standard, NFPA 1221.
-Employers will pull your motor vehicle record, so the resume should agree with it.
-A carrier will check your motor vehicle record, and many also pull your Pre-Employment Screening Program report.
-Never copy repair orders or anything out of a shop's system.
-Patterns, not copy-paste: your numbers, your systems, and drop anything that isn't genuinely yours.
-Write what the license and the record show.
-Name any documentation system your unit runs.
-Never round up, because the LIS logs every accession under your ID.
-Extending an end date contradicts the previous employer's records.
-Show damage claims and customer feedback scores if your company tracked them.
-The interviewer can pull up your claims in their own ticketing system.
-Orthodontic assistants who take alignment records.
-Use figures you know from your own work, never reports copied out of an employer's systems.
-Epic, Cerner, and Meditech are the systems most hospitals use, so name the one you charted in.
-List the software you used daily, such as Salesforce, HubSpot, or Workday.
-Hiring managers want someone able to pull reports from the WMS without help.
-Show that you know how to print labels and run reports in the WMS.
-The background check report shows your past employers, so your dates should match.
-The count of patients you saw comes from your memory of a typical shift, not a system.
-It's tempting to download your call logs, but don't.
-Ask HR for a copy of your performance reviews in writing.
-Before your last day, ask HR in writing for copies of your own records.
-Before you leave, ask two coworkers whether they will confirm your dates and duties.
-Save the PDF and keep a copy for your records.
-Print your license verification from the board's lookup and keep it with your records.
-Look up your license status in the state's online verification system.
-Download the free O*NET report for your occupation.
-Copy the exact title from the posting, not the one in the employer's HR system.
-Grab a copy of your DD-214 through the National Archives records request.
-Your W-2 shows your total pay for the year.
-Your offer letter shows your title and start date.
-Many warehouses track pick rate in the WMS, and hiring managers know that, so give the rate you hit on a normal shift.
-Use the figures your manager shared with you in your annual review.
-Mention the CRM you used, and say what you used it for.
-Clean and restock your station before you leave.
-The carrier's hiring system shows your application status.
-Your credit report shows your history, so a lender will see any gaps.
-Name the reporting tools you used, and then say what decisions your reports drove.
-The interview panel can check your certification in the state registry system.
+The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Your pay stubs show your flat-rate hours, and the rest of the numbers in a line like this are ones you know from your own work and can explain. Never copy repair orders or anything out of a shop's system.
+a: "Give a real range with the setting: '[60]-[80] venipunctures per shift, hospital inpatient rounds' or '[120]+ draws per day, outpatient draw station'. A range is honest and a lab manager knows what each setting produces. Never round up to a number that sounds better — your former lead can be asked, and the LIS logs every accession under your ID."
+a: "Use numbers a safety manager can check: years without a preventable accident, passenger trips or miles without an injury, clean roadside or state inspections, and the drug and alcohol testing program you drove under. Employers will pull your motor vehicle record, so the resume should agree with it."
+a: "Do not hide it and do not lead with it. A carrier will check your motor vehicle record and the Drug and Alcohol Clearinghouse, and many also pull your Pre-Employment Screening Program report, so the resume is not where the record gets decided. Write your safe-driving facts accurately (accident-free miles, clean roadside inspections, years without a preventable accident) and be ready to explain the rest plainly in the interview."
+**Mean time between failures and mean time to repair** are the two reliability numbers a maintenance manager reports upward. MTBF is operating time divided by the number of failures; MTTR is total repair time divided by the number of repairs. If your plant gave you these figures, use them rather than your own math. If you cut the repair time on a machine by standardizing the fix, stocking the right spares, or writing a troubleshooting guide, that is a project worth its own line, and the before-and-after numbers are the proof.
+Custodial work is measured by area, inspections, and work orders, so you likely know your own numbers well: the rooms or square feet you covered, how your areas did on inspections, and the work orders you handled. Put them on the page.
+Landscaping work is counted by the property and the day, so you likely know your own numbers well: the properties on your route, the size of your crew, and the jobs you finished in a day. Put them on the page.
+Processing is measured closely, so you likely know your own pipeline, your closings, and your turn times well. Those numbers belong on the page.
+You work in one of the most measured jobs there is, so you likely know your own numbers well. Numbers you can honestly claim include your daily or weekly ticket volume, your team's SLA targets and how you did against them, first-call resolution if your queue measured it and you saw the figure, users supported, devices imaged or deployed, and knowledge-base articles you wrote. If your shop never showed you a dashboard, estimate from what you know — tickets per shift times shifts per week — and mark it approximate. Never quote a precise percentage you never saw.
+a: "Start with the size of what you ran: units or doors, square feet for commercial space, and the type of property. Then add the results an owner tracks: occupancy, collections or delinquency, lease renewals, how long a unit sat between residents, work orders, and the budget you managed. Use figures you know from your own work, never reports copied out of an employer's systems, and write the part you actually drove."
+Much logistics work is measured step by step, from the booking to the delivery receipt, so you likely know your own numbers well. Put them on the page.
+Use only figures you know from your own work, never reports copied out of an employer's systems, and keep everything about a claim itself private: no claimant names, claim numbers, or details from a file.
+a: "The patients you see in a typical day, the procedures you perform most, such as periodontal maintenance and scaling and root planing, the radiographs you take, and any numbers your office tracks, such as reappointment rate or hygiene production. Use the figures you know from your own work, such as your usual schedule or numbers your office shared with you. Never copy reports or patient records out of the practice's software, and never include a patient's name or details."

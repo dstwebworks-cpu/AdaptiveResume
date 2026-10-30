@@ -1,33 +1,41 @@
-Pull your pick rate from the WMS before your last day.
-Export your sales numbers from Salesforce.
-Check your scorecard for the real figures.
-Screenshot your dashboard before you lose access.
-Email yourself a copy of your performance reports.
-Your numbers live in the ticketing system, so put them on the page.
-The POS shows your sales per shift; use those figures.
-Look up your close rate in the CRM.
-Download your call logs and count them.
-Ask IT for a copy of your ticket history.
-Save your monthly reports to a personal drive.
-Your shop's software has every number you need.
-Those figures are sitting in your EHR.
-Use the numbers from your manager's spreadsheet.
-Grab the totals off the production board.
-The loan origination system records the milestones on each file. Those numbers belong on the page.
-The ticketing system counts everything. Honest sources for figures: your ticket volume.
-Your numbers are already in the system.
-The numbers you need already exists in the CAD.
-Take your counts from the shift log.
-Your figures come straight out of the scheduling software.
-Rebuild the numbers using the reports your company runs.
-Copy your metrics out of Workday.
-Keep a copy of your evaluations when you leave.
-Use the data your employer collected on you.
-Every number is in your company's records.
-Your repair orders show the hours.
-Your Epic charting shows how many patients you saw.
-Custodial work runs on area assignments, inspection checklists, and work orders. The numbers for a strong resume are usually in those.
-Routes, crews, and job tickets usually hold the numbers for a strong resume.
-On your last day, export the report.
-If you still have access, download your call history.
-Pull your numbers from the standard production report before your last day.
+The second version tells a service manager which areas you hold, that you are a producer, and that you diagnose rather than swap parts. Every number in a line like this is one you can find on your pay stubs, your repair orders, or your shop's management system.
+The **Role Skills Checklist** below helps you inventory what your work with the books actually proves, which is often considerably more than the resume currently says. Our build does it with you: we work backwards from your real systems, volumes, and filings, propose the lines and credentials that history supports — each one offered as a question, not a decision made for you — and ask you to confirm every item before it appears. We never add a credential, a system, or a filing you didn't tell us about.
+Read the second version once and you know what the first never says: the credential you hold, how many clients you carried, where and for how long, what care you gave, and where you charted it. Nothing in it is invented. Fill the brackets from your real schedule and your real visit notes, not from what a "typical" caregiver does.
+a: "Your open caseload, the claims you close in a typical month, your settlement authority, your average cycle time, and any file audit or quality scores your employer tracks. Catastrophe deployments count too, with the event and the number of claims you handled. Use the figures from your own reports, and never include a claimant's name or a claim number."
+Use only figures from your own reports, and keep everything about a claim itself private: no claimant names, claim numbers, or details from a file.
+The second version answers, in one line, what the first leaves a reader guessing at: where you worked, how many people you were responsible for, what shift, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real charting — not from what a "typical" aide does.
+Custodial work runs on area assignments, inspection checklists, and work orders. The numbers for a strong resume are usually in those. Put them on the page.
+The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. The numbers in a line like this usually come from the scanner, the route app, or your company's reports.
+Dispatch work is measured closely. At a 911 center, calls are usually timed and radio traffic recorded, and at a carrier, loads are tracked in the system. That means the numbers for a strong resume usually already exist. Put them on the page.
+You work in one of the most measured jobs there is — the ticketing system counts everything. Honest sources for figures: your daily or weekly ticket volume, your team's SLA targets and how you tracked against them, first-call-resolution if your queue measured it, users supported, devices imaged or deployed, and knowledge-base articles you wrote. If your shop never showed you a dashboard, estimate from what you know — tickets per shift times shifts per week — and mark it approximate. Never quote a precise percentage you never saw.
+Landscaping work is counted by the property and the day. Routes, crews, and job tickets usually hold the numbers for a strong resume. Put them on the page.
+a: "Use the numbers the kitchen already tracks: covers on your busiest nights, tickets you worked in an hour, and ticket times if the kitchen display system recorded them. \"Held ticket times under 12 minutes on 300-cover Saturdays\" tells a chef more than \"fast-paced environment\" ever will."
+The fix is to name your stations, put the kitchen's own numbers on the page, and list your food safety training the way your card prints it.
+The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets from your production reports, not memory — a manager can and will ask for the report.
+Processing is measured closely. Your loan origination system records the milestones on each file, and many processing managers track pipelines on a regular schedule. Those numbers belong on the page.
+The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. The numbers in a line like this usually come from your pipeline reports and your loan origination system.
+Much logistics work runs on systems that record each step, from the booking to the delivery receipt. The numbers for a strong resume are usually already in those systems. Put them on the page.
+**Mean time between failures and mean time to repair** are the two reliability numbers a maintenance manager reports upward. MTBF is operating time divided by the number of failures; MTTR is total repair time divided by the number of repairs. If your CMMS calculated them, use its figures. If you cut the repair time on a machine by standardizing the fix, stocking the right spares, or writing a troubleshooting guide, that is a project worth its own line, and the before-and-after numbers are the proof.
+a: "Use a sample for shape, never for substance. The lines that carry an operations resume are the ones a reference check or a plant tour would confirm: your real budget, your real headcount, your real OTIF or OEE or TRIR, the system you actually ran. A sample's numbers belong to someone else's building. Fill the brackets from your own reports — the monthly ops review, the P&L pack, the safety dashboard — and leave off any line you can't back up."
+Read the second version the way an ops director reads it: budget, people, shifts, volume, service level, safety, systems — every question they would have asked in the first five minutes, answered before the bullets start. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your own reports, not memory — a hiring manager can and will ask how you got each number.
+The second version answers, in one line, what the first leaves a reader guessing at: what you hold, what unit and shift, how many patients, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real competency checkoffs, not from what a "typical" tech does.
+The second version answers what the first leaves out: which credential, which setting, how many draws, how hard they were, whether your specimens were clean, and which system you worked in. It invents nothing. Fill the brackets from your real accession counts and your lab's quality reports — not from what a "typical" shift looks like.
+a: "The ones a plant manager reports upward: the recordable incident rate on your shift, the days without a lost-time injury, the audits you passed, and the training you delivered. List your OSHA 30-hour General Industry card if you hold it, with the year. Never state a safety record you cannot back with the plant's own numbers."
+A strong supervisor resume gives the crew size, the output, and the standards the line runs under, and it puts a number on the thing the supervisor improved. Those numbers are already in your shift reports.
+The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Every figure in a line like this can come from your own shift reports and your plant's quality and safety records.
+## Working out the numbers your plant already keeps
+If your plant never handed you a scorecard, most of these numbers can be rebuilt from records you saw every shift. Rebuild them honestly, and label an estimate as an estimate.
+**Overall equipment effectiveness** is availability times performance times quality: the share of planned time the line actually ran, how close it ran to its ideal speed while it was running, and the share of output that was good the first time. A line that ran 90% of planned time, at 85% of ideal speed, with 97% good parts, is at about 74% OEE. If your plant reported OEE, use its figure rather than your own math.
+**Scrap and first-pass yield** come from the quality reports: scrapped or reworked units divided by total units produced, and the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
+The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write what the shift reports show.
+a: "Start with the size of what you ran: units or doors, square feet for commercial space, and the type of property. Then add the results an owner tracks: occupancy, collections or delinquency, lease renewals, how long a unit sat between residents, work orders, and the budget you managed. Use the figures from your own reports, and write the part you actually drove."
+The second version tells the reader the size and type of property in the first five words, then gives four numbers an owner recognizes. Every one of them comes from reports a property manager already runs.
+a: "Reconstruct honestly from what you know: your ATS history, offer letters you moved, your own tracker. Approximations marked as approximations (\"~[N] hires/year\") are fine. What's not fine is inventing a number — a hiring leader who runs the same reports can smell an invented offer-accept rate in one question."
+The second version answers in four seconds what the first leaves a reader guessing: how much you carry, how fast you close, and whether your offers stick. Every number is yours to fill in from your real reporting — and if you only have some of them, write the ones you have. Two true metrics beat five vague claims.
+An operator reading the second version knows in one line what concept you ran, how much it did, whether prime cost was under control, which POS you can train on, and that you built people rather than just scheduled them. Nothing in it is new; it is the same job with the numbers left in. Fill the brackets from your P&L and POS reports, not from memory — an operator will ask to talk through the numbers.
+The second version answers, in one line, what the first leaves a reader guessing at: what you hold, where you stood post, whether you were armed, what the post covered, and what system you reported in. It invents nothing. Fill the brackets from your real post orders and your real reports, not from what a "typical" officer does.
+The second version answers what a SOC manager is actually asking: what desk, what tier, how much, in what, and did anything you touched get contained. Nothing in it is invented; it says plainly what the first line hid. Fill every bracket from your case system or shift reports, not from memory.
+Every shift leaves a count behind it, so a bullet with no count reads as a shift you cannot describe. You need real numbers, with the system they came from.
+- **Alert volume per shift.** The raw count from your SIEM or case platform; a range is fine if it swung ("~[N]-[N] alerts per 12-hour shift").
+The second version answers, in one line, what the first leaves a reader guessing at: what you hold, how big the department, what shift, what you actually did and at what volume, what standard you worked under, and what system you documented it in. It invents nothing. Fill the brackets from your real department and your real load records, not from what a "typical" tech does.
+The second version tells the manager the setting, the speed, the accuracy, the equipment, and the reliability in two lines. The numbers in a line like this usually come from what your warehouse already tracks.
