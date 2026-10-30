@@ -1,0 +1,28 @@
+Name your charting system: Epic, Cerner, or Meditech.
+Name the computerized maintenance management system you used and the numbers you were measured on.
+MTBF is operating time divided by the number of failures.
+Recordable incident rate comes from OSHA's formula.
+The 200,000 comes from the BLS reporting standard for 100 full-time workers.
+Write the reports you wrote, such as incident reports, as a skill: report writing.
+Your pay stubs show your hours.
+Your license status comes from the board's public lookup system.
+A skill employers test is reading, not memory.
+You can verify the credential on the state's public license lookup.
+The certification already exists in your wallet.
+The count from your own logbook is yours.
+Experience in Salesforce reporting and dashboards.
+Built weekly reports and dashboards in Power BI for the operations team.
+Your experience comes from the systems you ran every day.
+Your rate comes from the dispatch system's public standard, NFPA 1221.
+Employers will pull your motor vehicle record, so the resume should agree with it.
+A carrier will check your motor vehicle record, and many also pull your Pre-Employment Screening Program report.
+Never copy repair orders or anything out of a shop's system.
+Patterns, not copy-paste: your numbers, your systems, and drop anything that isn't genuinely yours.
+Write what the license and the record show.
+Name any documentation system your unit runs.
+Never round up, because the LIS logs every accession under your ID.
+Extending an end date contradicts the previous employer's records.
+Show damage claims and customer feedback scores if your company tracked them.
+The interviewer can pull up your claims in their own ticketing system.
+Orthodontic assistants who take alignment records.
+Use figures you know from your own work, never reports copied out of an employer's systems.
