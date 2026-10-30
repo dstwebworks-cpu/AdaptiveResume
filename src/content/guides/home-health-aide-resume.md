@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
+updatedDate: 2026-10-30
 order: 113
 draft: false
 faq:
@@ -95,6 +96,6 @@ Use reverse chronological order and a single column, put the qualification line 
 
 Filters commonly read for: home health aide, HHA, certified home health aide, CNA, personal care, activities of daily living, ADLs, bathing, transfers, gait belt, Hoyer lift, range of motion, vital signs, care plan, documentation, EVV, dementia care, Alzheimer's, hospice, CPR, first aid, infection control, valid driver's license, and the visit-verification app the agency uses. [O*NET's profile for home health aides](https://www.onetonline.org/link/summary/31-1121.00) has the full task list.
 
-The highest-risk lines are the ones an agency checks before your first visit: a training program you did not finish, a registry listing that has lapsed, a nursing task written as your own, or a title from a past job changed to match the posting. Write what your certificate and your records show.
+The highest-risk lines are the ones an agency checks before your first visit: a training program you did not finish, a registry listing that has lapsed, a nursing task written as your own, or a title from a past job changed to match the posting. Write only what your certificate, your registry listing, and your own work history show.
 
 The **Role Skills Checklist** below helps you inventory what your home care history actually proves, which is often more than the resume currently says. Our build does it with you: we work backwards from your real clients, visits, and training, and we ask you about the care tasks, conditions, and records that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a credential, a task, or a visit count you never told us about stays off the page.

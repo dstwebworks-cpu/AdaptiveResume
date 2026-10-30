@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 103
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each job, give one line another tech or a charge nurse would recognize ins
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version answers, in one line, what the first leaves a reader guessing at: what you hold, what unit and shift, how many patients, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real competency checkoffs, not from what a "typical" tech does.
+The second version answers, in one line, what the first leaves a reader guessing at: what you hold, what unit and shift, how many patients, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignments and the skills you were checked off on, not from what a "typical" tech does.
 
 ## Credentials, exactly as held
 

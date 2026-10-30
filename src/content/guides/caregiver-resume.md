@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 100
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each job, give one line another caregiver or a care coordinator would reco
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-Read the second version once and you know what the first never says: the credential you hold, how many clients you carried, where and for how long, what care you gave, and where you charted it. Nothing in it is invented. Fill the brackets from your real schedule and your real visit notes, not from what a "typical" caregiver does.
+Read the second version once and you know what the first never says: the credential you hold, how many clients you carried, where and for how long, what care you gave, and where you charted it. Nothing in it is invented. Fill the brackets from your real schedule and the care you actually gave, not from what a "typical" caregiver does.
 
 ## Credentials, exactly as held
 

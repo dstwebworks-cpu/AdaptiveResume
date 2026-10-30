@@ -31,7 +31,7 @@ faq:
 
 Claims managers read an adjuster resume for scope before anything else: what kind of claims you handle, whether you work them from a desk or in the field, how much you can settle on your own, and how many files you carry. A resume that says "handled claims from first notice of loss to settlement" describes every adjuster at once, so it tells a hiring manager nothing about you.
 
-The fix is a scope line at the top of each job, then the numbers your claims reports already track, then your licenses and software named the way a recruiter searches for them.
+The fix is a scope line at the top of each job, then the numbers your claims work is measured by, then your licenses and software named the way a recruiter searches for them.
 
 ## Lead with your scope and your numbers
 

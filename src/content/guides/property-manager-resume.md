@@ -43,7 +43,7 @@ The fix is to lead with the size of the property you ran and the results you can
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the properties, credentials, and software your work already involved, each added only after you confirm it's true.*
 
-The second version tells the reader the size and type of property in the first five words, then gives four numbers an owner recognizes. Every one of them comes from reports a property manager already runs.
+The second version tells the reader the size and type of property in the first five words, then gives four numbers an owner recognizes. Each is a number a property manager tracks on the job, so use the figures you know from your own work.
 
 ## The numbers an owner or regional manager reads
 

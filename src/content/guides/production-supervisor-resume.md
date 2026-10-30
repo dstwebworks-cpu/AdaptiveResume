@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-05
+updatedDate: 2026-10-30
 order: 107
 draft: false
 faq:
@@ -28,7 +29,7 @@ faq:
 
 A production supervisor resume is read by a plant manager or an operations manager who thinks in shift numbers. How many people did you run, on how many lines, and what did the shift produce? What was the scrap rate, the changeover time, the overall equipment effectiveness? How many recordables? A resume that says "supervised production staff to meet daily goals" answers none of that and reads like every other supervisor resume in the folder.
 
-A strong supervisor resume gives the crew size, the output, and the standards the line runs under, and it puts a number on the thing the supervisor improved. Those numbers are already in your shift reports.
+A strong supervisor resume gives the crew size, the output, and the standards the line runs under, and it puts a number on the thing the supervisor improved. Those are numbers a supervisor tracks every shift, so use the ones you know from your own work.
 
 ## Lead with the crew and the shift numbers
 
@@ -40,7 +41,7 @@ A strong supervisor resume gives the crew size, the output, and the standards th
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the standards, systems, and safety training your work already involved, each added only after you confirm it's true.*
 
-The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Every figure in a line like this can come from your own shift reports and your plant's quality and safety records.
+The second version gives the reader the crew, the equipment, the output, two improved numbers, the safety record, and the standards in one block. Use only figures you know from your own work and can explain, and never copy shift reports or plant records out of an employer's systems.
 
 ## The parts of the job that carry the most weight
 
@@ -95,6 +96,6 @@ Use reverse chronological order and a single column, show a promotion as two ent
 
 Filters commonly read for: production supervisor, shift supervisor, manufacturing, direct reports, OEE, throughput, scrap, first-pass yield, changeover, 5S, Lean, Six Sigma, Kaizen, continuous improvement, root cause, standard work, ISO 9001, IATF 16949, SQF, GMP, HACCP, lockout/tagout, OSHA 30, safety, scheduling, and the ERP or MES names in the posting (SAP, Oracle, or a plant system). [O*NET's profile for first-line supervisors of production and operating workers](https://www.onetonline.org/link/summary/51-1011.00) has the full task list.
 
-The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write what the shift reports show.
+The highest-risk lines are the ones a plant verifies through your references: a head count you did not lead, a number your last plant will not confirm, a belt you did not earn, or a safety record the plant's log does not show. Write only the numbers your last plant would confirm.
 
 The **Role Skills Checklist** below helps you inventory what your shifts actually prove, which is usually more than the resume currently says. Our build does it with you: we work backwards from your real lines, crews, and standards, and we ask you about the certifications, systems, and safety training that work like yours normally involves. Nothing goes on your resume that you didn't give us or confirm, so a number, a standard, or a credential you never told us about stays off the page.

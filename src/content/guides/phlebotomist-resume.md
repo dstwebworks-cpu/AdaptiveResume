@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-10-01
+updatedDate: 2026-10-30
 order: 95
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each role, give one line another phlebotomist or a lab lead would recogniz
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version answers what the first leaves out: which credential, which setting, how many draws, how hard they were, whether your specimens were clean, and which system you worked in. It invents nothing. Fill the brackets from your real accession counts and your lab's quality reports — not from what a "typical" shift looks like.
+The second version answers what the first leaves out: which credential, which setting, how many draws, how hard they were, whether your specimens were clean, and which system you worked in. It invents nothing. Fill the brackets from the draw counts and quality results you know from your own work — not from what a "typical" shift looks like.
 
 ## Credentials, exactly as held
 

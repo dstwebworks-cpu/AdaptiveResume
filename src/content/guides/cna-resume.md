@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 93
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each job, give one line another aide or a charge nurse would recognize ins
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version answers, in one line, what the first leaves a reader guessing at: where you worked, how many people you were responsible for, what shift, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignment sheets and your real charting — not from what a "typical" aide does.
+The second version answers, in one line, what the first leaves a reader guessing at: where you worked, how many people you were responsible for, what shift, what you actually did, and what system you documented it in. It invents nothing. Fill the brackets from your real assignments and the care you actually gave — not from what a "typical" aide does.
 
 ## Credentials, exactly as held
 

@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 101
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each job, give one line another officer or an account manager would recogn
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version answers, in one line, what the first leaves a reader guessing at: what you hold, where you stood post, whether you were armed, what the post covered, and what system you reported in. It invents nothing. Fill the brackets from your real post orders and your real reports, not from what a "typical" officer does.
+The second version answers, in one line, what the first leaves a reader guessing at: what you hold, where you stood post, whether you were armed, what the post covered, and what system you reported in. It invents nothing. Fill the brackets from your real posts and the incidents you actually handled, not from what a "typical" officer does.
 
 ## Credentials, exactly as held
 

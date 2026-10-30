@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 86
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each role, give one line another originator would recognize instantly.
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets from your production reports, not memory — a manager can and will ask for the report.
+The second version is scannable in four seconds and answers what the first leaves a reader guessing at. Notice the rewrite invents nothing; it just says plainly what the vague version was hiding. Fill the brackets only with numbers you can explain, because a manager can and will ask how you got them.
 
 ## Licensed or registered: get your SAFE Act status exactly right
 
