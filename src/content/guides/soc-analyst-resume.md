@@ -20,7 +20,7 @@ faq:
   - q: "I was tier 1. Is that worth putting on a resume, or should I just write 'SOC analyst'?"
     a: "Write the tier. A SOC manager staffing a queue knows exactly what tier 1 means and wants to see you know it too: how many alerts you cleared per shift, what share you escalated, and how many of those held up at tier 2. Hiding the tier makes a manager guess, and the guess is rarely generous. 'Tier 1 SOC analyst' with real numbers under it reads stronger than a bare title with none."
   - q: "My SOC never showed me MTTD or MTTR. Can I still put response-time numbers on my resume?"
-    a: "Only numbers you actually saw. If your SIEM or ticketing system reported mean time to detect or respond, use them and say which system they came from. If it did not, write what you can defend: cases owned per week, the containment actions you took, and the time-to-contain on a specific incident you handled. Never back into a team average you never measured."
+    a: "Only numbers you actually saw. If your SOC measured mean time to detect or respond and you know the figures, use them and name the system you worked in. If it did not, write what you can defend: cases owned per week, the containment actions you took, and the time-to-contain on a specific incident you handled. Never back into a team average you never measured."
   - q: "I worked at an MSSP covering dozens of clients. How do I write that without breaching client confidentiality?"
     a: "Write the scale, not the names. 'Monitored [N] client environments on a 24x7 MDR (managed detection and response) desk' is honest, checkable in an interview, and names nobody. Describe the industries if your contract allows it ('healthcare and regional banking clients'), the tools you worked in, and your case volume. Client names, hostnames, and incident details stay off the page."
   - q: "I moved from help desk to a SOC. Should my old help-desk job still be on the resume?"
@@ -59,11 +59,11 @@ If your shop did not use tiers, say so: "single-tier SOC of [N] analysts; each a
 
 ## The numbers a SOC manager can check
 
-Every shift leaves a count behind it, so a bullet with no count reads as a shift you cannot describe. You need real numbers, with the system they came from.
+Every shift leaves a count behind it, so a bullet with no count reads as a shift you cannot describe. You need real numbers you can explain, and the name of the system you worked in.
 
-- **Alert volume per shift.** The raw count from your SIEM or case platform; a range is fine if it swung ("~[N]-[N] alerts per 12-hour shift").
+- **Alert volume per shift.** The number of alerts you worked on a typical shift; a range is fine if it swung ("~[N]-[N] alerts per 12-hour shift").
 - **Escalation rate and true-positive ratio.** The share of alerts you escalated, and the share of those that held up. Together they show judgment.
-- **MTTD and MTTR.** Mean time to detect (first malicious activity to alert) and mean time to respond. "Respond" means acknowledge at some SOCs and contain or resolve at others, so say which yours measured: "MTTR (acknowledge-to-contain) held under [N] minutes on the queue I owned." Only if a dashboard reported it.
+- **MTTD and MTTR.** Mean time to detect (first malicious activity to alert) and mean time to respond. "Respond" means acknowledge at some SOCs and contain or resolve at others, so say which yours measured: "MTTR (acknowledge-to-contain) held under [N] minutes on the queue I owned." Only if your SOC measured it and you know the figure.
 - **Phishing analysis.** User-reported messages analyzed per week, attachments detonated in a sandbox, accounts reset, senders blocked.
 - **Log sources onboarded.** The systems you brought into the SIEM and the parsing you wrote to make them searchable. This is engineering evidence.
 - **Coverage and scale.** Nights, weekends, and holiday rotation; for MSSP or MDR (managed detection and response) desks, client environments monitored and endpoints under EDR. Scale, never client names.
@@ -124,7 +124,7 @@ Otherwise: reverse chronological, single column, a shift line under every SOC ro
 - "Authored [N] detections mapped to MITRE ATT&CK techniques [T-IDs], closing [N] previously uncovered techniques on the rule set"
 - "Built [N] [Splunk SOAR/Cortex XSOAR/Sentinel] playbooks automating [enrichment/containment step]; monitored [N] client environments on a [24x7/rotating] MDR desk"
 
-Each bullet is a frame, not a claim. If a line is not true of your queue, it does not go on your page; a case-system export will find the gap.
+Each bullet is a frame, not a claim. If a line is not true of your queue, it does not go on your page; a reference check will find the gap.
 
 ## What screening software looks for on a SOC analyst resume
 

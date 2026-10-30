@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-28
+updatedDate: 2026-10-30
 order: 127
 draft: false
 faq:
@@ -21,7 +22,7 @@ faq:
   - q: "Do I need a food handler card on my resume?"
     a: "If you have one, list it with the issuer and the expiration date. Many states and counties require food workers to complete food handler training; Texas, for example, requires many food service employees to complete an accredited course within 30 days of getting a job. Rules differ by place, so check your state or county health department."
   - q: "How do I show speed on a line cook resume?"
-    a: "Use the numbers the kitchen already tracks: covers on your busiest nights, tickets you worked in an hour, and ticket times if the kitchen display system recorded them. \"Held ticket times under 12 minutes on 300-cover Saturdays\" tells a chef more than \"fast-paced environment\" ever will."
+    a: "Use the numbers you know from your own shifts: covers on your busiest nights, tickets you worked in an hour, and your ticket times if the kitchen display showed them during service. \"Held ticket times under 12 minutes on 300-cover Saturdays\" tells a chef more than \"fast-paced environment\" ever will."
   - q: "Should I list the type of restaurant I worked in?"
     a: "Yes. A steakhouse, a high-volume diner, a banquet kitchen, and a hospital kitchen run differently, and a chef reads your format to judge how quickly you will fit in. Write the format and the size next to the restaurant name, such as \"180-seat steakhouse\" or \"hotel banquet kitchen, events up to 400 guests.\""
   - q: "How do I show I'm ready to move up to sous chef?"

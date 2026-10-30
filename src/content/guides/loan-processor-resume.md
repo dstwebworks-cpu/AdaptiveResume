@@ -13,6 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-10-11
+updatedDate: 2026-10-30
 order: 117
 draft: false
 faq:
@@ -40,7 +41,7 @@ Processing is measured closely. Your loan origination system records the milesto
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the loan types, systems, and compliance steps your work already involved, each added only after you confirm it's true.*
 
-The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. The numbers in a line like this usually come from your pipeline reports and your loan origination system.
+The second version gives the manager the workload, the loan types, the speed, the reliability, and the system. Use the numbers you know from your own pipeline and can explain, and never copy reports out of an employer's systems.
 
 ## The numbers a processing manager reads
 

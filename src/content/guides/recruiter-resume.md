@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-29
+updatedDate: 2026-10-30
 order: 74
 draft: false
 faq:
@@ -43,7 +43,7 @@ Under each employer, give the desk in one line — setting, functions supported,
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The second version answers in four seconds what the first leaves a reader guessing: how much you carry, how fast you close, and whether your offers stick. Every number is yours to fill in from your real reporting — and if you only have some of them, write the ones you have. Two true metrics beat five vague claims.
+The second version answers in four seconds what the first leaves a reader guessing: how much you carry, how fast you close, and whether your offers stick. Every number is yours to fill in from what you know of your own desk — and if you only have some of them, write the ones you have. Two true metrics beat five vague claims.
 
 ## Agency, corporate, or RPO — name your setting first
 

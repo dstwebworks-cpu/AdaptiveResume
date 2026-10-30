@@ -29,7 +29,7 @@ faq:
 
 A delivery driver resume is read by a dispatcher, a station manager, or a fleet hiring coordinator who has a route to fill. They want to know which vehicles you can drive, how many stops you can handle in a day, and whether your driving record will pass their insurer. A resume that says "reliable driver with excellent customer service skills" answers none of those questions, and it reads like many other applications for the job.
 
-Much parcel and gig delivery work is tracked stop by stop, and those records are where your resume numbers come from. Put the vehicle, the volume, and the record on the page.
+Much parcel and gig delivery work is tracked stop by stop, and you likely know your own numbers well. Put the vehicle, the volume, and the record on the page.
 
 ## Lead with the vehicle, the volume, and the record
 
@@ -41,7 +41,7 @@ Much parcel and gig delivery work is tracked stop by stop, and those records are
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the vehicles, routes, and safety training your work already involved, each added only after you confirm it's true.*
 
-The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. The numbers in a line like this usually come from the scanner, the route app, or your company's reports.
+The second version tells the reader the work, the vehicle, the volume, the quality, and the safety record. Use the numbers you know from your own routes and can explain, and never copy anything out of a company's systems.
 
 ## The numbers a delivery manager reads
 

@@ -103,7 +103,7 @@ Otherwise: reverse chronological, single column, standard headings, real text ra
 - "Ran full application-to-funding workflow in [Encompass/Calyx Point]; managed disclosures and rate locks within required timelines"
 - "Booked [N] consumer loans per month with $[N] individual approval authority; portfolio delinquency of [N]%"
 
-Each bullet is a frame, not a claim. If a line isn't true of your book, it doesn't go on your page — the production report will find it.
+Each bullet is a frame, not a claim. If a line isn't true of your book, it doesn't go on your page — a reference check will find it.
 
 ## What screening software looks for on a loan officer resume
 

@@ -24,7 +24,7 @@ faq:
   - q: "What is the difference between a production supervisor and a warehouse supervisor resume?"
     a: "The difference is in the numbers. A production resume is built on output, scrap, changeovers, overall equipment effectiveness, and the quality system the line runs under. A warehouse resume is built on orders, accuracy, throughput, and the warehouse management system. If you have supervised both, keep them as separate entries with their own numbers; our warehouse supervisor guide covers that side."
   - q: "Which safety facts belong on the resume?"
-    a: "The ones a plant manager reports upward: the recordable incident rate on your shift, the days without a lost-time injury, the audits you passed, and the training you delivered. List your OSHA 30-hour General Industry card if you hold it, with the year. Never state a safety record you cannot back with the plant's own numbers."
+    a: "The ones a plant manager reports upward: the recordable incident rate on your shift, the days without a lost-time injury, the audits you passed, and the training you delivered. List your OSHA 30-hour General Industry card if you hold it, with the year. Never state a safety record your last plant would not confirm."
 ---
 
 A production supervisor resume is read by a plant manager or an operations manager who thinks in shift numbers. How many people did you run, on how many lines, and what did the shift produce? What was the scrap rate, the changeover time, the overall equipment effectiveness? How many recordables? A resume that says "supervised production staff to meet daily goals" answers none of that and reads like every other supervisor resume in the folder.
@@ -57,15 +57,15 @@ The second version gives the reader the crew, the equipment, the output, two imp
 
 **People development.** Count the operators you trained and cross-trained and the leads you developed, and give the turnover on your shift compared with the plant's.
 
-## Working out the numbers your plant already keeps
+## Working out the numbers from your own shifts
 
-If your plant never handed you a scorecard, most of these numbers can be rebuilt from records you saw every shift. Rebuild them honestly, and label an estimate as an estimate.
+If your plant never handed you a scorecard, most of these numbers can be rebuilt from what you saw and did every shift. Rebuild them honestly, and label an estimate as an estimate.
 
 **Overall equipment effectiveness** is availability times performance times quality: the share of planned time the line actually ran, how close it ran to its ideal speed while it was running, and the share of output that was good the first time. A line that ran 90% of planned time, at 85% of ideal speed, with 97% good parts, is at about 74% OEE. If your plant reported OEE, use its figure rather than your own math.
 
 **Recordable incident rate** comes from OSHA's formula: recordable injuries and illnesses times 200,000, divided by the hours your crew worked. The 200,000 stands for 100 full-time workers over a year, which is why the rate can be compared across plants of different sizes. If your safety department reported a rate for your shift, use that one.
 
-**Scrap and first-pass yield** come from the quality reports: scrapped or reworked units divided by total units produced, and the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
+**Scrap rate and first-pass yield** are scrapped or reworked units divided by total units produced, and the share that passed the first time. **Changeover time** is usually measured from the last good part of one run to the first good part of the next, which is how setup-reduction work counts it.
 
 ## Certifications and training, exactly as held
 
