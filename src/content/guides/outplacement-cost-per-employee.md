@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-10-27
+updatedDate: 2026-10-31
 order: 99
 draft: false
 faq:
@@ -24,7 +24,7 @@ faq:
   - q: "Is a resume-only service a real alternative to outplacement?"
     a: "For the resume, yes. For coaching and job-search support, no. Many employers buy a full program for long-tenured people and a resume-only service for everyone else, which keeps the cost per person honest about what each person will use."
   - q: "How do you keep a per-person resume service from inventing things at volume?"
-    a: "Every suggested line is a question the person answers, and nothing goes on the page until a reviewer approves it from that answer. Anything that looks like a license or certification is held for a reviewer. The process is the same for every resume in the batch."
+    a: "Every suggested line is a question the person answers. Each candidate's final resume is built only from what they brought and what your reviewer approves. Anything that looks like a license or certification is held for a reviewer. The process is the same for every resume in the batch."
 ---
 
 Outplacement is one of the few services a company buys where the buyer rarely sees a price list. Two large providers publish rate cards; nearly everyone else quotes privately. That leaves an HR or finance lead pricing a layoff with a handful of public numbers and a lot of guesswork.

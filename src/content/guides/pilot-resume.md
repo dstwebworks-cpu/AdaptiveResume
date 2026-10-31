@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-10-27
+updatedDate: 2026-10-31
 order: 14
 draft: false
 faq:
@@ -80,4 +80,4 @@ Filters read for: total time, PIC, multi-engine, instrument, type ratings by nam
 
 *Illustrative example. Everything on your resume is yours: the experience you listed, plus the skills, tools, responsibilities, and credentials your work already involved, each added only after you confirm it's true.*
 
-The **Role Skills Checklist** below helps you inventory what your flying history proves beyond the numbers. Our build works the same way — it reads your history, proposes what it implies, and asks you to confirm each one. In a field where claims get audited, nothing goes on the page you can't back with a logbook.
+The **Role Skills Checklist** below helps you inventory what your flying history proves beyond the numbers. Our build works the same way — it reads your history, proposes what it implies, and asks you to confirm each one. In a field where claims get audited, nothing goes on your final resume that you can't back with a logbook.

@@ -13,7 +13,7 @@ cta:
   label: "Request a quote for your career center"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-10-31
 order: 111
 draft: false
 faq:
@@ -22,7 +22,7 @@ faq:
   - q: "How is career center software priced?"
     a: "Most institutional tools are sold as an annual campus license sized to enrollment, and the license is paid whether or not a given student ever logs in. Vendors rarely publish the price. The public figures we could find are an individual subscription of about $20 per year for one platform, a $16-per-student course fee for another at one university, and two campus licenses disclosed in public student-technology-fee records: about $27,000 a year for a college of about 15,000 students, and about $116,000 in one funding award at a large three-campus university. A license sized to expected use keeps the price closer to what the center actually gets."
   - q: "Can students use AdaptiveResume through our career center?"
-    a: "Yes, through a capped annual license for the career center, quoted for your enrollment and your expected use. Each student's resume is rebuilt from their real jobs, internships, and campus roles; the student answers questions about their own work, and a reviewer you name approves every suggested line from those answers. Nothing goes on the page without that approval, which is the standard a career office has to stand behind."
+    a: "Yes, through a capped annual license for the career center, quoted for your enrollment and your expected use. Each student's resume is rebuilt from their real jobs, internships, and campus roles; the student answers questions about their own work, and a reviewer you name approves every suggested line from those answers. Each student's final resume is built only from what they brought and what your reviewer approves, which is the standard a career office has to stand behind."
   - q: "How is this different from an automated resume scorer?"
     a: "A scorer grades what is already on the page against a rubric or a posting. It cannot find the lab technique, the campus job, or the certification the student never wrote down. Our approach starts from what the student actually did and proposes the missing lines as questions; the score is not the product, the confirmed resume is."
 ---

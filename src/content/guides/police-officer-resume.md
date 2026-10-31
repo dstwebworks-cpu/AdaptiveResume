@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-29
+updatedDate: 2026-10-31
 order: 25
 faq:
   - q: "Should I list radio codes and agency jargon on my resume?"
@@ -78,4 +78,4 @@ FTO, instructor certifications, K-9, traffic unit, detective rotations, honor gu
 
 ## How AdaptiveResume helps
 
-We work backwards from what your work actually involved. Tell us your agency, your assignments, and your training record, and we propose the plain-language lines that history supports — the calls, the reports, the court time, the community work — each one offered as a question for you to confirm, adjust, or skip. Nothing new lands without your say-so, and nothing goes on the page that a background investigator couldn't hear read back. That's the standard your profession already holds you to; your resume should meet it too. The **Police Officer Resume Skeleton** below gives you the structure to start tonight after shift.
+We work backwards from what your work actually involved. Tell us your agency, your assignments, and your training record, and we propose the plain-language lines that history supports — the calls, the reports, the court time, the community work — each one offered as a question for you to confirm, adjust, or skip. Your final resume is built only from what you brought us and what you approve, and nothing goes on it that a background investigator couldn't hear read back. That's the standard your profession already holds you to; your resume should meet it too. The **Police Officer Resume Skeleton** below gives you the structure to start tonight after shift.

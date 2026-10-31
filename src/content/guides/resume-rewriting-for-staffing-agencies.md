@@ -13,7 +13,7 @@ cta:
   label: "Request a per-candidate quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-10-27
+updatedDate: 2026-10-31
 order: 100
 draft: false
 faq:
@@ -90,7 +90,7 @@ In a real rebuild, every item in the second version would come from the candidat
 
 ## What we offer
 
-AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you. Each candidate answers questions about their own work, your recruiter approves every suggested line from those answers, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It carries the same integrity standard as our consumer product, with a recruiter in the approval seat: nothing goes on the page that wasn't confirmed by the candidate's own answer and approved by your recruiter.
+AdaptiveResume for organizations rebuilds each candidate's resume from their real work history, priced per candidate. You send the batch of resume files, and during a pilot we handle intake for you. Each candidate answers questions about their own work, your recruiter approves every suggested line from those answers, anything that looks like a credential is held for your reviewer, and you get finished resumes that screening software reads cleanly plus a per-candidate record of what was reviewed. It carries the same integrity standard as our consumer product, with a recruiter in the approval seat: each candidate's final resume is built only from what they brought and what your recruiter approves.
 
 Pilots are paid at standard rates and fully credited against your first contract. We do not offer free pilots.
 

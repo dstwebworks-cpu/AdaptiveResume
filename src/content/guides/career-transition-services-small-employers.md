@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-09-28
+updatedDate: 2026-10-31
 order: 98
 draft: false
 faq:
@@ -24,7 +24,7 @@ faq:
   - q: "What does a resume-only transition service leave out?"
     a: "Coaching, interview practice, job-search strategy, and networking support. A resume-only service gives each person a complete, honest resume that screening software can read. If your people also need a coach, a full program is the right buy, and the resume piece should still meet the standard on this page."
   - q: "How is the resume built without inventing anything?"
-    a: "Every suggested line is shown to the person as a question, and nothing goes on the page until a reviewer approves it. Anything that looks like a license or certification is held for a reviewer instead of being written without confirmation. That is the standard we hold ourselves to, and the one to ask any provider about."
+    a: "Every suggested line is shown to the person as a question. Each candidate's final resume is built only from what they brought and what your reviewer approves. Anything that looks like a license or certification is held for a reviewer instead of being written without confirmation. That is the standard we hold ourselves to, and the one to ask any provider about."
 ---
 
 When a company of 30 people lets 6 of them go, the owner usually finds out that career transition services are priced for a company of 3,000. The published per-person packages, the account teams, and the coaching hours were built for the layoff that makes the news, not the one that happens quietly on a Friday in a small office.
