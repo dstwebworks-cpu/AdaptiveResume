@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { fieldOf, demoSampleFor, SAMPLE_LABEL } from '../../lib/guideFrontDoor';
+import { fieldOf, demoSampleFor, SAMPLE_LABEL, NEAR } from '../../lib/guideFrontDoor';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides', (g) => !g.data.draft);
@@ -75,22 +75,29 @@ const ring = all
 const selfIdx = Math.max(0, all.findIndex((g) => g.id === guide.id));
 const spread = ring.length <= 3 ? ring
   : [0, 1, 2].map((i) => ring[(selfIdx + i * Math.floor(ring.length / 3)) % ring.length]);
-// Front door (founder 10/30-10/31/2026): build-time version for the side-by-side walk.
-// 1 = free check leads the end panel; 2 = plus a touch near the top, one mid-guide and a phone bottom bar;
-// 3 = version 2 plus wording, demo sample and "Keep reading" matched to the guide's field.
-const FD = (import.meta.env.PUBLIC_FD_VARIANT ?? '2') as '1' | '2' | '3';
+// Front door (founder 10/30-10/31/2026, Version 3 chosen after the side-by-side walk): the free check is offered
+// after the first paragraph, before the middle section and in the end panel; the $29 build is described as the step
+// that follows the check; the demo sample and "Keep reading" match the guide's field. Each line promises only what
+// its own step does (founder rule 10/31/2026). No bottom bar: the sticky header already carries the button.
 const isOrg = guide.data.segment === 'organizations';
-const field = fieldOf(guide.id);
-const sample = FD === '3' ? demoSampleFor(guide.id, field) : null;
-const isAts = FD === '3' && field === 'ats';
+// Organizations guides are one group of their own; job-seeker guides group by field.
+const fieldFor = (g: typeof guide) => (g.data.segment === 'organizations' ? 'general' : fieldOf(g.id));
+const field = fieldFor(guide);
+const sample = demoSampleFor(guide.id, field);
 const checkUrl = appUrl + '/?start=check';
-const checkLabel = isAts ? "Check my resume's format free" : 'Check my resume free';
 const passGuide = guide.data.cta.label.includes('$99');
-// Version 3 keeps "Keep reading" in the same field and audience; otherwise the spread above.
-const sameField = all.filter((g) => g.id !== guide.id && g.data.segment === guide.data.segment && fieldOf(g.id) === field);
-const related = FD === '3' && sameField.length >= 3
-  ? [0, 1, 2].map((i) => sameField[(selfIdx + i * Math.floor(sameField.length / 3)) % sameField.length])
-  : spread;
+// Same field first (rotated by this guide's position so inbound links spread across the field), then its
+// nearest fields, then the spread above; always the same audience.
+const inField = (fl: string) => all.filter((g) => g.id !== guide.id && g.data.segment === guide.data.segment && fieldFor(g) === fl);
+// Peers in a fixed order; each guide shows the next two after itself, so every guide in a field is linked by two others.
+const peers = all.filter((g) => g.data.segment === guide.data.segment && fieldFor(g) === field).sort((x, y) => x.id.localeCompare(y.id));
+const me = peers.findIndex((g) => g.id === guide.id);
+const ownNext = peers.length > 1 ? [1, 2].map((i) => peers[(me + i) % peers.length]).filter((g) => g.id !== guide.id) : [];
+const near = NEAR[field].flatMap(inField);
+// Two from the same field (or its nearest), the third from the site-wide spread so small fields still get linked.
+const firstTwo = [...ownNext, ...near].filter((g, i, arr) => arr.indexOf(g) === i).slice(0, 2);
+const sameAudience = [...spread, ...ring].filter((g) => g.data.segment === guide.data.segment);
+const related = [...firstTwo, ...sameAudience, ...near].filter((g, i, arr) => arr.indexOf(g) === i).slice(0, 3);
 ---
 <Base title={pageTitle} description={metaDescription} ogImage={cardPath}>
   <article class="section">
@@ -100,12 +107,9 @@ const related = FD === '3' && sameField.length >= 3
       <p class="lede">{guide.data.description}</p>
       <p class="muted dateline">Published {fmtDate(pub)}{upd && ` · Updated ${fmtDate(upd)}`}</p>
       <img class="guide-hero" src={cardPath} alt={guide.data.title} width="1200" height="628" loading="eager" fetchpriority="high" />
-      {FD !== '1' && !isOrg && (
+      {!isOrg && (
         <aside class="fd-touch" id="fd-t1">
-          <p>{isAts
-            ? "Want to know how screening software reads your own resume? Upload it, and we'll show you for free. You don't need an account."
-            : "Want to know how screening software reads your own resume? We'll check it for free while you read, and you don't need an account."}
-          <a href={checkUrl}>{checkLabel}</a></p>
+          <p>Want to know if screening software can read your resume? Upload it, and we'll check 12 things it looks for, such as your contact details, dates, fonts and layout. It's free, and you don't need an account. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
       <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
@@ -115,9 +119,9 @@ const related = FD === '3' && sameField.length >= 3
       <div class="prose">
         <Content />
       </div>
-      {FD !== '1' && !isOrg && (
+      {!isOrg && (
         <aside class="fd-touch" id="fd-t2">
-          <p>Before you change anything, see how your resume reads today. The check is free. <a href={checkUrl}>{checkLabel}</a></p>
+          <p>Before you change anything, find out how screening software reads your resume today. The free check covers 12 things it looks for. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
 
@@ -136,27 +140,17 @@ const related = FD === '3' && sameField.length >= 3
       {/* product panel: the free check leads; the paid build is the second line */}
       {isOrg ? (
         <div class="card cta-card" id="fd-end">
-          {FD === '3' ? (
-            <>
-              <h3>Want to see this working for the people you serve?</h3>
-              <p>We review each person's resume with them, and nothing goes on a resume that the person didn't give us or confirm. Tell us how many people you serve, and we'll send you a per-person price.</p>
-              <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label}</a>
-              <p class="cta-links muted"><a href="/business/">See how it works for organizations</a></p>
-            </>
-          ) : (
-            <>
-              <h3>Ready to do this for the people you serve?</h3>
-              <p>We review each person's resume with them, and nothing goes on a resume that the person didn't give us or confirm.</p>
-              <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label}</a>
-            </>
-          )}
+          <h3>Want to see this working for the people you serve?</h3>
+          <p>Send us your candidates' resumes. We find the skills, standards, and training each person left off, and your reviewers confirm anything that looks like a license or certification before it goes on a resume. You pay for each candidate we work on. Tell us how many people you serve, and we'll send you a per-candidate price.</p>
+          <a class="btn btn-primary btn-lg" href="/business/#quote">Request a per-candidate quote</a>
+          <p class="cta-links muted"><a href="/business/">See how it works for organizations</a></p>
         </div>
       ) : (
         <div class="card cta-card" id="fd-end">
           <h3>Start with a free check of your own resume.</h3>
-          <p>Upload it, and we'll show you how screening software reads it. It's free, and you don't need an account.</p>
-          <a class="btn btn-primary btn-lg" href={checkUrl}>{checkLabel}</a>
-          <p class="fd-paid">Want us to find what your resume leaves out? That's the full build, $29. Nothing goes on your resume unless you say so. No subscription, no auto-renewal. <a href={checkUrl}>Start my $29 resume build</a></p>
+          <p>Upload it, and we'll check 12 things screening software looks for, such as your contact details, dates, fonts and layout. You'll see which ones pass and which need attention. It's free, and you don't need an account.</p>
+          <a class="btn btn-primary btn-lg" href={checkUrl}>Check my resume free</a>
+          <p class="fd-paid">When your check is done, you can choose the full build. For $29, we ask you about your work to find what your resume leaves out, and nothing goes on your resume unless you say so. There's no subscription and no auto-renewal, and you can get a full refund for any reason within 14 days, as long as you haven't downloaded a finished resume. <a href="/#pricing">See what the $29 build includes</a></p>
           {passGuide && <p class="cta-links muted">Applying to several jobs? The AR Pass is $99 for 10 builds aimed at job postings, used within 90 days.</p>}
           <p class="cta-links muted">
             {sample
@@ -198,12 +192,6 @@ const related = FD === '3' && sameField.length >= 3
       </div>
     </div>
   </article>
-  {FD !== '1' && !isOrg && (
-    <div class="fd-bar" id="fd-bar" hidden>
-      <p>Free. No account. No subscription.</p>
-      <a class="btn btn-primary" href={checkUrl}>{checkLabel}</a>
-    </div>
-  )}
 
   <script>
     // Front door: touch 1 after the article's first paragraph, touch 2 before its middle section heading.
@@ -213,13 +201,6 @@ const related = FD === '3' && sameField.length >= 3
     if (t1 && firstP) firstP.after(t1);
     const heads = prose ? Array.from(prose.querySelectorAll(':scope > h2')) : [];
     if (t2 && heads.length >= 2) heads[Math.floor(heads.length / 2)].before(t2);
-    const bar = document.getElementById('fd-bar'), end = document.getElementById('fd-end');
-    if (bar && end && 'IntersectionObserver' in window) {
-      let pastTop = false, endShown = false;
-      const update = () => { bar.hidden = !(pastTop && !endShown); document.body.classList.toggle('fd-bar-on', !bar.hidden); };
-      addEventListener('scroll', () => { pastTop = scrollY > innerHeight * 0.8; update(); }, { passive: true });
-      new IntersectionObserver((e) => { endShown = e[0].isIntersecting; update(); }).observe(end);
-    }
   </script>
 
   <script>
@@ -271,12 +252,6 @@ const related = FD === '3' && sameField.length >= 3
     .fd-touch { background: var(--accent-bg); border-left: 4px solid var(--accent-strong); border-radius: 10px; padding: 12px 16px; margin: 18px 0; }
     .fd-touch p { margin: 0; color: var(--ink); }
     .fd-touch a { font-weight: 700; text-decoration: underline; margin-left: 4px; }
-    .fd-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: #fff; border-top: 1px solid var(--line); padding: 8px 14px calc(10px + env(safe-area-inset-bottom)); text-align: center; box-shadow: 0 -6px 18px rgba(22,32,43,.08); }
-    .fd-bar[hidden] { display: none; }
-    .fd-bar p { margin: 0 0 6px; font-size: .88rem; color: var(--ink-soft); }
-    .fd-bar .btn { display: flex; justify-content: center; width: 100%; min-height: 44px; }
-    :global(body.fd-bar-on) { padding-bottom: 96px; }
-    @media (min-width: 900px) { .fd-bar { display: none !important; } }
     .cta-card .btn { margin-top: 6px; }
     .cta-card .cta-links { margin: 12px 0 0; font-size: .95rem; }
     .cta-card .cta-links a { text-decoration: underline; }
