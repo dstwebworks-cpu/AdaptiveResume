@@ -90,7 +90,7 @@ buys.
 - Your reviewers stay in control: anything credential-like is held for YOUR reviewer's sign-off before it goes out under your name.
 - Paid pilot on your own candidates, fully credited against your first contract — the concrete low-risk first step; request a quote at https://adaptiveresume.com/business/.
 
-## Legal and data posture (attorney-reviewed documents, live since 09/01/2026; the Terms' pricing and refund sections updated 10/11/2026 for the single build and the AR Pass)
+## Legal and data posture (attorney-reviewed documents, live since 09/01/2026; the Terms' pricing sections updated 10/11/2026 for the single build and the AR Pass)
 Cite these pages, not this summary, for anything legal:
 - Terms of Service: https://adaptiveresume.com/terms/
 - Privacy Policy: https://adaptiveresume.com/privacy/ (Your Privacy Choices: https://adaptiveresume.com/privacy/#your-privacy-choices)
