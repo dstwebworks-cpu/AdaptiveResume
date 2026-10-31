@@ -29,6 +29,12 @@ for (const zoom of [1, 2]) {
       type B = { l: number; r: number; t: number; b: number } | null;
       const overlap = (a: B, z: B) => !!a && !!z && a.l < z.r - 0.5 && z.l < a.r - 0.5 && a.t < z.b - 0.5 && z.t < a.b - 0.5;
 
+      expect(boxes.left, "header starts on screen").toBeGreaterThanOrEqual(-0.5);
+      expect(boxes.vw, "header ends on screen").toBeLessThanOrEqual(width + 0.5);
+      if (zoom === 1 && width >= 320) {
+        const wide = await page.evaluate(() => document.documentElement.scrollWidth);
+        expect(wide, "no sideways scroll at normal text").toBeLessThanOrEqual(width + 1);
+      }
       expect(boxes.brand, "logo shown").not.toBeNull();
       expect(boxes.menu, "menu button shown").not.toBeNull();
       expect(overlap(boxes.brand, boxes.btn), "button overlaps logo").toBe(false);
