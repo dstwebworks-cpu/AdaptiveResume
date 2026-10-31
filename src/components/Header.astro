@@ -87,8 +87,7 @@ const links = [
   /* Phone header button: shown only where it fits, decided by the header's own width in root text units (rem, the same unit the button uses), so larger text
      settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026). */
   .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: .86rem; white-space: nowrap; min-height: 44px; }
-  .cta-phone + .hamburger { margin-left: 0; }
-  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; } .word { display: none; } }
+  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; } .cta-phone + .hamburger { margin-left: 0; } .word { display: none; } }
   @container bar (min-width: 27.5rem) { .word { display: inline; } }
 
   @media (min-width: 900px) {

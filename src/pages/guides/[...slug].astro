@@ -92,12 +92,13 @@ const inField = (fl: string) => all.filter((g) => g.id !== guide.id && g.data.se
 // Peers in a fixed order; each guide shows the next two after itself, so every guide in a field is linked by two others.
 const peers = all.filter((g) => g.data.segment === guide.data.segment && fieldFor(g) === field).sort((x, y) => x.id.localeCompare(y.id));
 const me = peers.findIndex((g) => g.id === guide.id);
-const ownNext = peers.length > 1 ? [1, 2].map((i) => peers[(me + i) % peers.length]).filter((g) => g.id !== guide.id) : [];
+const ownNext = peers.length > 1 ? [1, 2, 3].map((i) => peers[(me + i) % peers.length]).filter((g) => g.id !== guide.id) : [];
 const near = NEAR[field].flatMap(inField);
-// Two from the same field (or its nearest), the third from the site-wide spread so small fields still get linked.
-const firstTwo = [...ownNext, ...near].filter((g, i, arr) => arr.indexOf(g) === i).slice(0, 2);
+// All three from the same field when it has them, then its nearest fields, then the general how-to guides, then the
+// same-audience spread as a last resort (recheck 10/31 F4: a site-wide third slot sent CNA readers to data analyst).
+const general = inField('general');
 const sameAudience = [...spread, ...ring].filter((g) => g.data.segment === guide.data.segment);
-const related = [...firstTwo, ...sameAudience, ...near].filter((g, i, arr) => arr.indexOf(g) === i).slice(0, 3);
+const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i, arr) => arr.indexOf(g) === i && g.id !== guide.id).slice(0, 3);
 ---
 <Base title={pageTitle} description={metaDescription} ogImage={cardPath}>
   <article class="section">
@@ -109,7 +110,7 @@ const related = [...firstTwo, ...sameAudience, ...near].filter((g, i, arr) => ar
       <img class="guide-hero" src={cardPath} alt={guide.data.title} width="1200" height="628" loading="eager" fetchpriority="high" />
       {!isOrg && (
         <aside class="fd-touch" id="fd-t1">
-          <p>Want to know if screening software can read your resume? Upload it, and we'll check 12 things it looks for, such as your contact details, dates, fonts and layout. It's free, and you don't need an account. <a href={checkUrl}>Check my resume free</a></p>
+          <p>Want to know if screening software can read your resume? Upload it, and we'll run up to 12 checks it cares about, such as your contact details, dates and section headings. It's free, and you don't need an account. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
       <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
@@ -121,7 +122,7 @@ const related = [...firstTwo, ...sameAudience, ...near].filter((g, i, arr) => ar
       </div>
       {!isOrg && (
         <aside class="fd-touch" id="fd-t2">
-          <p>Before you change anything, find out how screening software reads your resume today. The free check covers 12 things it looks for. <a href={checkUrl}>Check my resume free</a></p>
+          <p>Before you change anything, find out how screening software reads your resume today. The free check runs up to 12 checks it cares about. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
 
@@ -148,9 +149,9 @@ const related = [...firstTwo, ...sameAudience, ...near].filter((g, i, arr) => ar
       ) : (
         <div class="card cta-card" id="fd-end">
           <h3>Start with a free check of your own resume.</h3>
-          <p>Upload it, and we'll check 12 things screening software looks for, such as your contact details, dates, fonts and layout. You'll see which ones pass and which need attention. It's free, and you don't need an account.</p>
+          <p>Upload it, and we'll run up to 12 checks screening software cares about, such as your contact details, dates and section headings. You'll see which ones pass and which need attention. It's free, and you don't need an account.</p>
           <a class="btn btn-primary btn-lg" href={checkUrl}>Check my resume free</a>
-          <p class="fd-paid">When your check is done, you can choose the full build. For $29, we ask you about your work to find what your resume leaves out, and your final resume is built only from what you brought us and what you approve. There's no subscription and no auto-renewal, and you can get a full refund for any reason within 14 days, as long as you haven't downloaded a finished resume. <a href="/#pricing">See what the $29 build includes</a></p>
+          <p class="fd-paid">When your check is done, you can choose the full build. For $29, we ask you about your work to find what your resume leaves out, and your final resume is built only from what you brought us and what you approve. There's no subscription and no auto-renewal, and you can get a full refund for any reason within 14 days of buying it, as long as you haven't downloaded a finished resume (see section 6 of our <a href="/terms/">Terms</a>). <a href="/#pricing">See what the $29 build includes</a></p>
           {passGuide && <p class="cta-links muted">Applying to several jobs? The AR Pass is $99 for 10 builds aimed at job postings, used within 90 days.</p>}
           <p class="cta-links muted">
             {sample

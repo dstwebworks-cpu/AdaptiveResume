@@ -8,7 +8,7 @@ const RULES: [Field, RegExp][] = [
   ['military', /(military|veteran|security-clearance|government-to-private)/],
   ['care', /(cna|home-health|patient-care|caregiver|medical-assistant|phlebotom|sterile|pharmacy-technician)/],
   ['health', /(nurse|cna|lpn|patient-care|phlebotom|medical|dental|home-health|caregiver|sterile|pharmacy|emt|paramedic|respiratory|radiologic|physical-therapist|bls-and-cpr)/],
-  ['trades', /(hvac|electrician|plumber|carpenter|lineman|mechanic|welder|machinist|pipefitter|heavy-equipment|construction|landscaping|custodian|maintenance|manufacturing|production-supervisor|skills-you-forgot)/],
+  ['trades', /(automotive|hvac|electrician|plumber|carpenter|lineman|mechanic|welder|machinist|pipefitter|heavy-equipment|construction|landscaping|custodian|maintenance|manufacturing|production-supervisor|skills-you-forgot)/],
   ['logistics', /(warehouse|logistics|delivery|cdl|truck|dispatcher|bus-driver|forklift|flight-attendant|pilot)/],
   ['it', /(help-desk|soc-analyst|cyber|systems-administrator|data-analyst)/],
   ['food', /(line-cook|chef|restaurant|hotel)/],
@@ -25,7 +25,7 @@ export function fieldOf(slug: string): Field {
 // The closest demo sample, only where one really matches.
 export function demoSampleFor(slug: string, field: Field): string | null {
   if (slug.includes('paralegal')) return 'paralegal';
-  if (field === 'military') return 'military';
+  if (/(military|veteran)/.test(slug)) return 'military';   // not government-to-private: that reader is a federal employee
   if (slug.includes('employment-gap')) return 'gap';
   if (field === 'it') return 'it';
   if (slug.includes('hvac') || field === 'trades') return 'hvac';
