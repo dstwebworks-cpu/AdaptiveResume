@@ -49,8 +49,9 @@ const waitlistAction = appUrl + '/waitlist';
           <p>Same way, every time: we work backwards from the jobs you've actually held, you confirm what's true, and nothing goes in that isn't yours.{!LAUNCHED && <> Join the launch list before launch and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</>}</p>
           {LAUNCHED ? (
             <>
+              <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal.</p>
               <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
-              <p class="start-alt muted">The check is free, with no sign-up. You create an account and pay only when you're ready to start your review.</p>
+              <p class="start-alt muted">You create an account and pay only when you're ready to start your review.</p>
             </>
           ) : (
             <>
