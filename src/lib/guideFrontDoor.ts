@@ -44,10 +44,10 @@ export const SAMPLE_LABEL: Record<string, string> = {
   it: 'the IT help desk sample',
 };
 
-// Nearest fields, used to fill "Keep reading" when a field has fewer than three guides (walk 10/31: the military
-// guide fell back to unrelated guides).
+// Nearest fields, used to fill "Keep reading" after a guide's own field. Rule order above matters: aviation and safety
+// must stay above care, health and trades. Military and aviation fill from the general how-to guides.
 export const NEAR: Record<Field, Field[]> = {
-  care: ['health'], health: ['care'], trades: ['logistics'], military: ['safety'], aviation: ['trades', 'logistics'],
+  care: ['health'], health: ['care'], trades: ['logistics'], military: [], aviation: [],   // small fields fall through to the general how-to guides (recheck round 3 FIX-A)
   logistics: ['trades', 'military'], it: ['office'], office: ['it'], food: ['office'], ats: ['general'],
   gap: ['general'], education: ['office'], safety: ['care'], general: ['ats'],
 };
