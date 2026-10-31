@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { fieldOf, demoSampleFor, SAMPLE_LABEL } from '../../lib/guideFrontDoor';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides', (g) => !g.data.draft);
@@ -72,8 +73,24 @@ const ring = all
     a.data.order - b.data.order || a.id.localeCompare(b.id),
   );
 const selfIdx = Math.max(0, all.findIndex((g) => g.id === guide.id));
-const related = ring.length <= 3 ? ring
+const spread = ring.length <= 3 ? ring
   : [0, 1, 2].map((i) => ring[(selfIdx + i * Math.floor(ring.length / 3)) % ring.length]);
+// Front door (founder 10/30-10/31/2026): build-time version for the side-by-side walk.
+// 1 = free check leads the end panel; 2 = plus a touch near the top, one mid-guide and a phone bottom bar;
+// 3 = version 2 plus wording, demo sample and "Keep reading" matched to the guide's field.
+const FD = (import.meta.env.PUBLIC_FD_VARIANT ?? '2') as '1' | '2' | '3';
+const isOrg = guide.data.segment === 'organizations';
+const field = fieldOf(guide.id);
+const sample = FD === '3' ? demoSampleFor(guide.id, field) : null;
+const isAts = FD === '3' && field === 'ats';
+const checkUrl = appUrl + '/?start=check';
+const checkLabel = isAts ? "Check my resume's format free" : 'Check my resume free';
+const passGuide = guide.data.cta.label.includes('$99');
+// Version 3 keeps "Keep reading" in the same field and audience; otherwise the spread above.
+const sameField = all.filter((g) => g.id !== guide.id && g.data.segment === guide.data.segment && fieldOf(g.id) === field);
+const related = FD === '3' && sameField.length >= 3
+  ? [0, 1, 2].map((i) => sameField[(selfIdx + i * Math.floor(sameField.length / 3)) % sameField.length])
+  : spread;
 ---
 <Base title={pageTitle} description={metaDescription} ogImage={cardPath}>
   <article class="section">
@@ -83,6 +100,14 @@ const related = ring.length <= 3 ? ring
       <p class="lede">{guide.data.description}</p>
       <p class="muted dateline">Published {fmtDate(pub)}{upd && ` · Updated ${fmtDate(upd)}`}</p>
       <img class="guide-hero" src={cardPath} alt={guide.data.title} width="1200" height="628" loading="eager" fetchpriority="high" />
+      {FD !== '1' && !isOrg && (
+        <aside class="fd-touch" id="fd-t1">
+          <p>{isAts
+            ? "Want to know how screening software reads your own resume? Upload it, and we'll show you for free. You don't need an account."
+            : "Want to know how screening software reads your own resume? We'll check it for free while you read, and you don't need an account."}
+          <a href={checkUrl}>{checkLabel}</a></p>
+        </aside>
+      )}
       <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
       <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
       {faqLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />}
@@ -90,6 +115,11 @@ const related = ring.length <= 3 ? ring
       <div class="prose">
         <Content />
       </div>
+      {FD !== '1' && !isOrg && (
+        <aside class="fd-touch" id="fd-t2">
+          <p>Before you change anything, see how your resume reads today. The check is free. <a href={checkUrl}>{checkLabel}</a></p>
+        </aside>
+      )}
 
       {guide.data.faq?.length && (
         <div class="faq-block">
@@ -100,6 +130,40 @@ const related = ring.length <= 3 ? ring
               <p>{f.a}</p>
             </details>
           ))}
+        </div>
+      )}
+
+      {/* product panel: the free check leads; the paid build is the second line */}
+      {isOrg ? (
+        <div class="card cta-card" id="fd-end">
+          {FD === '3' ? (
+            <>
+              <h3>Want to see this working for the people you serve?</h3>
+              <p>We review each person's resume with them, and nothing goes on a resume that the person didn't give us or confirm. Tell us how many people you serve, and we'll send you a per-person price.</p>
+              <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label}</a>
+              <p class="cta-links muted"><a href="/business/">See how it works for organizations</a></p>
+            </>
+          ) : (
+            <>
+              <h3>Ready to do this for the people you serve?</h3>
+              <p>We review each person's resume with them, and nothing goes on a resume that the person didn't give us or confirm.</p>
+              <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label}</a>
+            </>
+          )}
+        </div>
+      ) : (
+        <div class="card cta-card" id="fd-end">
+          <h3>Start with a free check of your own resume.</h3>
+          <p>Upload it, and we'll show you how screening software reads it. It's free, and you don't need an account.</p>
+          <a class="btn btn-primary btn-lg" href={checkUrl}>{checkLabel}</a>
+          <p class="fd-paid">Want us to find what your resume leaves out? That's the full build, $29. Nothing goes on your resume unless you say so. No subscription, no auto-renewal. <a href={checkUrl}>Start my $29 resume build</a></p>
+          {passGuide && <p class="cta-links muted">Applying to several jobs? The AR Pass is $99 for 10 builds aimed at job postings, used within 90 days.</p>}
+          <p class="cta-links muted">
+            {sample
+              ? <a href={'/demo/?p=' + sample}>{'See it work on ' + SAMPLE_LABEL[sample] + ', no sign-up needed'}</a>
+              : <a href="/demo/">See it work on a sample resume, no sign-up needed</a>}
+          </p>
+          <p class="cta-links muted">Paid a resume service and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
         </div>
       )}
 
@@ -120,23 +184,6 @@ const related = ring.length <= 3 ? ring
         <p class="gate-err muted" hidden>That email didn't look right — mind trying it again?</p>
       </div>
 
-      <!-- conversion CTA -->
-      <div class="card cta-card">
-        <h3>Ready to do this on your own resume?</h3>
-        <p>We'll find what you've left off, and nothing goes on your resume that you didn't give us or confirm.</p>
-        <a class="btn btn-primary btn-lg" href={guide.data.cta.href}>{guide.data.cta.label.replace(/ — /g, ' — ')}</a>
-        <p class="cta-links muted">Every purchase is one payment, and nothing renews. A single resume build can be used any time within 12 months of buying it, and AR Pass builds you don't use end when its 90 days end.</p>
-        <!-- 09/02 funnel pass (founder: "give valuable usable information but keep funneling
-             leads into our machine") — three doors from every guide: the build, the demo, and
-             the burned-customer page. Nurse guides route to /nurses/, all others to the service
-             page that matches the head ad term. -->
-        <p class="cta-links muted">
-          <a href="/demo/">Try the demo first</a> — a sample review, no sign-up ·
-          <a href={guide.id.includes('nurse') ? '/nurses/' : '/resume-writing-service/'}>See how the service works</a>
-        </p>
-        <p class="cta-links muted">Paid a resume service and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
-      </div>
-
       <!-- keep reading -->
       <div class="related">
         <h3>Keep reading</h3>
@@ -151,6 +198,29 @@ const related = ring.length <= 3 ? ring
       </div>
     </div>
   </article>
+  {FD !== '1' && !isOrg && (
+    <div class="fd-bar" id="fd-bar" hidden>
+      <p>Free. No account. No subscription.</p>
+      <a class="btn btn-primary" href={checkUrl}>{checkLabel}</a>
+    </div>
+  )}
+
+  <script>
+    // Front door: touch 1 after the article's first paragraph, touch 2 before its middle section heading.
+    const prose = document.querySelector('.prose');
+    const t1 = document.getElementById('fd-t1'), t2 = document.getElementById('fd-t2');
+    const firstP = prose?.querySelector(':scope > p');
+    if (t1 && firstP) firstP.after(t1);
+    const heads = prose ? Array.from(prose.querySelectorAll(':scope > h2')) : [];
+    if (t2 && heads.length >= 2) heads[Math.floor(heads.length / 2)].before(t2);
+    const bar = document.getElementById('fd-bar'), end = document.getElementById('fd-end');
+    if (bar && end && 'IntersectionObserver' in window) {
+      let pastTop = false, endShown = false;
+      const update = () => { bar.hidden = !(pastTop && !endShown); document.body.classList.toggle('fd-bar-on', !bar.hidden); };
+      addEventListener('scroll', () => { pastTop = scrollY > innerHeight * 0.8; update(); }, { passive: true });
+      new IntersectionObserver((e) => { endShown = e[0].isIntersecting; update(); }).observe(end);
+    }
+  </script>
 
   <script>
     // WIRED 07/27 (audit row 20): the form POSTs to the app's /waitlist (stored with
@@ -186,7 +256,7 @@ const related = ring.length <= 3 ? ring
     .prose :global(li) { margin-bottom: .45em; }
     .prose :global(strong) { color: var(--ink); }
     .prose :global(blockquote) { border-left: 3px solid var(--primary); margin: 1.2em 0; padding: .4em 0 .4em 16px; color: var(--ink); background: var(--primary-bg); border-radius: 0 8px 8px 0; }
-    .giveaway { margin-top: 38px; border-color: #ddccf6; background: var(--premium-bg); }
+    .giveaway { margin-top: 22px; border-color: #ddccf6; background: var(--premium-bg); }
     .giveaway h3 { margin: 8px 0 6px; }
     .gate { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
     /* CSS display rules (.btn's inline-flex, .gate's flex) silently BEAT the hidden
@@ -195,7 +265,18 @@ const related = ring.length <= 3 ? ring
        Inside this card, [hidden] always wins. !important is load-bearing here. */
     .giveaway [hidden] { display: none !important; }
     .gate input { flex: 1 1 220px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
-    .cta-card { margin-top: 22px; text-align: center; }
+    .cta-card { margin-top: 38px; text-align: center; }
+    .cta-card .fd-paid { margin: 14px auto 0; max-width: 56ch; }
+    .cta-card .fd-paid a { text-decoration: underline; font-weight: 700; }
+    .fd-touch { background: var(--accent-bg); border-left: 4px solid var(--accent-strong); border-radius: 10px; padding: 12px 16px; margin: 18px 0; }
+    .fd-touch p { margin: 0; color: var(--ink); }
+    .fd-touch a { font-weight: 700; text-decoration: underline; margin-left: 4px; }
+    .fd-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: #fff; border-top: 1px solid var(--line); padding: 8px 14px calc(10px + env(safe-area-inset-bottom)); text-align: center; box-shadow: 0 -6px 18px rgba(22,32,43,.08); }
+    .fd-bar[hidden] { display: none; }
+    .fd-bar p { margin: 0 0 6px; font-size: .88rem; color: var(--ink-soft); }
+    .fd-bar .btn { display: flex; justify-content: center; width: 100%; min-height: 44px; }
+    :global(body.fd-bar-on) { padding-bottom: 96px; }
+    @media (min-width: 900px) { .fd-bar { display: none !important; } }
     .cta-card .btn { margin-top: 6px; }
     .cta-card .cta-links { margin: 12px 0 0; font-size: .95rem; }
     .cta-card .cta-links a { text-decoration: underline; }

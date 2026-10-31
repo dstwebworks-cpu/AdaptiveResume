@@ -19,7 +19,7 @@ const links = [
   <div class="container bar">
     <a class="brand" href="/" aria-label="AdaptiveResume home">
       <span class="mark" aria-hidden="true">AR</span>
-      <span>Adaptive<span style="color:var(--accent)">Resume</span></span>
+      <span class="word">Adaptive<span style="color:var(--accent)">Resume</span></span>
     </a>
 
     <nav class="nav desktop" aria-label="Primary">
@@ -27,7 +27,9 @@ const links = [
     </nav>
 
     {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary cta-desktop" href={LAUNCHED ? `${appUrl}/?start=check` : '/#get-started'}>{LAUNCHED ? 'Get started' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-primary cta-desktop" href={LAUNCHED ? `${appUrl}/?start=check` : '/#get-started'}>{LAUNCHED ? 'Check my resume free' : 'Join the launch list for 25% off'}</a>
+
+    {LAUNCHED && <a class="btn btn-primary cta-phone" href={`${appUrl}/?start=check`}>Check my resume free</a>}
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -57,7 +59,7 @@ const links = [
 
 <style>
   .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
-  .bar { display: flex; align-items: center; gap: 14px; min-height: 64px; }
+  .bar { display: flex; align-items: center; gap: 14px; min-height: 64px; container-type: inline-size; container-name: bar; }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
   .brand:hover { text-decoration: none; }
   .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: .78rem; font-weight: 800; }
@@ -82,7 +84,15 @@ const links = [
   .mobile-menu a:not(.btn):hover { text-decoration: none; }
   .mobile-menu .btn { margin-top: 10px; }
 
+  /* Phone header button: shown only where it fits, decided by the header's own width in root text units (rem, the same unit the button uses), so larger text
+     settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026). */
+  .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: .86rem; white-space: nowrap; min-height: 44px; }
+  .cta-phone + .hamburger { margin-left: 0; }
+  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; } .word { display: none; } }
+  @container bar (min-width: 27.5rem) { .word { display: inline; } }
+
   @media (min-width: 900px) {
+    .cta-phone { display: none !important; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
     .hamburger { display: none; }
