@@ -24,7 +24,7 @@ faq:
     a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 days if the layoff is part of a group program) and 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
-You were laid off. This guide puts the urgent things in order and links each rule to the agency that runs it, so you can check it yourself.
+You were laid off. Start at the top and work down; the sections run in the order the deadlines arrive.
 
 It is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
 
@@ -43,7 +43,9 @@ Two things to know once you file:
 
 This is the decision with the hardest deadlines, and two programs are involved.
 
-**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you. If you are 65 or older, or will be soon, ask Medicare about enrolling before you choose COBRA: the Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B.
+**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
+
+**If you are 65 or older, or will be soon,** ask Medicare about enrolling before you choose COBRA. The Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B. It also says that if you lose your job after your first Medicare enrollment period and did not enroll in Part A or B, you generally have eight months to sign up, starting the month after your job ends or the month after your group coverage ends, whichever is earlier.
 
 The COBRA timeline, from the Department's [Employee's Guide to Health Benefits Under COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf):
 
@@ -69,7 +71,7 @@ A severance agreement usually pays you in exchange for releasing legal claims ag
 - The agreement must advise you in writing to consult an attorney before you sign.
 - You get at least 21 days to consider it, or at least 45 days if the layoff is part of a program offered to a group of employees.
 - After you sign, you have at least 7 days to revoke, and the agreement does not take effect until those 7 days pass.
-- In a group program, the employer must also tell you in writing which group of employees the program covers, its eligibility factors and time limits, the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
+- In a group program, the employer must also tell you in writing which group of employees the program covers and its eligibility factors and time limits. It must also list the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
 
 The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements) explains these rules in plain language. Whatever your age, read the agreement's terms on returning company property and keeping company information confidential. Return what belongs to the employer, keep nothing from its systems, and ask an employment attorney about any term you are unsure of before you sign.
 
@@ -79,13 +81,13 @@ The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimin
 
 When you leave a job, your former employer's retirement plan may offer to pay out your balance. Before you take it as cash, know the cost:
 
-- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older; the IRS says these exceptions apply to plans other than an IRA, so it does not carry over once the money is in an IRA.
+- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older. The IRS says this exception applies to plans other than an IRA, so it no longer applies once you move the money into an IRA.
 - **20% held back.** A plan distribution paid to you is [subject to mandatory withholding of 20%](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions), even if you intend to roll it over later.
-- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA, and to roll over the full amount you must add back the 20% that was withheld, from other money. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
+- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA. To roll over the full amount, you must make up the 20% that was withheld with other money. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
 
 Ask the plan how each choice would be paid before you request anything, and talk with a tax professional if the amount matters to your budget this year.
 
-## Free help near you
+## Public help near you
 
 There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, call 1-877-US-2JOBS. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, through American Job Centers, and our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
 

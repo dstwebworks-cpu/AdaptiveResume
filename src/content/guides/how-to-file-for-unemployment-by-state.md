@@ -24,7 +24,7 @@ faq:
     a: "Yes. The Department of Labor says you must file weekly or biweekly claims after each week ends and answer questions about whether you are still eligible. Your state explains its schedule when you file, so write it down and keep a record of each claim you send."
 ---
 
-Every state runs its own unemployment insurance program, so the first step is finding the right state and its official site. The table below links the unemployment page for all 50 states and the District of Columbia. We opened every link on 11/03/2026 to make sure it goes to the state agency itself.
+Every state runs its own unemployment insurance program, so the first step is finding the right state and its official site. Each link in the table below goes to the state agency itself.
 
 This page explains how filing works in general. Each state sets its own rules, amounts and deadlines, so your state's site is the final word on your claim.
 

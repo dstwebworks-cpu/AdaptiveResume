@@ -2,7 +2,7 @@
 title: "Long-Term Unemployed? How to Restart Your Job Search After Six Months"
 description: "Out of work six months or more? This guide explains what changes with benefits and health coverage, how the WIOA Dislocated Worker program can pay for training, how to keep your skills current, and how to write the gap honestly."
 seoTitle: "Long-Term Unemployed? Restarting Your Job Search"
-seoDescription: "Long-term unemployed? What changes after six months, how the WIOA Dislocated Worker program and training accounts work, and how to handle the gap honestly."
+seoDescription: "Long-term unemployed? Learn what changes after six months, how WIOA Dislocated Worker training accounts work, and how to handle the gap honestly."
 segment: "job-seekers"
 audience: "Anyone who has been out of work for six months or more and wants a fresh plan"
 keyword: "long term unemployed"
@@ -21,7 +21,7 @@ faq:
   - q: "Can I still get help after my unemployment benefits run out?"
     a: "Yes. Under federal law, a dislocated worker can be someone who is eligible for unemployment compensation or who has already used it up, so running out of benefits does not by itself end your eligibility for the WIOA Dislocated Worker program. The local American Job Center decides who qualifies, so ask there."
   - q: "Does a long gap hurt my chances?"
-    a: "It can. A field experiment published by the National Bureau of Economic Research found that the chance of a callback for an interview went down as unemployment went on, with most of the drop in the first eight months. That is a reason to keep recent work and training on your resume and to answer the gap calmly and honestly, not a reason to hide it."
+    a: "It can. A field experiment published by the National Bureau of Economic Research found that the chance of a callback for an interview went down as unemployment went on, with most of the drop in the first eight months. That is a reason to keep recent work and training on your resume and to show the gap honestly, not a reason to hide it."
 ---
 
 If you have been looking for work for six months or more, you are far from alone. The U.S. Bureau of Labor Statistics counts people jobless for 27 weeks or more as long-term unemployed, and in its [September 2026 report](https://www.bls.gov/news.release/empsit.nr0.htm) that was 1.9 million people, 27.1 percent of everyone who was unemployed.
@@ -72,7 +72,7 @@ Ask a few of them whether they would be willing to serve as a reference, and tel
 
 ## Write the gap honestly
 
-A gap of six months or more is common, and you don't need to hide it. Our guide on [how to explain an employment gap on your resume](/guides/how-to-explain-employment-gap-on-resume/) walks through honest ways to show it on your resume. Never change dates to shrink a gap; an explained gap is a detail, and a discovered cover-up can end the process.
+A gap of six months or more is common, and you don't need to hide it. Our guide on [how to explain an employment gap on your resume](/guides/how-to-explain-employment-gap-on-resume/) walks through honest ways to show it. Never change dates to shrink a gap; an explained gap is a detail, and a discovered cover-up can end the process.
 
 ## Run the search like a project
 

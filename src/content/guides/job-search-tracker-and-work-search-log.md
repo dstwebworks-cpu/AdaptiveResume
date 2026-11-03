@@ -26,7 +26,7 @@ faq:
 
 A job search turns into a lot of moving parts fast: dozens of applications, a handful of people to follow up with, and dates that are easy to lose track of. A simple tracker keeps it all in one place, so you always know what you sent, to whom, and what happens next. If you are receiving unemployment benefits, it also helps you keep the job-search record your state may ask for.
 
-This page has two free downloads. The Excel job search tracker at the bottom of the page handles applications, contacts and follow-ups. The printable weekly claim and work-search log on our [page about filing for unemployment](/guides/how-to-file-for-unemployment-by-state/) gives you one row per week for your claims and the employers you contacted.
+The free download on this page is the Excel job search tracker, at the bottom, and it handles applications, contacts and follow-ups. Its companion, the printable weekly claim and work-search log, is free on our [page about filing for unemployment](/guides/how-to-file-for-unemployment-by-state/), and it gives you one row per week for your claims and the employers you contacted.
 
 ## What's in the free job search tracker
 
@@ -77,7 +77,7 @@ A few practical points:
 - **Use your state's format if it has one.** Some states want contacts reported in their own online system or on their own form. Our log and tracker are personal records, not official state forms.
 - **Keep your records.** Hold on to your log and any confirmation numbers in case your state asks about a past week.
 
-The printable weekly log has two parts: a weekly claims table (week ending, date you filed, confirmation number) and a job-search contacts table. The Excel tracker's Applications tab holds most of the same details if you would rather keep everything on a computer; use the Notes column for how you applied and who you contacted.
+The printable weekly log has two parts: a weekly claims table (week ending, date you filed, confirmation number) and a job-search contacts table. The Excel tracker's Applications tab holds most of the same details if you would rather keep everything on a computer; put who you contacted in the Contact name column and how you applied in the Notes column.
 
 ## When your tracker tells you something
 
@@ -87,7 +87,7 @@ Our free resume check covers the first one. It shows how screening software read
 
 ## More free help after a layoff
 
-If you were recently laid off, our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the deadlines that matter most: unemployment, health coverage, final pay, severance and your 401(k). If your search has gone on for six months or more, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains the free WIOA Dislocated Worker program and how training is paid for. Every free resource for this stretch is on one page: [Laid off? Start here](/laid-off/).
+If you were recently laid off, our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the deadlines that matter most: unemployment, health coverage, final pay, severance and your 401(k). If your search has gone on for six months or more, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains the WIOA Dislocated Worker program and how training is paid for. Every free resource for this stretch is on one page: [Laid off? Start here](/laid-off/).
 
 ## Download the free job search tracker
 

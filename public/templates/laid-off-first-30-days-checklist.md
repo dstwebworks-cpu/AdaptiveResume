@@ -30,7 +30,8 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Retirement savings
 - [ ] Did not cash out my 401(k) before knowing the cost (an extra 10% tax before age 59 1/2, unless I left at 55 or older; 20% withheld if paid to me)
-- [ ] Asked the plan about a direct rollover (no tax withheld), or, if a distribution is paid to me, rolled it over within 60 days and added back the 20% withheld
+- [ ] Asked the plan how each choice would be paid. A direct rollover to another plan or an IRA has no tax withheld.
+- [ ] If a distribution was paid to me, I wrote down that I have 60 days to roll it over, and that rolling over the full amount means adding back the 20% withheld from my own money (date received: ________)
 
 ## Free help
 - [ ] Found my nearest American Job Center (1-877-US-2JOBS) and asked what it offers
