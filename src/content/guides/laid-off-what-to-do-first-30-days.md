@@ -87,7 +87,7 @@ Ask the plan how each choice would be paid before you request anything, and talk
 
 ## Free help near you
 
-There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, call 1-877-US-2JOBS. If retraining is on your mind, our guide to [workforce boards and WIOA training](/guides/workforce-boards-wioa-skills/) explains how training funds work.
+There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, call 1-877-US-2JOBS. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, through American Job Centers, and our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
 
 ## Your resume, when you're ready
 

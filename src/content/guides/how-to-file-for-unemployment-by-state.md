@@ -104,7 +104,7 @@ If a link has moved by the time you use it, search for the agency's name shown i
 
 American Job Centers are the public offices that help people find work, and there are about 2,300 of them across the country. The [Department of Labor](https://www.dol.gov/agencies/eta/american-job-centers) says they offer job search help and re-employment services for people on unemployment, and that services vary by state. Some services have eligibility rules, so ask your local center what it offers.
 
-To find a center near you, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) on CareerOneStop, or call the Department of Labor's toll-free help line at 1-877-US-2JOBS. The same line can answer general questions about job loss. If you are thinking about retraining, our guide to [workforce boards and WIOA training](/guides/workforce-boards-wioa-skills/) explains how training funds work.
+To find a center near you, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) on CareerOneStop, or call the Department of Labor's toll-free help line at 1-877-US-2JOBS. The same line can answer general questions about job loss. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, through American Job Centers, and our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
 
 ## What comes next
 
