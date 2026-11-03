@@ -24,7 +24,7 @@ faq:
     a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 days if the layoff is part of a group program) and 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
-You were laid off. The first month has a few deadlines that cost real money if you miss them, and a lot that can wait until you have your feet under you. This guide puts the urgent things in order and links each rule to the agency that runs it, so you can check it yourself.
+You were laid off. This guide puts the urgent things in order and links each rule to the agency that runs it, so you can check it yourself.
 
 It is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
 
@@ -36,14 +36,14 @@ Your state's site lists what it asks for and how to apply online or by phone. Ou
 
 Two things to know once you file:
 
-- **Benefits are taxable.** The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include unemployment compensation in your income. You can choose to have federal income tax withheld by filing Form W-4V, which keeps a tax bill from surprising you next spring.
+- **Benefits are taxable.** The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include unemployment compensation in your income. You can choose to have federal income tax withheld from your benefits by filing Form W-4V, so less is due when you file your return.
 - **Your state may ask about your job search.** Your state will tell you whether you must record your job-search contacts and how to report them. Our free [job search tracker and work-search log](/guides/job-search-tracker-and-work-search-log/) keeps those contacts, dates and follow-ups in one place.
 
 ## Days 1 to 60: choose your health coverage
 
 This is the decision with the hardest deadlines, and two programs are involved.
 
-**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and covers your dependents too. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
+**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you. If you are 65 or older, or will be soon, ask Medicare about enrolling before you choose COBRA: the Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B.
 
 The COBRA timeline, from the Department's [Employee's Guide to Health Benefits Under COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf):
 
@@ -64,24 +64,24 @@ Unused vacation works the same way. Federal law does [not require payment for ti
 
 ## Before you sign a severance agreement
 
-A severance agreement usually pays you in exchange for giving up the right to sue. If you are 40 or older and it asks you to give up age discrimination claims, federal law ([29 U.S.C. 626(f)](https://www.law.cornell.edu/uscode/text/29/626)) sets minimum terms:
+A severance agreement usually pays you in exchange for releasing legal claims against the employer. If you are 40 or older and it asks you to give up age discrimination claims, federal law ([29 U.S.C. 626(f)](https://www.law.cornell.edu/uscode/text/29/626)) sets minimum terms:
 
 - The agreement must advise you in writing to consult an attorney before you sign.
 - You get at least 21 days to consider it, or at least 45 days if the layoff is part of a program offered to a group of employees.
 - After you sign, you have at least 7 days to revoke, and the agreement does not take effect until those 7 days pass.
-- In a group program, the employer must tell you in writing who was covered, the job titles and ages of the people selected, and the ages of those in the same unit who were not.
+- In a group program, the employer must also tell you in writing which group of employees the program covers, its eligibility factors and time limits, the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
 
 The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements) explains these rules in plain language. Whatever your age, read the agreement's terms on returning company property and keeping company information confidential. Return what belongs to the employer, keep nothing from its systems, and ask an employment attorney about any term you are unsure of before you sign.
 
 **Was there advance notice?** Under the federal WARN Act ([29 U.S.C. 2102](https://www.law.cornell.edu/uscode/text/29/2102)), an employer with 100 or more employees generally must give 60 days' written notice before a plant closing or mass layoff, with exceptions such as business circumstances that could not reasonably have been foreseen. Whether it applies to your layoff depends on the numbers involved, so if you think notice was owed and not given, ask your state labor department or an attorney.
 
-## Don't cash out your 401(k) by accident
+## Before you cash out your 401(k)
 
 When you leave a job, your former employer's retirement plan may offer to pay out your balance. Before you take it as cash, know the cost:
 
-- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid after you leave an employer at age 55 or older.
+- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older; the IRS says these exceptions apply to plans other than an IRA, so it does not carry over once the money is in an IRA.
 - **20% held back.** A plan distribution paid to you is [subject to mandatory withholding of 20%](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions), even if you intend to roll it over later.
-- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA.
+- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA, and to roll over the full amount you must add back the 20% that was withheld, from other money. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
 
 Ask the plan how each choice would be paid before you request anything, and talk with a tax professional if the amount matters to your budget this year.
 
@@ -97,4 +97,4 @@ If you're still out of work after a few months, our guide for [people out of wor
 
 ## Your first 30 days, on one page
 
-The free checklist below puts every deadline in this guide in order, with a box to check and a line for the date you did it. Print it, put it on the refrigerator, and work through it one item at a time.
+The free checklist below puts every deadline in this guide in order, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.

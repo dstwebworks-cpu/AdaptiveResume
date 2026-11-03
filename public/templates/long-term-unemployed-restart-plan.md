@@ -11,7 +11,7 @@ Date: ____________
 
 ## 2. Health coverage
 - [ ] My coverage today: ______________________ It ends on: ____________
-- [ ] If my income dropped: applied for Medicaid or CHIP at HealthCare.gov (date: ________). It is open any time of year.
+- [ ] If my income dropped: applied for Medicaid or CHIP at HealthCare.gov (date: ________). I can apply for Medicaid and CHIP any time of year.
 
 ## 3. American Job Center visit
 Find a center: 1-877-US-2JOBS or the American Job Center Finder on CareerOneStop.

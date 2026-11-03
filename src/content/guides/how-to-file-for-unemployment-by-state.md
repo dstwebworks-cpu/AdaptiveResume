@@ -1,6 +1,6 @@
 ---
 title: "How to File for Unemployment: The Official Site for Every State"
-description: "How to file for unemployment in any state: who qualifies, when to file, what happens after your first claim, and a link to the official unemployment page for all 50 states and DC, each one checked by hand."
+description: "This guide explains who qualifies for unemployment, when to file and what happens after your first claim, and it links the official unemployment site for all 50 states and DC, each one opened and checked on 11/03/2026."
 seoTitle: "How to File for Unemployment: Official Site, Every State"
 seoDescription: "How to file for unemployment, step by step, with the official unemployment page for all 50 states and DC, plus how to find your nearest American Job Center."
 segment: "job-seekers"
@@ -32,7 +32,7 @@ This page explains how filing works in general. Each state sets its own rules, a
 
 **1. Find the right state.** The U.S. Department of Labor's [unemployment insurance fact sheet](https://oui.doleta.gov/unemploy/uifactsheet.asp) says you should generally file with the state where you worked. If you worked in a different state from where you live now, or in several states, the unemployment agency in the state where you now live can tell you how to file with the others.
 
-**2. Check whether you may qualify.** According to the [Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance), you generally must be unemployed through no fault of your own. In most states, that means you left your last job because of a lack of available work, which is what a layoff is. You also must meet your state's requirements for wages earned or time worked during a "base period." In most states, that is the first four of the last five completed calendar quarters before you file. Your state decides whether you qualify, so file even if you are unsure.
+**2. Check whether you may qualify.** According to the [Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance), you generally must be unemployed through no fault of your own. In most states, that means you left your last job because of a lack of available work, which is what a layoff is. You also must meet your state's requirements for wages earned or time worked during a "base period." In most states, that is the first four of the last five completed calendar quarters before you file. Your state decides whether you qualify, and only a filed claim gets a decision, so filing is the way to find out.
 
 **3. File as soon as possible.** The Department says to contact your state's program as soon as possible after becoming unemployed, and that the first payment generally arrives two to three weeks after you file. Your state's site lists what to have ready and whether you can file online, by phone, or both.
 
@@ -40,7 +40,7 @@ This page explains how filing works in general. Each state sets its own rules, a
 
 **One tax decision to make now.** Unemployment benefits count as income. The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include them on your tax return, and you can choose to have federal income tax withheld by filing Form W-4V.
 
-**Former federal employees and veterans.** The [Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance) lists separate programs for former civilian federal employees (Unemployment Compensation for Federal Employees) and for ex-military personnel (Unemployment Compensation for Ex-Service Members). If either applies to you, ask the agency in your state about it when you file.
+**Former federal employees and people recently out of the military.** The [Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance) lists separate programs for former civilian federal employees (Unemployment Compensation for Federal Employees) and for ex-military personnel (Unemployment Compensation for Ex-Service Members). If either applies to you, ask the agency in your state about it when you file.
 
 ## Where to file for unemployment in your state
 
@@ -55,8 +55,8 @@ This page explains how filing works in general. Each state sets its own rules, a
 | Connecticut | [Connecticut Department of Labor](https://portal.ct.gov/dol/unemployment-benefits) |
 | Delaware | [Delaware Department of Labor](https://labor.delaware.gov/divisions/unemployment-insurance/) |
 | District of Columbia | [Office of Unemployment Compensation](https://unemployment.dc.gov/page/apply-benefits) |
-| Florida | [FloridaJobs.org Reemployment Assistance](https://floridajobs.org/workforce-resources/reemployment-assistance) |
-| Georgia | [Georgia Department of Labor](https://dol.georgia.gov/individuals) |
+| Florida | [FloridaCommerce Reemployment Assistance](https://floridajobs.org/workforce-resources/reemployment-assistance) |
+| Georgia | [Georgia Department of Labor](https://dol.georgia.gov/file-unemployment-insurance-claim) |
 | Hawaii | [Hawaii Department of Labor and Industrial Relations](https://labor.hawaii.gov/ui/) |
 | Idaho | [Idaho Department of Labor](https://www.labor.idaho.gov/unemployment-benefits/) |
 | Illinois | [Illinois Department of Employment Security](https://ides.illinois.gov/unemployment.html) |
@@ -82,11 +82,11 @@ This page explains how filing works in general. Each state sets its own rules, a
 | North Carolina | [North Carolina Division of Employment Security](https://www.des.nc.gov/individuals/apply-ui) |
 | North Dakota | [Job Service North Dakota](https://www.jobsnd.com/unemployment-individuals) |
 | Ohio | [Ohio Department of Job and Family Services](https://jfs.ohio.gov/unemployment-services) |
-| Oklahoma | [Oklahoma Employment Security Commission](https://oklahoma.gov/oesc/individuals.html) |
+| Oklahoma | [Oklahoma Employment Security Commission](https://oklahoma.gov/oesc/individuals/unemployment.html) |
 | Oregon | [Oregon Employment Department](https://unemployment.oregon.gov/) |
 | Pennsylvania | [Pennsylvania Department of Labor and Industry](https://www.pa.gov/agencies/dli/programs-services/unemployment) |
 | Rhode Island | [Rhode Island Department of Labor and Training](https://dlt.ri.gov/individuals/unemployment-insurance) |
-| South Carolina | [South Carolina Department of Employment and Workforce](https://dew.sc.gov/individuals) |
+| South Carolina | [South Carolina Department of Employment and Workforce](https://dew.sc.gov/individuals/applying-benefits) |
 | South Dakota | [South Dakota Reemployment Assistance](https://dlr.sd.gov/ra/individuals/default.aspx) |
 | Tennessee | [Tennessee Department of Labor and Workforce Development](https://www.tn.gov/workforce/unemployment.html) |
 | Texas | [Texas Workforce Commission](https://www.twc.texas.gov/programs/unemployment-benefits) |

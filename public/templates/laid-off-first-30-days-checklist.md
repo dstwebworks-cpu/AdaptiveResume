@@ -9,7 +9,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] Filed for unemployment in the state where I worked (date: ________). Confirmation number: ____________
 - [ ] Decided whether to have federal tax withheld from my benefits (IRS Form W-4V)
 - [ ] Found out whether my state asks me to record job-search contacts, and how to report them
-- [ ] Wrote down the date my health coverage ends (it starts the 60-day clocks below)
+- [ ] Wrote down the date my health coverage ends (the Marketplace window runs 60 days before and after it; the COBRA window runs 60 days from that date or from the day my notice arrived, whichever is later)
 
 ## Health coverage (deadlines run 60 days)
 - [ ] Received my COBRA election notice (date: ________). My employer has 30 days to notify the plan, and the plan has 14 days after that to send it.
@@ -30,7 +30,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Retirement savings
 - [ ] Did not cash out my 401(k) before knowing the cost (an extra 10% tax before age 59 1/2, unless I left at 55 or older; 20% withheld if paid to me)
-- [ ] Asked the plan how a rollover would be paid; 60 days to complete one if a distribution is paid to me
+- [ ] Asked the plan about a direct rollover (no tax withheld), or, if a distribution is paid to me, rolled it over within 60 days and added back the 20% withheld
 
 ## Free help
 - [ ] Found my nearest American Job Center (1-877-US-2JOBS) and asked what it offers

@@ -1,8 +1,8 @@
 ---
 title: "Free Job Search Tracker and Work-Search Log (Excel Template)"
-description: "A free Excel job search tracker that keeps every application, contact and follow-up date in one place and flags the ones that are due, plus a printable weekly log for the job-search contacts your state may ask you to record."
+description: "A free Excel job search tracker that keeps every application, contact and follow-up date in one place and flags the ones whose follow-up date has passed, plus a printable weekly log for the job-search contacts your state may ask you to record."
 seoTitle: "Free Job Search Tracker and Work-Search Log Template"
-seoDescription: "A free Excel job application tracker that flags follow-ups when they're due, plus a printable work-search log for the contacts your state may ask you to record."
+seoDescription: "A free Excel job application tracker that flags follow-ups once their date passes, plus a printable log of the job-search contacts your state may ask for."
 segment: "job-seekers"
 audience: "Anyone applying to more jobs than they can keep straight in their head"
 keyword: "job search tracker"
@@ -77,7 +77,7 @@ A few practical points:
 - **Use your state's format if it has one.** Some states want contacts reported in their own online system or on their own form. Our log and tracker are personal records, not official state forms.
 - **Keep your records.** Hold on to your log and any confirmation numbers in case your state asks about a past week.
 
-The printable weekly log has two parts: a weekly claims table (week ending, date you filed, confirmation number) and a job-search contacts table. The Excel tracker's Applications tab holds the same contact details if you would rather keep everything on a computer.
+The printable weekly log has two parts: a weekly claims table (week ending, date you filed, confirmation number) and a job-search contacts table. The Excel tracker's Applications tab holds most of the same details if you would rather keep everything on a computer; use the Notes column for how you applied and who you contacted.
 
 ## When your tracker tells you something
 

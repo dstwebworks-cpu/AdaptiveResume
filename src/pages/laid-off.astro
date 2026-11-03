@@ -39,7 +39,7 @@ const downloads = [
 ---
 <Base
   title="Laid Off? Start Here: Free Help, Deadlines and Tools"
-  description="Free help after a layoff, in order: filing for unemployment, the 60-day health coverage deadlines, severance, free downloads, and free job help near you."
+  description="Free help after a layoff, in order: how to file for unemployment, meet the 60-day health coverage deadlines, read severance terms, and find job help near you."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
 
@@ -50,7 +50,7 @@ const downloads = [
       <p class="lede">
         Losing a job brings a few deadlines that cost money if you miss them, and a lot that can wait.
         This page puts the urgent things in order and gathers our free guides and downloads in one place.
-        Every rule we mention links to the agency that runs it, so you can check it yourself.
+        Each guide links every rule it mentions to the agency that runs it, so you can check it yourself.
       </p>
       <div class="cta-row">
         <a class="btn btn-amber btn-lg" href="/guides/laid-off-what-to-do-first-30-days/">Read the first 30 days, in order</a>
@@ -81,7 +81,7 @@ const downloads = [
     <div class="container">
       <p class="eyebrow">Free downloads</p>
       <h2>Four free tools for this stretch</h2>
-      <p class="muted">Each one is free and sits at the bottom of the guide it goes with.</p>
+      <p class="muted">Each one is free: open the guide it goes with, enter your email in the box at the bottom, and the download unlocks.</p>
       <div class="grid cols-2">
         {downloads.map((d) => (
           <div class="card">
@@ -101,7 +101,7 @@ const downloads = [
       <p>
         More than one in four unemployed people had been looking for 27 weeks or more in the Bureau of Labor
         Statistics' September 2026 report. A long search changes a few practical things, and it opens doors
-        to free help many people never hear about, including the WIOA Dislocated Worker program, which can
+        to public help many people never hear about, including the WIOA Dislocated Worker program, which can
         pay for training. Running out of unemployment benefits does not, by itself, shut you out of it.
       </p>
       <p><a href="/guides/long-term-unemployed-restarting-your-job-search/">Read the guide for people out of work six months or more</a></p>
@@ -124,7 +124,7 @@ const downloads = [
   <section class="section alt">
     <div class="container">
       <p class="eyebrow">When you're ready to apply</p>
-      <h2>Your resume, without the guesswork</h2>
+      <h2>Getting your resume ready</h2>
       <p>
         You don't need to rewrite your resume in the first week. When you start applying, our guide on
         <a href="/guides/how-to-explain-employment-gap-on-resume/">how to explain an employment gap</a> shows calm,
@@ -132,7 +132,7 @@ const downloads = [
         <a href="/guides/how-to-list-self-employment-on-resume/">how to list self-employment</a> covers freelance and
         contract work you take on in the meantime.
       </p>
-      <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal.</p>
+      {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal.</p>}
       <div class="cta-row">
         {LAUNCHED
           ? <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free</a>
