@@ -14,5 +14,6 @@
   { "path": "/nurses/", "title": "Nursing Resume Writing Service — Built From Real Units", "description": "Our nursing resume writing service puts what recruiters read first on the page: license, certifications, unit, and ratios. You confirm each one." },
   { "path": "/veterans/", "title": "Veteran Resume Help — Built From Your Real Service", "description": "Our veteran resume help puts your service in civilian terms, with any clearance written as held. Nothing goes on your resume unless you confirm it." },
   { "path": "/business/", "title": "Bulk Candidate Resume Enrichment for Organizations", "description": "Per-candidate resume enrichment for staffing, outplacement, workforce boards, and veteran programs. Volume tiers, nothing made up. Request a quote." },
-  { "path": "/guides/", "title": "Guides & free resume templates — AdaptiveResume", "description": "Practical resume guides for military, government, trades, and career-change moves — each with a free downloadable template. Nothing made up, ever." }
+  { "path": "/guides/", "title": "Guides & free resume templates — AdaptiveResume", "description": "Practical resume guides for military, government, trades, and career-change moves — each with a free downloadable template. Nothing made up, ever." },
+  { "path": "/laid-off/", "title": "Laid Off? Start Here: Free Help, Deadlines and Tools", "description": "Free help after a layoff, in order: filing for unemployment, the 60-day health coverage deadlines, severance, free downloads, and free job help near you." }
 ]
