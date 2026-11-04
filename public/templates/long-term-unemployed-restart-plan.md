@@ -16,7 +16,7 @@ Date: ____________
 ## 3. American Job Center visit
 To find a center, call 1-877-US-2JOBS or use the American Job Center Finder on CareerOneStop.
 
-- [ ] I visited or called ______________________________ (name and address) on ____________.
+- [ ] I visited or called this center on ____________. Center name and address: ______________________________
 
 These are the questions I will ask:
 
@@ -33,7 +33,7 @@ I will pick one thing to do this month: a course or certification, contract or t
 
 ## 5. People who know my work
 
-I will use only contact details I have on my own, never ones from my old employer's systems. If I signed a severance or employment agreement, I will check whether it limits contact with the company's customers or vendors before I reach out to them.
+I will use only contact details I have on my own, never ones from my old employer's systems. If I signed a severance or employment agreement, I will check whether it limits contact with the company's customers, clients or vendors before I reach out to them.
 
 | Name | How we worked together | Date I reached out | Will they be a reference? |
 |---|---|---|---|

@@ -21,20 +21,20 @@ const steps = [
     body: 'File with the state where you worked, as soon as you can. The U.S. Department of Labor says the first payment generally arrives two to three weeks after you file.',
     href: '/guides/how-to-file-for-unemployment-by-state/', link: 'Find your state’s official unemployment site' },
   { when: 'Within 60 days', title: 'Choose your health coverage',
-    body: 'You have 60 days to elect COBRA and 60 days after losing job-based coverage to enroll in a Marketplace plan. Compare both before either window closes.',
+    body: 'You have 60 days to elect COBRA, counted from the day your coverage ends or the day your notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Compare both before either window closes.',
     href: '/guides/laid-off-what-to-do-first-30-days/', link: 'Read what to do in the first 30 days' },
   { when: 'Before you sign', title: 'Read any severance agreement',
     body: 'Read it early, because its deadline can come before your health coverage windows close. If you are 40 or older and it asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 in a group layoff) and 7 days to change your mind after signing. Ask an employment attorney about any term you are unsure of.',
-    href: '/guides/laid-off-what-to-do-first-30-days/', link: 'What to check before you sign' },
+    href: '/guides/laid-off-what-to-do-first-30-days/', link: 'Read what to check before you sign' },
   { when: 'Every week', title: 'Keep your search in one place',
     body: 'Track every application, contact and follow-up date, and keep the job-search record your state may ask for.',
     href: '/guides/job-search-tracker-and-work-search-log/', link: 'Get the free job search tracker' },
 ];
 const downloads = [
-  { name: 'First 30 Days After a Layoff Checklist', what: 'Every deadline on one page, with a box to check and a line for the key dates.', href: '/guides/laid-off-what-to-do-first-30-days/' },
-  { name: 'Weekly Claim and Work-Search Log', what: 'A printable row for each week: your claim, its confirmation number, and the employers you contacted.', href: '/guides/how-to-file-for-unemployment-by-state/' },
-  { name: 'Job Search Tracker (Excel)', what: 'Applications, contacts and follow-ups, with overdue follow-ups highlighted and counts that fill in on their own.', href: '/guides/job-search-tracker-and-work-search-log/' },
-  { name: 'Restart Plan Worksheet', what: 'For a search of six months or more: benefits, health coverage, questions for the job center, and a first draft of your gap line.', href: '/guides/long-term-unemployed-restarting-your-job-search/' },
+  { name: 'First 30 Days After a Layoff Checklist', what: 'It puts every deadline on one page, with a box to check and a line for the key dates.', href: '/guides/laid-off-what-to-do-first-30-days/' },
+  { name: 'Weekly Claim and Work-Search Log', what: 'It gives you a printable row for each weekly claim and its confirmation number, and a separate row for each employer you contact.', href: '/guides/how-to-file-for-unemployment-by-state/' },
+  { name: 'Job Search Tracker (Excel)', what: 'It tracks your applications, contacts and follow-ups, highlights follow-ups that are overdue, and fills in the counts on its own.', href: '/guides/job-search-tracker-and-work-search-log/' },
+  { name: 'Restart Plan Worksheet', what: 'It is for a search of six months or more, and it covers benefits, health coverage, questions for the job center, and a first draft of your gap line.', href: '/guides/long-term-unemployed-restarting-your-job-search/' },
 ];
 ---
 <Base
@@ -81,7 +81,7 @@ const downloads = [
     <div class="container">
       <p class="eyebrow">Free downloads</p>
       <h2>Four free tools for this stretch</h2>
-      <p class="muted">Each one is free: open the guide it goes with, enter your email in the box at the bottom, and the download unlocks.</p>
+      <p class="muted">Each one is free. Open the guide it goes with and enter your email in the box at the bottom to unlock the download.</p>
       <div class="grid cols-2">
         {downloads.map((d) => (
           <div class="card">
@@ -99,10 +99,10 @@ const downloads = [
       <p class="eyebrow">If the search has run long</p>
       <h2>Out of work six months or more</h2>
       <p>
-        More than one in four unemployed people had been looking for 27 weeks or more in the Bureau of Labor
-        Statistics' September 2026 report. A long search changes a few practical things, and it opens doors
+        In the Bureau of Labor Statistics' September 2026 report, more than one in four unemployed people had
+        been looking for work for 27 weeks or more. A long search changes a few practical things, and it opens doors
         to public help many people never hear about, including the WIOA Dislocated Worker program, which can
-        pay for training. Running out of unemployment benefits does not, by itself, shut you out of it.
+        pay for training. Running out of unemployment benefits does not, by itself, shut you out of that program.
       </p>
       <p><a href="/guides/long-term-unemployed-restarting-your-job-search/">Read the guide for people out of work six months or more</a></p>
     </div>
@@ -132,7 +132,7 @@ const downloads = [
         <a href="/guides/how-to-list-self-employment-on-resume/">how to list self-employment</a> covers freelance and
         contract work you take on in the meantime.
       </p>
-      {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal.</p>}
+      {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. If you want us to find what your resume leaves out, the full build is $29, with no subscription and no auto-renewal.</p>}
       <div class="cta-row">
         {LAUNCHED
           ? <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free</a>

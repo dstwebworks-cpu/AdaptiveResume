@@ -12,7 +12,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] I wrote down the date my health coverage ends. The Marketplace window runs 60 days before and after that date. The COBRA window runs 60 days from that date or from the day my notice arrived, whichever is later.
 - [ ] If I was given a severance agreement, I read the Severance section below right away. The deadline to sign it, if it has one, is ________.
 
-## Health coverage (deadlines run 60 days)
+## Health coverage (you have 60 days to choose a plan)
 - [ ] My COBRA election notice arrived on ________. My employer has 30 days to notify the plan, and the plan has 14 days after that to send me the notice.
 - [ ] I compared COBRA with a Marketplace plan at HealthCare.gov or by calling 1-800-318-2596.
 - [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
@@ -20,17 +20,18 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] I know that dropping COBRA on my own does not open a Marketplace enrollment window.
 
 ## Pay
-- [ ] My final paycheck arrived on ________. If my regular payday passed without it, I contacted the Wage and Hour Division or my state labor department.
+- [ ] My final paycheck arrived on ________.
+- [ ] If my regular payday passed without my final paycheck, I contacted the Wage and Hour Division or my state labor department.
 - [ ] I checked the policy or agreement I was given, and my state's law, to see whether I am owed pay for unused vacation.
 
 ## Severance (if offered)
 - [ ] I received the agreement on ________.
-- [ ] If I am 40 or older, I counted my consideration period (at least 21 days, or 45 for a group program) and my 7-day revocation period.
+- [ ] If I am 40 or older and the agreement asks me to give up age discrimination claims, I counted my consideration period (at least 21 days, or 45 for a group program) and my 7-day revocation period.
 - [ ] I read the terms on returning company property and confidential information. I returned what belongs to the employer and kept nothing from its systems.
 - [ ] Before signing, I asked an employment attorney about anything I was unsure of.
 
 ## Retirement savings
-- [ ] I did not cash out my 401(k) before learning the cost. Before age 59 1/2 there is usually an extra 10% tax, unless I left the employer at 55 or older, and 20% is withheld if the money is paid to me.
+- [ ] I did not cash out my 401(k) before learning the cost. Before age 59 1/2, there is usually an extra 10% tax, unless I left the employer at 55 or older. If the money is paid to me, the plan also withholds 20%.
 - [ ] I asked the plan how each choice would be paid. A direct rollover to another plan or an IRA has no tax withheld.
 - [ ] If a distribution was paid to me on ________, I wrote down that I have 60 days to roll it over. To roll over the full amount, I must use my own money to make up the 20% that was withheld.
 
