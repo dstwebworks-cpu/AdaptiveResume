@@ -1,7 +1,7 @@
 # First 30 Days After a Layoff Checklist
 ### A free checklist from AdaptiveResume
 
-> The deadlines that cost money if you miss them. General information, not legal or financial advice. Rules vary by state, so check with the agency named on each line.
+> This checklist covers the deadlines that cost money if you miss them. It is general information, not legal or financial advice. Rules vary by state, so check with the agency named on each line.
 
 Date my job ended: ____________  Date my health coverage ends: ____________
 
@@ -10,6 +10,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] Decided whether to have federal tax withheld from my benefits (IRS Form W-4V)
 - [ ] Found out whether my state asks me to record job-search contacts, and how to report them
 - [ ] Wrote down the date my health coverage ends (the Marketplace window runs 60 days before and after it; the COBRA window runs 60 days from that date or from the day my notice arrived, whichever is later)
+- [ ] If I was given a severance agreement, wrote down its deadline and read the Severance section below now
 
 ## Health coverage (deadlines run 60 days)
 - [ ] Received my COBRA election notice (date: ________). My employer has 30 days to notify the plan, and the plan has 14 days after that to send it.

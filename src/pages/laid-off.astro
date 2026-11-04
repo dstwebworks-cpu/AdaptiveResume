@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 // Laid-off hub (Block A, founder 11/03/2026: "ok start with Order of work 1 and then 2"; proposal
 // 05-marketing-gtm/laid-off-resources-proposal-2026-10-28.md, R7). One place for someone on a hard week:
-// the deadlines in order, free downloads, free public help, then the free resume check. Every fact here is
+// the key deadlines, free downloads, free public help, then the free resume check. Every fact here is
 // also on the guide it links to, with its agency source (05-marketing-gtm/block-a-laid-off-sources-11-03-2026.md).
 // Information only: no legal or financial advice, nothing taken from an employer's systems (severance rule).
 const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
@@ -24,7 +24,7 @@ const steps = [
     body: 'You have 60 days to elect COBRA and 60 days after losing job-based coverage to enroll in a Marketplace plan. Compare both before either window closes.',
     href: '/guides/laid-off-what-to-do-first-30-days/', link: 'Read what to do in the first 30 days' },
   { when: 'Before you sign', title: 'Read any severance agreement',
-    body: 'If you are 40 or older, federal law gives you at least 21 days to consider it (45 in a group layoff) and 7 days to change your mind after signing. Ask an employment attorney about any term you are unsure of.',
+    body: 'If you are 40 or older, federal law gives you at least 21 days to consider it (45 in a group layoff) and 7 days to change your mind after signing. Ask an employment attorney about any term you are unsure of. Read it early, because its deadline can come before your health coverage windows close.',
     href: '/guides/laid-off-what-to-do-first-30-days/', link: 'What to check before you sign' },
   { when: 'Every week', title: 'Keep your search in one place',
     body: 'Track every application, contact and follow-up date, and keep the job-search record your state may ask for.',
@@ -39,7 +39,7 @@ const downloads = [
 ---
 <Base
   title="Laid Off? Start Here: Free Help, Deadlines and Tools"
-  description="Free help after a layoff. Learn how to file for unemployment, meet the 60-day health coverage deadlines, read severance terms and find job help."
+  description="Find free help after a layoff. Learn how to file for unemployment, meet the 60-day health coverage deadlines, read severance terms and find job help."
 >
   <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
 
@@ -61,7 +61,7 @@ const downloads = [
 
   <section class="section alt">
     <div class="container">
-      <p class="eyebrow">In order</p>
+      <p class="eyebrow">Key deadlines</p>
       <h2>What to do first, and when</h2>
       <div class="grid cols-2">
         {steps.map((s) => (

@@ -2,7 +2,7 @@
 title: "Laid Off? What to Do in the First 30 Days"
 description: "The first month after a layoff has a few deadlines that cost money if you miss them, and a lot that can wait. Here they are, each one linked to the agency that runs it: unemployment, health coverage, final pay, severance, and your 401(k)."
 seoTitle: "Laid Off? What to Do in the First 30 Days"
-seoDescription: "What to do when you're laid off: file for unemployment, choose COBRA or a Marketplace plan within 60 days, check final pay, and read severance terms."
+seoDescription: "When you're laid off, file for unemployment, choose COBRA or a Marketplace plan within 60 days, check your final pay, and read any severance terms."
 segment: "job-seekers"
 audience: "Anyone who was just laid off and wants the first month in the right order"
 keyword: "what to do when laid off"
@@ -24,7 +24,7 @@ faq:
     a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 days if the layoff is part of a group program) and 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
-You were laid off. Start at the top with your unemployment claim, then work down. If you were handed a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
+You were laid off. Start at the top with your unemployment claim, then work down. If you were given a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
 
 It is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
 
@@ -99,4 +99,4 @@ If you're still out of work after a few months, our guide for [people out of wor
 
 ## Your first 30 days, on one page
 
-The free checklist below puts every deadline in this guide on one page, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.
+The free checklist below puts every deadline in this guide on a single sheet, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.
