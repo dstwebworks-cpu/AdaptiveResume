@@ -122,7 +122,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       </div>
       {!isOrg && (
         <aside class="fd-touch" id="fd-t2">
-          <p>Before you change anything, find out how screening software reads your resume today. The free check covers up to 12 things screening software cares about. <a href={checkUrl}>Check my resume free</a></p>
+          <p>Before you change your resume, find out how screening software reads it today. The free check covers up to 12 things screening software cares about. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
 
@@ -166,7 +166,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free template</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Pop your email in and the download unlocks right here. Joining our list also takes <b>25% off your first purchase</b> within 30 days of joining, when you create your account with this same email. We'll also send the occasional useful note. No spam.</p>
+        <p class="muted">Enter your email to unlock the download right here. If you create your account with this same email within 30 days of joining our list, <b>your first purchase is 25% off</b>. We'll also send the occasional useful note. No spam.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
@@ -174,9 +174,9 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
           <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" />
           <button class="btn btn-primary" type="submit">Unlock the template</button>
         </form>
-        <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download: {guide.data.giveaway.name}</a>
+        <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download the {guide.data.giveaway.name}</a>
         <p class="gate-note muted" hidden>Thanks, you're on our list, and your download is ready just above. Your 25% off a first purchase is good for 30 days from the day this email joined our list.</p>
-        <p class="gate-err muted" hidden>That email didn't look right — mind trying it again?</p>
+        <p class="gate-err muted" hidden>That email address doesn't look right. Please check it and try again.</p>
       </div>
 
       <!-- keep reading -->

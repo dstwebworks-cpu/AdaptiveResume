@@ -97,6 +97,6 @@ You don't need to rewrite your resume in the first week. When you start applying
 
 If you're still out of work after a few months, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) covers what changes in a longer search. All of our free resources for this stretch are on one page: [Laid off? Start here](/laid-off/).
 
-## Your first 30 days, on one page
+## Your first 30 days checklist
 
-The free checklist below puts every deadline in this guide on a single sheet, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.
+The free checklist below lists the deadlines in this guide that cost money if you miss them, with a box to check and a line for each key date. Print it, put it on the refrigerator, and work through it one item at a time.

@@ -20,8 +20,8 @@ const allStrict = process.argv.includes('--all-strict');
 
 // Words that can open a main clause with a subject, or open a question.
 const SUBJECT = /^(I|I'm|I've|I'll|My|Me|We|Our|You|Your|The|This|That|These|Those|It|Its|A|An|Each|Every|No|None|All|Any|Some|There|Do|Does|Did|Is|Are|Can|Could|Should|Will|Would|What|Which|Who|How|When|Where|Why)\b/;
-// A leading condition that must be followed by a comma and a subject: "If ..., I ..."
-const LEAD = /^(If|Before|After|When|Once|Until|Unless|While|Since|Because)\b[^,:]*[,:]\s*/;
+// A leading condition or time phrase that must be followed by a comma and a subject: "If ..., I ...", "On ____, I ..."
+const LEAD = /^(If|Before|After|When|Once|Until|Unless|While|Since|Because|On|In|By|During|Within)\b[^,:]*[,:]\s*/;
 // "Label: words" (1 to 4 words before the colon, then real words, not just a blank).
 const LABEL = /^(\*\*)?[A-Z][\w'()/-]*(\s+[\w'()/-]+){0,3}(\*\*)?:\s+(?![_\s]*$)/;
 const URLISH = /^(https?:|adaptiveresume\.com)/i;

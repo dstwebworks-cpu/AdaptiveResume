@@ -21,20 +21,20 @@ const steps = [
     body: 'File with the state where you worked, as soon as you can. The U.S. Department of Labor says the first payment generally arrives two to three weeks after you file.',
     href: '/guides/how-to-file-for-unemployment-by-state/', link: 'Find your state’s official unemployment site' },
   { when: 'Within 60 days', title: 'Choose your health coverage',
-    body: 'You have 60 days to elect COBRA, counted from the day your coverage ends or the day your notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Compare both before either window closes.',
-    href: '/guides/laid-off-what-to-do-first-30-days/', link: 'Read what to do in the first 30 days' },
+    body: 'You have 60 days to elect COBRA, counted from the day your coverage ends or the day your COBRA election notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Compare both before either window closes.',
+    href: '/guides/laid-off-what-to-do-first-30-days/#days-1-to-60-choose-your-health-coverage', link: 'Read how to choose between COBRA and a Marketplace plan' },
   { when: 'Before you sign', title: 'Read any severance agreement',
-    body: 'Read it early, because its deadline can come before your health coverage windows close. If you are 40 or older and it asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 in a group layoff) and 7 days to change your mind after signing. Ask an employment attorney about any term you are unsure of.',
-    href: '/guides/laid-off-what-to-do-first-30-days/', link: 'Read what to check before you sign' },
+    body: 'Read the agreement early, because its deadline can come before your health coverage windows close. If you are 40 or older and it asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (at least 45 if the layoff is part of a program offered to a group of employees) and at least 7 days to change your mind after signing. Ask an employment attorney about any term you are unsure of.',
+    href: '/guides/laid-off-what-to-do-first-30-days/#before-you-sign-a-severance-agreement', link: 'Read what to check before you sign' },
   { when: 'Every week', title: 'Keep your search in one place',
     body: 'Track every application, contact and follow-up date, and keep the job-search record your state may ask for.',
     href: '/guides/job-search-tracker-and-work-search-log/', link: 'Get the free job search tracker' },
 ];
 const downloads = [
-  { name: 'First 30 Days After a Layoff Checklist', what: 'It puts every deadline on one page, with a box to check and a line for the key dates.', href: '/guides/laid-off-what-to-do-first-30-days/' },
-  { name: 'Weekly Claim and Work-Search Log', what: 'It gives you a printable row for each weekly claim and its confirmation number, and a separate row for each employer you contact.', href: '/guides/how-to-file-for-unemployment-by-state/' },
-  { name: 'Job Search Tracker (Excel)', what: 'It tracks your applications, contacts and follow-ups, highlights follow-ups that are overdue, and fills in the counts on its own.', href: '/guides/job-search-tracker-and-work-search-log/' },
-  { name: 'Restart Plan Worksheet', what: 'It is for a search of six months or more, and it covers benefits, health coverage, questions for the job center, and a first draft of your gap line.', href: '/guides/long-term-unemployed-restarting-your-job-search/' },
+  { name: 'First 30 Days After a Layoff Checklist', what: 'It lists the deadlines that cost money if you miss them, with a box to check and a line for each key date.', href: '/guides/laid-off-what-to-do-first-30-days/', cta: 'Get the checklist on the first 30 days guide' },
+  { name: 'Weekly Claim and Work-Search Log', what: 'It gives you a printable row for each weekly claim and its confirmation number, and a separate row for each employer you contact.', href: '/guides/how-to-file-for-unemployment-by-state/', cta: 'Get the log on the unemployment filing guide' },
+  { name: 'Job Search Tracker (Excel)', what: 'It tracks your applications, contacts and follow-ups, highlights follow-ups that are overdue, and fills in the counts on its own.', href: '/guides/job-search-tracker-and-work-search-log/', cta: 'Get the tracker on the job search tracker guide' },
+  { name: 'Restart Plan Worksheet', what: 'Made for a search of six months or more, it covers benefits, health coverage, questions for the job center, and a first draft of your gap line.', href: '/guides/long-term-unemployed-restarting-your-job-search/', cta: 'Get the worksheet on the long-term search guide' },
 ];
 ---
 <Base
@@ -50,11 +50,11 @@ const downloads = [
       <p class="lede">
         Losing a job brings a few deadlines that cost money if you miss them, and a lot that can wait.
         This page puts the urgent things first and gathers our free guides and downloads in one place.
-        Each guide links every rule it mentions to the agency that runs it, so you can check it yourself.
+        Each guide links every rule it mentions to its official source, such as the agency that runs it or the law itself, so you can check it yourself.
       </p>
       <div class="cta-row">
         <a class="btn btn-amber btn-lg" href="/guides/laid-off-what-to-do-first-30-days/">Read what to do in the first 30 days</a>
-        <a class="btn btn-ghost btn-lg" href="/guides/how-to-file-for-unemployment-by-state/">Find your state's unemployment site</a>
+        <a class="btn btn-ghost btn-lg" href="/guides/how-to-file-for-unemployment-by-state/">Find your state’s official unemployment site</a>
       </div>
     </div>
   </section>
@@ -80,14 +80,14 @@ const downloads = [
   <section class="section">
     <div class="container">
       <p class="eyebrow">Free downloads</p>
-      <h2>Four free tools for this stretch</h2>
-      <p class="muted">Each one is free. Open the guide it goes with and enter your email in the box at the bottom to unlock the download.</p>
+      <h2>Four free tools for after a layoff</h2>
+      <p class="muted">Open the guide each one goes with and enter your email in the box at the bottom to unlock the download.</p>
       <div class="grid cols-2">
         {downloads.map((d) => (
           <div class="card">
             <h3>{d.name}</h3>
             <p>{d.what}</p>
-            <p><a href={d.href}>Get it on the guide page</a></p>
+            <p><a href={d.href}>{d.cta}</a></p>
           </div>
         ))}
       </div>
@@ -100,9 +100,8 @@ const downloads = [
       <h2>Out of work six months or more</h2>
       <p>
         In the Bureau of Labor Statistics' September 2026 report, more than one in four unemployed people had
-        been looking for work for 27 weeks or more. A long search changes a few practical things, and it opens doors
-        to public help many people never hear about, including the WIOA Dislocated Worker program, which can
-        pay for training. Running out of unemployment benefits does not, by itself, shut you out of that program.
+        been looking for work for 27 weeks or more. A long search changes a few practical things. It is also a good
+        time to ask about public help, including the WIOA Dislocated Worker program, which can pay for training. Running out of unemployment benefits does not, by itself, shut you out of that program.
       </p>
       <p><a href="/guides/long-term-unemployed-restarting-your-job-search/">Read the guide for people out of work six months or more</a></p>
     </div>
@@ -132,7 +131,7 @@ const downloads = [
         <a href="/guides/how-to-list-self-employment-on-resume/">how to list self-employment</a> covers freelance and
         contract work you take on in the meantime.
       </p>
-      {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. If you want us to find what your resume leaves out, the full build is $29, with no subscription and no auto-renewal.</p>}
+      {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. If you want us to find what your resume leaves out, the full resume build is $29, with no subscription and no auto-renewal.</p>}
       <div class="cta-row">
         {LAUNCHED
           ? <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free</a>
