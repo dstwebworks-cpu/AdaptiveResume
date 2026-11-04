@@ -6,40 +6,40 @@
 Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Days 1 to 7
-- [ ] Filed for unemployment in the state where I worked (date: ________). Confirmation number: ____________
-- [ ] Decided whether to have federal tax withheld from my benefits (IRS Form W-4V)
-- [ ] Found out whether my state asks me to record job-search contacts, and how to report them
-- [ ] Wrote down the date my health coverage ends (the Marketplace window runs 60 days before and after it; the COBRA window runs 60 days from that date or from the day my notice arrived, whichever is later)
-- [ ] If I was given a severance agreement, wrote down its deadline and read the Severance section below now
+- [ ] I filed for unemployment in the state where I worked on ________. My confirmation number is ____________.
+- [ ] I decided whether to have federal tax withheld from my benefits, using IRS Form W-4V.
+- [ ] I found out whether my state asks me to record my job-search contacts, and how to report them.
+- [ ] I wrote down the date my health coverage ends. The Marketplace window runs 60 days before and after that date. The COBRA window runs 60 days from that date or from the day my notice arrived, whichever is later.
+- [ ] If I was given a severance agreement, I read the Severance section below right away. The deadline to sign it, if it has one, is ________.
 
 ## Health coverage (deadlines run 60 days)
-- [ ] Received my COBRA election notice (date: ________). My employer has 30 days to notify the plan, and the plan has 14 days after that to send it.
-- [ ] Compared COBRA with a Marketplace plan at HealthCare.gov or 1-800-318-2596
-- [ ] Elected COBRA, or enrolled in a Marketplace plan, before my 60 days ran out (date: ________)
-- [ ] If I elected COBRA: paid the first premium within 45 days of electing (date: ________)
-- [ ] Reminder: dropping COBRA on my own does not open a Marketplace enrollment window
+- [ ] My COBRA election notice arrived on ________. My employer has 30 days to notify the plan, and the plan has 14 days after that to send me the notice.
+- [ ] I compared COBRA with a Marketplace plan at HealthCare.gov or by calling 1-800-318-2596.
+- [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
+- [ ] If I elected COBRA, I paid the first premium on ________, within 45 days of electing it.
+- [ ] I know that dropping COBRA on my own does not open a Marketplace enrollment window.
 
 ## Pay
-- [ ] Received my final paycheck (date: ________). If my regular payday passed without it: contacted the Wage and Hour Division or my state labor department
-- [ ] Checked the policy or agreement I was given, and my state's law, for unused vacation pay
+- [ ] My final paycheck arrived on ________. If my regular payday passed without it, I contacted the Wage and Hour Division or my state labor department.
+- [ ] I checked the policy or agreement I was given, and my state's law, to see whether I am owed pay for unused vacation.
 
 ## Severance (if offered)
-- [ ] Wrote down the date I received the agreement: ________
-- [ ] If I am 40 or older: counted my consideration period (at least 21 days, or 45 for a group program) and my 7-day revocation period
-- [ ] Read the terms on returning company property and confidential information, returned what belongs to the employer, and kept nothing from its systems
-- [ ] Asked an employment attorney about anything I was unsure of before signing
+- [ ] I received the agreement on ________.
+- [ ] If I am 40 or older, I counted my consideration period (at least 21 days, or 45 for a group program) and my 7-day revocation period.
+- [ ] I read the terms on returning company property and confidential information. I returned what belongs to the employer and kept nothing from its systems.
+- [ ] Before signing, I asked an employment attorney about anything I was unsure of.
 
 ## Retirement savings
-- [ ] Did not cash out my 401(k) before knowing the cost (an extra 10% tax before age 59 1/2, unless I left at 55 or older; 20% withheld if paid to me)
-- [ ] Asked the plan how each choice would be paid. A direct rollover to another plan or an IRA has no tax withheld.
-- [ ] If a distribution was paid to me, I wrote down that I have 60 days to roll it over, and that rolling over the full amount means using my own money to make up the 20% withheld (date received: ________)
+- [ ] I did not cash out my 401(k) before learning the cost. Before age 59 1/2 there is usually an extra 10% tax, unless I left the employer at 55 or older, and 20% is withheld if the money is paid to me.
+- [ ] I asked the plan how each choice would be paid. A direct rollover to another plan or an IRA has no tax withheld.
+- [ ] If a distribution was paid to me on ________, I wrote down that I have 60 days to roll it over. To roll over the full amount, I must use my own money to make up the 20% that was withheld.
 
 ## Free help
-- [ ] Found my nearest American Job Center (1-877-US-2JOBS) and asked what it offers
-- [ ] Started my job search log (free tracker: adaptiveresume.com/guides/job-search-tracker-and-work-search-log/)
+- [ ] I found my nearest American Job Center (1-877-US-2JOBS) and asked what it offers.
+- [ ] I started my job search log with the free tracker at adaptiveresume.com/guides/job-search-tracker-and-work-search-log/.
 
 ## When I'm ready to apply
-- [ ] Ran the free resume check to see how screening software reads my resume: adaptiveresume.com
-- [ ] Read how to explain an employment gap: adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume/
+- [ ] I ran the free resume check at adaptiveresume.com to see how screening software reads my resume.
+- [ ] I read how to explain an employment gap at adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume/.
 
-Questions: support@adaptiveresume.com · All free resources: adaptiveresume.com/laid-off/
+Questions? Write to support@adaptiveresume.com. All our free help after a layoff is at adaptiveresume.com/laid-off/.

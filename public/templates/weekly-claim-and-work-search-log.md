@@ -1,7 +1,7 @@
 # Weekly Claim and Work-Search Log
 ### A free log from AdaptiveResume
 
-> One row per week. Your state decides how often you file claims and whether you must record job-search contacts, so follow its instructions; this log just keeps everything in one place.
+> Use one row for each week. Your state decides how often you file claims and whether you must record job-search contacts, so follow its instructions. This log keeps everything in one place.
 
 My state's unemployment site: ______________________________  My claim filed on: ____________
 
@@ -33,6 +33,6 @@ My state's unemployment site: ______________________________  My claim filed on:
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
-Official state unemployment sites, all 50 states and DC: adaptiveresume.com/guides/how-to-file-for-unemployment-by-state/
+Our page about filing for unemployment links the official site for all 50 states and DC: adaptiveresume.com/guides/how-to-file-for-unemployment-by-state/.
 
-Free job search tracker (Excel): adaptiveresume.com/guides/job-search-tracker-and-work-search-log/ · Questions: support@adaptiveresume.com
+Our free Excel job search tracker is at adaptiveresume.com/guides/job-search-tracker-and-work-search-log/. Questions? Write to support@adaptiveresume.com.
