@@ -28,11 +28,13 @@ Notes: ____________________________________________________________
 
 ## 4. One recent thing for my resume this month
 Pick one: a course or certification, contract or temporary work, freelance work, or volunteer work that uses my skills.
+
 - What I will do: ______________________________ Start date: ____________
 
 ## 5. People who know my work
 
 Use only contact details I have on my own, never ones from my old employer's systems. If I signed a severance or employment agreement, I check whether it limits contact with the company's customers or vendors before I reach out to them.
+
 | Name | How we worked together | Date I reached out | Will they be a reference? |
 |---|---|---|---|
 |  |  |  |  |

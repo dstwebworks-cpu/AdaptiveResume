@@ -85,7 +85,7 @@ After a few weeks, the tracker shows you patterns. If you're sending application
 
 Our free resume check covers the first one. It shows how screening software reads your resume, it's free, and you don't need an account. For the second, compare your resume with the job description you saved, line by line, and note which of the posting's skills and tools your resume never mentions.
 
-## More free help after a layoff
+## More help after a layoff
 
 If you were recently laid off, our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the deadlines that matter most: unemployment, health coverage, final pay, severance and your 401(k). If your search has gone on for six months or more, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains the WIOA Dislocated Worker program and how training is paid for. Every free resource for this stretch is on one page: [Laid off? Start here](/laid-off/).
 

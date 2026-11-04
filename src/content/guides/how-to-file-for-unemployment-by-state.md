@@ -108,7 +108,7 @@ To find a center near you, use the [American Job Center Finder](https://www.care
 
 ## What comes next
 
-Filing for unemployment is one item on a short list of deadlines after a layoff. Our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the rest in order: health coverage, your final paycheck, severance, and your 401(k). To keep your applications and contacts in one place, use our free [job search tracker and work-search log](/guides/job-search-tracker-and-work-search-log/).
+Filing for unemployment is one item on a short list of deadlines after a layoff. Our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the rest: health coverage, your final paycheck, severance, and your 401(k). To keep your applications and contacts in one place, use our free [job search tracker and work-search log](/guides/job-search-tracker-and-work-search-log/).
 
 When you're ready to apply for jobs, our free resume check shows how screening software reads your resume before hiring managers and recruiters see it. It's free, and you don't need an account. Every free resource for this stretch is on one page: [Laid off? Start here](/laid-off/).
 

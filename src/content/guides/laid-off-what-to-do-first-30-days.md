@@ -1,8 +1,8 @@
 ---
 title: "Laid Off? What to Do in the First 30 Days"
-description: "The first month after a layoff has a few deadlines that cost money if you miss them, and a lot that can wait. Here they are in order, each one linked to the agency that runs it: unemployment, health coverage, final pay, severance, and your 401(k)."
+description: "The first month after a layoff has a few deadlines that cost money if you miss them, and a lot that can wait. Here they are, each one linked to the agency that runs it: unemployment, health coverage, final pay, severance, and your 401(k)."
 seoTitle: "Laid Off? What to Do in the First 30 Days"
-seoDescription: "What to do when you're laid off, in order: file for unemployment, choose COBRA or a Marketplace plan within 60 days, check final pay, and read severance terms."
+seoDescription: "What to do when you're laid off: file for unemployment, choose COBRA or a Marketplace plan within 60 days, check final pay, and read severance terms."
 segment: "job-seekers"
 audience: "Anyone who was just laid off and wants the first month in the right order"
 keyword: "what to do when laid off"
@@ -24,7 +24,7 @@ faq:
     a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 days if the layoff is part of a group program) and 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
-You were laid off. Start at the top and work down; the sections run in the order the deadlines arrive.
+You were laid off. Start at the top with your unemployment claim, then work down. If you were handed a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
 
 It is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
 
@@ -45,7 +45,7 @@ This is the decision with the hardest deadlines, and two programs are involved.
 
 **COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
 
-**If you are 65 or older, or will be soon,** ask Medicare about enrolling before you choose COBRA. The Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B. It also says that if you lose your job after your first Medicare enrollment period and did not enroll in Part A or B, you generally have eight months to sign up, starting the month after your job ends or the month after your group coverage ends, whichever is earlier.
+**If you are 65 or older, or will be soon,** ask Medicare about enrolling before you choose COBRA. The Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B. It also says that if you lose your job after your Medicare initial enrollment period and did not enroll in Part A or B, you generally have eight months to sign up. That window starts the month after your job ends or the month after your group health coverage ends, whichever is earlier.
 
 The COBRA timeline, from the Department's [Employee's Guide to Health Benefits Under COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf):
 
@@ -71,7 +71,7 @@ A severance agreement usually pays you in exchange for releasing legal claims ag
 - The agreement must advise you in writing to consult an attorney before you sign.
 - You get at least 21 days to consider it, or at least 45 days if the layoff is part of a program offered to a group of employees.
 - After you sign, you have at least 7 days to revoke, and the agreement does not take effect until those 7 days pass.
-- In a group program, the employer must also tell you in writing which group of employees the program covers and its eligibility factors and time limits. It must also list the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
+- In a group program, the employer must also tell you in writing which group of employees the program covers and its eligibility factors and time limits. It must list the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
 
 The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements) explains these rules in plain language. Whatever your age, read the agreement's terms on returning company property and keeping company information confidential. Return what belongs to the employer, keep nothing from its systems, and ask an employment attorney about any term you are unsure of before you sign.
 
@@ -83,7 +83,7 @@ When you leave a job, your former employer's retirement plan may offer to pay ou
 
 - **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older. The IRS says this exception applies to plans other than an IRA, so it no longer applies once you move the money into an IRA.
 - **20% held back.** A plan distribution paid to you is [subject to mandatory withholding of 20%](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions), even if you intend to roll it over later.
-- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA. To roll over the full amount, you must make up the 20% that was withheld with other money. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
+- **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA. To roll over the full amount, you must use other money to make up the 20% that was withheld. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
 
 Ask the plan how each choice would be paid before you request anything, and talk with a tax professional if the amount matters to your budget this year.
 
@@ -99,4 +99,4 @@ If you're still out of work after a few months, our guide for [people out of wor
 
 ## Your first 30 days, on one page
 
-The free checklist below puts every deadline in this guide in order, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.
+The free checklist below puts every deadline in this guide on one page, with a box to check and a line for the key dates. Print it, put it on the refrigerator, and work through it one item at a time.
