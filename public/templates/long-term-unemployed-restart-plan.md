@@ -1,7 +1,7 @@
 # Restart Plan Worksheet
 ### A free worksheet from AdaptiveResume
 
-> This worksheet is for anyone who has been out of work for six months or more. It is general information, not legal or financial advice. Your state and your local American Job Center have the final word.
+> This worksheet is for anyone who has been out of work for six months or more. It is general information, not legal or financial advice. Your state and your local American Job Center decide what applies to you.
 
 Date: ____________
 
@@ -20,9 +20,9 @@ To find a center, call 1‑877‑US‑2JOBS or use the [American Job Center Find
 
 These are the questions I will ask:
 
-- [ ] Do I qualify for the WIOA Dislocated Worker program?
+- [ ] Do I qualify for the Dislocated Worker program under the Workforce Innovation and Opportunity Act (WIOA)?
 - [ ] What do you need from me to decide whether I qualify?
-- [ ] What training could an Individual Training Account pay for, and which providers are on the state's list of approved training providers?
+- [ ] What training could an Individual Training Account pay for, and who is on the state's list of eligible training providers?
 - [ ] What job search help, workshops or hiring events do you offer this month?
 
 Notes: ____________________________________________________________
@@ -49,7 +49,7 @@ ______________________________________________________________________
 Our guide to explaining an employment gap can help: [adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume](https://adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume/).
 
 ## 7. Keep the search visible
-- [ ] I started the free job search tracker at [adaptiveresume.com/guides/job-search-tracker-and-work-search-log](https://adaptiveresume.com/guides/job-search-tracker-and-work-search-log/).
+- [ ] I started the free Excel job search tracker, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 - [ ] I ran the free resume check at [adaptiveresume.com](https://adaptiveresume.com/) to see how screening software reads my resume.
 
 All our free help after a layoff is at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/). If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com).

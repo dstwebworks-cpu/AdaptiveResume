@@ -2,7 +2,7 @@
 title: "Long-Term Unemployed? How to Restart Your Job Search After Six Months"
 description: "If you have been out of work six months or more, this guide explains what changes with benefits and health coverage, how the federal WIOA Dislocated Worker program can pay for training, how to keep your skills current, and how to write the gap honestly."
 seoTitle: "Long-Term Unemployed? Restarting Your Job Search"
-seoDescription: "Long-term unemployed? Learn what changes after six months, how WIOA Dislocated Worker training accounts work, and how to handle the gap honestly."
+seoDescription: "If you have been out of work six months or more, learn what changes, how WIOA Dislocated Worker training accounts work, and how to handle the gap honestly."
 segment: "job-seekers"
 audience: "Anyone who has been out of work for six months or more and wants a fresh plan"
 keyword: "long term unemployed"
@@ -19,7 +19,7 @@ faq:
   - q: "What counts as long-term unemployed?"
     a: "The U.S. Bureau of Labor Statistics counts people as long-term unemployed when they have been jobless for 27 weeks or more, a little over six months. In September 2026 that was 1.9 million people, 27.1 percent of everyone who was unemployed."
   - q: "Can I still get help after my unemployment benefits run out?"
-    a: "Yes. Under federal law, a dislocated worker can be someone who is eligible for unemployment compensation or who “has exhausted entitlement to unemployment compensation” (has used up their benefits), so running out of benefits does not, by itself, end your eligibility for the WIOA Dislocated Worker program. Your local American Job Center can tell you whether you qualify, so ask there."
+    a: "Yes, you can still qualify for help. Under federal law, a dislocated worker can be someone who is eligible for unemployment compensation or who “has exhausted entitlement to unemployment compensation” (has used up their benefits), so running out of benefits does not, by itself, end your eligibility for the WIOA Dislocated Worker program. Your local American Job Center can tell you whether you qualify, so ask there."
   - q: "Does a long gap hurt my chances?"
     a: "It can. A 2012 field experiment published by the National Bureau of Economic Research found that the chance of a callback for an interview went down as unemployment went on, with most of the drop in the first eight months. We read that as a reason to keep recent work and training on your resume and to show the gap honestly, not a reason to hide it."
 ---
@@ -34,7 +34,7 @@ A long search changes a few practical things, and now is a good time to ask abou
 
 **Your health coverage options may have changed.** If your income has dropped, check Medicaid and the Children's Health Insurance Program. [HealthCare.gov](https://www.healthcare.gov/medicaid-chip/) says they provide free or low-cost coverage to eligible low-income adults, families and children, and that you can apply any time of year. It also says to apply even if you don't think you will qualify based on your income. HealthCare.gov notes that starting 01/01/2027, in states that cover adults based on income alone, you may need to meet a monthly work requirement to get or keep Medicaid, so check your state's rules when you apply.
 
-**Some hiring managers read a long gap differently.** This is worth knowing, not worth fearing. A 2012 [field experiment by Kroft, Lange and Notowidigdo](https://www.nber.org/papers/w18387), published by the National Bureau of Economic Research, found that the chance of getting a callback for an interview went down as unemployment went on, with most of that drop in the first eight months. Our practical takeaway is to give a hiring manager something recent to read: current training, recent work of any kind, and a calm, honest line about the time away.
+**A long gap can mean fewer callbacks from hiring managers.** Knowing that helps you plan for it. A 2012 [field experiment by Kroft, Lange and Notowidigdo](https://www.nber.org/papers/w18387), published by the National Bureau of Economic Research, found that the chance of getting a callback for an interview went down as unemployment went on, with most of that drop in the first eight months. Our practical takeaway is to give a hiring manager something recent to read: current training, recent work of any kind, and a calm, honest line about the time away.
 
 ## The help built for this: the WIOA Dislocated Worker program
 
@@ -46,7 +46,7 @@ The Workforce Innovation and Opportunity Act (WIOA) funds a Dislocated Worker pr
 - is eligible for unemployment compensation or has already used it up (or has enough work history but wasn't eligible for it); and
 - is unlikely to return to their previous industry or occupation.
 
-The same definition also covers people laid off in a plant or facility closure, self-employed people (including farmers, ranchers and fishermen) who are out of work because of local economic conditions or natural disasters, displaced homemakers, and certain spouses of active-duty service members who lost a job because of a move to a new duty station. In the law's own words, a person who "has exhausted entitlement to unemployment compensation" (has used up their benefits) can still count, so running out of benefits does not, by itself, shut you out of the program.
+The same definition also covers people laid off because their plant, facility or company closed for good or made a substantial layoff; self-employed people (including farmers, ranchers and fishermen) who are out of work because of local economic conditions or natural disasters; displaced homemakers; and certain spouses of active-duty service members who lost a job because of a move to a new duty station. In the law's own words, a person who "has exhausted entitlement to unemployment compensation" (has used up their benefits) can still count, so running out of benefits does not, by itself, shut you out of the program.
 
 **What it offers.** The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says the Dislocated Worker program is designed to help workers get back to work as quickly as possible, and that its services are offered through American Job Centers. The same Department of Labor page also describes the WIOA Adult program, which provides job search help and training, so ask the center about both.
 
@@ -76,10 +76,10 @@ A gap of six months or more is common, and you don't need to hide it. Our guide 
 
 ## Run the search like a project
 
-A long search is easier to keep going when you can see it. Our free [Excel job search tracker](/guides/job-search-tracker-and-work-search-log/) keeps every application, contact and follow-up date in one place. If your state asks you to record job-search contacts, our free printable [weekly claim and work-search log](/guides/how-to-file-for-unemployment-by-state/) gives you a row for each one.
+A long search is easier to keep going when you can see it. Our free [Excel job search tracker](/guides/job-search-tracker-and-work-search-log/) keeps every application, contact and follow-up date in one place. If your state asks you to record job-search contacts, our free printable weekly claim and work-search log gives you a row for each one, and you can download it from our [unemployment filing guide](/guides/how-to-file-for-unemployment-by-state/).
 
 Before you send another application, try our [free resume check](#fd-end) to see how screening software reads your resume. You don't need an account. Every free resource we offer after a layoff, including our [first 30 days guide](/guides/laid-off-what-to-do-first-30-days/), is on one page: [Laid off? Start here](/laid-off/).
 
 ## Your restart plan worksheet
 
-The free worksheet at the bottom of this page walks through each section of this guide: where your benefits and health coverage stand, the questions to ask at the American Job Center, one recent thing to add to your resume this month, the people who know your work, and a first draft of your gap line.
+The free worksheet near the end of this page walks through each section of this guide: where your benefits and health coverage stand, the questions to ask at the American Job Center, one recent thing to add to your resume this month, the people who know your work, and a first draft of your gap line.

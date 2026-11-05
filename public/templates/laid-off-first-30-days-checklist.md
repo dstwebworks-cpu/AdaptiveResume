@@ -14,7 +14,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Health coverage (you have 60 days to choose a plan)
 - [ ] My COBRA election notice arrived on ________. My employer has 30 days to notify the plan, and the plan has 14 days after that to send me the notice.
-- [ ] I compared COBRA with a Marketplace plan at [HealthCare.gov](https://www.healthcare.gov/) or by calling 1‑800‑318‑2596.
+- [ ] I looked at Marketplace plans at [HealthCare.gov](https://www.healthcare.gov/) or by calling 1‑800‑318‑2596, and compared them with what COBRA would cost me.
 - [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
 - [ ] If I elected COBRA, I paid the first premium on ________, within 45 days of electing it.
 - [ ] I know that dropping COBRA on my own does not let me enroll in a Marketplace plan outside open enrollment.
@@ -22,8 +22,10 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 ## Pay
 - [ ] My final paycheck arrived on ________.
 - [ ] If my regular payday passed without my final paycheck, I contacted the Wage and Hour Division or my state labor department.
+
+## Unused vacation
 - [ ] I checked the policy or agreement I was given to see whether I am owed pay for unused vacation.
-- [ ] If I was not sure what I am owed, I asked my state labor department.
+- [ ] I asked my state labor department whether my state has its own rules on paying out unused vacation.
 
 ## Severance (if offered)
 - [ ] I received the agreement on ________.
@@ -39,7 +41,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Free help
 - [ ] I found my nearest American Job Center with the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or by calling 1‑877‑US‑2JOBS, and asked what it offers.
-- [ ] I started my job search log with the free tracker at [adaptiveresume.com/guides/job-search-tracker-and-work-search-log](https://adaptiveresume.com/guides/job-search-tracker-and-work-search-log/).
+- [ ] I started tracking my applications and contacts in the free Excel job search tracker, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 
 ## When I'm ready to apply
 - [ ] I ran the free resume check at [adaptiveresume.com](https://adaptiveresume.com/) to see how screening software reads my resume.

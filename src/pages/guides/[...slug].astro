@@ -110,7 +110,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       <img class="guide-hero" src={cardPath} alt={guide.data.title} width="1200" height="628" loading="eager" fetchpriority="high" />
       {!isOrg && (
         <aside class="fd-touch" id="fd-t1">
-          <p>Want to know if screening software can read your resume? Upload it, and we'll run up to 12 checks screening software cares about, such as your contact details, dates and section headings. It's free, and you don't need an account. <a href={checkUrl}>Check my resume free</a></p>
+          <p>Want to know if screening software can read your resume? Upload it, and we'll run up to 12 checks that software cares about, such as your contact details, dates and section headings. It's free, and you don't need an account. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
       <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
@@ -158,7 +158,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
               ? <a href={'/demo/?p=' + sample}>{'See it work on ' + SAMPLE_LABEL[sample] + ', no sign-up needed'}</a>
               : <a href="/demo/">See it work on a sample resume, no sign-up needed</a>}
           </p>
-          <p class="cta-links muted">If you paid a resume service and got a template back, <a href="/fix/">start at Fix my resume</a>.</p>
+          {field !== 'layoff' && <p class="cta-links muted">If you paid a resume service and got a template back, <a href="/fix/">start at Fix my resume</a>.</p>}
         </div>
       )}
 
@@ -166,7 +166,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free download</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Enter your email to join our list and unlock the download right here. If you create your account with this same email within 30 days of joining, <b>your first purchase is 25% off</b>. We'll also send you an occasional useful note, and we never send spam.</p>
+        <p class="muted">Enter your email and the download unlocks right here. That also puts you on our list: sign up with this same email and buy within 30 days, and <b>your first purchase is 25% off</b>. We'll send the occasional useful note, never spam.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
@@ -175,7 +175,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
           <button class="btn btn-primary" type="submit">Unlock the download</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download the {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>Thanks, you're on our list, and your download is ready just above. If you create your account with this same email within 30 days, your first purchase is 25% off.</p>
+        <p class="gate-note muted" hidden>You're on our list, and your download is ready just above. Sign up with this same email and buy within 30 days, and your first purchase is 25% off.</p>
         <p class="gate-err muted" hidden>That email address doesn't look right. Please check it and try again.</p>
       </div>
 

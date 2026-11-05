@@ -28,7 +28,7 @@ export function fieldOf(slug: string): Field {
 export function demoSampleFor(slug: string, field: Field): string | null {
   if (slug.includes('paralegal')) return 'paralegal';
   if (/(military|veteran)/.test(slug)) return 'military';   // not government-to-private: that reader is a federal employee
-  if (slug.includes('employment-gap')) return 'gap';
+  if (slug.includes('employment-gap') || slug.includes('long-term-unemployed')) return 'gap';   // re-check 7 R7-G7
   if (field === 'it') return 'it';
   if (slug.includes('hvac') || field === 'trades') return 'hvac';
   if (slug.startsWith('warehouse') || slug.includes('logistics') || slug.includes('forklift')) return 'army';

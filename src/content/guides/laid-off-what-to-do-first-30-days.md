@@ -1,6 +1,6 @@
 ---
 title: "Laid Off? What to Do in the First 30 Days"
-description: "The first month after a layoff brings a few deadlines that cost money if you miss them, and a lot that can wait. This guide covers unemployment, health coverage, final pay, severance and your 401(k), and links each rule to its official source."
+description: "The first month after a layoff brings a few deadlines that cost money if you miss them, and a lot that can wait. This guide covers unemployment, health coverage, final pay, severance and your 401(k), and links the rules it describes to their official sources."
 seoTitle: "Laid Off? What to Do in the First 30 Days"
 seoDescription: "When you're laid off, file for unemployment, choose COBRA or a Marketplace plan within 60 days, check your final pay, and read any severance terms."
 segment: "job-seekers"
@@ -17,7 +17,7 @@ order: 130
 draft: false
 faq:
   - q: "How soon should I file for unemployment after a layoff?"
-    a: "As soon as you can. The U.S. Department of Labor says to contact your state's unemployment insurance program as soon as possible after becoming unemployed, and to file in the state where you worked. It also says the first payment generally arrives two to three weeks after you file, so an early claim means an earlier check."
+    a: "File as soon as you can. The U.S. Department of Labor says to contact your state's unemployment insurance program as soon as possible after becoming unemployed, and to file in the state where you worked. It also says the first payment generally arrives two to three weeks after you file, so an early claim means an earlier check."
   - q: "Should I take COBRA or a Marketplace plan?"
     a: "It depends on the cost and on the doctors and prescriptions you need, so compare both before the deadlines pass. You have 60 days to elect COBRA, counted from the day your coverage ends or the day your COBRA election notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Being offered COBRA does not make you ineligible for a Marketplace plan or its tax credit. If you take COBRA and later drop it on your own, you generally have to wait for open enrollment to switch."
   - q: "Do I have to sign a severance agreement right away?"
@@ -30,20 +30,20 @@ This guide is general information, not legal or financial advice. Rules change a
 
 ## Days 1 to 7: file for unemployment
 
-Unemployment insurance is a joint state and federal program, and each state runs its own. According to the [U.S. Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance), you file with the program in the state where you worked, and you should contact it as soon as possible after becoming unemployed. The Department says the first payment generally arrives two to three weeks after you file, which is the best reason not to wait.
+Unemployment insurance is a joint state and federal program, and each state runs its own. According to the [U.S. Department of Labor](https://www.dol.gov/general/topic/unemployment-insurance), you file with the program in the state where you worked, and you should contact it as soon as possible after becoming unemployed. The Department says the first payment generally arrives two to three weeks after you file, so a claim filed early means an earlier first payment.
 
-Your state's site lists what it asks for and how to apply online or by phone. Our [state-by-state list of official unemployment sites](/guides/how-to-file-for-unemployment-by-state/) links each one directly.
+Your state's site lists what it asks for and how to apply. Our [state-by-state list of official unemployment sites](/guides/how-to-file-for-unemployment-by-state/) links each one directly.
 
 Here are two things to know once you file:
 
 - **Benefits are taxable.** The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include unemployment compensation in your income. You can choose to have federal income tax withheld from your benefits by filing Form W-4V.
-- **Your state may ask about your job search.** Your state will tell you whether you must record your job-search contacts and how to report them. Our free [job search tracker and work-search log](/guides/job-search-tracker-and-work-search-log/) keeps those contacts, dates and follow-ups in one place.
+- **Your state may ask about your job search.** Your state will tell you whether you must record your job-search contacts and how to report them. Our free [Excel job search tracker](/guides/job-search-tracker-and-work-search-log/) keeps those contacts, dates and follow-ups in one place.
 
 ## Days 1 to 60: choose your health coverage
 
 This is the decision with the hardest deadlines, and two programs are involved.
 
-**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Some states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
+**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. [Some states have similar laws](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf) for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
 
 **If you are 65 or older, or will be soon,** ask Medicare about enrolling before you choose COBRA. The Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B. It also says that if you lose your job after your Medicare initial enrollment period and did not enroll in Part A or B, you generally have eight months to sign up. That window starts the month after your job ends or the month after your group health coverage ends, whichever is earlier.
 
@@ -54,15 +54,15 @@ The Department's [Employee's Guide to Health Benefits Under COBRA](https://www.d
 - You have 60 days to elect COBRA, counted from when your coverage ends or when you receive the notice, whichever is later.
 - After you elect, you have at least 45 days to make the first premium payment.
 
-**A Marketplace plan** is the other path. [HealthCare.gov](https://www.healthcare.gov/unemployed/marketplace-options/) says you have 60 days after losing job-based coverage to enroll, and the Department of Labor's guide says you can select a plan within 60 days before or after the loss. Being offered COBRA does not make you ineligible for a Marketplace plan or for the tax credit that lowers its premiums. Compare both at HealthCare.gov or by calling 1-800-318-2596.
+**A Marketplace plan** is the other path. [HealthCare.gov](https://www.healthcare.gov/unemployed/marketplace-options/) says you have 60 days after losing job-based coverage to enroll, and the Department of Labor's guide says you can select a plan within 60 days before or after the loss. Being offered COBRA does not make you ineligible for a Marketplace plan or for the tax credit that lowers its premiums. You can look at Marketplace plans and apply at HealthCare.gov or by calling 1-800-318-2596, then compare them with what COBRA would cost you.
 
-**One mistake to avoid:** if you take COBRA and then drop it on your own, [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/) says that does not qualify you to switch to a Marketplace plan; you generally wait for open enrollment. When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins.
+**Watch for one mistake.** If you take COBRA and then drop it on your own, [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/) says that does not qualify you to switch to a Marketplace plan, and you generally have to wait for open enrollment. When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins.
 
 ## Your final paycheck and unused time off
 
 The [Department of Labor](https://www.dol.gov/general/topic/wages/lastpaycheck) says federal law does not require an employer to hand over the final paycheck immediately, but some states do. If your regular payday passes and you have not been paid, contact the Department's Wage and Hour Division or your state labor department.
 
-Unused vacation is a separate question. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, and the Department of Labor says these benefits are a matter of agreement between you and your employer, so check the policy or agreement you were given. If you are not sure what you are owed, ask your state labor department.
+Unused vacation is a separate question. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, and the Department of Labor says these benefits are a matter of agreement between you and your employer. Check the policy or agreement you were given, and ask your state labor department whether your state has its own rules on paying out unused vacation.
 
 ## Before you sign a severance agreement
 
@@ -89,7 +89,7 @@ Ask the plan how each choice would be paid before you request anything, and talk
 
 ## Public help near you
 
-There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or call 1-877-US-2JOBS. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, and its services are offered through American Job Centers. Our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
+There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or call 1-877-US-2JOBS. If retraining is on your mind, ask about the Dislocated Worker program under the federal Workforce Innovation and Opportunity Act (WIOA). The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, and its services are offered through American Job Centers. Our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
 
 ## Your resume, when you're ready
 
