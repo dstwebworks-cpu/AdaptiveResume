@@ -34,7 +34,7 @@ The tracker is a Microsoft Excel workbook with four tabs.
 
 - **How to use.** This tab has short instructions and a note about unemployment work-search records.
 - **Applications.** This tab has one row per job, with columns for the date you applied, the company, the job title, where you found it, a link to the posting, the resume version you sent, your contact's name and email or phone, the status, the date of the last update, your next step, a follow-up date, and notes.
-- **Contacts.** This tab is for everyone you talk to during the search, such as recruiters, hiring managers, former coworkers and people who refer you, with the date you last spoke and the date to reach out next.
+- **Contacts.** This tab is for everyone you talk to during the search, such as recruiters, hiring managers and people who refer you, with the date you last spoke and the date to reach out next.
 - **Summary.** This tab fills in its counts on its own: how many applications you are tracking, how many you sent in the last seven days, how many follow-ups are due, how many contacts are due, and how many applications sit at each status.
 
 Two things make it more than a list. First, the Status column has a set list to choose from: saved, applied, heard back, interview scheduled, interviewed, offer, not selected, withdrew and no response. That keeps the Summary tab's counts accurate. Second, when a follow-up date passes and the job is still open, the whole row turns amber, so a follow-up you meant to send doesn't slip by. The same thing happens on the Contacts tab when a reach-out date passes.
@@ -69,7 +69,7 @@ Then set the follow-up date to match what they told you, and move the status to 
 
 ## Keeping a work-search log for unemployment
 
-After your first unemployment claim, the U.S. Department of Labor's [unemployment insurance fact sheet](https://oui.doleta.gov/unemploy/uifactsheet.asp) says you must file weekly or biweekly claims and answer questions about whether you are still eligible. Your state may also ask you to record the employers you contact while you look for work. Each state sets its own rules about what counts as a contact, how many it wants, and how you report them, so read your state's instructions when you file. Our [list of official unemployment sites for every state](/guides/how-to-file-for-unemployment-by-state/) links each state's page.
+The U.S. Department of Labor's [unemployment insurance fact sheet](https://oui.doleta.gov/unemploy/uifactsheet.asp) says that after your first claim, you must file weekly or biweekly claims and answer questions about whether you are still eligible. Your state may also ask you to record the employers you contact while you look for work. Each state sets its own rules about what counts as a contact, how many it wants, and how you report them, so read your state's instructions when you file. Our [list of official unemployment sites for every state](/guides/how-to-file-for-unemployment-by-state/) links each state's page.
 
 A few practical points:
 
@@ -91,4 +91,4 @@ If you were recently laid off, our guide to [the first 30 days after a layoff](/
 
 ## Download the free job search tracker
 
-Enter your email in the box below, and the Excel tracker download unlocks right away. It works in Microsoft Excel, with the follow-up highlights and Summary counts built in.
+The tracker works in Microsoft Excel, with the follow-up highlights and Summary counts built in, and you can download it from the box near the end of this page.
