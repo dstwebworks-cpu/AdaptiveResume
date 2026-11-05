@@ -1,6 +1,6 @@
 ---
 title: "Laid Off? What to Do in the First 30 Days"
-description: "The first month after a layoff has a few deadlines that cost money if you miss them, and a lot that can wait. Here they are, each one linked to the agency that runs it: unemployment, health coverage, final pay, severance, and your 401(k)."
+description: "The first month after a layoff brings a few deadlines that cost money if you miss them, and a lot that can wait. This guide covers unemployment, health coverage, final pay, severance and your 401(k), and links each rule to its official source."
 seoTitle: "Laid Off? What to Do in the First 30 Days"
 seoDescription: "When you're laid off, file for unemployment, choose COBRA or a Marketplace plan within 60 days, check your final pay, and read any severance terms."
 segment: "job-seekers"
@@ -19,14 +19,14 @@ faq:
   - q: "How soon should I file for unemployment after a layoff?"
     a: "As soon as you can. The U.S. Department of Labor says to contact your state's unemployment insurance program as soon as possible after becoming unemployed, and to file in the state where you worked. It also says the first payment generally arrives two to three weeks after you file, so an early claim means an earlier check."
   - q: "Should I take COBRA or a Marketplace plan?"
-    a: "It depends on the cost and on the doctors and prescriptions you need, so compare both before the deadlines pass. You have 60 days to elect COBRA and 60 days after losing job-based coverage to enroll in a Marketplace plan. Being offered COBRA does not make you ineligible for a Marketplace plan or its tax credit. If you take COBRA and later drop it on your own, you generally have to wait for open enrollment to switch."
+    a: "It depends on the cost and on the doctors and prescriptions you need, so compare both before the deadlines pass. You have 60 days to elect COBRA, counted from the day your coverage ends or the day your COBRA election notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Being offered COBRA does not make you ineligible for a Marketplace plan or its tax credit. If you take COBRA and later drop it on your own, you generally have to wait for open enrollment to switch."
   - q: "Do I have to sign a severance agreement right away?"
-    a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (45 days if the layoff is part of a group program) and 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
+    a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (at least 45 if the layoff is part of a program offered to a group of employees) and at least 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
-You were laid off. Start at the top with your unemployment claim, then work down. If you were given a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
+Start at the top with your unemployment claim, then work down. If you were given a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
 
-It is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
+This guide is general information, not legal or financial advice. Rules change and states differ, so for your own situation, ask the agency named in each section or an employment attorney.
 
 ## Days 1 to 7: file for unemployment
 
@@ -34,20 +34,20 @@ Unemployment insurance is a joint state and federal program, and each state runs
 
 Your state's site lists what it asks for and how to apply online or by phone. Our [state-by-state list of official unemployment sites](/guides/how-to-file-for-unemployment-by-state/) links each one directly.
 
-Two things to know once you file:
+Here are two things to know once you file:
 
-- **Benefits are taxable.** The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include unemployment compensation in your income. You can choose to have federal income tax withheld from your benefits by filing Form W-4V, so less is due when you file your return.
+- **Benefits are taxable.** The [IRS](https://www.irs.gov/taxtopics/tc418) says you generally must include unemployment compensation in your income. You can choose to have federal income tax withheld from your benefits by filing Form W-4V.
 - **Your state may ask about your job search.** Your state will tell you whether you must record your job-search contacts and how to report them. Our free [job search tracker and work-search log](/guides/job-search-tracker-and-work-search-log/) keeps those contacts, dates and follow-ups in one place.
 
 ## Days 1 to 60: choose your health coverage
 
 This is the decision with the hardest deadlines, and two programs are involved.
 
-**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Many states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
+**COBRA** lets you keep your former employer's group health plan for a while. The [Department of Labor](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) says it usually lasts up to 18 months and can cover the family members who were on your plan. It applies to [group health plans sponsored by employers with 20 or more employees](https://www.dol.gov/general/topic/health-plans/cobra), and you may have to pay the whole premium plus up to 2% more. The Department's guide notes that this is often more than you're used to paying, because employers usually pay part of the cost for active employees. Some states have similar laws for employers with fewer than 20 employees; your state insurance commissioner's office can tell you whether one covers you.
 
 **If you are 65 or older, or will be soon,** ask Medicare about enrolling before you choose COBRA. The Department's guide warns that choosing COBRA instead of Medicare can mean a late enrollment penalty and a gap in coverage if you later want Part B. It also says that if you lose your job after your Medicare initial enrollment period and did not enroll in Part A or B, you generally have eight months to sign up. That window starts the month after your job ends or the month after your group health coverage ends, whichever is earlier.
 
-The COBRA timeline, from the Department's [Employee's Guide to Health Benefits Under COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf):
+The Department's [Employee's Guide to Health Benefits Under COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-health-benefits-under-cobra-2022.pdf) sets out this timeline:
 
 - Your employer has 30 days after your job ends to notify the plan.
 - The plan then has 14 days to send you an election notice.
@@ -62,7 +62,7 @@ The COBRA timeline, from the Department's [Employee's Guide to Health Benefits U
 
 The [Department of Labor](https://www.dol.gov/general/topic/wages/lastpaycheck) says federal law does not require an employer to hand over the final paycheck immediately, but some states do. If your regular payday passes and you have not been paid, contact the Department's Wage and Hour Division or your state labor department.
 
-Unused vacation works the same way. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, so whether you are paid for unused days depends on the policy or agreement you were given and on your state's law. Your state labor department can tell you what applies.
+Unused vacation is a separate question. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, and the Department of Labor says these benefits are a matter of agreement between you and your employer, so check the policy or agreement you were given. If you are not sure what you are owed, ask your state labor department.
 
 ## Before you sign a severance agreement
 
@@ -71,7 +71,7 @@ A severance agreement usually pays you in exchange for releasing legal claims ag
 - The agreement must advise you in writing to consult an attorney before you sign.
 - You get at least 21 days to consider it, or at least 45 days if the layoff is part of a program offered to a group of employees.
 - After you sign, you have at least 7 days to revoke, and the agreement does not take effect until those 7 days pass.
-- In a group program, the employer must also tell you in writing which group of employees the program covers and its eligibility factors and time limits. It must list the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
+- In a group program, the employer must also tell you in writing which employees the program covers, what makes someone eligible, and any time limits. It must list the job titles and ages of everyone eligible or selected, and the ages of those in the same job classification or unit who were not.
 
 The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements) explains these rules in plain language. Whatever your age, read the agreement's terms on returning company property and keeping company information confidential. Return what belongs to the employer, keep nothing from its systems, and ask an employment attorney about any term you are unsure of before you sign.
 
@@ -89,14 +89,14 @@ Ask the plan how each choice would be paid before you request anything, and talk
 
 ## Public help near you
 
-There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, call 1-877-US-2JOBS. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, through American Job Centers, and our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
+There are about 2,300 [American Job Centers](https://www.dol.gov/agencies/eta/american-job-centers) across the country. They offer job search help, training referrals, career counseling, and re-employment services for people on unemployment. Services vary by state and some have eligibility rules, so call or visit your local center to see what it offers. To find one, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or call 1-877-US-2JOBS. If retraining is on your mind, ask about the WIOA Dislocated Worker program. The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says it is designed to help workers get back to work as quickly as possible, and its services are offered through American Job Centers. Our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains who qualifies and how training is paid for.
 
 ## Your resume, when you're ready
 
-You don't need to rewrite your resume in the first week. When you start applying, two things help. If the layoff leaves a gap on your timeline, our guide on [how to explain an employment gap](/guides/how-to-explain-employment-gap-on-resume/) shows calm, honest ways to handle it. And before you send your resume to hiring managers and recruiters, our free resume check shows how screening software reads it, with no account needed.
+You don't need to rewrite your resume in the first week. When you start applying, two things help. If the layoff leaves a gap on your timeline, our guide on [how to explain an employment gap](/guides/how-to-explain-employment-gap-on-resume/) shows calm, honest ways to handle it. And before you send your resume to hiring managers and recruiters, our [free resume check](#fd-end) shows how screening software reads it, with no account needed.
 
-If you're still out of work after a few months, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) covers what changes in a longer search. All of our free resources for this stretch are on one page: [Laid off? Start here](/laid-off/).
+If your search runs longer, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) covers what changes. All of our free resources for after a layoff are on one page: [Laid off? Start here](/laid-off/).
 
 ## Your first 30 days checklist
 
-The free checklist below lists the deadlines in this guide that cost money if you miss them, with a box to check and a line for each key date. Print it, put it on the refrigerator, and work through it one item at a time.
+The free checklist near the end of this page lists the deadlines in this guide that cost money if you miss them, with a box to check and a line for each key date. Print it, put it on the refrigerator, and work through it one item at a time.

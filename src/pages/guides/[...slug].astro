@@ -122,7 +122,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       </div>
       {!isOrg && (
         <aside class="fd-touch" id="fd-t2">
-          <p>Before you change your resume, find out how screening software reads it today. The free check covers up to 12 things screening software cares about. <a href={checkUrl}>Check my resume free</a></p>
+          <p>Before you change your resume, find out how screening software reads it today. Our free check covers up to 12 things that software looks for. <a href={checkUrl}>Check my resume free</a></p>
         </aside>
       )}
 
@@ -151,31 +151,31 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
           <h3>Start with a free check of your own resume.</h3>
           <p>Upload it, and we'll run up to 12 checks screening software cares about, such as your contact details, dates and section headings. You'll see which ones pass and which need attention. It's free, and you don't need an account.</p>
           <a class="btn btn-primary btn-lg" href={checkUrl}>Check my resume free</a>
-          <p class="fd-paid">When your check is done, you can choose the full build. For $29, we ask you about your work to find what your resume leaves out, and your final resume is built only from what you brought us and what you approve. There's no subscription and no auto-renewal. <a href="/#pricing">See what the $29 build includes</a></p>
-          {passGuide && <p class="cta-links muted">Applying to several jobs? The AR Pass is $99 for 10 builds aimed at job postings, used within 90 days.</p>}
+          <p class="fd-paid">When your check is done, you can choose the full resume build. For $29, we ask you about your work to find what your resume leaves out, and your final resume is built only from what you brought us and what you approve. There's no subscription and no auto-renewal. <a href="/#pricing">See what the $29 build includes</a></p>
+          {passGuide && <p class="cta-links muted">If you are applying to several jobs, the AR Pass is $99 for up to 10 builds aimed at job postings, and you have 90 days to use them.</p>}
           <p class="cta-links muted">
             {sample
               ? <a href={'/demo/?p=' + sample}>{'See it work on ' + SAMPLE_LABEL[sample] + ', no sign-up needed'}</a>
               : <a href="/demo/">See it work on a sample resume, no sign-up needed</a>}
           </p>
-          <p class="cta-links muted">Paid a resume service and got a template back? <a href="/fix/">Start at Fix my resume</a>.</p>
+          <p class="cta-links muted">If you paid a resume service and got a template back, <a href="/fix/">start at Fix my resume</a>.</p>
         </div>
       )}
 
       <!-- email-gated giveaway -->
       <div class="card giveaway" id="giveaway">
-        <span class="tag-premium">Free template</span>
+        <span class="tag-premium">Free download</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Enter your email to unlock the download right here. If you create your account with this same email within 30 days of joining our list, <b>your first purchase is 25% off</b>. We'll also send the occasional useful note. No spam.</p>
+        <p class="muted">Enter your email to join our list and unlock the download right here. If you create your account with this same email within 30 days of joining, <b>your first purchase is 25% off</b>. We'll also send you an occasional useful note, and we never send spam.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
           <input type="hidden" name="redirect" value={'/guides/' + guide.id + '/'} />
           <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" />
-          <button class="btn btn-primary" type="submit">Unlock the template</button>
+          <button class="btn btn-primary" type="submit">Unlock the download</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download the {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>Thanks, you're on our list, and your download is ready just above. Your 25% off a first purchase is good for 30 days from the day this email joined our list.</p>
+        <p class="gate-note muted" hidden>Thanks, you're on our list, and your download is ready just above. If you create your account with this same email within 30 days, your first purchase is 25% off.</p>
         <p class="gate-err muted" hidden>That email address doesn't look right. Please check it and try again.</p>
       </div>
 

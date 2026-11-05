@@ -1,9 +1,10 @@
 // Guide front door (founder 10/30-10/31/2026: every guide is a front door; a promise matches its step).
 // Field of each guide, from its slug: picks the matching demo sample and keeps "Keep reading" in the reader's field.
 // Only the demo's six samples exist (paralegal, military, hvac, gap, army, it), so most fields have no sample.
-export type Field = 'aviation' | 'care' | 'health' | 'trades' | 'military' | 'logistics' | 'it' | 'office' | 'food' | 'ats' | 'gap' | 'education' | 'safety' | 'general';
+export type Field = 'layoff' | 'aviation' | 'care' | 'health' | 'trades' | 'military' | 'logistics' | 'it' | 'office' | 'food' | 'ats' | 'gap' | 'education' | 'safety' | 'general';
 
 const RULES: [Field, RegExp][] = [
+  ['layoff', /(laid-off|long-term-unemployed|file-for-unemployment|job-search-tracker)/],   // re-check 6 R6-T19: layoff readers see the other layoff guides first
   ['ats', /(^|-)(ats|what-is-an-ats|what-the-ats-reads|resume-format-for-ats|hidden-text|honest-keyword|tailor-resume|quantify-resume)/],
   ['military', /(military|veteran|security-clearance|government-to-private)/],
   ['aviation', /(pilot|flight-attendant|aircraft)/],
@@ -49,5 +50,5 @@ export const SAMPLE_LABEL: Record<string, string> = {
 export const NEAR: Record<Field, Field[]> = {
   care: ['health'], health: ['care'], trades: ['logistics'], military: [], aviation: [],   // small fields fall through to the general how-to guides (recheck round 3 FIX-A)
   logistics: ['trades', 'military'], it: ['office'], office: ['it'], food: ['office'], ats: ['general'],
-  gap: ['general'], education: ['office'], safety: ['care'], general: ['ats'],
+  layoff: ['general'], gap: ['general'], education: ['office'], safety: ['care'], general: ['ats'],
 };

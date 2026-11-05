@@ -7,14 +7,14 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 
 ## Days 1 to 7
 - [ ] On ________, I filed for unemployment in the state where I worked. My confirmation number is ____________.
-- [ ] I decided whether to have federal tax withheld from my benefits, using IRS Form W‑4V.
+- [ ] I decided whether to have federal income tax withheld from my benefits. If I chose withholding, I filed IRS Form W‑4V.
 - [ ] I found out whether my state asks me to record my job-search contacts, and how to report them.
 - [ ] I wrote down the date my health coverage ends. The Marketplace window runs 60 days before and after that date. The COBRA window runs 60 days from that date or from the day my COBRA election notice arrived, whichever is later.
 - [ ] If I was given a severance agreement, I read the Severance section below right away. The deadline to sign it, if it has one, is ________.
 
 ## Health coverage (you have 60 days to choose a plan)
 - [ ] My COBRA election notice arrived on ________. My employer has 30 days to notify the plan, and the plan has 14 days after that to send me the notice.
-- [ ] I compared COBRA with a Marketplace plan at HealthCare.gov or by calling 1‑800‑318‑2596.
+- [ ] I compared COBRA with a Marketplace plan at [HealthCare.gov](https://www.healthcare.gov/) or by calling 1‑800‑318‑2596.
 - [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
 - [ ] If I elected COBRA, I paid the first premium on ________, within 45 days of electing it.
 - [ ] I know that dropping COBRA on my own does not let me enroll in a Marketplace plan outside open enrollment.
@@ -22,7 +22,8 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 ## Pay
 - [ ] My final paycheck arrived on ________.
 - [ ] If my regular payday passed without my final paycheck, I contacted the Wage and Hour Division or my state labor department.
-- [ ] I checked the policy or agreement I was given, and my state's law, to see whether I am owed pay for unused vacation.
+- [ ] I checked the policy or agreement I was given to see whether I am owed pay for unused vacation.
+- [ ] If I was not sure what I am owed, I asked my state labor department.
 
 ## Severance (if offered)
 - [ ] I received the agreement on ________.
@@ -32,12 +33,12 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] Before signing, I asked an employment attorney about anything I was unsure of.
 
 ## Retirement savings
-- [ ] I did not cash out my 401(k) before learning the cost. Before age 59 1/2, there is usually an extra 10% tax, unless I left the employer at 55 or older. If the money is paid to me, the plan also withholds 20%.
+- [ ] I did not cash out my 401(k) before learning the cost. Before age 59 1/2, there is usually an extra 10% tax, unless I left the employer at 55 or older. If the money is paid to me, the plan also withholds 20%, and any part I do not roll over is generally taxable.
 - [ ] I asked the plan how each choice would be paid. A direct rollover to another plan or an IRA has no tax withheld.
 - [ ] If a distribution was paid to me on ________, I wrote down that I have 60 days to roll it over. To roll over the full amount, I must use my own money to make up the 20% that was withheld.
 
 ## Free help
-- [ ] I found my nearest American Job Center (1‑877‑US‑2JOBS) and asked what it offers.
+- [ ] I found my nearest American Job Center with the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or by calling 1‑877‑US‑2JOBS, and asked what it offers.
 - [ ] I started my job search log with the free tracker at [adaptiveresume.com/guides/job-search-tracker-and-work-search-log](https://adaptiveresume.com/guides/job-search-tracker-and-work-search-log/).
 
 ## When I'm ready to apply

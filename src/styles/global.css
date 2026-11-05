@@ -47,6 +47,7 @@ img { max-width: 100%; display: block; }
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+:target { scroll-margin-top: 5rem; } /* anchor links land below the sticky header (re-check 6 R6-H8) */
 h1, h2, h3, h4 { line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 .5em; color: var(--ink); text-wrap: balance; }
 h1 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 800; }
 h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 800; }
