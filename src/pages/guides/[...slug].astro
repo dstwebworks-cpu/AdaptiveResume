@@ -166,7 +166,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
       <div class="card giveaway" id="giveaway">
         <span class="tag-premium">Free download</span>
         <h3>{guide.data.giveaway.name}</h3>
-        <p class="muted">Enter your email and the download unlocks right here. That also puts you on our list: sign up with this same email and buy within 30 days, and <b>your first purchase is 25% off</b>. We'll send the occasional useful note, never spam.</p>
+        <p class="muted">Enter your email to unlock the download. Buy within 30 days with this same email and <b>save 25% on your purchase</b>. We'll send an occasional useful note.</p>
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
           <input type="hidden" name="source" value={'guide-' + guide.id} />
@@ -175,7 +175,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
           <button class="btn btn-primary" type="submit">Unlock the download</button>
         </form>
         <a class="dl btn btn-premium" hidden href={guide.data.giveaway.file} download>Download the {guide.data.giveaway.name}</a>
-        <p class="gate-note muted" hidden>You're on our list, and your download is ready just above. Sign up with this same email and buy within 30 days, and your first purchase is 25% off.</p>
+        <p class="gate-note muted" hidden>Your download is ready above. Your 25% off is good for 30 days.</p>
         <p class="gate-err muted" hidden>That email address doesn't look right. Please check it and try again.</p>
       </div>
 

@@ -28,11 +28,11 @@ These are the questions I will ask:
 Notes: ____________________________________________________________
 
 ## 4. One recent thing for my resume this month
-I will pick one thing to do this month: a course or certification, contract or temporary work, freelance work, or volunteer work that uses my skills. This month I will ______________________________, starting on ____________.
+This month I will ______________________________, starting on ____________. It can be a course or certification, contract or temporary work, freelance work, or volunteer work that uses my skills.
 
 ## 5. People who know my work
 
-I will use only contact details I have on my own, never ones from my old employer's systems. If I signed a severance or employment agreement, I will read it before I contact former coworkers or supervisors who still work at the company, because it may limit who I can contact and what I can say about the company.
+I will use only contact details I have on my own, never ones from my old employer's systems. If I signed a severance or employment agreement, I will read it before I contact former coworkers or supervisors who still work at my old employer, because it may limit who I can contact and what I can say about that employer.
 
 | Name | How we worked together | Date I reached out | Will they be a reference? |
 |---|---|---|---|
@@ -46,10 +46,10 @@ I will write one calm, true sentence about my time away from work:\
 ______________________________________________________________________\
 ______________________________________________________________________
 
-Our guide to explaining an employment gap can help: [adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume](https://adaptiveresume.com/guides/how-to-explain-employment-gap-on-resume/).
+For help with this line, see our guide to explaining an employment gap, listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 
 ## 7. Keep the search visible
-- [ ] I started the free Excel job search tracker, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
+- [ ] I started tracking my applications and contacts in the free Excel job search tracker, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 - [ ] I ran the free resume check at [adaptiveresume.com](https://adaptiveresume.com/) to see how screening software reads my resume.
 
 All our free help after a layoff is at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/). If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com).

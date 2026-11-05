@@ -17,7 +17,7 @@ order: 133
 draft: false
 faq:
   - q: "Is the job search tracker free?"
-    a: "Yes. Enter your email in the box at the bottom of this page and the download unlocks right there. The printable weekly claim and work-search log is free on our page about filing for unemployment, and neither one needs an account."
+    a: "Yes. Enter your email in the download box near the end of this page, and the download unlocks right there. The printable weekly claim and work-search log is free on our page about filing for unemployment, and neither one needs an account."
   - q: "Does the work-search log count as my state's official record?"
     a: "No. Your state decides whether you must record job-search contacts, what counts, and how to report them, and you should follow its instructions and use its form or online system if it has one. Our log is a personal record that keeps the details in one place so you can answer your state's questions quickly."
   - q: "What should I write in the resume version column?"
@@ -91,4 +91,4 @@ If you were recently laid off, our guide to [the first 30 days after a layoff](/
 
 ## Download the free job search tracker
 
-Enter your email below and the Excel tracker downloads right away. It works in Microsoft Excel, with the follow-up highlights and Summary counts built in.
+Enter your email in the box below, and the Excel tracker download unlocks right away. It works in Microsoft Excel, with the follow-up highlights and Summary counts built in.

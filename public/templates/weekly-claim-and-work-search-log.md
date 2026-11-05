@@ -1,7 +1,7 @@
 # Weekly Claim and Work-Search Log
 ### A free log from AdaptiveResume
 
-> In the claims table, use one row for each week you claim. If you file every two weeks, write that filing date on both weeks' rows, with the confirmation number your state gave you. In the contacts table, use one row for each employer you contact. Your state decides how often you file claims and whether you must record job-search contacts, so follow its instructions. This log simply keeps everything in one place.
+> This log keeps your weekly claims and job-search contacts in one place. Your state decides how often you file claims and whether you must record job-search contacts, so follow its instructions. In the claims table, use one row for each week you claim. If you file every two weeks, write that filing date on both weeks' rows, with the confirmation number your state gave you. In the contacts table, use one row for each employer you contact.
 
 My state's unemployment site: ______________________________  Date I filed my claim: ____________
 
@@ -18,10 +18,12 @@ My state's unemployment site: ______________________________  Date I filed my cl
 |  |  |  |  |
 |  |  |  |  |
 
+When you run out of rows, print another copy of this log.
+
 ## Job-search contacts
 
 | Date | Employer | Job title | How I applied or contacted them | Person or website | Result or next step |
-|---|---|---|---|---|---|
+|------|----------|--------|----------|--------|----------|
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |

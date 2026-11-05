@@ -21,7 +21,7 @@ faq:
   - q: "Should I take COBRA or a Marketplace plan?"
     a: "It depends on the cost and on the doctors and prescriptions you need, so compare both before the deadlines pass. You have 60 days to elect COBRA, counted from the day your coverage ends or the day your COBRA election notice arrives, whichever is later. You can enroll in a Marketplace plan from 60 days before to 60 days after you lose job-based coverage. Being offered COBRA does not make you ineligible for a Marketplace plan or its tax credit. If you take COBRA and later drop it on your own, you generally have to wait for open enrollment to switch."
   - q: "Do I have to sign a severance agreement right away?"
-    a: "If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (at least 45 if the layoff is part of a program offered to a group of employees) and at least 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
+    a: "Look for a signing deadline in the agreement itself, and write it down. If you are 40 or older and the agreement asks you to give up age discrimination claims, federal law gives you at least 21 days to consider it (at least 45 if the layoff is part of a program offered to a group of employees) and at least 7 days to change your mind after you sign. The agreement must also advise you in writing to consult an attorney. For anything in the agreement you are unsure about, ask an employment attorney before you sign."
 ---
 
 Start at the top with your unemployment claim, then work down. If you were given a severance agreement, read that section early, because its deadline can come before your 60 days for health coverage run out.
@@ -54,15 +54,15 @@ The Department's [Employee's Guide to Health Benefits Under COBRA](https://www.d
 - You have 60 days to elect COBRA, counted from when your coverage ends or when you receive the notice, whichever is later.
 - After you elect, you have at least 45 days to make the first premium payment.
 
-**A Marketplace plan** is the other path. [HealthCare.gov](https://www.healthcare.gov/unemployed/marketplace-options/) says you have 60 days after losing job-based coverage to enroll, and the Department of Labor's guide says you can select a plan within 60 days before or after the loss. Being offered COBRA does not make you ineligible for a Marketplace plan or for the tax credit that lowers its premiums. You can look at Marketplace plans and apply at HealthCare.gov or by calling 1-800-318-2596, then compare them with what COBRA would cost you.
+**A Marketplace plan** is the other path. The Department of Labor's guide says you can choose a plan from 60 days before to 60 days after you lose job-based coverage, and [HealthCare.gov](https://www.healthcare.gov/unemployed/marketplace-options/) explains your options. Being offered COBRA does not make you ineligible for a Marketplace plan or for the tax credit that lowers its premiums. You can look at Marketplace plans at HealthCare.gov or by calling 1-800-318-2596, and apply the same way. Compare them with what COBRA would cost you before you choose.
 
-**Watch for one mistake.** If you take COBRA and then drop it on your own, [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/) says that does not qualify you to switch to a Marketplace plan, and you generally have to wait for open enrollment. When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins.
+**Watch for one mistake.** If you take COBRA and then drop it on your own, you generally can't switch to a Marketplace plan until open enrollment, according to [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/). When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins.
 
 ## Your final paycheck and unused time off
 
 The [Department of Labor](https://www.dol.gov/general/topic/wages/lastpaycheck) says federal law does not require an employer to hand over the final paycheck immediately, but some states do. If your regular payday passes and you have not been paid, contact the Department's Wage and Hour Division or your state labor department.
 
-Unused vacation is a separate question. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, and the Department of Labor says these benefits are a matter of agreement between you and your employer. Check the policy or agreement you were given, and ask your state labor department whether your state has its own rules on paying out unused vacation.
+Unused vacation is a separate question. Federal law does [not require payment for time not worked](https://www.dol.gov/general/topic/workhours/vacation_leave), such as vacation, and the Department of Labor says vacation benefits are a matter of agreement between you and your employer. Check the policy or agreement you were given, and ask your state labor department whether your state has its own rules on paying out unused vacation.
 
 ## Before you sign a severance agreement
 
@@ -81,7 +81,7 @@ The [EEOC](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimin
 
 When you leave a job, your former employer's retirement plan may offer to pay out your balance. Before you take it as cash, know the cost:
 
-- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) adds a 10% additional tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older. The IRS says this exception applies to plans other than an IRA, so it no longer applies once you move the money into an IRA.
+- **Taxes, plus an extra 10%.** The [IRS](https://www.irs.gov/taxtopics/tc558) charges an extra 10% tax on the taxable part of an early distribution, taken before age 59½. One exception covers money paid from that employer's plan after you leave the employer at age 55 or older. The IRS says this exception applies to plans other than an IRA, so it no longer applies once you move the money into an IRA.
 - **20% held back.** A plan distribution paid to you is [subject to mandatory withholding of 20%](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions), even if you intend to roll it over later.
 - **A 60-day window.** You have 60 days from the date you receive a distribution to roll it into another plan or an IRA. To roll over the full amount, you must use other money to make up the 20% that was withheld. The [IRS](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) says that if you ask the plan to pay another plan or an IRA directly, no taxes are withheld from the transfer.
 
