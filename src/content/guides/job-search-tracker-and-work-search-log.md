@@ -21,21 +21,21 @@ faq:
   - q: "Does the work-search log count as my state's official record?"
     a: "No. Your state decides whether you must record job-search contacts, what counts, and how to report them, and you should follow its instructions and use its form or online system if it has one. Our log is a personal record that keeps the details in one place so you can answer your state's questions quickly."
   - q: "What should I write in the resume version column?"
-    a: "A short name for the exact file you sent, such as 'Patient access, version 2'. If you change your resume for different kinds of jobs, this column tells you which version a hiring manager or recruiter is holding when they call, so you can answer from the same page they are reading."
+    a: "Write a short name for the exact file you sent, such as 'Patient access, version 2'. If you change your resume for different kinds of jobs, this column tells you which version a hiring manager or recruiter is holding when they call, so you can answer from the same page they are reading."
 ---
 
 A job search turns into a lot of moving parts fast: dozens of applications, a handful of people to follow up with, and dates that are easy to lose track of. A simple tracker keeps it all in one place, so you always know what you sent, to whom, and what happens next. If you are receiving unemployment benefits, it also helps you keep the job-search record your state may ask for.
 
-The free download on this page is the Excel job search tracker, at the bottom, and it handles applications, contacts and follow-ups. Its companion, the printable weekly claim and work-search log, is free on our [page about filing for unemployment](/guides/how-to-file-for-unemployment-by-state/), and it gives you one row per week for your claims and the employers you contacted.
+You can download the Excel job search tracker from the box near the end of this page. It covers your applications, contacts and follow-ups. Its companion, the printable weekly claim and work-search log, is free on our [page about filing for unemployment](/guides/how-to-file-for-unemployment-by-state/), with a row for each weekly claim and a row for each employer you contact.
 
 ## What's in the free job search tracker
 
 The tracker is a Microsoft Excel workbook with four tabs.
 
-- **How to use.** Short instructions, plus a note about unemployment work-search records.
-- **Applications.** One row per job, with columns for the date you applied, the company, the job title, where you found it, a link to the posting, the resume version you sent, your contact's name and email or phone, the status, the date of the last update, your next step, a follow-up date, and notes.
-- **Contacts.** Everyone you talk to during the search: recruiters, hiring managers, former coworkers and people who refer you, with the date you last spoke and the date to reach out next.
-- **Summary.** Counts that fill in on their own: how many applications you are tracking, how many you sent in the last seven days, how many follow-ups are due, how many contacts are due, and how many applications sit at each status.
+- **How to use.** This tab has short instructions and a note about unemployment work-search records.
+- **Applications.** This tab has one row per job, with columns for the date you applied, the company, the job title, where you found it, a link to the posting, the resume version you sent, your contact's name and email or phone, the status, the date of the last update, your next step, a follow-up date, and notes.
+- **Contacts.** This tab is for everyone you talk to during the search, such as recruiters, hiring managers, former coworkers and people who refer you, with the date you last spoke and the date to reach out next.
+- **Summary.** This tab fills in its counts on its own: how many applications you are tracking, how many you sent in the last seven days, how many follow-ups are due, how many contacts are due, and how many applications sit at each status.
 
 Two things make it more than a list. First, the Status column has a set list to choose from: saved, applied, heard back, interview scheduled, interviewed, offer, not selected, withdrew and no response. That keeps the Summary tab's counts accurate. Second, when a follow-up date passes and the job is still open, the whole row turns amber, so a follow-up you meant to send doesn't slip by. The same thing happens on the Contacts tab when a reach-out date passes.
 
@@ -57,7 +57,7 @@ A tracker only helps if it's current, and a few habits keep it that way.
 
 ## Write down every interview the same day
 
-Interviews are where details slip the fastest, and they are the details you need most when a second round or an offer comes. On the day of each interview, add a short note to that job's row:
+Details from an interview slip away fastest, and they are the ones you need most when a second round or an offer comes. On the day of each interview, add a short note to that job's row:
 
 - the names and titles of the people you met, spelled the way they wrote them;
 - the date, and whether it was by phone, video or in person;

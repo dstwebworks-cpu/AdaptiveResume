@@ -46,6 +46,8 @@ The Workforce Innovation and Opportunity Act (WIOA) funds a Dislocated Worker pr
 - is eligible for unemployment compensation or has already used it up (or has enough work history but wasn't eligible for it); and
 - is unlikely to return to their previous industry or occupation.
 
+So running out of benefits does not, by itself, shut you out of the program.
+
 The definition also covers:
 
 - people laid off in a permanent closure or a substantial layoff at their plant, facility or company;
@@ -53,11 +55,9 @@ The definition also covers:
 - people who stayed home caring for their family and lost the family income they depended on (the law calls them displaced homemakers); and
 - certain spouses of active-duty service members who lost a job because of a move to a new duty station.
 
-Running out of benefits does not, by itself, shut you out of the program.
-
 **What it offers.** The [Department of Labor](https://www.dol.gov/agencies/eta/workforce-investment/adult) says the Dislocated Worker program is designed to help workers get back to work as quickly as possible, and that its services are offered through American Job Centers. The same Department of Labor page also describes the WIOA Adult program, which provides job search help and training, so ask the center about both.
 
-**How training is paid for.** Training usually runs through an Individual Training Account, which the federal regulation ([20 CFR 680.300](https://www.law.cornell.edu/cfr/text/20/680.300)) describes as a payment agreement set up on your behalf with a training provider. If you qualify and training is approved for you, you choose a school or provider from your state's eligible list with help from a career planner, and the account pays it.
+**How training is paid for.** Training usually runs through an Individual Training Account, which the federal regulation ([20 CFR 680.300](https://www.law.cornell.edu/cfr/text/20/680.300)) describes as a payment agreement set up on your behalf with a training provider. If you qualify and training is approved for you, you choose a school or provider from your state's eligible list with help from a career planner, and the program can pay that school or provider through the account.
 
 **How to start.** Visit or call your local American Job Center and ask about the WIOA Dislocated Worker program. To find your nearest center, use the [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx) or call 1-877-US-2JOBS. When you contact the center, ask what it needs from you to decide whether you qualify.
 

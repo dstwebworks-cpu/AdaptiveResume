@@ -22,7 +22,8 @@ These are the questions I will ask:
 
 - [ ] Do I qualify for the Dislocated Worker program under the Workforce Innovation and Opportunity Act (WIOA)?
 - [ ] What do you need from me to decide whether I qualify?
-- [ ] What training could an Individual Training Account pay for, and who is on the state's list of eligible training providers?
+- [ ] What training could an Individual Training Account pay for?
+- [ ] Which schools and providers are on the state's list of eligible training providers?
 - [ ] What job search help, workshops or hiring events do you offer this month?
 
 Notes: ____________________________________________________________

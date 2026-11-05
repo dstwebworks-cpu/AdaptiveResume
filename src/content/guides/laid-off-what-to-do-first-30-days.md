@@ -56,7 +56,7 @@ The Department's [Employee's Guide to Health Benefits Under COBRA](https://www.d
 
 **A Marketplace plan** is the other path. The Department of Labor's guide says you can choose a plan from 60 days before to 60 days after you lose job-based coverage, and [HealthCare.gov](https://www.healthcare.gov/unemployed/marketplace-options/) explains your options. Being offered COBRA does not make you ineligible for a Marketplace plan or for the tax credit that lowers its premiums. You can look at Marketplace plans at HealthCare.gov or by calling 1-800-318-2596, and apply the same way. Compare them with what COBRA would cost you before you choose.
 
-**Watch for one mistake.** If you take COBRA and then drop it on your own, you generally can't switch to a Marketplace plan until open enrollment, according to [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/). When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins.
+**Watch for one mistake.** If you take COBRA and then drop it on your own, you generally can't switch to a Marketplace plan until open enrollment, according to [HealthCare.gov](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/). When COBRA runs out on its own, you get 60 days to enroll. The Department of Labor's guide also describes one way some people bridge the gap: electing COBRA to cover medical care until a Marketplace plan begins. If you do this, pick your Marketplace plan within 60 days after your job-based coverage ends.
 
 ## Your final paycheck and unused time off
 
