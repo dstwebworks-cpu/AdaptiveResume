@@ -17,7 +17,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] I looked at Marketplace plans at [HealthCare.gov](https://www.healthcare.gov/) or by calling 1‑800‑318‑2596, and compared them with what COBRA would cost me.
 - [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
 - [ ] If I elected COBRA, I paid the first premium on ________, within 45 days of electing it.
-- [ ] I know that if I drop COBRA on my own after my 60-day Marketplace window has closed, I generally cannot enroll in a Marketplace plan until open enrollment.
+- [ ] I know that if I drop COBRA on my own more than 60 days after my job-based coverage ended, I generally cannot switch to a Marketplace plan until open enrollment.
 
 ## Pay
 - [ ] My final paycheck arrived on ________.
@@ -47,4 +47,4 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] I ran the free resume check at [adaptiveresume.com](https://adaptiveresume.com/) to see how screening software reads my resume.
 - [ ] I read our guide on explaining an employment gap, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 
-If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com). All our free help after a layoff is at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
+If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com). Our free guides and downloads for after a layoff are at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).

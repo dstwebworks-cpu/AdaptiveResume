@@ -53,4 +53,4 @@ For help with this line, see our guide to explaining an employment gap, listed a
 - [ ] I started tracking my applications and contacts in the free Excel job search tracker, which is listed at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/).
 - [ ] I ran the free resume check at [adaptiveresume.com](https://adaptiveresume.com/) to see how screening software reads my resume.
 
-All our free help after a layoff is at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/). If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com).
+Our free guides and downloads for after a layoff are at [adaptiveresume.com/laid-off](https://adaptiveresume.com/laid-off/). If you have questions, write to [support@adaptiveresume.com](mailto:support@adaptiveresume.com).
