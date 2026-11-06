@@ -171,7 +171,7 @@ const related = [...ownNext, ...near, ...general, ...sameAudience].filter((g, i,
           : <p class="muted">Enter your email to unlock the download. Buy within 30 days with this same email and <b>save 25% on your purchase</b>. We'll send an occasional useful note.</p>}
         <form class="gate" method="post" action={waitlistAction}>
           <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
-          <input type="hidden" name="source" value={'guide-' + guide.id} />
+          <input type="hidden" name="source" value={(isOrg ? 'org-guide-' : 'guide-') + guide.id} />
           <input type="hidden" name="redirect" value={'/guides/' + guide.id + '/'} />
           <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" />
           <button class="btn btn-primary" type="submit">Unlock the download</button>

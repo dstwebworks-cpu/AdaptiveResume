@@ -26,7 +26,7 @@ faq:
 
 If you have been looking for work for six months or more, you are far from alone. The U.S. Bureau of Labor Statistics counts people jobless for 27 weeks or more as long-term unemployed, and in its [September 2026 report](https://www.bls.gov/news.release/empsit.nr0.htm) that was 1.9 million people, 27.1 percent of everyone who was unemployed.
 
-A long search changes a few practical things, so now is a good time to ask about public help. This guide is general information, so check the details with your state and your local American Job Center.
+A long search changes a few practical things, so now is a good time to ask about public help. This guide is general information; check the details with your state and your local American Job Center.
 
 ## What changes after six months
 
@@ -34,7 +34,7 @@ A long search changes a few practical things, so now is a good time to ask about
 
 **Your health coverage options may have changed.** If your income has dropped, check Medicaid and the Children's Health Insurance Program. [HealthCare.gov](https://www.healthcare.gov/medicaid-chip/) says they provide free or low-cost coverage to eligible low-income adults, families and children, that you can apply any time of year, and that you should apply even if you don't think you will qualify based on your income. The site also notes that starting 01/01/2027, in states that cover adults based on income alone, you may need to meet a monthly work requirement to get or keep Medicaid, so check your state's rules when you apply.
 
-**A long gap can mean fewer callbacks from hiring managers.** A 2012 [field experiment by Kroft, Lange and Notowidigdo](https://www.nber.org/papers/w18387), published by the National Bureau of Economic Research, found that the chance of getting a callback for an interview went down as unemployment went on, with most of that drop in the first eight months. Our practical takeaway is to give a hiring manager something recent to read: current training, recent work of any kind, and a calm, honest line about the time away.
+**A long gap can mean fewer callbacks from hiring managers.** A 2012 [field experiment by Kroft, Lange and Notowidigdo](https://www.nber.org/papers/w18387), published by the National Bureau of Economic Research, found that the chance of getting a callback for an interview went down as unemployment went on, with most of that drop in the first eight months. Our practical takeaway is to give a hiring manager something recent to read: current training, recent work of any kind, and a short line about the time away.
 
 ## The help built for this: the WIOA Dislocated Worker program
 
@@ -85,7 +85,7 @@ A gap of six months or more is common, and you don't need to hide it. Our guide 
 
 Our free [Excel job search tracker](/guides/job-search-tracker-and-work-search-log/) keeps every application, contact and follow-up date in one place. If your state asks you to record job-search contacts, our free printable weekly claim and work-search log gives you a row for each one, and you can download it from our [unemployment filing guide](/guides/how-to-file-for-unemployment-by-state/).
 
-Before you send another application, try our [free resume check](#fd-end) to see how screening software reads your resume. You don't need an account. Every free resource we offer after a layoff, including our [first 30 days guide](/guides/laid-off-what-to-do-first-30-days/), is on one page: [Laid off? Start here](/laid-off/).
+Before you send another application, try our [free resume check](#fd-end) to see how screening software reads your resume. You don't need an account. Our free guides and downloads for after a layoff, including our [first 30 days guide](/guides/laid-off-what-to-do-first-30-days/), are gathered on one page: [Laid off? Start here](/laid-off/).
 
 ## Your restart plan worksheet
 

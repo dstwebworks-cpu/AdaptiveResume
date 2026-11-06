@@ -17,7 +17,7 @@ Date my job ended: ____________  Date my health coverage ends: ____________
 - [ ] I looked at Marketplace plans at [HealthCare.gov](https://www.healthcare.gov/) or by calling 1‑800‑318‑2596, and compared them with what COBRA would cost me.
 - [ ] I elected COBRA, or enrolled in a Marketplace plan, on ________, before my 60 days ran out.
 - [ ] If I elected COBRA, I paid the first premium on ________, within 45 days of electing it.
-- [ ] I know that dropping COBRA on my own generally does not let me enroll in a Marketplace plan outside open enrollment.
+- [ ] I know that if I drop COBRA on my own after my 60-day Marketplace window has closed, I generally cannot enroll in a Marketplace plan until open enrollment.
 
 ## Pay
 - [ ] My final paycheck arrived on ________.

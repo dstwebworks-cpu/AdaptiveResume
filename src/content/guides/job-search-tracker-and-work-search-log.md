@@ -83,12 +83,8 @@ The printable weekly log has two parts: a weekly claims table (week ending, date
 
 After a few weeks, the tracker shows you patterns. If you're sending applications and hearing very little back, two things are worth checking before you send more: whether your resume reads cleanly to screening software, and whether it shows hiring managers the skills the posting asks for.
 
-Our free resume check covers the first one. It shows how screening software reads your resume, it's free, and you don't need an account. For the second, compare your resume with the job description you saved, line by line, and note which of the posting's skills and tools your resume never mentions.
+Our [free resume check](#fd-end) covers the first one. It shows how screening software reads your resume, and you don't need an account. For the second, compare your resume with the job description you saved, line by line, and note which of the posting's skills and tools your resume never mentions.
 
 ## More help after a layoff
 
-If you were recently laid off, our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the deadlines that matter most: unemployment, health coverage, final pay, severance and your 401(k). If your search has gone on for six months or more, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains the WIOA Dislocated Worker program and how training is paid for. Every free resource for this stretch is on one page: [Laid off? Start here](/laid-off/).
-
-## Download the free job search tracker
-
-The tracker works in Microsoft Excel, with the follow-up highlights and Summary counts built in, and you can download it from the box near the end of this page.
+If you were recently laid off, our guide to [the first 30 days after a layoff](/guides/laid-off-what-to-do-first-30-days/) covers the deadlines that matter most: unemployment, health coverage, final pay, severance and your 401(k). If your search has gone on for six months or more, our guide for [people out of work six months or more](/guides/long-term-unemployed-restarting-your-job-search/) explains the WIOA Dislocated Worker program and how training is paid for. Our free guides and downloads for after a layoff are gathered on one page: [Laid off? Start here](/laid-off/).
