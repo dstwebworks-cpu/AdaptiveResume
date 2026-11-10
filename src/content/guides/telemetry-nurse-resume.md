@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 17
 draft: false
 faq:
@@ -54,7 +54,7 @@ List each contract honestly — facility, unit type, weeks — rather than blurr
 
 ## Format notes
 
-Two pages is common and widely accepted for an experienced RN, and new grads usually fit on one (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Use a single column for the applicant tracking system (ATS), keep certifications in a dedicated block, and put the unit-description line at the top of each role.
+Two pages is common and widely accepted for an experienced RN, and new grads usually fit on one. Most federal applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, but the Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement. Use a single column for the applicant tracking system (ATS), keep certifications in a dedicated block, and put the unit-description line at the top of each role.
 
 
 ## A bullet bank you can adapt - keep only what's true

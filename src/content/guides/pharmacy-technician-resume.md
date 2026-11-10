@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 102
 draft: false
 faq:
@@ -88,7 +88,7 @@ Two rules keep it honest. First, list only what you've done, not what your progr
 
 **Length follows your history, not a page rule.** One page is right for a new technician or for a few years in one store. Two pages is normal once you have more than one substantive role to describe, retail and inpatient, say, each with its own volume and systems. Order matters more than length: your CPhT and your state registration near the top in their own labeled section, because screening software keys on them, then experience with a shift line atop each role.
 
-There is one hard exception. Since the Office of Personnel Management (OPM) change that took effect on September 27, 2025, USAJOBS accepts resumes of two pages or fewer. Department of Veterans Affairs and military hospital pharmacy technician postings run through USAJOBS, so if that is where you are headed, two pages is the limit.
+Federal jobs have their own rule. Since the Office of Personnel Management (OPM) change that took effect on September 27, 2025, most federal jobs accept only resumes of two pages or fewer. The Department of Veterans Affairs (VA) says that limit does not apply to its pharmacy technician jobs, so follow the resume instructions in a VA job announcement. For a military hospital job, plan on two pages.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables; applicant systems parse plain layouts most reliably.
 

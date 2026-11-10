@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-10-30
+updatedDate: 2026-11-10
 order: 93
 draft: false
 faq:
@@ -90,7 +90,7 @@ Two rules keep it honest. First, list only what you've done, not what your progr
 
 **Length follows your history, not a page rule.** One page is right for a new CNA or for two or three years in one setting. Two pages is normal and expected once you have more than one substantive role to describe — a hospital floor and a skilled unit, say, each with its own load and systems. Order matters more than length: registry status and BLS near the top in their own labeled section (screening software keys on them), then experience with a shift line atop each role.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) nursing assistant postings run through USAJOBS, so if that's where you're headed, that's a hard requirement.
+One exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) says that limit does not apply to its nursing assistant jobs, so if that's where you're headed, follow the resume instructions in the job announcement.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — applicant systems parse plain layouts most reliably. Skip the graphics.
 

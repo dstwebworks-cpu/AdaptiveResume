@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-08
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 76
 draft: false
 faq:
@@ -83,7 +83,7 @@ List exactly what you hold, with real status. "ACLS — renewal scheduled [month
 
 **Length follows your history, not a page rule.** Two pages is normal and expected once you have more than one substantive nursing role to describe, and a traveler with a run of contracts gets there quickly. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then contracts in reverse chronological order with a contract line atop each one. If you have many contracts, give the recent ones full detail and trim the oldest to a single line each — facility, unit, dates.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference, and it applies if you're pursuing a Veterans Affairs or other federal nursing position.
+One genuine exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. The Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement if you apply there.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — agency and hospital systems parse plain layouts most reliably. Skip the graphics.
 

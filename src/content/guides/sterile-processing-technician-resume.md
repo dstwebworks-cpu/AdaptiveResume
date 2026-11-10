@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-26
-updatedDate: 2026-10-30
+updatedDate: 2026-11-10
 order: 104
 draft: false
 faq:
@@ -89,7 +89,7 @@ Two rules keep it honest. First, list only what you've done, not what your progr
 
 **Length follows your history, not a page rule.** One page is right for a new tech or for a couple of years in one department. Two pages is normal once you have more than one substantive role to describe, a hospital department and a surgery center, say, each with its own volume and systems. Order matters more than length: CRCST or CSPDT near the top in its own labeled section, because screening software keys on it, then experience with a shift line atop each role.
 
-There is one hard exception. Since the Office of Personnel Management (OPM) change that took effect on September 27, 2025, USAJOBS accepts resumes of two pages or fewer. The Department of Veterans Affairs posts sterile processing jobs as "Medical Supply Technician (Sterile Processing)" on USAJOBS, so if that is where you are headed, two pages is the limit.
+Federal jobs have their own rule. Since the Office of Personnel Management (OPM) change that took effect on September 27, 2025, most federal jobs accept only resumes of two pages or fewer. The Department of Veterans Affairs posts sterile processing jobs as "Medical Supply Technician (Sterile Processing)" on USAJOBS and says the two-page limit does not apply to them, so follow the resume instructions in the job announcement.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables; applicant systems parse plain layouts most reliably.
 

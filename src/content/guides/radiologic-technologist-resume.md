@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-04
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 72
 draft: false
 faq:
@@ -89,7 +89,7 @@ A trauma-center tech and an outpatient-clinic tech are doing recognizably differ
 
 **Length follows your history, not a page rule.** If you've worked two hospitals and an outpatient center, or you added CT mid-career, that history is your case — don't cram it into one page to satisfy a convention. The honest rule: **two pages is normal and expected once you have more than one substantive role to describe.** Every line still has to earn its space — cut the duties every tech shares, keep credential, modality, volume, and systems.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement rather than a style preference — and VA and military-hospital imaging jobs post there.
+One genuine exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. The Department of Veterans Affairs (VA) says that limit does not apply to its radiologic technologist jobs, so follow the resume instructions in a VA job announcement. For a military hospital job, plan on two pages.
 
 Otherwise: reverse chronological, single column, a clearly labeled credentials block near the top, and a modality-and-setting line under every employer. Skip the graphics.
 

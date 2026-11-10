@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 24
 faq:
   - q: "I only rotate into charge — can I still put it on my resume?"
@@ -64,7 +64,7 @@ That last bracket matters. Charge-with-assignment and charge-out-of-count are di
 
 ## Does a charge nurse resume need a separate leadership section?
 
-Usually not. The cleaner pattern is to keep one experience section and put a scope line plus charge bullets at the top of each role where you held or rotated charge, so the leadership sits in context next to the clinical work it grew out of. Add a separate "Leadership" heading only if you're aiming at supervisor or manager postings and have enough material — committee work, project leads, precepting programs — to fill it honestly. Everything else follows standard nursing format: certifications in their own labeled block near the top, single column, plain headings, one to two pages (federal applications through USAJOBS — VA roles, for example — cap at two pages as of the September 2025 OPM change).
+Usually not. The cleaner pattern is to keep one experience section and put a scope line plus charge bullets at the top of each role where you held or rotated charge, so the leadership sits in context next to the clinical work it grew out of. Add a separate "Leadership" heading only if you're aiming at supervisor or manager postings and have enough material — committee work, project leads, precepting programs — to fill it honestly. Everything else follows standard nursing format: certifications in their own labeled block near the top, single column, plain headings, one to two pages. Most federal applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, but the Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement.
 
 ## Aiming at supervisor or manager? Shift the emphasis, not the facts
 

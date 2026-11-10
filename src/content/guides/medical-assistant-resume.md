@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 94
 draft: false
 faq:
@@ -86,7 +86,7 @@ Two rules keep it honest. First, list only what you've done in a clinic, not wha
 
 **Length follows your history, not a page rule.** One page is right for a new graduate or for a few years in one practice. Two pages is normal and expected once you have more than one substantive role to describe — a primary care clinic and a specialty practice, say, each with its own procedures and systems. Order matters more than length: credential and BLS near the top in their own labeled section (screening software keys on them), then experience with a clinic line atop each role. If you're trimming to fit, cut older non-clinical detail before you cut a procedure.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) and military treatment facility postings run through USAJOBS, so if that's where you're headed, that's a hard requirement.
+One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) and military treatment facility postings run through USAJOBS, so if that's where you're headed, plan on two pages unless the job announcement says otherwise.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — applicant systems parse plain layouts most reliably. Skip the graphics.
 

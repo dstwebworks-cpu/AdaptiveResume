@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 96
 draft: false
 faq:
@@ -87,7 +87,7 @@ Keep it honest two ways: performed, not observed or covered in class; and state-
 
 **Length follows your history, not a page rule.** One page is right for a new graduate or for a few years in one practice. Two pages is normal and expected once you have more than one substantive role to describe — a general practice and an oral surgery office, say, each with its own procedures and systems. Order matters more than length: certification, radiography credential, and expanded-functions title near the top in their own labeled section (screening software keys on them), then experience with a chairside line atop each role.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) and military dental clinic postings run through USAJOBS, so if that's where you're headed, that's a hard requirement.
+One genuine exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) says that limit does not apply to its dental assistant jobs, so follow the resume instructions in a VA job announcement. If you apply to another federal dental clinic, plan on two pages.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — applicant systems parse plain layouts most reliably. Skip the graphics.
 

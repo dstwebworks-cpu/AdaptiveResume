@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 23
 faq:
   - q: "Should I say whether I circulate or scrub?"
@@ -65,7 +65,7 @@ Every one of these is a frame. Keep the ones that describe your actual practice,
 
 ## How should an operating room nurse resume be formatted?
 
-Two pages for experienced perioperative nurses, one for nurses entering the OR (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Certification block near the top in its own labeled section, then experience with a role line (circulate/scrub split plus service lines) atop each job. Single column, standard headings, no tables or graphics, because hospital screening systems parse plain layouts most reliably. If a Periop 101-style program is how you entered the specialty, name it in education or training; it's a real credential managers recognize.
+Two pages for experienced perioperative nurses, one for nurses entering the OR. Most federal applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, but the Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement. Certification block near the top in its own labeled section, then experience with a role line (circulate/scrub split plus service lines) atop each job. Single column, standard headings, no tables or graphics, because hospital screening systems parse plain layouts most reliably. If a Periop 101-style program is how you entered the specialty, name it in education or training; it's a real credential managers recognize.
 
 ## New to the OR
 

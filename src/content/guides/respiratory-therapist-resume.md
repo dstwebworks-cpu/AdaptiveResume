@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-10-27
+updatedDate: 2026-11-10
 order: 36
 draft: false
 faq:
@@ -89,7 +89,7 @@ Life-support cards belong here as well: **ACLS**, **PALS**, and **NRP** (the Neo
 
 The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** What matters is that every line earns its space. A tight two pages beats a padded one page. Cut duties everyone in the role shares; keep acuity, setting, modalities, credentials, and anything that shows judgment.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference — it matters for VA hospital roles especially.
+One genuine exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. The Department of Veterans Affairs (VA) says that limit does not apply to its respiratory therapist jobs, so follow the resume instructions in a VA job announcement.
 
 Otherwise, use reverse-chronological order and a single column, put a setting-and-acuity line under every employer, and add a clearly labeled credentials-and-licensure block up top. Clinical hiring reads credentials as a proxy for how quickly you'll be cleared to work. Skip the graphics.
 

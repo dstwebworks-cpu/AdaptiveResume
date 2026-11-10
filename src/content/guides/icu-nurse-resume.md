@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-11
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 22
 draft: false
 faq:
@@ -65,7 +65,7 @@ Each bullet is a frame, not a claim. If a line isn't true of your practice, it d
 
 ## How long should an ICU nurse resume be, one page or two?
 
-Two pages for experienced critical care nurses, one for new graduates or nurses new to the specialty (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a unit line atop each role. Single column, standard headings, real text rather than graphics or tables — hospital systems parse plain layouts most reliably. If you're trimming to fit, cut older non-ICU detail before you cut a single critical care specific.
+Two pages for experienced critical care nurses, one for new graduates or nurses new to the specialty. Most federal applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, but the Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement. Order matters more than length: license and certification block near the top in its own labeled section (screening software keys on it), then experience with a unit line atop each role. Single column, standard headings, real text rather than graphics or tables — hospital systems parse plain layouts most reliably. If you're trimming to fit, cut older non-ICU detail before you cut a single critical care specific.
 
 ## Moving into the ICU from another unit
 

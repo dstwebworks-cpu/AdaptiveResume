@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-07-30
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 18
 draft: false
 faq:
@@ -57,7 +57,7 @@ Contract-by-contract listing: facility, trauma level, weeks, EMR. The travel-spe
 
 ## Format notes
 
-Two pages for experienced RNs, one for new grads (federal applications through USAJOBS — VA hospitals, for example — cap at two pages as of the September 2025 OPM change). Certifications in their own labeled block — hospital screening software (the ATS) keys on it — and the department line atop each role. Single column, no graphics.
+Two pages for experienced RNs, one for new grads. Most federal applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, but the Department of Veterans Affairs says that limit does not apply to its nursing jobs, so follow the resume instructions in the job announcement. Certifications in their own labeled block — hospital screening software (the ATS) keys on it — and the department line atop each role. Single column, no graphics.
 
 
 ## A bullet bank you can adapt - keep only what's true

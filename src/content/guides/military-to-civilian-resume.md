@@ -13,7 +13,7 @@ cta:
   label: "Start the AR Pass — $99"
   href: "/#pricing"
 pubDate: 2026-07-26
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 1
 draft: false
 faq:
@@ -55,8 +55,8 @@ Map your role to the closest **civilian function**, without claiming a job you d
 
 Turn military phrasing into plain, results-oriented civilian language:
 
-- "Led a 40-soldier platoon" → "Managed a 40-person team across daily operations"
-- "Accountable for $5M in property" → "Asset &amp; inventory management for $5M of equipment, zero losses"
+- "Led a 40-soldier platoon" → "Managed a 40-person team"
+- "Accountable for $5M in property" → "Accountable for $5M of equipment"
 - "Conducted PMCS" → "Performed scheduled preventive maintenance and inspections"
 
 Notice none of this *adds* anything. It re-states the same true work in language a civilian manager understands.
@@ -92,7 +92,7 @@ If you went through the Transition Assistance Program, you already have a resume
 
 ## If you're also applying federal
 
-Many transitioning service members run a two-track search: private-sector and federal. Know that they want **different documents** — the private resume is the short, impact-first translation this guide builds; a federal (USAJOBS) resume follows its own conventions and, as of the September 2025 OPM change, is capped at two pages. Don't send either one to the other audience. If the federal-to-private direction is your move, that [conversion guide is here](/guides/government-to-private-resume/).
+Many transitioning service members run a two-track search: private-sector and federal. Know that they want **different documents** — the private resume is the short, impact-first translation this guide builds; a federal (USAJOBS) resume follows its own conventions and, as of the September 2025 OPM (Office of Personnel Management) change, is capped at two pages for most federal jobs. Don't send either one to the other audience. If the federal-to-private direction is your move, that [conversion guide is here](/guides/government-to-private-resume/).
 
 ## Use the worksheet
 

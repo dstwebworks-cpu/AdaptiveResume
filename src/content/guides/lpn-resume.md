@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-09-29
+updatedDate: 2026-11-10
 order: 97
 draft: false
 faq:
@@ -101,7 +101,7 @@ What you did, not what your program covered; and nothing outside your state's ac
 
 **Length follows your history, not a page rule.** One page is right for a new LPN or for a few years in one facility. Two pages is normal and expected once you have more than one substantive role to describe — a skilled facility and a clinic, say, each with its own loads and systems. Order matters more than length: license, compact status, and certifications near the top in their own labeled section (screening software keys on them), then experience with a hall line atop each role. If you're trimming to fit, cut older non-nursing detail before you cut a number.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) LPN postings run through USAJOBS, so if that's where you're headed, that's a hard requirement.
+One exception worth knowing: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) says that limit does not apply to its LPN jobs, so if that's where you're headed, follow the resume instructions in the job announcement.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — applicant systems parse plain layouts most reliably. Skip the graphics. For more on how the nursing pages on this site fit together, see our [nurses](/nurses/) page.
 

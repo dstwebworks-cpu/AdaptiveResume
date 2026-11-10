@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-08-30
-updatedDate: 2026-10-27
+updatedDate: 2026-11-10
 order: 39
 draft: false
 faq:
@@ -79,7 +79,7 @@ Name your **laboratory information system** clearly — **Sunquest, Epic Beaker,
 
 **Length follows your history, not a page rule.** If you've held two or three bench roles, cross multiple departments, or moved from technician to technologist, that's the material that puts you ahead — don't crush it onto one page to satisfy a convention. The honest rule: **two pages is common and widely accepted once you have more than one substantive role to describe.** A tight two pages beats a padded one page. Cut duties every tech shares; keep departments, instruments, volume, certifications, and anything that shows judgment.
 
-One genuine exception: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM change. That's a hard requirement, not a style preference — relevant if you're applying to a VA lab or another federal facility.
+One genuine exception: **most federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. The Department of Veterans Affairs (VA) says that limit does not apply to its clinical laboratory scientist jobs, the VA's current name for medical technologists, so follow the resume instructions in a VA job announcement. At another federal facility, plan on two pages.
 
 Otherwise, use reverse-chronological order and a single column, put a department-and-instrument line under each employer, and add a clearly labeled certification and LIS block near the top. Skip the graphics — lab hiring reads plain, scannable structure as professionalism.
 

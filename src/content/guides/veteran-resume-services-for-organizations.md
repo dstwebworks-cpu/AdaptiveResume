@@ -13,7 +13,7 @@ cta:
   label: "Request a per-person quote"
   href: "/business/#quote"
 pubDate: 2026-09-20
-updatedDate: 2026-10-27
+updatedDate: 2026-11-10
 order: 101
 draft: false
 faq:
@@ -22,7 +22,7 @@ faq:
   - q: "How is a security clearance written?"
     a: "As the record shows it: level, status, and date, and nothing from the classified side. We never write a lapsed clearance as active and never write the word clearable, because only the government decides that. If the veteran is unsure of their status, the line waits until they confirm it."
   - q: "Can the resumes be used for federal applications?"
-    a: "The resume we build is aimed at civilian employers and the screening software they run. A federal resume is a different document: applications through USAJOBS cap at two pages as of the September 2025 OPM change and ask for details a private-sector resume leaves off. Programs running both tracks keep the federal version in the USAJOBS format and use ours for industry."
+    a: "The resume we build is aimed at civilian employers and the screening software they run. A federal resume is a different document: most applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change and ask for details a private-sector resume leaves off. Programs running both tracks keep the federal version in the USAJOBS format and use ours for industry."
   - q: "Is this the same as a military-to-civilian resume writer or a resume writing service for veterans?"
     a: "It is the same work, bought by a program per person instead of by one veteran at a time. A military-to-civilian resume writer produces a document for the veteran; we build the resume from the veteran's own record, with every item checked with the veteran and approved by your reviewer, and the program gets a per-person record of what was proposed and confirmed. Individual veterans can use the same method directly through our veterans page."
   - q: "What does it cost, and is there a free pilot?"
@@ -108,6 +108,6 @@ Pilots are paid at standard rates and fully credited against your first agreemen
 
 ## Format notes
 
-Two pages is normal once a veteran has more than one substantive assignment. The most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. Reverse chronological order, a single column, no graphics. For the federal track, applications through USAJOBS cap at two pages as of the September 2025 OPM change, and veterans' preference belongs on the federal application, never on the private-sector resume. The transition-program findings above come from the U.S. Government Accountability Office's report [GAO-23-106793](https://www.gao.gov/products/gao-23-106793). A federal resume is a different document, and this service does not replace a federal resume writer.
+Two pages is normal once a veteran has more than one substantive assignment. The most recent assignments in detail, the earlier ones as one line each with rank, role, and dates. Reverse chronological order, a single column, no graphics. For the federal track, most applications through USAJOBS cap at two pages as of the September 2025 OPM (Office of Personnel Management) change, and veterans' preference belongs on the federal application, never on the private-sector resume. The transition-program findings above come from the U.S. Government Accountability Office's report [GAO-23-106793](https://www.gao.gov/products/gao-23-106793). A federal resume is a different document, and this service does not replace a federal resume writer.
 
 The **Military-to-Civilian Skills Translator** below is the worksheet we use to walk an MOS, rate, or AFSC into civilian wording, and your counselors can use it today. When you are ready to see it on your own caseload, request a per-person quote with your head count. We never add a credential nobody confirmed, and we never promise anyone a job.

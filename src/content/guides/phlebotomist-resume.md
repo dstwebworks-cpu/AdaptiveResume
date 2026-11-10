@@ -13,7 +13,7 @@ cta:
   label: "Get your resume build — $29"
   href: "/#pricing"
 pubDate: 2026-09-18
-updatedDate: 2026-10-30
+updatedDate: 2026-11-10
 order: 95
 draft: false
 faq:
@@ -84,7 +84,7 @@ Two things keep the list honest: sticks you logged on a real shift rather than t
 
 **Length follows your history, not a page rule.** One page is right for a new phlebotomist or for a few years in one setting. Two pages is normal and expected once you have more than one substantive role to describe — a hospital and a reference lab, say, each with its own volume, patients, and systems. Order matters more than length: certification and any state license near the top in their own labeled section (screening software keys on them), then experience with a draw line atop each role. If you're trimming to fit, cut older unrelated detail before you cut a number.
 
-One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) and military hospital phlebotomy postings run through USAJOBS, so if that's where you're headed, that's a hard requirement.
+One genuine exception worth knowing: **federal applications through USAJOBS cap at two pages** as of the September 2025 OPM (Office of Personnel Management) change. VA (Department of Veterans Affairs) and military hospital phlebotomy postings run through USAJOBS, so if that's where you're headed, plan on two pages unless the job announcement says otherwise.
 
 Otherwise: reverse chronological, single column, standard headings, real text rather than graphics or tables — applicant systems parse plain layouts most reliably. Skip the graphics.
 
