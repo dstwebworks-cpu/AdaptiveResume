@@ -403,6 +403,11 @@ export const PAIRS = {
     before: "Custodian responsible for cleaning classrooms, restrooms, and hallways.",
     after: "Night custodian at a [1,200]-student high school: cleaned about [28,000] square feet a shift, including [18] classrooms and [6] restrooms; stripped and refinished [N] floors each summer with an auto scrubber and burnisher; bloodborne pathogens training every year; [2] years with no missed shifts.",
   },
+  // Block B, 11/10/2026 (pairs match each guide body verbatim)
+  "accountant-resume": {
+    before: "Accountant responsible for month-end close, reconciliations, and financial reporting.",
+    after: "Senior accountant, CPA ([state], active); owned [revenue and fixed assets] in a [6]-day close for a [manufacturer with more than $100M in revenue] on [NetSuite]; applied [Accounting Standards Codification (ASC) 606 revenue recognition rules]; performed [14] key controls under the Sarbanes-Oxley Act (SOX) with [no] audit exceptions in [2] years.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
