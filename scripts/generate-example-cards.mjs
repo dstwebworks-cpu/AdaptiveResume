@@ -408,6 +408,10 @@ export const PAIRS = {
     before: "Accountant responsible for month-end close, reconciliations, and financial reporting.",
     after: "Senior accountant, CPA ([state], active); owned [revenue and fixed assets] in a [6]-day close for a [manufacturer with more than $100M in revenue] on [NetSuite]; applied [Accounting Standards Codification (ASC) 606 revenue recognition rules]; performed [14] key controls under the Sarbanes-Oxley Act (SOX) with [no] audit exceptions in [2] years.",
   },
+  "occupational-therapist-resume": {
+    before: "Occupational therapist responsible for evaluating and treating patients to improve activities of daily living.",
+    after: "Occupational therapist, OTR/L ([state]); [32]-bed inpatient rehab unit; [10] patients per day and [4] evaluations per week across [stroke and brain injury]; wrote plans of care; activities of daily living (ADL) retraining, upper extremity function, and home safety planning; [Epic] documentation.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
