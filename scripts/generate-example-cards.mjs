@@ -412,6 +412,10 @@ export const PAIRS = {
     before: "Occupational therapist responsible for evaluating and treating patients to improve activities of daily living.",
     after: "Occupational therapist, OTR/L ([state]); [32]-bed inpatient rehab unit; [10] patients per day and [4] evaluations per week across [stroke and brain injury]; wrote plans of care; activities of daily living (ADL) retraining, upper extremity function, and home safety planning; [Epic] documentation.",
   },
+  "speech-language-pathologist-resume": {
+    before: "Speech language pathologist responsible for evaluating and treating patients with communication and swallowing disorders.",
+    after: "Speech-language pathologist, CCC-SLP ([state] license, active); [40]-bed acute rehab unit; [9] patients per day across [aphasia, dysarthria, and dysphagia]; completed [modified barium swallow studies]; wrote plans of care; [Epic] documentation.",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
