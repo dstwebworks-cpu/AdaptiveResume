@@ -420,6 +420,10 @@ export const PAIRS = {
     before: "Social worker responsible for providing case management and support services to clients and families.",
     after: "Social worker, [Licensed Clinical Social Worker (LCSW)] ([state], active); [300]-bed hospital, [oncology and medical] units; [25] active patients; psychosocial assessments, discharge planning, and [community and hospice] referrals; [Epic] documentation.",
   },
+  "bartender-resume": {
+    before: "Bartender responsible for making drinks and providing excellent customer service to guests.",
+    after: "Bartender, [120]-seat [full-service restaurant] with a [3]-well bar; [$2,800] average sales on [Friday] shifts; [craft cocktails, draft, and wine]; opened and closed on [Toast]; [state] alcohol server certification current through [month year].",
+  },
 };
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
