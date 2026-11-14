@@ -43,6 +43,11 @@ for (const zoom of [1, 2]) {
       expect(boxes.menu!.t, "menu on the logo's row").toBeLessThan(boxes.brand!.b);
       const top = await page.evaluate(() => (document.querySelector(".site-header .bar") as HTMLElement).getBoundingClientRect().top);
       expect(Math.min(boxes.menu!.t, boxes.brand!.t) - top, "space above the first row").toBeGreaterThanOrEqual(6);
+      // Founder 11/14/2026 ("we can tighten it slightly to 113 px"): the phone bar is at most 112px (113px with the header's border).
+      if (zoom === 1 && width >= 320 && width <= 430) {
+        const h = await page.evaluate(() => (document.querySelector(".site-header .bar") as HTMLElement).getBoundingClientRect().height);
+        expect(h, "phone header height").toBeLessThanOrEqual(112.5);
+      }
       expect(overlap(boxes.brand, boxes.btn), "button overlaps logo").toBe(false);
       expect(overlap(boxes.btn, boxes.menu), "button overlaps menu").toBe(false);
       expect(overlap(boxes.brand, boxes.menu), "logo overlaps menu").toBe(false);
@@ -61,9 +66,9 @@ for (const zoom of [1, 2]) {
 }
 
 // Re-check of 11/14/2026 (FIX E): the phone changes leave the desktop header on one row at its live height.
-// Limits sit just above the live heights measured by re-check 3 (72.19px at 900 to 1060, 65px above that),
-// so a header that grows even a little past live fails.
-for (const [width, maxH] of [[900, 72.5], [1024, 72.5], [1280, 65.5]] as const) {
+// Limits sit just above the live height of the header bar (.bar, without the header's 1px bottom border), measured by
+// re-check 4 (11/14/2026): 71.19px from 900 to 1060 wide and 64px above that. A bar that grows even a little past live fails.
+for (const [width, maxH] of [[900, 71.5], [1024, 71.5], [1280, 64.5]] as const) {
   test(`desktop header stays on one row at ${width}px`, async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width, height: 800 } });
     const page = await ctx.newPage();

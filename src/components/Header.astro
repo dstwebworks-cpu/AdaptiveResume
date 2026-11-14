@@ -95,6 +95,9 @@ const links = [
   @media (min-width: 900px) {
     /* Desktop keeps the live one-row header exactly (re-check of 11/14/2026, FIX E): the wrap, padding and gaps above are for phones. */
     .bar { flex-wrap: nowrap; gap: 14px; padding-block: 0; }
+    /* Re-check 4 of 11/14/2026 (BLOCK 1): with large text, a desktop header 15.75rem to 27.5rem wide (900 to 920 px at 200% text) shows only the
+       "AR" square on live, which keeps "Sign in" and the button on screen. Kept as live; the always-shown name above applies to phones. */
+    @container bar (15.75rem <= width < 27.5rem) { .word { display: none; } }
     .cta-phone { display: none !important; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
