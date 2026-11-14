@@ -36,6 +36,8 @@ for (const zoom of [1, 2]) {
         expect(wide, "no sideways scroll at normal text").toBeLessThanOrEqual(width + 1);
       }
       expect(boxes.brand, "logo shown").not.toBeNull();
+      // Founder 11/14/2026: the brand name is always shown, never only the "AR" square.
+      await expect(page.locator(".site-header .brand .word"), "brand name shown").toBeVisible();
       expect(boxes.menu, "menu button shown").not.toBeNull();
       expect(overlap(boxes.brand, boxes.btn), "button overlaps logo").toBe(false);
       expect(overlap(boxes.btn, boxes.menu), "button overlaps menu").toBe(false);
