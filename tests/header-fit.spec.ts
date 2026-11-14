@@ -59,3 +59,19 @@ for (const zoom of [1, 2]) {
     });
   }
 }
+
+// Re-check of 11/14/2026 (FIX E): the phone changes leave the desktop header on one row at its live height.
+for (const width of [900, 1024, 1280]) {
+  test(`desktop header stays on one row at ${width}px`, async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width, height: 800 } });
+    const page = await ctx.newPage();
+    await page.goto("/guides/cna-resume/");
+    const m = await page.evaluate(() => {
+      const r = (s: string) => { const e = document.querySelector(s) as HTMLElement | null; return e && getComputedStyle(e).display !== "none" ? e.getBoundingClientRect() : null; };
+      return { bar: r(".site-header .bar"), brand: r(".site-header .brand"), cta: r(".site-header a.btn.cta-desktop") };
+    });
+    expect(m.bar!.height, "desktop header height").toBeLessThanOrEqual(73);
+    if (m.cta) expect(m.cta.top, "desktop button on the logo row").toBeLessThan(m.brand!.bottom);
+    await ctx.close();
+  });
+}

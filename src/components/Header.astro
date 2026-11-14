@@ -93,6 +93,8 @@ const links = [
   @container bar (min-width: 27.5rem) { .cta-phone { order: 0; flex-basis: auto; margin: 0 0 0 auto; } .cta-phone + .hamburger { margin-left: 0; } }
 
   @media (min-width: 900px) {
+    /* Desktop keeps the live one-row header exactly (re-check of 11/14/2026, FIX E): the wrap, padding and gaps above are for phones. */
+    .bar { flex-wrap: nowrap; gap: 14px; padding-block: 0; }
     .cta-phone { display: none !important; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
