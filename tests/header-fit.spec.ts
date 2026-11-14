@@ -61,7 +61,9 @@ for (const zoom of [1, 2]) {
 }
 
 // Re-check of 11/14/2026 (FIX E): the phone changes leave the desktop header on one row at its live height.
-for (const width of [900, 1024, 1280]) {
+// Limits sit just above the live heights measured by re-check 3 (72.19px at 900 to 1060, 65px above that),
+// so a header that grows even a little past live fails.
+for (const [width, maxH] of [[900, 72.5], [1024, 72.5], [1280, 65.5]] as const) {
   test(`desktop header stays on one row at ${width}px`, async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width, height: 800 } });
     const page = await ctx.newPage();
@@ -70,7 +72,7 @@ for (const width of [900, 1024, 1280]) {
       const r = (s: string) => { const e = document.querySelector(s) as HTMLElement | null; return e && getComputedStyle(e).display !== "none" ? e.getBoundingClientRect() : null; };
       return { bar: r(".site-header .bar"), brand: r(".site-header .brand"), cta: r(".site-header a.btn.cta-desktop") };
     });
-    expect(m.bar!.height, "desktop header height").toBeLessThanOrEqual(73);
+    expect(m.bar!.height, "desktop header height").toBeLessThanOrEqual(maxH);
     if (m.cta) expect(m.cta.top, "desktop button on the logo row").toBeLessThan(m.brand!.bottom);
     await ctx.close();
   });
