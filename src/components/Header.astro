@@ -59,7 +59,7 @@ const links = [
 
 <style>
   .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
-  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; min-height: 64px; container-type: inline-size; container-name: bar; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; padding-block: 10px; min-height: 64px; container-type: inline-size; container-name: bar; }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
   .brand:hover { text-decoration: none; }
   .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: .78rem; font-weight: 800; }
@@ -89,7 +89,7 @@ const links = [
   .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: .86rem; white-space: nowrap; min-height: 44px; }
   /* The brand name always shows (founder 11/14/2026: "We need our brand to be known"; before this, phones showed only the "AR" square beside the
      button). Where the name, the button and the menu do not fit on one row, the button takes a second row of its own, full width. */
-  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; margin: 0 0 10px; } }
+  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; margin: 0; } }
   @container bar (min-width: 27.5rem) { .cta-phone { order: 0; flex-basis: auto; margin: 0 0 0 auto; } .cta-phone + .hamburger { margin-left: 0; } }
 
   @media (min-width: 900px) {

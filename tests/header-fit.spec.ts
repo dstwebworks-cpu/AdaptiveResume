@@ -39,6 +39,10 @@ for (const zoom of [1, 2]) {
       // Founder 11/14/2026: the brand name is always shown, never only the "AR" square.
       await expect(page.locator(".site-header .brand .word"), "brand name shown").toBeVisible();
       expect(boxes.menu, "menu button shown").not.toBeNull();
+      // Review of 11/14/2026: the logo and the menu share the first row, and neither touches the top edge of the header.
+      expect(boxes.menu!.t, "menu on the logo's row").toBeLessThan(boxes.brand!.b);
+      const top = await page.evaluate(() => (document.querySelector(".site-header .bar") as HTMLElement).getBoundingClientRect().top);
+      expect(Math.min(boxes.menu!.t, boxes.brand!.t) - top, "space above the first row").toBeGreaterThanOrEqual(6);
       expect(overlap(boxes.brand, boxes.btn), "button overlaps logo").toBe(false);
       expect(overlap(boxes.btn, boxes.menu), "button overlaps menu").toBe(false);
       expect(overlap(boxes.brand, boxes.menu), "logo overlaps menu").toBe(false);
