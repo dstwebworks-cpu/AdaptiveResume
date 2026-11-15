@@ -82,3 +82,18 @@ for (const [width, maxH] of [[900, 71.5], [1024, 71.5], [1280, 64.5]] as const) 
     await ctx.close();
   });
 }
+
+// Re-check 4 of 11/14/2026 (BLOCK 1): a desktop window 900 to 920 px wide at 200% text shows only the "AR" square, as on live, so
+// "Sign in" and the button are not pushed further off screen by the brand name. The name always shows on phones (tests above).
+for (const width of [900, 920]) {
+  test(`desktop header at ${width}px, 200% text, keeps the live short logo`, async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width, height: 800 } });
+    const page = await ctx.newPage();
+    await page.goto("/guides/cna-resume/");
+    await page.addStyleTag({ content: "html{font-size:200% !important}" });
+    await page.waitForTimeout(100);
+    await expect(page.locator(".site-header .brand .mark"), "AR square shown").toBeVisible();
+    await expect(page.locator(".site-header .brand .word"), "brand name hidden, as on live").toBeHidden();
+    await ctx.close();
+  });
+}
