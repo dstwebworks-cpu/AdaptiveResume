@@ -94,6 +94,12 @@ for (const width of [900, 920]) {
     await page.waitForTimeout(100);
     await expect(page.locator(".site-header .brand .mark"), "AR square shown").toBeVisible();
     await expect(page.locator(".site-header .brand .word"), "brand name hidden, as on live").toBeHidden();
+    // Re-check 6 (11/15/2026): the name must give up its space too, so the logo takes only the square's width (30px on live).
+    const w = await page.evaluate(() => ({
+      brand: (document.querySelector(".site-header .brand") as HTMLElement).getBoundingClientRect().width,
+      mark: (document.querySelector(".site-header .brand .mark") as HTMLElement).getBoundingClientRect().width,
+    }));
+    expect(w.brand, "logo no wider than the AR square").toBeLessThanOrEqual(w.mark + 0.5);
     await ctx.close();
   });
 }
