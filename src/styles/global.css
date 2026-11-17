@@ -31,6 +31,18 @@
   --shadow: 0 1px 2px rgba(16,32,43,.06), 0 10px 28px rgba(16,32,43,.07);
   --shadow-lg: 0 16px 48px rgba(16,32,43,.14);
 
+  /* Type scale (founder 11/17/2026: "at least 10 fonts sizes and families, on one page. It looks like Ai garbage"; the home
+     page had 22 text sizes). Every font-size on the site is one of these six tokens, and every weight is 400, 700 or 800;
+     scripts/type-scale-check.mjs fails the build on anything else. Hierarchy comes from weight and color, not more sizes. */
+  --fs-small: .875rem;                          /* 14px: eyebrows, captions, fine print, tables, footer, header links */
+  --fs-body: 1.0625rem;                         /* 17px: all running text, card text, buttons, form fields */
+  --fs-lead: clamp(1.0625rem, 1.6vw, 1.25rem);  /* 17 to 20px: the intro paragraph under a heading */
+  --fs-h3: 1.25rem;                             /* 20px: card and step titles */
+  --fs-h2: clamp(1.625rem, 3vw, 2.25rem);       /* 26 to 36px: section titles and prices */
+  --fs-h1: clamp(2.125rem, 4.6vw, 3.375rem);    /* 34 to 54px: the page title */
+  /* The header wordmark is a logo: the body size, but it does not grow past 17px with large text, so the name, the
+     button and the menu keep their rows on a phone (the header tests at 200% text). It never adds a size of its own. */
+  --fs-brand: min(1.0625rem, 17px);
   --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --maxw: 1120px;
 }
@@ -41,7 +53,7 @@ html { -webkit-text-size-adjust: 100%; }
 ::selection { background: rgba(245,158,11,.32); }
 body {
   margin: 0; font-family: var(--font); color: var(--ink); background: var(--bg);
-  font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  font-size: var(--fs-body); line-height: 1.6; -webkit-font-smoothing: antialiased;
 }
 img { max-width: 100%; display: block; }
 a { color: var(--primary); text-decoration: none; }
@@ -49,17 +61,23 @@ a:hover { text-decoration: underline; }
 
 :target { scroll-margin-top: 5rem; } /* anchor links land below the sticky header (re-check 6 R6-H8) */
 h1, h2, h3, h4 { line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 .5em; color: var(--ink); text-wrap: balance; }
-h1 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 800; }
-h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 800; }
-h3 { font-size: 1.2rem; font-weight: 700; }
+h1 { font-size: var(--fs-h1); font-weight: 800; }
+h2 { font-size: var(--fs-h2); font-weight: 800; }
+h3 { font-size: var(--fs-h3); font-weight: 700; }
 p { margin: 0 0 1rem; }
-.lede { font-size: clamp(1.05rem, 1.8vw, 1.35rem); color: var(--ink-soft); }
+/* No one-word last lines where the browser can avoid them (founder bar: no lone last words). */
+p, li { text-wrap: pretty; }
+.lede { font-size: var(--fs-lead); color: var(--ink-soft); }
 /* #5 (founder yes 10/26/2026): on the ad pages the hero paragraph follows the pills, so it needs room above it. */
 .pills + .lede { margin-top: 1.25rem; }
-.eyebrow { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 .6rem; }
+.eyebrow { font-size: var(--fs-small); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 .6rem; }
 .muted { color: var(--muted); }
 /* Names the free step and the paid step right above a free-check button (founder approval 10/31/2026). */
-.step-line { margin: 0.75rem 0 0; color: var(--ink); font-weight: 600; max-width: 62ch; }
+.step-line { margin: 0.75rem 0 0; color: var(--ink); font-weight: 400; max-width: 62ch; }
+/* Buy first (founder 11/17/2026): the free check is a plain text link under the buy button, never a co-equal button. */
+.free-link { margin: 14px 0 18px; color: var(--ink-soft); max-width: 62ch; }
+.btn.buy-now { min-width: 13rem; }
+.free-link a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 
 /* amber keyline under section titles — adds rhythm + brand warmth (pop) */
 /* decorative h2 underline bar REMOVED 07/28 (founder QA screenshots): left-anchored bar floated as a stray dash under centered headings and crowded the step badges. */
@@ -78,7 +96,7 @@ p { margin: 0 0 1rem; }
 /* buttons — high contrast */
 .btn {
   display: inline-flex; align-items: center; gap: 8px; justify-content: center;
-  font-family: inherit; font-weight: 700; font-size: 1rem; cursor: pointer;
+  font-family: inherit; font-weight: 700; font-size: var(--fs-body); cursor: pointer;
   padding: 13px 22px; border-radius: var(--radius-sm); border: 1.5px solid transparent;
   transition: transform .08s ease, background .15s ease, box-shadow .15s ease; text-decoration: none;
   text-align: center; text-wrap: balance;
@@ -93,25 +111,25 @@ p { margin: 0 0 1rem; }
 .btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
 .btn-amber { background: linear-gradient(180deg, #fbb043, var(--accent-strong)); color: #16202b; box-shadow: 0 8px 20px rgba(217,119,6,.28); }
 .btn-amber:hover { background: #e08c00; color: #16202b; transform: translateY(-1px); box-shadow: 0 10px 24px rgba(217,119,6,.36); }
-.btn-lg { padding: 16px 28px; font-size: 1.06rem; }
+.btn-lg { padding: 16px 28px; font-size: var(--fs-body); }
 .btn:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #9db4d6; outline-offset: 2px; }
 
 /* hero price line (founder 10/18/2026): the price and "never auto-renews" sit right under the hero buttons, readable in a 3-second look */
-.cta-row > .price-line { flex-basis: 100%; order: 1; margin: 0; font-size: 1.02rem; font-weight: 700; color: var(--ink); }
+.cta-row > .price-line { flex-basis: 100%; order: 1; margin: 0; font-size: var(--fs-body); font-weight: 700; color: var(--ink); }
 .cta-row > a ~ a { order: 2; }
 
 /* cards / pills */
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); transition: box-shadow .15s ease; }
 /* hero pills are labels, not buttons (09/19/2026 clarity audit): plain check-marked text, no border, no fill */
-.pill { display: inline-flex; align-items: baseline; gap: 6px; font-size: .9rem; font-weight: 600; color: var(--ink-soft); }
+.pill { display: inline-flex; align-items: baseline; gap: 6px; font-size: var(--fs-small); font-weight: 700; color: var(--ink-soft); }
 .pill::before { content: "✓"; color: var(--true); font-weight: 800; }
 /* pricing-card tag: small uppercase text, not a pill (09/19/2026 clarity audit) */
-.tag-premium { display: block; margin: 0 0 8px; color: var(--premium); font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.tag-premium { display: block; margin: 0 0 8px; color: var(--premium); font-size: var(--fs-small); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 /* plain-language note on a term (ATS): hover, tap, or keyboard focus opens it (founder request 09/19/2026) */
 .term { position: relative; text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
 .term-note { display: none; position: absolute; left: 0; top: 1.6em; z-index: 40; width: min(320px, 86vw); background: var(--card); color: var(--ink);
   border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow-lg); padding: 10px 12px;
-  font-size: .9rem; font-weight: 400; line-height: 1.45; text-align: left; text-transform: none; letter-spacing: 0; text-decoration: none; }
+  font-size: var(--fs-small); font-weight: 400; line-height: 1.45; text-align: left; text-transform: none; letter-spacing: 0; text-decoration: none; }
 .term:hover .term-note, .term:focus-within .term-note, .term.open .term-note { display: block; }
 
 /* two-tone before→after coverage bar (numbers anchored to their positions) */
@@ -121,36 +139,36 @@ p { margin: 0 0 1rem; }
 .cov2 .seg.base { left: 0; background: #93a4bc; border-radius: 999px 0 0 999px; }
 .cov2 .seg.gain { background: linear-gradient(90deg,#d97706,#f59e0b); border-radius: 0 999px 999px 0; }
 .cov2 .ticks { position: relative; height: 34px; margin-top: 10px; }
-.cov2 .tick { position: absolute; transform: translateX(-50%); text-align: center; font-size: .78rem; white-space: nowrap; color: #cbd5e1; }
+.cov2 .tick { position: absolute; transform: translateX(-50%); text-align: center; font-size: var(--fs-small); white-space: nowrap; color: #cbd5e1; }
 .cov2 .tick::before { content: ""; position: absolute; top: -12px; left: 50%; width: 2px; height: 8px; background: rgba(203,213,225,.7); transform: translateX(-50%); }
-.cov2 .tick b { display: block; font-size: 1.05rem; color: #f1f5f9; font-weight: 800; }
+.cov2 .tick b { display: block; font-size: var(--fs-body); color: #f1f5f9; font-weight: 800; }
 
 /* image placeholder fallback (now mostly replaced by real SVG art) */
 .imgph { display: flex; align-items: center; justify-content: center; text-align: center;
   background: linear-gradient(135deg, var(--bg-2), #dde6f0); border: 1px solid var(--line);
-  border-radius: var(--radius); color: var(--muted); font-size: .85rem; padding: 22px; min-height: 200px; }
+  border-radius: var(--radius); color: var(--muted); font-size: var(--fs-small); padding: 22px; min-height: 200px; }
 
 /* comparison table (shared; scrolls horizontally on small screens) */
 .table-wrap { overflow-x: auto; margin-top: 18px; -webkit-overflow-scrolling: touch; border-radius: var(--radius); }
 .compare { width: 100%; min-width: 720px; border-collapse: collapse; background: var(--card); }
-.compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: .95rem; vertical-align: middle; }
+.compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: var(--fs-small); vertical-align: middle; }
 .compare thead th { background: var(--surface); font-weight: 700; color: var(--ink); }
-.compare tbody th { text-align: left; font-weight: 600; color: var(--ink-soft); }
+.compare tbody th { text-align: left; font-weight: 700; color: var(--ink-soft); }
 .compare .us { background: var(--accent-bg); }
 .compare thead th.us { color: var(--accent); }
-.compare .c { color: var(--true); font-weight: 800; font-size: 1.05rem; }
-.compare .x { color: #b42318; font-weight: 800; font-size: 1.05rem; }
+.compare .c { color: var(--true); font-weight: 800; font-size: var(--fs-body); }
+.compare .x { color: #b42318; font-weight: 800; font-size: var(--fs-body); }
 .compare .p { color: var(--muted); font-weight: 800; }
-.compare .sub { font-size: .76rem; color: var(--muted); font-weight: 400; }
-.small { font-size: .85rem; }
+.compare .sub { font-size: var(--fs-small); color: var(--muted); font-weight: 400; }
+.small { font-size: var(--fs-small); }
 
 /* mobile: tighter compare cells so our column is on screen immediately; hint that the rest slides */
 .scroll-hint { display: none; }
 @media (max-width: 719px) {
   .compare { min-width: 560px; }
-  .compare th, .compare td { padding: 10px 10px; font-size: .88rem; }
-  .compare thead th { font-size: .84rem; }
-  .scroll-hint { display: block; margin: 8px 2px 0; font-size: .85rem; color: var(--muted); }
+  .compare th, .compare td { padding: 10px 10px; font-size: var(--fs-small); }
+  .compare thead th { font-size: var(--fs-small); }
+  .scroll-hint { display: block; margin: 8px 2px 0; font-size: var(--fs-small); color: var(--muted); }
 }
 
 .skip { position: absolute; left: -9999px; top: 0; background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 0 0 8px 0; z-index: 100; }

@@ -27,9 +27,9 @@ const links = [
     </nav>
 
     {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary cta-desktop" href={LAUNCHED ? `${appUrl}/?start=check` : '/#get-started'}>{LAUNCHED ? 'Check my resume free' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-primary cta-desktop" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
 
-    {LAUNCHED && <a class="btn btn-primary cta-phone" href={`${appUrl}/?start=check`}>Check my resume free</a>}
+    {LAUNCHED && <a class="btn btn-primary cta-phone" href={`${appUrl}/buy`}>Buy now</a>}
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -39,7 +39,7 @@ const links = [
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
     {links.map((l) => <a href={l.href}>{l.label}</a>)}
     {LAUNCHED && <a href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary" href={LAUNCHED ? `${appUrl}/?start=check` : '/#get-started'}>{LAUNCHED ? 'Check my resume free' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-primary" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
   </nav>
 </header>
 
@@ -60,15 +60,16 @@ const links = [
 <style>
   .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
   .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-block: 8px; min-height: 64px; container-type: inline-size; container-name: bar; }
-  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: var(--fs-brand); color: var(--ink); letter-spacing: -0.02em; }
   .brand:hover { text-decoration: none; }
-  .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: .78rem; font-weight: 800; }
+  .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-small); font-weight: 800; }
 
   .nav.desktop { display: none; gap: 22px; margin-left: auto; }
-  .nav.desktop a { color: var(--ink-soft); font-weight: 600; font-size: .96rem; }
+  .nav.desktop a { color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); }
   .nav.desktop a:hover { color: var(--ink); text-decoration: none; }
-  .cta-desktop { display: none; padding: 9px 16px; }
-  a.signin { font-weight: 700; color: var(--ink); font-size: .96rem; padding: 9px 6px; }
+  /* 7px top and bottom (was 9px): buttons are now the 17px body size, and the desktop header keeps its live height. */
+  .cta-desktop { display: none; padding: 7px 16px; }
+  a.signin { font-weight: 700; color: var(--ink); font-size: var(--fs-small); padding: 9px 6px; }
   a.signin:hover { color: var(--accent); text-decoration: none; }
 
   /* hamburger (mobile) */
@@ -80,13 +81,13 @@ const links = [
 
   .mobile-menu { display: none; flex-direction: column; gap: 4px; padding: 10px 22px 18px; border-top: 1px solid var(--line); background: #fff; }
   .menu-open .mobile-menu { display: flex; }
-  .mobile-menu a:not(.btn) { padding: 13px 8px; color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--surface); }
+  .mobile-menu a:not(.btn) { padding: 13px 8px; color: var(--ink); font-weight: 700; border-bottom: 1px solid var(--surface); }
   .mobile-menu a:not(.btn):hover { text-decoration: none; }
   .mobile-menu .btn { margin-top: 10px; }
 
   /* Phone header button: shown only where it fits, decided by the header's own width in root text units (rem, the same unit the button uses), so larger text
      settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026). */
-  .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: .86rem; white-space: nowrap; min-height: 44px; }
+  .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: var(--fs-small); white-space: nowrap; min-height: 44px; }
   /* The brand name always shows (founder 11/14/2026: "We need our brand to be known"; before this, phones showed only the "AR" square beside the
      button). Where the name, the button and the menu do not fit on one row, the button takes a second row of its own, full width. */
   @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; margin: 0; } }

@@ -210,11 +210,11 @@ const waitlistAction = appUrl + '/waitlist';
   <style>
     .container.narrow { max-width: 70ch; }
     .demobar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 26px; }
-    .demobar :global(button) { font: inherit; font-size: .92rem; font-weight: 600; padding: 8px 14px; border-radius: 999px;
+    .demobar :global(button) { font: inherit; font-size: var(--fs-small); font-weight: 700; padding: 8px 14px; border-radius: 999px;
       border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
     .demobar :global(button:hover) { border-color: var(--navy, #1d3a66); }
     .demobar :global(button.active) { background: var(--navy, #1d3a66); border-color: var(--navy, #1d3a66); color: #fff; }
-    .occ { font-size: 1.05rem; font-weight: 600; color: var(--ink); background: var(--card); border: 1px solid var(--line);
+    .occ { font-size: var(--fs-body); font-weight: 700; color: var(--ink); background: var(--card); border: 1px solid var(--line);
       border-left: 4px solid var(--accent, #d97706); border-radius: 10px; padding: 14px 16px; margin: 0 0 20px; }
     #findings :global(.finding) { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 14px; background: var(--card); transition: border-color .12s; }
     #findings :global(.finding.added) { border-color: #7fb08a; background: #f3faf4; }
@@ -222,28 +222,28 @@ const waitlistAction = appUrl + '/waitlist';
     #findings :global(.finding .says) { color: var(--muted); margin: 0 0 6px; }
     #findings :global(.finding .adds) { color: var(--ink); margin: 0 0 6px; }
     #findings :global(.finding .lbl) { font-weight: 700; }
-    #findings :global(.finding .why) { font-size: .9rem; color: var(--muted); margin: 6px 0 12px; }
+    #findings :global(.finding .why) { font-size: var(--fs-small); color: var(--muted); margin: 6px 0 12px; }
     #findings :global(.choices) { display: flex; gap: 10px; }
-    #findings :global(.choices button) { flex: 1 1 0; min-height: 48px; font: inherit; font-weight: 700; font-size: .95rem; padding: 12px 16px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--line); background: #fff; color: var(--ink); }
+    #findings :global(.choices button) { flex: 1 1 0; min-height: 48px; font: inherit; font-weight: 700; font-size: var(--fs-body); padding: 12px 16px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--line); background: #fff; color: var(--ink); }
     #findings :global(.choices .pick-add.on) { background: #1c7a43; border-color: #1c7a43; color: #fff; }
     #findings :global(.choices .pick-skip.on) { background: var(--muted); border-color: var(--muted); color: #fff; }
     .nav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
-    .count { font-size: .9rem; }
+    .count { font-size: var(--fs-small); }
     .resume { border: 1px solid var(--line); border-radius: 12px; padding: 22px 24px; background: #fff; margin: 12px 0 18px; }
-    .resume :global(.rtitle) { font-size: 1.2rem; font-weight: 800; color: var(--ink); }
-    .resume :global(.rmeta) { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+    .resume :global(.rtitle) { font-size: var(--fs-h3); font-weight: 800; color: var(--ink); }
+    .resume :global(.rmeta) { color: var(--muted); font-size: var(--fs-small); margin-bottom: 10px; }
     .resume :global(.rsum) { color: var(--ink-soft, #3f4a59); margin: 0 0 14px; }
-    .resume :global(h3) { font-size: 1rem; color: var(--navy, #1d3a66); margin: 16px 0 6px; }
+    .resume :global(h3) { font-size: var(--fs-body); color: var(--navy, #1d3a66); margin: 16px 0 6px; }
     .resume :global(ul) { margin: 0; padding-left: 1.1em; }
     .resume :global(li) { margin-bottom: .4em; }
-    .resume :global(li.new) { color: #1c7a43; font-weight: 600; }
-    .ok { color: #1c7a43; font-weight: 600; }
+    .resume :global(li.new) { color: #1c7a43; font-weight: 700; }
+    .ok { color: #1c7a43; font-weight: 700; }
     .cta-card { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; background: var(--card); margin-top: 18px; }
-    .cta-card .lead { font-weight: 700; font-size: 1.1rem; color: var(--ink); margin: 0 0 8px; }
+    .cta-card .lead { font-weight: 700; font-size: var(--fs-h3); color: var(--ink); margin: 0 0 8px; }
     .capture-form { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 8px; }
-    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: 1rem; border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
-    .start-alt { font-size: .9rem; margin: 0 0 12px; }
-    .cap { font-size: .82rem; color: var(--muted); margin-top: 26px; }
+    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: var(--fs-body); border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
+    .start-alt { font-size: var(--fs-small); margin: 0 0 12px; }
+    .cap { font-size: var(--fs-small); color: var(--muted); margin-top: 26px; }
     .hide { display: none; }
   </style>
 </Base>

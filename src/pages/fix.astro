@@ -195,21 +195,21 @@ const storyAction = appUrl + '/waitlist/story';
       var(--bg); }
     .hero-grid { display: grid; gap: 36px; align-items: center; }
     @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; } }
-    .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
+    .tagline { font-size: var(--fs-lead); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
     .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
 
     .familiar { display: grid; gap: 14px; }
-    .familiar-label { margin: 0 0 -2px; font-weight: 700; color: var(--muted); font-size: .95rem; }
+    .familiar-label { margin: 0 0 -2px; font-weight: 700; color: var(--muted); font-size: var(--fs-small); }
     .fcard { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent-strong);
       border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
     .fcard b { display: block; margin-bottom: 4px; }
-    .fcard p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .fcard p { margin: 0; color: var(--muted); font-size: var(--fs-body); }
 
     .container.narrow { max-width: 760px; }
     .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: 1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
-    .capture-note { margin-top: 12px; font-size: .95rem; }
+    .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: var(--fs-body); padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    .capture-note { margin-top: 12px; font-size: var(--fs-small); }
     .capture-done { color: var(--true); font-weight: 700; }
     .hide { display: none; }
 
@@ -218,13 +218,13 @@ const storyAction = appUrl + '/waitlist/story';
     .story-form { display: grid; gap: 14px; margin-top: 4px; }
     .story-form label { display: grid; gap: 6px; font-weight: 700; color: var(--ink); }
     .story-form label .muted { font-weight: 400; }
-    .story-form input, .story-form textarea { font-family: inherit; font-size: 1rem; padding: 11px 13px;
+    .story-form input, .story-form textarea { font-family: inherit; font-size: var(--fs-body); padding: 11px 13px;
       border: 1px solid var(--line); border-radius: var(--radius-sm); font-weight: 400; }
     .story-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
     .story-done { color: var(--true); margin-top: 20px; }
 
     .priceband { text-align: center; max-width: 760px; }
     .priceband .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
-    .small { font-size: .85rem; margin-top: 18px; }
+    .small { font-size: var(--fs-small); margin-top: 18px; }
   </style>
 </Base>

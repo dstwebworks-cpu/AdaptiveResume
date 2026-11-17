@@ -25,18 +25,18 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           your work involved but you never thought to list. You confirm each one, in your words.
           Built to read cleanly for the screening bots <em>and</em> the humans.
         </p>
-        {LAUNCHED && <p class="step-line">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal.</p>}
+        {LAUNCHED && <p class="step-line">Buy now and choose your build: the resume build is <b>$29</b>, or the AR Pass is <b>$99</b> for up to 10 targeted builds in 90 days. You pay once, with no subscription and no auto-renewal.</p>}
         <div class="cta-row">
           {LAUNCHED
             ? <>
-                <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
-                <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
+                <a class="btn btn-amber btn-lg buy-now" href={`${appUrl}/buy`}>Buy now</a>
               </>
             : <>
                 <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
                 <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
               </>}
         </div>
+        {LAUNCHED && <p class="free-link">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>, or <a href="/demo/">see it work on a sample resume</a>, with no sign-up.</p>}
         <ul class="pills">
           <li class="pill">We make nothing up.</li>
           <li class="pill">Your resume reads cleanly for screening software.</li>
@@ -75,14 +75,14 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       <p class="eyebrow">Get started</p>
       <h2>Let's see what you've been leaving off.</h2>
       {LAUNCHED
-        ? <p class="lede">Start with a free check: we'll show you how screening software reads your resume. When you want us to find what it leaves out, the full build is $29, with no subscription and no auto-renewal. We'll dig in together, finding real things you've earned but never wrote down. Nothing goes on your resume that you didn't give us or confirm.</p>
+        ? <p class="lede">Buy now and choose your build: the resume build is <b>$29</b>, or the AR Pass is <b>$99</b> for up to 10 targeted builds in 90 days. You pay once, with no subscription and no auto-renewal. Then you upload your resume, and we'll dig in together, finding real things you've earned but never wrote down. Nothing goes on your resume that you didn't give us or confirm.</p>
         : <p class="lede">We launch in October 2026. Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>}
 
       {LAUNCHED ? (
         <>
           <div class="start-cta">
-            <a class="btn btn-amber btn-lg" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>
-            <p class="start-alt muted">Already have an account? <a href={appUrl + '/login'}>Sign in now</a></p>
+            <a class="btn btn-amber btn-lg buy-now" href={`${appUrl}/buy`}>Buy now</a>
+            <p class="start-alt muted">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>. Already have an account? <a href={appUrl + '/login'}>Sign in now</a>.</p>
           </div>
         </>
       ) : (
@@ -148,7 +148,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
           <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
         </ul>
         <div class="cta-row">
-          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/?start=check`}>Check my resume free, no sign-up</a>}
+          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/buy`}>Buy now</a>}
           <a class="btn btn-primary" href="#pricing">See pricing</a>
         </div>
       </div>
@@ -298,7 +298,7 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>Your finished resume shows a hiring manager what you really bring to the job, and hiring software reads it cleanly.</li>
             <li>We run the format checks screening software cares about, and we show you each one.</li>
           </ul>
-          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/?start=check' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/buy?pick=base' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
         </div>
 
         <div class="card price featured">
@@ -312,8 +312,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
             <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
           </ul>
-          <p class="muted" style="font-size:.92em">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/?start=check&mode=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
+          <p class="muted" style="font-size: var(--fs-body)">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
+          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/buy?pick=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
       <p class="muted finep">{LAUNCHED ? 'A single build and the AR Pass can each be used for 90 days after you buy them, and neither renews on its own. Buying the AR Pass again adds its builds and starts a new 90 days. Bought a single build? You can upgrade to the AR Pass for $55 within 30 days of buying it.' : 'If you join our list, your first purchase is 25% off within 30 days of joining.'}</p>
@@ -353,15 +353,15 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       var(--bg); }
     .hero-grid { display: grid; gap: 36px; align-items: center; }
     @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; padding-top: 18px; } }
-    .tagline { font-size: clamp(1.1rem, 2vw, 1.4rem); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
+    .tagline { font-size: var(--fs-lead); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
     .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
 
     .demo-card { background: linear-gradient(160deg, #16244a, #0b1226); color: #e6ecfb; border: 1px solid #2a3a6b; border-radius: var(--radius); padding: 18px 18px 14px; box-shadow: 0 18px 52px rgba(16,32,64,.28); }
-    .demo-head { font-size: .82rem; letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .demo-head { font-size: var(--fs-small); letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
     .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
-    .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: .92rem; }
+    .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: var(--fs-small); }
     .demo-card li.ask { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; }
     /* one text size in-card (locked rule) — hierarchy by color/weight only */
     .demo-card .from { display: block; color: #8fa3cf; }
@@ -370,8 +370,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     /* tags are full sentences since 10/18/2026, so they wrap on their own line instead of staying on one row */
     .demo-card .conf { display: block; margin-top: 2px; color: #9fb3e0; white-space: normal; } /* one text size in the card: color carries the hierarchy (review 10/18 S2) */
     .demo-card li.ask span:first-child { color: #ffe1a8; }
-    .covcap { font-size: .8rem; color: #9fb3e0; margin: 4px 0 0; }
-    .cap { font-size: .78rem; color: var(--muted); margin-top: 10px; text-align: center; }
+    .covcap { font-size: var(--fs-small); color: #9fb3e0; margin: 4px 0 0; }
+    .cap { font-size: var(--fs-small); color: var(--muted); margin-top: 10px; text-align: center; }
 
     /* steps */
     .steps .card { position: relative; padding-top: 30px; }
@@ -383,8 +383,8 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     @media (min-width: 880px) { .demo-grid, .jobs-grid { grid-template-columns: 1fr 1fr; } }
     .jobs-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
     .video-ph { position: relative; aspect-ratio: 16/9; border-radius: var(--radius); background: linear-gradient(135deg,#1b2740,#0f1830); color: #cdd7ef; display: grid; place-items: center; text-align: center; padding: 16px; box-shadow: var(--shadow-lg); }
-    .video-ph span { font-size: .85rem; opacity: .8; position: absolute; bottom: 14px; }
-    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: linear-gradient(180deg, #fbb043, var(--accent-strong)); color: #16202b; font-size: 1.3rem; cursor: pointer; box-shadow: 0 8px 24px rgba(217,119,6,.4); transition: transform .1s; }
+    .video-ph span { font-size: var(--fs-small); opacity: .8; position: absolute; bottom: 14px; }
+    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: linear-gradient(180deg, #fbb043, var(--accent-strong)); color: #16202b; font-size: var(--fs-h3); cursor: pointer; box-shadow: 0 8px 24px rgba(217,119,6,.4); transition: transform .1s; }
     .video-ph .play:hover { transform: scale(1.06); }
 
     .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
@@ -394,33 +394,33 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     /* pricing */
     .pricing .price { display: flex; flex-direction: column; }
     .price.featured { border-color: #cbb4f0; box-shadow: 0 0 0 3px #ece2fb, var(--shadow-lg); position: relative; }
-    .amount { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em; margin: 6px 0 4px; }
-    .amount span { font-size: .9rem; font-weight: 600; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
+    .amount { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.02em; margin: 6px 0 4px; }
+    .amount span { font-size: var(--fs-small); font-weight: 700; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
     .price .btn { margin-top: auto; align-self: flex-start; }
-    .finep { text-align: center; margin-top: 24px; font-size: .9rem; }
+    .finep { text-align: center; margin-top: 24px; font-size: var(--fs-small); }
 
     /* comparison table (scrolls horizontally on small screens) */
     .table-wrap { overflow-x: auto; margin-top: 18px; -webkit-overflow-scrolling: touch; border-radius: var(--radius); }
     .compare { width: 100%; min-width: 720px; border-collapse: collapse; background: var(--card); }
-    .compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: .95rem; vertical-align: middle; }
+    .compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: var(--fs-small); vertical-align: middle; }
     .compare thead th { background: var(--surface); font-weight: 700; color: var(--ink); }
-    .compare tbody th { text-align: left; font-weight: 600; color: var(--ink-soft); }
+    .compare tbody th { text-align: left; font-weight: 700; color: var(--ink-soft); }
     .compare .us { background: var(--primary-bg); }
     .compare thead th.us { color: var(--primary); }
     /* our column framed in green so it stands out (founder 10/18/2026) */
     .compare .us { border-left: 3px solid var(--true); border-right: 3px solid var(--true); }
     .compare thead th.us { border-top: 3px solid var(--true); }
     .compare tbody tr:last-child td.us { border-bottom: 3px solid var(--true); }
-    .compare .c { color: var(--true); font-weight: 800; font-size: 1.05rem; }
-    .compare .x { color: #b42318; font-weight: 800; font-size: 1.05rem; }
+    .compare .c { color: var(--true); font-weight: 800; font-size: var(--fs-body); }
+    .compare .x { color: #b42318; font-weight: 800; font-size: var(--fs-body); }
     .compare .p { color: var(--muted); font-weight: 800; }
-    .compare .sub { font-size: .76rem; color: var(--muted); font-weight: 400; }
+    .compare .sub { font-size: var(--fs-small); color: var(--muted); font-weight: 400; }
     @media (max-width: 719px) {
       .compare { min-width: 560px; }
-      .compare th, .compare td { padding: 10px 10px; font-size: .88rem; }
-      .compare thead th { font-size: .84rem; }
+      .compare th, .compare td { padding: 10px 10px; font-size: var(--fs-small); }
+      .compare thead th { font-size: var(--fs-small); }
     }
-    .small { font-size: .85rem; }
+    .small { font-size: var(--fs-small); }
 
     /* commercial banner */
     .banner { display: grid; gap: 28px; align-items: center; }
@@ -429,11 +429,11 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
 
     /* get started */
     .start-cta { margin: 20px 0 6px; }
-    .start-alt { margin-top: 12px; font-size: .95rem; }
+    .start-alt { margin-top: 12px; font-size: var(--fs-small); }
     .start-alt a { font-weight: 700; }
     /* Pre-launch capture: one row on desktop, stacks on mobile (mobile-first rule). */
     .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: 1rem;
+    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: var(--fs-body);
       border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
     .capture-done, .capture-err { margin-top: 12px; font-weight: 700; }
     .capture-done.hide, .capture-err.hide { display: none; }
@@ -446,39 +446,39 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
     .dropzone { display: block; cursor: pointer; border: 2px dashed #9fb0c4; border-radius: var(--radius); background: var(--card); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s, box-shadow .15s; }
     .dropzone:hover { border-color: var(--accent-strong); background: #fffdf8; box-shadow: 0 0 0 4px var(--accent-bg); }
     .dropzone input { position: absolute; width: 1px; height: 1px; opacity: 0; }
-    .dz-ico { display: block; font-size: 1.8rem; color: var(--accent); }
-    .dz-main { display: block; font-weight: 700; font-size: 1.1rem; margin: 6px 0 2px; }
-    .dz-sub { display: block; font-size: .9rem; }
-    .reoffer { font-size: .95rem; }
+    .dz-ico { display: block; font-size: var(--fs-h2); color: var(--accent); }
+    .dz-main { display: block; font-weight: 700; font-size: var(--fs-h3); margin: 6px 0 2px; }
+    .dz-sub { display: block; font-size: var(--fs-small); }
+    .reoffer { font-size: var(--fs-small); }
 
     /* time math */
     .timemath { margin-top: 34px; }
-    .timemath h3 { font-size: 1.3rem; margin: 0 0 6px; }
-    .tm-lead { margin: 14px 0 8px; font-weight: 600; }
+    .timemath h3 { font-size: var(--fs-h3); margin: 0 0 6px; }
+    .tm-lead { margin: 14px 0 8px; font-weight: 700; }
     .tm-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
-    .tm-tab { font: inherit; font-size: .9rem; font-weight: 700; padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+    .tm-tab { font: inherit; font-size: var(--fs-small); font-weight: 700; padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
     .tm-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
     .tm-panel { display: grid; gap: 14px; }
     @media (min-width: 760px) { .tm-panel { grid-template-columns: 1fr 1fr; } }
     .tm-panel.hide { display: none; }
     .tm-col { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
     .tm-col.us { border-color: #7fb08a; background: #f3faf4; }
-    .tm-col h4 { margin: 0 0 8px; font-size: 1rem; }
+    .tm-col h4 { margin: 0 0 8px; font-size: var(--fs-body); }
     .tm-col ul { margin: 0; padding-left: 18px; }
-    .tm-col li { margin-bottom: 8px; color: var(--ink-soft); font-size: .95rem; }
+    .tm-col li { margin-bottom: 8px; color: var(--ink-soft); font-size: var(--fs-body); }
 
     /* military before/after */
     .beforeafter { display: grid; gap: 12px; margin: 18px 0 10px; }
     .ba-row { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
     .ba-row.after { border-color: #7fb08a; background: #f3faf4; }
-    .ba-tag { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .ba-tag { display: block; font-size: var(--fs-small); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
     .ba-row.after .ba-tag { color: #2f7a45; }
-    .ba-row p { margin: 0; font-size: 1rem; }
+    .ba-row p { margin: 0; font-size: var(--fs-body); }
 
     /* founder 07/28: dead air around the strip — 50px less above, 30px less below (was 74/74) */
     .legal-strip { padding: 24px 0 44px; }
     .legalnote { text-align: center; }
-    .legalnote p { max-width: 80ch; margin: 0 auto; font-size: .9rem; }
+    .legalnote p { max-width: 80ch; margin: 0 auto; font-size: var(--fs-small); }
   </style>
   <script>
     // Pre-launch capture: returning from POST /waitlist with ?joined=1|err — show

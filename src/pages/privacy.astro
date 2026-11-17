@@ -333,20 +333,20 @@ import Base from '../layouts/Base.astro';
 
   <style>
     .container.narrow { max-width: 70ch; }
-    .effective { font-size: .9rem; font-weight: 600; color: var(--muted); margin: 0 0 28px; }
-    .prose { font-size: 1.02rem; color: var(--ink-soft); }
-    .prose h2 { margin-top: 1.8em; font-size: 1.35rem; color: var(--ink); }
+    .effective { font-size: var(--fs-small); font-weight: 700; color: var(--muted); margin: 0 0 28px; }
+    .prose { font-size: var(--fs-body); color: var(--ink-soft); }
+    .prose h2 { margin-top: 1.8em; font-size: var(--fs-h3); color: var(--ink); }
     .prose ul { padding-left: 1.2em; }
     .prose li { margin-bottom: .5em; }
     .prose strong { color: var(--ink); }
-    .optout-btn { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; margin: 6px 0; cursor: pointer; }
+    .optout-btn { font: inherit; font-weight: 700; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; margin: 6px 0; cursor: pointer; }
     .optout-btn:hover { border-color: var(--ink-soft); }
-    .optout-status { margin-left: 10px; color: var(--muted); font-size: .95rem; }
-    .subprocessors { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: .95rem; }
+    .optout-status { margin-left: 10px; color: var(--muted); font-size: var(--fs-small); }
+    .subprocessors { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: var(--fs-small); }
     .subprocessors th, .subprocessors td { text-align: left; vertical-align: top;
       padding: 8px 10px; border-bottom: 1px solid var(--line); }
     .subprocessors th { color: var(--ink); font-weight: 700; }
     .legal-links { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
-      display: flex; flex-wrap: wrap; gap: 16px; font-weight: 600; }
+      display: flex; flex-wrap: wrap; gap: 16px; font-weight: 700; }
   </style>
 </Base>

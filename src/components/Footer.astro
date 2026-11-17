@@ -57,15 +57,15 @@ const year = new Date().getFullYear();
   .cols { display: grid; gap: 28px; grid-template-columns: 1fr; }
   @media (min-width: 760px) { .cols { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
-  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: .74rem; font-weight: 800; }
-  .brandcol p { max-width: 34ch; font-size: .95rem; }
-  .site-footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
-  .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 600; font-size: .95rem; margin-bottom: 9px; }
+  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-small); font-weight: 800; }
+  .brandcol p { max-width: 34ch; font-size: var(--fs-small); }
+  .site-footer h4 { font-size: var(--fs-small); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
+  .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); margin-bottom: 9px; }
   .site-footer nav a:hover { color: var(--ink); }
   .legal { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
   /* LinkedIn in the bottom bar (founder 10/18/2026: "should be in the site footer... pop a little with Blue square icon"); #0A66C2 is LinkedIn's own brand blue for its mark */
-  .social { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); font-weight: 700; font-size: .95rem; }
+  .social { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); font-weight: 700; font-size: var(--fs-small); }
   .social:hover .li-badge { background: #004182; }
   .li-badge { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; background: #0A66C2; box-shadow: 0 4px 12px rgba(10,102,194,.28); transition: background .15s ease; }
-  .legal p { font-size: .85rem; margin: 0; }
+  .legal p { font-size: var(--fs-small); margin: 0; }
 </style>

@@ -220,4 +220,24 @@ test.describe("site walk fixes (10/26/2026)", () => {
     }
   });
 
+  // Founder 11/17/2026: "The goal is ALWAYS PROFIT" and "Buy now should only offer the two purchase options". A button that
+  // offers a purchase goes to the app's buy page, never to the free check, and a buy link names only one of the two products.
+  test("THE guard (buy first, founder 11/17/2026): buy buttons go to /buy, never to the free check, and name only the two products", async () => {
+    const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
+    const buyLabel = /\bBuy\b|Get your resume build|Get the AR Pass|Get the \$29|\$29 build|\$99/;
+    let buyButtons = 0;
+    for (const f of files) {
+      const src = readFileSync(f, "utf8");
+      for (const m of src.matchAll(/<a\b([^>]*?)href=\{([\s\S]*?)\}(?=[\s>])([^>]*)>([\s\S]*?)<\/a>/g)) {
+        const href = m[2], label = m[4];
+        if (!buyLabel.test(label)) continue;
+        buyButtons++;
+        expect(href.includes("start=check"), `${f}: buy button "${label.trim().slice(0, 60)}" points at the free check`).toBe(false);
+        expect(href.includes("/buy"), `${f}: buy button "${label.trim().slice(0, 60)}" does not go to /buy`).toBe(true);
+      }
+      for (const m of src.matchAll(/\/buy\?([^'"`}\s]*)/g)) expect(m[1], `${f}: a /buy link with an unknown choice`).toMatch(/^pick=(base|targeted)$/);
+    }
+    expect(buyButtons, "buy buttons found (home hero, get started, job seekers, both price cards, header)").toBeGreaterThanOrEqual(7);
+  });
+
 });

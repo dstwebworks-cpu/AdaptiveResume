@@ -212,7 +212,7 @@ const steps = [
     @media (min-width: 920px) { .hero-grid { grid-template-columns: 1.1fr 0.9fr; } }
     .hero-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 12px; }
-    .small { font-size: .85rem; }
+    .small { font-size: var(--fs-small); }
 
     /* audience list: plain check-marked text, not chips (09/19/2026 clarity audit) */
     .buyers { display: grid; gap: 4px 28px; margin: 8px 0 0; }
@@ -229,8 +229,8 @@ const steps = [
     .quote-grid { display: grid; gap: 28px; align-items: start; }
     @media (min-width: 880px) { .quote-grid { grid-template-columns: 1.2fr 0.8fr; } }
     .tiers .tierlist { list-style: none; padding: 0; margin: 14px 0; }
-    .tiers .tierlist li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line); font-weight: 600; color: var(--ink-soft); }
-    .tiers .q { color: var(--muted); font-weight: 500; }
+    .tiers .tierlist li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line); font-weight: 700; color: var(--ink-soft); }
+    .tiers .q { color: var(--muted); font-weight: 400; }
 
     .cta-band { text-align: center; max-width: 720px; }
     .cta-band .lede { margin: 0 auto 18px; max-width: 54ch; }
@@ -238,8 +238,8 @@ const steps = [
     .quote-form { display: grid; gap: 14px; margin-top: 18px; max-width: 560px; }
     .quote-fields { display: grid; gap: 14px; }
     @media (min-width: 640px) { .quote-fields { grid-template-columns: 1fr 1fr; } }
-    .quote-form label { display: grid; gap: 6px; font-weight: 600; color: var(--ink-soft); }
-    .quote-form label span { font-size: .9rem; }
+    .quote-form label { display: grid; gap: 6px; font-weight: 700; color: var(--ink-soft); }
+    .quote-form label span { font-size: var(--fs-small); }
     .quote-form select, .quote-form input[type="email"], .quote-form textarea {
       font: inherit; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px;
       background: var(--card); color: var(--ink); width: 100%;
@@ -247,7 +247,7 @@ const steps = [
     .quote-form textarea { resize: vertical; }
     .quote-form button { justify-self: start; }
     .quote-done { font-weight: 700; color: var(--true); margin-top: 16px; }
-    .quote-err { font-weight: 600; color: #b4232c; margin-top: 16px; }
+    .quote-err { font-weight: 700; color: #b4232c; margin-top: 16px; }
     .hide { display: none; }
   </style>
 
