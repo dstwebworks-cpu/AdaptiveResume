@@ -117,7 +117,7 @@ for (const width of [900, 920, 1024, 1080, 1280, 1440]) {
  * because the desktop row was switched on by the window's width while the bar is capped at 1120 px. Every visible header
  * label, button and link sits on one line, at desktop widths and text sizes, and the bar stays on screen.
  */
-for (const zoom of [1, 1.5, 2]) {
+for (const zoom of [1, 1.25, 1.5, 2]) {
   for (const width of [900, 1280, 1440, 1800, 2400]) {
     test(`header labels never wrap at ${width}px, ${zoom * 100}% text`, async ({ page }) => {
       await page.setViewportSize({ width, height: 900 });
@@ -131,6 +131,8 @@ for (const zoom of [1, 1.5, 2]) {
           const g = document.createRange(); g.selectNodeContents(e);
           const tops = new Set([...g.getClientRects()].filter((q) => q.width > 0).map((q) => Math.round(q.top)));
           if (tops.size > 1) out.push(e.textContent.trim().replace(/\\s+/g, " "));
+          const bb = document.querySelector(".site-header .bar").getBoundingClientRect(), r = e.getBoundingClientRect();
+          if (r.right > bb.right + 0.5 || r.left < bb.left - 0.5) out.push("outside the bar: " + e.textContent.trim());
         });
         const bar = document.querySelector(".site-header .bar").getBoundingClientRect();
         return { wrapped: out, right: bar.right };
@@ -140,3 +142,36 @@ for (const zoom of [1, 1.5, 2]) {
     });
   }
 }
+
+/** Re-check 2 H1 (11/18/2026): a menu opened on a narrow screen closes when the screen turns or widens into the desktop row. */
+test("an open menu closes when the screen widens into the desktop row", async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 });
+  await page.goto("/");
+  await page.locator(".site-header .hamburger").click();
+  await expect(page.locator(".site-header")).toHaveClass(/menu-open/);
+  await page.setViewportSize({ width: 1024, height: 768 });
+  await expect(page.locator(".site-header")).not.toHaveClass(/menu-open/);
+  await expect(page.locator(".site-header .mobile-menu")).toBeHidden();
+  expect(await page.locator(".site-header").evaluate((h) => h.getBoundingClientRect().height), "one-row header height").toBeLessThan(110);
+});
+
+/** Re-check 2 H2/H3: the desktop row shows wherever it fits inside the 1120 px bar (from about 944 px at normal
+ *  text); at 120% text and more it needs over 1076 px, so the menu layout is right, because the row would run outside the bar. */
+for (const [width, zoom] of [[1024, 1], [1280, 1], [1920, 1]] as const) {
+  test(`the desktop row shows at ${width}px, ${zoom * 100}% text`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/");
+    if (zoom !== 1) await page.addStyleTag({ content: `html{font-size:${zoom * 100}% !important}` });
+    await page.waitForTimeout(100);
+    await expect(page.locator(".site-header .nav.desktop")).toBeVisible();
+    await expect(page.locator(".site-header .hamburger")).toBeHidden();
+  });
+}
+
+/** Re-check 1 R10 and re-check 2 H4: the page loads only the three Inter weights the type scale uses. */
+test("only the 400, 700 and 800 font weights are loaded", async ({ page }) => {
+  await page.goto("/");
+  const hrefs = await page.locator('link[href*="fonts.googleapis.com/css2"]').evaluateAll((ls) => ls.map((l) => (l as HTMLLinkElement).href));
+  expect(hrefs.length).toBeGreaterThan(0);
+  for (const h of hrefs) expect(decodeURIComponent(h)).toContain("wght@400;700;800&");
+});
