@@ -55,9 +55,9 @@ const year = new Date().getFullYear();
 <style>
   .site-footer { background: var(--surface); border-top: 1px solid var(--line); padding: 54px 0 28px; margin-top: 20px; }
   .cols { display: grid; gap: 28px; grid-template-columns: 1fr; }
-  @media (min-width: 760px) { .cols { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
-  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
-  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-small); font-weight: 800; }
+  @container (min-width: 47.5rem) { .cols { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: var(--fs-brand); color: var(--ink); margin-bottom: 10px; }
+  .mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-mark); font-weight: 800; }
   .brandcol p { max-width: 34ch; font-size: var(--fs-small); }
   .site-footer h4 { font-size: var(--fs-small); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; }
   .site-footer nav a { display: block; color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); margin-bottom: 9px; }

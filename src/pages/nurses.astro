@@ -290,15 +290,16 @@ const guides = [
     .container.narrow { max-width: 760px; }
     .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
     .grid.cols-4 { display: grid; gap: 16px; grid-template-columns: 1fr; }
-    @media (min-width: 720px) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 1080px) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
+    @container (min-width: 45rem) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
+    @container (min-width: 67.5rem) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
     .guide-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
-    @media (min-width: 720px) { .guide-list { grid-template-columns: repeat(2, 1fr); } }
+    @container (min-width: 45rem) { .guide-list { grid-template-columns: repeat(2, 1fr); } }
     .guide-list a { display: flex; gap: 12px; align-items: baseline; padding: 12px 16px; background: var(--card);
       border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; }
     .guide-list a:hover { border-color: var(--accent-strong); }
-    .guide-list b { flex: 0 0 9.5em; }
-    .guide-list span { color: var(--ink-soft); }
+    .guide-list a { flex-wrap: wrap; row-gap: 2px; }
+    .guide-list b { flex: 0 0 9.5em; max-width: 100%; }
+    .guide-list span { flex: 1 1 8em; min-width: 0; color: var(--ink-soft); }
     .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
     .capture-email { flex: 1 1 240px; max-width: 360px; font-family: inherit; font-size: var(--fs-body); padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
     .capture-note { margin-top: 12px; font-size: var(--fs-small); }

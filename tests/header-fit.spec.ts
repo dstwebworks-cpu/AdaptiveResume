@@ -83,23 +83,31 @@ for (const [width, maxH] of [[900, 71.5], [1024, 71.5], [1280, 64.5]] as const) 
   });
 }
 
-// Re-check 4 of 11/14/2026 (BLOCK 1): a desktop window 900 to 920 px wide at 200% text shows only the "AR" square, as on live, so
-// "Sign in" and the button are not pushed further off screen by the brand name. The name always shows on phones (tests above).
-for (const width of [900, 920]) {
-  test(`desktop header at ${width}px, 200% text, keeps the live short logo`, async ({ browser }) => {
+// Site review 11/18/2026 (N1): with 200% text the desktop row ran 13 to 97 px off screen at 940 to 1080 px (and the 11/14 short-logo
+// rule only covered 900 to 920). The header now keeps the menu layout until the whole desktop row fits, decided by its own width in
+// rem. At these desktop widths with 200% text: the menu layout, with the name, the Buy now button and the menu all inside the bar,
+// not overlapping, and nothing past the right edge.
+for (const width of [900, 920, 1024, 1080, 1280, 1440]) {
+  test(`desktop header at ${width}px, 200% text, keeps everything inside the bar`, async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width, height: 800 } });
     const page = await ctx.newPage();
     await page.goto("/guides/cna-resume/");
     await page.addStyleTag({ content: "html{font-size:200% !important}" });
     await page.waitForTimeout(100);
-    await expect(page.locator(".site-header .brand .mark"), "AR square shown").toBeVisible();
-    await expect(page.locator(".site-header .brand .word"), "brand name hidden, as on live").toBeHidden();
-    // Re-check 6 (11/15/2026): the name must give up its space too, so the logo takes only the square's width (30px on live).
-    const w = await page.evaluate(() => ({
-      brand: (document.querySelector(".site-header .brand") as HTMLElement).getBoundingClientRect().width,
-      mark: (document.querySelector(".site-header .brand .mark") as HTMLElement).getBoundingClientRect().width,
-    }));
-    expect(w.brand, "logo no wider than the AR square").toBeLessThanOrEqual(w.mark + 0.5);
+    const r = await page.evaluate(() => {
+      const box = (sel: string) => { const e = document.querySelector(sel) as HTMLElement | null; if (!e || getComputedStyle(e).display === "none") return null;
+        const q = e.getBoundingClientRect(); return q.width ? { l: q.left, r: q.right, t: q.top, b: q.bottom } : null; };
+      const bar = (document.querySelector(".site-header .bar") as HTMLElement).getBoundingClientRect();
+      const right = Math.max(...[...document.querySelectorAll(".site-header .bar > *")].map((e) => { const q = (e as HTMLElement).getBoundingClientRect(); return q.width ? q.right : 0; }));
+      return { brand: box(".site-header .brand"), word: box(".site-header .brand .word"), menu: box(".site-header .hamburger"), btn: box(".site-header .cta-phone"), right, barRight: bar.right, vw: window.innerWidth };
+    });
+    expect(r.menu, "menu button shown").not.toBeNull();
+    expect(r.word, "brand name shown").not.toBeNull();
+    expect(r.right, "nothing past the bar's right edge").toBeLessThanOrEqual(r.barRight + 0.5);
+    expect(r.barRight, "bar inside the screen").toBeLessThanOrEqual(r.vw + 0.5);
+    type B = { l: number; r: number; t: number; b: number } | null;
+    const overlap = (a: B, z: B) => !!a && !!z && a.l < z.r - 0.5 && z.l < a.r - 0.5 && a.t < z.b - 0.5 && z.t < a.b - 0.5;
+    expect(overlap(r.brand, r.menu) || overlap(r.brand, r.btn) || overlap(r.btn, r.menu), "name, button and menu do not overlap").toBe(false);
     await ctx.close();
   });
 }

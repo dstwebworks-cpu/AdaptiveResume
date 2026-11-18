@@ -43,11 +43,18 @@
   /* The header wordmark is a logo: the body size, but it does not grow past 17px with large text, so the name, the
      button and the menu keep their rows on a phone (the header tests at 200% text). It never adds a size of its own. */
   --fs-brand: min(1.0625rem, 17px);
+  /* The letters in the logo's "AR" square: the small size, held at 14px like the wordmark so they never spill out of the
+     square with large text (site review N5, 11/18/2026). Logo only; scripts/type-scale-check.mjs enforces that. */
+  --fs-mark: min(.875rem, 14px);
   --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --maxw: 1120px;
 }
 
 * { box-sizing: border-box; }
+/* Site review F1 to F3 (11/18/2026): body text grows with the visitor's text size, so layouts switch on their own width in
+   rem (the root text unit) through container queries: the same switch points as before at normal text, and the narrower
+   layout sooner at large text, so nothing runs off the screen. main and the footer are the measured boxes. */
+main, .site-footer { container-type: inline-size; }
 html { -webkit-text-size-adjust: 100%; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 ::selection { background: rgba(245,158,11,.32); }
@@ -57,6 +64,19 @@ body {
 }
 img { max-width: 100%; display: block; }
 a { color: var(--primary); text-decoration: none; }
+/* A word longer than its box breaks instead of pushing the page sideways (large text on a phone); email addresses may break
+   anywhere. Grid and flex children may shrink below their longest word. */
+main { overflow-wrap: break-word; }
+main a[href^="mailto:"] { overflow-wrap: anywhere; }
+main [class*="grid"] > *, .site-footer .cols > *, main [class*="cta-row"] > *, main .beforeafter > *, main .tm-panel > * { min-width: 0; }
+input, select, textarea { max-width: 100%; min-width: 0; }
+/* Headings hyphenate only when the page is very narrow for its text (large text on a phone). */
+/* Only when the page is very narrow for its text (large text on a phone): long words hyphenate, and buttons give their words more
+   room. Normal text on a 320 px phone is 20rem wide, so none of this applies there. */
+@container (max-width: 18rem) {
+  main h1, main h2, main h3, main p, main li, main .btn { hyphens: auto; }
+  main .btn, main .btn-lg { padding-inline: 14px; }
+}
 a:hover { text-decoration: underline; }
 
 :target { scroll-margin-top: 5rem; } /* anchor links land below the sticky header (re-check 6 R6-H8) */
@@ -76,7 +96,7 @@ p, li { text-wrap: pretty; }
 .step-line { margin: 0.75rem 0 0; color: var(--ink); font-weight: 400; max-width: 62ch; }
 /* Buy first (founder 11/17/2026): the free check is a plain text link under the buy button, never a co-equal button. */
 .free-link { margin: 14px 0 18px; color: var(--ink-soft); max-width: 62ch; }
-.btn.buy-now { min-width: 13rem; }
+.btn.buy-now { min-width: min(13rem, 100%); }
 .free-link a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 
 /* amber keyline under section titles — adds rhythm + brand warmth (pop) */
@@ -91,7 +111,7 @@ p, li { text-wrap: pretty; }
 .section.alt { background: var(--card); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .section.tint { background: linear-gradient(180deg, var(--primary-bg), var(--bg)); }
 .grid { display: grid; gap: 22px; }
-@media (min-width: 760px) { .grid.cols-2 { grid-template-columns: 1fr 1fr; } .grid.cols-3 { grid-template-columns: repeat(3,1fr); } }
+@container (min-width: 47.5rem) { .grid.cols-2 { grid-template-columns: 1fr 1fr; } .grid.cols-3 { grid-template-columns: repeat(3,1fr); } }
 
 /* buttons — high contrast */
 .btn {
@@ -164,7 +184,7 @@ p, li { text-wrap: pretty; }
 
 /* mobile: tighter compare cells so our column is on screen immediately; hint that the rest slides */
 .scroll-hint { display: none; }
-@media (max-width: 719px) {
+@container (width < 45rem) {
   .compare { min-width: 560px; }
   .compare th, .compare td { padding: 10px 10px; font-size: var(--fs-small); }
   .compare thead th { font-size: var(--fs-small); }

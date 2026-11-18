@@ -222,22 +222,53 @@ test.describe("site walk fixes (10/26/2026)", () => {
 
   // Founder 11/17/2026: "The goal is ALWAYS PROFIT" and "Buy now should only offer the two purchase options". A button that
   // offers a purchase goes to the app's buy page, never to the free check, and a buy link names only one of the two products.
+  // Site review F5 (11/18/2026): every source file is read (the guide template included), links written as plain strings
+  // too, a /buy link is never labeled as the free check, and on the home page and in the header the free check is a text
+  // link, never a button (the founder's complaint: the amber "Check my resume free" button led the page).
   test("THE guard (buy first, founder 11/17/2026): buy buttons go to /buy, never to the free check, and name only the two products", async () => {
-    const files = ["src/pages", "src/components", "src/layouts"].flatMap((d) => readdirSync(d).filter((x) => x.endsWith(".astro")).map((x) => join(d, x)));
-    const buyLabel = /\bBuy\b|Get your resume build|Get the AR Pass|Get the \$29|\$29 build|\$99/;
+    const files: string[] = [];
+    const walk = (d: string) => { for (const x of readdirSync(d, { withFileTypes: true })) { const p = join(d, x.name); if (x.isDirectory()) walk(p); else if (/\.(astro|md|mdx|ts|tsx|js)$/.test(x.name)) files.push(p); } };
+    ["src"].forEach(walk);
+    // A purchase action starts with Buy or Get ("See what the $29 build includes" is information, not a purchase).
+    const buyLabel = /(^|['"{>\s])(Buy\b|Get (your resume build|the AR Pass|the \$29|my resume build))/;
+    const freeLabel = /\bfree\b|\bcheck\b/i;
     let buyButtons = 0;
     for (const f of files) {
       const src = readFileSync(f, "utf8");
-      for (const m of src.matchAll(/<a\b([^>]*?)href=\{([\s\S]*?)\}(?=[\s>])([^>]*)>([\s\S]*?)<\/a>/g)) {
-        const href = m[2], label = m[4];
-        if (!buyLabel.test(label)) continue;
-        buyButtons++;
-        expect(href.includes("start=check"), `${f}: buy button "${label.trim().slice(0, 60)}" points at the free check`).toBe(false);
-        expect(href.includes("/buy"), `${f}: buy button "${label.trim().slice(0, 60)}" does not go to /buy`).toBe(true);
+      const leadPage = /src[\\/](pages[\\/]index\.astro|components[\\/]Header\.astro)$/.test(f);
+      for (const m of src.matchAll(/<a\b([^>]*?)href=(?:\{([\s\S]*?)\}(?=[\s>])|"([^"]*)"|'([^']*)')([^>]*)>([\s\S]*?)<\/a>/g)) {
+        const attrs = m[1] + m[5], href = m[2] ?? m[3] ?? m[4] ?? "", label = m[6];
+        const short = label.replace(/\s+/g, " ").trim().slice(0, 60);
+        if (buyLabel.test(label)) {
+          buyButtons++;
+          expect(href.includes("start=check"), `${f}: buy button "${short}" points at the free check`).toBe(false);
+          expect(href.includes("/buy"), `${f}: buy button "${short}" does not go to /buy`).toBe(true);
+        }
+        if (href.includes("/buy")) expect(freeLabel.test(label.replace(/Buy/g, "")), `${f}: a /buy link labeled as the free check: "${short}"`).toBe(false);
+        if (leadPage && href.includes("start=check")) expect(/class=["'{][^"'}]*\bbtn\b/.test(attrs), `${f}: the free check is a button ("${short}"); on the home page and in the header it is a text link`).toBe(false);
       }
-      for (const m of src.matchAll(/\/buy\?([^'"`}\s]*)/g)) expect(m[1], `${f}: a /buy link with an unknown choice`).toMatch(/^pick=(base|targeted)$/);
+      for (const m of src.matchAll(/\/buy\?([^'"`}\s<]*)/g)) expect(m[1], `${f}: a /buy link with an unknown choice`).toMatch(/^pick=(base|targeted)$/);
     }
     expect(buyButtons, "buy buttons found (home hero, get started, job seekers, both price cards, header)").toBeGreaterThanOrEqual(7);
+  });
+
+  // As the visitor sees it (launch builds only): the home page's first button and the header button are Buy now to /buy, and
+  // no button on the home page goes to the free check.
+  test("the home page leads with Buy now, and the free check is never a button there", async ({ page }) => {
+    await page.goto("/");
+    const r = await page.evaluate(() => {
+      const shown = (e: Element) => !!(e as HTMLElement).offsetParent;
+      const btns = [...document.querySelectorAll("a.btn")].filter(shown) as HTMLAnchorElement[];
+      const hero = [...document.querySelectorAll("main a.btn")].filter(shown)[0] as HTMLAnchorElement | undefined;
+      const header = [...document.querySelectorAll(".site-header a.btn")].filter(shown)[0] as HTMLAnchorElement | undefined;
+      return { launched: btns.some((a) => a.href.includes("/buy")), hero: hero ? [hero.textContent!.trim(), hero.href] : null, header: header ? [header.textContent!.trim(), header.href] : null,
+        freeButtons: btns.filter((a) => a.href.includes("start=check")).map((a) => a.textContent!.trim()) };
+    });
+    test.skip(!r.launched, "pre-launch build: the page offers the launch list, not a purchase");
+    expect(r.hero, "first button on the page").not.toBeNull();
+    expect(r.hero![1], `first button "${r.hero![0]}" goes to /buy`).toMatch(/\/buy$/);
+    expect(r.header![1], `header button "${r.header![0]}" goes to /buy`).toMatch(/\/buy$/);
+    expect(r.freeButtons, "free-check buttons on the home page").toEqual([]);
   });
 
 });

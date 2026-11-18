@@ -58,11 +58,11 @@ const links = [
 </script>
 
 <style>
-  .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
+  .site-header { container-type: inline-size; container-name: hdr; position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
   .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-block: 8px; min-height: 64px; container-type: inline-size; container-name: bar; }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: var(--fs-brand); color: var(--ink); letter-spacing: -0.02em; }
   .brand:hover { text-decoration: none; }
-  .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-small); font-weight: 800; }
+  .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-mark); font-weight: 800; }
 
   .nav.desktop { display: none; gap: 22px; margin-left: auto; }
   .nav.desktop a { color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); }
@@ -93,12 +93,13 @@ const links = [
   @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; margin: 0; } }
   @container bar (min-width: 27.5rem) { .cta-phone { order: 0; flex-basis: auto; margin: 0 0 0 auto; } .cta-phone + .hamburger { margin-left: 0; } }
 
-  @media (min-width: 900px) {
+  /* Desktop row from 900 px at normal text, as live. Site review 11/18/2026 (N1): it is decided by the header's own width in rem,
+     so with large text the header keeps the menu layout until the whole desktop row fits (it ran 13 to 97 px off screen at 940 to
+     1080 px with 200% text). This replaces the 11/14/2026 short-logo rule for 900 to 920 px at 200% text: those widths now get the
+     menu layout, where the name, the button and the menu all fit. */
+  @container hdr (min-width: 56.25rem) {
     /* Desktop keeps the live one-row header exactly (re-check of 11/14/2026, FIX E): the wrap, padding and gaps above are for phones. */
     .bar { flex-wrap: nowrap; gap: 14px; padding-block: 0; }
-    /* Re-check 4 of 11/14/2026 (BLOCK 1): with large text, a desktop header 15.75rem to 27.5rem wide (900 to 920 px at 200% text) shows only the
-       "AR" square on live, which keeps "Sign in" and the button on screen. Kept as live; the always-shown name above applies to phones. */
-    @container bar (15.75rem <= width < 27.5rem) { .word { display: none; } }
     .cta-phone { display: none !important; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
