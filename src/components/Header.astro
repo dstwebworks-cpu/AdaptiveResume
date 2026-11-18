@@ -65,11 +65,11 @@ const links = [
   .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-mark); font-weight: 800; }
 
   .nav.desktop { display: none; gap: 22px; margin-left: auto; }
-  .nav.desktop a { color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); }
+  .nav.desktop a { color: var(--ink-soft); font-weight: 700; font-size: var(--fs-small); white-space: nowrap; }
   .nav.desktop a:hover { color: var(--ink); text-decoration: none; }
   /* 7px top and bottom (was 9px): buttons are now the 17px body size, and the desktop header keeps its live height. */
-  .cta-desktop { display: none; padding: 7px 16px; }
-  a.signin { font-weight: 700; color: var(--ink); font-size: var(--fs-small); padding: 9px 6px; }
+  .cta-desktop { display: none; padding: 7px 16px; white-space: nowrap; }
+  a.signin { font-weight: 700; color: var(--ink); font-size: var(--fs-small); padding: 9px 6px; white-space: nowrap; }
   a.signin:hover { color: var(--accent); text-decoration: none; }
 
   /* hamburger (mobile) */
@@ -80,6 +80,8 @@ const links = [
   .menu-open .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
   .mobile-menu { display: none; flex-direction: column; gap: 4px; padding: 10px 22px 18px; border-top: 1px solid var(--line); background: #fff; }
+  /* Re-check R6: on a wide screen at large text the menu panel lines up with the bar instead of stretching across the window. */
+  .menu-open .mobile-menu { max-width: 1120px; margin-inline: auto; }
   .menu-open .mobile-menu { display: flex; }
   .mobile-menu a:not(.btn) { padding: 13px 8px; color: var(--ink); font-weight: 700; border-bottom: 1px solid var(--surface); }
   .mobile-menu a:not(.btn):hover { text-decoration: none; }
@@ -97,13 +99,17 @@ const links = [
      so with large text the header keeps the menu layout until the whole desktop row fits (it ran 13 to 97 px off screen at 940 to
      1080 px with 200% text). This replaces the 11/14/2026 short-logo rule for 900 to 920 px at 200% text: those widths now get the
      menu layout, where the name, the button and the menu all fit. */
+  /* Re-check R4 (11/18/2026): the switch is decided by the bar's own width, not the window's. The bar is capped at 1120 px, so on a
+     wide screen at large text the header's width said "fits" while the row did not, and every label wrapped ("Buy / now").
+     The bar's spacing still follows the header, which never differs from the bar at normal text. */
   @container hdr (min-width: 56.25rem) {
     /* Desktop keeps the live one-row header exactly (re-check of 11/14/2026, FIX E): the wrap, padding and gaps above are for phones. */
     .bar { flex-wrap: nowrap; gap: 14px; padding-block: 0; }
+  }
+  @container bar (min-width: 56.25rem) {
     .cta-phone { display: none !important; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
     .hamburger { display: none; }
-    .mobile-menu { display: none !important; }
   }
 </style>

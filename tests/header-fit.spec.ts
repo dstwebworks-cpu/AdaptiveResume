@@ -111,3 +111,32 @@ for (const width of [900, 920, 1024, 1080, 1280, 1440]) {
     await ctx.close();
   });
 }
+
+/**
+ * Site re-check R4 (11/18/2026): at 150% text from 1350 px and 200% text from 1800 px every header label wrapped ("Buy / now"),
+ * because the desktop row was switched on by the window's width while the bar is capped at 1120 px. Every visible header
+ * label, button and link sits on one line, at desktop widths and text sizes, and the bar stays on screen.
+ */
+for (const zoom of [1, 1.5, 2]) {
+  for (const width of [900, 1280, 1440, 1800, 2400]) {
+    test(`header labels never wrap at ${width}px, ${zoom * 100}% text`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await page.goto("/");
+      if (zoom !== 1) await page.addStyleTag({ content: `html{font-size:${zoom * 100}% !important}` });
+      await page.waitForTimeout(100);
+      const r = await page.evaluate(`(() => {
+        const out = [];
+        document.querySelectorAll(".site-header .bar a:not(.brand), .site-header .bar button").forEach((e) => {
+          if (!e.offsetParent || !e.textContent.trim()) return;
+          const g = document.createRange(); g.selectNodeContents(e);
+          const tops = new Set([...g.getClientRects()].filter((q) => q.width > 0).map((q) => Math.round(q.top)));
+          if (tops.size > 1) out.push(e.textContent.trim().replace(/\\s+/g, " "));
+        });
+        const bar = document.querySelector(".site-header .bar").getBoundingClientRect();
+        return { wrapped: out, right: bar.right };
+      })()`) as { wrapped: string[]; right: number };
+      expect(r.wrapped, `labels on two lines: ${r.wrapped.join(" | ")}`).toHaveLength(0);
+      expect(r.right, "header bar on screen").toBeLessThanOrEqual(width + 0.5);
+    });
+  }
+}

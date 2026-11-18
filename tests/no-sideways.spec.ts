@@ -8,7 +8,8 @@ import { test, expect } from "@playwright/test";
  * A phone browser widens its layout to fit wide content, so the page is measured against the screen width itself. A layout can
  * also hide the fault by squeezing a column until its words spill out of it, so no block of text may be wider inside than its box.
  */
-const PAGES = ["/", "/guides/icu-nurse-resume/", "/nurses/", "/veterans/", "/guides/", "/business/", "/privacy/", "/terms/", "/disclaimer/", "/acceptable-use/"];
+// Re-check R9 (11/18/2026): the ad landing pages and the other entry pages are measured too.
+const PAGES = ["/", "/guides/icu-nurse-resume/", "/nurses/", "/veterans/", "/guides/", "/business/", "/privacy/", "/terms/", "/disclaimer/", "/acceptable-use/", "/resume-writing-service/", "/rewrite-my-resume/", "/update-my-resume/", "/resume-editing-service/", "/resume-makeover/", "/fix/", "/career-change/", "/demo/", "/laid-off/"];
 const WIDTHS = [320, 390, 768, 900, 1440];
 
 for (const path of PAGES) {
