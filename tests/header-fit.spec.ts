@@ -155,8 +155,9 @@ test("an open menu closes when the screen widens into the desktop row", async ({
   expect(await page.locator(".site-header").evaluate((h) => h.getBoundingClientRect().height), "one-row header height").toBeLessThan(110);
 });
 
-/** Re-check 2 H2/H3: the desktop row shows wherever it fits inside the 1120 px bar (from about 944 px at normal
- *  text); at 120% text and more it needs over 1076 px, so the menu layout is right, because the row would run outside the bar. */
+/** Re-check 2 H2/H3: the desktop row shows from 56.25rem of bar (about 944 px at normal text). Part of the row is fixed
+ *  pixels, so one rem switch point is cautious at 120% to 130% text: the row would fit there (re-check 3 measured 986 px
+ *  needed at 120% against 1076 px of bar), but the menu layout is used instead. Nothing overflows either way. */
 for (const [width, zoom] of [[1024, 1], [1280, 1], [1920, 1]] as const) {
   test(`the desktop row shows at ${width}px, ${zoom * 100}% text`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
@@ -174,4 +175,28 @@ test("only the 400, 700 and 800 font weights are loaded", async ({ page }) => {
   const hrefs = await page.locator('link[href*="fonts.googleapis.com/css2"]').evaluateAll((ls) => ls.map((l) => (l as HTMLLinkElement).href));
   expect(hrefs.length).toBeGreaterThan(0);
   for (const h of hrefs) expect(decodeURIComponent(h)).toContain("wght@400;700;800&");
+});
+
+/** Re-check 3 H1b (11/18/2026): a menu opened at large text closes when text is set back to normal on a wide screen. */
+for (const [width, height, from, to] of [[1440, 900, 1.25, 1], [1366, 768, 1.25, 1], [1920, 1080, 1.5, 1], [1440, 900, 1.2, 1.1]] as const) {
+  test(`an open menu closes when text goes from ${Math.round(from * 100)}% to ${Math.round(to * 100)}% at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height });
+    await page.goto("/");
+    const size = await page.addStyleTag({ content: `html{font-size:${from * 100}% !important}` });
+    await page.locator(".site-header .hamburger").click();
+    await expect(page.locator(".site-header")).toHaveClass(/menu-open/);
+    await size.evaluate((el) => el.remove());
+    if (to !== 1) await page.addStyleTag({ content: `html{font-size:${to * 100}% !important}` });
+    await expect(page.locator(".site-header")).not.toHaveClass(/menu-open/);
+    await expect(page.locator(".site-header .mobile-menu")).toBeHidden();
+    await expect(page.locator(".site-header .nav.desktop")).toBeVisible();
+  });
+}
+
+/** Re-check 3 F2c: "no auto-renewal." stays together in the hero line (launch build only). */
+test("the hero price line keeps \"no auto-renewal.\" together", async ({ page }) => {
+  await page.goto("/");
+  const line = page.locator(".step-line", { hasText: "auto-renewal" });
+  test.skip((await line.count()) === 0, "the price line shows only on the launch build");
+  expect(await line.first().textContent()).toContain("no\u00a0auto-renewal.");
 });

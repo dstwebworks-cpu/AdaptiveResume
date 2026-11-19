@@ -55,10 +55,13 @@ const links = [
     });
     header.querySelectorAll('.mobile-menu a').forEach((a) => a.addEventListener('click', close));
     // Re-check H1 (11/18/2026): when the screen turns or widens into the desktop row, the menu button goes away, so an open
-    // menu closes with it (it used to stay open with every link shown twice).
+    // menu closes with it (it used to stay open with every link shown twice). The button is watched too, because setting text
+    // smaller on a wide screen brings the desktop row back without changing the bar's size (re-check 3 H1b).
     const bar = header.querySelector('.bar');
     if (bar && btn && 'ResizeObserver' in window) {
-      new ResizeObserver(() => { if (header.classList.contains('menu-open') && getComputedStyle(btn).display === 'none') close(); }).observe(bar);
+      const ro = new ResizeObserver(() => { if (header.classList.contains('menu-open') && getComputedStyle(btn).display === 'none') close(); });
+      ro.observe(bar);
+      ro.observe(btn);
     }
   }
 </script>
