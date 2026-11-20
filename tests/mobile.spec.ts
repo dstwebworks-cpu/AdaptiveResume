@@ -249,7 +249,9 @@ test.describe("site walk fixes (10/26/2026)", () => {
       }
       for (const m of src.matchAll(/\/buy\?([^'"`}\s<]*)/g)) expect(m[1], `${f}: a /buy link with an unknown choice`).toMatch(/^pick=(base|targeted)$/);
     }
-    expect(buyButtons, "buy buttons found (home hero, get started, job seekers, both price cards, header)").toBeGreaterThanOrEqual(7);
+    // Option C (founder 11/20/2026): the home page keeps one Buy now (the hero) plus the two price cards; the repeated Buy now
+    // buttons under "Get started" and "For job seekers" are gone. Header: desktop, phone and menu.
+    expect(buyButtons, "buy buttons found (home hero, both price cards, header desktop, phone and menu)").toBeGreaterThanOrEqual(6);
   });
 
   // As the visitor sees it (launch builds only): the home page's first button and the header button are Buy now to /buy, and
@@ -267,7 +269,8 @@ test.describe("site walk fixes (10/26/2026)", () => {
     test.skip(!r.launched, "pre-launch build: the page offers the launch list, not a purchase");
     expect(r.hero, "first button on the page").not.toBeNull();
     expect(r.hero![1], `first button "${r.hero![0]}" goes to /buy`).toMatch(/\/buy$/);
-    expect(r.header![1], `header button "${r.header![0]}" goes to /buy`).toMatch(/\/buy$/);
+    // Option C (founder 11/20/2026): at the top of the home page the header shows Sign in, not a second Buy now.
+    expect(r.header, "no header button while the hero's Buy now is on screen").toBeNull();
     expect(r.freeButtons, "free-check buttons on the home page").toEqual([]);
   });
 

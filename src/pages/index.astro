@@ -1,91 +1,61 @@
 ---
 import Base from '../layouts/Base.astro';
-import AtsTerm from '../components/AtsTerm.astro';
-// Pre-launch (default): app CTAs become email capture — set PUBLIC_LAUNCHED=1 at
-// build to flip the site live. Prod builds default to the real app origin so a
-// forgotten env var can never ship localhost links again (07/27 audit finding).
+// Homepage, option C (founder 11/20/2026: "I really like the blue intro option C"; "I like it as is, let's go").
+// One system on this page: the body, section and page title sizes only; weights 400 and 700; ink and one gray for text;
+// navy for the brand; amber only on the Buy now button and the AR Pass highlight. Sections have 28 to 40 px above and below.
+// Pre-launch (default): app CTAs become email capture; set PUBLIC_LAUNCHED=1 at build to flip the site live. Prod builds
+// default to the real app origin so a forgotten env var can never ship localhost links again (07/27 audit finding).
 const LAUNCHED = import.meta.env.PUBLIC_LAUNCHED === '1';
 const appUrl = import.meta.env.PUBLIC_APP_URL
   ?? (import.meta.env.PROD ? 'https://app.adaptiveresume.com' : 'http://localhost:5173');
-const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s back here
+const waitlistAction = appUrl + '/waitlist'; // plain form POST; the app 303s back here
+const examples = [
+  { says: 'Showed 12 new people how we do things.', add: 'Trained 12 new hires on standard work procedures.' },
+  { says: 'Locked out machines before repairs.', add: 'OSHA lockout/tagout (LOTO) safety compliance.' },
+  { says: 'Counted the warehouse every month.', add: 'Monthly inventory control and cycle counts.' },
+];
 ---
 <Base
-  title="AdaptiveResume — you've earned more than your resume shows"
+  title="You've earned more than your resume shows | AdaptiveResume"
   description="Upload your resume, and we'll find the skills and credentials your work earned but your resume left off. Nothing goes on it unless you confirm it."
 >
   <!-- ===== HERO ===== -->
-  <section class="hero">
+  <section class="home-hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">You're not in this alone</p>
-        <h1>You've earned <span class="hl">more</span> than your resume shows.</h1>
-        <p class="tagline">You did the work. Now let's get it on paper — together. We ask, you decide, and we don't make anything up.</p>
-        <p class="lede">
-          Upload your resume and we'll dig in with you — finding the standards, tools, and training
-          your work involved but you never thought to list. You confirm each one, in your words.
-          Built to read cleanly for the screening bots <em>and</em> the humans.
-        </p>
-        {LAUNCHED && <p class="step-line">The Single Resume Build is <b>$29</b>. The AR Pass is <b>$99</b> for up to 10 targeted builds in 90 days. There's no subscription and no&nbsp;auto-renewal.</p>}
-        <div class="cta-row">
+        <h1>You've earned more than your resume shows.</h1>
+        <p class="sub">Upload your resume and we'll find the skills, tools and training your work involved but your resume leaves out. Nothing goes on your resume until you tell us it's right.</p>
+        <div class="cta">
           {LAUNCHED
-            ? <>
-                <a class="btn btn-amber btn-lg buy-now" href={`${appUrl}/buy`}>Buy now</a>
-              </>
-            : <>
-                <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>
-                <a class="btn btn-ghost btn-lg" href="/demo/">See it work on a sample resume, no sign-up needed</a>
-              </>}
+            ? <a class="btn btn-amber btn-lg buy-now" data-hero-buy href={`${appUrl}/buy`}>Buy now</a>
+            : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
+          {LAUNCHED && <p class="step-line">The Single Resume Build is $29. The AR Pass is $99 for up to 10 targeted builds in 90 days. There's no subscription and no&nbsp;auto-renewal.</p>}
+          {LAUNCHED && <p class="free-link">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>.</p>}
         </div>
-        {LAUNCHED && <p class="free-link">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>, or <a href="/demo/">see it work on a sample resume</a>, with no sign-up.</p>}
-        <ul class="pills">
-          <li class="pill">We make nothing up.</li>
-          <li class="pill">Your resume reads cleanly for screening software.</li>
-          <li class="pill">We ask. You decide.</li>
-        </ul>
       </div>
-
-      <div class="hero-visual" aria-label="Example of skills we'd find on a resume">
-        <div class="demo-card">
-          <div class="demo-head"><span class="dot"></span> Here's what we'd find — you tell us what's yours</div>
+      <div class="hero-visual">
+        <div class="proof" aria-label="A sample of what we'd ask you about">
+          <p class="bar"><span class="dot" aria-hidden="true"></span>Here's what we'd ask you about.</p>
           <ul>
-            <li>
-              <span class="from"><b class="lbl">Your resume says:</b> "Showed 12 new people how we do things"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Trained 12 new hires on standard work procedures" <span class="conf">You choose "Add this" or "Skip."</span></span>
-            </li>
-            <li>
-              <span class="from"><b class="lbl">Your resume says:</b> "Locked out machines before repairs"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "OSHA lockout/tagout (LOTO) safety compliance" <span class="conf">You choose "Add this" or "Skip."</span></span>
-            </li>
-            <li>
-              <span class="from"><b class="lbl">Your resume says:</b> "Counted the warehouse every month"</span>
-              <span class="add"><b class="lbl">We'd suggest adding:</b> "Monthly inventory control and cycle counts" <span class="conf">You choose "Add this" or "Skip."</span></span>
-            </li>
-            <li class="ask"><span>CPR / First Aid — currently certified?</span> <span class="conf">You answer "Yes, I hold it" or "No, leave it off."</span></li>
+            {examples.map((e) => (
+              <li>
+                <p class="says">Your resume says "{e.says}"</p>
+                <p class="add"><b>We'd ask about adding</b> "{e.add}"</p>
+                <p class="choice" aria-hidden="true"><span class="yes">Add this</span><span class="no">Skip</span></p>
+              </li>
+            ))}
           </ul>
-          <p class="covcap">Your facts, your numbers — put in the words employers search for. We never add a number you didn't give us.</p>
         </div>
-        <p class="cap">Sample data — generic profile, no real employer shown.</p>
+        <p class="cap">This is a sample with a made-up profile. You choose "Add this" or "Skip" for every one.</p>
       </div>
     </div>
   </section>
 
-  <!-- ===== GET STARTED (directly below the hero — the shortest path in) ===== -->
-  <section id="get-started" class="section alt">
-    <div class="container start">
-      <p class="eyebrow">Get started</p>
-      <h2>Let's see what you've been leaving off.</h2>
-      {LAUNCHED
-        ? <p class="lede">Pick your build, then upload your resume, and we'll dig in together to find real things you've earned but never wrote down. Nothing goes on your resume that you didn't give us or confirm.</p>
-        : <p class="lede">We launch in October 2026. Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>}
-
-      {LAUNCHED ? (
-        <>
-          <div class="start-cta">
-            <a class="btn btn-amber btn-lg buy-now" href={`${appUrl}/buy`}>Buy now</a>
-            <p class="free-link">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>. Already have an account? <a href={appUrl + '/login'} style="white-space:nowrap">Sign in now</a>.</p>
-          </div>
-        </>
-      ) : (
+  {!LAUNCHED && (
+    <section id="get-started" class="home-sec">
+      <div class="container start">
+        <h2>Let's see what you've been leaving off.</h2>
+        <p class="gray">We launch in October 2026. Join the launch list now and two things are yours: <b>25% off your first resume when we open</b>, and our ATS-Safe Resume Template (a ready-to-use Word file) the moment you join.</p>
         <div class="start-cta" id="capture">
           <form class="capture-form" method="post" action={waitlistAction}>
             <input type="text" name="fax_number" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
@@ -93,398 +63,160 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
             <input class="capture-email" type="email" name="email" required placeholder="you@example.com" aria-label="Your email address" />
             <button class="btn btn-amber btn-lg" type="submit">Join the launch list</button>
           </form>
-          <p class="start-alt muted">We only need your email. There is no account to create and no card to enter. We will send an occasional useful note before launch, and your discount arrives in the launch email. No spam.</p>
+          <p class="start-alt gray">We only need your email. There is no account to create and no card to enter. We will send an occasional useful note before launch, and your discount arrives in the launch email. No spam.</p>
           <p class="capture-done hide" id="captureDone">You&#39;re on the list, and your 25% is locked in. We&#39;ll send the occasional useful note and tell you the moment we&#39;re live.</p>
           <a class="btn btn-premium hide" id="captureGift" href="/templates/resume-format-for-ats-template.docx" download>Download your ATS-Safe Resume Template</a>
-          <p class="capture-err hide" id="captureErr">That email didn't look right — mind trying it again?</p>
+          <p class="capture-err hide" id="captureErr">That email didn't look right. Mind trying it again?</p>
         </div>
-      )}
-    </div>
-  </section>
+      </div>
+    </section>
+  )}
 
   <!-- ===== HOW IT WORKS ===== -->
-  <section id="how-it-works" class="section alt">
+  <section id="how-it-works" class="home-sec white">
     <div class="container">
-      <p class="eyebrow">How it works</p>
-      <h2>Three steps. You stay the author the whole way.</h2>
-      <div class="grid cols-3 steps">
-        <div class="card">
-          <span class="step-n">1</span>
-          <h3>Upload</h3>
-          <p>We work from up to three of your old resumes plus your LinkedIn export, and you confirm what is yours. We only ever use the files you upload.</p>
-        </div>
-        <div class="card">
-          <span class="step-n">2</span>
-          <h3>Confirm</h3>
-          <p>We'll show you skills and credentials common to work like yours and ask which ones are really you. Nothing lands on your resume until you say it's yours.</p>
-        </div>
-        <div class="card">
-          <span class="step-n">3</span>
-          <h3>Download</h3>
-          <p>Get a clean resume that screening software (<AtsTerm />) can read, built only from what you confirmed, and see for yourself how that software reads it.</p>
-        </div>
-      </div>
+      <h2>Three steps, and you stay the author.</h2>
+      <ol class="steps">
+        <li><h3>Upload your resume.</h3><p>Add up to three old resumes and your LinkedIn export, and we work only from what you give us.</p></li>
+        <li><h3>Answer our questions.</h3><p>We ask about skills and credentials common to work like yours, and you say yes or no to each one.</p></li>
+        <li><h3>Download your resume.</h3><p>You get a clean Word and PDF file that screening software reads, built only from what you confirmed.</p></li>
+      </ol>
     </div>
   </section>
 
-  <!-- VIDEO SECTION REMOVED 07/25/2026 (TODO A3: no placeholder until the real cut exists — a
-       promise broken on-page converts worse than absence). When the founder video ships, restore a
-       "See it work first" section here (id="demo", click-to-play per the LOCKED 06/17 decision —
-       never autoplay, never background). The .video-ph / .play styles are retained in the <style>
-       block below for that return. Also re-add the "watch the walkthrough" link in .reoffer above. -->
-
-  <!-- ===== FOR JOB SEEKERS ===== -->
-  <section id="job-seekers" class="section alt">
-    <div class="container jobs-grid">
-      <div>
-        <p class="eyebrow">For job seekers</p>
-        <h2>The resume that finally reflects the work you did.</h2>
-        <p class="lede">For career changers, military and government-to-private transitions, the trades, and specialists who do far more than their resume shows.</p>
-        <ul class="ticks">
-          <li>We'll find the skills and credentials you left off — you confirm each one, in your words</li>
-          <li>Aiming at one specific job? The AR Pass ($99) aims your experience at it, with up to 10 targeted builds in 90 days.</li>
-          <li>Aiming at a new field? The AR Pass turns government, military, and trade terms into language the hiring side recognizes. <a href="#military">See a real translation.</a></li>
-          <li>See for yourself how the screening software reads your resume</li>
-          <li>Paid a resume service and got a template back? Bring the draft you paid for and we finish what it started. See <a href="/fix/">Fix a resume you paid for</a>.</li>
-        </ul>
-        <div class="cta-row">
-          {LAUNCHED && <a class="btn btn-amber" href={`${appUrl}/buy`}>Buy now</a>}
-          <a class="btn btn-primary" href="#pricing">See pricing</a>
-        </div>
-      </div>
-      <img src="/img/resume-doc.svg" width="480" height="320" alt="A resume with newly found skills highlighted and a format check" loading="lazy" />
-    </div>
-  </section>
-
-  <!-- ===== HOW WE DIFFER (comparison) ===== -->
-  <section id="compare" class="section alt">
+  <!-- ===== PRICING ===== -->
+  <section id="pricing" class="home-sec soft" data-hide-header-buy>
     <div class="container">
-      <p class="eyebrow">How we differ</p>
-      <h2>How AdaptiveResume compares to other resume tools.</h2>
-      <p class="lede" style="max-width:62ch">Many tools either make you do all the thinking, or do too much of it — and invent things along the way. Here's the honest difference, by category.</p>
-      <div class="table-wrap">
-        <table class="compare">
-          <thead>
-            <tr>
-              <th>What matters</th>
-              <th class="us">AdaptiveResume</th>
-              <th>Template builders</th>
-              <th>AI generators</th>
-              <th>Human writers</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><th>Works from your uploaded resumes or an export from your LinkedIn profile</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Finds what you left off</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Nothing made up</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="c">✓</td></tr>
-            <tr><th>Asks you before anything lands in your final resume</th><td class="us c">✓</td><td class="c">✓</td><td class="x">✗</td><td class="p">Sometimes</td></tr>
-            <tr><th>Shows you how screening software reads your resume</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="x">✗</td></tr>
-            <tr><th>Translates across fields (military / gov / industry)</th><td class="us c">✓</td><td class="x">✗</td><td class="p">Sometimes</td><td class="c">✓</td></tr>
-            <tr><th>Typical cost</th><td class="us">$29–$99<br /><span class="sub">one payment, never <span style="white-space:nowrap">auto-renews</span></span></td><td>$0–$40<br /><span class="sub">often subscription</span></td><td>$10–$50+<br /><span class="sub">often subscription</span></td><td>$120–$700+<br /><span class="sub">one-time</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="scroll-hint" aria-hidden="true">Slide the table to see the other tools.</p>
-      <p class="muted small" style="margin-top:12px">Cost ranges are typical figures for each category, for comparison, not quotes from specific companies. We never promise an outcome.</p>
-    </div>
-  </section>
-
-  <!-- ===== THE HONEST CHATBOT QUESTION ===== -->
-  <section id="vs-chat" class="section">
-    <div class="container" style="max-width:820px">
-      <p class="eyebrow">The honest question</p>
-      <h2>"Can't I just ask a chatbot to do this?"</h2>
-      <p class="lede">
-        You can ask — and you'll get back something that reads well. Here's the difference: we've
-        spent months building a system designed so false experience, invented skills, and AI's
-        made-up "facts" can't reach your resume. <b>We work backwards from the jobs you've actually held to find what you never typed at all.</b>
-      </p>
-      <ul class="ticks">
-        <li><b>A chatbot writes first and leaves you to catch what isn't true.</b> It puts plausible-sounding credentials straight into the draft, and spotting the false ones inside smooth, confident writing is genuinely hard. With AdaptiveResume, it works the other way around: every suggestion arrives as a question, and your final resume is built only from what you brought us and what you approve.</li>
-        <li><b>A chatbot polishes what you already wrote.</b> We dig into what work like yours really involves — the certifications, safety standards, and training that belong on your resume but weren't in your head to ask about. That's the part you can't prompt your way to.</li>
-        <li><b>You finish with real files, not text in a chat window.</b> Finished Word and PDF, your original words quoted back on every finding, checked against what screening software reads — every check shown to you.</li>
-      </ul>
-      <p><a href="/demo/">See it work on a sample resume, no sign-up needed.</a></p>
-
-      <!-- ===== HOW LONG IT TAKES (toggle: a resume writer / doing it yourself with a chatbot).
-           Retitled and rewritten 09/19/2026 (hero-page clarity audit, founder-approved item 2). ===== -->
-      <div class="timemath">
-        <h3>How long it takes</h3>
-        <p class="muted">You never do this alone. We go through your resume with you: no appointment to wait for, at your pace, one finding at a time.{LAUNCHED && ' You can start right now.'}</p>
-        <p class="tm-lead">Compare the time it takes with:</p>
-        <div class="tm-tabs">
-          <button class="tm-tab active" data-tm="writer">A resume writer</button>
-          <button class="tm-tab" data-tm="diy">Doing it yourself with a chatbot</button>
-        </div>
-        <div class="tm-panel" data-tm="writer">
-          <div class="tm-col">
-            <h4>A professional writing service</h4>
-            <ul>
-              <li>Day one: you book, pay, and fill out their questionnaire.</li>
-              <li>A first draft arrives in 3 to 7 business days.</li>
-              <li>Revisions add roughly another week.</li>
-              <li><b>In total, you wait one to two weeks.</b></li>
-            </ul>
-          </div>
-          <div class="tm-col us">
-            <h4>AdaptiveResume</h4>
-            <ul>
-              <li>Upload your resume. Within seconds you see a free format check of how screening software reads it.</li>
-              <li>The first suggestions appear moments after you start, and you say yes or no to each one.</li>
-              <li>You go at your own pace. If you get interrupted, we save your place.</li>
-              <li><b>In total, you finish today.</b> A live clock shows on screen whenever we are working, so you always know where things stand.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tm-panel hide" data-tm="diy">
-          <div class="tm-col">
-            <h4>Doing it yourself with a chatbot</h4>
-            <ul>
-              <li>You prompt and re-prompt until something is usable.</li>
-              <li>Then comes the step almost nobody does: checking every line yourself, because nothing else checks it.</li>
-              <li>Then you wrestle the text into a clean file that screening software can read.</li>
-              <li><b>Your active work is an evening or more, and all of the checking is on you.</b></li>
-            </ul>
-          </div>
-          <div class="tm-col us">
-            <h4>AdaptiveResume</h4>
-            <ul>
-              <li>We do the digging, the checking, and the formatting. The checks are built in, so nothing depends on you remembering to do them.</li>
-              <li>You spend your time on the one thing only you can do: confirming what is true.</li>
-              <li>You finish the same sitting with checked, formatted Word and PDF files.</li>
-              <li><b>Your active work is one focused session, guided the whole way.</b></li>
-            </ul>
-          </div>
-        </div>
-        <p class="muted small">Turnaround comparisons reflect typical advertised timelines of major resume-writing services (2026). We never promise a fixed duration — you'll always see a live clock while we work.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== MILITARY / GOVERNMENT TRANSLATION PROOF ===== -->
-  <section id="military" class="section alt">
-    <div class="container" style="max-width:820px">
-      <p class="eyebrow">Military &amp; government transitions</p>
-      <h2>Your record is strong. Its language is the problem.</h2>
-      <p class="lede">
-        Civilian screening software has never heard of an AMAL block, an NCOER, or a property book.
-        The AR Pass translates what you actually did into the words civilian employers search for, and nothing goes on your resume unless you confirm it.
-      </p>
-      <div class="beforeafter">
-        <div class="ba-row"><span class="ba-tag">Your resume says</span>
-          <p>"Maintained AMAL blocks and surgical instrument sets"</p></div>
-        <div class="ba-row after"><span class="ba-tag">The same truth, in the words employers search for</span>
-          <p>"Performed sterile processing end to end — decontamination, assembly, sterilization, and quality inspection of surgical instrument sets and case carts — to hospital SPD standards."</p></div>
-      </div>
-      <p class="muted small">Sample translation — generic profile, no real service member shown.</p>
-      <p><a href="/demo/?p=military">See it work on a military sample, no sign-up needed.</a></p>
-    </div>
-  </section>
-
-  <!-- ===== PRICING (consumer only) ===== -->
-  <section id="pricing" class="section">
-    <div class="container">
-      <p class="eyebrow">Pricing</p>
-      <h2>Each purchase is one payment, and nothing renews, so there is nothing to cancel.</h2>
-      <div class="grid cols-2 pricing">
-        <div class="card price">
-          <h3>Single Resume Build</h3>
-          <p class="amount">$29<span>one resume, one payment</span></p>
-          <p class="muted">You can use your build any time within 90 days of buying it. If you want more builds, you can upgrade to the AR Pass for $55 within 30 days of buying your single build.</p>
-          <p class="muted">Your resume is made complete, with everything you've earned finally on paper.</p>
-          <ul class="ticks">
-            <li>We dig through up to three of your old resumes plus your LinkedIn export together, and you confirm what is yours.</li>
+      <h2>Pick your build.</h2>
+      <div class="prices">
+        <div class="price">
+          <div class="top"><h3>Single Resume Build</h3></div>
+          <p class="amt">$29</p>
+          <p class="gray">One complete resume, built with you. Use it any time within 90 days.</p>
+          <ul>
+            <li>We go through up to three old resumes and your LinkedIn export with you.</li>
             <li>We find the skills and credentials your work earned but your resume left off.</li>
-            <li>Your finished resume shows a hiring manager what you really bring to the job, and hiring software reads it cleanly.</li>
-            <li>We run the format checks screening software cares about, and we show you each one.</li>
+            <li>We run the format checks screening software cares about and show you each one.</li>
           </ul>
           <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/buy?pick=base' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
         </div>
-
-        <div class="card price featured">
-          <span class="tag-premium">For a specific role</span>
-          <h3>AR Pass</h3>
-          <p class="amount">$99<span>up to 10 targeted builds in 90 days</span></p>
-          <p class="muted">Any builds you don't use end when the 90 days end. If you use all 10 while your pass is active, you can add 10 more for $49.</p>
-          <p class="muted">Everything the single build does, plus we aim each resume at the job you are going for, in the language that employer's hiring team recognizes.</p>
-          <ul class="ticks">
-            <li>We translate your experience into the language that job posting uses.</li>
-            <li>We show you, side by side, what the posting asks for, what your resume covers, and what it does not.</li>
-            <li>We put together 25 interview questions for that exact role, each tied to a line in the posting or a line on your resume.</li>
+        <div class="price best">
+          <div class="top"><h3>AR Pass</h3><span class="tag">Best value</span></div>
+          <p class="amt">$99</p>
+          <p class="gray">Up to 10 resumes within 90 days, each aimed at a job you want.</p>
+          <ul>
+            <li>Everything the single build does.</li>
+            <li>We put each resume in the language that job posting uses.</li>
+            <li>We put together 25 practice interview questions for each role.</li>
           </ul>
-          <p class="muted" style="font-size: var(--fs-body)">Your finished resume is a file you keep, and you can send it to as many employers as you want.</p>
-          <a class="btn btn-premium" href={LAUNCHED ? appUrl + '/buy?pick=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/buy?pick=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
-      <p class="muted finep">{LAUNCHED ? 'A single build and the AR Pass can each be used for 90 days after you buy them, and neither renews on its own. Buying the AR Pass again adds its builds and starts a new 90 days. Bought a single build? You can upgrade to the AR Pass for $55 within 30 days of buying it.' : 'If you join our list, your first purchase is 25% off within 30 days of joining.'}</p>
-      <p class="muted finep">If we genuinely find nothing to add to your resume, we rework it with you. The plain-language details are in our <a href="/terms/">Terms</a>.</p>
+      <p class="gray note">Each purchase is one payment, and nothing renews, so there is nothing to cancel. The details are in our <a href="/terms/">Terms</a>.</p>
     </div>
   </section>
 
-  <!-- ===== COMMERCIAL BANNER (links to dedicated page) ===== -->
-  <section class="section tint">
-    <div class="container banner">
-      <img src="/img/office-desk.svg" width="480" height="320" alt="Two people talking across an office desk" loading="lazy" />
-      <div>
-        <p class="eyebrow">For organizations</p>
-        <h2>Hiring, staffing, or placing people?</h2>
-        <p class="lede">AdaptiveResume finds what every candidate's resume left off, one batch at a time, with the same promise: nothing made up. It is built for staffing agencies, outplacement firms, workforce boards, and veteran and reentry nonprofits.</p>
-        <a class="btn btn-primary btn-lg" href="/business/">See plans for organizations</a>
+  <!-- ===== WHY NOT A CHATBOT ===== -->
+  <section id="vs-chat" class="home-sec navy">
+    <div class="container narrow">
+      <h2>Why not just ask a chatbot?</h2>
+      <p>A chatbot writes first and leaves you to catch what isn't true. We ask first, and nothing goes on your resume until you tell us it's right. You finish with real files, and we show you how screening software reads them.</p>
+    </div>
+  </section>
+
+  <!-- ===== FIND YOUR PAGE ===== -->
+  <section id="job-seekers" class="home-sec white">
+    <div class="container">
+      <h2>Find the page made for you.</h2>
+      <div class="who">
+        <a href="/career-change/">I'm changing careers</a>
+        <a href="/veterans/">I'm leaving the military</a>
+        <a href="/nurses/">I'm a nurse</a>
+        <a href="/fix/">I paid for a resume that fell short</a>
       </div>
-    </div>
-  </section>
-
-  <!-- ===== LEGAL NOTE ===== -->
-  <section id="legal" class="section legal-strip">
-    <div class="container legalnote">
-      <p class="muted">
-        <b>We never make anything up.</b> We only add what you confirm is true, any edit you make stays, and your finished
-        resume reads cleanly in the screening software employers use (<AtsTerm />). The details are in our
-        <a href="/terms/">Terms of Service</a>, <a href="/privacy/">Privacy Policy</a>, and <a href="/disclaimer/">Disclaimer</a>.
-      </p>
+      <p class="gray org">Hiring, staffing or placing people? <a href="/business/">See our plans for organizations</a>.</p>
     </div>
   </section>
 
   <style>
-    /* hero — cool glow top-right, warm glow bottom-left for depth */
-    .hero { padding: 58px 0 40px; background:
-      radial-gradient(1100px 460px at 72% -12%, #d8e5fa, transparent 70%),
-      radial-gradient(760px 380px at 4% 112%, #fdf0dc, transparent 62%),
-      var(--bg); }
-    .hero-grid { display: grid; gap: 36px; align-items: center; }
-    @container (min-width: 60rem) { .hero-grid { grid-template-columns: 1.05fr 0.95fr; padding-top: 18px; } }
-    .tagline { font-size: var(--fs-lead); font-weight: 700; color: var(--ink); margin: 0 0 12px; }
-    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 18px; }
-    .pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+    /* One rhythm for every section (founder 11/20/2026: the old gaps took about a third of a phone screen). */
+    section { padding: clamp(28px, 3vw, 40px) 0; }
+    h1, h2 { font-weight: 700; }
+    h1 { margin: 0; }
+    h2 { margin: 0 0 20px; }
+    h3 { font-size: var(--fs-body); font-weight: 700; margin: 0; letter-spacing: 0; }
+    p { margin: 0; }
+    .gray { color: var(--muted); }
+    .white { background: #fff; }
+    .soft { background: var(--surface); }
+    .navy { background: var(--primary); color: #fff; }
+    .navy h2 { color: #fff; }
+    .narrow { max-width: 820px; }
 
-    .demo-card { background: linear-gradient(160deg, #16244a, #0b1226); color: #e6ecfb; border: 1px solid #2a3a6b; border-radius: var(--radius); padding: 18px 18px 14px; box-shadow: 0 18px 52px rgba(16,32,64,.28); }
-    .demo-head { font-size: var(--fs-small); letter-spacing: .04em; color: #9fb3e0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-    .demo-head .dot { width: 9px; height: 9px; border-radius: 50%; background: #4ade80; display: inline-block; }
-    .demo-card ul { list-style: none; margin: 0 0 16px; padding: 0; }
-    .demo-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: var(--fs-small); }
-    .demo-card li.ask { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; }
-    /* one text size in-card (locked rule) — hierarchy by color/weight only */
-    .demo-card .from { display: block; color: #8fa3cf; }
-    .demo-card .add { display: block; color: #c9f7d8; }
-    .demo-card .lbl { font-weight: 700; }
-    /* tags are full sentences since 10/18/2026, so they wrap on their own line instead of staying on one row */
-    .demo-card .conf { display: block; margin-top: 2px; color: #9fb3e0; white-space: normal; } /* one text size in the card: color carries the hierarchy (review 10/18 S2) */
-    .demo-card li.ask span:first-child { color: #ffe1a8; }
-    .covcap { font-size: var(--fs-small); color: #9fb3e0; margin: 4px 0 0; }
-    .cap { font-size: var(--fs-small); color: var(--muted); margin-top: 10px; text-align: center; }
+    /* hero: a navy band with white type, the sample card beside it on wide screens */
+    .home-hero { background: var(--primary); color: #fff; padding-top: 32px; }
+    .home-hero h1 { color: #fff; }
+    .hero-grid { display: grid; gap: 28px; align-items: center; }
+    @container (min-width: 54rem) { .hero-grid { grid-template-columns: 1.05fr 1fr; gap: 56px; } }
+    .sub { margin-top: 16px; color: #d5deea; max-width: 36em; }
+    .cta { margin-top: 24px; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+    .home-hero .step-line { margin: 0; color: #d5deea; }
+    .home-hero .free-link { margin: 0; color: #d5deea; }
+    .home-hero .free-link a { color: #fff; }
+    .home-hero .btn-amber { box-shadow: none; }
 
-    /* steps */
-    .steps .card { position: relative; padding-top: 30px; }
-    .steps .card:hover { box-shadow: var(--shadow-lg); }
-    .step-n { position: absolute; top: -16px; left: 22px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: var(--accent-strong); color: #16202b; font-weight: 800; }
+    /* the sample card, drawn like the app */
+    .proof { background: #fff; color: var(--ink); border-radius: var(--radius); overflow: hidden; }
+    .proof .bar { display: flex; align-items: center; gap: 8px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface); font-weight: 700; }
+    .proof .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--true); flex: none; }
+    .proof ul { list-style: none; margin: 0; padding: 0; }
+    .proof li { padding: 16px 20px; border-top: 1px solid var(--line); }
+    .proof li:first-child { border-top: 0; }
+    .proof .says { color: var(--muted); }
+    .proof .add { margin-top: 6px; }
+    .choice { display: flex; gap: 10px; margin-top: 12px; }
+    .choice span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 9px; font-weight: 700; }
+    .choice .yes { background: var(--primary); color: #fff; }
+    .choice .no { box-shadow: inset 0 0 0 1px var(--line); color: var(--muted); }
+    .cap { margin-top: 12px; color: #d5deea; }
 
-    /* demo + jobs split */
-    .demo-grid, .jobs-grid { display: grid; gap: 30px; align-items: center; }
-    @container (min-width: 55rem) { .demo-grid, .jobs-grid { grid-template-columns: 1fr 1fr; } }
-    .jobs-grid img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
-    .video-ph { position: relative; aspect-ratio: 16/9; border-radius: var(--radius); background: linear-gradient(135deg,#1b2740,#0f1830); color: #cdd7ef; display: grid; place-items: center; text-align: center; padding: 16px; box-shadow: var(--shadow-lg); }
-    .video-ph span { font-size: var(--fs-small); opacity: .8; position: absolute; bottom: 14px; }
-    .video-ph .play { width: 64px; height: 64px; border-radius: 50%; border: none; background: linear-gradient(180deg, #fbb043, var(--accent-strong)); color: #16202b; font-size: var(--fs-h3); cursor: pointer; box-shadow: 0 8px 24px rgba(217,119,6,.4); transition: transform .1s; }
-    .video-ph .play:hover { transform: scale(1.06); }
+    /* how it works */
+    .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; counter-reset: s; }
+    .steps li { counter-increment: s; }
+    .steps h3::before { content: counter(s); display: inline-grid; place-items: center; width: 32px; height: 32px; margin-right: 12px; border-radius: 50%; background: var(--primary); color: #fff; }
+    .steps p { margin-top: 4px; color: var(--muted); }
+    @container (min-width: 54rem) { .steps { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
 
-    .ticks { list-style: none; padding: 0; margin: 14px 0 18px; }
-    .ticks li { padding-left: 26px; position: relative; margin-bottom: 9px; color: var(--ink-soft); }
-    .ticks li::before { content: "✓"; position: absolute; left: 0; color: var(--true); font-weight: 800; }
+    /* pricing: the AR Pass is the focal point (founder 11/20/2026: a soft orange glow and "Best value") */
+    .prices { display: grid; gap: 16px; }
+    @container (min-width: 54rem) { .prices { grid-template-columns: 1fr 1fr; gap: 20px; } }
+    .price, .who a { min-width: 0; }
+    .price { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 24px; }
+    .price.best { border: 2px solid var(--accent-strong); padding: 27px 23px; box-shadow: 0 0 0 4px rgba(245,158,11,.14), 0 10px 30px rgba(245,158,11,.28); }
+    .price .top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 12px; min-height: 30px; }
+    .tag { display: inline-flex; align-items: center; min-height: 30px; padding: 0 12px; border-radius: 999px; background: var(--accent-strong); color: var(--ink); font-weight: 700; white-space: nowrap; }
+    .amt { font-size: var(--fs-h2); font-weight: 700; line-height: 1.2; margin-top: 4px; }
+    .price ul { margin: 16px 0 24px; padding-left: 20px; color: var(--muted); }
+    .price li + li { margin-top: 8px; }
+    .price .btn { margin-top: auto; align-self: stretch; }
+    .note { margin-top: 20px; }
 
-    /* pricing */
-    .pricing .price { display: flex; flex-direction: column; }
-    .price.featured { border-color: #cbb4f0; box-shadow: 0 0 0 3px #ece2fb, var(--shadow-lg); position: relative; }
-    .amount { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.02em; margin: 6px 0 4px; }
-    .amount span { font-size: var(--fs-small); font-weight: 700; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
-    .price .btn { margin-top: auto; align-self: flex-start; }
-    .finep { text-align: center; margin-top: 24px; font-size: var(--fs-small); }
+    /* find your page */
+    .who { display: grid; gap: 12px; }
+    @container (min-width: 54rem) { .who { grid-template-columns: 1fr 1fr; } }
+    .who a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font-weight: 700; }
+    .who a::after { content: "\2192"; color: var(--primary); }
+    .who a:hover { border-color: var(--primary); text-decoration: none; }
+    .org { margin-top: 20px; }
 
-    /* comparison table (scrolls horizontally on small screens) */
-    .table-wrap { overflow-x: auto; margin-top: 18px; -webkit-overflow-scrolling: touch; border-radius: var(--radius); }
-    .compare { width: 100%; min-width: 720px; border-collapse: collapse; background: var(--card); }
-    .compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); font-size: var(--fs-small); vertical-align: middle; }
-    .compare thead th { background: var(--surface); font-weight: 700; color: var(--ink); }
-    .compare tbody th { text-align: left; font-weight: 700; color: var(--ink-soft); }
-    .compare .us { background: var(--primary-bg); }
-    .compare thead th.us { color: var(--primary); }
-    /* our column framed in green so it stands out (founder 10/18/2026) */
-    .compare .us { border-left: 3px solid var(--true); border-right: 3px solid var(--true); }
-    .compare thead th.us { border-top: 3px solid var(--true); }
-    .compare tbody tr:last-child td.us { border-bottom: 3px solid var(--true); }
-    .compare .c { color: var(--true); font-weight: 800; font-size: var(--fs-body); }
-    .compare .x { color: #b42318; font-weight: 800; font-size: var(--fs-body); }
-    .compare .p { color: var(--muted); font-weight: 800; }
-    .compare .sub { font-size: var(--fs-small); color: var(--muted); font-weight: 400; }
-    @container (width < 45rem) {
-      .compare { min-width: 560px; }
-      .compare th, .compare td { padding: 10px 10px; font-size: var(--fs-small); }
-      .compare thead th { font-size: var(--fs-small); }
-    }
-    .small { font-size: var(--fs-small); }
-
-    /* commercial banner */
-    .banner { display: grid; gap: 28px; align-items: center; }
-    @container (min-width: 55rem) { .banner { grid-template-columns: 0.9fr 1.1fr; } }
-    .banner img { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; height: auto; }
-
-    /* get started */
-    .start-cta { margin: 20px 0 6px; }
-    .start-alt { margin-top: 12px; font-size: var(--fs-small); }
-    .start-alt a { font-weight: 700; }
-    /* Pre-launch capture: one row on desktop, stacks on mobile (mobile-first rule). */
-    .capture-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .capture-email { flex: 1 1 260px; max-width: 380px; padding: 14px 16px; font-size: var(--fs-body);
-      border: 1px solid rgba(0,0,0,.25); border-radius: 10px; }
-    .capture-done, .capture-err { margin-top: 12px; font-weight: 700; }
-    .capture-done.hide, .capture-err.hide { display: none; }
-    /* the gift button is a .btn (inline-flex) — the id rule outranks it, so .hide
-       actually hides (the guide-gate lesson: display rules silently beat less specific hides) */
-    #captureGift.hide { display: none !important; }
-    #captureGift { margin-top: 10px; }
-    .start { max-width: 720px; text-align: center; }
-    .start .lede { margin-left: auto; margin-right: auto; max-width: 56ch; }
-    .start .free-link { margin-left: auto; margin-right: auto; }
-    .dropzone { display: block; cursor: pointer; border: 2px dashed #9fb0c4; border-radius: var(--radius); background: var(--card); padding: 34px 20px; margin: 12px 0 14px; transition: border-color .15s, background .15s, box-shadow .15s; }
-    .dropzone:hover { border-color: var(--accent-strong); background: #fffdf8; box-shadow: 0 0 0 4px var(--accent-bg); }
-    .dropzone input { position: absolute; width: 1px; height: 1px; opacity: 0; }
-    .dz-ico { display: block; font-size: var(--fs-h2); color: var(--accent); }
-    .dz-main { display: block; font-weight: 700; font-size: var(--fs-h3); margin: 6px 0 2px; }
-    .dz-sub { display: block; font-size: var(--fs-small); }
-    .reoffer { font-size: var(--fs-small); }
-
-    /* time math */
-    .timemath { margin-top: 34px; }
-    .timemath h3 { font-size: var(--fs-h3); margin: 0 0 6px; }
-    .tm-lead { margin: 14px 0 8px; font-weight: 700; }
-    .tm-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
-    .tm-tab { font: inherit; font-size: var(--fs-small); font-weight: 700; padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
-    .tm-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .tm-panel { display: grid; gap: 14px; }
-    @container (min-width: 47.5rem) { .tm-panel { grid-template-columns: 1fr 1fr; } }
-    .tm-panel.hide { display: none; }
-    .tm-col { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
-    .tm-col.us { border-color: #7fb08a; background: #f3faf4; }
-    .tm-col h4 { margin: 0 0 8px; font-size: var(--fs-body); }
-    .tm-col ul { margin: 0; padding-left: 18px; }
-    .tm-col li { margin-bottom: 8px; color: var(--ink-soft); font-size: var(--fs-body); }
-
-    /* military before/after */
-    .beforeafter { display: grid; gap: 12px; margin: 18px 0 10px; }
-    .ba-row { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
-    .ba-row.after { border-color: #7fb08a; background: #f3faf4; }
-    .ba-tag { display: block; font-size: var(--fs-small); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
-    .ba-row.after .ba-tag { color: #2f7a45; }
-    .ba-row p { margin: 0; font-size: var(--fs-body); }
-
-    /* founder 07/28: dead air around the strip — 50px less above, 30px less below (was 74/74) */
-    .legal-strip { padding: 24px 0 44px; }
-    .legalnote { text-align: center; }
-    .legalnote p { max-width: 80ch; margin: 0 auto; font-size: var(--fs-small); }
+    /* pre-launch capture (local builds without the launch switch) */
+    .start-cta { margin-top: 20px; display: grid; gap: 12px; max-width: 34rem; }
+    .capture-form { display: grid; gap: 10px; }
+    .capture-email { min-width: 0; font: inherit; padding: 13px 14px; border: 1.5px solid var(--line); border-radius: var(--radius-sm); }
+    .hide { display: none !important; }
   </style>
   <script>
-    // Pre-launch capture: returning from POST /waitlist with ?joined=1|err — show
-    // the outcome in place of / under the form. No-JS visitors still landed on
-    // #get-started via the 303, so nothing depends on this running.
+    // Pre-launch capture: returning from POST /waitlist with ?joined=1|err, show the outcome in place of or under the form.
     const joined = new URLSearchParams(location.search).get('joined');
     if (joined) {
       const done = document.getElementById('captureDone');
@@ -497,14 +229,5 @@ const waitlistAction = appUrl + '/waitlist'; // plain form POST — the app 303s
       }
       else if (err) { err.classList.remove('hide'); }
     }
-
-    // Time-math toggle (vs writer / vs DIY chat)
-    document.querySelectorAll('.tm-tab').forEach((tab) => {
-      tab.addEventListener('click', () => {
-        const key = tab.getAttribute('data-tm');
-        document.querySelectorAll('.tm-tab').forEach((t) => t.classList.toggle('active', t === tab));
-        document.querySelectorAll('.tm-panel').forEach((p) => p.classList.toggle('hide', p.getAttribute('data-tm') !== key));
-      });
-    });
   </script>
 </Base>

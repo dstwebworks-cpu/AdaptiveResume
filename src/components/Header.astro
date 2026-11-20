@@ -27,9 +27,10 @@ const links = [
     </nav>
 
     {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary cta-desktop" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-primary cta-desktop hdr-buy" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
 
-    {LAUNCHED && <a class="btn btn-primary cta-phone" href={`${appUrl}/buy`}>Buy now</a>}
+    {LAUNCHED && <a class="signin signin-phone" href={appUrl + '/login'}>Sign in</a>}
+    {LAUNCHED && <a class="btn btn-primary cta-phone hdr-buy" href={`${appUrl}/buy`}>Buy now</a>}
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -45,6 +46,21 @@ const links = [
 
 <script>
   const header = document.getElementById('site-header');
+  // Option C (11/20/2026): on a page with its own main Buy now button (data-hero-buy), the header shows Sign in until that
+  // button has scrolled away, and again while any part marked data-hide-header-buy (the prices) is on screen.
+  const heroBuy = document.querySelector('[data-hero-buy]');
+  if (header && heroBuy && 'IntersectionObserver' in window) {
+    header.classList.add('await-buy');
+    let past = false;
+    const showing = new Set<Element>();
+    const update = () => header.classList.toggle('await-buy', !past || showing.size > 0);
+    new IntersectionObserver(([e]) => { past = !e.isIntersecting && e.boundingClientRect.top < 0; update(); }).observe(heroBuy);
+    const watch = new IntersectionObserver((list) => {
+      for (const e of list) { if (e.isIntersecting) showing.add(e.target); else showing.delete(e.target); }
+      update();
+    }, { rootMargin: '-64px 0px 0px 0px' });
+    document.querySelectorAll('[data-hide-header-buy]').forEach((el) => watch.observe(el));
+  }
   if (header) {
     const btn = header.querySelector('.hamburger');
     const close = () => { header.classList.remove('menu-open'); btn?.setAttribute('aria-expanded', 'false'); btn?.setAttribute('aria-label', 'Open menu'); };
@@ -68,8 +84,8 @@ const links = [
 
 <style>
   .site-header { container-type: inline-size; container-name: hdr; position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.93); backdrop-filter: saturate(150%) blur(8px); border-bottom: 1px solid var(--line); }
-  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-block: 8px; min-height: 64px; container-type: inline-size; container-name: bar; }
-  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: var(--fs-brand); color: var(--ink); letter-spacing: -0.02em; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-block: 8px; min-height: 64px; container-type: inline-size; container-name: bar; }
+  .brand { display: flex; align-items: center; gap: 10px; margin-right: auto; font-weight: 800; font-size: var(--fs-brand); color: var(--ink); letter-spacing: -0.02em; }
   .brand:hover { text-decoration: none; }
   .mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #F39F0C; color: #18222D; font-size: var(--fs-mark); font-weight: 800; }
 
@@ -82,7 +98,7 @@ const links = [
   a.signin:hover { color: var(--accent); text-decoration: none; }
 
   /* hamburger (mobile) */
-  .hamburger { margin-left: auto; display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 10px; background: none; border: 1px solid var(--line); border-radius: 9px; cursor: pointer; }
+  .hamburger { display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 40px; height: 44px; padding: 10px 9px; background: none; border: 1px solid var(--line); border-radius: 9px; cursor: pointer; }
   .hamburger span { display: block; height: 2px; width: 100%; background: var(--ink); border-radius: 2px; transition: transform .2s, opacity .2s; }
   .menu-open .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
   .menu-open .hamburger span:nth-child(2) { opacity: 0; }
@@ -96,13 +112,16 @@ const links = [
   .mobile-menu a:not(.btn):hover { text-decoration: none; }
   .mobile-menu .btn { margin-top: 10px; }
 
-  /* Phone header button: shown only where it fits, decided by the header's own width in root text units (rem, the same unit the button uses), so larger text
-     settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026). */
-  .cta-phone { display: none; margin-left: auto; padding: 8px 11px; font-size: var(--fs-small); white-space: nowrap; min-height: 44px; }
-  /* The brand name always shows (founder 11/14/2026: "We need our brand to be known"; before this, phones showed only the "AR" square beside the
-     button). Where the name, the button and the menu do not fit on one row, the button takes a second row of its own, full width. */
-  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; margin: 0; } }
-  @container bar (min-width: 27.5rem) { .cta-phone { order: 0; flex-basis: auto; margin: 0 0 0 auto; } .cta-phone + .hamburger { margin-left: 0; } }
+  /* Phone header button: shown only where it fits on the logo's row, decided by the header's own width in root text units (rem, the same unit the
+     button uses), so larger text settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026).
+     The brand name always shows (founder 11/14/2026: "We need our brand to be known"). Option C (founder 11/20/2026): the button never takes a
+     second, full-width row (that made the phone header 113 px tall); where it does not fit, Buy now is in the menu. */
+  .cta-phone { display: none; padding: 8px 10px; font-size: var(--fs-small); white-space: nowrap; min-height: 40px; }
+  .signin-phone { display: none; }
+  /* Measured 11/20/2026: the name, the button, the menu and two gaps take 310 px; Sign in in the button's place takes 297 px. */
+  @container bar (min-width: 19.375rem) { .cta-phone { display: inline-flex; justify-content: center; } }
+  @container bar (min-width: 18.75rem) { .site-header.await-buy .signin-phone { display: inline-flex; } }
+  .site-header.await-buy .hdr-buy { display: none !important; }
 
   /* Desktop row from 900 px at normal text, as live. Site review 11/18/2026 (N1): it is decided by the header's own width in rem,
      so with large text the header keeps the menu layout until the whole desktop row fits (it ran 13 to 97 px off screen at 940 to
@@ -116,7 +135,8 @@ const links = [
     .bar { flex-wrap: nowrap; gap: 14px; padding-block: 0; }
   }
   @container bar (min-width: 56.25rem) {
-    .cta-phone { display: none !important; }
+    .cta-phone, .signin-phone { display: none !important; }
+    .brand { margin-right: 0; }
     .nav.desktop { display: flex; }
     .cta-desktop { display: inline-flex; }
     .hamburger { display: none; }

@@ -200,3 +200,32 @@ test("the hero price line keeps \"no auto-renewal.\" together", async ({ page })
   test.skip((await line.count()) === 0, "the price line shows only on the launch build");
   expect(await line.first().textContent()).toContain("no\u00a0auto-renewal.");
 });
+
+// Option C (founder 11/20/2026: "there are two buy now buttons within 1 scroll of each other"): on the home page the header shows
+// Sign in until the hero's Buy now has scrolled away, then Buy now, and no header Buy now while the prices are on screen.
+for (const width of [360, 390, 1280]) {
+  test(`home page: one Buy now on screen at a time at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 800 });
+    await page.goto("/");
+    test.skip((await page.locator("[data-hero-buy]").count()) === 0, "pre-launch build: no Buy now on the page");
+    const headerBuy = () => page.evaluate(() => [...document.querySelectorAll(".site-header .hdr-buy")].some((e) => (e as HTMLElement).offsetParent !== null && getComputedStyle(e).display !== "none"));
+    const signIn = () => page.evaluate(() => [...document.querySelectorAll(".site-header .signin")].some((e) => (e as HTMLElement).offsetParent !== null && getComputedStyle(e).display !== "none"));
+    expect(await headerBuy(), "no header Buy now at the top").toBe(false);
+    expect(await signIn(), "Sign in shows at the top").toBe(true);
+    // Where the hero's Buy now has scrolled away and the prices are not yet on screen (if this screen size has such a spot).
+    const gap = await page.evaluate(() => {
+      const hero = (document.querySelector("[data-hero-buy]") as HTMLElement).getBoundingClientRect();
+      const prices = (document.querySelector("#pricing") as HTMLElement).getBoundingClientRect();
+      const y = scrollY + hero.bottom + 8;
+      return scrollY + prices.top - 64 > y + innerHeight ? y : null;
+    });
+    if (gap !== null) {
+      await page.evaluate((y) => scrollTo(0, y), gap);
+      await expect.poll(headerBuy, { message: "header Buy now once the hero's has scrolled away" }).toBe(true);
+    }
+    await page.evaluate(() => scrollTo(0, (document.querySelector("#pricing") as HTMLElement).offsetTop));
+    await expect.poll(headerBuy, { message: "no header Buy now while the prices are on screen" }).toBe(false);
+    await page.evaluate(() => scrollTo(0, document.documentElement.scrollHeight));
+    await expect.poll(headerBuy, { message: "header Buy now again below the prices" }).toBe(true);
+  });
+}
