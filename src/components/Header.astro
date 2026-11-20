@@ -46,20 +46,25 @@ const links = [
 
 <script>
   const header = document.getElementById('site-header');
-  // Option C (11/20/2026): on a page with its own main Buy now button (data-hero-buy), the header shows Sign in until that
-  // button has scrolled away, and again while a button marked data-hide-header-buy (a price card's) is on screen.
-  const heroBuy = document.querySelector('[data-hero-buy]');
-  if (header && heroBuy && 'IntersectionObserver' in window) {
-    header.classList.add('await-buy');
-    let past = false;
-    const showing = new Set<Element>();
-    const update = () => header.classList.toggle('await-buy', !past || showing.size > 0);
-    new IntersectionObserver(([e]) => { past = !e.isIntersecting && e.boundingClientRect.top < 0; update(); }).observe(heroBuy);
-    const watch = new IntersectionObserver((list) => {
-      for (const e of list) { if (e.isIntersecting) showing.add(e.target); else showing.delete(e.target); }
-      update();
-    }, { rootMargin: `-${header.offsetHeight}px 0px 0px 0px` }); // a button under the see-through header is not "on screen" (re-check NOTE 2)
-    document.querySelectorAll('[data-hide-header-buy]').forEach((el) => watch.observe(el));
+  // Option C (11/20/2026): the header shows Sign in in place of its Buy now only while one of the page's own Buy buttons
+  // (marked data-hide-header-buy) is on screen, so there is always exactly one Buy now to tap. A page whose first Buy
+  // button is on the first screen (data-hero-buy, the home page) starts that way, so its header never flashes Buy now.
+  // "On screen" means below the header's current height (it changes with the text size and the second row), checked on
+  // every scroll and resize, so a button under the see-through header never counts (re-check NOTE 2).
+  const hiders = [...document.querySelectorAll('[data-hide-header-buy]')];
+  if (header && hiders.length) {
+    if (document.querySelector('[data-hero-buy]')) header.classList.add('await-buy');
+    let queued = false;
+    const update = () => {
+      queued = false;
+      const top = header.getBoundingClientRect().bottom, bottom = window.innerHeight;
+      header.classList.toggle('await-buy', hiders.some((el) => { const r = el.getBoundingClientRect(); return r.height > 0 && r.bottom > top && r.top < bottom; }));
+    };
+    const soon = () => { if (!queued) { queued = true; requestAnimationFrame(update); } };
+    addEventListener('scroll', soon, { passive: true });
+    addEventListener('resize', soon);
+    if ('ResizeObserver' in window) new ResizeObserver(soon).observe(header);
+    update();
   }
   if (header) {
     const btn = header.querySelector('.hamburger');

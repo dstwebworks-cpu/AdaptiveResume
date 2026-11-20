@@ -246,8 +246,11 @@ for (const [width, zoom] of [[320, 1], [360, 1], [390, 1], [390, 1.25], [768, 1]
       await page.evaluate((yy) => scrollTo(0, yy), y);
       await page.waitForTimeout(60);
       const r = await page.evaluate(() => {
-        const onScreen = (e: Element) => { const b = e.getBoundingClientRect(); const cs = getComputedStyle(e); return cs.display !== "none" && cs.visibility !== "hidden" && b.width > 0 && b.height > 0 && b.bottom > 0 && b.top < innerHeight; };
-        const all = [...document.querySelectorAll("a")].filter(onScreen);
+        // Under the see-through sticky header is not on screen; the header's own links count where they show.
+        const hh = (document.querySelector(".site-header") as HTMLElement).getBoundingClientRect().bottom;
+        const onScreen = (e: Element) => { const b = e.getBoundingClientRect(); const cs = getComputedStyle(e); return cs.display !== "none" && cs.visibility !== "hidden" && b.width > 0 && b.height > 0 && b.bottom > hh && b.top < innerHeight; };
+        const inHeader = (e: Element) => !!e.closest(".site-header");
+        const all = [...document.querySelectorAll("a")].filter((a) => (inHeader(a) ? getComputedStyle(a).display !== "none" && (a as HTMLElement).offsetHeight > 0 : onScreen(a)));
         const buyNow = all.filter((a) => a.textContent!.trim() === "Buy now").length;
         const purchase = all.filter((a) => /\/buy(\?|$)/.test(a.href) && a.classList.contains("btn")).length;
         return { buyNow, purchase, y: scrollY };
@@ -302,4 +305,40 @@ for (const path of ["/", "/guides/cna-resume/"]) {
       await ctx.close();
     });
   }
+}
+
+// Buy now on every guide (founder 11/20/2026): a job-seeker guide leads with Buy now in its top box, its box after the
+// article and its closing card; the free check is a text link. Scrolling the whole guide, never two Buy now buttons on
+// screen, and always a purchase button on screen or in the header.
+for (const [width, zoom] of [[360, 1], [390, 1], [390, 1.5], [1440, 1]] as const) {
+  test(`guide page at ${width}px, ${zoom * 100}% text: never two Buy now buttons, always one to tap`, async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width, height: 800 }, isMobile: width < 700, hasTouch: width < 700 });
+    const page = await ctx.newPage();
+    await page.goto("/guides/cna-resume/");
+    test.skip((await page.locator(".site-header .cta-phone").count()) === 0, "pre-launch build: no Buy now on the page");
+    await expect(page.locator("#fd-t1 a.btn")).toHaveText("Buy now");
+    await expect(page.locator("#fd-t2 a.btn")).toHaveText("Buy now");
+    await expect(page.locator("#fd-end a.btn")).toHaveText("Buy now");
+    for (const sel of ["#fd-t1 a.btn", "#fd-t2 a.btn", "#fd-end a.btn"]) expect(await page.locator(sel).getAttribute("href")).toMatch(/\/buy$/);
+    expect(await page.locator("#fd-t1 a[href*='start=check']").getAttribute("class")).toBeNull(); // the free check is a text link
+    if (zoom !== 1) await page.evaluate((z) => { document.documentElement.style.fontSize = `${z * 100}%`; }, zoom);
+    await page.addStyleTag({ content: "html{scroll-behavior:auto !important}" });
+    const total = await page.evaluate(() => document.documentElement.scrollHeight);
+    const bad: string[] = [];
+    for (let y = 0; y < total; y += 150) {
+      await page.evaluate((yy) => scrollTo(0, yy), y);
+      await page.waitForTimeout(50);
+      const r = await page.evaluate(() => {
+        const hh = (document.querySelector(".site-header") as HTMLElement).getBoundingClientRect().height;
+        const onScreen = (e: Element) => { const b = e.getBoundingClientRect(); const cs = getComputedStyle(e); return cs.display !== "none" && cs.visibility !== "hidden" && b.width > 0 && b.height > 0 && b.bottom > hh && b.top < innerHeight; };
+        const inHeader = (e: Element) => !!e.closest(".site-header");
+        const all = [...document.querySelectorAll("a")].filter((a) => (inHeader(a) ? getComputedStyle(a).display !== "none" && (a as HTMLElement).offsetHeight > 0 : onScreen(a)));
+        return { buyNow: all.filter((a) => a.textContent!.trim() === "Buy now").length, purchase: all.filter((a) => /\/buy(\?|$)/.test(a.href) && a.classList.contains("btn")).length };
+      });
+      if (r.buyNow > 1) bad.push(`${y}: ${r.buyNow} Buy now buttons`);
+      if (r.purchase === 0) bad.push(`${y}: no purchase button`);
+    }
+    expect(bad).toEqual([]);
+    await ctx.close();
+  });
 }

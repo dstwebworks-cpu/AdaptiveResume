@@ -27,7 +27,7 @@ const examples = [
         <p class="sub">Upload your resume and we'll find the skills, tools and training your work involved but your resume leaves out. Nothing goes on your resume until you tell us it's right.</p>
         <div class="cta">
           {LAUNCHED
-            ? <a class="btn btn-amber btn-lg buy-now" data-hero-buy href={`${appUrl}/buy`}>Buy now</a>
+            ? <a class="btn btn-amber btn-lg buy-now" data-hero-buy data-hide-header-buy href={`${appUrl}/buy`}>Buy now</a>
             : <a class="btn btn-amber btn-lg" href="#get-started">Join the launch list for 25% off</a>}
           {LAUNCHED && <p class="step-line">The Single Resume Build is $29. The AR Pass is $99 for up to 10 targeted builds in 90 days. There's no subscription and no&nbsp;auto-renewal.</p>}
           {LAUNCHED && <p class="free-link">Not ready to buy? <a href={`${appUrl}/?start=check`}>Check your resume free</a>.</p>}
