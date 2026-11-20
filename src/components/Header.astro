@@ -27,10 +27,10 @@ const links = [
     </nav>
 
     {LAUNCHED && <a class="signin cta-desktop" href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary cta-desktop hdr-buy" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-amber cta-desktop hdr-buy" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
 
     {LAUNCHED && <a class="signin signin-phone" href={appUrl + '/login'}>Sign in</a>}
-    {LAUNCHED && <a class="btn btn-primary cta-phone hdr-buy" href={`${appUrl}/buy`}>Buy now</a>}
+    {LAUNCHED && <a class="btn btn-amber cta-phone hdr-buy" href={`${appUrl}/buy`}>Buy now</a>}
 
     <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
@@ -40,14 +40,14 @@ const links = [
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
     {links.map((l) => <a href={l.href}>{l.label}</a>)}
     {LAUNCHED && <a href={appUrl + '/login'}>Sign in</a>}
-    <a class="btn btn-primary" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
+    <a class="btn btn-amber" href={LAUNCHED ? `${appUrl}/buy` : '/#get-started'}>{LAUNCHED ? 'Buy now' : 'Join the launch list for 25% off'}</a>
   </nav>
 </header>
 
 <script>
   const header = document.getElementById('site-header');
   // Option C (11/20/2026): on a page with its own main Buy now button (data-hero-buy), the header shows Sign in until that
-  // button has scrolled away, and again while any part marked data-hide-header-buy (the prices) is on screen.
+  // button has scrolled away, and again while a button marked data-hide-header-buy (a price card's) is on screen.
   const heroBuy = document.querySelector('[data-hero-buy]');
   if (header && heroBuy && 'IntersectionObserver' in window) {
     header.classList.add('await-buy');
@@ -115,11 +115,13 @@ const links = [
   /* Phone header button: shown only where it fits on the logo's row, decided by the header's own width in root text units (rem, the same unit the
      button uses), so larger text settings switch it off sooner instead of letting it slide over the menu (found at 200% text, 320 px, 10/31/2026).
      The brand name always shows (founder 11/14/2026: "We need our brand to be known"). Option C (founder 11/20/2026): the button never takes a
-     second, full-width row (that made the phone header 113 px tall); where it does not fit, Buy now is in the menu. */
+     second, full-width row where one row fits; founder 11/20/2026 ("Second row only there"): where it does not (a 320 px phone,
+     larger text), Buy now takes a full-width second row, so it is always one tap. */
   .cta-phone { display: none; padding: 8px 10px; font-size: var(--fs-small); white-space: nowrap; min-height: 40px; }
   .signin-phone { display: none; }
   /* Measured 11/20/2026: the name, the button, the menu and two gaps take 310 px; Sign in in the button's place takes 297 px. */
-  @container bar (min-width: 19.375rem) { .cta-phone { display: inline-flex; justify-content: center; } }
+  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; } }
+  @container bar (min-width: 19.375rem) { .cta-phone { order: 0; flex-basis: auto; } }
   @container bar (min-width: 18.75rem) { .site-header.await-buy .signin-phone { display: inline-flex; } }
   .site-header.await-buy .hdr-buy { display: none !important; }
 

@@ -229,3 +229,45 @@ for (const width of [360, 390, 1280]) {
     await expect.poll(headerBuy, { message: "header Buy now again below the prices" }).toBe(true);
   });
 }
+
+// Homepage review FIX 7 (11/20/2026): scroll the whole home page in steps at phone, tablet and desktop widths, at normal and
+// larger text. At every step, at most one "Buy now" is on screen (the founder's complaint was two within one scroll), and a
+// purchase button is always on screen or in the header (FIX 3 and 4: never a stretch with nothing to tap).
+for (const [width, zoom] of [[320, 1], [360, 1], [390, 1], [390, 1.25], [768, 1], [1440, 1]] as const) {
+  test(`home page at ${width}px, ${zoom * 100}% text: never two Buy now buttons, always one to tap`, async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width, height: 800 }, isMobile: width < 700, hasTouch: width < 700 });
+    const page = await ctx.newPage();
+    await page.goto("/");
+    test.skip((await page.locator("[data-hero-buy]").count()) === 0, "pre-launch build: no Buy now on the page");
+    if (zoom !== 1) await page.evaluate((z) => { document.documentElement.style.fontSize = `${z * 100}%`; }, zoom);
+    const total = await page.evaluate(() => document.documentElement.scrollHeight);
+    const bad: string[] = [];
+    for (let y = 0; y < total; y += 120) {
+      await page.evaluate((yy) => scrollTo(0, yy), y);
+      await page.waitForTimeout(60);
+      const r = await page.evaluate(() => {
+        const onScreen = (e: Element) => { const b = e.getBoundingClientRect(); const cs = getComputedStyle(e); return cs.display !== "none" && cs.visibility !== "hidden" && b.width > 0 && b.height > 0 && b.bottom > 0 && b.top < innerHeight; };
+        const all = [...document.querySelectorAll("a")].filter(onScreen);
+        const buyNow = all.filter((a) => a.textContent!.trim() === "Buy now").length;
+        const purchase = all.filter((a) => /\/buy(\?|$)/.test(a.href) && a.classList.contains("btn")).length;
+        return { buyNow, purchase, y: scrollY };
+      });
+      if (r.buyNow > 1) bad.push(`${r.y}: ${r.buyNow} Buy now buttons on screen`);
+      if (r.purchase === 0) bad.push(`${r.y}: no purchase button on screen`);
+    }
+    expect(bad).toEqual([]);
+    await ctx.close();
+  });
+}
+
+// Homepage review FIX 7: at normal text on common phones the header is one slim row (the two-row header was 113 px).
+for (const width of [360, 375, 390, 412, 430]) {
+  test(`phone header is one row at ${width}px, 100% text`, async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width, height: 800 }, isMobile: true, hasTouch: true });
+    const page = await ctx.newPage();
+    await page.goto("/guides/cna-resume/");
+    const h = await page.evaluate(() => (document.querySelector(".site-header") as HTMLElement).getBoundingClientRect().height);
+    expect(h, "one-row phone header height").toBeLessThan(72);
+    await ctx.close();
+  });
+}

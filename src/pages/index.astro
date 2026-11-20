@@ -79,37 +79,37 @@ const examples = [
       <ol class="steps">
         <li><h3>Upload your resume.</h3><p>Add up to three old resumes and your LinkedIn export, and we work only from what you give us.</p></li>
         <li><h3>Answer our questions.</h3><p>We ask about skills and credentials common to work like yours, and you say yes or no to each one.</p></li>
-        <li><h3>Download your resume.</h3><p>You get a clean Word and PDF file that screening software reads, built only from what you confirmed.</p></li>
+        <li><h3>Download your resume.</h3><p>You get clean Word and PDF files that screening software reads, built only from what you confirmed.</p></li>
       </ol>
     </div>
   </section>
 
   <!-- ===== PRICING ===== -->
-  <section id="pricing" class="home-sec soft" data-hide-header-buy>
+  <section id="pricing" class="home-sec soft">
     <div class="container">
       <h2>Pick your build.</h2>
       <div class="prices">
         <div class="price">
           <div class="top"><h3>Single Resume Build</h3></div>
           <p class="amt">$29</p>
-          <p class="gray">One complete resume, built with you. Use it any time within 90 days.</p>
+          <p class="gray">You get one complete resume, built with you. Use it any time within 90 days.</p>
           <ul>
             <li>We go through up to three old resumes and your LinkedIn export with you.</li>
             <li>We find the skills and credentials your work earned but your resume left off.</li>
             <li>We run the format checks screening software cares about and show you each one.</li>
           </ul>
-          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/buy?pick=base' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" data-hide-header-buy href={LAUNCHED ? appUrl + '/buy?pick=base' : '#get-started'}>{LAUNCHED ? 'Get your resume build' : 'Join the launch list for 25% off'}</a>
         </div>
         <div class="price best">
           <div class="top"><h3>AR Pass</h3><span class="tag">Best value</span></div>
           <p class="amt">$99</p>
-          <p class="gray">Up to 10 resumes within 90 days, each aimed at a job you want.</p>
+          <p class="gray">You get up to 10 resumes within 90 days, each aimed at a job you want.</p>
           <ul>
-            <li>Everything the single build does.</li>
+            <li>It includes everything the single build does.</li>
             <li>We put each resume in the language that job posting uses.</li>
             <li>We put together 25 practice interview questions for each role.</li>
           </ul>
-          <a class="btn btn-primary" href={LAUNCHED ? appUrl + '/buy?pick=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
+          <a class="btn btn-primary" data-hide-header-buy href={LAUNCHED ? appUrl + '/buy?pick=targeted' : '#get-started'}>{LAUNCHED ? 'Get the AR Pass' : 'Join the launch list for 25% off'}</a>
         </div>
       </div>
       <p class="gray note">Each purchase is one payment, and nothing renews, so there is nothing to cancel. The details are in our <a href="/terms/">Terms</a>.</p>
@@ -129,10 +129,10 @@ const examples = [
     <div class="container">
       <h2>Find the page made for you.</h2>
       <div class="who">
-        <a href="/career-change/">I'm changing careers</a>
-        <a href="/veterans/">I'm leaving the military</a>
-        <a href="/nurses/">I'm a nurse</a>
-        <a href="/fix/">I paid for a resume that fell short</a>
+        <a href="/career-change/"><span>I'm changing careers</span></a>
+        <a href="/veterans/"><span>I'm leaving the military</span></a>
+        <a href="/nurses/"><span>I'm a nurse</span></a>
+        <a href="/fix/"><span>I paid for a resume that fell short</span></a>
       </div>
       <p class="gray org">Hiring, staffing or placing people? <a href="/business/">See our plans for organizations</a>.</p>
     </div>
@@ -172,6 +172,7 @@ const examples = [
     .proof ul { list-style: none; margin: 0; padding: 0; }
     .proof li { padding: 16px 20px; border-top: 1px solid var(--line); }
     .proof li:first-child { border-top: 0; }
+    .proof .says, .proof .add, .who a span { text-wrap: balance; }
     .proof .says { color: var(--muted); }
     .proof .add { margin-top: 6px; }
     .choice { display: flex; gap: 10px; margin-top: 12px; }
