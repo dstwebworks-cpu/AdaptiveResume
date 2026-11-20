@@ -68,7 +68,7 @@ a { color: var(--primary); text-decoration: none; }
    anywhere. Grid and flex children may shrink below their longest word. */
 main { overflow-wrap: break-word; }
 main a[href^="mailto:"] { overflow-wrap: anywhere; }
-main [class*="grid"] > *, .site-footer .cols > *, main [class*="cta-row"] > *, main .beforeafter > *, main .tm-panel > * { min-width: 0; }
+main [class*="grid"] > *, main [class*="cta-row"] > *, main .beforeafter > *, main .tm-panel > * { min-width: 0; }
 input, select, textarea { max-width: 100%; min-width: 0; }
 /* Headings hyphenate only when the page is very narrow for its text (large text on a phone). */
 /* Only when the page is very narrow for its text (large text on a phone): long words hyphenate, and buttons give their words more

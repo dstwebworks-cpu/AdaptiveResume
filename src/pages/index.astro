@@ -167,16 +167,16 @@ const examples = [
 
     /* the sample card, drawn like the app */
     .proof { background: #fff; color: var(--ink); border-radius: var(--radius); overflow: hidden; }
-    .proof .bar { display: flex; align-items: center; gap: 8px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface); font-weight: 700; }
-    .proof .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--true); flex: none; }
+    .proof .bar { display: flex; align-items: flex-start; gap: 8px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface); font-weight: 700; }
+    .proof .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--true); flex: none; margin-top: calc((1.6em - 10px) / 2); } /* beside the first line (re-check NOTE 12) */
     .proof ul { list-style: none; margin: 0; padding: 0; }
     .proof li { padding: 16px 20px; border-top: 1px solid var(--line); }
     .proof li:first-child { border-top: 0; }
     .proof .says, .proof .add, .who a span { text-wrap: balance; }
     .proof .says { color: var(--muted); }
     .proof .add { margin-top: 6px; }
-    .choice { display: flex; gap: 10px; margin-top: 12px; }
-    .choice span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 9px; font-weight: 700; }
+    .choice { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; } /* at large text on a small phone the chips take their own lines */
+    .choice span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 9px; font-weight: 700; white-space: nowrap; }
     .choice .yes { background: var(--primary); color: #fff; }
     .choice .no { box-shadow: inset 0 0 0 1px var(--line); color: var(--muted); }
     .cap { margin-top: 12px; color: #d5deea; }

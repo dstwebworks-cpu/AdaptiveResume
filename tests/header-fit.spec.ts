@@ -271,3 +271,35 @@ for (const width of [360, 375, 390, 412, 430]) {
     await ctx.close();
   });
 }
+
+// Homepage re-check FIX A and FIX B (11/20/2026): at every width and text size, scrolling the home page or a guide, the header
+// keeps one height (it never grows or shrinks under the reader), and it always offers one tap: Buy now, or Sign in while the
+// page's own Buy now is on screen.
+for (const path of ["/", "/guides/cna-resume/"]) {
+  for (const [width, zoom] of [[320, 1], [360, 1.5], [390, 1.25], [390, 2], [412, 1.5], [430, 2]] as const) {
+    test(`header keeps one height and offers one tap on ${path} at ${width}px, ${zoom * 100}% text`, async ({ browser }) => {
+      const ctx = await browser.newContext({ viewport: { width, height: 800 }, isMobile: true, hasTouch: true });
+      const page = await ctx.newPage();
+      await page.goto(path);
+      test.skip((await page.locator(".site-header .cta-phone").count()) === 0, "pre-launch build: no Buy now in the header");
+      if (zoom !== 1) await page.evaluate((z) => { document.documentElement.style.fontSize = `${z * 100}%`; }, zoom);
+      await page.addStyleTag({ content: "html{scroll-behavior:auto !important}" });
+      const total = await page.evaluate(() => document.documentElement.scrollHeight);
+      const heights = new Set<number>(), noTap: number[] = [];
+      for (let y = 0; y < total; y += 150) {
+        await page.evaluate((yy) => scrollTo(0, yy), y);
+        await page.waitForTimeout(50);
+        const r = await page.evaluate(() => {
+          const h = document.querySelector(".site-header") as HTMLElement;
+          const shown = (sel: string) => [...h.querySelectorAll(sel)].some((e) => getComputedStyle(e).display !== "none" && (e as HTMLElement).offsetHeight > 0);
+          return { h: Math.round(h.getBoundingClientRect().height), tap: shown(".cta-phone") || shown(".signin-phone") };
+        });
+        heights.add(r.h);
+        if (!r.tap) noTap.push(y);
+      }
+      expect([...heights], "header heights seen while scrolling").toHaveLength(1);
+      expect(noTap, "scroll positions with neither Buy now nor Sign in in the header").toEqual([]);
+      await ctx.close();
+    });
+  }
+}

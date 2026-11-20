@@ -58,7 +58,7 @@ const links = [
     const watch = new IntersectionObserver((list) => {
       for (const e of list) { if (e.isIntersecting) showing.add(e.target); else showing.delete(e.target); }
       update();
-    }, { rootMargin: '-64px 0px 0px 0px' });
+    }, { rootMargin: `-${header.offsetHeight}px 0px 0px 0px` }); // a button under the see-through header is not "on screen" (re-check NOTE 2)
     document.querySelectorAll('[data-hide-header-buy]').forEach((el) => watch.observe(el));
   }
   if (header) {
@@ -117,13 +117,17 @@ const links = [
      The brand name always shows (founder 11/14/2026: "We need our brand to be known"). Option C (founder 11/20/2026): the button never takes a
      second, full-width row where one row fits; founder 11/20/2026 ("Second row only there"): where it does not (a 320 px phone,
      larger text), Buy now takes a full-width second row, so it is always one tap. */
-  .cta-phone { display: none; padding: 8px 10px; font-size: var(--fs-small); white-space: nowrap; min-height: 40px; }
-  .signin-phone { display: none; }
-  /* Measured 11/20/2026: the name, the button, the menu and two gaps take 310 px; Sign in in the button's place takes 297 px. */
-  @container bar (min-width: 15.75rem) { .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; } }
+  /* Re-check FIX A (11/20/2026): at every text size, so it is always one tap. Measured: the name, the button, the menu and two
+     gaps take 310 px, so from 19.375rem of bar the button shares the logo's row, and below that it has a full-width row. */
+  .cta-phone { display: inline-flex; justify-content: center; order: 3; flex-basis: 100%; padding: 8px 10px; font-size: var(--fs-small); white-space: nowrap; min-height: 40px; }
   @container bar (min-width: 19.375rem) { .cta-phone { order: 0; flex-basis: auto; } }
-  @container bar (min-width: 18.75rem) { .site-header.await-buy .signin-phone { display: inline-flex; } }
+  /* While the page's own Buy now is on screen, Sign in takes the button's place, in the same row, with the same padding and
+     border, so the sticky header never changes height as the page scrolls (re-check FIX B: a header that grew and shrank
+     moved the page under the reader, and could flicker on Safari, which has no scroll anchoring). */
+  .signin-phone { display: none; }
   .site-header.await-buy .hdr-buy { display: none !important; }
+  .site-header.await-buy .signin-phone { display: inline-flex; align-items: center; justify-content: center; order: 3; flex-basis: 100%; padding: 8px 10px; border: 1.5px solid transparent; min-height: 40px; }
+  @container bar (min-width: 19.375rem) { .site-header.await-buy .signin-phone { order: 0; flex-basis: auto; } }
 
   /* Desktop row from 900 px at normal text, as live. Site review 11/18/2026 (N1): it is decided by the header's own width in rem,
      so with large text the header keeps the menu layout until the whole desktop row fits (it ran 13 to 97 px off screen at 940 to

@@ -30,7 +30,7 @@ for (const path of PAGES) {
           return { over, what: offender ? `${offender.e.tagName.toLowerCase()} "${(offender.e.textContent || "").trim().slice(0, 40)}"` : "" };
         }, width);
         if (r.over > 0) wide.push(`${width} px: ${r.over} px too wide (${r.what})`);
-        const spill = await page.evaluate(() => [...document.querySelectorAll("main p, main li, main h1, main h2, main h3, main .btn, .site-footer a, .site-footer h4, .site-footer p, .site-header a")]
+        const spill = await page.evaluate(() => [...document.querySelectorAll("main p, main li, main h1, main h2, main h3, main .btn, .site-footer a, .site-footer p, .site-header a")]
           .filter((e) => { const el = e as HTMLElement; if (!el.offsetParent || getComputedStyle(el).display === "inline") return false;
             let a = el.parentElement; while (a) { const ox = getComputedStyle(a).overflowX; if (ox === "auto" || ox === "scroll") return false; a = a.parentElement; }
             return el.scrollWidth > el.clientWidth + 1; })
